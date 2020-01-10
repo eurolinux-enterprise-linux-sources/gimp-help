@@ -1,38 +1,163 @@
+#
+# Julien Hardelin <jhardlin@orange.fr>, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-2.6-HELP\n"
-"POT-Creation-Date: 2011-04-01 14:30+0200\n"
-"PO-Revision-Date: 2010-12-26 21:18+0200\n"
-"Last-Translator: Julien Hardelin <jhardlin{AT}wanadoo{POINT}fr>>\n"
-"Language-Team: <none>\n"
+"Project-Id-Version: Manuel utilisateur de GIMP\n"
+"POT-Creation-Date: 2012-12-09 00:26+0000\n"
+"PO-Revision-Date: 2013-03-25 18:21+0100\n"
+"Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
+"Language-Team: français <GNOME French Team <gnomefr@traduc.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/windows.xml:33(None)
+msgid ""
+"@@image: 'images/menus/windows.png'; md5=90afd1dc10b08f39bfd1168413ff78f9"
+msgstr "\" \""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/windows.xml:42(None)
+msgid ""
+"@@image: 'images/menus/windows/expanded-menu.png'; "
+"md5=887ee5483c463a981b1fb7d6f07e5378"
+msgstr "\" \""
 
 #: src/menus/windows.xml:12(title)
-msgid "The <quote>Windows</quote> Menu"
+msgid "<quote>Windows</quote> Menu"
 msgstr "Le menu <quote>Fenêtres</quote>"
 
-#: src/menus/windows.xml:15(primary)
-#: src/menus/windows-introduction.xml:13(primary)
-#: src/menus/view.xml:14(secondary) src/menus/tools.xml:14(primary)
-#: src/menus/select.xml:12(primary) src/menus/introduction.xml:14(primary)
-#: src/menus/filters.xml:15(primary) src/menus/file.xml:18(primary)
-#: src/menus/edit.xml:17(primary) src/menus/colors.xml:21(secondary)
+#: src/menus/windows.xml:15(primary) src/menus/view.xml:14(secondary)
+#: src/menus/tools.xml:14(primary) src/menus/select.xml:12(primary)
+#: src/menus/introduction.xml:14(primary) src/menus/filters.xml:15(primary)
+#: src/menus/file.xml:19(primary) src/menus/edit.xml:17(primary)
+#: src/menus/colors.xml:21(secondary)
 msgid "Menus"
 msgstr "Menus"
 
 #: src/menus/windows.xml:16(secondary)
-#: src/menus/windows-introduction.xml:14(secondary)
 msgid "Windows"
 msgstr "Fenêtres"
+
+#: src/menus/windows.xml:19(para)
+msgid "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs:"
+msgstr "Ce menu permet de gérer les fenêtres de <acronym>GIMP</acronym> :"
+
+#: src/menus/windows.xml:22(para)
+msgid ""
+"The <quote>Windows</quote> menu name is not well adapted to the new single-"
+"window mode. Nevertheless, its functions concern multi and single modes. Its "
+"display may vary according presence or absence of images and docks:"
+msgstr ""
+"Le nom de ce menu <quote>Fenêtres</quote> n'est ps bien adapté au nouveau "
+"mode fenêtre-unique. Néanmoins, ses fonctions concernent aussi bien le mode "
+"multi-fenêtre que le mode fenêtre-unique. Sa présentation dépend de la "
+"présence ou de l'absence d'image et de groupe de fenêtres :"
+
+#: src/menus/windows.xml:30(title)
+msgid "Contents of the <quote>Windows</quote> Menu"
+msgstr "Contenu du menu <quote>Fenêtres</quote>"
+
+#: src/menus/windows.xml:36(para)
+msgid "Without open images"
+msgstr "Sans images ouvertes."
+
+#: src/menus/windows.xml:45(para)
+msgid "With open images"
+msgstr "Avec des images ouvertes"
+
+#: src/menus/windows.xml:52(para)
+msgid ""
+"<command>Recently Closed Docks</command>: this command opens the list of the "
+"docks you have closed recently. You can reopen them by clicking on their "
+"name. Please note that isolated windows are not concerned."
+msgstr ""
+"<command>Groupes de fenêtres récemment ouverts</command> : cette commande "
+"ouvre la liste des groupes de fenêtres que vous avez fermés récemment et que "
+"vous pouvez rouvrir en cliquant dessus. Notez que les fenêtres isolées ne "
+"sont pas prises en compte."
+
+#: src/menus/windows.xml:58(para)
+msgid ""
+"For more information about docks, please see <link linkend=\"gimp-concepts-"
+"docks\">Dialogs and Docking</link>."
+msgstr ""
+"Pour plus d'informations sur les groupes de fenêtres, reportez-vous à <link "
+"linkend=\"gimp-concepts-docks\">Dialogues, Fenêtres et onglets</link>."
+
+#: src/menus/windows.xml:65(para)
+msgid ""
+"<command>Dockable Dialogs</command>: this command opens the list of dockable "
+"dialogs. Please refer to <xref linkend=\"gimp-concepts-docks\"/>."
+msgstr ""
+"<command>Fenêtres ancrables</command> : cette commande ouvre la liste des "
+"fenêtres ancrables : reportez-vous à <xref linkend=\"gimp-concepts-docks\"/>."
+
+#: src/menus/windows.xml:72(para)
+msgid ""
+"<command>Toolbox</command>: clicking on this command or using the "
+"<keycombo><keycap>Ctrl</keycap><keycap>B</keycap></keycombo> shortcut, "
+"raises the toolbox usually together with the tool options dock."
+msgstr ""
+"<command>Boîte à outils</command> : en cliquant sur cette commande ou en "
+"utilisant le raccourci <keycombo><keycap>Ctrl</keycap><keycap>B</keycap></"
+"keycombo>, vous faites passer la Boîte à outils et, habituellement la boîte "
+"Options de l'outil, au premier-plan."
+
+#: src/menus/windows.xml:80(para)
+msgid ""
+"The list of open image windows: clicking on an image name, or using the "
+"<keycombo><keycap>Alt</keycap><keycap>Number of the image</keycap></"
+"keycombo> shortcut, makes the image active."
+msgstr ""
+"La liste des fenêtres d'images ouvertes : en cliquant sur un nom d'image, ou "
+"en utilisant le raccourci <keycombo><keycap>Alt</keycap><keycap>Numéro de "
+"l'image</keycap></keycombo>, vous rendez l'image active."
+
+#: src/menus/windows.xml:88(para)
+msgid ""
+"The list of open docks: in this list, docks are named with the name of the "
+"active dialog in this dock. Clicking on a dock name raises this dock."
+msgstr ""
+"La liste des groupes de fenêtres ouverts : dans cette liste, les groupes de "
+"fenêtres sont nommés par le nom du dialogue actif dans ce groupe de "
+"fenêtres. Le clic sur un nom de groupe fait passer ce groupe au premier plan."
+
+#: src/menus/windows.xml:96(para)
+msgid ""
+"<command>Hide Docks</command> (<keycap>Tab</keycap>): this command hides all "
+"docks (usually to the left and right of the image), leaving the image window "
+"alone. The command status is kept on quitting GIMP; then, GIMP starts with "
+"no dock in multi-window mode, but not in single-window mode, although the "
+"option is checked!"
+msgstr ""
+"<command>Masquer les groupes de fenêtres</command> (<keycap>Tab</keycap>) : "
+"cette commande masque les groupes de fenêtres (habituellement regroupés en "
+"panneaux gauche et droit), en ne laissant que la fenêtre d'image à l'écran. "
+"L'état de la commande est conservé quand on quitte GIMP; dès lors, GIMP "
+"démarre sans groupe de fenêtres en mode multi-fenêtre, mais pas en mode "
+"fenêtre-unique, bien que l'option soit cochée !"
+
+#: src/menus/windows.xml:106(para)
+msgid ""
+"<command>Single Window Mode</command>: when enabled, GIMP is in a single "
+"window mode. Please see <xref linkend=\"single-window-mode\"/>."
+msgstr ""
+"<command>Mode fenêtre unique</command> : quand il est activé, Gimp est en "
+"mode fenêtre-unique. Reportez-vous à <xref linkend=\"single-window-mode\"/>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/windows-show-docks.xml:21(None)
 msgid ""
-"@@image: 'images/menus/windows/dockable-dialogs.png'; "
-"md5=6f795d821ab2dc388b7aed62a94a6ad5"
+"@@image: 'images/menus/windows/dockable-dialogs.png'; md5=THIS FILE DOESN'T "
+"EXIST"
 msgstr " "
 
 #: src/menus/windows-show-docks.xml:9(title)
@@ -112,75 +237,6 @@ msgstr ""
 "<menuchoice><guimenu>Fenêtres</guimenu><guimenuitem>Groupes de fenêtres "
 "récemment fermés</guimenuitem></menuchoice>"
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/windows-introduction.xml:22(None)
-msgid ""
-"@@image: 'images/menus/windows.png'; md5=13c6b14871d3818165be232dda179015"
-msgstr " "
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/windows-introduction.xml:31(None)
-msgid ""
-"@@image: 'images/menus/windows/expanded-menu.png'; "
-"md5=368b926c465b0abf28df35f2cdaaf128"
-msgstr " "
-
-#: src/menus/windows-introduction.xml:10(title)
-msgid "<quote>Windows</quote> Menu Entries"
-msgstr "Entrées du menu <quote>Fenêtres</quote>"
-
-#: src/menus/windows-introduction.xml:15(tertiary)
-#: src/menus/introduction.xml:15(secondary)
-msgid "Introduction"
-msgstr "Introduction"
-
-#: src/menus/windows-introduction.xml:19(title)
-msgid "Contents of the <quote>Windows</quote> Menu"
-msgstr "Contenu du menu <quote>Fenêtres</quote>"
-
-#: src/menus/windows-introduction.xml:25(para)
-msgid "Without open images"
-msgstr "Sans images ouvertes."
-
-#: src/menus/windows-introduction.xml:34(para)
-msgid "With open images"
-msgstr "Avec des images ouvertes"
-
-#: src/menus/windows-introduction.xml:39(para)
-msgid ""
-"This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. With "
-"an open image, it is made up of three parts:"
-msgstr ""
-"Ce menu permet de gérer les fenêtres de <acronym>GIMP</acronym>. Avec une ou "
-"des images ouvertes, il se compose de trois parties :"
-
-#: src/menus/windows-introduction.xml:46(para)
-msgid "The list of Recently Closed Docks:"
-msgstr ""
-"La liste des Fenêtres ancrables récemment fermées et la liste des fenêtres "
-"disponibles :"
-
-#: src/menus/windows-introduction.xml:47(para)
-msgid ""
-"For more information about docks, please see <link linkend=\"gimp-concepts-"
-"docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-dialogs-"
-"introduction\">Different dialogs description</link>."
-msgstr ""
-"Pour plus d'information sur la gestion des fenêtres de dialogue ancrables "
-"voir <link linkend=\"gimp-concepts-docks\">Dialogues, Fenêtres et onglets</"
-"link>, et la <link linkend=\"gimp-dialogs-introduction\">Description des "
-"différentes fenêtres de dialogue</link>."
-
-#: src/menus/windows-introduction.xml:56(para)
-msgid "The list of open image windows."
-msgstr "La liste des fenêtres d'image ouvertes."
-
-#: src/menus/windows-introduction.xml:60(para)
-msgid "The list of open dockable dialogs."
-msgstr "La liste des fenêtres ancrables ouvertes."
-
 #: src/menus/view.xml:10(title)
 msgid "The <quote>View</quote> Menu"
 msgstr "Le menu <quote>Affichage</quote>"
@@ -251,13 +307,21 @@ msgid ""
 msgstr ""
 "Cette section explique les commandes du menu <guimenu>Sélection</guimenu>."
 
-#: src/menus/layer.xml:12(title)
+#: src/menus/layer.xml:11(title)
 msgid "The <quote>Layer</quote> Menu"
 msgstr "Le menu <quote>Calque</quote>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/introduction.xml:104(None)
+#: src/menus/introduction.xml:35(None)
+msgid ""
+"@@image: 'images/menus/image-menu-bar.png'; "
+"md5=f84c7413cb4abf0a6111d4c8ae5ab0cb"
+msgstr "\" \""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/introduction.xml:119(None)
 msgid ""
 "@@image: 'images/menus/local-windows-submenu.png'; "
 "md5=57af8745917ae54f989082e320678880"
@@ -265,7 +329,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/introduction.xml:109(None)
+#: src/menus/introduction.xml:124(None)
 msgid ""
 "@@image: 'images/menus/detached-submenu.png'; "
 "md5=8746ad151b99ae854ff6248044c735c2"
@@ -273,7 +337,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/introduction.xml:145(None)
+#: src/menus/introduction.xml:165(None)
 msgid ""
 "@@image: 'images/menus/tab-menu-button.png'; "
 "md5=a667dbce5e1dabe9abee73ea41859d31"
@@ -281,7 +345,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/introduction.xml:153(None)
+#: src/menus/introduction.xml:173(None)
 msgid ""
 "@@image: 'images/menus/tab-menu.png'; md5=e3a7977b2570a5f5a3a776e89e884d02"
 msgstr " "
@@ -290,8 +354,12 @@ msgstr " "
 msgid "Introduction to Menus"
 msgstr "Introduction aux menus"
 
-#. TODO: add image menubar screenshot(?)
-#: src/menus/introduction.xml:20(para)
+#: src/menus/introduction.xml:15(secondary)
+msgid "Introduction"
+msgstr "Introduction"
+
+#. Done
+#: src/menus/introduction.xml:21(para)
 msgid ""
 "There are many places in <acronym>GIMP</acronym> where you can find menus. "
 "The aim of this chapter is to explain all the commands that are accessible "
@@ -305,15 +373,27 @@ msgstr ""
 "par un clic droit sur le canevas. Les autres menus et entrées de menus sont "
 "décrites dans le chapitre décrivant chaque fenêtre de dialogue."
 
-#: src/menus/introduction.xml:30(title)
+#: src/menus/introduction.xml:31(title)
+msgid "The Image Menu Bar"
+msgstr "La barre de menus de l'image"
+
+#: src/menus/introduction.xml:38(para)
+msgid ""
+"This menu bar may contain other entries if you have added script-fus, python-"
+"fus or videos to your GIMP."
+msgstr ""
+"Cette barre de menu peut contenir d'autres entrées si vous avez ajouté des "
+"script-fus, python-fus ou des vidéos à GIMP."
+
+#: src/menus/introduction.xml:45(title)
 msgid "Context Menus"
 msgstr "Menus contextuels"
 
-#: src/menus/introduction.xml:33(primary)
+#: src/menus/introduction.xml:48(primary)
 msgid "Context menus"
 msgstr "Menus contextuels"
 
-#: src/menus/introduction.xml:36(para)
+#: src/menus/introduction.xml:51(para)
 msgid ""
 "If you right-click on certain parts of the <acronym>GIMP</acronym> "
 "interface, a <quote>context menu</quote> opens, which leads to a variety of "
@@ -323,7 +403,7 @@ msgstr ""
 "<quote>menu contextuel</quote>, encore appelé <quote>menu local</quote>, "
 "donnant accès à diverses fonctions :"
 
-#: src/menus/introduction.xml:44(para)
+#: src/menus/introduction.xml:59(para)
 msgid ""
 "Clicking on an image window displays the Image menu. This is useful when you "
 "are working in full-screen mode, without a menubar."
@@ -331,7 +411,7 @@ msgstr ""
 "Sur les fenêtres d'image : l'ensemble des entrées du menu d'image. Ce qui "
 "peut être utile si vous travaillez en mode plein écran, sans barre de menus."
 
-#: src/menus/introduction.xml:50(para)
+#: src/menus/introduction.xml:65(para)
 msgid ""
 "Clicking on a layer in the Layers Dialog or on a channel in the Channels "
 "Dialog displays functions for the selected layer or channel."
@@ -339,13 +419,13 @@ msgstr ""
 "Sur un des bandeaux du Dialogue des calques et du Dialogue des canaux : les "
 "fonctions de gestion des calques et des canaux."
 
-#: src/menus/introduction.xml:57(para)
+#: src/menus/introduction.xml:72(para)
 msgid ""
 "Right-clicking on the image menubar has the same effect as left-clicking."
 msgstr ""
 "Sur la barre de menus : le clic droit a la même action que le clic gauche."
 
-#: src/menus/introduction.xml:63(para)
+#: src/menus/introduction.xml:78(para)
 msgid ""
 "Right-clicking on the title bar displays functions which do not belong to "
 "<acronym>GIMP</acronym>, but to the window manager program on your computer."
@@ -353,15 +433,15 @@ msgstr ""
 "Sur la barre de titre : les fonctions développées n'appartiennent pas à GIMP "
 "mais au programme de gestion d'interface de votre système."
 
-#: src/menus/introduction.xml:73(title) src/menus/introduction.xml:76(primary)
+#: src/menus/introduction.xml:88(title) src/menus/introduction.xml:91(primary)
 msgid "Tear-off menus"
 msgstr "Menus détachables"
 
-#: src/menus/introduction.xml:79(primary)
+#: src/menus/introduction.xml:94(primary)
 msgid "Tear-off line"
 msgstr "Ligne de détachement"
 
-#: src/menus/introduction.xml:82(para)
+#: src/menus/introduction.xml:97(para)
 msgid ""
 "There is an interesting property associated with some of the menus in "
 "<acronym>GIMP</acronym>. These are any of the menus from the Image context "
@@ -378,11 +458,11 @@ msgstr ""
 "sur cette ligne, le sous-menu se transforme en fenêtre séparée que vous "
 "pouvez déplacer et garder à votre disposition."
 
-#: src/menus/introduction.xml:98(title)
+#: src/menus/introduction.xml:113(title)
 msgid "The <quote>windows</quote> submenu and its tear-off submenu"
 msgstr "Le sous-menu <quote>Fenêtres</quote> et son sous-menu détaché"
 
-#: src/menus/introduction.xml:114(para)
+#: src/menus/introduction.xml:129(para)
 msgid ""
 "Tear-off menus are actually independent. They are always visible, their "
 "functions always apply to the current image, and they persist when all of "
@@ -397,12 +477,21 @@ msgstr ""
 "en cliquant à nouveau sur la ligne de détachement ou en cliquant sur l'icône "
 "de fermeture de sa fenêtre."
 
-#: src/menus/introduction.xml:125(title)
-#: src/menus/introduction.xml:128(primary)
+#: src/menus/introduction.xml:137(para)
+msgid ""
+"These tear-off submenus are also created in single-window mode, but are of "
+"less interest since they are masked by the window as soon as you click on it."
+msgstr ""
+"Ces sous-menus détachés sont également créés en mode fenêtre-unique, mais "
+"sont de moindre intérêt puisqu'ils sont masqués par la fenêtre dès que vous "
+"cliquez dessus."
+
+#: src/menus/introduction.xml:145(title)
+#: src/menus/introduction.xml:148(primary)
 msgid "Tab menus"
 msgstr "Menus d'onglet"
 
-#: src/menus/introduction.xml:131(para)
+#: src/menus/introduction.xml:151(para)
 msgid ""
 "The following type of menus is not related to the image menu bar, but for "
 "the sake of completeness:"
@@ -410,7 +499,7 @@ msgstr ""
 "Le type de menu suivant n'est pas en rapport avec la barre de menus de "
 "l'image, mais figure ici pour être complet : "
 
-#: src/menus/introduction.xml:135(para)
+#: src/menus/introduction.xml:155(para)
 msgid ""
 "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog contains "
 "a Tab Menu button, as highlighted below. Pressing this Tab Menu button opens "
@@ -422,19 +511,19 @@ msgstr ""
 "cliquant sur ce bouton, on ouvre un menu consacré aux opérations sur les "
 "onglets."
 
-#: src/menus/introduction.xml:142(title)
+#: src/menus/introduction.xml:162(title)
 msgid "A dockable dialog."
 msgstr "Une fenêtre ancrable"
 
-#: src/menus/introduction.xml:148(para)
+#: src/menus/introduction.xml:168(para)
 msgid "A dialog window with the Tab menu button highlighted."
 msgstr "Une fenêtre avec le bouton de menu d'onglet mis en évidence."
 
-#: src/menus/introduction.xml:156(para)
+#: src/menus/introduction.xml:176(para)
 msgid "The Tab menu."
 msgstr "Le menu d'onglet"
 
-#: src/menus/introduction.xml:160(para)
+#: src/menus/introduction.xml:180(para)
 msgid ""
 "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
 msgstr ""
@@ -460,7 +549,7 @@ msgid "Introduction to the <quote>Help</quote> Menu"
 msgstr "Introduction au menu <quote>Aide</quote>"
 
 #: src/menus/help.xml:16(primary) src/menus/help.xml:21(secondary)
-#: src/menus/file.xml:25(primary)
+#: src/menus/file.xml:26(primary)
 msgid "Menu"
 msgstr "Menu"
 
@@ -490,27 +579,27 @@ msgstr "Filtres"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/file.xml:32(None)
-msgid "@@image: 'images/menus/file.png'; md5=e9fd63664d75f2ae791a6f11c10d272c"
-msgstr " "
+#: src/menus/file.xml:33(None)
+msgid "@@image: 'images/menus/file.png'; md5=23ec4be7cbd021cf444a565cad07dc68"
+msgstr "\" \""
 
-#: src/menus/file.xml:15(title)
+#: src/menus/file.xml:16(title)
 msgid "The <quote>File</quote> Menu"
 msgstr "Le menu <quote>Fichier</quote>"
 
-#: src/menus/file.xml:19(secondary)
+#: src/menus/file.xml:20(secondary)
 msgid "File menu"
 msgstr "Menu Fichier"
 
-#: src/menus/file.xml:23(title)
+#: src/menus/file.xml:24(title)
 msgid "Overview"
 msgstr "Généralités"
 
-#: src/menus/file.xml:26(secondary)
+#: src/menus/file.xml:27(secondary)
 msgid "File"
 msgstr "Filtres"
 
-#: src/menus/file.xml:29(title)
+#: src/menus/file.xml:30(title)
 msgid "The File menu"
 msgstr "Le menu Fichier"
 
@@ -541,4 +630,28 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/about-plugin-menuitems.xml:0(None)
 msgid "translator-credits"
-msgstr "Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2010"
+msgstr "Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2010, 2012"
+
+#~ msgid "The list of Recently Closed Docks:"
+#~ msgstr ""
+#~ "La liste des Fenêtres ancrables récemment fermées et la liste des "
+#~ "fenêtres disponibles :"
+
+#~ msgid "<quote>Windows</quote> Menu Entries"
+#~ msgstr "Entrées du menu <quote>Fenêtres</quote>"
+
+#~ msgid ""
+#~ "For more information about docks, please see <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-"
+#~ "dialogs-introduction\">Different dialogs description</link>."
+#~ msgstr ""
+#~ "Pour plus d'information sur la gestion des fenêtres de dialogue ancrables "
+#~ "voir <link linkend=\"gimp-concepts-docks\">Dialogues, Fenêtres et "
+#~ "onglets</link>, et la <link linkend=\"gimp-dialogs-introduction"
+#~ "\">Description des différentes fenêtres de dialogue</link>."
+
+#~ msgid "The list of open image windows."
+#~ msgstr "La liste des fenêtres d'image ouvertes."
+
+#~ msgid "The list of open dockable dialogs."
+#~ msgstr "La liste des fenêtres ancrables ouvertes."

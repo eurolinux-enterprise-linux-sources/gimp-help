@@ -2,11 +2,50 @@ This file is generated from authors.xml, do not edit it directly.
 
 Active Contributors
 ===================
-Axel Wernicke (German, English)
-Róman Joost (German, English)
-Ulf-D. Ehlert (German)
-Marco Ciampa (Italian)
+Alex Muñoz (Spanish)
+Alexandre Franke (French)
+Alexandre Prokoudine (Russian)
+Angelo Córdoba Inunza (Spanish)
+Christian Kirbach (German)
+Daniel Francis (Spanish)
+Daniel Mustieles (Spanish)
+Daniel Winzen (German)
+Delin Chang (Chinese)
+Dimitris Spingos (Greek)
+Djavan Fagundes (Brasilian)
+Enrico Nicoletto (Brasilian)
+Felipe Ribeiro (Brasilian)
+Guiu Rocafort (Spanish)
+Jiro Matsuzawa (Japanese)
+Joe Hansen (Danish)
+João S. O. Bueno (Brasilian)
 Julien Hardelin (French, English)
+Kenneth Nielsen (Danish)
+Kolbjørn Stuestøl (Norwegian)
+Marco Ciampa (Italian)
+María Majadas (Spanish)
+Milagros Infante Montero (Spanish)
+Milo Casagrande (Italian)
+Piotr Drąg (Polish)
+Rafael Ferreira (Brasilian)
+Róman Joost (German, English)
+Seong-ho Cho (Korean)
+SimaMoto,RyōTa (島本良太) (Japanese)
+Sven Claussner (German, English)
+Timo Jyrinki (Finnish)
+Ulf-D. Ehlert (German)
+Vitaly Lomov (Russian)
+Willer Gomes Junior (Brasilian)
+Yuri Myasoedov (Russian)
+
+
+Contributors in the past
+========================
+
+Writers
+-------
+Stéphane Poumaer (French)
+Axel Wernicke (German, English)
 Alessandro Falappa (Italian)
 Manuel Quiñones (Spanish)
 Ignacio AntI (Spanish)
@@ -15,16 +54,7 @@ Nickolay V. Shmyrev (Russian)
 Albin Bernharsson (Swedish)
 Daniel Nylander (Swedish)
 Patrycja Stawiarska (Polish)
-Kolbjørn Stuestøl (Norwegian)
 Andrew Pitonyak (English)
-SimaMoto,RyōTa (島本良太) (Japanese)
-
-
-Contributors in the past
-========================
-
-Writers
--------
 Jakub Friedl (Czech, English)
 Hans De Jonge (Dutch)
 Raymon Van Wanrooij (Dutch)
@@ -62,7 +92,6 @@ David 'Ilicz' Klementa (Czech)
 Jan Smith (English)
 Adolf Gerold (German)
 Roxana Chernogolova (Russian)
-Alexandre Prokoudine (Russian)
 Grigory Bakunov (Russian)
 Oleg Fritz (Russian)
 Mick Curtis (English)
@@ -72,6 +101,7 @@ Oliver Heesakke (Dutch)
 Susanne Schmidt (English, German)
 Ben (German)
 Daniel Hornung (English)
+Sven Claussner (English, German)
 
 Graphics, Stylesheets
 ---------------------
@@ -80,6 +110,8 @@ Jakub Steiner
 
 Buildsystem, Technical Contributions
 ------------------------------------
+Axel Wernicke
+Nickolay V. Shmyrev
 Daniel Egger
 Sven Neumann
 Michael Natterer (mitch)

@@ -1,48 +1,46 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP DOCS\n"
-"POT-Creation-Date: 2012-06-01 18:50+1000\n"
-"PO-Revision-Date: 2009-12-17 18:15+0900\n"
+"POT-Creation-Date: 2013-07-22 09:52+0900\n"
+"PO-Revision-Date: 2013-08-18 21:21+0900\n"
 "Last-Translator: Jihui Choi <jihui.choi@gmail.com>\n"
 "Language-Team: Korean <jihui.choi@gmail.com>\n"
-"Language: ko\n"
+"Language: Korean\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Korean\n"
-"X-Poedit-Country: KOREA, REPUBLIC OF\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/web.xml:51(None) src/using/web.xml:190(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/preparing_for_web1.png'; "
 "md5=11d5c27af559069d9b21880736e85160"
 msgstr ""
-"@@image: 'images/using/preparing_for_web1.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/preparing_for_web1.png'; "
+"md5=11d5c27af559069d9b21880736e85160"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/web.xml:123(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/preparing_for_web2.png'; "
 "md5=bdb201b090a081a6d325c249a5086d29"
 msgstr ""
-"@@image: 'images/using/preparing_for_web2.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/preparing_for_web2.png'; "
+"md5=bdb201b090a081a6d325c249a5086d29"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/web.xml:233(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/preparing_for_web-alphatransparency.png'; "
 "md5=78b0d6bf6995eeaec2b2d0e41878dd05"
 msgstr ""
-"@@image: 'images/using/preparing_for_web-alphatransparency.png'; md5=THIS "
-"FILE DOESN'T EXIST"
+"@@image: 'images/using/preparing_for_web-alphatransparency.png'; "
+"md5=78b0d6bf6995eeaec2b2d0e41878dd05"
 
 #: src/using/web.xml:14(title)
 msgid "Preparing your Images for the Web"
@@ -316,50 +314,52 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:42(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/stretch-shrink-cursor.png'; "
-"md5=b70a76fbfbd80f1063e6a0e86ba559d1"
+"md5=edadb8b7d447b4f283c904702df0f125"
 msgstr ""
-"@@image: 'images/using/stretch-shrink-cursor.png'; md5=THIS FILE DOESN'T "
-"EXIST"
+"@@image: 'images/using/stretch-shrink-cursor.png'; "
+"md5=edadb8b7d447b4f283c904702df0f125"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:207(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/select-to-brush.png'; "
 "md5=ee2f4dd55ec8221baacb5184f952efdc"
 msgstr ""
-"@@image: 'images/using/select-to-brush.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/select-to-brush.png'; "
+"md5=ee2f4dd55ec8221baacb5184f952efdc"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:250(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/create-brush1.png'; "
 "md5=04bdf0569fe27c94aac81cedd2fe7a1c"
-msgstr "@@image: 'images/using/create-brush1.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/create-brush1.png'; "
+"md5=04bdf0569fe27c94aac81cedd2fe7a1c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:259(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/create-brush2.png'; "
 "md5=937190f69002ba6542c178388fdd171a"
-msgstr "@@image: 'images/using/create-brush2.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/create-brush2.png'; "
+"md5=937190f69002ba6542c178388fdd171a"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:268(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/create-brush3.png'; "
 "md5=aac61f023cbd31e279920995eadbbbdf"
-msgstr "@@image: 'images/using/create-brush3.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/create-brush3.png'; "
+"md5=aac61f023cbd31e279920995eadbbbdf"
 
 #: src/using/variable-size-brush.xml:15(title)
 #: src/using/variable-size-brush.xml:18(secondary)
@@ -390,7 +390,7 @@ msgid ""
 "Pencil, Paintbrush, Eraser, Airbrush, Clone, Heal, Perspective Clone, Blur/"
 "Sharpen and Dodge/Burn tools have a slider to vary brush size."
 msgstr ""
-"붓을 사용하는 도구에는 붓의 크기를 조절할 수 있는 < guilabel>배율</guilabel> "
+"붓을 사용하는 도구에는 붓의 크기를 조절할 수 있는 <guilabel>배율</guilabel> "
 "조절 막대가 있습니다. 연필, 칠하기붓, 지우개, 에어브러시, 도장, 복원, 원근 복"
 "제, 흐릿하게/날카롭게, 닷지/번 도구 등의 도구 옵션에는 이러한 조절 막대가 있"
 "습니다."
@@ -605,9 +605,10 @@ msgid ""
 msgstr "이미지를 확대해서 검정색 연필로 그림을 그립니다."
 
 #: src/using/variable-size-brush.xml:230(para)
+#, fuzzy
 msgid ""
 "Save it with a <guilabel>.gbr</guilabel> extension in the directory "
-"<guilabel>/home/name_of_user/.gimp-2.6/brushes/</guilabel>."
+"<guilabel>/home/name_of_user/.gimp-2.8/brushes/</guilabel>."
 msgstr ""
 "그림을 완성한 뒤 <guilabel>.gbr</guilabel> 파일 형식으로 <guilabel>/home/"
 "name_of_user/.gimp-2.6/brushes/</guilabel> 디렉토리에 저장을 합니다."
@@ -651,6 +652,8 @@ msgid ""
 "@@image: 'images/using/text-toolbar.png'; "
 "md5=833ae1a50dd02ad22fc20a9cb0c6c22d"
 msgstr ""
+"@@image: 'images/using/text-toolbar.png'; "
+"md5=833ae1a50dd02ad22fc20a9cb0c6c22d"
 
 #: src/using/text-tool-box.xml:10(title) src/using/text-tool-box.xml:18(title)
 msgid "Text Tool Box"
@@ -712,54 +715,58 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:56(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/straightline1.png'; "
 "md5=f55de3d8bd9271198a5c97d8f5667bca"
-msgstr "@@image: 'images/using/straightline1.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/straightline1.png'; "
+"md5=f55de3d8bd9271198a5c97d8f5667bca"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:80(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/straightline2.png'; "
 "md5=d16513799d6cfe0a53eb1d361bdc51de"
-msgstr "@@image: 'images/using/straightline2.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/straightline2.png'; "
+"md5=d16513799d6cfe0a53eb1d361bdc51de"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:103(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/straightline3.png'; "
 "md5=74cdc5107704abdf95edce13e83fb0af"
-msgstr "@@image: 'images/using/straightline3.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/straightline3.png'; "
+"md5=74cdc5107704abdf95edce13e83fb0af"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:125(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/straightline4.png'; "
 "md5=b1ebe0b7121ad37ea477f27b88cfcf1b"
-msgstr "@@image: 'images/using/straightline4.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/straightline4.png'; "
+"md5=b1ebe0b7121ad37ea477f27b88cfcf1b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:175(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/basicshape1.png'; md5=eb353efb94c6a9af6f4deb48e541fa47"
-msgstr "@@image: 'images/using/basicshape1.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/basicshape1.png'; md5=eb353efb94c6a9af6f4deb48e541fa47"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:206(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/basicshape2.png'; md5=4d938c41bc323718adedc209f5c6649c"
-msgstr "@@image: 'images/using/basicshape2.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/basicshape2.png'; md5=4d938c41bc323718adedc209f5c6649c"
 
 #: src/using/simpleobjects.xml:13(title)
 msgid "Drawing Simple Objects"
@@ -1114,11 +1121,11 @@ msgstr ""
 #, fuzzy
 msgid ""
 "Custom Keyboard shortcuts are stored in one of Gimp's hidden directory "
-"(<filename class=\"directory\">/home/[username]/.gimp-2.6/menurc</filename>) "
+"(<filename class=\"directory\">/home/[username]/.gimp-2.8/menurc</filename>) "
 "under Linux, and <filename class=\"directory\" role=\"html\">C:"
-"\\Documents and Settings\\[Username]\\.gimp-2.6\\menurc</filename><filename "
+"\\Documents and Settings\\[Username]\\.gimp-2.8\\menurc</filename><filename "
 "class=\"directory\" role=\"tex\">C:\\\\Documents and Settings\\\\[Username]\\"
-"\\.gimp-2.6\\\\menurc</filename> under Windows XP. It is a simple text file "
+"\\.gimp-2.8\\\\menurc</filename> under Windows XP. It is a simple text file "
 "that you can transport from one computer to another."
 msgstr ""
 "사용자 키보드 단축키들은 김프의 숨김 디렉토리에 저장됩니다(리눅스 : "
@@ -1416,38 +1423,42 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/selections.xml:57(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/select-move-1.png'; "
 "md5=59f92c5d042d8a9a664edc3d2f15f974"
-msgstr "@@image: 'images/using/select-move-1.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/select-move-1.png'; "
+"md5=59f92c5d042d8a9a664edc3d2f15f974"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/selections.xml:97(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/select-move-2.png'; "
 "md5=8128e7f4c88a2b28c75c85cffff221ba"
-msgstr "@@image: 'images/using/select-move-2.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/select-move-2.png'; "
+"md5=8128e7f4c88a2b28c75c85cffff221ba"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/selections.xml:117(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/select-move-3.png'; "
 "md5=8e2856e4acb1cdf711f696040a45b008"
-msgstr "@@image: 'images/using/select-move-3.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/select-move-3.png'; "
+"md5=8e2856e4acb1cdf711f696040a45b008"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/selections.xml:206(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/rect+lasso-ex.png'; "
 "md5=10d41167eeb361f36cac967e39a9d443"
-msgstr "@@image: 'images/using/rect+lasso-ex.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/rect+lasso-ex.png'; "
+"md5=10d41167eeb361f36cac967e39a9d443"
 
 #: src/using/selections.xml:18(title)
 msgid "Creating and Using Selections"
@@ -1687,32 +1698,32 @@ msgstr "선택에서 미세하게 틀린 부분을 수정하려면 퀵마스크�
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/script-fu-tutorial.xml:136(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/script-fu-console.png'; "
 "md5=329cadfd55a68e60cb6936529869a85e"
 msgstr ""
-"@@image: 'images/using/script-fu-console.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/script-fu-console.png'; "
+"md5=329cadfd55a68e60cb6936529869a85e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/script-fu-tutorial.xml:882(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/script-fu-menu.png'; "
 "md5=29cddb5794c7d4fb988e6fa9b0141f52"
 msgstr ""
-"@@image: 'images/using/script-fu-menu.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/script-fu-menu.png'; "
+"md5=29cddb5794c7d4fb988e6fa9b0141f52"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/script-fu-tutorial.xml:1535(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/script-fu-screen.png'; "
 "md5=67ea87d7bba780963438781008e4ec49"
 msgstr ""
-"@@image: 'images/using/script-fu-screen.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/script-fu-screen.png'; "
+"md5=67ea87d7bba780963438781008e4ec49"
 
 #: src/using/script-fu-tutorial.xml:11(title)
 msgid "A Script-Fu Tutorial"
@@ -2323,7 +2334,7 @@ msgid "Lists can contain atomic values, as well as other lists:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:446(programlisting)
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "\n"
 "(let*\n"
@@ -2335,7 +2346,7 @@ msgid ""
 "    x\n"
 ")\n"
 "      "
-msgstr "김프 사용자 설명서가 없습니다."
+msgstr ""
 
 #: src/using/script-fu-tutorial.xml:456(para)
 msgid ""
@@ -2426,7 +2437,7 @@ msgid ""
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:512(programlisting)
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "\n"
 "        (let*  (\n"
@@ -2438,7 +2449,7 @@ msgid ""
 "               (list 5 4 3 a b c)\n"
 "        )\n"
 "      "
-msgstr "언어 목록"
+msgstr ""
 
 #: src/using/script-fu-tutorial.xml:522(para)
 #, fuzzy
@@ -2649,11 +2660,11 @@ msgstr ""
 
 #: src/using/script-fu-tutorial.xml:658(para)
 msgid ""
-"In the <filename class=\"directory\">.gimp-2.6</filename> directory that "
+"In the <filename class=\"directory\">.gimp-2.8</filename> directory that "
 "<acronym>GIMP</acronym> made off of your home directory, you should find a "
 "directory called <filename class=\"directory\">scripts</filename>. "
 "<acronym>GIMP</acronym> will automatically look in your <filename class="
-"\"directory\">.gimp-2.6</filename> directory for a <filename class="
+"\"directory\">.gimp-2.8</filename> directory for a <filename class="
 "\"directory\">scripts</filename> directory, and add the scripts in this "
 "directory to the Script-Fu database. You should place your personal scripts "
 "here."
@@ -3269,12 +3280,12 @@ msgid "With the image ready to go, we can now re-add our display line:"
 msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1204(programlisting)
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "\n"
 "        (gimp-display-new theImage)\n"
 "      "
-msgstr "새 인스턴스로 김프를 시작합니다."
+msgstr ""
 
 #: src/using/script-fu-tutorial.xml:1207(para)
 msgid "Save your work, refresh the database and give your first script a run!"
@@ -4018,7 +4029,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/photography.xml:806(None)
+#: src/using/photography.xml:807(None)
 #, fuzzy
 msgid ""
 "@@image: 'images/dialogs/stock-vchain-24.png'; "
@@ -4981,16 +4992,18 @@ msgstr ""
 "보를 저장할 수 있기 때문입니다."
 
 #: src/using/photography.xml:690(para)
+#, fuzzy
 msgid ""
 "If you intend to print the image on paper, you should avoid shrinking the "
 "image, except by cropping it. The reason is that printers are capable of "
-"achieving much higher dot resolutions than video monitors---600 to 1400 dots "
-"per inch for typical printers, as compared to 72 to 100 dots per inch for "
-"monitors. A 3000 x 5000 image looks huge on a monitor, but it only comes to "
-"about 5 inches by 8 inches on paper at 600 dpi. There is usually no good "
-"reason to <emphasis>expand</emphasis> the image either: you can't increase "
-"the true resolution that way, and it can always be scaled up at the time it "
-"is printed. As for the file format, it will usually be fine to use JPEG at a "
+"achieving much higher resolutions than video monitors &mdash; 600 to 1400 "
+"dpi (<quote>dots per inch</quote>, the physical density) for typical "
+"printers, as compared to 72 to 100 pixels per inch for monitors. A 3000&nbsp;"
+"x&nbsp;5000-pixel image looks huge on a monitor, but it only comes to about "
+"5 inches by 8 inches on paper at 600 ppi. There is usually no good reason to "
+"<emphasis>expand</emphasis> the image either: you can't increase the true "
+"resolution that way, and it can always be scaled up at the time it is "
+"printed. As for the file format, it will usually be fine to use JPEG at a "
 "quality level of 75 to 85. In rare cases, where there are large swaths of "
 "nearly uniform color, you may need to set the quality level even higher or "
 "use a lossless format such as TIFF instead."
@@ -5006,7 +5019,7 @@ msgstr ""
 "한 색상이 넓게 퍼져 있는 경우 화질레벨을 높이거나 손실률이 적은 TIFF 같은 포"
 "맷을 사용해야 할 때도 있습니다."
 
-#: src/using/photography.xml:708(para)
+#: src/using/photography.xml:709(para)
 msgid ""
 "If you intend to display the image on screen or project it with a video "
 "projector, bear in mind that the highest screen resolution for most commonly "
@@ -5018,7 +5031,7 @@ msgstr ""
 "대 해상도는 1600 x 1200 정도입니다. 따라서 이미지를 그 이상으로 크게 할 필요"
 "는 없습니다. 그리고 이때에는 JPEG 포맷이 가장 적합합니다."
 
-#: src/using/photography.xml:717(para)
+#: src/using/photography.xml:718(para)
 msgid ""
 "If you want to put the image on a web page or send it by email, it is a good "
 "idea to make every effort to keep the file size as small as possible. First, "
@@ -5040,25 +5053,25 @@ msgstr ""
 "절합니다. 이때 확대 상태를 1:1로 해놓고 작업해야만 확대로 인한 효과와 혼동하"
 "지 않을 수 있습니다."
 
-#: src/using/photography.xml:734(para)
+#: src/using/photography.xml:735(para)
 msgid ""
 "See the <link linkend=\"gimp-using-fileformats\">File Formats</link> section "
 "for more information."
 msgstr "더 자세한 내용은 파일 포맷 섹션을 참고하세요."
 
-#: src/using/photography.xml:741(title)
+#: src/using/photography.xml:742(title)
 msgid "Printing Your Photos"
 msgstr "사진 인쇄하기"
 
-#: src/using/photography.xml:743(primary)
+#: src/using/photography.xml:744(primary)
 msgid "Printing"
 msgstr "Printing(인쇄하기)"
 
-#: src/using/photography.xml:744(secondary)
+#: src/using/photography.xml:745(secondary)
 msgid "Printing your photos"
 msgstr "Printing your photos(사진 인쇄하기)"
 
-#: src/using/photography.xml:746(para)
+#: src/using/photography.xml:747(para)
 msgid ""
 "As in most softwares, in GIMP, printing needs to go to main menu "
 "<menuchoice><guimenu>File</guimenu><guisubmenu>Print</guisubmenu></"
@@ -5071,7 +5084,7 @@ msgstr ""
 "할 경우 다음 사항을 숙지하는 편이 좋습니다. 그래야만 생각치 못한 결과에 놀라"
 "지 않고, 그런 일이 벌어졌을 때 수정할 수 있습니다."
 
-#: src/using/photography.xml:758(para)
+#: src/using/photography.xml:759(para)
 msgid ""
 "that image displayed on the screen is in RGB mode and printing will be in "
 "CMYK mode; consequently color feature you'll get on printed sheet will not "
@@ -5084,19 +5097,19 @@ msgstr ""
 "도 있습니다. 이 차이는 RGB-CMYK 색상 대응 차트를 통해 알 수 있으며, 이에 대"
 "한 더 자세한 내용은 다음 위키백과 링크를 참고하세요."
 
-#: src/using/photography.xml:768(para)
+#: src/using/photography.xml:769(para)
 msgid "ICC-Profile <xref linkend=\"bibliography-online-wkpd-icc\"/>"
 msgstr "ICC 프로필"
 
-#: src/using/photography.xml:773(para)
+#: src/using/photography.xml:774(para)
 msgid "CMYK <xref linkend=\"bibliography-online-wkpd-cmyk\"/>"
 msgstr "CMYK"
 
-#: src/using/photography.xml:778(para)
+#: src/using/photography.xml:779(para)
 msgid "Gamut <xref linkend=\"bibliography-online-wkpd-gamut\"/>"
 msgstr "Gamut"
 
-#: src/using/photography.xml:785(para)
+#: src/using/photography.xml:786(para)
 msgid ""
 "that a screen resolution is roughly within a range from 75 up to 100 dpi; a "
 "printer resolution is about 10x higher (or more) than a screen one; printed "
@@ -5108,7 +5121,7 @@ msgstr ""
 "10배 이상 높습니다. 또 인쇄된 이미지의 크기는 사용가능한 픽셀수와 해상도에 좌"
 "우되기 때문에 모니터에 보여지는 크기나 인쇄지의 크기와 일치하지 않습니다."
 
-#: src/using/photography.xml:794(para)
+#: src/using/photography.xml:795(para)
 #, fuzzy
 msgid ""
 "Consequently, before any printing it is relevant to go to: "
@@ -5128,7 +5141,7 @@ msgstr ""
 "비율도 맞지 않을 경우 문제가 발생할 수도 있습니다. 하지만 그런반면 이를 이용"
 "해 특별한 효과를 만들 수도 있습니다."
 
-#: src/using/photography.xml:816(para)
+#: src/using/photography.xml:817(para)
 msgid ""
 "Last recommendation: think of checking your margins as well as centering. It "
 "would be a pity if a too much large margin cuts off some part of your image "
@@ -5141,11 +5154,11 @@ msgstr ""
 "특수 사진용지를 사용할 경우 배치를 잘못하면 엉뚱하게 인쇄될 수 있으므로 주의"
 "해야 합니다."
 
-#: src/using/photography.xml:825(title)
+#: src/using/photography.xml:826(title)
 msgid "EXIF Data"
 msgstr "EXIF 데이터"
 
-#: src/using/photography.xml:826(para)
+#: src/using/photography.xml:827(para)
 msgid ""
 "Modern digital cameras, when you take a picture, add information to the data "
 "file about the camera settings and the circumstances under which the picture "
@@ -5169,7 +5182,7 @@ msgstr ""
 "밀히 말해 이는 EXIF 데이터를 제대로 다루는 방법은 아닙니다. 하지만 해당 데이"
 "터를 버리는 것보다는 낫기 때문에 김프에서는 이렇게 사용해왔습니다."
 
-#: src/using/photography.xml:840(para)
+#: src/using/photography.xml:841(para)
 msgid ""
 "If you would like to see the contents of the EXIF data, you can download "
 "from the registry an Exif Browser plug-in <xref linkend=\"bibliography-"
@@ -5187,62 +5200,62 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:59(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/path-examples.png'; "
 "md5=a481b9ce8ff98222e260a0df7b971ed6"
-msgstr "@@image: 'images/using/path-examples.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/path-examples.png'; "
+"md5=a481b9ce8ff98222e260a0df7b971ed6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:145(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/path-with-anchors.png'; "
 "md5=9e168dc103f8be62c3b04a6852528337"
 msgstr ""
-"@@image: 'images/using/path-with-anchors.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/path-with-anchors.png'; "
+"md5=9e168dc103f8be62c3b04a6852528337"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:291(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/path-stroking-examples.png'; "
 "md5=c49284748ddac775cc702987fec34e06"
 msgstr ""
-"@@image: 'images/using/path-stroking-examples.png'; md5=THIS FILE DOESN'T "
-"EXIST"
+"@@image: 'images/using/path-stroking-examples.png'; "
+"md5=c49284748ddac775cc702987fec34e06"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:326(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/edit/stroke-path.png'; "
 "md5=3631e41d419fef447d65fa928093f3d5"
 msgstr ""
-"@@image: 'images/dialogs/gimp-path-stroke.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/menus/edit/stroke-path.png'; "
+"md5=3631e41d419fef447d65fa928093f3d5"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:344(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/path-from-text.png'; "
 "md5=7bf70fcbfd90eb571bdff45c229e1a3d"
 msgstr ""
-"@@image: 'images/using/path-from-text.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/path-from-text.png'; "
+"md5=7bf70fcbfd90eb571bdff45c229e1a3d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/paths.xml:356(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/path-text-stroked.png'; "
 "md5=1fe33d8a8a4f73e8b6fe5c3f1c889223"
 msgstr ""
-"@@image: 'images/using/path-text-stroked.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/path-text-stroked.png'; "
+"md5=1fe33d8a8a4f73e8b6fe5c3f1c889223"
 
 #: src/using/paths.xml:14(anchor:xreflabel) src/using/paths.xml:15(phrase)
 #: src/using/paths.xml:19(primary) src/using/paths.xml:24(secondary)
@@ -5879,55 +5892,52 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:54(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/unstuck-floating-sel.png'; "
 "md5=226cb89c97cd03443c3f90c1f0fcc762"
 msgstr ""
-"@@image: 'images/using/unstuck-floating-sel.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/unstuck-floating-sel.png'; "
+"md5=226cb89c97cd03443c3f90c1f0fcc762"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:83(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/unstuck-show-selection-menu.png'; "
 "md5=8ee4bc9294a9dd8a05fe08af4f7bb5c9"
 msgstr ""
-"@@image: 'images/using/unstuck-show-selection-menu.png'; md5=THIS FILE "
-"DOESN'T EXIST"
+"@@image: 'images/using/unstuck-show-selection-menu.png'; "
+"md5=8ee4bc9294a9dd8a05fe08af4f7bb5c9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:122(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/unstuck-select-all.png'; "
 "md5=eeda2cba5c9142ab46a5f711e4440919"
 msgstr ""
-"@@image: 'images/using/unstuck-select-all.png'; md5=THIS FILE DOESN'T EXIST"
+"@@image: 'images/using/unstuck-select-all.png'; "
+"md5=eeda2cba5c9142ab46a5f711e4440919"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:157(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; "
 "md5=a02e72b17f6b8e8d2c078967d727d3b9"
 msgstr ""
-"@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; md5=THIS FILE "
-"DOESN'T EXIST"
+"@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; "
+"md5=a02e72b17f6b8e8d2c078967d727d3b9"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/getting-unstuck.xml:194(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/unstuck-layers-dialog-transparentlayer.png'; "
 "md5=998bcb5034da0bd1b196913e073cbf89"
 msgstr ""
-"@@image: 'images/using/unstuck-layers-dialog-transparentlayer.png'; md5=THIS "
-"FILE DOESN'T EXIST"
+"@@image: 'images/using/unstuck-layers-dialog-transparentlayer.png'; "
+"md5=998bcb5034da0bd1b196913e073cbf89"
 
 #: src/using/getting-unstuck.xml:18(title)
 #: src/using/getting-unstuck.xml:22(secondary)
@@ -5955,7 +5965,6 @@ msgstr ""
 "제 프로그램을 강제 종료시켜 그동안 작업한 것을 모두 날려버리시겠습니까?"
 
 #: src/using/getting-unstuck.xml:34(para)
-#, fuzzy
 msgid ""
 "Well, hold on a second. This happens pretty frequently, even to people "
 "who've used <acronym>GIMP</acronym> for a long time, but generally the cause "
@@ -5963,7 +5972,7 @@ msgid ""
 "calm, and go through a checklist that will probably get you GIMPing happily "
 "again."
 msgstr ""
-"다소 진정하고, 사실 이런 경우는 흔한 편으로 보통은 쉽게 고칠 수 있습니다. 이"
+"잠시 진정하세요. 사실 이런 일은 흔한 편으로 보통은 쉽게 고칠 수 있습니다. 이"
 "제 침착하게 체크 리스트를 살펴봅니다."
 
 #: src/using/getting-unstuck.xml:44(title)
@@ -5979,7 +5988,6 @@ msgid "Layers dialog showing a floating selection."
 msgstr "떠있는 선택이 있는 레이어 대화 상자"
 
 #: src/using/getting-unstuck.xml:58(para)
-#, fuzzy
 msgid ""
 "<emphasis>How to tell:</emphasis> If there is a floating selection, many "
 "actions are impossible until the floating section is anchored. To check, "
@@ -5987,9 +5995,9 @@ msgid ""
 "on) and see whether the top layer is called <quote>Floating Selection</"
 "quote>."
 msgstr ""
-"<emphasis>설명:</emphasis> 떠있는 선택이 있으면 그것이 고정되기 전까지 대부분"
-"의 작업을 할 수 없습니다. 이를 확인하려면 활성화된 이미지의 레이어 대화 상자"
-"의 최상단 레이어가 <quote>떠있는 선택</quote> 인지 확인합니다."
+"<emphasis>설명:</emphasis> 떠있는 선택이 있으면 그것을 고정하기 전까지 다른 "
+"대부분의 작업을 할 수 없습니다. 이를 확인하려면 레이어 대화 상자의 최상단 레"
+"이어가 <quote>떠있는 선택</quote> 인지 확인합니다."
 
 #: src/using/getting-unstuck.xml:66(para)
 msgid ""
@@ -6015,7 +6023,6 @@ msgid "In the View menu, make sure that \"Show Selection\" is checked."
 msgstr "보기 메뉴에서 \"선택 표시\" 가 체크되어 있는지 확인합니다."
 
 #: src/using/getting-unstuck.xml:92(para)
-#, fuzzy
 msgid ""
 "<emphasis>How to tell:</emphasis> If this is the problem, merely reading "
 "this will already have made you realize it, probably, but to explain in any "
@@ -6029,8 +6036,8 @@ msgstr ""
 "니다. 하지만 굳이 하자면, 간혹 깜빡이는 선택의 경계선이 이미지를 자세하게 보"
 "는데 방해가 되어 눈에 거슬릴 때가 있습니다. 이럴 경우 <guimenu>보기</"
 "guimenu> 메뉴의 <guimenuitem>선택 표시</guimenuitem> 를 체크 해제함으로써 선"
-"택을 숨길 수 있습니다. 그런데 이렇게 설정해둔 것을 잊어버리는 경우가 많습니"
-"다."
+"택을 숨길 수 있습니다. 그런데 이렇게 설정해둔 뒤에 잊어버리는 경우가 많으니 "
+"주의하세요."
 
 #: src/using/getting-unstuck.xml:104(para)
 msgid ""
@@ -6062,7 +6069,6 @@ msgid ""
 msgstr "선택 메뉴의 <quote>전체</quote> 를 선택해서 이미지 전체를 선택합니다."
 
 #: src/using/getting-unstuck.xml:132(para)
-#, fuzzy
 msgid ""
 "<emphasis>How to fix:</emphasis> If doing this has destroyed a selection "
 "that you wanted to keep, hit <keycombo><keycap>Ctrl</keycap><keycap>Z</"
@@ -6078,14 +6084,14 @@ msgid ""
 "Mask off and choosing Invert in the <guimenu>Select</guimenu> menu."
 msgstr ""
 "<emphasis>해결책:</emphasis> 이 방법은 기존의 선택을 망가뜨리지만, 문제를 확"
-"인한 후 Ctrl-Z(실행취소)를 눌러 복구할 수 있습니다. 이러한 경우에는 몇 가지 "
-"가능성이 있는데, 만약 선택을 볼 수 없다면 선택이 굉장히 작거나, 픽셀을 포함하"
-"지 않는 경우일 것입니다. 이때 선택을 유지하고 싶지 않다면 바로 전체선택을 합"
-"니다. 혹 선택을 볼 수 있는데 그 안에서 작업할 수 없다면, 그것은 아마도 반대"
-"로 선택이 된 경우일 것입니다. 이것은 퀵마스크 버튼을 눌러보면 쉽게 확인할 수 "
-"있습니다. 선택된 영역은 선명하고, 그렇지 않은 부분은 마스크로 덧씌워집니다. "
-"이제 퀵마스크 모드를 종료시키고 <guimenu>선택</guimenu> 메뉴의 반전을 선택합"
-"니다."
+"인한 후 <keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>(실행취"
+"소)를 눌러 이전 선택을 복구할 수 있습니다. 이러한 경우에는 몇 가지 가능성이 "
+"있는데, 만약 선택을 볼 수 없다면 선택이 굉장히 작거나, 픽셀을 포함하지 않는 "
+"경우일 것입니다. 이때 선택을 유지하고 싶지 않다면 바로 전체선택을 합니다. 혹 "
+"선택을 볼 수 있는데 그 안에서 작업할 수 없다면, 그것은 아마도 반대로 선택이 "
+"된 경우일 것입니다. 이것은 퀵마스크 버튼을 눌러보면 쉽게 확인할 수 있습니다. "
+"선택된 영역은 선명하고, 그렇지 않은 부분은 마스크로 덧씌워집니다. 이제 퀵마스"
+"크 모드를 종료시키고 <guimenu>선택</guimenu> 메뉴의 반전을 선택합니다."
 
 #: src/using/getting-unstuck.xml:151(title)
 msgid "The active drawable is not visible"
@@ -6100,19 +6106,17 @@ msgid "Layers dialog with visibility off for the active layer."
 msgstr "레이어 대화 상자에서 보기가 꺼진 채 활성화된 레이어"
 
 #: src/using/getting-unstuck.xml:166(para)
-#, fuzzy
 msgid ""
 "<emphasis>How to tell:</emphasis> The Layers dialog gives you ability to "
 "toggle the visibility of each layer on or off. Look at the Layers dialog, "
 "and see if the layer you are trying to act on is active (i.e., darkened) and "
 "has an eye symbol to the left of it. If not, this is your problem."
 msgstr ""
-"<emphasis>설명:</emphasis> 레이어 대화상자에서는 각 레이어의 보임 여부를 전환"
-"할 수 있는 버튼이 있습니다. 레이어 대화상자를 살펴보고, 활성화시키려는 레이어"
-"가 활성화되어 있고, 왼쪽에 눈모양이 있는지 확인합니다."
+"<emphasis>설명:</emphasis> 레이어 대화 상자에는 각 레이어의 보임 여부를 전환"
+"할 수 있는 버튼이 있습니다. 레이어 대화상자를 살펴보고, 작업하려는 레이어가 "
+"활성화되어 있고, 왼쪽에 눈모양 기호가 있는지 확인합니다."
 
 #: src/using/getting-unstuck.xml:173(para)
-#, fuzzy
 msgid ""
 "<emphasis>How to fix:</emphasis> If your intended target layer is not "
 "active, click on it in the Layers dialog to activate it. (If none of the "
@@ -6126,9 +6130,9 @@ msgstr ""
 "<emphasis>해결책:</emphasis> 대상 레이어가 활성화되어 있지 않다면, 레이어 대"
 "화상자에서 해당 레이어를 클릭하여 활성화시킵니다(활성화된 레이어가 없는 경"
 "우, 활성화된 drawable 은 채널일 것입니다. 레이어 대화상자에서 채널탭을 클릭해"
-"서 확인합니다). 그리고 대상 레이어의 왼쪽에 눈모양이 나타나 있지 않으면 레이"
-"어 대화상자에서 보임 전환버튼을 누릅니다. 더 자세한 내용은 레이어 대화상자 섹"
-"션을 보면 참고하세요."
+"서 확인합니다). 그리고 대상 레이어의 왼쪽에 눈모양 기호가 나타나 있지 않으면 "
+"[보임 전환] 버튼을 누릅니다. 더 자세한 내용은<link linkend=\"gimp-layer-"
+"dialog\">레이어 대화상자</link>를 참고하세요."
 
 #: src/using/getting-unstuck.xml:188(title)
 msgid "The active drawable is transparent"
@@ -6140,7 +6144,7 @@ msgstr "레이어 투명도 문제 해결"
 
 #: src/using/getting-unstuck.xml:197(para)
 msgid "Layers dialog with opacity set to zero for the active layer."
-msgstr "레이어 대화 상자에서 활성화된 레이어의 투명도가 0인 경우"
+msgstr "레이어 대화 상자에서 활성화된 레이어의 불투명도가 0인 경우"
 
 #: src/using/getting-unstuck.xml:203(para)
 msgid ""
@@ -6149,18 +6153,21 @@ msgid ""
 "guilabel> slider, and see which side the slider placed at. If it is at the "
 "leftmost side, that is your problem."
 msgstr ""
+"<emphasis>설명:</emphasis> 레이어의 불투명도가 0이면, 해당 레이어에 한 작업들"
+"을 볼 수 없습니다. 레이어 대화 상자의 <guilabel>불투명도</guilabel> 슬라이드"
+"바가 어디에 위치하고 있는지 확인합니다."
 
 #: src/using/getting-unstuck.xml:210(para)
 msgid "<emphasis>How to fix:</emphasis> Move the slider."
 msgstr ""
-"<emphasis>해결책:</emphasis> 투명도 슬라이더를 움직여서 투명도를 높여줍니다."
+"<emphasis>해결책:</emphasis> 불투명도 슬라이더를 움직여서 투명도를 높여줍니"
+"다."
 
 #: src/using/getting-unstuck.xml:216(title)
 msgid "You are trying to act outside the layer"
 msgstr "레이어 바깥쪽에 작업을 하려는 경우"
 
 #: src/using/getting-unstuck.xml:217(para)
-#, fuzzy
 msgid ""
 "<emphasis>How to tell:</emphasis> In <acronym>GIMP</acronym>, layers don't "
 "need to have the same dimensions as the image: they can be larger or "
@@ -6168,10 +6175,10 @@ msgid ""
 "happens. To see if this is happening, look for a black-and-yellow dashed "
 "rectangle that does not enclose the area you're trying to draw at."
 msgstr ""
-"<emphasis>설명:</emphasis> 김프에서는 레이어가 이미지와 같은 넓이를 가지지 않"
-"습니다. 따라서 작업 중인 레이어 영역 밖에 칠을 할 경우 아무 일도 일어나지 않"
-"습니다. 이런 경우에는 그리려는 부분이 사각형의 검정-노랑 점선 안에 있는지 확"
-"인합니다."
+"<emphasis>설명:</emphasis> <acronym>김프</acronym>에서는 레이어가 이미지와 같"
+"은 넓이를 가지지 않습니다. 따라서 작업 중인 레이어 영역 밖에 칠을 할 경우 아"
+"무 일도 일어나지 않습니다. 그리려는 부분이 사각형의 검정-노랑 점선 안에 있는"
+"지 확인합니다."
 
 #: src/using/getting-unstuck.xml:226(para)
 msgid ""
@@ -6224,18 +6231,18 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/fonts-and-text.xml:29(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/logo-examples.png'; "
 "md5=d5e1265a0ff3bd7fd656c06ae66d3537"
-msgstr "@@image: 'images/using/logo-examples.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/logo-examples.png'; "
+"md5=d5e1265a0ff3bd7fd656c06ae66d3537"
 
 #: src/using/fonts-and-text.xml:20(title)
 msgid "Embellishing Text"
 msgstr "텍스트 꾸미기"
 
 #: src/using/fonts-and-text.xml:23(secondary)
-#, fuzzy
 msgid "Embellishing text"
 msgstr "텍스트 꾸미기"
 
@@ -6586,51 +6593,58 @@ msgid ""
 "@@image: 'images/using/close-warning.png'; "
 "md5=daf43dc485b063912be438bd8196b348"
 msgstr ""
+"@@image: 'images/using/close-warning.png'; "
+"md5=daf43dc485b063912be438bd8196b348"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/fileformats.xml:135(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/export-gif-dialog.png'; "
 "md5=6c0effc027a23e667a6da56e007eda6d"
-msgstr "@@image: 'images/using/export-dialog.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/export-gif-dialog.png'; "
+"md5=6c0effc027a23e667a6da56e007eda6d"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/fileformats.xml:295(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/export-jpeg-dialog.png'; "
 "md5=9e3cb45071a45a4b1fbd43de66079830"
-msgstr "@@image: 'images/using/export-dialog.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/export-jpeg-dialog.png'; "
+"md5=9e3cb45071a45a4b1fbd43de66079830"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/fileformats.xml:608(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/export-png-dialog.png'; "
 "md5=a7e763ba4e72b4a8be0c207d91781a70"
-msgstr "@@image: 'images/using/export-dialog.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/export-png-dialog.png'; "
+"md5=a7e763ba4e72b4a8be0c207d91781a70"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:768(None)
-#, fuzzy
+#: src/using/fileformats.xml:766(None)
 msgid ""
 "@@image: 'images/using/export-tiff-dialog.png'; "
 "md5=1911ab89ff8b7b2ddd1ba3228c6ef94c"
-msgstr "@@image: 'images/using/export-dialog.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/export-tiff-dialog.png'; "
+"md5=1911ab89ff8b7b2ddd1ba3228c6ef94c"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:883(None)
-#, fuzzy
+#: src/using/fileformats.xml:881(None)
 msgid ""
 "@@image: 'images/using/export-mng-dialog.png'; "
 "md5=77f5b2f7624bbfe11d26c730ad28d6a7"
-msgstr "@@image: 'images/using/export-dialog.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/export-mng-dialog.png'; "
+"md5=77f5b2f7624bbfe11d26c730ad28d6a7"
 
 #: src/using/fileformats.xml:19(para)
 #, fuzzy
@@ -6790,8 +6804,8 @@ msgstr ".gif"
 #: src/using/fileformats.xml:126(primary)
 #: src/using/fileformats.xml:279(primary)
 #: src/using/fileformats.xml:599(primary)
-#: src/using/fileformats.xml:760(primary)
-#: src/using/fileformats.xml:875(primary) src/using/brushes.xml:37(primary)
+#: src/using/fileformats.xml:758(primary)
+#: src/using/fileformats.xml:873(primary) src/using/brushes.xml:37(primary)
 #: src/using/brushes.xml:73(primary) src/using/brushes.xml:100(primary)
 msgid "Formats"
 msgstr "Formats(형식)"
@@ -7364,8 +7378,8 @@ msgid "Save layer offset"
 msgstr "레이어 오프셋 저장"
 
 #. Andrew Pitonyak (andrew@pitonyak.org)
-#.             verified this with Alexia Death (alexiadeath@gmail.com)
-#.             on August 17, 2009.
+#. verified this with Alexia Death (alexiadeath@gmail.com)
+#. on August 17, 2009.
 #: src/using/fileformats.xml:656(para)
 msgid ""
 "PNG supports an offset value called the <quote>oFFs chunk</quote>, which "
@@ -7381,44 +7395,44 @@ msgstr "해상도 저장"
 
 #: src/using/fileformats.xml:671(para)
 #, fuzzy
-msgid "Save the image resolution, in DPI (dots per inch)."
+msgid "Save the image resolution, in ppi (pixels per inch)."
 msgstr "이미지의 해상도를 dpi(인치당 도트 수)로 저장합니다."
 
-#: src/using/fileformats.xml:677(term)
+#: src/using/fileformats.xml:675(term)
 msgid "Save creation time"
 msgstr "생성 시각 저장"
 
-#: src/using/fileformats.xml:679(para)
+#: src/using/fileformats.xml:677(para)
 #, fuzzy
 msgid "Date the file was saved."
 msgstr "파일이 외부에서 바뀌었습니다"
 
-#: src/using/fileformats.xml:685(term)
+#: src/using/fileformats.xml:683(term)
 msgid "Save comment"
 msgstr "설명 저장"
 
-#: src/using/fileformats.xml:687(para)
+#: src/using/fileformats.xml:685(para)
 msgid ""
 "You can read this comment in the <link linkend=\"gimp-image-properties"
 "\">Image Properties</link>."
 msgstr "이미지 정보창을 통해 이 설명을 볼 수 있습니다."
 
-#: src/using/fileformats.xml:694(term) src/using/fileformats.xml:846(term)
+#: src/using/fileformats.xml:692(term) src/using/fileformats.xml:844(term)
 msgid "Save color values from transparent pixels"
 msgstr "투명한 픽셀의 색상값 저장"
 
-#: src/using/fileformats.xml:696(para)
+#: src/using/fileformats.xml:694(para)
 msgid ""
 "With this option is checked, the color values are saved even if the pixels "
 "are completely transparent."
 msgstr ""
 "이 옵션을 체크하면, 픽셀이 완전히 투명하더라도 픽셀의 색상값을 저장합니다."
 
-#: src/using/fileformats.xml:703(term)
+#: src/using/fileformats.xml:701(term)
 msgid "Compression level"
 msgstr "압축 레벨"
 
-#: src/using/fileformats.xml:705(para)
+#: src/using/fileformats.xml:703(para)
 #, fuzzy
 msgid ""
 "Since compression is not lossy, the only reason to use a compression level "
@@ -7430,18 +7444,18 @@ msgstr ""
 "컴퓨터에서 너무 긴 시간이 걸릴 때뿐입니다. 대신 압축을 풀때는 압축 레벨에 관"
 "계없이 빠른 속도를 보여줍니다."
 
-#: src/using/fileformats.xml:715(term)
+#: src/using/fileformats.xml:713(term)
 #, fuzzy
 msgid "Save Defaults"
 msgstr "기본값으로 저장"
 
-#: src/using/fileformats.xml:717(para)
+#: src/using/fileformats.xml:715(para)
 msgid ""
 "Click to save the current settings. Latter, you can use <guibutton>Load "
 "Defaults</guibutton> to load the saved settings."
 msgstr ""
 
-#: src/using/fileformats.xml:726(para)
+#: src/using/fileformats.xml:724(para)
 #, fuzzy
 msgid ""
 "The PNG format supports indexed images. Using fewer colors, therefore, "
@@ -7451,7 +7465,7 @@ msgstr ""
 "PNG 포맷은 인덱스 이미지를 지원하기 때문에, 저장하기 전에 웹에 적합한 작은 용"
 "량의 파일로 만들 수 있습니다. 자세한 내용은 인덱스 모드 섹션을 참고하세요."
 
-#: src/using/fileformats.xml:732(para)
+#: src/using/fileformats.xml:730(para)
 msgid ""
 "Computers work on 8 bits blocks named <quote>Byte</quote>. A byte allows 256 "
 "colors. Reducing the number of colors below 256 is not useful: a byte will "
@@ -7465,7 +7479,7 @@ msgstr ""
 "<quote>PNG8</quote> 포맷은 GIF 와 마찬가지로 투명도 여부만 가리도록 투명도에 "
 "1 bit 만 사용합니다."
 
-#: src/using/fileformats.xml:740(para)
+#: src/using/fileformats.xml:738(para)
 #, fuzzy
 msgid ""
 "If you want PNG transparency to be fully displayed by Internet Explorer, you "
@@ -7479,39 +7493,39 @@ msgstr ""
 "\"http://support.microsoft.com/kb/294714\"> Microsoft 정보센터</ulink>를 참고"
 "하세요."
 
-#: src/using/fileformats.xml:752(title) src/using/fileformats.xml:754(primary)
+#: src/using/fileformats.xml:750(title) src/using/fileformats.xml:752(primary)
 #, fuzzy
 msgid "Export Image as TIFF"
 msgstr "TIFF로 저장"
 
-#: src/using/fileformats.xml:757(primary)
-#: src/using/fileformats.xml:761(secondary)
+#: src/using/fileformats.xml:755(primary)
+#: src/using/fileformats.xml:759(secondary)
 msgid "TIFF"
 msgstr "TIFF"
 
-#: src/using/fileformats.xml:764(title)
+#: src/using/fileformats.xml:762(title)
 #, fuzzy
 msgid "The TIFF Export dialog"
 msgstr "TIFF 저장 대화 상자"
 
-#: src/using/fileformats.xml:774(term)
+#: src/using/fileformats.xml:772(term)
 msgid "Compression"
 msgstr "압축"
 
-#: src/using/fileformats.xml:776(para)
+#: src/using/fileformats.xml:774(para)
 #, fuzzy
 msgid ""
 "This option allows you to specify the algorithm used to compress the image."
 msgstr "이 옵션을 이용하면 이미지의 미리보기 파일을 저장할 수 있습니다."
 
-#: src/using/fileformats.xml:782(para)
+#: src/using/fileformats.xml:780(para)
 #, fuzzy
 msgid ""
 "<guilabel>None</guilabel>: is fast, and lossless, but the resulting file is "
 "very large."
 msgstr "압축안함"
 
-#: src/using/fileformats.xml:788(para)
+#: src/using/fileformats.xml:786(para)
 #, fuzzy
 msgid ""
 "<guilabel>LZW</guilabel>: The image is compressed using the <quote>Lempel-"
@@ -7523,7 +7537,7 @@ msgstr ""
 "을 이용해 압축합니다. 이는 오래된 방법이지만, 손실이 적고 효율적이며 빠릅니"
 "다."
 
-#: src/using/fileformats.xml:797(para)
+#: src/using/fileformats.xml:795(para)
 #, fuzzy
 msgid ""
 "<guilabel>Pack Bits</guilabel>: is a fast, simple compression scheme for run-"
@@ -7537,7 +7551,7 @@ msgstr ""
 "시용 맥페인트를 발표하면서 소개한 포맷입니다. PackBits 데이터 스트림은 데이"
 "터 헤더의 1 바이트 패킷으로 구성됩니다."
 
-#: src/using/fileformats.xml:808(para)
+#: src/using/fileformats.xml:806(para)
 #, fuzzy
 msgid ""
 "<guilabel>Deflate</guilabel>: is a lossless data compression algorithm that "
@@ -7554,19 +7568,19 @@ msgstr ""
 "지는 경향이 있습니다.(출처 : <ulink url=\"http://ko.wikipedia.org/wiki/"
 "DEFLATE\">위키백과 Deflate</ulink>)"
 
-#: src/using/fileformats.xml:817(para)
+#: src/using/fileformats.xml:815(para)
 #, fuzzy
 msgid ""
 "<guilabel>JPEG</guilabel>: is a very good compression algorithm but lossy."
 msgstr "JPEG"
 
-#: src/using/fileformats.xml:823(para)
+#: src/using/fileformats.xml:821(para)
 msgid ""
 "<guilabel>CCITT Group 3 fax</guilabel>; <guilabel>CCITT Group 4 fax</"
 "guilabel> is a black and white format developed to transfer images by FAX."
 msgstr ""
 
-#: src/using/fileformats.xml:829(para)
+#: src/using/fileformats.xml:827(para)
 msgid ""
 "These options can only be selected, if the image is in indexed mode and "
 "reduced to two colors. Use <menuchoice><guimenu>Image</"
@@ -7575,42 +7589,42 @@ msgid ""
 "black and white (1-bit) palette</quote>."
 msgstr ""
 
-#: src/using/fileformats.xml:848(para)
+#: src/using/fileformats.xml:846(para)
 msgid ""
 "With this option the color values are saved even if the pixels are "
 "completely transparent."
 msgstr ""
 "이 옵션을 체크하면, 픽셀이 완전히 투명하더라도 픽셀의 색상값을 저장합니다."
 
-#: src/using/fileformats.xml:855(term)
+#: src/using/fileformats.xml:853(term)
 msgid "Comment"
 msgstr "설명"
 
-#: src/using/fileformats.xml:857(para)
+#: src/using/fileformats.xml:855(para)
 #, fuzzy
 msgid ""
 "In this text box, you can enter a comment that is associated with the image."
 msgstr "이미지에 대한 설명을 적을 수 있는 텍스트 상자입니다."
 
-#: src/using/fileformats.xml:867(title) src/using/fileformats.xml:869(primary)
+#: src/using/fileformats.xml:865(title) src/using/fileformats.xml:867(primary)
 msgid "Export Image as MNG"
 msgstr ""
 
-#: src/using/fileformats.xml:872(primary)
-#: src/using/fileformats.xml:876(secondary)
+#: src/using/fileformats.xml:870(primary)
+#: src/using/fileformats.xml:874(secondary)
 #, fuzzy
 msgid "MNG"
 msgstr "PNG"
 
-#: src/using/fileformats.xml:879(title)
+#: src/using/fileformats.xml:877(title)
 msgid "Export MNG File Dialog"
 msgstr ""
 
-#: src/using/fileformats.xml:887(para)
+#: src/using/fileformats.xml:885(para)
 msgid "MNG is acronym for <quote>Multiple-Image Network Graphics</quote>."
 msgstr ""
 
-#: src/using/fileformats.xml:890(para)
+#: src/using/fileformats.xml:888(para)
 msgid ""
 "The main problem is that Konqueror is the only Web navigator that recognizes "
 "the MNG animation format. Please see <ulink url=\"http://en.wikipedia.org/"
@@ -7634,15 +7648,21 @@ msgid ""
 msgstr ""
 
 #: src/using/customize-splashscreen.xml:28(para)
+#, fuzzy
 msgid ""
 "Of course, you can customize the splash-screen: Create a <filename class="
 "\"directory\">splashes</filename> directory in your in your personal "
 "<acronym>GIMP</acronym> folder (<filename class=\"directory\">/home/"
-"user_name/.gimp-2.6</filename> on Linux, <filename class=\"directory\" role="
-"\"html\">C:\\Documents&nbsp;and&nbsp;Settings\\user_name\\.gimp-2.6\\</"
+"user_name/.gimp-2.8</filename> on Linux, <filename class=\"directory\" role="
+"\"html\">C:\\Documents&nbsp;and&nbsp;Settings\\user_name\\.gimp-2.8\\</"
 "filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents&nbsp;"
-"and&nbsp;Settings\\\\user_name\\\\.gimp-2.6\\\\</filename> on Windows)."
+"and&nbsp;Settings\\\\user_name\\\\.gimp-2.8\\\\</filename> on Windows)."
 msgstr ""
+"사용자 키보드 단축키들은 김프의 숨김 디렉토리에 저장됩니다(리눅스 : "
+"<filename class=\"directory\">/home/[username]/.gimp-2.4/menurc</filename> 윈"
+"도우즈 XP : <filename class=\"directory\">C:\\Documents and Settings"
+"\\[Username]\\.gimp-2.4\\menurc</filename>). 이는 단순한 텍스트 파일로 쉽게 "
+"다른 컴퓨터로 옮길 수 있습니다."
 
 #: src/using/customize-splashscreen.xml:40(para)
 #, fuzzy
@@ -7661,11 +7681,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/brushes.xml:60(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/file-gbr-save.png'; "
 "md5=9dc83346c647c95e74234f0d30fdd263"
-msgstr "@@image: 'images/using/file-gbr-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/file-gbr-save.png'; "
+"md5=9dc83346c647c95e74234f0d30fdd263"
 
 #: src/using/brushes.xml:10(title)
 msgid "Adding New Brushes"
@@ -7818,96 +7839,98 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:33(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/file-gih-save.png'; "
 "md5=c38cc3eddf82d57a85a41e2f23b65f7b"
-msgstr "@@image: 'images/using/file-gih-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/file-gih-save.png'; "
+"md5=c38cc3eddf82d57a85a41e2f23b65f7b"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:142(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-array2D.png'; md5=c15b84ef6a337006a1f39b307847a573"
-msgstr "@@image: 'images/using/file-gih-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih-array2D.png'; md5=c15b84ef6a337006a1f39b307847a573"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:152(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-array3D.png'; md5=9feefe655bf2c5034f05b9faaafc82b6"
-msgstr "@@image: 'images/using/file-gih-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih-array3D.png'; md5=9feefe655bf2c5034f05b9faaafc82b6"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:239(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-array1D.png'; md5=68095ff8ef85b22e5a9f104026505900"
-msgstr "@@image: 'images/using/file-gih-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih-array1D.png'; md5=68095ff8ef85b22e5a9f104026505900"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:290(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih1234incr.png'; md5=916ee26278465b6f392b47d3441e6316"
-msgstr "@@image: 'images/using/palettes.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih1234incr.png'; md5=916ee26278465b6f392b47d3441e6316"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:308(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih1234rand.png'; md5=8d8cb33c9bcf1271675c898c3e80edda"
-msgstr "@@image: 'images/using/palettes.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih1234rand.png'; md5=8d8cb33c9bcf1271675c898c3e80edda"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:324(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih1234angl.png'; md5=61d5f4b2f9828f9f838601a663a4e2e1"
-msgstr "@@image: 'images/using/palettes.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih1234angl.png'; md5=61d5f4b2f9828f9f838601a663a4e2e1"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:350(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-3Dnum.png'; md5=fc2b9899af4d83c132c50ebe6c61bd1e"
-msgstr "@@image: 'images/using/file-gih-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih-3Dnum.png'; md5=fc2b9899af4d83c132c50ebe6c61bd1e"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:464(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-correlation.png'; "
 "md5=f0421f134c5e4534ac1b1dff89a7ab05"
-msgstr "@@image: 'images/using/file-gih-save.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih-correlation.png'; "
+"md5=f0421f134c5e4534ac1b1dff89a7ab05"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:479(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-hands-layers.png'; "
 "md5=aeecc0dc6089d90f578aaded7a68b988"
 msgstr ""
-"@@image: 'images/using/unstuck-layers-dialog-invislayer.png'; md5=THIS FILE "
-"DOESN'T EXIST"
+"@@image: 'images/using/gih-hands-layers.png'; "
+"md5=aeecc0dc6089d90f578aaded7a68b988"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/animated-brushes.xml:532(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/gih-hands-stroke.png'; "
 "md5=3032494d8893f9cb754b05b12af748ec"
-msgstr "@@image: 'images/using/hands_stroke.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+"@@image: 'images/using/gih-hands-stroke.png'; "
+"md5=3032494d8893f9cb754b05b12af748ec"
 
 #: src/using/animated-brushes.xml:10(title)
 msgid "The GIH Dialog Box"

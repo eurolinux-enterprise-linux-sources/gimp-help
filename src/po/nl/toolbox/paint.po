@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-07-04 21:04+1000\n"
+"POT-Creation-Date: 2012-06-01 12:24+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,1336 +67,6 @@ msgstr ""
 "#-#-#-#-#  tool-threshold.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  tool-transform.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  tool-zoom.po (PACKAGE VERSION)  #-#-#-#-#\n"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/smudge.xml:28(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-smudge.png'; "
-"md5=48da6d4a9111b0e2f8f82536ef54fb26"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/smudge.xml:112(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-smudge.png'; "
-"md5=065b6fcc7a19dcc17b94448304983b94"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:15(title)
-#: src/toolbox/paint/smudge.xml:18(secondary)
-#: src/toolbox/paint/smudge.xml:21(primary)
-msgid "Smudge"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:17(primary)
-#: src/toolbox/paint/perspective-clone.xml:14(primary)
-#: src/toolbox/paint/pencil.xml:16(primary)
-#: src/toolbox/paint/paintbrush.xml:12(primary)
-#: src/toolbox/paint/ink.xml:19(primary)
-#: src/toolbox/paint/heal.xml:15(primary)
-#: src/toolbox/paint/eraser.xml:20(primary)
-#: src/toolbox/paint/dodge-burn.xml:15(primary)
-#: src/toolbox/paint/convolve.xml:18(primary)
-#: src/toolbox/paint/clone.xml:25(primary)
-#: src/toolbox/paint/bucket-fill.xml:18(primary)
-#: src/toolbox/paint/brush-tools.xml:20(primary)
-#: src/toolbox/paint/brush-tools.xml:24(primary)
-#: src/toolbox/paint/blend.xml:31(primary)
-#: src/toolbox/paint/airbrush.xml:22(primary)
-msgid "Tools"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:25(title)
-msgid "Smudge tool"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:32(para)
-msgid ""
-"The Smudge tool uses the current brush to smudge colors on the active layer "
-"or a selection. It takes color in passing and uses it to mix it to the next "
-"colors it meets, on a distance you can set."
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:39(title)
-#: src/toolbox/paint/perspective-clone.xml:40(title)
-#: src/toolbox/paint/pencil.xml:56(title)
-#: src/toolbox/paint/paintbrush.xml:34(title)
-#: src/toolbox/paint/ink.xml:42(title) src/toolbox/paint/heal.xml:51(title)
-#: src/toolbox/paint/dodge-burn.xml:37(title)
-#: src/toolbox/paint/convolve.xml:75(title)
-#: src/toolbox/paint/blend.xml:85(title)
-#: src/toolbox/paint/airbrush.xml:40(title)
-msgid "Activating the Tool"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:40(para)
-#, fuzzy
-msgid "You can find the Smudge tool in various ways :"
-msgstr ""
-"U kunt het rechthoekselectie gereedschap op een aantal verschillende "
-"manieren aanroepen:"
-
-#: src/toolbox/paint/smudge.xml:45(para)
-#, fuzzy
-msgid ""
-"through <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
-"guisubmenu><guimenuitem>Smudge.</guimenuitem></menuchoice> in the image menu,"
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/smudge.xml:56(para)
-msgid ""
-"by clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
-"toolbox/stock-tool-smudge-22.png\"/></guiicon> in Toolbox,"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:66(para)
-msgid "or by pressing the <keycap>S</keycap> key on keyboard."
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:74(title)
-#: src/toolbox/paint/perspective-clone.xml:69(title)
-#: src/toolbox/paint/pencil.xml:85(title)
-#: src/toolbox/paint/paintbrush.xml:64(title)
-#: src/toolbox/paint/ink.xml:72(title) src/toolbox/paint/heal.xml:84(title)
-#: src/toolbox/paint/dodge-burn.xml:72(title)
-#: src/toolbox/paint/convolve.xml:109(title)
-#: src/toolbox/paint/bucket-fill.xml:97(title)
-#: src/toolbox/paint/blend.xml:117(title)
-#: src/toolbox/paint/airbrush.xml:71(title)
-msgid "Key modifiers (Defaults)"
-msgstr "Toetsencombinaties (Standaard instellingen)"
-
-#: src/toolbox/paint/smudge.xml:78(keycap)
-#: src/toolbox/paint/perspective-clone.xml:83(keycap)
-#: src/toolbox/paint/pencil.xml:100(keycap)
-#: src/toolbox/paint/paintbrush.xml:79(keycap)
-#: src/toolbox/paint/heal.xml:107(keycap)
-#: src/toolbox/paint/dodge-burn.xml:87(keycap)
-#: src/toolbox/paint/common-features.xml:171(keycap)
-#: src/toolbox/paint/common-features.xml:197(keycap)
-#: src/toolbox/paint/brush-tools.xml:87(keycap)
-#: src/toolbox/paint/airbrush.xml:85(keycap)
-msgid "Shift"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:81(para)
-msgid ""
-"The <keycap>Shift</keycap> key places the smudge tool into straight line "
-"mode. Holding <keycap>Shift</keycap> while clicking <mousebutton>Button1</"
-"mousebutton> will smudge in a straight line. Consecutive clicks will "
-"continue smudging in straight lines that originate from the end of the last "
-"line."
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:92(keycap)
-#: src/toolbox/paint/perspective-clone.xml:73(keycap)
-#: src/toolbox/paint/pencil.xml:89(keycap)
-#: src/toolbox/paint/paintbrush.xml:68(keycap)
-#: src/toolbox/paint/ink.xml:76(keycap) src/toolbox/paint/heal.xml:88(keycap)
-#: src/toolbox/paint/eraser.xml:137(keycap)
-#: src/toolbox/paint/dodge-burn.xml:76(keycap)
-#: src/toolbox/paint/convolve.xml:117(keycap)
-#: src/toolbox/paint/common-features.xml:150(keycap)
-#: src/toolbox/paint/common-features.xml:196(keycap)
-#: src/toolbox/paint/clone.xml:119(keycap)
-#: src/toolbox/paint/brush-tools.xml:72(keycap)
-#: src/toolbox/paint/blend.xml:120(keycap)
-#: src/toolbox/paint/airbrush.xml:75(keycap)
-msgid "Ctrl"
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:95(para)
-msgid ""
-"Using <keycap>Ctrl</keycap> with <keycap>Shift</keycap>, you can constrain "
-"the angle between two successive lines to vary by steps of 15°."
-msgstr ""
-
-#: src/toolbox/paint/smudge.xml:106(title)
-#: src/toolbox/paint/perspective-clone.xml:99(title)
-#: src/toolbox/paint/pencil.xml:116(title)
-#: src/toolbox/paint/paintbrush.xml:95(title)
-#: src/toolbox/paint/ink.xml:89(title) src/toolbox/paint/heal.xml:123(title)
-#: src/toolbox/paint/dodge-burn.xml:104(title)
-#: src/toolbox/paint/convolve.xml:130(title)
-#: src/toolbox/paint/clone.xml:145(title)
-#: src/toolbox/paint/bucket-fill.xml:113(title)
-#: src/toolbox/paint/blend.xml:130(title)
-#: src/toolbox/paint/airbrush.xml:100(title)
-msgid "Options"
-msgstr "Opties"
-
-#: src/toolbox/paint/smudge.xml:108(title)
-#, fuzzy
-msgid "The Smudge tool in Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
-
-#: src/toolbox/paint/smudge.xml:121(term)
-msgid ""
-"Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter; Hard edges; "
-"Rate"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/perspective-clone.xml:26(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-perspective-clone.png'; "
-"md5=7cde9a399de1d5b65d847fdaeae1b968"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/perspective-clone.xml:104(None)
-msgid ""
-"@@image: 'images/toolbox/perspective-clone-options.png'; "
-"md5=17eb100a8c11c2f4dccf5733022dc8ba"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/perspective-clone.xml:153(None)
-msgid ""
-"@@image: 'images/toolbox/perspective-clone-ex1.png'; "
-"md5=8764d98c5508868130e7ffb4d03c35db"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/perspective-clone.xml:165(None)
-msgid ""
-"@@image: 'images/toolbox/perspective-clone-ex2.png'; "
-"md5=cc40688b038715f2ae6a39ecc2c6c58b"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:12(title)
-#: src/toolbox/paint/perspective-clone.xml:15(secondary)
-#: src/toolbox/paint/perspective-clone.xml:18(primary)
-msgid "Perspective Clone"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:22(title)
-msgid "The <quote>Perspective Clone</quote> tool in the Toolbox"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:31(para)
-msgid ""
-"This tool allows you to clone according to the perspective you want. First, "
-"set the wanted vanishing lines in the same way as with the <link linkend="
-"\"gimp-tool-perspective\">Perspective</link> tool. Then copy the source area "
-"in the same way as with the <link linkend=\"gimp-tool-clone\">Clone</link> "
-"tool."
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:41(para)
-#: src/toolbox/paint/heal.xml:52(para)
-#: src/toolbox/paint/dodge-burn.xml:38(para)
-#: src/toolbox/paint/convolve.xml:76(para)
-#: src/toolbox/paint/blend.xml:86(para)
-msgid "There are different possibilities to activate the tool:"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:46(para)
-#, fuzzy
-msgid ""
-"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
-"tools</guisubmenu><guimenuitem>Perspective Clone</guimenuitem></menuchoice>."
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/perspective-clone.xml:56(para)
-msgid ""
-"The Tool can also be called by clicking the tool icon: "
-"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-perspective-"
-"clone-22.png\"/></guiicon> in the Toolbox."
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:76(para)
-msgid "<keycap>Ctrl</keycap>-click allows you to select a new clone source."
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:86(para)
-msgid ""
-"When the source is set and you press this key, you will see a thin line "
-"connecting the previously clicked point with the current pointer location. "
-"If you click again, while continuing to hold down the <keycap>Shift</keycap> "
-"key, the tool will clone along this line. Particularly useful when cloning "
-"from a pattern."
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:101(title)
-msgid "Perspective Clone tool options"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:113(term)
-#, fuzzy
-msgid "Operating mode"
-msgstr "Opties"
-
-#: src/toolbox/paint/perspective-clone.xml:115(para)
-msgid ""
-"When using this tool you first have to choose <guilabel>Modify Perspective</"
-"guilabel>. This works like the tool <link linkend=\"gimp-tool-perspective"
-"\">perspective</link>. Then you choose <guilabel>Perspective Clone</"
-"guilabel> and use this in the same way as the <link linkend=\"gimp-tool-clone"
-"\">Clone</link> tool."
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:126(term)
-msgid ""
-"Mode, Opacity, Brush, Scale, Brush Dynamics, Fade out, Apply Jitter, Hard "
-"Edge"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:135(term)
-msgid "Source, Alignment"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:137(para)
-#, fuzzy
-msgid ""
-"This are the same as in the tool <link linkend=\"gimp-tool-clone\">Clone</"
-"link>."
-msgstr "Op-kleur-selectie"
-
-#: src/toolbox/paint/perspective-clone.xml:147(title)
-msgid "Example"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:149(title)
-msgid "<quote>Perspective Clone</quote> example"
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:156(para)
-msgid ""
-"The <quote>Modify Perspective Plane</quote> is checked. Vanishing lines have "
-"been placed."
-msgstr ""
-
-#: src/toolbox/paint/perspective-clone.xml:168(para)
-msgid ""
-"The <quote>Perspective Clone</quote> option is checked. The white rectangle "
-"has been cloned. You see it goes smaller going away."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/pencil.xml:27(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-pencil.png'; "
-"md5=e628d364e9f62523c741f3defc9eafe6"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/pencil.xml:121(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-pencil.png'; "
-"md5=e828d2e97ba0061e0c1599d1bbe6aced"
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:14(title)
-#: src/toolbox/paint/pencil.xml:17(secondary)
-#: src/toolbox/paint/pencil.xml:20(primary)
-msgid "Pencil"
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:24(title)
-msgid "Pencil tool"
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:32(para)
-msgid ""
-"The Pencil tool is used to draw free hand lines with a hard edge. The pencil "
-"and paintbrush are similar tools. The main difference between the two tools "
-"is that although both use the same type of brush, the pencil tool will not "
-"produce fuzzy edges, even with a very fuzzy brush. It does not even do anti-"
-"aliasing."
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:39(para)
-msgid ""
-"Why would you want to work with such a crude tool? Perhaps the most "
-"important usage is when working with very small images, such as icons, where "
-"you operate at a high zoom level and need to get every pixel exactly right. "
-"With the pencil tool, you can be confident that every pixel within the brush "
-"outline will be changed in exactly the way you expect."
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:48(para)
-msgid ""
-"If you want to draw straight lines with the Pencil (or any of several other "
-"paint tools), click at the starting point, then hold down <keycap>Shift</"
-"keycap> and click at the ending point."
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:59(para)
-#, fuzzy
-msgid ""
-"The Pencil Tool can be called from the image-menu: "
-"<menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
-"guisubmenu><guimenuitem>Pencil</guimenuitem></menuchoice>"
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/pencil.xml:69(para)
-msgid ""
-"The Tool can also be called by clicking the tool icon: "
-"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-pencil-22.png\"/"
-"></guiicon>"
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:77(para)
-msgid "or by clicking on the <keycap>N</keycap> keyboard shortcut."
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:92(para)
-msgid ""
-"This key changes the pencil to a <link linkend=\"gimp-tool-color-picker"
-"\">Color Picker</link>."
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:103(para)
-msgid ""
-"This key places the pencil tool into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
-"will generate a straight line. Consecutive clicks will continue drawing "
-"straight lines that originate from the end of the last line."
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:118(title)
-msgid "<quote>Pencil</quote> Tool options"
-msgstr ""
-
-#: src/toolbox/paint/pencil.xml:130(term)
-#: src/toolbox/paint/paintbrush.xml:109(term)
-msgid ""
-"Mode; Opacity; Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; "
-"Incremental; Use Color from Gradient"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/paintbrush.xml:23(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-brush.png'; "
-"md5=4b8e2e02f6f41a69806768049afd992b"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/paintbrush.xml:100(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-paintbrush.png'; "
-"md5=a773c44226500f03158c685a1caacd95"
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:10(title)
-#: src/toolbox/paint/paintbrush.xml:13(secondary)
-#: src/toolbox/paint/paintbrush.xml:16(primary)
-#: src/toolbox/paint/paintbrush.xml:20(title)
-msgid "Paintbrush"
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:28(para)
-msgid ""
-"The paintbrush tool paints fuzzy brush strokes. All strokes are rendered "
-"using the current brush."
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:37(para)
-#, fuzzy
-msgid ""
-"You can call the Paintbrush Tool in the following order, from the image-"
-"menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
-"guisubmenu><guimenuitem>Paintbrush</guimenuitem></menuchoice>."
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/paintbrush.xml:48(para)
-msgid ""
-"The Tool can also be called by clicking the tool icon: "
-"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-paintbrush-22.png"
-"\"/></guiicon>"
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:56(para)
-msgid "or by using the <keycap>P</keycap> keyboard shortcut."
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:71(para)
-msgid ""
-"This key changes the paintbrush to a <link linkend=\"gimp-tool-color-picker"
-"\">Color Picker</link>."
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:82(para)
-msgid ""
-"This key places the paintbrush into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
-"will generate a straight line. Consecutive clicks will continue drawing "
-"straight lines that originate from the end of the last line."
-msgstr ""
-
-#: src/toolbox/paint/paintbrush.xml:97(title)
-msgid "Paintbrush tool options"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/ink.xml:30(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-pen.png'; "
-"md5=3cb7f77d63587e15ad5d170b4dfe493a"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/ink.xml:94(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-ink.png'; "
-"md5=a796fb68341de6d4b3d97d8459b7790d"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/ink.xml:195(None)
-msgid ""
-"@@image: 'images/tool-options/ink-type-circle.png'; "
-"md5=e7c4f89f1c36583389c9f78560bb166e"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:16(title) src/toolbox/paint/ink.xml:20(secondary)
-#: src/toolbox/paint/ink.xml:23(primary)
-msgid "Ink"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:27(title)
-msgid "The <quote>Ink</quote> tool in Toolbox"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:35(para)
-msgid ""
-"The Ink tool uses a simulation of an ink pen with a controllable nib to "
-"paint solid brush strokes with an antialiased edge. The size, shape and "
-"angle of the nib can be set to determine how the strokes will be rendered."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:43(para)
-#, fuzzy
-msgid "You can find the Ink tool in several ways :"
-msgstr ""
-"U kunt het rechthoekselectie gereedschap op een aantal verschillende "
-"manieren aanroepen:"
-
-#: src/toolbox/paint/ink.xml:46(para)
-#, fuzzy
-msgid ""
-"In the image-menu through: <menuchoice><guimenu>Tools</"
-"guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Ink</guimenuitem></"
-"menuchoice>."
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/ink.xml:56(para)
-msgid ""
-"By clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
-"toolbox/stock-tool-ink-22.png\"/></guiicon> in Toolbox,"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:64(para)
-msgid "or by using the <keycap>K</keycap> keyboard shortcut."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:79(para)
-msgid ""
-"This key changes the nib to a <link linkend=\"gimp-tool-color-picker\">Color "
-"Picker</link>."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:91(title)
-#, fuzzy
-msgid "Ink Tool options"
-msgstr ""
-"#-#-#-#-#  intro.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Gereedschap Instellingen\n"
-"#-#-#-#-#  tool-rect-select.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Gereedschapsopties"
-
-#: src/toolbox/paint/ink.xml:103(term)
-#: src/toolbox/paint/bucket-fill.xml:128(term)
-#: src/toolbox/paint/blend.xml:145(term)
-msgid "Mode; Opacity"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:109(term)
-msgid "Adjustment"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:113(term) src/toolbox/paint/ink.xml:138(term)
-#: src/toolbox/paint/common-features.xml:387(term)
-msgid "Size"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:115(para)
-msgid ""
-"Controls the apparent width of the pen's nib with values that ranges from 0 "
-"(very thin) to 20 (very thick)."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:122(term)
-msgid "Angle"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:124(para)
-msgid ""
-"This controls the apparent angle of the pen's nib relative to horizontal."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:134(term)
-msgid "Sensitivity"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:140(para)
-msgid ""
-"This controls the size of the nib, from minimum to maximum. Note that a size "
-"of 0 does not result in a nib of size zero, but rather a nib of minimum size."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:148(term)
-msgid "Tilt"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:150(para)
-msgid ""
-"Controls the apparent tilt of the nib relative to horizontal. This control "
-"and the Angle control described above are interrelated. Experimentation is "
-"the best means of learning how to use them."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:159(term)
-msgid "Speed"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:161(para)
-msgid ""
-"This controls the effective size of the nib as a function of drawing speed. "
-"That is, as with a physical pen, the faster you draw, the narrower the line."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:172(term)
-msgid "Type and Shape"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:176(term)
-#: src/toolbox/paint/dodge-burn.xml:127(term)
-msgid "Type"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:178(para)
-msgid "There are three nib shapes to choose from: circle, square, and diamond."
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:185(term) src/toolbox/paint/blend.xml:193(term)
-msgid "Shape"
-msgstr ""
-
-#: src/toolbox/paint/ink.xml:187(para)
-msgid ""
-"The geometry of the nib type can be adjusted by holding button 1 of the "
-"mouse on the small square at the center of the Shape icon and moving it "
-"around."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/heal.xml:26(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-heal.png'; "
-"md5=a4bcf023c36a0802a0ecebe7858c7f36"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/heal.xml:128(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-heal.png'; "
-"md5=1d69fc014dd1a5db49a4e72f9750d7ae"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/heal.xml:176(None)
-msgid ""
-"@@image: 'images/toolbox/heal-compar.png'; "
-"md5=920f5f8c9590a7870b8206c8df35ec15"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:13(title)
-#: src/toolbox/paint/heal.xml:16(secondary)
-#: src/toolbox/paint/heal.xml:19(primary)
-msgid "Heal"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:23(title)
-#, fuzzy
-msgid "The <quote>Heal tool</quote> in the Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
-
-#: src/toolbox/paint/heal.xml:30(para)
-msgid ""
-"This tool was once described as <quote>The healing brush looks like a smart "
-"clone tool on steroids</quote>. And indeed the Healing Tool is a close "
-"relative to the Clone Tool, but it is more smart to remove small failures in "
-"images. A typical usage is the removal of wrinkles in photographs. To do so, "
-"pixels are not simply copied from source to destination, but the area around "
-"the destination is taken into account before cloning is applied. The "
-"algorithm used for this, is described in a scientific paper by Todor "
-"Georgiev <xref linkend=\"bibliography-online-georgiev\"/>."
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:41(para)
-msgid ""
-"To use it, first choose a brush with a size adapted to the defect. Then "
-"<keycap>Ctrl</keycap>-click on the area you want to reproduce. Release the "
-"<keycap>Ctrl</keycap> key and drag the sample to the defect. Click. If the "
-"defect is slight, not very different from its surrounding, it will be "
-"corrected as soon. Else, you can correct it with repeated clicks, but with a "
-"risk of daubing"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:57(para)
-#, fuzzy
-msgid ""
-"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
-"tools</guisubmenu><guimenuitem>Heal</guimenuitem></menuchoice>,"
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/heal.xml:67(para)
-msgid ""
-"or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
-"toolbox/stock-tool-heal-22.png\"/></guiicon> in the Toolbox,"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:76(para)
-msgid "or by clicking on the <keycap>H</keycap> keyboard shortcut."
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:91(para)
-msgid ""
-"The <keycap>Ctrl</keycap> key is used to select the source. You can heal "
-"from any layer of any image, by clicking on the image display, with the "
-"<keycap>Ctrl</keycap> key held down, while the layer is active (as shown in "
-"the Layers dialog). If Alignment is set to <quote>Non-aligned</quote> or "
-"<quote>Aligned</quote> in Tool Options, then the point you click on becomes "
-"the origin for healing: the image data at that point will be used when you "
-"first begin painting with the Heal tool. In source-selection mode, the "
-"cursor changes to a crosshair-symbol."
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:110(para)
-msgid ""
-"Once the source is set, if you press this key, you will see a thin line "
-"connecting the previously clicked point with the current pointer location. "
-"If you click again, while going on holding the <keycap>Shift</keycap> key "
-"down, the tool will <quote>heal</quote> along this line."
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:125(title)
-#, fuzzy
-msgid "Heal Tool options"
-msgstr ""
-"#-#-#-#-#  intro.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Gereedschap Instellingen\n"
-"#-#-#-#-#  tool-rect-select.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Gereedschapsopties"
-
-#: src/toolbox/paint/heal.xml:137(term)
-msgid ""
-"Mode; Opacity; Brush; Scale; Brush Dynamics, Fade out, Apply Jitter, Hard "
-"Edges"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:146(term)
-msgid "Sample merged"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:148(para)
-msgid ""
-"If you enable this option, healing is not calculated only from the values of "
-"the active layer, but from all visible layers."
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:155(term) src/toolbox/paint/clone.xml:224(term)
-msgid "Alignment"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:157(para)
-#, fuzzy
-msgid ""
-"This option is described in <link linkend=\"gimp-tool-clone\">Clone tool</"
-"link>."
-msgstr "Op-kleur-selectie"
-
-#: src/toolbox/paint/heal.xml:167(title)
-msgid "Healing is not cloning"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:168(para)
-msgid ""
-"Although the Heal tool has common features with the Clone tool on using, the "
-"result is quite different."
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:173(title)
-msgid "Comparing <quote>Clone</quote> and <quote>Heal</quote>"
-msgstr ""
-
-#: src/toolbox/paint/heal.xml:179(para)
-msgid ""
-"Two black spots in the red area. Zoom x800. The source is where the four "
-"colors meet. Cloning on the left spot. Healing on the right spot."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/eraser.xml:35(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-eraser.png'; "
-"md5=fc1b140da420677c23581b4c863a43cf"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/eraser.xml:56(None)
-msgid ""
-"@@image: 'images/toolbox/eraser-ex1.png'; "
-"md5=171238f57248215d31679005777c354b"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/eraser.xml:67(None)
-msgid ""
-"@@image: 'images/toolbox/eraser-ex2.png'; "
-"md5=8204a324ca11c64d70b5c1749a1a3c5e"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/eraser.xml:177(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-eraser.png'; "
-"md5=2d422b1ef4b36ec26f574e55415fb913"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:18(title)
-#: src/toolbox/paint/eraser.xml:21(secondary)
-#: src/toolbox/paint/eraser.xml:24(primary)
-msgid "Eraser"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:27(primary)
-#: src/toolbox/paint/common-features.xml:261(primary)
-#: src/toolbox/paint/clone.xml:390(term)
-msgid "Transparency"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:28(secondary)
-msgid "Eraser tool"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:32(title)
-#, fuzzy
-msgid "Eraser tool icon in the Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
-
-#: src/toolbox/paint/eraser.xml:40(para)
-msgid ""
-"The Eraser is used to remove areas of color from the current layer or from a "
-"selection of this layer. If the Eraser is used on something that does not "
-"support transparency (a selection mask channel, a layer mask, or the "
-"Background layer if it lacks an alpha channel), then erasing will show the "
-"background color, as displayed in the Color Area of the Toolbox (in case of "
-"a mask, the selection will be modified). Otherwise, erasing will produce "
-"either partial or full transparency, depending on the settings for the tool "
-"options. You can learn more on how to add an alpha channel to a layer in "
-"<xref linkend=\"gimp-layer-alpha-add\"/>."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:53(title)
-msgid "Eraser and Alpha channel"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:59(para)
-msgid ""
-"The Background Color is White. The image has no Alpha channel. The Eraser "
-"(Opacity 100%) shows the BG color."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:70(para)
-msgid "The image has an Alpha channel. The Eraser shows transparency."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:77(para)
-msgid ""
-"If you need to erase some group of pixels completely, leaving no trace "
-"behind of their previous contents, you should check the \"Hard edge\" box in "
-"the Tool Options. Otherwise, sub-pixel brush placement will cause partial "
-"erasure at the edges of the brush-stroke, even if you use a hard-edged brush."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:86(para)
-msgid ""
-"If you use GIMP with a tablet, you may find it convenient to treat the "
-"reverse end of the stylus as an eraser. To make this work, all you need to "
-"do is click the reverse end on the Eraser tool in the Toolbox. Because each "
-"end of the stylus is treated as a separate input device, and each input "
-"device has its own separate tool assignment, the reverse end will then "
-"continue to function as an Eraser as long as you don't select a different "
-"tool with it."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:98(title)
-#: src/toolbox/paint/clone.xml:79(title)
-#: src/toolbox/paint/bucket-fill.xml:65(title)
-#, fuzzy
-msgid "Activating the tool"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
-
-#: src/toolbox/paint/eraser.xml:99(para) src/toolbox/paint/clone.xml:80(para)
-#, fuzzy
-msgid "You can activate this tool in several ways:"
-msgstr ""
-"U kunt het rechthoekselectie gereedschap op een aantal verschillende "
-"manieren aanroepen:"
-
-#: src/toolbox/paint/eraser.xml:102(para)
-#, fuzzy
-msgid ""
-"From the image menu through <menuchoice><guimenu>Tools</"
-"guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Eraser</"
-"guimenuitem></menuchoice>;"
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/eraser.xml:112(para)
-msgid ""
-"from the Toolbox by clicking on the tool icon <guiicon><inlinegraphic "
-"fileref=\"images/toolbox/stock-tool-eraser-22.png\"/></guiicon>;"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:120(para)
-msgid ""
-"or from the keyboard using the shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>E</keycap></keycombo>."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:129(title)
-#: src/toolbox/paint/common-features.xml:146(title)
-#: src/toolbox/paint/brush-tools.xml:68(title)
-msgid "Key modifiers"
-msgstr "Sneltoetsen"
-
-#: src/toolbox/paint/eraser.xml:130(para)
-msgid ""
-"See the <xref linkend=\"gimp-tool-brush\"/> for a description of key "
-"modifiers that have the same effect on all paint tools."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:140(para)
-msgid ""
-"For the Eraser, holding down the <keycap>Ctrl</keycap> key puts it into "
-"<quote>color picker</quote> mode, so that it selects the color of any pixel "
-"it is clicked on. Unlike other brush tools, however, the Eraser sets the "
-"<emphasis>background</emphasis> color rather than the foreground color. This "
-"is more useful, because on drawables that don't support transparency, "
-"erasing replaces the erased areas with the current background color."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:153(keycap)
-msgid "Alt"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:156(para)
-msgid ""
-"For the Eraser, holding down the <keycap>Alt</keycap> key switches it into "
-"<quote>anti-erase</quote> mode, as described below in the Tool Options "
-"section. Note that on some systems, the <keycap>Alt</keycap> key is trapped "
-"by the Window Manager. If this happens to you, you may be able to use "
-"<keycombo><keycap>Alt</keycap><keycap>Shift</keycap></keycombo> instead."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:171(title)
-#: src/toolbox/paint/common-features.xml:215(title)
-#, fuzzy
-msgid "Tool Options"
-msgstr ""
-"#-#-#-#-#  intro.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Gereedschap Instellingen\n"
-"#-#-#-#-#  tool-rect-select.po (PACKAGE VERSION)  #-#-#-#-#\n"
-"Gereedschapsopties"
-
-#: src/toolbox/paint/eraser.xml:173(title)
-#, fuzzy
-msgid "Tool Options for the Eraser tool"
-msgstr "Gereedschapsopties voor het rechthoekselectie gereedschap"
-
-#: src/toolbox/paint/eraser.xml:186(term)
-msgid "Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; Incremental"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:194(term)
-#: src/toolbox/paint/common-features.xml:258(term)
-#: src/toolbox/paint/common-features.xml:265(primary)
-#: src/toolbox/paint/common-features.xml:359(term)
-msgid "Opacity"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:196(para)
-msgid ""
-"The <guilabel>Opacity</guilabel> slider, in spite of its name, determines "
-"the <quote>strength</quote> of the tool. Thus, when you erase on a layer "
-"with an alpha channel, the higher the opacity you use, the more transparency "
-"you get!"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:205(term)
-#, fuzzy
-msgid "Hard Edge"
-msgstr "Zachte Randen"
-
-#: src/toolbox/paint/eraser.xml:207(para)
-msgid ""
-"This option avoids partial erasure at the edges of the brush-stroke. See "
-"above."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:214(term)
-msgid "Anti Erase"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:216(para)
-msgid ""
-"The Anti Erase option of the Erase tool can un-erase areas of an image, even "
-"if they are completely transparent. This feature only works when used on "
-"layers with an alpha channel. In addition to the check-button in the Tool "
-"Options, it can also be activated on-the-fly by holding down the "
-"<keycap>Alt</keycap> key (or, if the <keycap>Alt</keycap> key is trapped by "
-"the Window Manager, by holding down <keycombo><keycap>Alt</"
-"keycap><keycap>Shift</keycap></keycombo>)."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:227(para)
-msgid ""
-"To understand how anti-erasing is possible, you should realize that erasing "
-"(or cutting, for that matter) only affects the alpha channel, not the RGB "
-"channels that contain the image data. Even if the result is completely "
-"transparent, the RGB data is still there, you simply can't see it. Anti-"
-"erasing increases the alpha value so that you can see the RGB data once "
-"again."
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:249(primary)
-#, fuzzy
-msgid "Selection"
-msgstr "Selecties"
-
-#: src/toolbox/paint/eraser.xml:250(secondary)
-msgid "Change shape"
-msgstr ""
-
-#: src/toolbox/paint/eraser.xml:252(para)
-msgid ""
-"You can use the Eraser tool to change the shape of a floating selection. By "
-"erasing, you can trim the edges of the selection."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/dodge-burn.xml:26(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-dodge.png'; "
-"md5=05d2ece7a1d70dd78920a622b5eaf28b"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/dodge-burn.xml:109(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-dodge.png'; "
-"md5=052e3f348dde6e41cb0353bd19e1bd0c"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:13(title)
-#: src/toolbox/paint/dodge-burn.xml:16(secondary)
-#: src/toolbox/paint/dodge-burn.xml:19(primary)
-msgid "Dodge/Burn"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:23(title)
-msgid "Dodge tool"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:30(para)
-msgid ""
-"The Dodge or Burn tool uses the current brush to lighten or darken the "
-"colors in your image. The mode will determine which type of pixels are "
-"affected."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:43(para)
-#, fuzzy
-msgid ""
-"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
-"Tools</guisubmenu><guimenuitem>Dodge / Burn</guimenuitem></menuchoice>."
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/dodge-burn.xml:53(para)
-msgid ""
-"The Tool can also be called by clicking the tool icon: "
-"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-dodge-22.png\"/"
-"></guiicon>,"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:62(para)
-msgid ""
-"or by using the <keycombo><keycap>Shift</keycap><keycap>D</keycap></"
-"keycombo> keyboard shortcut."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:79(para)
-msgid ""
-"Toggle between dodge or burn types. The type will remain switched until "
-"<keycap>Ctrl</keycap> is released."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:90(para)
-msgid ""
-"<keycap>Shift</keycap> places the Dodge or Burn tool into straight line "
-"mode. Holding <keycap>Shift</keycap> while clicking <mousebutton>Button1</"
-"mousebutton> will Dodge or Burn in a straight line. Consecutive clicks will "
-"continue Dodge or Burn in straight lines that originate from the end of the "
-"last line."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:106(title)
-msgid "<quote>Dodge/Burn</quote> tool options"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:118(term)
-msgid ""
-"Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter, Hard edges"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:129(para)
-msgid "The dodge effect lightens colors."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:130(para)
-msgid "The burn effect darkens colors."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:134(term)
-msgid "Range"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:136(para)
-msgid "There are three modes:"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:139(para)
-msgid "<guilabel>Shadows</guilabel> restricts the effect to darkest pixels."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:144(para)
-msgid ""
-"<guilabel>Midtones</guilabel> restricts the effect to pixels of average tone."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:149(para)
-msgid ""
-"<guilabel>Highlights</guilabel> restricts the effect to lightest pixels."
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:157(term)
-msgid "Exposure"
-msgstr ""
-
-#: src/toolbox/paint/dodge-burn.xml:159(para)
-msgid ""
-"Exposure defines how much the tool effect will be strong, as a more or less "
-"exposed photograph. Default slider is 50 but can vary from 0 to 100."
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/convolve.xml:29(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-blur.png'; "
-"md5=b29caec2a631aeeffa7f1dd33ab97cd5"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/convolve.xml:136(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-blur-sharpen.png'; "
-"md5=4e5d2fda5c997c3a2b17a43926a27567"
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:16(title)
-#: src/toolbox/paint/convolve.xml:19(secondary)
-#: src/toolbox/paint/convolve.xml:22(primary)
-msgid "Blur/Sharpen"
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:26(title)
-#, fuzzy
-msgid "Blur/Sharpen tool icon in the Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
-
-#: src/toolbox/paint/convolve.xml:33(para)
-msgid ""
-"The Blur/Sharpen tool uses the current brush to locally blur or sharpen your "
-"image. Blurring with it can be useful if some element of your image stands "
-"out too much, and you would like to soften it. If you want to blur a whole "
-"layer, or a large part of one, you will probably be better off using one of "
-"the <link linkend=\"filters-blur\">Blur Filters</link>. The direction of a "
-"brushstroke has no effect: if you want directional blurring, use the Smudge "
-"tool."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:42(para)
-msgid ""
-"In <quote>Sharpen</quote> mode, the tool works by increasing the contrast "
-"where the brush is applied. A little bit of this may be useful, but over-"
-"application will produce noise. Some of the <link linkend=\"filters-enhance"
-"\">Enhancement Filters</link>, particularly the <link linkend=\"plug-in-"
-"unsharp-mask\">Unsharp Mask</link>, do a much cleaner job of sharpening "
-"areas of a layer."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:52(para)
-msgid ""
-"You can create a more sophisticated sharpening brush using the Clone tool. "
-"To do this, start by duplicating the layer you want to work on, and run a "
-"sharpening filter, such as Unsharp Mask, on the copy. Then activate the "
-"Clone tool, and in its Tool Options set Source to <quote>Image source</"
-"quote> and Alignment to <quote>Registered</quote>. Set the Opacity to a "
-"modest value, such as 10. Then <keycap>Ctrl</keycap>-click on the copy to "
-"make it the source image. If you now paint on the original layer, you will "
-"mix together, where the brush is applied, the sharpened version with the "
-"unsharpened version."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:65(para)
-msgid ""
-"Both blurring and sharpening work incrementally: moving the brush repeatedly "
-"over an area will increase the effect with each additional pass. The Rate "
-"control allows you to determine how quickly the modifications accumulate. "
-"The Opacity control, however, can be used to limit the amount of blurring "
-"that can be produced by a single brushstroke, regardless of how many passes "
-"are made with it."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:81(para)
-#, fuzzy
-msgid ""
-"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
-"tools</guisubmenu><guimenuitem>Blur/Sharpen</guimenuitem></menuchoice>."
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/convolve.xml:90(para)
-msgid ""
-"The Tool can also be called by clicking the tool icon: "
-"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-blur-22.png\"/></"
-"guiicon> in the Toolbox."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:100(para)
-#, fuzzy
-msgid ""
-"By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>U</"
-"keycap></keycombo>."
-msgstr "Door het gebruik van de sneltoets <keycap>R</keycap>."
-
-#: src/toolbox/paint/convolve.xml:110(para)
-msgid ""
-"See the <link linkend=\"gimp-tool-brush\">Paint Tools' Common Features</"
-"link> for a description of key modifiers that have the same effect on all "
-"paint tools."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:119(para)
-msgid ""
-"Holding down the <keycap>Ctrl</keycap> key toggles between Blur and Sharpen "
-"modes; it reverses the setting shown in the Tool Options."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:132(title)
-#, fuzzy
-msgid "Tool Options for the Blur/Sharpen tool"
-msgstr "Gereedschapsopties voor het rechthoekselectie gereedschap"
-
-#: src/toolbox/paint/convolve.xml:145(term)
-msgid ""
-"Opacity; Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; Hard Edges"
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:154(term)
-msgid "Convolve Type"
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:156(para)
-msgid ""
-"<emphasis>Blur</emphasis> mode causes each pixel affected by the brush to be "
-"blended with neighboring pixels, thereby increasing the similarity of pixels "
-"inside the brushstroke area. <emphasis>Sharpen</emphasis> mode causes each "
-"pixel to become more different from its neighbors than it previously was: it "
-"increases contrast inside the brushstroke area. Too much Sharpen ends in an "
-"ugly flocculation aspect. Whatever setting you choose here, you can reverse "
-"it on-the-fly by holding down the <keycap>Ctrl</keycap> key."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:167(para)
-msgid "<quote>Convolve</quote> refers to a mathematical method using matrices."
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:174(term)
-#: src/toolbox/paint/common-features.xml:377(term)
-#: src/toolbox/paint/airbrush.xml:123(term)
-msgid "Rate"
-msgstr ""
-
-#: src/toolbox/paint/convolve.xml:176(para)
-msgid ""
-"The <guilabel>Rate</guilabel> slider sets the strength of the Blur/Sharpen "
-"effect."
-msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1556,24 +226,20 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:42(para)
-#, fuzzy
 msgid "the <link linkend=\"gimp-tool-pencil\">Pencil</link>,"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:47(para)
-#, fuzzy
 msgid "the <link linkend=\"gimp-tool-paintbrush\">Paintbrush</link>,"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:52(para)
-#, fuzzy
 msgid "the <link linkend=\"gimp-tool-airbrush\">Airbrush</link> and"
-msgstr "Ovale selectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:57(para)
-#, fuzzy
 msgid "the <link linkend=\"gimp-tool-ink\">Ink tool</link>"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:63(para)
 msgid ""
@@ -1589,29 +255,25 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:74(para)
-#, fuzzy
 msgid ""
 "the <link linkend=\"gimp-tool-bucket-fill\">Bucket Fill</link> fills with "
 "color or pattern;"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:80(para)
-#, fuzzy
 msgid ""
 "the <link linkend=\"gimp-tool-blend\">Gradient</link> fills with gradients;"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:86(para)
-#, fuzzy
 msgid "the <link linkend=\"gimp-tool-eraser\">Eraser</link> erases;"
-msgstr "Ovale selectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:91(para)
-#, fuzzy
 msgid ""
 "the <link linkend=\"gimp-tool-clone\">Clone tool</link> copies from a "
 "pattern, or image;"
-msgstr "Semi-automatisch selecteren (Intelligente Scharen)"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:97(para)
 msgid ""
@@ -1620,22 +282,19 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:103(para)
-#, fuzzy
 msgid ""
 "the <link linkend=\"gimp-tool-heal\">Heal tool</link> corrects small defects;"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:109(para)
-#, fuzzy
 msgid ""
 "the <link linkend=\"gimp-tool-convolve\">Convolve tool</link> blurs or "
 "sharpens;"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:115(para)
-#, fuzzy
 msgid "the <link linkend=\"gimp-tool-smudge\">Smudge tool</link> smears;"
-msgstr "Rechthoekigselectie"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:120(para)
 msgid ""
@@ -1663,6 +322,30 @@ msgid ""
 "more information."
 msgstr ""
 
+#: src/toolbox/paint/common-features.xml:146(title)
+#: src/toolbox/paint/brush-tools.xml:68(title)
+#: src/toolbox/paint/eraser.xml:129(title)
+msgid "Key modifiers"
+msgstr "Sneltoetsen"
+
+#: src/toolbox/paint/common-features.xml:150(keycap)
+#: src/toolbox/paint/common-features.xml:196(keycap)
+#: src/toolbox/paint/perspective-clone.xml:73(keycap)
+#: src/toolbox/paint/dodge-burn.xml:76(keycap)
+#: src/toolbox/paint/brush-tools.xml:72(keycap)
+#: src/toolbox/paint/clone.xml:119(keycap)
+#: src/toolbox/paint/heal.xml:88(keycap)
+#: src/toolbox/paint/smudge.xml:92(keycap)
+#: src/toolbox/paint/ink.xml:76(keycap)
+#: src/toolbox/paint/airbrush.xml:75(keycap)
+#: src/toolbox/paint/blend.xml:120(keycap)
+#: src/toolbox/paint/pencil.xml:89(keycap)
+#: src/toolbox/paint/eraser.xml:137(keycap)
+#: src/toolbox/paint/convolve.xml:117(keycap)
+#: src/toolbox/paint/paintbrush.xml:68(keycap)
+msgid "Ctrl"
+msgstr ""
+
 #: src/toolbox/paint/common-features.xml:153(para)
 msgid ""
 "Holding down the <keycap>Ctrl</keycap> key has a special effect on every "
@@ -1676,6 +359,19 @@ msgid ""
 "between blur and sharpen modes; for the Dodge/Burn tool, it switches between "
 "dodging and burning."
 msgstr ""
+
+#: src/toolbox/paint/common-features.xml:171(keycap)
+#: src/toolbox/paint/common-features.xml:197(keycap)
+#: src/toolbox/paint/perspective-clone.xml:83(keycap)
+#: src/toolbox/paint/dodge-burn.xml:87(keycap)
+#: src/toolbox/paint/brush-tools.xml:87(keycap)
+#: src/toolbox/paint/heal.xml:107(keycap)
+#: src/toolbox/paint/smudge.xml:78(keycap)
+#: src/toolbox/paint/airbrush.xml:85(keycap)
+#: src/toolbox/paint/pencil.xml:100(keycap)
+#: src/toolbox/paint/paintbrush.xml:79(keycap)
+msgid "Shift"
+msgstr "Verschuiven"
 
 #: src/toolbox/paint/common-features.xml:175(primary)
 msgid "Straight Line"
@@ -1703,10 +399,20 @@ msgid ""
 "horizontal, vertical, or diagonal lines."
 msgstr ""
 
+#: src/toolbox/paint/common-features.xml:215(title)
+#: src/toolbox/paint/eraser.xml:171(title)
+#, fuzzy
+msgid "Tool Options"
+msgstr ""
+"#-#-#-#-#  intro.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Gereedschap Instellingen\n"
+"#-#-#-#-#  tool-rect-select.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Gereedschapsopties"
+
 #: src/toolbox/paint/common-features.xml:217(title)
 #, fuzzy
 msgid "Tool options shared by paint tools"
-msgstr "Gereedschapsopties voor het rechthoekselectie gereedschap"
+msgstr "Gereedschappen worden aangetrokken door hulplijnen"
 
 #: src/toolbox/paint/common-features.xml:226(para)
 msgid ""
@@ -1716,8 +422,9 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:232(variablelist:xreflabel)
+#, fuzzy
 msgid "Painting Modes"
-msgstr ""
+msgstr "Teken_modus"
 
 #: src/toolbox/paint/common-features.xml:234(term)
 msgid "Mode"
@@ -1743,15 +450,30 @@ msgid ""
 "\"gimp-paint-mode-examples\">below</link>."
 msgstr ""
 
+#: src/toolbox/paint/common-features.xml:258(term)
+#: src/toolbox/paint/common-features.xml:265(primary)
+#: src/toolbox/paint/common-features.xml:359(term)
+#: src/toolbox/paint/eraser.xml:194(term)
+msgid "Opacity"
+msgstr "Dekking"
+
+#: src/toolbox/paint/common-features.xml:261(primary)
+#: src/toolbox/paint/clone.xml:390(term)
+#: src/toolbox/paint/eraser.xml:27(primary)
+msgid "Transparency"
+msgstr "Transparantie"
+
 #: src/toolbox/paint/common-features.xml:262(secondary)
+#, fuzzy
 msgid "Brush opacity"
-msgstr ""
+msgstr "AG-ondoorzichtigheid"
 
 #: src/toolbox/paint/common-features.xml:266(secondary)
 #: src/toolbox/paint/common-features.xml:284(term)
 #: src/toolbox/paint/brush-tools.xml:25(secondary)
+#, fuzzy
 msgid "Brush"
-msgstr ""
+msgstr "Pe_nseel"
 
 #: src/toolbox/paint/common-features.xml:268(para)
 msgid ""
@@ -1781,7 +503,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:303(term)
 msgid "Scale"
-msgstr ""
+msgstr "Schalen"
 
 #: src/toolbox/paint/common-features.xml:305(para)
 msgid ""
@@ -1794,8 +516,9 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:316(varlistentry:xreflabel)
 #: src/toolbox/paint/common-features.xml:317(term)
+#, fuzzy
 msgid "Brush Dynamics"
-msgstr ""
+msgstr "Penseeldynamiek"
 
 #: src/toolbox/paint/common-features.xml:320(title)
 msgid "The Brush Dynamics check box."
@@ -1838,8 +561,9 @@ msgid "The effect of this option is described above."
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:367(term)
+#, fuzzy
 msgid "Hardness"
-msgstr ""
+msgstr "Hardheid"
 
 #: src/toolbox/paint/common-features.xml:369(para)
 msgid ""
@@ -1847,12 +571,25 @@ msgid ""
 "harder you press, the darker the fuzzy parts of the brush will appear."
 msgstr ""
 
+#: src/toolbox/paint/common-features.xml:377(term)
+#: src/toolbox/paint/airbrush.xml:123(term)
+#: src/toolbox/paint/convolve.xml:174(term)
+#, fuzzy
+msgid "Rate"
+msgstr "Mate"
+
 #: src/toolbox/paint/common-features.xml:379(para)
 msgid ""
 "This option applies to the Airbrush, Convolve tool, and Smudge tool, all of "
 "which have time-based effects. Pressing harder makes these tools act more "
 "rapidly."
 msgstr ""
+
+#: src/toolbox/paint/common-features.xml:387(term)
+#: src/toolbox/paint/ink.xml:113(term) src/toolbox/paint/ink.xml:138(term)
+#, fuzzy
+msgid "Size"
+msgstr "Grootte"
 
 #: src/toolbox/paint/common-features.xml:389(para)
 msgid ""
@@ -1863,7 +600,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:397(term)
 msgid "Color"
-msgstr ""
+msgstr "Kleur"
 
 #: src/toolbox/paint/common-features.xml:399(para)
 msgid ""
@@ -1888,7 +625,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:426(term)
 msgid "Apply Jitter"
-msgstr ""
+msgstr "Jitter toepassen"
 
 #: src/toolbox/paint/common-features.xml:429(primary)
 msgid "Jitter"
@@ -1913,7 +650,7 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:456(term)
 msgid "Incremental"
-msgstr ""
+msgstr "Oplopend"
 
 #: src/toolbox/paint/common-features.xml:458(para)
 msgid ""
@@ -1953,8 +690,9 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:499(term)
 #: src/toolbox/paint/blend.xml:151(term)
+#, fuzzy
 msgid "Gradient"
-msgstr ""
+msgstr "Kleurverlopen"
 
 #: src/toolbox/paint/common-features.xml:501(para)
 msgid ""
@@ -1962,9 +700,11 @@ msgid ""
 "Gradient Selector, which will allow you to choose a different gradient."
 msgstr ""
 
+# Dit is een chekbox waarmee een kleurverloop wordt omgedraaid.
+# omgekeerd/omgedraaid/terugdraaien/teruggedraaid
 #: src/toolbox/paint/common-features.xml:509(term)
 msgid "Reverse"
-msgstr ""
+msgstr "Omgekeerd"
 
 #: src/toolbox/paint/common-features.xml:511(para)
 msgid ""
@@ -2004,7 +744,7 @@ msgstr ""
 #: src/toolbox/paint/common-features.xml:558(para)
 #: src/toolbox/paint/clone.xml:265(term)
 msgid "None"
-msgstr ""
+msgstr "Geen"
 
 #: src/toolbox/paint/common-features.xml:567(para)
 msgid "Sawtooth"
@@ -2040,8 +780,9 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:617(title)
+#, fuzzy
 msgid "Paint Mode Examples"
-msgstr ""
+msgstr "Teken_modus"
 
 #: src/toolbox/paint/common-features.xml:619(para)
 msgid ""
@@ -2106,12 +847,14 @@ msgid "Wilber over a blue background layer"
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:696(para)
+#, fuzzy
 msgid "Layers dialog"
-msgstr ""
+msgstr "Het dialoogvenster Lagen openen"
 
 #: src/toolbox/paint/common-features.xml:705(para)
+#, fuzzy
 msgid "Filled with pattern"
-msgstr ""
+msgstr "Met patroon vullen"
 
 #: src/toolbox/paint/common-features.xml:709(para)
 msgid ""
@@ -2148,9 +891,8 @@ msgstr ""
 
 #: src/toolbox/paint/common-features.xml:748(term)
 #: src/toolbox/paint/common-features.xml:752(secondary)
-#, fuzzy
 msgid "Color Erase"
-msgstr "Kleurgereedschappen"
+msgstr ""
 
 #: src/toolbox/paint/common-features.xml:755(primary)
 msgid "Color Erase (paint mode)"
@@ -2161,8 +903,9 @@ msgid "Example for layer mode <quote>Color erase</quote>"
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:774(para)
+#, fuzzy
 msgid "White foreground color erased"
-msgstr ""
+msgstr "De voorgrondkleur van het raster."
 
 #: src/toolbox/paint/common-features.xml:778(para)
 msgid ""
@@ -2205,8 +948,9 @@ msgid "Painting in <quote>Color Erase</quote> mode"
 msgstr ""
 
 #: src/toolbox/paint/common-features.xml:825(para)
+#, fuzzy
 msgid "Painted with 1. blue; 2. red; 3. background color"
-msgstr ""
+msgstr "Vullen met _achtergrondkleur"
 
 #: src/toolbox/paint/common-features.xml:837(title)
 #: src/toolbox/paint/clone.xml:387(title)
@@ -2224,6 +968,404 @@ msgid ""
 "pasting, or for operating pixel-by-pixel at a high zoom level), use the "
 "Pencil tool, which makes all brushes perfectly hard and disables sub-pixel "
 "anti-aliasing."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/perspective-clone.xml:26(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-perspective-clone.png'; "
+"md5=7cde9a399de1d5b65d847fdaeae1b968"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/perspective-clone.xml:104(None)
+msgid ""
+"@@image: 'images/toolbox/perspective-clone-options.png'; "
+"md5=17eb100a8c11c2f4dccf5733022dc8ba"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/perspective-clone.xml:153(None)
+msgid ""
+"@@image: 'images/toolbox/perspective-clone-ex1.png'; "
+"md5=8764d98c5508868130e7ffb4d03c35db"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/perspective-clone.xml:165(None)
+msgid ""
+"@@image: 'images/toolbox/perspective-clone-ex2.png'; "
+"md5=cc40688b038715f2ae6a39ecc2c6c58b"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:12(title)
+#: src/toolbox/paint/perspective-clone.xml:15(secondary)
+#: src/toolbox/paint/perspective-clone.xml:18(primary)
+msgid "Perspective Clone"
+msgstr "Klonen met perspectief"
+
+#: src/toolbox/paint/perspective-clone.xml:14(primary)
+#: src/toolbox/paint/dodge-burn.xml:15(primary)
+#: src/toolbox/paint/brush-tools.xml:20(primary)
+#: src/toolbox/paint/brush-tools.xml:24(primary)
+#: src/toolbox/paint/clone.xml:25(primary)
+#: src/toolbox/paint/heal.xml:15(primary)
+#: src/toolbox/paint/smudge.xml:17(primary)
+#: src/toolbox/paint/bucket-fill.xml:18(primary)
+#: src/toolbox/paint/ink.xml:19(primary)
+#: src/toolbox/paint/airbrush.xml:22(primary)
+#: src/toolbox/paint/blend.xml:31(primary)
+#: src/toolbox/paint/pencil.xml:16(primary)
+#: src/toolbox/paint/eraser.xml:20(primary)
+#: src/toolbox/paint/convolve.xml:18(primary)
+#: src/toolbox/paint/paintbrush.xml:12(primary)
+msgid "Tools"
+msgstr "Gereedschap"
+
+#: src/toolbox/paint/perspective-clone.xml:22(title)
+msgid "The <quote>Perspective Clone</quote> tool in the Toolbox"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:31(para)
+msgid ""
+"This tool allows you to clone according to the perspective you want. First, "
+"set the wanted vanishing lines in the same way as with the <link linkend="
+"\"gimp-tool-perspective\">Perspective</link> tool. Then copy the source area "
+"in the same way as with the <link linkend=\"gimp-tool-clone\">Clone</link> "
+"tool."
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:40(title)
+#: src/toolbox/paint/dodge-burn.xml:37(title)
+#: src/toolbox/paint/heal.xml:51(title) src/toolbox/paint/smudge.xml:39(title)
+#: src/toolbox/paint/ink.xml:42(title)
+#: src/toolbox/paint/airbrush.xml:40(title)
+#: src/toolbox/paint/blend.xml:85(title)
+#: src/toolbox/paint/pencil.xml:56(title)
+#: src/toolbox/paint/convolve.xml:75(title)
+#: src/toolbox/paint/paintbrush.xml:34(title)
+msgid "Activating the Tool"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:41(para)
+#: src/toolbox/paint/dodge-burn.xml:38(para)
+#: src/toolbox/paint/heal.xml:52(para) src/toolbox/paint/blend.xml:86(para)
+#: src/toolbox/paint/convolve.xml:76(para)
+msgid "There are different possibilities to activate the tool:"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:46(para)
+#, fuzzy
+msgid ""
+"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
+"tools</guisubmenu><guimenuitem>Perspective Clone</guimenuitem></menuchoice>."
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/perspective-clone.xml:56(para)
+msgid ""
+"The Tool can also be called by clicking the tool icon: "
+"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-perspective-"
+"clone-22.png\"/></guiicon> in the Toolbox."
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:69(title)
+#: src/toolbox/paint/dodge-burn.xml:72(title)
+#: src/toolbox/paint/heal.xml:84(title) src/toolbox/paint/smudge.xml:74(title)
+#: src/toolbox/paint/bucket-fill.xml:97(title)
+#: src/toolbox/paint/ink.xml:72(title)
+#: src/toolbox/paint/airbrush.xml:71(title)
+#: src/toolbox/paint/blend.xml:117(title)
+#: src/toolbox/paint/pencil.xml:85(title)
+#: src/toolbox/paint/convolve.xml:109(title)
+#: src/toolbox/paint/paintbrush.xml:64(title)
+msgid "Key modifiers (Defaults)"
+msgstr "Toetsencombinaties (Standaard instellingen)"
+
+#: src/toolbox/paint/perspective-clone.xml:76(para)
+#, fuzzy
+msgid "<keycap>Ctrl</keycap>-click allows you to select a new clone source."
+msgstr "Klik om een nieuwe kloonbron in te stellen"
+
+#: src/toolbox/paint/perspective-clone.xml:86(para)
+msgid ""
+"When the source is set and you press this key, you will see a thin line "
+"connecting the previously clicked point with the current pointer location. "
+"If you click again, while continuing to hold down the <keycap>Shift</keycap> "
+"key, the tool will clone along this line. Particularly useful when cloning "
+"from a pattern."
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:99(title)
+#: src/toolbox/paint/dodge-burn.xml:104(title)
+#: src/toolbox/paint/clone.xml:145(title)
+#: src/toolbox/paint/heal.xml:123(title)
+#: src/toolbox/paint/smudge.xml:106(title)
+#: src/toolbox/paint/bucket-fill.xml:113(title)
+#: src/toolbox/paint/ink.xml:89(title)
+#: src/toolbox/paint/airbrush.xml:100(title)
+#: src/toolbox/paint/blend.xml:130(title)
+#: src/toolbox/paint/pencil.xml:116(title)
+#: src/toolbox/paint/convolve.xml:130(title)
+#: src/toolbox/paint/paintbrush.xml:95(title)
+msgid "Options"
+msgstr "Opties"
+
+#: src/toolbox/paint/perspective-clone.xml:101(title)
+msgid "Perspective Clone tool options"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:113(term)
+msgid "Operating mode"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:115(para)
+msgid ""
+"When using this tool you first have to choose <guilabel>Modify Perspective</"
+"guilabel>. This works like the tool <link linkend=\"gimp-tool-perspective"
+"\">perspective</link>. Then you choose <guilabel>Perspective Clone</"
+"guilabel> and use this in the same way as the <link linkend=\"gimp-tool-clone"
+"\">Clone</link> tool."
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:126(term)
+msgid ""
+"Mode, Opacity, Brush, Scale, Brush Dynamics, Fade out, Apply Jitter, Hard "
+"Edge"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:135(term)
+msgid "Source, Alignment"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:137(para)
+msgid ""
+"This are the same as in the tool <link linkend=\"gimp-tool-clone\">Clone</"
+"link>."
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:147(title)
+msgid "Example"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:149(title)
+msgid "<quote>Perspective Clone</quote> example"
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:156(para)
+msgid ""
+"The <quote>Modify Perspective Plane</quote> is checked. Vanishing lines have "
+"been placed."
+msgstr ""
+
+#: src/toolbox/paint/perspective-clone.xml:168(para)
+msgid ""
+"The <quote>Perspective Clone</quote> option is checked. The white rectangle "
+"has been cloned. You see it goes smaller going away."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/dodge-burn.xml:26(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-dodge.png'; "
+"md5=05d2ece7a1d70dd78920a622b5eaf28b"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/dodge-burn.xml:109(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-dodge.png'; "
+"md5=052e3f348dde6e41cb0353bd19e1bd0c"
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:13(title)
+#: src/toolbox/paint/dodge-burn.xml:16(secondary)
+#: src/toolbox/paint/dodge-burn.xml:19(primary)
+msgid "Dodge/Burn"
+msgstr "Doordrukken / tegenhouden"
+
+#: src/toolbox/paint/dodge-burn.xml:23(title)
+msgid "Dodge tool"
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:30(para)
+msgid ""
+"The Dodge or Burn tool uses the current brush to lighten or darken the "
+"colors in your image. The mode will determine which type of pixels are "
+"affected."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:43(para)
+#, fuzzy
+msgid ""
+"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
+"Tools</guisubmenu><guimenuitem>Dodge / Burn</guimenuitem></menuchoice>."
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/dodge-burn.xml:53(para)
+msgid ""
+"The Tool can also be called by clicking the tool icon: "
+"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-dodge-22.png\"/"
+"></guiicon>,"
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:62(para)
+msgid ""
+"or by using the <keycombo><keycap>Shift</keycap><keycap>D</keycap></"
+"keycombo> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:79(para)
+msgid ""
+"Toggle between dodge or burn types. The type will remain switched until "
+"<keycap>Ctrl</keycap> is released."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:90(para)
+msgid ""
+"<keycap>Shift</keycap> places the Dodge or Burn tool into straight line "
+"mode. Holding <keycap>Shift</keycap> while clicking <mousebutton>Button1</"
+"mousebutton> will Dodge or Burn in a straight line. Consecutive clicks will "
+"continue Dodge or Burn in straight lines that originate from the end of the "
+"last line."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:106(title)
+msgid "<quote>Dodge/Burn</quote> tool options"
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:118(term)
+msgid ""
+"Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter, Hard edges"
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:127(term)
+#: src/toolbox/paint/ink.xml:176(term)
+msgid "Type"
+msgstr "Type"
+
+#: src/toolbox/paint/dodge-burn.xml:129(para)
+msgid "The dodge effect lightens colors."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:130(para)
+msgid "The burn effect darkens colors."
+msgstr ""
+
+# 24/05/08: of "mate"
+#: src/toolbox/paint/dodge-burn.xml:134(term)
+msgid "Range"
+msgstr "Bereik"
+
+#: src/toolbox/paint/dodge-burn.xml:136(para)
+msgid "There are three modes:"
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:139(para)
+msgid "<guilabel>Shadows</guilabel> restricts the effect to darkest pixels."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:144(para)
+msgid ""
+"<guilabel>Midtones</guilabel> restricts the effect to pixels of average tone."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:149(para)
+msgid ""
+"<guilabel>Highlights</guilabel> restricts the effect to lightest pixels."
+msgstr ""
+
+#: src/toolbox/paint/dodge-burn.xml:157(term)
+#, fuzzy
+msgid "Exposure"
+msgstr "Belichting:"
+
+#: src/toolbox/paint/dodge-burn.xml:159(para)
+msgid ""
+"Exposure defines how much the tool effect will be strong, as a more or less "
+"exposed photograph. Default slider is 50 but can vary from 0 to 100."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/brush-tools.xml:33(None)
+msgid ""
+"@@image: 'images/toolbox/painting-examples.png'; "
+"md5=69fd6f09fc8fcb9d939fbc60e5314ab6"
+msgstr ""
+
+#. "Painting tools" would be confused with "Paint tools" (tools menu)
+#: src/toolbox/paint/brush-tools.xml:17(title)
+msgid "Brush Tools (Pencil, Paintbrush, Airbrush)"
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:21(secondary)
+msgid "Paint"
+msgstr "Tekenen"
+
+#: src/toolbox/paint/brush-tools.xml:29(title)
+msgid "Painting example"
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:36(para)
+msgid ""
+"Three strokes painted with the same round fuzzy brush (outline shown in "
+"upper left), using the Pencil (left), Paintbrush (middle), and Airbrush "
+"(right)."
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:45(para)
+msgid ""
+"The tools in this group are <acronym>GIMP</acronym>'s basic painting tools, "
+"and they have enough features in common to be worth discussing together in "
+"this section. Features common to all paint tools are described in the <link "
+"linkend=\"gimp-tool-brush\">Common Features</link> section. Features "
+"specific to an individual tool are described in the section devoted to that "
+"tool."
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:54(para)
+msgid ""
+"The Pencil is the crudest of the tools in this group: it makes hard, non-"
+"anti-aliased brushstrokes. The Paintbrush is intermediate: it is probably "
+"the most commonly used of the group. The Airbrush is the most flexible and "
+"controllable. This flexibility also makes it a bit more difficult to use "
+"than the Paintbrush, however."
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:61(para)
+msgid ""
+"All of these tools share the same brushes, and the same options for choosing "
+"colors, either from the basic palette or from a gradient. All are capable of "
+"painting in a wide variety of modes."
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:75(para)
+msgid ""
+"Holding down the <keycap>Ctrl</keycap> key changes each of these tools to a "
+"<link linkend=\"gimp-tool-color-picker\">Color Picker</link>: clicking on "
+"any pixel of any layer sets the foreground color (as displayed in the <link "
+"linkend=\"gimp-toolbox-color-area\">Toolbox Color Area</link>) to the color "
+"of the pixel."
+msgstr ""
+
+#: src/toolbox/paint/brush-tools.xml:90(para)
+msgid ""
+"This key places these tools into straight line mode. Holding <keycap>Shift</"
+"keycap> while clicking <mousebutton>Button&nbsp;1</mousebutton> will "
+"generate a straight line. Consecutive clicks will continue drawing straight "
+"lines that originate from the end of the last line."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2295,12 +1437,11 @@ msgstr ""
 #: src/toolbox/paint/clone.xml:29(primary)
 #: src/toolbox/paint/clone.xml:182(secondary)
 msgid "Clone"
-msgstr ""
+msgstr "Klonen"
 
 #: src/toolbox/paint/clone.xml:33(title)
-#, fuzzy
 msgid "Clone tool icon in the Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
+msgstr ""
 
 #: src/toolbox/paint/clone.xml:41(para)
 msgid ""
@@ -2343,16 +1484,26 @@ msgid ""
 "approximations."
 msgstr ""
 
-#: src/toolbox/paint/clone.xml:83(para)
+#: src/toolbox/paint/clone.xml:79(title)
+#: src/toolbox/paint/bucket-fill.xml:65(title)
+#: src/toolbox/paint/eraser.xml:98(title)
 #, fuzzy
+msgid "Activating the tool"
+msgstr "Bezig met het draaien van de kleure..."
+
+#: src/toolbox/paint/clone.xml:80(para) src/toolbox/paint/eraser.xml:99(para)
+#, fuzzy
+msgid "You can activate this tool in several ways:"
+msgstr ""
+"U kunt het rechthoekselectie gereedschap op een aantal verschillende "
+"manieren aanroepen:"
+
+#: src/toolbox/paint/clone.xml:83(para)
 msgid ""
 "From the image menu through <menuchoice><guimenu>Tools</"
 "guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Clone</"
 "guimenuitem></menuchoice>."
 msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
 
 #: src/toolbox/paint/clone.xml:93(para)
 msgid ""
@@ -2392,9 +1543,8 @@ msgid ""
 msgstr ""
 
 #: src/toolbox/paint/clone.xml:147(title)
-#, fuzzy
 msgid "Tool Options for the Clone tool"
-msgstr "Gereedschapsopties voor het rechthoekselectie gereedschap"
+msgstr ""
 
 #: src/toolbox/paint/clone.xml:156(para)
 msgid ""
@@ -2413,11 +1563,11 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:178(term)
 msgid "Source"
-msgstr ""
+msgstr "Bron"
 
 #: src/toolbox/paint/clone.xml:181(primary)
 msgid "Patterns"
-msgstr ""
+msgstr "Patronen"
 
 #: src/toolbox/paint/clone.xml:184(para)
 msgid ""
@@ -2427,7 +1577,7 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:191(term)
 msgid "Image"
-msgstr ""
+msgstr "Afbeelding"
 
 #: src/toolbox/paint/clone.xml:193(para)
 msgid ""
@@ -2451,13 +1601,17 @@ msgstr ""
 
 #: src/toolbox/paint/clone.xml:210(term)
 msgid "Pattern"
-msgstr ""
+msgstr "Patroon"
 
 #: src/toolbox/paint/clone.xml:212(para)
 msgid ""
 "Clicking on the pattern symbol brings up the Patterns dialog, which you can "
 "use to select the pattern to paint with. This option is only relevant if you "
 "are cloning from a Pattern source."
+msgstr ""
+
+#: src/toolbox/paint/clone.xml:224(term) src/toolbox/paint/heal.xml:155(term)
+msgid "Alignment"
 msgstr ""
 
 #: src/toolbox/paint/clone.xml:226(para)
@@ -2624,11 +1778,13 @@ msgstr ""
 #: src/toolbox/paint/clone.xml:436(primary)
 #: src/toolbox/paint/clone.xml:457(primary)
 msgid "Brushes"
-msgstr ""
+msgstr "Penselen"
 
+# de F was nog ongebruikt
 #: src/toolbox/paint/clone.xml:437(secondary)
+#, fuzzy
 msgid "Filter brush"
-msgstr ""
+msgstr "_Filters"
 
 #: src/toolbox/paint/clone.xml:439(para)
 msgid ""
@@ -2661,6 +1817,230 @@ msgid ""
 "layer from one image, and paint on the corresponding layer from the other "
 "image. Depending on how you do it, this gives you either an <quote>undo "
 "brush</quote> or a <quote>redo brush</quote>."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/heal.xml:26(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-heal.png'; "
+"md5=a4bcf023c36a0802a0ecebe7858c7f36"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/heal.xml:128(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-heal.png'; "
+"md5=1d69fc014dd1a5db49a4e72f9750d7ae"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/heal.xml:176(None)
+msgid ""
+"@@image: 'images/toolbox/heal-compar.png'; "
+"md5=920f5f8c9590a7870b8206c8df35ec15"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:13(title)
+#: src/toolbox/paint/heal.xml:16(secondary)
+#: src/toolbox/paint/heal.xml:19(primary)
+msgid "Heal"
+msgstr "Repareren"
+
+#: src/toolbox/paint/heal.xml:23(title)
+msgid "The <quote>Heal tool</quote> in the Toolbox"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:30(para)
+msgid ""
+"This tool was once described as <quote>The healing brush looks like a smart "
+"clone tool on steroids</quote>. And indeed the Healing Tool is a close "
+"relative to the Clone Tool, but it is more smart to remove small failures in "
+"images. A typical usage is the removal of wrinkles in photographs. To do so, "
+"pixels are not simply copied from source to destination, but the area around "
+"the destination is taken into account before cloning is applied. The "
+"algorithm used for this, is described in a scientific paper by Todor "
+"Georgiev <xref linkend=\"bibliography-online-georgiev\"/>."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:41(para)
+msgid ""
+"To use it, first choose a brush with a size adapted to the defect. Then "
+"<keycap>Ctrl</keycap>-click on the area you want to reproduce. Release the "
+"<keycap>Ctrl</keycap> key and drag the sample to the defect. Click. If the "
+"defect is slight, not very different from its surrounding, it will be "
+"corrected as soon. Else, you can correct it with repeated clicks, but with a "
+"risk of daubing"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:57(para)
+#, fuzzy
+msgid ""
+"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
+"tools</guisubmenu><guimenuitem>Heal</guimenuitem></menuchoice>,"
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/heal.xml:67(para)
+msgid ""
+"or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-heal-22.png\"/></guiicon> in the Toolbox,"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:76(para)
+msgid "or by clicking on the <keycap>H</keycap> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:91(para)
+msgid ""
+"The <keycap>Ctrl</keycap> key is used to select the source. You can heal "
+"from any layer of any image, by clicking on the image display, with the "
+"<keycap>Ctrl</keycap> key held down, while the layer is active (as shown in "
+"the Layers dialog). If Alignment is set to <quote>Non-aligned</quote> or "
+"<quote>Aligned</quote> in Tool Options, then the point you click on becomes "
+"the origin for healing: the image data at that point will be used when you "
+"first begin painting with the Heal tool. In source-selection mode, the "
+"cursor changes to a crosshair-symbol."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:110(para)
+msgid ""
+"Once the source is set, if you press this key, you will see a thin line "
+"connecting the previously clicked point with the current pointer location. "
+"If you click again, while going on holding the <keycap>Shift</keycap> key "
+"down, the tool will <quote>heal</quote> along this line."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:125(title)
+msgid "Heal Tool options"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:137(term)
+msgid ""
+"Mode; Opacity; Brush; Scale; Brush Dynamics, Fade out, Apply Jitter, Hard "
+"Edges"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:146(term)
+msgid "Sample merged"
+msgstr "Samengevoegd monsteren"
+
+#: src/toolbox/paint/heal.xml:148(para)
+msgid ""
+"If you enable this option, healing is not calculated only from the values of "
+"the active layer, but from all visible layers."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:157(para)
+msgid ""
+"This option is described in <link linkend=\"gimp-tool-clone\">Clone tool</"
+"link>."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:167(title)
+msgid "Healing is not cloning"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:168(para)
+msgid ""
+"Although the Heal tool has common features with the Clone tool on using, the "
+"result is quite different."
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:173(title)
+msgid "Comparing <quote>Clone</quote> and <quote>Heal</quote>"
+msgstr ""
+
+#: src/toolbox/paint/heal.xml:179(para)
+msgid ""
+"Two black spots in the red area. Zoom x800. The source is where the four "
+"colors meet. Cloning on the left spot. Healing on the right spot."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/smudge.xml:28(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-smudge.png'; "
+"md5=48da6d4a9111b0e2f8f82536ef54fb26"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/smudge.xml:112(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-smudge.png'; "
+"md5=065b6fcc7a19dcc17b94448304983b94"
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:15(title)
+#: src/toolbox/paint/smudge.xml:18(secondary)
+#: src/toolbox/paint/smudge.xml:21(primary)
+msgid "Smudge"
+msgstr "Smeren"
+
+#: src/toolbox/paint/smudge.xml:25(title)
+msgid "Smudge tool"
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:32(para)
+msgid ""
+"The Smudge tool uses the current brush to smudge colors on the active layer "
+"or a selection. It takes color in passing and uses it to mix it to the next "
+"colors it meets, on a distance you can set."
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:40(para)
+msgid "You can find the Smudge tool in various ways :"
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:45(para)
+#, fuzzy
+msgid ""
+"through <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
+"guisubmenu><guimenuitem>Smudge.</guimenuitem></menuchoice> in the image menu,"
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/smudge.xml:56(para)
+msgid ""
+"by clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-smudge-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:66(para)
+msgid "or by pressing the <keycap>S</keycap> key on keyboard."
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:81(para)
+msgid ""
+"The <keycap>Shift</keycap> key places the smudge tool into straight line "
+"mode. Holding <keycap>Shift</keycap> while clicking <mousebutton>Button1</"
+"mousebutton> will smudge in a straight line. Consecutive clicks will "
+"continue smudging in straight lines that originate from the end of the last "
+"line."
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:95(para)
+msgid ""
+"Using <keycap>Ctrl</keycap> with <keycap>Shift</keycap>, you can constrain "
+"the angle between two successive lines to vary by steps of 15°."
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:108(title)
+msgid "The Smudge tool in Toolbox"
+msgstr ""
+
+#: src/toolbox/paint/smudge.xml:121(term)
+msgid ""
+"Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter; Hard edges; "
+"Rate"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2727,12 +2107,11 @@ msgstr ""
 #: src/toolbox/paint/bucket-fill.xml:19(secondary)
 #: src/toolbox/paint/bucket-fill.xml:22(primary)
 msgid "Bucket Fill"
-msgstr ""
+msgstr "Emmer"
 
 #: src/toolbox/paint/bucket-fill.xml:26(title)
-#, fuzzy
 msgid "Toolbox Fill"
-msgstr "Gereedschapsvenster"
+msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:34(para)
 msgid ""
@@ -2811,17 +2190,17 @@ msgstr ""
 msgid "<quote>Bucket Fill</quote> tool options"
 msgstr ""
 
+#: src/toolbox/paint/bucket-fill.xml:128(term)
+#: src/toolbox/paint/ink.xml:103(term) src/toolbox/paint/blend.xml:145(term)
+msgid "Mode; Opacity"
+msgstr ""
+
 #: src/toolbox/paint/bucket-fill.xml:130(para)
-#, fuzzy
 msgid ""
 "See <link linkend=\"gimp-tool-brush\">Paint Tools</link> for help with "
 "options that are common to all these tools. Only options that are specific "
 "to the Bucket Fill tool are explained here."
 msgstr ""
-"Zie <link linkend=\"gimp-tool-select\">Selectie Gereedschappen</link> voor "
-"meer informatie over eigenschappen die gelden voor alle selectie "
-"gereedschappen. Alleen opties specifiek voor het rechthoekselectie "
-"gereedschap worden hier besproken."
 
 #: src/toolbox/paint/bucket-fill.xml:140(term)
 msgid "Fill Type"
@@ -2870,7 +2249,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:187(term)
 msgid "Fill whole selection"
-msgstr ""
+msgstr "Hele selectie vullen"
 
 #: src/toolbox/paint/bucket-fill.xml:189(para)
 msgid ""
@@ -2879,9 +2258,10 @@ msgid ""
 "foreground, background or pattern color, leaving it onto the selection."
 msgstr ""
 
+# gelijkende/gelijkaardige/gelijkwaardige/eendere
 #: src/toolbox/paint/bucket-fill.xml:198(term)
 msgid "Fill similar colors"
-msgstr ""
+msgstr "Gelijkaardige kleuren vullen"
 
 #: src/toolbox/paint/bucket-fill.xml:200(para)
 msgid ""
@@ -2892,7 +2272,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:213(term)
 msgid "Finding Similar Colors"
-msgstr ""
+msgstr "Gelijkaardige kleuren zoeken"
 
 #: src/toolbox/paint/bucket-fill.xml:215(para)
 msgid "Under this section you can find two options:"
@@ -2904,7 +2284,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:221(primary)
 msgid "Fill transparent areas"
-msgstr ""
+msgstr "Transparante gebieden vullen"
 
 #: src/toolbox/paint/bucket-fill.xml:223(para)
 msgid ""
@@ -2914,7 +2294,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:230(term)
 msgid "Sample Merged"
-msgstr ""
+msgstr "Samengevoegd monsteren"
 
 #: src/toolbox/paint/bucket-fill.xml:232(para)
 msgid ""
@@ -2927,7 +2307,7 @@ msgstr ""
 
 #: src/toolbox/paint/bucket-fill.xml:243(term)
 msgid "Threshold"
-msgstr ""
+msgstr "Drempelwaarde"
 
 #: src/toolbox/paint/bucket-fill.xml:245(para)
 msgid ""
@@ -3033,73 +2413,248 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/brush-tools.xml:33(None)
+#: src/toolbox/paint/ink.xml:30(None)
 msgid ""
-"@@image: 'images/toolbox/painting-examples.png'; "
-"md5=69fd6f09fc8fcb9d939fbc60e5314ab6"
+"@@image: 'images/toolbox/toolbox-pen.png'; "
+"md5=3cb7f77d63587e15ad5d170b4dfe493a"
 msgstr ""
 
-#. "Painting tools" would be confused with "Paint tools" (tools menu)
-#: src/toolbox/paint/brush-tools.xml:17(title)
-msgid "Brush Tools (Pencil, Paintbrush, Airbrush)"
-msgstr ""
-
-#: src/toolbox/paint/brush-tools.xml:21(secondary)
-msgid "Paint"
-msgstr ""
-
-#: src/toolbox/paint/brush-tools.xml:29(title)
-msgid "Painting example"
-msgstr ""
-
-#: src/toolbox/paint/brush-tools.xml:36(para)
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/ink.xml:94(None)
 msgid ""
-"Three strokes painted with the same round fuzzy brush (outline shown in "
-"upper left), using the Pencil (left), Paintbrush (middle), and Airbrush "
-"(right)."
+"@@image: 'images/toolbox/tool-options-ink.png'; "
+"md5=a796fb68341de6d4b3d97d8459b7790d"
 msgstr ""
 
-#: src/toolbox/paint/brush-tools.xml:45(para)
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/ink.xml:195(None)
 msgid ""
-"The tools in this group are <acronym>GIMP</acronym>'s basic painting tools, "
-"and they have enough features in common to be worth discussing together in "
-"this section. Features common to all paint tools are described in the <link "
-"linkend=\"gimp-tool-brush\">Common Features</link> section. Features "
-"specific to an individual tool are described in the section devoted to that "
-"tool."
+"@@image: 'images/tool-options/ink-type-circle.png'; "
+"md5=e7c4f89f1c36583389c9f78560bb166e"
 msgstr ""
 
-#: src/toolbox/paint/brush-tools.xml:54(para)
-msgid ""
-"The Pencil is the crudest of the tools in this group: it makes hard, non-"
-"anti-aliased brushstrokes. The Paintbrush is intermediate: it is probably "
-"the most commonly used of the group. The Airbrush is the most flexible and "
-"controllable. This flexibility also makes it a bit more difficult to use "
-"than the Paintbrush, however."
+#: src/toolbox/paint/ink.xml:16(title) src/toolbox/paint/ink.xml:20(secondary)
+#: src/toolbox/paint/ink.xml:23(primary)
+msgid "Ink"
+msgstr "Inktpot"
+
+#: src/toolbox/paint/ink.xml:27(title)
+msgid "The <quote>Ink</quote> tool in Toolbox"
 msgstr ""
 
-#: src/toolbox/paint/brush-tools.xml:61(para)
+#: src/toolbox/paint/ink.xml:35(para)
 msgid ""
-"All of these tools share the same brushes, and the same options for choosing "
-"colors, either from the basic palette or from a gradient. All are capable of "
-"painting in a wide variety of modes."
+"The Ink tool uses a simulation of an ink pen with a controllable nib to "
+"paint solid brush strokes with an antialiased edge. The size, shape and "
+"angle of the nib can be set to determine how the strokes will be rendered."
 msgstr ""
 
-#: src/toolbox/paint/brush-tools.xml:75(para)
-msgid ""
-"Holding down the <keycap>Ctrl</keycap> key changes each of these tools to a "
-"<link linkend=\"gimp-tool-color-picker\">Color Picker</link>: clicking on "
-"any pixel of any layer sets the foreground color (as displayed in the <link "
-"linkend=\"gimp-toolbox-color-area\">Toolbox Color Area</link>) to the color "
-"of the pixel."
+#: src/toolbox/paint/ink.xml:43(para)
+msgid "You can find the Ink tool in several ways :"
 msgstr ""
 
-#: src/toolbox/paint/brush-tools.xml:90(para)
+#: src/toolbox/paint/ink.xml:46(para)
+#, fuzzy
 msgid ""
-"This key places these tools into straight line mode. Holding <keycap>Shift</"
-"keycap> while clicking <mousebutton>Button&nbsp;1</mousebutton> will "
-"generate a straight line. Consecutive clicks will continue drawing straight "
-"lines that originate from the end of the last line."
+"In the image-menu through: <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Ink</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/ink.xml:56(para)
+msgid ""
+"By clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-ink-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:64(para)
+msgid "or by using the <keycap>K</keycap> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:79(para)
+#, fuzzy
+msgid ""
+"This key changes the nib to a <link linkend=\"gimp-tool-color-picker\">Color "
+"Picker</link>."
+msgstr "Op-kleur-selectie"
+
+#: src/toolbox/paint/ink.xml:91(title)
+msgid "Ink Tool options"
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:109(term)
+msgid "Adjustment"
+msgstr "Aanpassing"
+
+#: src/toolbox/paint/ink.xml:115(para)
+msgid ""
+"Controls the apparent width of the pen's nib with values that ranges from 0 "
+"(very thin) to 20 (very thick)."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:122(term)
+#, fuzzy
+msgid "Angle"
+msgstr "Hoek:"
+
+#: src/toolbox/paint/ink.xml:124(para)
+msgid ""
+"This controls the apparent angle of the pen's nib relative to horizontal."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:134(term)
+msgid "Sensitivity"
+msgstr "Gevoeligheid"
+
+#: src/toolbox/paint/ink.xml:140(para)
+msgid ""
+"This controls the size of the nib, from minimum to maximum. Note that a size "
+"of 0 does not result in a nib of size zero, but rather a nib of minimum size."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:148(term)
+#, fuzzy
+msgid "Tilt"
+msgstr "Helling:"
+
+#: src/toolbox/paint/ink.xml:150(para)
+msgid ""
+"Controls the apparent tilt of the nib relative to horizontal. This control "
+"and the Angle control described above are interrelated. Experimentation is "
+"the best means of learning how to use them."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:159(term)
+#, fuzzy
+msgid "Speed"
+msgstr "Snelheid:"
+
+#: src/toolbox/paint/ink.xml:161(para)
+msgid ""
+"This controls the effective size of the nib as a function of drawing speed. "
+"That is, as with a physical pen, the faster you draw, the narrower the line."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:172(term)
+msgid "Type and Shape"
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:178(para)
+msgid "There are three nib shapes to choose from: circle, square, and diamond."
+msgstr ""
+
+#: src/toolbox/paint/ink.xml:185(term) src/toolbox/paint/blend.xml:193(term)
+msgid "Shape"
+msgstr "Vorm"
+
+#: src/toolbox/paint/ink.xml:187(para)
+msgid ""
+"The geometry of the nib type can be adjusted by holding button 1 of the "
+"mouse on the small square at the center of the Shape icon and moving it "
+"around."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/airbrush.xml:30(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-airbrush.png'; "
+"md5=075685c9a564f88ae910a5860b3f7288"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/airbrush.xml:105(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-airbrush.png'; "
+"md5=accfa176dd9fb404710b186ffd0951fb"
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:16(title)
+#: src/toolbox/paint/airbrush.xml:19(primary)
+#: src/toolbox/paint/airbrush.xml:23(secondary)
+msgid "Airbrush"
+msgstr "Verfspuit"
+
+#: src/toolbox/paint/airbrush.xml:27(title)
+msgid "The Airbrush tool in Toolbox"
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:34(para)
+msgid ""
+"The Airbrush tool emulates a traditional airbrush. This tool is suitable for "
+"painting soft areas of color."
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:41(para)
+msgid "You can activate the Airbrush tool in several ways :"
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:44(para)
+#, fuzzy
+msgid ""
+"From the image-menu, through : <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>PaintTools</guisubmenu><guimenuitem>Airbrush</"
+"guimenuitem></menuchoice>"
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/airbrush.xml:54(para)
+msgid ""
+"By clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-airbrush-22.png\"/></guiicon> in the Toolbox,"
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:63(para)
+msgid "By using the <keycap>A</keycap> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:78(para)
+msgid ""
+"<keycap>Ctrl</keycap> changes the airbrush to a <link linkend=\"gimp-tool-"
+"color-picker\">Color Picker</link>."
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:88(para)
+msgid ""
+"<keycap>Shift</keycap> places the airbrush into straight line mode. Holding "
+"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
+"will generate a straight line. Consecutive clicks will continue drawing "
+"straight lines that originate from the end of the last line."
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:102(title)
+msgid "Airbrush options"
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:114(term)
+msgid ""
+"Mode; Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter; Use "
+"color from gradient"
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:125(para)
+msgid ""
+"The <guilabel>Rate</guilabel> slider adjusts the speed of color application "
+"that the airbrush paints. A higher setting will produce darker brush strokes "
+"in a shorter amount of time."
+msgstr ""
+
+#: src/toolbox/paint/airbrush.xml:134(term)
+msgid "Pressure"
+msgstr "Druk"
+
+#: src/toolbox/paint/airbrush.xml:136(para)
+msgid ""
+"This slider controls the amount of color that the airbrush paints. A higher "
+"setting here will result in darker strokes."
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -3219,16 +2774,16 @@ msgstr ""
 #: src/toolbox/paint/blend.xml:27(primary)
 #: src/toolbox/paint/blend.xml:32(secondary)
 msgid "Blend"
-msgstr ""
+msgstr "Kleurverloop"
 
 #: src/toolbox/paint/blend.xml:28(secondary)
 msgid "Tool"
-msgstr ""
+msgstr "Gereedschap"
 
 #: src/toolbox/paint/blend.xml:36(title)
 #, fuzzy
 msgid "The Blend tool in Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
+msgstr "_Tonen in de gereedschapskist"
 
 #: src/toolbox/paint/blend.xml:45(para)
 msgid ""
@@ -3317,7 +2872,7 @@ msgstr ""
 
 #: src/toolbox/paint/blend.xml:170(term)
 msgid "Offset"
-msgstr ""
+msgstr "Verschuiven"
 
 #: src/toolbox/paint/blend.xml:172(para)
 msgid ""
@@ -3346,7 +2901,7 @@ msgstr ""
 
 #: src/toolbox/paint/blend.xml:208(para) src/toolbox/paint/blend.xml:232(term)
 msgid "Linear"
-msgstr ""
+msgstr "Lineair"
 
 #: src/toolbox/paint/blend.xml:217(para) src/toolbox/paint/blend.xml:242(term)
 msgid "Bi-Linear"
@@ -3354,7 +2909,7 @@ msgstr ""
 
 #: src/toolbox/paint/blend.xml:226(para) src/toolbox/paint/blend.xml:253(term)
 msgid "Radial"
-msgstr ""
+msgstr "Radiaal"
 
 #: src/toolbox/paint/blend.xml:234(para)
 msgid ""
@@ -3387,19 +2942,19 @@ msgstr ""
 
 #: src/toolbox/paint/blend.xml:273(para)
 msgid "Square"
-msgstr ""
+msgstr "Vierkant"
 
 #: src/toolbox/paint/blend.xml:282(para)
 msgid "Shaped (angular)"
-msgstr ""
+msgstr "Naar vorm (hoekig)"
 
 #: src/toolbox/paint/blend.xml:293(para)
 msgid "Shaped (spherical)"
-msgstr ""
+msgstr "Naar vorm (rond)"
 
 #: src/toolbox/paint/blend.xml:304(para)
 msgid "Shaped (dimpled)"
-msgstr ""
+msgstr "Naar vorm (putjes)"
 
 #: src/toolbox/paint/blend.xml:310(para)
 msgid ""
@@ -3477,7 +3032,7 @@ msgstr ""
 
 #: src/toolbox/paint/blend.xml:421(term)
 msgid "Dithering"
-msgstr ""
+msgstr "Kleurbenadering"
 
 #: src/toolbox/paint/blend.xml:423(para)
 msgid ""
@@ -3496,109 +3051,6 @@ msgid ""
 "allow you to choose."
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/airbrush.xml:30(None)
-msgid ""
-"@@image: 'images/toolbox/toolbox-airbrush.png'; "
-"md5=075685c9a564f88ae910a5860b3f7288"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/paint/airbrush.xml:105(None)
-msgid ""
-"@@image: 'images/toolbox/tool-options-airbrush.png'; "
-"md5=accfa176dd9fb404710b186ffd0951fb"
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:16(title)
-#: src/toolbox/paint/airbrush.xml:19(primary)
-#: src/toolbox/paint/airbrush.xml:23(secondary)
-msgid "Airbrush"
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:27(title)
-#, fuzzy
-msgid "The Airbrush tool in Toolbox"
-msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
-
-#: src/toolbox/paint/airbrush.xml:34(para)
-msgid ""
-"The Airbrush tool emulates a traditional airbrush. This tool is suitable for "
-"painting soft areas of color."
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:41(para)
-#, fuzzy
-msgid "You can activate the Airbrush tool in several ways :"
-msgstr ""
-"U kunt het rechthoekselectie gereedschap op een aantal verschillende "
-"manieren aanroepen:"
-
-#: src/toolbox/paint/airbrush.xml:44(para)
-#, fuzzy
-msgid ""
-"From the image-menu, through : <menuchoice><guimenu>Tools</"
-"guimenu><guisubmenu>PaintTools</guisubmenu><guimenuitem>Airbrush</"
-"guimenuitem></menuchoice>"
-msgstr ""
-"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-"guimenuitem></menuchoice>;"
-
-#: src/toolbox/paint/airbrush.xml:54(para)
-msgid ""
-"By clicking on the tool icon: <guiicon><inlinegraphic fileref=\"images/"
-"toolbox/stock-tool-airbrush-22.png\"/></guiicon> in the Toolbox,"
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:63(para)
-#, fuzzy
-msgid "By using the <keycap>A</keycap> keyboard shortcut."
-msgstr "Door het gebruik van de sneltoets <keycap>R</keycap>."
-
-#: src/toolbox/paint/airbrush.xml:78(para)
-msgid ""
-"<keycap>Ctrl</keycap> changes the airbrush to a <link linkend=\"gimp-tool-"
-"color-picker\">Color Picker</link>."
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:88(para)
-msgid ""
-"<keycap>Shift</keycap> places the airbrush into straight line mode. Holding "
-"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
-"will generate a straight line. Consecutive clicks will continue drawing "
-"straight lines that originate from the end of the last line."
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:102(title)
-msgid "Airbrush options"
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:114(term)
-msgid ""
-"Mode; Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter; Use "
-"color from gradient"
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:125(para)
-msgid ""
-"The <guilabel>Rate</guilabel> slider adjusts the speed of color application "
-"that the airbrush paints. A higher setting will produce darker brush strokes "
-"in a shorter amount of time."
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:134(term)
-msgid "Pressure"
-msgstr ""
-
-#: src/toolbox/paint/airbrush.xml:136(para)
-msgid ""
-"This slider controls the amount of color that the airbrush paints. A higher "
-"setting here will result in darker strokes."
-msgstr ""
-
 #. This file is meant to be included by the paint tools files:
 #.   src/toolbox/paint/*.xml
 #: src/toolbox/paint/about-common-paint-options.xml:8(simpara)
@@ -3608,33 +3060,541 @@ msgid ""
 "paint tools."
 msgstr ""
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: src/toolbox/paint/about-common-paint-options.xml:0(None)
-msgid "translator-credits"
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/pencil.xml:27(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-pencil.png'; "
+"md5=e628d364e9f62523c741f3defc9eafe6"
 msgstr ""
 
-#, fuzzy
-#~ msgid ""
-#~ "You can get to the Zoom Tool from the image-menu through : "
-#~ "<menuchoice><guimenu>Tools</guimenu><guisubmenu>Zoom</guisubmenu></"
-#~ "menuchoice>,"
-#~ msgstr ""
-#~ "Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-#~ "guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-#~ "guimenuitem></menuchoice>;"
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/pencil.xml:121(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-pencil.png'; "
+"md5=e828d2e97ba0061e0c1599d1bbe6aced"
+msgstr ""
 
-#, fuzzy
-#~ msgid "Active Colors in the Toolbox"
-#~ msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
+#: src/toolbox/paint/pencil.xml:14(title)
+#: src/toolbox/paint/pencil.xml:17(secondary)
+#: src/toolbox/paint/pencil.xml:20(primary)
+msgid "Pencil"
+msgstr "Potlood"
 
+#: src/toolbox/paint/pencil.xml:24(title)
+msgid "Pencil tool"
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:32(para)
+msgid ""
+"The Pencil tool is used to draw free hand lines with a hard edge. The pencil "
+"and paintbrush are similar tools. The main difference between the two tools "
+"is that although both use the same type of brush, the pencil tool will not "
+"produce fuzzy edges, even with a very fuzzy brush. It does not even do anti-"
+"aliasing."
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:39(para)
+msgid ""
+"Why would you want to work with such a crude tool? Perhaps the most "
+"important usage is when working with very small images, such as icons, where "
+"you operate at a high zoom level and need to get every pixel exactly right. "
+"With the pencil tool, you can be confident that every pixel within the brush "
+"outline will be changed in exactly the way you expect."
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:48(para)
+msgid ""
+"If you want to draw straight lines with the Pencil (or any of several other "
+"paint tools), click at the starting point, then hold down <keycap>Shift</"
+"keycap> and click at the ending point."
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:59(para)
 #, fuzzy
-#~ msgid ""
-#~ "In the image menu through <menuchoice><guimenu>Tools</"
-#~ "guimenu><guisubmenu>Text</guisubmenu></menuchoice>,"
-#~ msgstr ""
-#~ "Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-#~ "guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-#~ "guimenuitem></menuchoice>;"
+msgid ""
+"The Pencil Tool can be called from the image-menu: "
+"<menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
+"guisubmenu><guimenuitem>Pencil</guimenuitem></menuchoice>"
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/pencil.xml:69(para)
+msgid ""
+"The Tool can also be called by clicking the tool icon: "
+"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-pencil-22.png\"/"
+"></guiicon>"
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:77(para)
+msgid "or by clicking on the <keycap>N</keycap> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:92(para)
+msgid ""
+"This key changes the pencil to a <link linkend=\"gimp-tool-color-picker"
+"\">Color Picker</link>."
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:103(para)
+msgid ""
+"This key places the pencil tool into straight line mode. Holding "
+"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
+"will generate a straight line. Consecutive clicks will continue drawing "
+"straight lines that originate from the end of the last line."
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:118(title)
+msgid "<quote>Pencil</quote> Tool options"
+msgstr ""
+
+#: src/toolbox/paint/pencil.xml:130(term)
+#: src/toolbox/paint/paintbrush.xml:109(term)
+msgid ""
+"Mode; Opacity; Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; "
+"Incremental; Use Color from Gradient"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/eraser.xml:35(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-eraser.png'; "
+"md5=fc1b140da420677c23581b4c863a43cf"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/eraser.xml:56(None)
+msgid ""
+"@@image: 'images/toolbox/eraser-ex1.png'; "
+"md5=171238f57248215d31679005777c354b"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/eraser.xml:67(None)
+msgid ""
+"@@image: 'images/toolbox/eraser-ex2.png'; "
+"md5=8204a324ca11c64d70b5c1749a1a3c5e"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/eraser.xml:177(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-eraser.png'; "
+"md5=2d422b1ef4b36ec26f574e55415fb913"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:18(title)
+#: src/toolbox/paint/eraser.xml:21(secondary)
+#: src/toolbox/paint/eraser.xml:24(primary)
+msgid "Eraser"
+msgstr "Gum"
+
+#: src/toolbox/paint/eraser.xml:28(secondary)
+msgid "Eraser tool"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:32(title)
+msgid "Eraser tool icon in the Toolbox"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:40(para)
+msgid ""
+"The Eraser is used to remove areas of color from the current layer or from a "
+"selection of this layer. If the Eraser is used on something that does not "
+"support transparency (a selection mask channel, a layer mask, or the "
+"Background layer if it lacks an alpha channel), then erasing will show the "
+"background color, as displayed in the Color Area of the Toolbox (in case of "
+"a mask, the selection will be modified). Otherwise, erasing will produce "
+"either partial or full transparency, depending on the settings for the tool "
+"options. You can learn more on how to add an alpha channel to a layer in "
+"<xref linkend=\"gimp-layer-alpha-add\"/>."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:53(title)
+#, fuzzy
+msgid "Eraser and Alpha channel"
+msgstr "_Alfakanaal van laag"
+
+#: src/toolbox/paint/eraser.xml:59(para)
+msgid ""
+"The Background Color is White. The image has no Alpha channel. The Eraser "
+"(Opacity 100%) shows the BG color."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:70(para)
+msgid "The image has an Alpha channel. The Eraser shows transparency."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:77(para)
+msgid ""
+"If you need to erase some group of pixels completely, leaving no trace "
+"behind of their previous contents, you should check the \"Hard edge\" box in "
+"the Tool Options. Otherwise, sub-pixel brush placement will cause partial "
+"erasure at the edges of the brush-stroke, even if you use a hard-edged brush."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:86(para)
+msgid ""
+"If you use GIMP with a tablet, you may find it convenient to treat the "
+"reverse end of the stylus as an eraser. To make this work, all you need to "
+"do is click the reverse end on the Eraser tool in the Toolbox. Because each "
+"end of the stylus is treated as a separate input device, and each input "
+"device has its own separate tool assignment, the reverse end will then "
+"continue to function as an Eraser as long as you don't select a different "
+"tool with it."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:102(para)
+msgid ""
+"From the image menu through <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Paint Tools</guisubmenu><guimenuitem>Eraser</"
+"guimenuitem></menuchoice>;"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:112(para)
+msgid ""
+"from the Toolbox by clicking on the tool icon <guiicon><inlinegraphic "
+"fileref=\"images/toolbox/stock-tool-eraser-22.png\"/></guiicon>;"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:120(para)
+msgid ""
+"or from the keyboard using the shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>E</keycap></keycombo>."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:130(para)
+msgid ""
+"See the <xref linkend=\"gimp-tool-brush\"/> for a description of key "
+"modifiers that have the same effect on all paint tools."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:140(para)
+msgid ""
+"For the Eraser, holding down the <keycap>Ctrl</keycap> key puts it into "
+"<quote>color picker</quote> mode, so that it selects the color of any pixel "
+"it is clicked on. Unlike other brush tools, however, the Eraser sets the "
+"<emphasis>background</emphasis> color rather than the foreground color. This "
+"is more useful, because on drawables that don't support transparency, "
+"erasing replaces the erased areas with the current background color."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:153(keycap)
+msgid "Alt"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:156(para)
+msgid ""
+"For the Eraser, holding down the <keycap>Alt</keycap> key switches it into "
+"<quote>anti-erase</quote> mode, as described below in the Tool Options "
+"section. Note that on some systems, the <keycap>Alt</keycap> key is trapped "
+"by the Window Manager. If this happens to you, you may be able to use "
+"<keycombo><keycap>Alt</keycap><keycap>Shift</keycap></keycombo> instead."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:173(title)
+msgid "Tool Options for the Eraser tool"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:186(term)
+msgid "Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; Incremental"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:196(para)
+msgid ""
+"The <guilabel>Opacity</guilabel> slider, in spite of its name, determines "
+"the <quote>strength</quote> of the tool. Thus, when you erase on a layer "
+"with an alpha channel, the higher the opacity you use, the more transparency "
+"you get!"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:205(term)
+#, fuzzy
+msgid "Hard Edge"
+msgstr "Harde rand"
+
+#: src/toolbox/paint/eraser.xml:207(para)
+msgid ""
+"This option avoids partial erasure at the edges of the brush-stroke. See "
+"above."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:214(term)
+msgid "Anti Erase"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:216(para)
+msgid ""
+"The Anti Erase option of the Erase tool can un-erase areas of an image, even "
+"if they are completely transparent. This feature only works when used on "
+"layers with an alpha channel. In addition to the check-button in the Tool "
+"Options, it can also be activated on-the-fly by holding down the "
+"<keycap>Alt</keycap> key (or, if the <keycap>Alt</keycap> key is trapped by "
+"the Window Manager, by holding down <keycombo><keycap>Alt</"
+"keycap><keycap>Shift</keycap></keycombo>)."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:227(para)
+msgid ""
+"To understand how anti-erasing is possible, you should realize that erasing "
+"(or cutting, for that matter) only affects the alpha channel, not the RGB "
+"channels that contain the image data. Even if the result is completely "
+"transparent, the RGB data is still there, you simply can't see it. Anti-"
+"erasing increases the alpha value so that you can see the RGB data once "
+"again."
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:249(primary)
+msgid "Selection"
+msgstr "Selectie"
+
+#: src/toolbox/paint/eraser.xml:250(secondary)
+msgid "Change shape"
+msgstr ""
+
+#: src/toolbox/paint/eraser.xml:252(para)
+msgid ""
+"You can use the Eraser tool to change the shape of a floating selection. By "
+"erasing, you can trim the edges of the selection."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/convolve.xml:29(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-blur.png'; "
+"md5=b29caec2a631aeeffa7f1dd33ab97cd5"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/convolve.xml:136(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-blur-sharpen.png'; "
+"md5=4e5d2fda5c997c3a2b17a43926a27567"
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:16(title)
+#: src/toolbox/paint/convolve.xml:19(secondary)
+#: src/toolbox/paint/convolve.xml:22(primary)
+#, fuzzy
+msgid "Blur/Sharpen"
+msgstr "Vervagen / verscherpen"
+
+#: src/toolbox/paint/convolve.xml:26(title)
+#, fuzzy
+msgid "Blur/Sharpen tool icon in the Toolbox"
+msgstr "Het rechthoekselectie gereedschaps pictogram in de gereedschapskist"
+
+#: src/toolbox/paint/convolve.xml:33(para)
+msgid ""
+"The Blur/Sharpen tool uses the current brush to locally blur or sharpen your "
+"image. Blurring with it can be useful if some element of your image stands "
+"out too much, and you would like to soften it. If you want to blur a whole "
+"layer, or a large part of one, you will probably be better off using one of "
+"the <link linkend=\"filters-blur\">Blur Filters</link>. The direction of a "
+"brushstroke has no effect: if you want directional blurring, use the Smudge "
+"tool."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:42(para)
+msgid ""
+"In <quote>Sharpen</quote> mode, the tool works by increasing the contrast "
+"where the brush is applied. A little bit of this may be useful, but over-"
+"application will produce noise. Some of the <link linkend=\"filters-enhance"
+"\">Enhancement Filters</link>, particularly the <link linkend=\"plug-in-"
+"unsharp-mask\">Unsharp Mask</link>, do a much cleaner job of sharpening "
+"areas of a layer."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:52(para)
+msgid ""
+"You can create a more sophisticated sharpening brush using the Clone tool. "
+"To do this, start by duplicating the layer you want to work on, and run a "
+"sharpening filter, such as Unsharp Mask, on the copy. Then activate the "
+"Clone tool, and in its Tool Options set Source to <quote>Image source</"
+"quote> and Alignment to <quote>Registered</quote>. Set the Opacity to a "
+"modest value, such as 10. Then <keycap>Ctrl</keycap>-click on the copy to "
+"make it the source image. If you now paint on the original layer, you will "
+"mix together, where the brush is applied, the sharpened version with the "
+"unsharpened version."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:65(para)
+msgid ""
+"Both blurring and sharpening work incrementally: moving the brush repeatedly "
+"over an area will increase the effect with each additional pass. The Rate "
+"control allows you to determine how quickly the modifications accumulate. "
+"The Opacity control, however, can be used to limit the amount of blurring "
+"that can be produced by a single brushstroke, regardless of how many passes "
+"are made with it."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:81(para)
+#, fuzzy
+msgid ""
+"From the image-menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint "
+"tools</guisubmenu><guimenuitem>Blur/Sharpen</guimenuitem></menuchoice>."
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/convolve.xml:90(para)
+msgid ""
+"The Tool can also be called by clicking the tool icon: "
+"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-blur-22.png\"/></"
+"guiicon> in the Toolbox."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:100(para)
+#, fuzzy
+msgid ""
+"By using the keyboard shortcut <keycombo><keycap>Shift</keycap><keycap>U</"
+"keycap></keycombo>."
+msgstr "Door het gebruik van de sneltoets <keycap>R</keycap>."
+
+#: src/toolbox/paint/convolve.xml:110(para)
+msgid ""
+"See the <link linkend=\"gimp-tool-brush\">Paint Tools' Common Features</"
+"link> for a description of key modifiers that have the same effect on all "
+"paint tools."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:119(para)
+msgid ""
+"Holding down the <keycap>Ctrl</keycap> key toggles between Blur and Sharpen "
+"modes; it reverses the setting shown in the Tool Options."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:132(title)
+#, fuzzy
+msgid "Tool Options for the Blur/Sharpen tool"
+msgstr "Gereedschapsopties voor het rechthoekselectie gereedschap"
+
+#: src/toolbox/paint/convolve.xml:145(term)
+msgid ""
+"Opacity; Brush; Scale; Brush Dynamics; Fade Out; Apply Jitter; Hard Edges"
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:154(term)
+msgid "Convolve Type"
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:156(para)
+msgid ""
+"<emphasis>Blur</emphasis> mode causes each pixel affected by the brush to be "
+"blended with neighboring pixels, thereby increasing the similarity of pixels "
+"inside the brushstroke area. <emphasis>Sharpen</emphasis> mode causes each "
+"pixel to become more different from its neighbors than it previously was: it "
+"increases contrast inside the brushstroke area. Too much Sharpen ends in an "
+"ugly flocculation aspect. Whatever setting you choose here, you can reverse "
+"it on-the-fly by holding down the <keycap>Ctrl</keycap> key."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:167(para)
+msgid "<quote>Convolve</quote> refers to a mathematical method using matrices."
+msgstr ""
+
+#: src/toolbox/paint/convolve.xml:176(para)
+msgid ""
+"The <guilabel>Rate</guilabel> slider sets the strength of the Blur/Sharpen "
+"effect."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/paintbrush.xml:23(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-brush.png'; "
+"md5=4b8e2e02f6f41a69806768049afd992b"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint/paintbrush.xml:100(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-paintbrush.png'; "
+"md5=a773c44226500f03158c685a1caacd95"
+msgstr ""
+
+#: src/toolbox/paint/paintbrush.xml:10(title)
+#: src/toolbox/paint/paintbrush.xml:13(secondary)
+#: src/toolbox/paint/paintbrush.xml:16(primary)
+#: src/toolbox/paint/paintbrush.xml:20(title)
+msgid "Paintbrush"
+msgstr "Penseel"
+
+#: src/toolbox/paint/paintbrush.xml:28(para)
+msgid ""
+"The paintbrush tool paints fuzzy brush strokes. All strokes are rendered "
+"using the current brush."
+msgstr ""
+
+#: src/toolbox/paint/paintbrush.xml:37(para)
+#, fuzzy
+msgid ""
+"You can call the Paintbrush Tool in the following order, from the image-"
+"menu: <menuchoice><guimenu>Tools</guimenu><guisubmenu>Paint Tools</"
+"guisubmenu><guimenuitem>Paintbrush</guimenuitem></menuchoice>."
+msgstr ""
+"Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
+"guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
+"guimenuitem></menuchoice>;"
+
+#: src/toolbox/paint/paintbrush.xml:48(para)
+msgid ""
+"The Tool can also be called by clicking the tool icon: "
+"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-paintbrush-22.png"
+"\"/></guiicon>"
+msgstr ""
+
+#: src/toolbox/paint/paintbrush.xml:56(para)
+msgid "or by using the <keycap>P</keycap> keyboard shortcut."
+msgstr ""
+
+#: src/toolbox/paint/paintbrush.xml:71(para)
+msgid ""
+"This key changes the paintbrush to a <link linkend=\"gimp-tool-color-picker"
+"\">Color Picker</link>."
+msgstr ""
+
+#: src/toolbox/paint/paintbrush.xml:82(para)
+msgid ""
+"This key places the paintbrush into straight line mode. Holding "
+"<keycap>Shift</keycap> while clicking <mousebutton>Button 1</mousebutton> "
+"will generate a straight line. Consecutive clicks will continue drawing "
+"straight lines that originate from the end of the last line."
+msgstr ""
+
+#: src/toolbox/paint/paintbrush.xml:97(title)
+msgid "Paintbrush tool options"
+msgstr ""
+
+#  Translators: insert your names here, separated by newline
+#  we'd prefer just the names, please no email adresses.
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/toolbox/paint/paintbrush.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Filip Vervloesem\n"
+"Tino Meinen (2004-2006)\n"
+"Vincent van Adrighem (2004)\n"
+"Branko Collin (2001-2004)\n"
+"Gert de Wit (2000)\n"
+"Wing Tung Leung (1998)\n"
+"\n"
+"Kijk voor meer info op http://nl.gnome.org/"
+
+#~ msgid "j.h"
+#~ msgstr "rvw"
 
 #~ msgid "Antialiasing"
 #~ msgstr "Anti-aliasing"
@@ -3642,249 +3602,11 @@ msgstr ""
 #~ msgid "Selection Tools"
 #~ msgstr "Selectie Gereedschappen"
 
-#~ msgid "The Toolbox"
-#~ msgstr "Het gereedschapsvenster"
-
-#, fuzzy
-#~ msgid ""
-#~ "<acronym>GIMP</acronym> provides a comprehensive toolbox in order to "
-#~ "quickly perform basic tasks such as making selections or drawing paths. "
-#~ "The many tools contained within <acronym>GIMP</acronym>'s toolbox are "
-#~ "discussed in detail here."
-#~ msgstr ""
-#~ "De <acronym>GIMP</acronym> voorziet in een uitgebreid gereedschapsvenster "
-#~ "waarmee snel basistaken zoals het maken van selecties of het tekenen van "
-#~ "paden uitgevoerd kunnen worden. De vele gereedschappen die de "
-#~ "<acronym>GIMP</acronym> bevat worden hier in detail beschreven."
-
-#, fuzzy
-#~ msgid ""
-#~ "(In case you're curious, in <acronym>GIMP</acronym> lingo a \"tool\" is a "
-#~ "way of acting on an image that requires access to its display, either to "
-#~ "let you indicate what you want to do by moving the pointer around inside "
-#~ "the display, or to show you interactively the results of changes that you "
-#~ "have made. But if you want to think of a tool as a saw, and an image as a "
-#~ "piece of wood, it probably won't do you a great deal of harm.)"
-#~ msgstr ""
-#~ "(Voor het geval dat je nieuwsgierig bent, in GIMP lingo is een "
-#~ "<emphasis>Gereedschap</emphasis> een manier waarop een afbeelding bewerkt "
-#~ "kan worden waarbij toegang tot zijn weergave nodig is. Dit kan door je "
-#~ "aan te laten geven wat je wil door de muiscursor rond te bewegen in de "
-#~ "weergave, of door je interactief het resultaat van de aanpassingen die je "
-#~ "hebt gemaakt te laten zien. Als je echter bij een <emphasis>gereedschap</"
-#~ "emphasis> aan een zaag en bij een afbeelding aan een stuk hout wil "
-#~ "denken, dan kan dat kan dat ook weinig kwaad.)"
-
-#, fuzzy
-#~ msgid "Tool Icons"
-#~ msgstr ""
-#~ "#-#-#-#-#  intro.po (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "Gereedschap Instellingen\n"
-#~ "#-#-#-#-#  tool-rect-select.po (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "Gereedschapsopties"
-
-#, fuzzy
-#~ msgid ""
-#~ "Most tools can be activated by clicking on an icon in the Toolbox. By "
-#~ "default, some tools are accessible only via the menus (namely the Color "
-#~ "tools are accessible only either as <menuchoice><guimenu>Colors</"
-#~ "guimenu></menuchoice> or as <menuchoice><guimenu>Tools</"
-#~ "guimenu><guisubmenu>Colors</guisubmenu></menuchoice>). Every tool, in "
-#~ "fact, can be activated from the <emphasis>Tools</emphasis> menu; also, "
-#~ "every tool can be activated from the keyboard using an accelerator key."
-#~ msgstr ""
-#~ "De meeste gereedschappen kunnen worden geactiveerd door op een icoon in "
-#~ "het gereedschapsvenster te klikken. Sommigen, echter (namelijk de "
-#~ "Kleurgereedschappen), zijn alleen toegankelijk via de menu's. Dit kan "
-#~ "zijn <emphasis>Gereedschappen-&gt;Kleurgereedschappen</emphasis> of "
-#~ "<emphasis>Lagen -&gt; Kleuren&gt;</emphasis>. Het is zelfs altijd zo dat "
-#~ "elk gereedschap vanuit het Gereedschap menu geactiveerd kan worden. Het "
-#~ "is ook mogelijk om elk gereedschap te activeren via een sneltoets op het "
-#~ "toetsenbord."
-
-#, fuzzy
-#~ msgid ""
-#~ "In the default setup, created when <acronym>GIMP</acronym> is first "
-#~ "installed, not all tools show icons in the Toolbox: the Color tools are "
-#~ "omitted. You can customize the set of tools that are shown in the Toolbox "
-#~ "using the <link linkend=\"gimp-tools-dialog\">Tools dialog</link>. There "
-#~ "are two reasons you might want to do this: first, if you only rarely use "
-#~ "a tool, it might be easier to find the tools you want if the distracting "
-#~ "icon is removed; second, if you use the Color tools a lot, you might find "
-#~ "it convenient to have icons for them easily available. In any case, "
-#~ "regardless of the Toolbox, you can always access any tool at any time "
-#~ "using the <guimenu>Tools</guimenu> menu from an image menubar."
-#~ msgstr ""
-#~ "Bij de standaardinstellingen, die gezet worden op het moment dat GIMP "
-#~ "voor de eerste keer wordt geïnstalleerd, zijn niet bij alle "
-#~ "gereedschappen in het gereedschapsvenster iconen zichtbaar: de Kleuren "
-#~ "gereedschappen zijn weggelaten. Je kan de gereedschappen die worden "
-#~ "weergegeven in het gereedschapsvenster aanpassen door het Gereedschappen "
-#~ "dialoog. Er zijn twee redenen waarom je dit zou willen doen. Allereerst, "
-#~ "als je een gereedschap slechts sporadisch gebruikt is het makkelijker om "
-#~ "de gereedschappen die je gebruikt te vinden als het gereedschap wordt "
-#~ "weggelaten. Ten tweede, als je de Kleur gereedschappen vaak gebruikt kan "
-#~ "je het makkelijk vinden als de iconen ervoor makkelijk toegankelijk zijn. "
-#~ "Het is in ieder geval zo, dat je altijd alle gereedschappen kan activeren "
-#~ "via het <guimenu>Gereedschappen</guimenu> menu van een afbeeldings-"
-#~ "menubalk."
-
-#, fuzzy
-#~ msgid ""
-#~ "The shape of the cursor changes when it is inside an image, to one that "
-#~ "indicates which tool is active (if in <guimenu>Preferences</guimenu> you "
-#~ "have set <menuchoice><guimenu>Image Windows</guimenu><guisubmenu>Mouse "
-#~ "Pointers</guisubmenu><guimenuitem>Pointer mode</"
-#~ "guimenuitem><guimenuitem>Tool icon</guimenuitem></menuchoice>)."
-#~ msgstr ""
-#~ "De vorm van de cursor veranderd wanneer hij binnen een afbeelding "
-#~ "beweegt, om aan te geven welk gereedschap actief is."
-
-#, fuzzy
-#~ msgid "Tool Options Dialog"
-#~ msgstr ""
-#~ "#-#-#-#-#  intro.po (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "Gereedschap Instellingen\n"
-#~ "#-#-#-#-#  tool-rect-select.po (PACKAGE VERSION)  #-#-#-#-#\n"
-#~ "Gereedschapsopties"
-
-#~ msgid ""
-#~ "If you have things set up like most people do, activating a tool causes "
-#~ "its Tool Options dialog to appear below the Toolbox. If you don't have "
-#~ "things set up this way, you probably should: it is very difficult to use "
-#~ "tools effectively without being able to manipulate their options."
-#~ msgstr ""
-#~ "Als je de instellingen gezet hebt zoals de meeste gebruikers, dan heeft "
-#~ "het activeren van een gereedschap het verschijnen van het "
-#~ "gereedschapsinstellingen dialoog tot gevolg. Dit dialoog zal onder het "
-#~ "gereedschapsvenster verschijnen. Als de instellingen anders staan, dan is "
-#~ "het in de meeste gevallen aan te raden om dat toch te doen: het is "
-#~ "moeilijk om alle gereedschappen effectief te gebruiken zonder hun "
-#~ "instellingen te kunnen wijzigen."
-
-#, fuzzy
-#~ msgid ""
-#~ "The Tool Options appear beneath the Toolbox in the default setup. If you "
-#~ "lose it somehow, you can get it back by creating a new Tool Options "
-#~ "dialog using <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable "
-#~ "Dialogs</guisubmenu><guimenuitem>Tool Options</guimenuitem></menuchoice> "
-#~ "and then docking it below the Toolbox. See the section on <link linkend="
-#~ "\"gimp-concepts-docks\">Dialogs and Docking</link> if you need help."
-#~ msgstr ""
-#~ "De gereedschapsinstellingen verschijnen onder het gereedschapsvenster met "
-#~ "de standaardinstellingen. Als je deze instellingen kwijtraakt kun je ze "
-#~ "terug krijgen door een nieuw gereedschaps dialoog aan te maken via "
-#~ "<emphasis>Bestand-&gt;Dialogen-&gt;Gereedschapsinstellingen</emphasis> en "
-#~ "het dan onder het gereedschapsvenster te dokken. Zie het hoofdstuk over "
-#~ "<link linkend=\"gimp-concepts-docks\">Dialogen en Dokken</link> als je "
-#~ "hulp nodig hebt."
-
-#~ msgid ""
-#~ "Each tool has its own specific set of options. The choices you make for "
-#~ "them are kept throughout the session, until you change them. In fact, the "
-#~ "tool options are maintained from session to session. The persistance of "
-#~ "tool options across sessions can sometimes be an annoying nuisance: a "
-#~ "tool behaves very strangely, and you can't figure out why until you "
-#~ "remember that you were using some unusual option the last time you worked "
-#~ "with it, two weeks ago."
-#~ msgstr ""
-#~ "Elk gereedschap heeft zijn eigen specifieke verzameling instellingen. De "
-#~ "waarden die je daarvoor neemt worden tijdens de sessie bewaard totdat ze "
-#~ "je veranderd. Het is zelfs zo dat de instellingen van sessie tot sessie "
-#~ "worden meegenomen. Het meenemen van instellingen over sessies kan soms "
-#~ "een irritante eigenschap zijn: een gereedschap geeft niet het gewenste "
-#~ "effect en je komt er niet achter waar het door komt totdat het je te "
-#~ "binnen schiet dat je tijdens de laatste een afwijkende instelling hebt "
-#~ "gemaakt."
-
-#~ msgid "At the bottom of the Tool Options dialog appear four buttons:"
-#~ msgstr ""
-#~ "Onderin het Gereedschapsinstellingen dialoog zijn vier knoppen zichtbaar:"
-
-#~ msgid "Save Options to"
-#~ msgstr "Instellingen opslaan"
-
-#~ msgid ""
-#~ "This button allows you to save the settings for the current tool, so that "
-#~ "you can restore them later. It brings up a small dialog allowing you to "
-#~ "give a name to the array of saved options. When you Restore options, only "
-#~ "saved sets for the active tool are shown, so you need not worry about "
-#~ "including the name of the tool when you assign a name here."
-#~ msgstr ""
-#~ "Deze knop geeft de mogelijkheid om de instellingen voor de huidige tool "
-#~ "op slaan zodat je ze later terug kan halen. Er komt een klein dialoog op "
-#~ "waar je een naam kan geven aan de reeks instellingen. Als je instellingen "
-#~ "terug haalt worden alleen opgeslagen instellingen voor het actieve "
-#~ "gereedschap getoond. Het is dus niet nodig om de naam van het gereedschap "
-#~ "op te geven als je hier een naam opgeeft."
-
-#~ msgid "Restore Options"
-#~ msgstr "Instellingen terugzetten"
-
-#~ msgid ""
-#~ "This button allows you to restore a previously saved set of options for "
-#~ "the active tool. If no option-sets have ever been saved for the active "
-#~ "tool, the button will be insensitive. Otherwise, clicking it will bring "
-#~ "up a menu showing the names of all saved option sets: choosing a menu "
-#~ "entry will apply those settings."
-#~ msgstr ""
-#~ "Deze knop geeft de mogelijkheid om een eerder opgeslagen reeks "
-#~ "instellingen voor het actieve gereedschap terug te zetten. Als er geen "
-#~ "instellingen zijn opgeslagen voor het actieve gereedschap dan zal de knop "
-#~ "niet beschikbaar zijn. In alle andere gevallen zal het aanklikken van de "
-#~ "knop een menu op laten komen met daarin de namen van alle opgeslagen "
-#~ "instellingen. Als je hier een reeks kiest zullen deze instellingen "
-#~ "toegepast worden."
-
-#~ msgid "Delete Options"
-#~ msgstr "Instellingen verwijderen"
-
-#~ msgid ""
-#~ "This button allows you to delete a previously saved set of options for "
-#~ "the active tool. If no option-sets have ever been saved for the active "
-#~ "tool, the button will be insensitive. Otherwise, clicking it will bring "
-#~ "up a menu showing the names of all saved option sets: choosing a menu "
-#~ "entry will delete those settings."
-#~ msgstr ""
-#~ "De knop geeft de mogelijkheid om, voor het actieve gereedschap, eerder "
-#~ "opgeslagen instellingen te verwijderen. De knop zal alleen beschikbaar "
-#~ "zijn als er eerder instellingen zijn opgeslagen. Als dit zo is zal er een "
-#~ "menu met opgeslagen instellingen opkomen, het kiezen van een optie zal "
-#~ "deze reeks instelling verwijderen."
-
-#~ msgid "Reset Options"
-#~ msgstr "Instellingen resetten"
-
-#~ msgid ""
-#~ "This button resets the options for the active tool to their default "
-#~ "values."
-#~ msgstr ""
-#~ "Deze knop zal de instellingen naar hun standaard waarde terugzetten."
-
-#, fuzzy
-#~ msgid "The tool buttons"
-#~ msgstr "Het gereedschapsvenster"
-
-#, fuzzy
-#~ msgid ""
-#~ "Pressing this button resets the operation settings the to their defaults."
-#~ msgstr ""
-#~ "Deze knop zal de instellingen naar hun standaard waarde terugzetten."
-
-#, fuzzy
-#~ msgid ""
-#~ "In the image menu through <menuchoice><guimenu>Tools</"
-#~ "guimenu><guisubmenu>Color Picker.</guisubmenu></menuchoice>,"
-#~ msgstr ""
-#~ "Vanuit de menu balk voor de afbeelding <menuchoice><guimenu>Gereedschap</"
-#~ "guimenu><guisubmenu>Selectie</guisubmenu><guimenuitem>Rechthoekselectie</"
-#~ "guimenuitem></menuchoice>;"
-
-#~ msgid "j.h"
-#~ msgstr "rvw"
-
 #~ msgid "2006-06-15"
 #~ msgstr "2006-07-09"
+
+#~ msgid "Selections"
+#~ msgstr "Selecties"
 
 #~ msgid ""
 #~ "Selection tools are designed to select regions from images or layers so "
@@ -3910,6 +3632,13 @@ msgstr ""
 #~ msgid "There are seven selection tools:"
 #~ msgstr "Er zijn zes selectie gereedschappen:"
 
+#~ msgid "the <link linkend=\"gimp-tool-rect-select\">Rectangle Select</link>;"
+#~ msgstr "Rechthoekigselectie"
+
+#~ msgid ""
+#~ "the <link linkend=\"gimp-tool-ellipse-select\">Ellipse Select</link>;"
+#~ msgstr "Ovale selectie"
+
 #~ msgid ""
 #~ "the <link linkend=\"gimp-tool-free-select\">Free Select (the Lasso)</"
 #~ "link>;"
@@ -3919,6 +3648,11 @@ msgstr ""
 #~ "the <link linkend=\"gimp-tool-fuzzy-select\"> Select Contiguous Regions "
 #~ "(the Magic Wand) </link>;"
 #~ msgstr "Selecteer aaneengesloten gebieden (de Toverstaf)"
+
+#~ msgid ""
+#~ "the <link linkend=\"gimp-tool-iscissors\"> Select Shapes from Image "
+#~ "(Intelligent Scissors) </link> and"
+#~ msgstr "Semi-automatisch selecteren (Intelligente Scharen)"
 
 #~ msgid ""
 #~ "In some ways the Path tool can also be thought of as a selection tool: "
@@ -4146,6 +3880,9 @@ msgstr ""
 #~ "hoekig worden, anti-aliasing maakt deze hoeken minder scherp, oftewel "
 #~ "vloeiender."
 
+#~ msgid "Feather Edges"
+#~ msgstr "Zachte Randen"
+
 #~ msgid ""
 #~ "This options allows the boundary of the selection to be blurred, so that "
 #~ "points near the boundary are only partially selected. For further "
@@ -4172,6 +3909,9 @@ msgstr ""
 #~ "Bewegingen en veranderingen van de selecties worden desondanks opgeslagen "
 #~ "in de bewerkingsgeschiedenis voor het geval u een en ander moet "
 #~ "corrigeren."
+
+#~ msgid "Color Tools"
+#~ msgstr "Kleurgereedschappen"
 
 #~ msgid "2008-03-19"
 #~ msgstr "2006-06-12"
@@ -4344,6 +4084,23 @@ msgstr ""
 #~ "Door te klikken op het gereedschaps pictogram <placeholder-1/> in de "
 #~ "Gereedschapskist,"
 
+#~ msgid "Toolbox"
+#~ msgstr "Gereedschapsvenster"
+
+#~ msgid "The Toolbox"
+#~ msgstr "Het gereedschapsvenster"
+
+#~ msgid ""
+#~ "The <acronym>GIMP</acronym> provides a comprehensive toolbox in order to "
+#~ "quickly perform basic tasks such as making selections or drawing paths. "
+#~ "The many tools contained within The <acronym>GIMP</acronym>'s toolbox are "
+#~ "discussed in detail here."
+#~ msgstr ""
+#~ "De <acronym>GIMP</acronym> voorziet in een uitgebreid gereedschapsvenster "
+#~ "waarmee snel basistaken zoals het maken van selecties of het tekenen van "
+#~ "paden uitgevoerd kunnen worden. De vele gereedschappen die de "
+#~ "<acronym>GIMP</acronym> bevat worden hier in detail beschreven."
+
 #~ msgid ""
 #~ "GIMP has a diverse assortment of tools that let you perform a large "
 #~ "variety of tasks. The tools can be thought of as falling into five "
@@ -4368,9 +4125,201 @@ msgstr ""
 #~ "aangepast kunnen worden; en <emphasis>andere gereedschappen</emphasis>, "
 #~ "die niet in één van de andere categoriëen vallen."
 
+#~ msgid ""
+#~ "(In case you're curious, in GIMP lingo a \"tool\" is a way of acting on "
+#~ "an image that requires access to its display, either to let you indicate "
+#~ "what you want to do by moving the pointer around inside the display, or "
+#~ "to show you interactively the results of changes that you have made. But "
+#~ "if you want to think of a tool as a saw, and an image as a piece of wood, "
+#~ "it probably won't do you a great deal of harm.)"
+#~ msgstr ""
+#~ "(Voor het geval dat je nieuwsgierig bent, in GIMP lingo is een "
+#~ "<emphasis>Gereedschap</emphasis> een manier waarop een afbeelding bewerkt "
+#~ "kan worden waarbij toegang tot zijn weergave nodig is. Dit kan door je "
+#~ "aan te laten geven wat je wil door de muiscursor rond te bewegen in de "
+#~ "weergave, of door je interactief het resultaat van de aanpassingen die je "
+#~ "hebt gemaakt te laten zien. Als je echter bij een <emphasis>gereedschap</"
+#~ "emphasis> aan een zaag en bij een afbeelding aan een stuk hout wil "
+#~ "denken, dan kan dat kan dat ook weinig kwaad.)"
+
+#~ msgid ""
+#~ "Most tools can be activated by clicking on an icon in the Toolbox. Some, "
+#~ "however (namely, the Color tools), are accessible only via the menus, "
+#~ "either as <emphasis>Tools-&gt;Color Tools</emphasis> or as "
+#~ "<emphasis>Layer-&gt;Colors</emphasis>. Every tool, in fact, can be "
+#~ "activated from the <emphasis>Tools</emphasis> menu; also, every tool can "
+#~ "be activated from the keyboard using an accelerator key."
+#~ msgstr ""
+#~ "De meeste gereedschappen kunnen worden geactiveerd door op een icoon in "
+#~ "het gereedschapsvenster te klikken. Sommigen, echter (namelijk de "
+#~ "Kleurgereedschappen), zijn alleen toegankelijk via de menu's. Dit kan "
+#~ "zijn <emphasis>Gereedschappen-&gt;Kleurgereedschappen</emphasis> of "
+#~ "<emphasis>Lagen -&gt; Kleuren&gt;</emphasis>. Het is zelfs altijd zo dat "
+#~ "elk gereedschap vanuit het Gereedschap menu geactiveerd kan worden. Het "
+#~ "is ook mogelijk om elk gereedschap te activeren via een sneltoets op het "
+#~ "toetsenbord."
+
+#~ msgid ""
+#~ "In the default setup, created when GIMP is first installed, not all tools "
+#~ "show icons in the Toolbox: the Color tools are omitted. You can customize "
+#~ "the set of tools that are shown in the Toolbox using the <link linkend="
+#~ "\"gimp-tools-dialog\">Tools dialog</link>. There are two reasons you "
+#~ "might want to do this: first, if you only rarely use a tool, it might be "
+#~ "easier to find the tools you want if the distracting icon is removed; "
+#~ "second, if you use the Color tools a lot, you might find it convenient to "
+#~ "have icons for them easily available. In any case, regardless of the "
+#~ "Toolbox, you can always access any tool at any time using the "
+#~ "<guimenu>Tools</guimenu> menu from an image menubar."
+#~ msgstr ""
+#~ "Bij de standaardinstellingen, die gezet worden op het moment dat GIMP "
+#~ "voor de eerste keer wordt geïnstalleerd, zijn niet bij alle "
+#~ "gereedschappen in het gereedschapsvenster iconen zichtbaar: de Kleuren "
+#~ "gereedschappen zijn weggelaten. Je kan de gereedschappen die worden "
+#~ "weergegeven in het gereedschapsvenster aanpassen door het Gereedschappen "
+#~ "dialoog. Er zijn twee redenen waarom je dit zou willen doen. Allereerst, "
+#~ "als je een gereedschap slechts sporadisch gebruikt is het makkelijker om "
+#~ "de gereedschappen die je gebruikt te vinden als het gereedschap wordt "
+#~ "weggelaten. Ten tweede, als je de Kleur gereedschappen vaak gebruikt kan "
+#~ "je het makkelijk vinden als de iconen ervoor makkelijk toegankelijk zijn. "
+#~ "Het is in ieder geval zo, dat je altijd alle gereedschappen kan activeren "
+#~ "via het <guimenu>Gereedschappen</guimenu> menu van een afbeeldings-"
+#~ "menubalk."
+
+#~ msgid ""
+#~ "The shape of the cursor changes when it is inside an image, to one that "
+#~ "indicates which tool is active (if in <guimenu>Preferences</guimenu> you "
+#~ "have set <menuchoice><guimenu>Image Windows</guimenu><guisubmenu>Mouse "
+#~ "Pointers</guisubmenu><guimenuitem>Pointer mode</"
+#~ "guimenuitem><guimenuitem>Tool icon</guimenuitem></menuchoice> )."
+#~ msgstr ""
+#~ "De vorm van de cursor veranderd wanneer hij binnen een afbeelding "
+#~ "beweegt, om aan te geven welk gereedschap actief is."
+
 #~ msgid "Tool Options dialog for the Rectangle Select tool."
 #~ msgstr ""
 #~ "Gereedschap Instellingen dialoog voor het Rechthoek Selectie gereedschap."
+
+#~ msgid ""
+#~ "If you have things set up like most people do, activating a tool causes "
+#~ "its Tool Options dialog to appear below the Toolbox. If you don't have "
+#~ "things set up this way, you probably should: it is very difficult to use "
+#~ "tools effectively without being able to manipulate their options."
+#~ msgstr ""
+#~ "Als je de instellingen gezet hebt zoals de meeste gebruikers, dan heeft "
+#~ "het activeren van een gereedschap het verschijnen van het "
+#~ "gereedschapsinstellingen dialoog tot gevolg. Dit dialoog zal onder het "
+#~ "gereedschapsvenster verschijnen. Als de instellingen anders staan, dan is "
+#~ "het in de meeste gevallen aan te raden om dat toch te doen: het is "
+#~ "moeilijk om alle gereedschappen effectief te gebruiken zonder hun "
+#~ "instellingen te kunnen wijzigen."
+
+#~ msgid ""
+#~ "The Tool Options appear beneath the Toolbox in the default setup. If you "
+#~ "lose it somehow, you can get it back by creating a new Tool Options "
+#~ "dialog using <menuchoice><guimenu>File</guimenu><guisubmenu>Dialogs</"
+#~ "guisubmenu><guimenuitem>Tool Options</guimenuitem></menuchoice> and then "
+#~ "docking it below the Toolbox. See the section on <link linkend=\"gimp-"
+#~ "concepts-docks\">Dialogs and Docking</link> if you need help."
+#~ msgstr ""
+#~ "De gereedschapsinstellingen verschijnen onder het gereedschapsvenster met "
+#~ "de standaardinstellingen. Als je deze instellingen kwijtraakt kun je ze "
+#~ "terug krijgen door een nieuw gereedschaps dialoog aan te maken via "
+#~ "<emphasis>Bestand-&gt;Dialogen-&gt;Gereedschapsinstellingen</emphasis> en "
+#~ "het dan onder het gereedschapsvenster te dokken. Zie het hoofdstuk over "
+#~ "<link linkend=\"gimp-concepts-docks\">Dialogen en Dokken</link> als je "
+#~ "hulp nodig hebt."
+
+#~ msgid ""
+#~ "Each tool has its own specific set of options. The choices you make for "
+#~ "them are kept throughout the session, until you change them. In fact, the "
+#~ "tool options are maintained from session to session. The persistance of "
+#~ "tool options across sessions can sometimes be an annoying nuisance: a "
+#~ "tool behaves very strangely, and you can't figure out why until you "
+#~ "remember that you were using some unusual option the last time you worked "
+#~ "with it, two weeks ago."
+#~ msgstr ""
+#~ "Elk gereedschap heeft zijn eigen specifieke verzameling instellingen. De "
+#~ "waarden die je daarvoor neemt worden tijdens de sessie bewaard totdat ze "
+#~ "je veranderd. Het is zelfs zo dat de instellingen van sessie tot sessie "
+#~ "worden meegenomen. Het meenemen van instellingen over sessies kan soms "
+#~ "een irritante eigenschap zijn: een gereedschap geeft niet het gewenste "
+#~ "effect en je komt er niet achter waar het door komt totdat het je te "
+#~ "binnen schiet dat je tijdens de laatste een afwijkende instelling hebt "
+#~ "gemaakt."
+
+#~ msgid "At the bottom of the Tool Options dialog appear four buttons:"
+#~ msgstr ""
+#~ "Onderin het Gereedschapsinstellingen dialoog zijn vier knoppen zichtbaar:"
+
+#~ msgid "Save Options to"
+#~ msgstr "Instellingen opslaan"
+
+#~ msgid ""
+#~ "This button allows you to save the settings for the current tool, so that "
+#~ "you can restore them later. It brings up a small dialog allowing you to "
+#~ "give a name to the array of saved options. When you Restore options, only "
+#~ "saved sets for the active tool are shown, so you need not worry about "
+#~ "including the name of the tool when you assign a name here."
+#~ msgstr ""
+#~ "Deze knop geeft de mogelijkheid om de instellingen voor de huidige tool "
+#~ "op slaan zodat je ze later terug kan halen. Er komt een klein dialoog op "
+#~ "waar je een naam kan geven aan de reeks instellingen. Als je instellingen "
+#~ "terug haalt worden alleen opgeslagen instellingen voor het actieve "
+#~ "gereedschap getoond. Het is dus niet nodig om de naam van het gereedschap "
+#~ "op te geven als je hier een naam opgeeft."
+
+#~ msgid "Restore Options"
+#~ msgstr "Instellingen terugzetten"
+
+#~ msgid ""
+#~ "This button allows you to restore a previously saved set of options for "
+#~ "the active tool. If no option-sets have ever been saved for the active "
+#~ "tool, the button will be insensitive. Otherwise, clicking it will bring "
+#~ "up a menu showing the names of all saved option sets: choosing a menu "
+#~ "entry will apply those settings."
+#~ msgstr ""
+#~ "Deze knop geeft de mogelijkheid om een eerder opgeslagen reeks "
+#~ "instellingen voor het actieve gereedschap terug te zetten. Als er geen "
+#~ "instellingen zijn opgeslagen voor het actieve gereedschap dan zal de knop "
+#~ "niet beschikbaar zijn. In alle andere gevallen zal het aanklikken van de "
+#~ "knop een menu op laten komen met daarin de namen van alle opgeslagen "
+#~ "instellingen. Als je hier een reeks kiest zullen deze instellingen "
+#~ "toegepast worden."
+
+#~ msgid "Delete Options"
+#~ msgstr "Instellingen verwijderen"
+
+#~ msgid ""
+#~ "This button allows you to delete a previously saved set of options for "
+#~ "the active tool. If no option-sets have ever been saved for the active "
+#~ "tool, the button will be insensitive. Otherwise, clicking it will bring "
+#~ "up a menu showing the names of all saved option sets: choosing a menu "
+#~ "entry will delete those settings."
+#~ msgstr ""
+#~ "De knop geeft de mogelijkheid om, voor het actieve gereedschap, eerder "
+#~ "opgeslagen instellingen te verwijderen. De knop zal alleen beschikbaar "
+#~ "zijn als er eerder instellingen zijn opgeslagen. Als dit zo is zal er een "
+#~ "menu met opgeslagen instellingen opkomen, het kiezen van een optie zal "
+#~ "deze reeks instelling verwijderen."
+
+#~ msgid "Reset Options"
+#~ msgstr "Instellingen resetten"
+
+#~ msgid ""
+#~ "This button resets the options for the active tool to their default "
+#~ "values."
+#~ msgstr ""
+#~ "Deze knop zal de instellingen naar hun standaard waarde terugzetten."
+
+#~ msgid ""
+#~ "See <link linkend=\"gimp-tool-select\">Selection Tools</link> for help "
+#~ "with options that are common to all these tools. Only options that are "
+#~ "specific to this tool are explained here."
+#~ msgstr ""
+#~ "Zie <link linkend=\"gimp-tool-select\">Selectie Gereedschappen</link> "
+#~ "voor meer informatie over eigenschappen die gelden voor alle selectie "
+#~ "gereedschappen. Alleen opties specifiek voor het rechthoekselectie "
+#~ "gereedschap worden hier besproken."
 
 #~ msgid ""
 #~ "See <link linkend=\"gimp-tool-select\">Selection Tools</link> for help "

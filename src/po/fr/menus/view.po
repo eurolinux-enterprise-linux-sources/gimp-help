@@ -1,18 +1,18 @@
 # Julien Hardelin, 2011.
 # Julien hardelin <jhardlin@orange.fr>, 2012.
+# Stéphane Poumaer <spoumaer@gmail.com>, 2013.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-2.6-HELP\n"
-"POT-Creation-Date: 2012-05-12 15:08+0200\n"
-"PO-Revision-Date: 2012-05-12 15:30+0200\n"
-"Last-Translator: Julien hardelin <jhardlin@orange.fr>\n"
+"Project-Id-Version: Manuel utilisateur de GIMP-2.8\n"
+"POT-Creation-Date: 2013-11-02 16:48+0100\n"
+"PO-Revision-Date: 2013-03-19 08:12+0100\n"
+"Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
 "Language-Team: français <GNOME French Team <gnomefr@traduc.org>>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: src/menus/view/show-scrollbars.xml:10(title)
@@ -47,7 +47,6 @@ msgstr ""
 
 #: src/menus/view/show-scrollbars.xml:33(title)
 #: src/menus/view/show-guides.xml:32(title)
-#: src/menus/view/show-rulers.xml:32(title)
 #: src/menus/view/show-selection.xml:34(title)
 #: src/menus/view/fullscreen.xml:46(title)
 #: src/menus/view/snap-to-guides.xml:30(title)
@@ -63,6 +62,7 @@ msgstr ""
 #: src/menus/view/show-sample-points.xml:24(title)
 #: src/menus/view/show-grid.xml:41(title)
 #: src/menus/view/show-menubar.xml:34(title)
+#: src/menus/view/show-rulers.xml:32(title)
 msgid "Activating the Command"
 msgstr "Accès à la commande"
 
@@ -124,54 +124,6 @@ msgstr ""
 "La combinaison de touches <keycombo><keycap>Maj</keycap><keycap>Ctrl</"
 "keycap><keycap>T</keycap></keycombo> activera la commande Afficher les "
 "guides."
-
-#: src/menus/view/show-rulers.xml:10(title)
-#: src/menus/view/show-rulers.xml:17(primary)
-msgid "Show Rulers"
-msgstr "Afficher les règles"
-
-#: src/menus/view/show-rulers.xml:13(primary)
-msgid "Rulers"
-msgstr "Règles"
-
-#: src/menus/view/show-rulers.xml:14(secondary)
-msgid "Show/Mask rulers"
-msgstr "Afficher/Masquer les règles"
-
-#: src/menus/view/show-rulers.xml:20(para)
-msgid ""
-"The <guimenuitem>Show Rulers</guimenuitem> command enables and disables "
-"displaying the rulers. It may be useful to disable them if you are working "
-"in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
-msgstr ""
-"Cette option affiche ou non les règles. C'est utile si vous travaillez en "
-"mode <link linkend=\"gimp-view-fullscreen\">Plein écran</link>."
-
-#: src/menus/view/show-rulers.xml:25(para)
-msgid ""
-"You can set the default for the rulers in the <link linkend=\"gimp-prefs-"
-"image-window\">Image Window Appearance</link> dialog."
-msgstr ""
-"Cette option est réglée par défaut dans le sous-menu <link linkend=\"gimp-"
-"prefs-image-window\">Fenêtre d'image/Apparence </link>."
-
-#: src/menus/view/show-rulers.xml:35(para)
-msgid ""
-"You can access this command from the image menubar through "
-"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Rulers</guimenuitem></"
-"menuchoice>,"
-msgstr ""
-"Cette commande se trouve dans <menuchoice><guimenu>Affichage</"
-"guimenu><guimenuitem>Afficher les règles</guimenuitem></menuchoice>"
-
-#: src/menus/view/show-rulers.xml:44(para)
-msgid ""
-"or by using the keyboard shortcut <keycombo><keycap>Shift</"
-"keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
-msgstr ""
-"La combinaison de touches <keycombo><keycap>Maj</keycap><keycap>Ctrl</"
-"keycap><keycap>R</keycap></keycombo> activera la commande Afficher les "
-"règles."
 
 #: src/menus/view/show-selection.xml:10(title)
 #: src/menus/view/show-selection.xml:18(primary)
@@ -258,8 +210,8 @@ msgid ""
 "Pressing <keycap>TAB</keycap> key toggles the visibility of all present "
 "docks."
 msgstr ""
-"L'appui sur la touche <keycap>TAB</keycap> bascule la visibilité des de tous "
-"les groupes de fenêtres présents."
+"L'appui sur la touche <keycap>TAB</keycap> bascule la visibilité de tous les "
+"groupes de fenêtres présents."
 
 #: src/menus/view/fullscreen.xml:36(para)
 msgid ""
@@ -391,18 +343,22 @@ msgid "Image size: 100x100 pixels"
 msgstr "Taille de l'image : 100x100 pixels"
 
 #: src/menus/view/dot-for-dot.xml:36(para)
-msgid "Image resolution: 300dpi (dots per inch)"
-msgstr "Définition de l'image : 300 dpi (dots per inch)"
+msgid "Image resolution: 300 ppi (pixels per inch)"
+msgstr "Définition de l'image : 300 ppi (pixels per inch)"
 
 #: src/menus/view/dot-for-dot.xml:39(para)
 msgid ""
 "Image displayed with Zoom=100%, <quote>Dot for Dot</quote><emphasis>enabled</"
-"emphasis>: 100x100 pixels"
+"emphasis>:"
 msgstr ""
 "Image affichée avec un zoom de 100% et <quote>Point pour point</quote> "
-"activée : 100x100 pixels"
+"activé :"
 
-#: src/menus/view/dot-for-dot.xml:45(para)
+#: src/menus/view/dot-for-dot.xml:43(para)
+msgid "100x100 pixels"
+msgstr "100x100 pixels"
+
+#: src/menus/view/dot-for-dot.xml:46(para)
 msgid ""
 "Image displayed with Zoom=100%, <quote>Dot for Dot</"
 "quote><emphasis>disabled</emphasis>:"
@@ -410,9 +366,9 @@ msgstr ""
 "Image affichée avec un zoom de 100% et <quote>Point pour point</quote> "
 "désactivée :"
 
-#: src/menus/view/dot-for-dot.xml:50(alt)
-msgid "$100pixels \\div 300dpi = \\frac{1}{3} inch \\approx 0.85cm$"
-msgstr "$100pixels \\div 300dpi = \\frac{1}{3} inch \\approx 0.85cm$"
+#: src/menus/view/dot-for-dot.xml:51(para)
+msgid "100 pixels &divide; 300 ppi = 1/3 inch &cong; 0.85 cm"
+msgstr "100 pixels &divide; 300 ppi = 1/3 inch &cong; 0.85 cm"
 
 #: src/menus/view/dot-for-dot.xml:57(para)
 msgid ""
@@ -473,7 +429,7 @@ msgid ""
 "menuchoice>."
 msgstr ""
 "Les bords du canevas sont habituellement confondus avec les bords de "
-"l'image : le canevas a alors la me taille que l'image. Mais vous pouvez "
+"l'image : le canevas a alors la même taille que l'image. Mais vous pouvez "
 "changer la taille du canevas dans <menuchoice><guimenu>Image</"
 "guimenu><guimenuitem>Taille du canevas</guimenuitem></menuchoice>."
 
@@ -725,7 +681,7 @@ msgid ""
 msgstr ""
 "Grec : <foreignphrase>proto</foreignphrase>: première (couleur dans le <link "
 "linkend=\"glossary-colormodel\">Système de couleur RVB</"
-"link>) : <foreignphrase>an</foreignphrase>: négation; <foreignphrase>op</"
+"link>) : <foreignphrase>an</foreignphrase>: négation  ; <foreignphrase>op</"
 "foreignphrase> : œil, vision."
 
 #: src/menus/view/display-filters.xml:125(term)
@@ -826,7 +782,7 @@ msgstr "Deutéranopie : le jaune est décalé vers le rouge."
 #: src/menus/view/display-filters.xml:250(para)
 msgid ""
 "Tritanopia; in tritanopia, green is slightly represented in the blue range."
-msgstr "Tritanopie; le vert est légèrement représenté dans le bleu"
+msgstr "Tritanopie  ; le vert est légèrement représenté dans le bleu"
 
 #: src/menus/view/display-filters.xml:261(title)
 #: src/menus/view/display-filters.xml:263(primary)
@@ -886,11 +842,11 @@ msgid ""
 msgstr ""
 "Nous voici à nouveau dans le domaine médical. La <emphasis>sensibilité au "
 "contraste</emphasis> est la capacité du système visuel à distinguer les "
-"faibles différences de contraste. Certaines personnes, souffrant de "
-"cataracte (l'opacité du cristallin éparpille la lumière sur la rétine) ou de "
-"maladie de la rétine (due au diabète par exemple, qui détruit cônes et "
-"bâtonnets de la rétine), ont un déficit de cette sensibilité au contraste : "
-"il leur est difficile de distinguer des taches sur un habit par exemple."
+"faibles contrastes. Certaines personnes, souffrant de cataracte (l'opacité "
+"du cristallin éparpille la lumière sur la rétine) ou de maladie de la rétine "
+"(due au diabète par exemple, qui détruit cônes et bâtonnets de la rétine), "
+"ont un déficit de cette sensibilité au contraste : il leur est difficile de "
+"distinguer des taches sur un habit par exemple."
 
 #: src/menus/view/display-filters.xml:321(para)
 msgid ""
@@ -1151,10 +1107,10 @@ msgid ""
 msgstr ""
 "Cette commande crée une nouvelle fenêtre d'image, identique à la première. "
 "Vous pouvez créer ainsi plusieurs répliques de l'image, "
-"numérotées .1, .2, ...etc.). Seules les fonctions de zoom et d'affichage "
+"numérotées .1, .2, ...etc. Seules les fonctions de zoom et d'affichage "
 "seront indépendantes de la première vue ; toutes les autres fonctions que "
 "vous appliquerez verront leur effet répercuté sur les autres vues. Cette "
-"fonction est utile quand vous travailler avec un fort facteur de zoom : vous "
+"fonction est utile quand vous travaillez avec un fort facteur de zoom : vous "
 "pouvez ainsi voir en temps réel le résultat de vos modifications dans "
 "l'image en taille normale."
 
@@ -1560,6 +1516,54 @@ msgstr ""
 "Cette commande se trouve dans <menuchoice><guimenu>Affichage</"
 "guimenu><guimenuitem>Afficher la barre de menus</guimenuitem></menuchoice>."
 
+#: src/menus/view/show-rulers.xml:10(title)
+#: src/menus/view/show-rulers.xml:17(primary)
+msgid "Show Rulers"
+msgstr "Afficher les règles"
+
+#: src/menus/view/show-rulers.xml:13(primary)
+msgid "Rulers"
+msgstr "Règles"
+
+#: src/menus/view/show-rulers.xml:14(secondary)
+msgid "Show/Mask rulers"
+msgstr "Afficher/Masquer les règles"
+
+#: src/menus/view/show-rulers.xml:20(para)
+msgid ""
+"The <guimenuitem>Show Rulers</guimenuitem> command enables and disables "
+"displaying the rulers. It may be useful to disable them if you are working "
+"in <link linkend=\"gimp-view-fullscreen\">full-screen mode</link>."
+msgstr ""
+"Cette option affiche ou non les règles. C'est utile si vous travaillez en "
+"mode <link linkend=\"gimp-view-fullscreen\">Plein écran</link>."
+
+#: src/menus/view/show-rulers.xml:25(para)
+msgid ""
+"You can set the default for the rulers in the <link linkend=\"gimp-prefs-"
+"image-window\">Image Window Appearance</link> dialog."
+msgstr ""
+"Cette option est réglée par défaut dans le sous-menu <link linkend=\"gimp-"
+"prefs-image-window\">Fenêtre d'image/Apparence </link>."
+
+#: src/menus/view/show-rulers.xml:35(para)
+msgid ""
+"You can access this command from the image menubar through "
+"<menuchoice><guimenu>View</guimenu><guimenuitem>Show Rulers</guimenuitem></"
+"menuchoice>,"
+msgstr ""
+"Cette commande se trouve dans <menuchoice><guimenu>Affichage</"
+"guimenu><guimenuitem>Afficher les règles</guimenuitem></menuchoice>"
+
+#: src/menus/view/show-rulers.xml:44(para)
+msgid ""
+"or by using the keyboard shortcut <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap><keycap>R</keycap></keycombo>."
+msgstr ""
+"La combinaison de touches <keycombo><keycap>Maj</keycap><keycap>Ctrl</"
+"keycap><keycap>R</keycap></keycombo> activera la commande Afficher les "
+"règles."
+
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/view/zoom.xml:23(None)
@@ -1691,7 +1695,7 @@ msgid ""
 "zoom factor is increased by about 30%. The maximum possible zoom level is "
 "25600%."
 msgstr ""
-"(Raccourci : <keycap>+</keycap> ; il s'agit du signe <quote>+</quote> obtenu "
+"(Raccourci : <keycap>+</keycap> ; il s'agit du signe <quote>+</quote> obtenu "
 "avec la touche Majuscule et non pas de celui du pavé numérique). Chaque fois "
 "que le <quote>Zoom avant</quote> est utilisé, le facteur de zoom est "
 "augmenté d'environ 30%, le maximum étant 25600%."
@@ -1785,14 +1789,6 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/view/zoom.xml:0(None)
 msgid "translator-credits"
-msgstr "Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2011"
-
-#~ msgid ""
-#~ "or by using the keyboard shortcut <keycombo><keycap>Ctrl</"
-#~ "keycap><keycap>E</keycap></keycombo>."
-#~ msgstr ""
-#~ "ou en utilisant le raccourci-clavier <keycombo><keycap>Ctrl</"
-#~ "keycap><keycap>E</keycap></keycombo>."
-
-#~ msgid "@@image: 'images/menus/view.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr " "
+msgstr ""
+"Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2011\n"
+"Stéphane Poumaer, spoumaer@gmail.com, 2013"

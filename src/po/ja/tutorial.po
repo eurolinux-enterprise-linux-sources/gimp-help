@@ -1,15 +1,15 @@
-# 島本良太 (SimaMoto,RyōTa) <liangtai.s4@gmail.com>, 2009, 2010, 2011, 2012.
+# 島本良太 (SimaMoto,RyōTa) <liangtai.s16@gmail.com>, 2009-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-2.8-HELP\n"
-"POT-Creation-Date: 2012-03-25 13:50+0000\n"
-"PO-Revision-Date: 2012-03-24 21:31+0900\n"
-"Last-Translator: liangtai <liangtai.s4@gmail.com>\n"
+"POT-Creation-Date: 2013-03-08 06:43+0900\n"
+"PO-Revision-Date: 2013-03-08 06:49+0900\n"
+"Last-Translator: liangtai <liangtai.s16@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -166,11 +166,11 @@ msgid ""
 "Straight Lines for complex tasks; its intended to show how you can use it to "
 "create quick and easy straight lines."
 msgstr ""
-"この演習は<acronym>GIMP</acronym>での直線のひきかたについてご紹介します。 不"
-"正確になりがちなマウスやタブレットで引いた線が真っ直ぐになれば便利なことです"
-"し、 きっちり整った造形にコンピューターの能力が生かせます。 この演習では直線"
-"を使って何ら複雑な作業をするつもりはありません。 手早く簡単に直線がひけるよう"
-"になることに重点をおいています。"
+"この演習は <acronym>GIMP</acronym> での直線のひきかたについてご紹介します。 "
+"不正確になりがちなマウスやタブレットで引いた線が真っ直ぐになれば便利なことで"
+"すし、 きっちり整った造形にコンピューターの能力が生かせます。 この演習では直"
+"線を使って何ら複雑な作業をするつもりはありません。 手早く簡単に直線がひけるよ"
+"うになることに重点をおいています。"
 
 #: src/tutorial/straight-lines.xml:49(title)
 msgid "Preparations"
@@ -240,13 +240,14 @@ msgid ""
 "Brush Dialog (see <xref linkend=\"gimp-brush-dialog\"/>).Now, lets start "
 "drawing a line. Hold down the <keycap>Shift</keycap> key, and keep it down."
 msgstr ""
-"ツールボックスの<quote>ブラシで描画</quote>ツール <guiicon><inlinegraphic "
-"fileref=\"images/toolbox/stock-tool-paintbrush-22.png\"/></guiicon> のアイコ"
-"ンをクリックしてみましょう。 つぎに画像上のお好きな位置で直線の始点 (終点) を"
-"クリックします。 画面には点がひとつ現れます。 この点の大きさでいま使っている"
-"ブラシの大きさがわかります。 ブラシの大きさは<quote>ブラシ</quote>ダイアログ"
-"上で変えられます。 (<xref linkend=\"gimp-brush-dialog\"/> 参照。) ではいよい"
-"よ線をひいてみます。 <keycap>Shift</keycap> キーを押したままにしてください。"
+"ツールボックスの<quote>ブラシで描画</quote>ツールのアイコン "
+"<guiicon><inlinegraphic fileref=\"images/toolbox/stock-tool-paintbrush-22.png"
+"\"/></guiicon> をクリックしてみましょう。 つぎに画像上のお好きな位置で直線の"
+"始点 (終点) をクリックします。 画面には点がひとつ現れます。 この点の大きさで"
+"いま使っているブラシの大きさがわかります。 ブラシの大きさは<quote>ブラシ</"
+"quote>ダイアログ上で変えられます。 (<xref linkend=\"gimp-brush-dialog\"/> 参"
+"照。) ではいよいよ線をひいてみます。 <keycap>Shift</keycap> キーを押したまま"
+"にしてください。"
 
 #: src/tutorial/straight-lines.xml:132(title)
 msgid "Drawing the Line"
@@ -288,7 +289,7 @@ msgstr ""
 "これはすばらしい機能です。 描画ツールならばどれでも直線が引けます。 それから"
 "直線はつなげてつぎつぎとひくことができます。 おつかれさまでした。 "
 "<keycap>Shift</keycap> キーを放してください。 これで完成です。 このあとはいろ"
-"いろな例をご覧ください。 楽しく<acronym>GIMP</acronym>しましょう!"
+"いろな例をご覧ください。 楽しく <acronym>GIMP</acronym> しましょう!"
 
 #: src/tutorial/straight-lines.xml:175(title)
 msgid "Examples"
@@ -359,16 +360,14 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:56(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-scale-example.jpg'; "
 "md5=ff3357282cec1d50fd9cd93466cdb033"
-msgstr "common"
+msgstr "localized"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:79(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-scale-menu.png'; "
 "md5=7dd684a488ee68beeb31810d6db99ab1"
@@ -377,7 +376,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:99(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-scale-dialog.png'; "
 "md5=143ada1e8f2fd173d211240c5bb8871e"
@@ -394,7 +392,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:199(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-jpeg-example.jpg'; "
 "md5=33fbc8be360de62af1a9132bd49ba639"
@@ -403,7 +400,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:226(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-save-image-dialog-file-type.png'; "
 "md5=9c0e39c75fda265c73c822d3bbdf27b9"
@@ -428,7 +424,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:286(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-jpeg-010.jpg'; "
 "md5=e02624e2e374144e66e950547c9f8f3d"
@@ -437,7 +432,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:295(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-jpeg-040.jpg'; "
 "md5=74f1e95a71d6f39e1ba8561753d32e89"
@@ -446,7 +440,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:307(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-jpeg-070.jpg'; "
 "md5=f5a33f42be5135e4f393ceb91e67c84e"
@@ -455,7 +448,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:316(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-jpeg-100.jpg'; "
 "md5=33fbc8be360de62af1a9132bd49ba639"
@@ -464,7 +456,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:340(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-crop-example-source.jpg'; "
 "md5=405173022a4087a9cda63b358acda509"
@@ -473,7 +464,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:349(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-crop-example-result.jpg'; "
 "md5=c36352f2c96136520fab8ec2dbc60f47"
@@ -514,7 +504,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:444(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-info-menu.png'; "
 "md5=6c6db7e2bc28487f9971519d620a7a57"
@@ -523,7 +512,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:462(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/menus/image/properties.png'; "
 "md5=61b3bf928e9a255ba42c0090a3886c1a"
@@ -532,7 +520,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:492(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-mode-menu.png'; "
 "md5=1d726532f7e258175d2cc6bcc8c9bdd1"
@@ -549,7 +536,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:544(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-mode-alpha.png'; "
 "md5=a515007b922f7d5b2c71b3988633046f"
@@ -558,10 +544,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:580(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/toolbox/stock-tool-crop-22.png'; "
-#| "md5=148a156af4095f15ee36da5be9adf061"
 msgid ""
 "@@image: 'images/toolbox/stock-tool-flip-22.png'; "
 "md5=62e64c8d29f95337512d3a8b20871ab2"
@@ -578,7 +560,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:613(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-flip-example-source.jpg'; "
 "md5=a3c8c8e97a05b904db85a5ef483a4949"
@@ -587,7 +568,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:622(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-flip-example-horizontal.jpg'; "
 "md5=c4225e2be88d9af0fef853d29c48ccc1"
@@ -596,7 +576,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:633(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-flip-example-vertical.jpg'; "
 "md5=e57eebe1a12f8c94a9ff9d9421cf8a03"
@@ -613,7 +592,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:668(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-rotate-menu.png'; "
 "md5=d8f5c101350e858912ffefdbe16b5812"
@@ -622,7 +600,6 @@ msgstr "localized"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:688(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-rotate-example-source.jpg'; "
 "md5=17221b2ad520163207b40dfc9b2f06f8"
@@ -631,7 +608,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:697(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-rotate-example-90-CCW.jpg'; "
 "md5=7077898e7b762cce8a6e5a48a4e8d675"
@@ -640,7 +616,6 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:717(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-remove-background-source.jpg'; "
 "md5=d5511e921aea308c573ecee67b5c2889"
@@ -651,65 +626,60 @@ msgstr "common"
 #: src/tutorial/quickies.xml:738(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-lasso.png'; "
-"md5=9fff914c33227d10fb5a481891aa4584"
+"md5=417ef9ff0b6df339426b006afe6f2b23"
 msgstr "localized"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:744(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-background-free-select.jpg'; "
 "md5=37dc6fea0a5854228d41fe580cef1c50"
-msgstr "localized"
+msgstr "common"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:760(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-scissor.png'; "
-"md5=fabb800b0af11e636b0858cdcda66be5"
+"md5=e9cc77ef13ef76cd8dbec23e6368b3fe"
 msgstr "localized"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:766(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-background-scissors.jpg'; "
 "md5=5072fff513efb00af2db905dda7b9731"
-msgstr "localized"
+msgstr "common"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:781(None)
 msgid ""
 "@@image: 'images/toolbox/FG-select-toolbox.png'; "
-"md5=874a5a1f7252d04090446808150cf7c5"
+"md5=b9b912bf0ed432330dbdb5e45d203c6e"
 msgstr "localized"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:787(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-background-foreground-select.jpg'; "
 "md5=45c41f17d30147a85c472f3d5ba851d3"
-msgstr "localized"
+msgstr "common"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:815(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-background-color-result.png'; "
 "md5=35239efb8b100aac8aa5e206ae5b9813"
-msgstr "localized"
+msgstr "common"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:841(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-background-alpha-result.png'; "
 "md5=b570436e2a6b442464e6ea90a6a56f4a"
@@ -718,11 +688,10 @@ msgstr "common"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/tutorial/quickies.xml:862(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/tutorials/quickie-background-desaturate-result.png'; "
 "md5=609a6ee80ada28aa22a5ce34207aa6eb"
-msgstr "localized"
+msgstr "common"
 
 #: src/tutorial/quickies.xml:10(title)
 msgid "Common Tasks"
@@ -731,8 +700,8 @@ msgstr "よくある使い方"
 #: src/tutorial/quickies.xml:14(para)
 msgid ""
 "This tutorial is based on text Copyright © 2004 Carol Spears. The original "
-"tutorial can be found online: <xref linkend=\"bibliography-online-tutorial02"
-"\"/>."
+"tutorial can be found online: <xref linkend=\"bibliography-online-"
+"tutorial02\"/>."
 msgstr ""
 "この演習は Carol Spears 氏の著作 (著作権 &#xa9; 2004) Tutorial: GIMPLite "
 "Quickies の文がもとになっています。 原本はインターネット上で <xref linkend="
@@ -746,11 +715,11 @@ msgid ""
 "tasks without having to learn all the intricacies of <acronym>GIMP</acronym> "
 "and computer graphics in general."
 msgstr ""
-"<acronym>GIMP</acronym>はたくさんの装備や画材が使える強力な画像編集ソフトで"
+"<acronym>GIMP</acronym> はたくさんの装備や画材が使える強力な画像編集ソフトで"
 "す。 でも、 もっと小さな作業をするにもぴったりです。 ここでご紹介する演習"
 "は、 そういったありふれた作業をするのにわざわざ一般的なコンピューターグラ"
-"フィックスの知識や<acronym>GIMP</acronym>の込み入ったしくみまで全部勉強しなく"
-"ても済むようにしてあります。"
+"フィックスの知識や <acronym>GIMP</acronym> の込み入ったしくみまで全部勉強しな"
+"くても済むようにしてあります。"
 
 #: src/tutorial/quickies.xml:25(para)
 msgid ""
@@ -771,8 +740,8 @@ msgid ""
 msgstr ""
 "この演習を始める前に、 画像ファイルを選びだしそれを開く方法についてはご自身で"
 "習得しておいてください。 (画像ウィンドウのメニューで <menuchoice><guimenu>"
-"ファイル</guimenu><guimenuitem>開く...</guimenuitem></menuchoice> と辿りま"
-"す。)"
+"ファイル</guimenu><guimenuitem>開く/インポート...</guimenuitem></menuchoice> "
+"と辿ります。)"
 
 #: src/tutorial/quickies.xml:38(title)
 msgid "Change the Size of an Image for the screen"
@@ -799,8 +768,8 @@ msgid ""
 "resize it so that it displays nicely on a web page, online board or email "
 "message."
 msgstr ""
-"デジタルカメラで撮ったような大きな画像があって、 これをウェブページや掲示板に"
-"載せたり電子メールに添付するのに最適な大きさにしたいときはどうすればよいで"
+"ディジタルカメラで撮ったような大きな画像があって、 これをウェブページや掲示板"
+"に載せたり電子メールに添付するのに最適な大きさにしたいときはどうすればよいで"
 "しょう。"
 
 #: src/tutorial/quickies.xml:52(title)
@@ -816,7 +785,7 @@ msgid ""
 "shown in the status area at the bottom of the Image window. This does not "
 "change the actual image."
 msgstr ""
-"<acronym>GIMP</acronym>が開いた画像が、 理にかなった大きさで表示されているこ"
+"<acronym>GIMP</acronym> が開いた画像が、 理にかなった大きさで表示されているこ"
 "とにすぐ気付いた人もいるかもしれません。 例題画像のような本当に大きな画像を開"
 "くと画面にうまく合うよう表示倍率を変えて表示されます。 表示倍率は画像ウィンド"
 "ウのステータスバーの左側に表示されます。"
@@ -829,13 +798,14 @@ msgid ""
 "tutorial-quickie-change-mode\"/>."
 msgstr ""
 "タイトルバーに表示されるものには他に色空間のモードがあります。 ここが"
-"<acronym>RGB</acronym>になっていれば OK です。 <quote>インデックス</quote>も"
-"しくは<quote>グレースケール</quote>となっている場合は、 <xref linkend=\"gimp-"
-"tutorial-quickie-change-mode\"/> をお読みください。"
+"<quote><acronym>RGB</acronym> カラー</quote>になっていれば OK です。 <quote>"
+"インデックスカラー</quote>もしくは<quote>グレースケール</quote>となっている場"
+"合は、 <xref linkend=\"gimp-tutorial-quickie-change-mode\"/> をお読みくださ"
+"い。"
 
 #: src/tutorial/quickies.xml:75(title)
 msgid "GIMP Used for Image Scaling"
-msgstr "<acronym>GIMP</acronym>で画像の拡大・縮小をしているようす"
+msgstr "<acronym>GIMP</acronym> で画像の拡大・縮小をしているようす"
 
 #: src/tutorial/quickies.xml:84(para)
 msgid ""
@@ -879,9 +849,9 @@ msgstr ""
 "像度は印刷時にのみ適用される値ですし、 ディスプレイモニターとかモバイルデバイ"
 "スで表示するときには意味がありません。 というのもデバイスによって表示できる画"
 "素数は異なるうえに、 見た目の寸法ですらデバイスが異なればたとえばスマートフォ"
-"ンと<acronym>LCD</acronym>のプロジェクターでは違って見えるからです。 画面に表"
-"示するのが目的なら解像度の値は気にしなくても大丈夫です。 同じ理由から<quote>"
-"高さ・幅</quote>の記入欄でピクセル以外の単位を使用してはいけません。"
+"ンと <acronym>LCD</acronym> のプロジェクターでは違って見えるからです。 画面に"
+"表示するのが目的なら解像度の値は気にしなくても大丈夫です。 同じ理由から"
+"<quote>高さ・幅</quote>の記入欄でピクセル以外の単位を使用してはいけません。"
 
 #: src/tutorial/quickies.xml:118(para)
 msgid ""
@@ -910,9 +880,9 @@ msgid ""
 "you change the two dimensions arbitrarily, the image might become stretched "
 "or squashed."
 msgstr ""
-"画像の縦か横の一方の寸法を変更すれば<acronym>GIMP</acronym>は自動的にもう一方"
-"の寸法も同じ割合で変更します。 [<guilabel>幅</guilabel> 欄と <guilabel>高さ</"
-"guilabel> 欄を結ぶ鎖アイコンでこの自動化調節機能の無効/有効を切り替えられま"
+"画像の縦か横の一方の寸法を変更すれば <acronym>GIMP</acronym> は自動的にもう一"
+"方の寸法も同じ割合で変更します。 [<guilabel>幅</guilabel> 欄と <guilabel>高さ"
+"</guilabel> 欄を結ぶ鎖アイコンでこの自動化調節機能の無効/有効を切り替えられま"
 "す。] 形の違う寸法にしたい場合は <xref linkend=\"gimp-tutorial-quickie-crop"
 "\"/> をご覧ください。 ここで <guilabel>幅</guilabel> と <guilabel>高さ</"
 "guilabel> を個別に変更してしまうと画像の中身が伸びたり拉げたりします。"
@@ -933,10 +903,10 @@ msgid ""
 "ratio between pixels and real-world units such as inches."
 msgstr ""
 "前述のとおりピクセル単位の画素数は実際の寸法を表していません。 "
-"<acronym>GIMP</acronym>で紙に印刷するときは各画素の実際の大きさがどのくらいと"
-"なるかを<acronym>GIMP</acronym>で設定してやらねばなりません。 このときにピク"
-"セル (画素) 数とインチのような実寸との比率を表すために使われるのが解像度とい"
-"う値です。"
+"<acronym>GIMP</acronym> で紙に印刷するときは各画素の実際の大きさがどのくらい"
+"となるかを <acronym>GIMP</acronym> で設定してやらねばなりません。 このときに"
+"ピクセル (画素) 数とインチのような実寸との比率を表すために使われるのが解像度"
+"という値です。"
 
 #: src/tutorial/quickies.xml:151(para)
 msgid ""
@@ -951,10 +921,10 @@ msgstr ""
 "初期設定だと、 たいていの画像は解像度が 72 ピクセル毎インチで開かれます。 72 "
 "という数値は歴史的な経緯があり、 かつての画面の解像度に由来するとか、 印刷す"
 "ると 1 画素が 1/72 インチの大きさになっていたというのが理由だそうです。 最近"
-"のデジタルカメラで撮った画像を[この解像度で]印刷すると図体が非常に大きく画素"
-"は見分けがつくほどごろごろしている画像に仕上ります。 いま一番知りたいこと"
+"のディジタルカメラで撮った画像を[この解像度で]印刷すると図体が非常に大きく画"
+"素は見分けがつくほどごろごろしている画像に仕上ります。 いま一番知りたいこと"
 "は、 画質を落すおそれのある画素データの改変処理を行なわせず思い通りの大きさに"
-"画像を<acronym>GIMP</acronym>で印刷させるための方法です。"
+"画像を <acronym>GIMP</acronym> で印刷させるための方法です。"
 
 #: src/tutorial/quickies.xml:159(para)
 msgid ""
@@ -975,13 +945,13 @@ msgstr ""
 "<menuchoice><guimenu>画像</guimenu><guimenuitem>印刷サイズ...</guimenuitem></"
 "menuchoice> と辿って<quote>画像印刷解像度の設定</quote>ダイアログを呼び出しま"
 "す。 単位はお好みで<quote>ミリメートル</quote>などに替えられます。 [縦か横の]"
-"一方の寸法を定めると<acronym>GIMP</acronym>はもう一方も比例して自動的に変更し"
-"ます。 では解像度を変えるとどうなるか見てみましょう。 例えば解像度が 1 インチ"
-"あたり 300 ピクセル以上であれば印刷物の画質はとても高く画素の粒は見分けがつか"
-"ないはずです。 200〜150 ppi の解像度だと画素にやや粗さが見えるものの近づいて"
-"注視でもしなければ画像には繊細さがまだあるはずです。 100 ppi 未満となると見る"
-"からに粗雑な画像になってしまい看板・標識やら大型ポスターのような遠くから見る"
-"のを前提にした印刷物でしか使えない仕上りになります。"
+"一方の寸法を定めると <acronym>GIMP</acronym> はもう一方も比例して自動的に変更"
+"します。 では解像度を変えるとどうなるか見てみましょう。 たとえば解像度が 1 イ"
+"ンチあたり 300 ピクセル以上であれば印刷物の画質はとても高く画素の粒は見分けが"
+"つかないはずです。 200〜150 ppi の解像度だと画素にやや粗さが見えるものの近づ"
+"いて注視でもしなければ画像には繊細さがまだあるはずです。 100 ppi 未満となると"
+"見るからに粗雑な画像になってしまい看板・標識やら大型ポスターのような遠くから"
+"見るのを前提にした印刷物でしか使えない仕上りになります。"
 
 #: src/tutorial/quickies.xml:175(title)
 msgid "Dialog for Setting Print Size"
@@ -997,7 +967,7 @@ msgstr "保存"
 
 #: src/tutorial/quickies.xml:195(title)
 msgid "Example Image for JPEG Saving"
-msgstr "<acronym>JPEG</acronym>で保存するための例題画像"
+msgstr "<acronym>JPEG</acronym> で保存するための例題画像"
 
 #: src/tutorial/quickies.xml:204(para)
 msgid ""
@@ -1012,13 +982,13 @@ msgid ""
 "more image degradation."
 msgstr ""
 "お手持ちの画像がディスク容量を圧迫しそうなとき、 画像の寸法を変えずに分量を減"
-"省できる方法があります。 最大級の画像圧縮は<acronym>JPEG</acronym>形式を用い"
-"れば可能であり、 画像が既にこの形式で保存されていても<acronym>JPEG</acronym>"
-"形式のもつ順応性の高い圧縮指針によってあとから圧縮率を変えて保存し直せるので"
-"大抵はさらに分量を減らせる余地があります。 ただし画像の容量を減らせば減らすほ"
-"ど元画像の精確さが失われるという交換条件があります。 しかも<acronym>JPEG</"
-"acronym>形式の画像は保存し直すたびに画像の質が落ちてゆく性質があることも知っ"
-"ておくべきです。"
+"省できる方法があります。 最大級の画像圧縮は <acronym>JPEG</acronym> 形式を用"
+"いれば可能であり、 画像が既にこの形式で保存されていても <acronym>JPEG</"
+"acronym> 形式のもつ順応性の高い圧縮指針のおかげであとから圧縮率を変えて保存し"
+"直せるので大抵はさらに分量を減らせる余地があります。 ただし画像の容量を減らせ"
+"ば減らすほど元画像の精確さが失われるという交換条件があります。 しかも "
+"<acronym>JPEG</acronym> 形式の画像は保存し直すたびに画像の質が落ちてゆく性質"
+"があることも知っておくべきです。"
 
 #: src/tutorial/quickies.xml:215(para)
 msgid ""
@@ -1027,14 +997,14 @@ msgid ""
 "\">Save As</guimenuitem></menuchoice> to open the <quote>Save As</quote> "
 "dialog."
 msgstr ""
-"したがってお手持ちの画像を<acronym>JPEG</acronym>形式のファイルに保存するとき"
-"は、 画像ウィンドウのメニューより <menuchoice><guimenu>ファイル</"
-"guimenu><guimenuitem>名前を付けて保存...</guimenuitem></menuchoice> と進んで"
-"ください。 <quote>画像の保存</quote>ダイアログが現れます。"
+"したがってお手持ちの画像を <acronym>JPEG</acronym> 形式のファイルに保存すると"
+"きは、 画像ウィンドウのメニューより <menuchoice><guimenu>ファイル</"
+"guimenu><guimenuitem>エクスポート...</guimenuitem></menuchoice> と進みましょ"
+"う。 <quote>画像をエクスポート</quote>ダイアログが現れます。"
 
 #: src/tutorial/quickies.xml:222(title)
 msgid "<quote>Save As</quote> Dialog"
-msgstr "<quote>画像の保存</quote>ダイアログ"
+msgstr "<quote>画像をエクスポート</quote>ダイアログ"
 
 #: src/tutorial/quickies.xml:231(para)
 msgid ""
@@ -1050,18 +1020,19 @@ msgid ""
 "click <guibutton>Save</guibutton>. This opens the <quote>Save as\" </quote> "
 "JPEG dialog that contains the quality control."
 msgstr ""
-"ダイアログを開くと名前記入欄には既にファイル名が書かれています。 その形式が"
-"<acronym>JPEG</acronym>形式でないときは拡張子を削除して代わりに <filename "
-"class=\"extension\">.jpg</filename> をつけるだけで、 <acronym>GIMP</acronym>"
-"はファイル拡張子を見て保存される画像のファイル形式を判断します。 利用可能な画"
-"像ファイル形式は上図で囲んで強調した拡張子引き出しメニューでわかるようになっ"
-"ています。 サポートされているファイル形式と拡張子はインストールされているライ"
-"ブラリーによって異なります。 ここで<acronym>GIMP</acronym>が何らかの反論をし"
-"たり、 <quote>JPEG</quote>が拡張子メニューで灰色無効にされている場合は、 この"
-"ダイアログを中止して <xref linkend=\"gimp-tutorial-quickie-change-mode\"/> に"
-"従ってください。 そのあと <guibutton>保存</guibutton> ボタンをクリックしま"
-"す。 すると<quote><acronym>JPEG</acronym>形式で保存</quote>ダイアログが出てき"
-"ますので、 画質の調節はここで行ないます。"
+"ダイアログを開くと名前記入欄には既にファイル名が書かれています。 その形式が "
+"<acronym>JPEG</acronym> 形式でないときは拡張子を削除して代わりに <filename "
+"class=\"extension\">.jpg</filename> をつけるだけで、 <acronym>GIMP</acronym> "
+"はファイル拡張子を見て書き出される画像のファイル形式を判断します。 利用可能な"
+"画像ファイル形式は上図で囲んで強調した拡張子引き出しメニューでわかるように"
+"なっています。 サポートされているファイル形式と拡張子はインストールされている"
+"ライブラリーによって異なります。 ここで <acronym>GIMP</acronym> が何らかの反"
+"論をしたり、 <quote><acronym>JPEG</acronym></quote>が拡張子メニューで灰色無効"
+"にされている場合は、 このダイアログを中止して <xref linkend=\"gimp-tutorial-"
+"quickie-change-mode\"/> に従ってください。 そのあと <guibutton>エクスポート</"
+"guibutton> ボタンをクリックします。 すると<quote>画像をエクスポート: "
+"<acronym>JPEG</acronym> 形式</quote>ダイアログが出てきますので、 画質の調節は"
+"ここで行ないます。"
 
 #: src/tutorial/quickies.xml:244(para)
 msgid ""
@@ -1069,14 +1040,15 @@ msgid ""
 "while retaining good visual quality; this is the safest and quickest thing "
 "to do."
 msgstr ""
-"<quote><acronym>JPEG</acronym>形式で保存</quote>ダイアログは画像の見た目の美"
-"しさを損なわずに容量を減らすのにちょうど良い値を既定値としています。 そのまま"
-"進むのが最も安全で最も速い方法です。"
+"<quote>画像をエクスポート: <acronym>JPEG</acronym> 形式</quote>ダイアログは画"
+"像の見た目の美しさを損なわずに容量を減らすのにちょうど良い値を既定値としてい"
+"ます。 そのまま進むのが最も安全で最も速い方法です。"
 
 #: src/tutorial/quickies.xml:249(title)
 msgid "<quote>Save as JPEG</quote> dialog with poor quality."
 msgstr ""
-"<quote><acronym>JPEG</acronym>形式で保存する</quote>ダイアログ (低品質)"
+"<quote>画像をエクスポート: <acronym>JPEG</acronym> 形式</quote>ダイアログ (低"
+"品質)"
 
 #: src/tutorial/quickies.xml:258(para)
 msgid ""
@@ -1091,17 +1063,18 @@ msgid ""
 "is acceptable for the intended purpose."
 msgstr ""
 "さらにもっと画像を軽くするには、 <guilabel>品質</guilabel> スライダーを低い値"
-"に下げてください。 ただし品質の低下はすなわち画質の悪化につながりますので、 "
-"画質の変化が目の当たりにできる <guilabel>画像ウィンドウでプレビュー</"
-"guilabel> を有効にしてよく注視しましょう。 上図のように品質を 10 にしてみると"
-"非常に画質は落ちますがディスク使用量は非常に小さくなります。 下図はちょうど良"
-"い具合の画像を示しています。 品質を 75 としてみたところ画質はそこそこなれど"
-"ディスク使用量がもっと小さくなって、 つまりはウェブページでの読み込みが速くな"
-"る画像ができます。 画質はやや落ちましたがこの目的に照らせば妥当でしょう。"
+"に下げます。 ただし品質の低下はすなわち画質の悪化につながりますので、 画質の"
+"変化が目の当たりにできる <guilabel>画像ウィンドウでプレビュー</guilabel> を有"
+"効にしてよく注視しましょう。 上図のように品質を 10 にしてみると非常に画質は落"
+"ちますがディスク使用量は非常に小さくなります。 下図はちょうど良い具合の画像を"
+"示しています。 品質を 75 としてみたところ画質はそこそこなれどディスク使用量が"
+"もっと小さくなって、 つまりはウェブページでの読み込みが速くなる画像ができま"
+"す。 画質はやや落ちましたがこの目的に照らせば妥当でしょう。"
 
 #: src/tutorial/quickies.xml:269(title)
 msgid "Dialog for Image Saving as JPEG"
-msgstr "画像を<quote><acronym>JPEG</acronym>形式で保存する</quote>ダイアログ"
+msgstr ""
+"<quote>画像をエクスポート: <acronym>JPEG</acronym> 形式</quote>ダイアログ"
 
 #: src/tutorial/quickies.xml:278(para)
 msgid ""
@@ -1111,7 +1084,7 @@ msgstr "最後に同じ画像を使って圧縮率をいろいろに変化させ
 
 #: src/tutorial/quickies.xml:282(title)
 msgid "Example for High JPEG Compression"
-msgstr "<acronym>JPEG</acronym>高圧縮の例"
+msgstr "<acronym>JPEG</acronym> 高圧縮の例"
 
 #: src/tutorial/quickies.xml:289(para)
 msgid "Quality: 10; Size: 3.4 KiloBytes"
@@ -1123,7 +1096,7 @@ msgstr "品質: 40; 内容量: 9.3 KiloBytes"
 
 #: src/tutorial/quickies.xml:303(title)
 msgid "Example for Moderate JPEG Compression"
-msgstr "中程度の<acronym>JPEG</acronym>圧縮の例"
+msgstr "中程度の <acronym>JPEG</acronym> 圧縮の例"
 
 #: src/tutorial/quickies.xml:310(para)
 msgid "Quality: 70; Size: 15.2 KiloBytes"
@@ -1157,13 +1130,13 @@ msgstr "切り抜いた画像"
 msgid ""
 "There are many reasons to crop an image; for example, fitting an image to "
 "fill a frame, removing a portion of the background to emphasize the subject, "
-"etc. There are two methods to activate the crop tool. Click the <placeholder-"
-"1/> button in the Toolbox, or use <menuchoice moreinfo=\"none\"><guimenu "
-"moreinfo=\"none\">Tools</guimenu><guisubmenu moreinfo=\"none\">Transform "
-"Tools</guisubmenu><guimenuitem moreinfo=\"none\">Crop</guimenuitem></"
-"menuchoice> in the image window. This changes the cursor and allow you to "
-"click and drag a rectangular shape. The button in the toolbox is the easiest "
-"way to get to any of the tools."
+"etc. There are two methods to activate the crop tool. Click the "
+"<placeholder-1/> button in the Toolbox, or use <menuchoice moreinfo=\"none"
+"\"><guimenu moreinfo=\"none\">Tools</guimenu><guisubmenu moreinfo=\"none"
+"\">Transform Tools</guisubmenu><guimenuitem moreinfo=\"none\">Crop</"
+"guimenuitem></menuchoice> in the image window. This changes the cursor and "
+"allow you to click and drag a rectangular shape. The button in the toolbox "
+"is the easiest way to get to any of the tools."
 msgstr ""
 "画像を切り抜く理由はたくさんあります。 枠に収まるようにしたり、 背景の要らな"
 "い部分を切り落として被写体をよく見えるようにしたり&hellip;。 切り抜きツールの"
@@ -1218,19 +1191,19 @@ msgstr ""
 "切り抜き枠の内側や周辺のいろいろなところでマウスをかざすとポインターの姿が変"
 "化します。 その各部分をマウスでクリックしてドラッグすれば枠の寸法や位置が変更"
 "できます。 上図で示すとおり、 切り抜き枠の大きさを変えるとステータスバーにそ"
-"の寸法が表示されます。 <acronym>GIMP</acronym>の<quote>切り抜き</quote>ツール"
-"の使い方についてのより詳しい情報は <xref linkend=\"gimp-tool-crop\"/> でご覧"
-"ください。 もし正方形のような決まった縦横比の四角形に整形したい場合は、 ツー"
-"ルオプション (画像ウィンドウのメニューより <menuchoice><guimenu>ウィンドウ</"
-"guimenu><guisubmenu>ドッキング可能なダイアログ</guisubmenu><guimenuitem>ツー"
-"ルオプション</guimenuitem></menuchoice> と進むと呼び出せる) が見えるようにし"
-"ておきましょう。 ドック入りも可能なツールオプションダイアログの、 <guilabel>"
-"値を固定</guilabel> にチェックを入れ引き出しリストで <guimenuitem>縦横比</"
-"guimenuitem> を選んでおきます。 そうしたらすぐ下の記入欄で<quote>1:1</quote>"
-"というふうに幅と高さの比を決めましょう。 記入欄のすぐとなりのボタンで縦向きか"
-"横向きに画像の形を切り替えられます。 縦横比を決めたら切り抜き領域の辺または角"
-"の取っ手を動かすとこの縦横比が反映します。 矩形領域の形はこの縦横比に従って変"
-"化します。"
+"の寸法が表示されます。 <acronym>GIMP</acronym> の<quote>切り抜き</quote>ツー"
+"ルの使い方についてのより詳しい情報は <xref linkend=\"gimp-tool-crop\"/> でご"
+"覧ください。 もし正方形のような決まった縦横比の四角形に整形したい場合は、 "
+"ツールオプション (画像ウィンドウのメニューより <menuchoice><guimenu>ウィンド"
+"ウ</guimenu><guisubmenu>ドッキング可能なダイアログ</guisubmenu><guimenuitem>"
+"ツールオプション</guimenuitem></menuchoice> と進むと呼び出せる) が見えるよう"
+"にしておきましょう。 ドック入りも可能なツールオプションダイアログの、 "
+"<guilabel>値を固定</guilabel> にチェックを入れ引き出しリストで <guimenuitem>"
+"縦横比</guimenuitem> を選んでおきます。 そうしたらすぐ下の記入欄で"
+"<quote>1:1</quote>というふうに幅と高さの比を決めましょう。 記入欄のすぐとなり"
+"のボタンで縦向きか横向きに画像の形を切り替えられます。 縦横比を決めたら切り抜"
+"き領域の辺または角の取っ手を動かすとこの縦横比が反映します。 矩形領域の形はこ"
+"の縦横比に従って変化します。"
 
 #: src/tutorial/quickies.xml:430(title)
 msgid "Find Info About Your Image"
@@ -1252,8 +1225,8 @@ msgid ""
 "<quote>Image Properties</quote> dialog, which contains information about the "
 "image size, resolution, mode and much more."
 msgstr ""
-"画像についての諸元を調べたいときは 画像ウィンドウのメニューより "
-"<menuchoice><guimenu>画像</guimenu><guimenuitem>画像の情報...</guimenuitem></"
+"画像についての諸元を調べたいときは、 画像ウィンドウのメニューより "
+"<menuchoice><guimenu>画像</guimenu><guimenuitem>画像の情報</guimenuitem></"
 "menuchoice> と辿りましょう。 するとダイアログが現れ、 画像の画素数や解像度、 "
 "モードなどさまざまな情報がわかります。"
 
@@ -1281,8 +1254,8 @@ msgid ""
 msgstr ""
 "他の物もそうですが画像を手に入れる手段や種類はいろいろありますし使いかたも"
 "様々です。 時には小さなサイズ (ウェブサイト用) が必要になることもあれば、 一"
-"方でハイカラーの色数を確保したいとき (例えば家族写真用の場合) もあります。 "
-"<acronym>GIMP</acronym>はどれでもこなせますが、 さらにこのメニューに見えてい"
+"方でハイカラーの色数を確保したいとき (たとえば家族写真用の場合) もあります。 "
+"<acronym>GIMP</acronym> はどれでもこなせますが、 さらにこのメニューに見えてい"
 "る 3 つの基本モード間での変換もできます。 画像のモードをどれかに切り替えると"
 "きは、 画像を開いてからこのメニューでそのモードをクリックすればいいのです。"
 
@@ -1300,11 +1273,11 @@ msgid ""
 "0-255. What you see at every pixel is an additive combination of these three "
 "components."
 msgstr ""
-"<emphasis>RGB</emphasis>- 初期設定ではこのモードです。 高品質なカラー画像に向"
-"いており、 一千数百万色以上の表現能力があります。 画像の拡大・縮小や切り抜"
-"き、 さらには反転など、 作業のほとんどをするためのモードでもあります。 "
-"<acronym>RGB</acronym>モードではどの画素も 3 つに分解できます。 R-&gt;赤、 G-"
-"&gt;緑、 B-&gt;青という意味です。 この成分それぞれに 0〜255 の強度がありま"
+"<guimenuitem>RGB</guimenuitem>- 初期設定ではこのモードです。 高品質なカラー画"
+"像に向いており、 一千数百万色以上の表現能力があります。 画像の拡大・縮小や切"
+"り抜き、 さらには反転など、 作業のほとんどをするためのモードでもあります。 "
+"<acronym>RGB</acronym> モードではどの画素も 3 つに分解できます。 R-&gt;赤、 "
+"G-&gt;緑、 B-&gt;青という意味です。 この成分それぞれに 0〜255 の強度がありま"
 "す。 つまりひとつの画素 (ピクセル) として見えているのは 3 つの要素の合成なの"
 "です。"
 
@@ -1317,11 +1290,11 @@ msgid ""
 "image, <acronym>GIMP</acronym> generates an <quote>optimum palette</quote> "
 "to best represent your image."
 msgstr ""
-"<emphasis>インデックスつき</emphasis>- このモードはたいていファイルの容量に気"
-"をつけている場合か色数の少ない画像で作業しているときに用います。 使える色数"
-"は 256 以下の一定数に限られており、 そのいずれかの色が各画素の色を表します。 "
-"パレットつき画像に変更したとき初期設定では画像を最良に見せる <guilabel>最適パ"
-"レットを生成</guilabel> が選ばれています。"
+"<guimenuitem>インデックスつき</guimenuitem>- このモードはたいていファイルの容"
+"量に気をつけている場合か色数の少ない画像で作業しているときに用います。 使える"
+"色数は 256 以下の一定数に限られており、 そのいずれかの色が各画素の色を表しま"
+"す。 パレットつき画像に変更したとき初期設定では画像を最良に見せる <guilabel>"
+"最適パレットを生成</guilabel> が選ばれています。"
 
 #: src/tutorial/quickies.xml:515(title)
 msgid "Dialog <quote>Change to Indexed Colors</quote>"
@@ -1342,15 +1315,14 @@ msgid ""
 "Channel</guimenuitem></menuchoice>."
 msgstr ""
 "それぞれのピクセルの色を表現するのに必要な情報が少なくなりますから、 予想どお"
-"りファイルの大きさも随分小さくなります。 ところがどういうわけか、 メニューの"
-"一部が数ヶ所灰色無効になっていることがしばしばあります。 その理由のほとんどは"
-"画像の現在のモードでは適用できないフィルターやオプションだからです。 先段で述"
-"べた方法で<acronym>RGB</acronym>にモード変換すればこの問題は解決するはずで"
-"す。 そうしてもまだできないときは、 ひょっとするとそのオプションのためにお使"
-"いのレイヤーを透明化可能にしなければならないのかもしれません。 "
-"<menuchoice><guimenu>レイヤー</guimenu><guisubmenu>透明部分</"
-"guisubmenu><guimenuitem>アルファチャンネルを追加</guimenuitem></menuchoice> "
-"と進むだけですから簡単です。"
+"りファイルの大きさも随分小さくなります。 ところが思いがけずメニューの一部が"
+"数ヶ所灰色無効になっていることがしばしばあります。 その理由のほとんどは画像の"
+"現在のモードでは適用できないフィルターやオプションだからです。 先段で述べた方"
+"法で <acronym>RGB</acronym> にモード変換すればこの問題は解決するはずです。 そ"
+"うしてもまだできないときは、 ひょっとするとそのオプションのためにお使いのレイ"
+"ヤーを透明化可能にしなければならないのかもしれません。 <menuchoice><guimenu>"
+"レイヤー</guimenu><guisubmenu>透明部分</guisubmenu><guimenuitem>アルファチャ"
+"ンネルを追加</guimenuitem></menuchoice> と進むだけですから簡単です。"
 
 #: src/tutorial/quickies.xml:540(title)
 msgid "Add Alpha Channel"
@@ -1363,10 +1335,10 @@ msgid ""
 "some formats, but is not recommended for general use as reading it is not "
 "supported by many applications."
 msgstr ""
-"<emphasis>グレースケール</emphasis>- グレースケール画像は灰色濃淡だけで表され"
-"た画像です。 このモードは特定の用途があり、 ファイル形式によってはディスクに"
-"占める容量が小さくなる画像モードですが、 数多くのアプリケーションで閲覧がサ"
-"ポート外なため一般的な利用にはお勧めできません。"
+"<guimenuitem>グレースケール</guimenuitem>- グレースケール画像は灰色濃淡だけで"
+"表された画像です。 このモードは特定の用途があり、 ファイル形式によってはディ"
+"スクに占める容量が小さくなる画像モードですが、 数多くのアプリケーションで閲覧"
+"がサポート外なため一般的な利用にはお勧めできません。"
 
 #: src/tutorial/quickies.xml:555(para)
 msgid ""
@@ -1374,9 +1346,9 @@ msgid ""
 "your favorite format, as <acronym>GIMP</acronym> is smart enough to properly "
 "export the image."
 msgstr ""
-"画像を保存する前にいずれかのモードに変換しておく必要はありません。 "
-"<acronym>GIMP</acronym>はちゃんとしたファイルのエクスポートも颯爽とこなしま"
-"す。"
+"&lt;!--画像を保存する前にいずれかのモードに変換しておく必要はありません。 "
+"<acronym>GIMP</acronym> はちゃんとしたファイルのエクスポートも颯爽とこなしま"
+"す。--&gt;"
 
 #: src/tutorial/quickies.xml:561(title)
 msgid "Flip An Image"
@@ -1464,11 +1436,11 @@ msgid ""
 "moreinfo=\"none\">Rotate 90° clockwise</guimenuitem></menuchoice> (or "
 "counter-clockwise). The images below demonstrate a 90 degrees CCW rotation."
 msgstr ""
-"デジタルカメラで撮った画像の向きを直す必要があるときがたまにあります。 その方"
-"法は、 画像ウィンドウのメニューより <menuchoice><guimenu>画像</"
+"ディジタルカメラで撮った画像の向きを直す必要があるときがたまにあります。 その"
+"方法は、 画像ウィンドウのメニューより <menuchoice><guimenu>画像</"
 "guimenu><guisubmenu>変形</guisubmenu><guimenuitem>時計回りに 90 度回転</"
 "guimenuitem></menuchoice> と (もしくは反時計回りに) 進みましょう。 実演のた"
-"め <guilabel>反時計回りに 90 度回転</guilabel> も実行しました。"
+"め <guilabel>反時計回りに 90 度回転</guilabel> を実行してみました。"
 
 #: src/tutorial/quickies.xml:683(title)
 msgid "Example for <quote>Rotate An Image</quote>"
@@ -1502,8 +1474,8 @@ msgid ""
 msgstr ""
 "画像の背景を削って被写体だけを取り出したいときがあります。 被写体以外を平板な"
 "色に変えたり、 あるいは背景部分を透過させて他の背景に合わせるとか別の画像に組"
-"み合わせたりできるようにしたい場合もあるでしょう。 そのためともかく"
-"<acronym>GIMP</acronym>の選択ツールで欲しい部分だけを囲まなくてはなりませ"
+"み合わせたりできるようにしたい場合もあるでしょう。 そのためともかく "
+"<acronym>GIMP</acronym> の選択ツールで欲しい部分だけを囲まなくてはなりませ"
 "ん。 しかしこの作業は容易でなく、 選択に用いるツールをどれにするかも大きな問"
 "題です。 数点のツールがここで役にたちます。"
 
@@ -1611,7 +1583,7 @@ msgstr ""
 "guimenuitem></menuchoice> を実行するかキーボードの <keycap>Delete</keycap> "
 "キーを押すと、 背景が消去されます。 ただし透過効果のついたままの画像をサポー"
 "トしているファイル形式はあまり多くありませんのでご注意ください。 保存に向いて"
-"いる形式のなかでは<acronym>PNG</acronym>形式が最高です。"
+"いる形式のなかでは <acronym>PNG</acronym> 形式が最高です。"
 
 #: src/tutorial/quickies.xml:837(title)
 msgid "Result of Adding a Transparent Background"
@@ -1642,5 +1614,4 @@ msgstr "背景を脱色した結果"
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/tutorial/quickies.xml:0(None)
 msgid "translator-credits"
-msgstr ""
-"島本良太 (SimaMoto,RyōTa) <liangtai.s4@gmail.com>, 2009, 2010, 2011, 2012."
+msgstr "島本良太 (SimaMoto,RyōTa) <liangtai.s16@gmail.com>, 2009-2013."

@@ -1,20 +1,18 @@
-# Julien Hardelin, 2011.
-# Julien Hardelin <jhardlin@orange.fr>, 2011, 2012.
-# Julien hardelin <jhardlin@orange.fr>, 2012.
 #
+# Julien Hardelin <jhardlin@orange.fr>, 2011, 2012, 2013.
 msgid ""
 msgstr ""
-"Project-Id-Version: concepts\n"
-"POT-Creation-Date: 2012-05-12 15:08+0200\n"
-"PO-Revision-Date: 2012-05-13 07:05+0200\n"
-"Last-Translator: Julien hardelin <jhardlin@orange.fr>\n"
-"Language-Team: français <GNOME French Team <gnomefr@traduc.org>>\n"
-"Language: \n"
+"Project-Id-Version: Manuel utilisateur de GIMP\n"
+"POT-Creation-Date: 2013-11-27 09:29+1000\n"
+"PO-Revision-Date: 2013-09-24 21:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.2\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
+"X-Generator: Lokalize 1.5\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -33,9 +31,7 @@ msgstr ""
 msgid ""
 "@@image: 'images/using/text-example-2.png'; "
 "md5=032ec03928d2bfad3e40b3d8b14f8d1f"
-msgstr ""
-"@@image: 'images/using/text-example-2.png'; "
-"md5=032ec03928d2bfad3e40b3d8b14f8d1f"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -73,10 +69,8 @@ msgstr ""
 #: src/concepts/text-management.xml:255(None)
 msgid ""
 "@@image: 'images/menus/layer/text-commands.png'; "
-"md5=282345dbc0406b4174defc95afdf6f2f"
-msgstr ""
-"@@image: 'images/menus/layer/text-commands.png'; "
-"md5=282345dbc0406b4174defc95afdf6f2f"
+"md5=8236fc6413fba25a0eb649b8bfd80729"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -177,7 +171,7 @@ msgid ""
 msgstr ""
 "Le mode de boîte par défaut est «  Dynamique », et vous pouvez démarrer la "
 "frappe de texte aussitôt. La boîte de texte s'élargira progressivement. "
-"Appuyez sur keycap>Entrée</keycap> pour créer une nouvelle ligne. "
+"Appuyez sur <keycap>Entrée</keycap> pour créer une nouvelle ligne. "
 
 #: src/concepts/text-management.xml:77(para)
 msgid ""
@@ -204,11 +198,12 @@ msgstr ""
 
 #: src/concepts/text-management.xml:90(para)
 msgid ""
-"Instead of using the on-canvas text editing, you can use the <xref linkend="
-"\"gimp-text-editor-dialog\"/>."
+"Instead of using the on-canvas text editing, you can use the text editor "
+"dialog described in <xref linkend=\"gimp-text-editor-dialog\"/>."
 msgstr ""
 "Au lieu de modifier le texte directement sur le canevas, vous pouvez "
-"utiliser  <xref linkend=\"gimp-text-editor-dialog\"/>."
+"utiliser le dialogue d'édition de texte décrit dans <xref linkend=\"gimp-"
+"text-editor-dialog\"/>."
 
 #: src/concepts/text-management.xml:95(para)
 msgid ""
@@ -348,9 +343,9 @@ msgid ""
 "selected text. They remain grayed out as long as no text is selected. "
 "<quote>Paste</quote> is activated if the clipboard is full of text."
 msgstr ""
-"<guilabel>Couper, Copier, Coller, Effacer</guilabel> : ces options concernent "
-"un texte sélectionné. Elles restent en grisé tant qu'aucun texte n'est "
-"sélectionné. « Coller » est activé si le presse-papier n'est pas vide."
+"<guilabel>Couper, Copier, Coller, Effacer</guilabel> : ces options "
+"concernent un texte sélectionné. Elles restent en grisé tant qu'aucun texte "
+"n'est sélectionné. « Coller » est activé si le presse-papier n'est pas vide."
 
 #: src/concepts/text-management.xml:202(para)
 msgid ""
@@ -772,7 +767,6 @@ msgid ""
 "md5=d1b4a308f230d51f0d94dc591e18ac7d"
 msgstr " "
 
-
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/concepts/imagewindow.xml:67(None)
@@ -820,7 +814,7 @@ msgid ""
 msgstr ""
 "L'interface utilisateur de GIMP est maintenant disponible en deux modes : le "
 "mode multi-fenêtre (par défaut) et le mode fenêtre-unique (optionnel, par "
-"menuchoice><guimenu>Fenêtres</guimenu><guimenuitem>&gt;Mode fenêtre-unique</"
+"<menuchoice><guimenu>Fenêtres</guimenu><guimenuitem>&gt;Mode fenêtre-unique</"
 "guimenuitem></menuchoice>. Mais si vous quittez GIMP avec cette option "
 "activée, GIMP s'ouvrira en mode fenêtre-unique la fois suivante)."
 
@@ -864,11 +858,11 @@ msgstr "La surface d'image en mode fenêtre-unique"
 
 #: src/concepts/imagewindow.xml:73(para)
 msgid ""
-"Despite <emphasis>Single</emphasis>-window Mode, we will we will use "
-"<quote>image window</quote> for <quote>image area</quote>."
+"Despite <emphasis>Single</emphasis>-window Mode, we will use <quote>image "
+"window</quote> for <quote>image area</quote>."
 msgstr ""
-"En dépit du mode fenêtre-<emphasis>unique, nous utiliserons le terme "
-"« fenêtre d'image » pour « surface d'image »."
+"En dépit du mode fenêtre-<emphasis>unique</emphasis>, nous utiliserons le "
+"terme « fenêtre d'image » pour « surface d'image »."
 
 #. 1
 #: src/concepts/imagewindow.xml:82(para)
@@ -1646,13 +1640,13 @@ msgstr "Icône"
 
 #: src/concepts/layers.xml:278(para)
 msgid ""
-"It is possible to temporarily remove a layer from an image, without "
-"destroying it, by clicking on the symbol in the Layers dialog. This is "
-"called <quote>toggling the visibility</quote> of the layer. Most operations "
-"on an image treat toggled-off layers as if they did not exist. When you work "
-"with images containing many layers, with varying opacity, you often can get "
-"a better picture of the contents of the layer you want to work on by hiding "
-"some of the other layers."
+"It is possible to remove a layer from an image, without destroying it, by "
+"clicking on the symbol in the Layers dialog. This is called <quote>toggling "
+"the visibility</quote> of the layer. Most operations on an image treat "
+"toggled-off layers as if they did not exist. When you work with images "
+"containing many layers, with varying opacity, you often can get a better "
+"picture of the contents of the layer you want to work on by hiding some of "
+"the other layers."
 msgstr ""
 "Il est possible d'enlever temporairement le calque d'une image sans le "
 "détruire, en cliquant sur le symbole <guiicon><inlinegraphic fileref="
@@ -1803,7 +1797,7 @@ msgstr "Masques"
 #: src/concepts/grid-and-guides.xml:24(secondary)
 #: src/concepts/grid-and-guides.xml:28(secondary)
 #: src/concepts/fonts-and-text.xml:21(secondary)
-#: src/concepts/gradients.xml:18(secondary)
+#: src/concepts/gradients.xml:13(secondary)
 msgid "Overview"
 msgstr "Généralités"
 
@@ -2233,7 +2227,7 @@ msgstr ""
 "menuchoice> dans le menu d'image. La fenêtre du navigateur de fichiers "
 "apparaît qui vous permet de retrouver le fichier voulu. Cette méthode est "
 "efficace si vous connaissez le nom du fichier et sa localisation. Bien que "
-"la fenêtre <guilabel>Ouvrir</guilabel vous offre un aperçu de l'image, il "
+"la fenêtre <guilabel>Ouvrir</guilabel> vous offre un aperçu de l'image, il "
 "est trop petit pour être vraiment utile."
 
 #: src/concepts/images-loading.xml:39(para)
@@ -4045,28 +4039,28 @@ msgid ""
 "When first run, <acronym>GIMP</acronym> performs a series of steps to "
 "configure options and directories. The configuration process creates a "
 "subdirectory in your home directory called <filename class=\"directory\">."
-"gimp-2.6</filename>. All of the configuration information is stored in this "
+"gimp-2.8</filename>. All of the configuration information is stored in this "
 "directory. If you remove or rename the directory, <acronym>GIMP</acronym> "
 "will repeat the initial configuration process, creating a new <filename "
-"class=\"directory\">.gimp-2.6</filename> directory. Use this capability to "
+"class=\"directory\">.gimp-2.8</filename> directory. Use this capability to "
 "explore different configuration options without destroying your existing "
 "installation, or to recover if your configuration files are damaged."
 msgstr ""
 "La première fois que vous lancez <acronym>GIMP</acronym>, il part dans une "
 "série d'étapes pour fixer les options et les répertoires. Ce processus crée "
-"un sous-répertoire dans votre dossier personnel appelé «.gimp-2.6». Toute "
+"un sous-répertoire dans votre dossier personnel appelé «.gimp-2.8». Toute "
 "l'information sur les choix que vous faites va dans ce répertoire. Si, plus "
-"tard, vous supprimez ce répertoire, ou si vous le renommez en «.gimp-2.6."
+"tard, vous supprimez ce répertoire, ou si vous le renommez en «.gimp-2.8."
 "bak» par exemple, toute la séquence d'installation reprendra recréant un "
-"nouveau répertoire .gimp-2.6. Vous pouvez exploiter cette astuce pour "
+"nouveau répertoire .gimp-2.8. Vous pouvez exploiter cette astuce pour "
 "explorer l'effet de choix différents sans détruire votre installation "
 "existante, ou si vous avez raté vos choix d'installation."
 
-#: src/concepts/setup.xml:36(title)
+#: src/concepts/setup.xml:35(title)
 msgid "Finally . . ."
 msgstr "Finalement . . ."
 
-#: src/concepts/setup.xml:37(para)
+#: src/concepts/setup.xml:36(para)
 msgid ""
 "Just a couple of suggestions before you start, though: First, <acronym>GIMP</"
 "acronym> provides tips you can read at any time using the menu command "
@@ -4088,178 +4082,190 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/qmask.xml:26(None)
+#: src/concepts/toolbox.xml:22(None)
 msgid ""
-"@@image: 'images/dialogs/channel-quickmask.png'; "
-"md5=339a3364ffa87f2e59a161718089e00e"
-msgstr " "
-
-#: src/concepts/qmask.xml:15(title)
-msgid "The QuickMask"
-msgstr "Le Masque rapide"
-
-#: src/concepts/qmask.xml:18(primary)
-msgid "QuickMask"
-msgstr "Masque rapide"
-
-#: src/concepts/qmask.xml:22(title)
-msgid "Image with QuickMask enabled"
-msgstr "Image avec Masque Rapide"
-
-#: src/concepts/qmask.xml:30(para)
-msgid ""
-"The usual <link linkend=\"gimp-tools-selection\">selection tools</link> "
-"involve tracing an outline around an area of interest, which does not work "
-"well for some complex selections. The QuickMask, however, allows you to "
-"paint a selection instead of just tracing its outline."
+"@@image: 'images/using/toolbox-description.png'; "
+"md5=53382765536fb6aeb60cf626e23bb6e0"
 msgstr ""
-"Les <link linkend=\"gimp-tools-selection\">outils de sélection</link> "
-"montrent parfois leurs limites lorsqu'il s'agit de créer des sélections aux "
-"contours complexes, voir progressifs. Dans ce cas l'utilisation du Masque "
-"rapide s'avère particulièrement efficace. En gros, il permet de peindre une "
-"sélection au lieu d'en tracer le contour."
+"@@image: 'images/using/toolbox-description.png'; "
+"md5=53382765536fb6aeb60cf626e23bb6e0"
 
-#: src/concepts/qmask.xml:39(para)
+#: src/concepts/toolbox.xml:11(title)
+msgid "The Toolbox"
+msgstr "La Boîte à outils"
+
+#: src/concepts/toolbox.xml:13(primary)
+msgid "Toolbox"
+msgstr "Boîte à Outils"
+
+#: src/concepts/toolbox.xml:18(title)
+msgid "Screenshot of the Toolbox"
+msgstr "Capture d'écran de la Boîte à outils"
+
+#: src/concepts/toolbox.xml:26(para)
 msgid ""
-"Normally, a selection in <acronym>GIMP</acronym> is represented by "
-"<quote>marching ants</quote> that trace the selection outline, but there may "
-"be more to a selection than the marching ants show. A <acronym>GIMP</"
-"acronym> selection is actually a full-fledged grayscale channel, covering "
-"the image, with pixel values ranging from 0 (unselected) to 255 (fully "
-"selected). The marching ants are drawn along a contour of half-selected "
-"pixels. Thus, what the marching ants show you as either inside or outside "
-"the boundary is really just a slice through a continuum."
+"The Toolbox is the heart of <acronym>GIMP</acronym>. Here is a quick tour of "
+"what you will find there."
 msgstr ""
-"Normalement, quand vous créez une sélection, vous la voyez entourée de "
-"pointillés mobiles. En fait, ces pointillés ne représentent pas exactement "
-"le contour de la sélection. Dans <acronym>GIMP</acronym>, une sélection est "
-"en réalité un canal en niveaux de gris de la taille de l'image. Chaque pixel "
-"y est représenté par une valeur entre 0 (non sélectionné) et 255 "
-"(complètement sélectionné). Les pointillés mobiles sont tracés mi-chemin "
-"entre les pixels non sélectionnés et les pixels sélectionnés."
+"La Boîte à outils est le cœur de <acronym>GIMP</acronym>. Voici un rapide "
+"aperçu de ce que vous y trouverez."
 
-#: src/concepts/qmask.xml:50(para)
+#: src/concepts/toolbox.xml:31(para)
 msgid ""
-"The QuickMask is <acronym>GIMP</acronym>'s way of showing the full structure "
-"of the selection. QuickMask also provides the ability to interact with the "
-"selection in new, and substantially more powerful, ways. Click the small "
-"outlined button at the lower left of the image window to toggle QuickMask on "
-"and off. The button switches between QuickMask mode, and marching ants mode. "
-"You can also use <menuchoice><guimenu>Select</guimenu><guimenuitem>Toggle "
-"QuickMask</guimenuitem></menuchoice>, or <keycombo><keycap>Shift</"
-"keycap><keycap>Q</keycap></keycombo>, to toggle between QuickMask and "
-"marching ants mode."
+"In the Toolbox, as in most parts of <acronym>GIMP</acronym>, moving the "
+"mouse over something and letting it rest for a moment, usually displays a "
+"<quote>tooltip</quote> that describes the thing. Short cut keys are also "
+"frequently shown in the tooltip. In many cases, you can hover the mouse over "
+"an item and press the <keycap>F1</keycap> key to get help about the thing "
+"that is underneath the mouse."
 msgstr ""
-"Le Masque rapide est une façon pour <acronym>GIMP</acronym> de vous montrer "
-"la véritable structure de la sélection. Il vous donne aussi la possibilité "
-"d'agir sur la sélection. Pour activer le Masque rapide, cliquez sur le "
-"bouton en bas à gauche de la fenêtre d'image, entouré de rouge. Ce bouton "
-"est une bascule et en cliquant dessus, vous revenez aux pointillés mobiles "
-"de la sélection. Vous pouvez aussi l'activer en sélectionnant dans le menu "
-"d'image <menuchoice><guimenu>Sélection</guimenu><guimenuitem>(Dés)activer le "
-"masque rapide</guimenuitem></menuchoice>, ou en utilisant le raccourci-"
-"clavier <keycombo><keycap>Maj</keycap><keycap>Q</keycap></keycombo>."
+"Dans la Boîte à outils, comme dans la plupart des autres dialogues de "
+"<acronym>GIMP</acronym>, placer et maintenir la souris sur un élément fait "
+"généralement apparaître une bulle d'information sur l'outil qui vous aide à "
+"comprendre ce qu'est cet élément et ce qu'il vous permet de faire. De plus, "
+"dans la plupart des cas, vous pouvez presser la touche <keycap>F1</keycap> "
+"pour obtenir de l'aide sur ce qui est sous la souris."
 
-#: src/concepts/qmask.xml:66(para)
+#: src/concepts/toolbox.xml:40(para)
 msgid ""
-"In QuickMask mode, the selection is shown as a translucent screen overlying "
-"the image, whose transparency at each pixel indicates the degree to which "
-"that pixel is selected. By default the mask is shown in red, but you can "
-"change this if another mask color is more convenient. The less a pixel is "
-"selected, the more it is obscured by the mask. Fully selected pixels are "
-"shown completely clear."
+"By default, only the Foreground-background icon is visible. You can add "
+"Brush-Pattern-Gradient icons and Active Image icon through "
+"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
+"guisubmenu><guimenuitem>Toolbox</guimenuitem></menuchoice>: <xref linkend="
+"\"prefs-tools-config\"/>."
 msgstr ""
-"L'activation du Masque rapide le fait apparaître comme un voile transparent, "
-"de couleur rouge par défaut, où le degré de transparence représente le degré "
-"de sélection des pixels. Moins un pixel est sélectionné, et plus il est "
-"obscurci par le masque. Plus il est sélectionné et plus le masque est "
-"transparent."
+"Par défaut, seule l'icône Premier-plan-Arrière-plan est visible. Vous pouvez "
+"ajouter les icônes Brosses-Motifs-Dégradés et Image active dans "
+"<menuchoice><guimenu>Édition</guimenu><guisubmenu>Préférences</"
+"guisubmenu><guimenuitem>Boîte à outils</guimenuitem></menuchoice>: <xref "
+"linkend=\"prefs-tools-config\"/>."
 
-#: src/concepts/qmask.xml:74(para)
+#: src/concepts/toolbox.xml:52(para)
 msgid ""
-"In QuickMask mode, many image manipulations act on the selection channel "
-"rather than the image itself. This includes, in particular, paint tools. "
-"Painting with white selects pixels, and painting with black unselects "
-"pixels. You can use any of the paint tools, as well as the bucket fill and "
-"gradient fill tools, in this way. Advanced users of <acronym>GIMP</acronym> "
-"learn that <quote>painting the selection</quote> is the easiest and most "
-"effective way to delicately manipulate the image."
+"<emphasis>Tool icons:</emphasis> These icons are buttons which activate "
+"tools for a wide variety of purposes: selecting parts of images, painting an "
+"image, transforming an image, etc. <xref linkend=\"gimp-toolbox\"/> gives an "
+"overview of how to work with tools, and each tool is described "
+"systematically in the <link linkend=\"gimp-tools\">Tools</link> chapter."
 msgstr ""
-"Quand le Masque rapide est activé, la plupart des opérations agissent sur le "
-"canal de sélection au lieu d'agir sur l'image elle-même. Vous pouvez "
-"utiliser les outils de peinture. Si vous peignez avec du blanc, les pixels "
-"peints seront sélectionnés ; avec du noir, ils seront dé-sélectionnés. Vous "
-"pouvez aussi utiliser l'outil de remplissage (le Pot de Peinture) et l'outil "
-"de dégradé. <quote>Peindre la sélection</quote> est la façon la plus simple "
-"et la plus efficace pour manipuler délicatement une sélection."
+"<emphasis>Les icônes d'outils :</emphasis> Ces icônes sont des boutons qui "
+"activent les outils permettant de multiples choses : sélectionner des "
+"parties d'image, les peindre, les transformer, etc... La section <xref "
+"linkend=\"gimp-toolbox\"/>donne un aperçu du fonctionnement des outils, et "
+"chaque outil est décrit dans le chapitre <link linkend=\"gimp-toolbox"
+"\">Outils</link>."
 
-#: src/concepts/qmask.xml:86(para)
+#: src/concepts/toolbox.xml:62(para)
 msgid ""
-"To save a QuickMask selection to a new channel; Make sure that there is a "
-"selection and that QuickMask mode is not active in the image window. Use "
-"<menuchoice><guimenu>Select</guimenu><guimenuitem>Save to Channel</"
-"guimenuitem></menuchoice>. to create a new channel in the channel dialog "
-"called <quote>SelectionMask copy</quote> (repeating this command creates "
-"<quote>..copy#1</quote>, <quote>...copy#2</quote> and so on...)."
+"<emphasis>Foreground/Background colors:</emphasis> The color areas here show "
+"you <acronym>GIMP</acronym>'s current foreground and background colors, "
+"which come into play in many operations. Clicking on either one of them "
+"brings up a color selector dialog that allows you to change to a different "
+"color. Clicking on the double-headed arrow swaps the two colors, and "
+"clicking on the small symbol in the lower left corner resets them to black "
+"and white."
 msgstr ""
-"Pour sauvegarder dans un canal la sélection créée avec le Masque rapide, "
-"assurez-vous qu'une sélection existe et que le Masque rapide n'est pas actif "
-"dans la fenêtre d'image. Choisissez <menuchoice><guimenu>Sélection</"
-"guimenu><guimenuitem>Enregistrer dans un canal</guimenuitem></menuchoice> "
-"dans le menu d'image. Cela créera un nouveau canal appelé Selection Mask 1 "
-"dans la fenêtre de dialogue des canaux."
+"<emphasis>Couleurs de premier-plan et d'arrière-plan</emphasis> : L'aire des "
+"couleurs vous montre les couleurs de premier plan et d'arrière plan "
+"actuelles; elles interviennent dans de nombreuses opérations. Cliquer sur "
+"l'une d'entre elles fera apparaître un dialogue de choix des couleurs qui "
+"vous permettra de la changer. Cliquer sur la double-flèche permute les deux "
+"couleurs, et cliquer sur le petit symbole dans le coin en bas à gauche "
+"réinitialise le noir et le blanc."
 
-#: src/concepts/qmask.xml:101(para)
+#: src/concepts/toolbox.xml:74(para)
 msgid ""
-"In QuickMask mode, Cut and Paste act on the selection rather than the image. "
-"You can sometimes make use of this as the most convenient way of "
-"transferring a selection from one image to another."
+"<emphasis>Brush/Pattern/Gradient:</emphasis> The symbols here show you "
+"<acronym>GIMP's</acronym> current selections for: the Paintbrush, used by "
+"all tools that allow you to paint on the image (<quote>painting</quote> "
+"includes operations like erasing and smudging, by the way); for the Pattern, "
+"which is used in filling selected areas of an image; and for the Gradient, "
+"which comes into play whenever an operation requires a smoothly varying "
+"range of colors. Clicking on any of these symbols brings up a dialog window "
+"that allows you to change it."
 msgstr ""
-"Quand le Masque rapide est actif, le Copier-Coller agit sur la sélection au "
-"lieu de l'image entière. Ce peut-être un moyen pratique de transférer une "
-"sélection d'une image dans une autre."
+"<emphasis>Brosse, Motif et Dégradé</emphasis> : Ces symboles vous montrent "
+"la sélection actuelle de <acronym>GIMP</acronym> pour: <emphasis>la brosse</"
+"emphasis>, utilisée par tous les outils qui permettent de dessiner sur "
+"l'image (<quote>dessiner</quote> est pris au sens large et inclut les "
+"opérations telles que le gommage et le barbouillage) ; <emphasis>le motif</"
+"emphasis>, utilisé pour remplir des aires sélectionnées d'une image ; et "
+"<emphasis>le dégradé</emphasis>, qui intervient dès qu'une opération "
+"nécessite une douce transition de couleurs. Un clic sur l'un de ces symboles "
+"affichera la fenêtre de dialogue permettant d'en changer."
 
-#: src/concepts/qmask.xml:107(para)
+#: src/concepts/toolbox.xml:87(para)
 msgid ""
-"You can learn more on <link linkend=\"gimp-channel-mask\">Selection masks</"
-"link> in the section dedicated to the channel dialog."
+"<emphasis>Active Image:</emphasis> In <acronym>GIMP</acronym>, you can work "
+"with many images at once, but at any given moment, only one image is the "
+"<quote>active image</quote>. Here you find a small iconic representation of "
+"the active image. Click the icon to display a dialog with a list of the "
+"currently open images, click an image in the dialog to make it active. "
+"Usually, you click an image window in multi-window mode, or an image tab in "
+"single-window mode, to make it the active image."
 msgstr ""
-"Vous pourrez en apprendre bien plus sur les <link linkend=\"gimp-channel-mask"
-"\">Masques de sélection</link> dans la section dédiée au dialogue des canaux."
+"<emphasis>L'image active</emphasis> : Dans <acronym>GIMP</acronym>, vous "
+"pouvez travailler avec plusieurs images en même temps, mais à chaque "
+"instant, l'une d'entre elle est <quote>l'image active</quote>. Vous "
+"trouverez ici une représentation miniature de cette image. Cliquer sur elle "
+"ouvrira une liste toutes les images actuellement ouvertes, vous permettant "
+"de changer l'image active si vous le désirez (Bien sûr, on peut aussi rendre "
+"une image active en cliquant sur la fenêtre de l'image en mode multi-fenêtre "
+"ou sur l'onglet correspondant dans la barre d'onglets en mode fenêtre-"
+"unique)."
 
-#: src/concepts/qmask.xml:115(title)
-msgid "Properties"
-msgstr "Propriétés"
-
-#: src/concepts/qmask.xml:116(para)
+#: src/concepts/toolbox.xml:97(para)
 msgid ""
-"There are two QuickMask properties you can change by right-clicking on the "
-"QuickMask button."
+"<indexterm><primary>XDS</primary></indexterm> You can <quote>Drop to an XDS "
+"file manager to save the image</quote>. <acronym>XDS</acronym> is an acronym "
+"for <quote>X Direct Save Protocol</quote>: an additional feature for the X "
+"Window System graphical user interface for Unix-like operating systems."
 msgstr ""
-"Il y a deux propriétés du masque rapide qui sont accessibles et modifiables "
-"via un clic droit sur le bouton du masque rapide."
+"<indexterm><primary>XDS</primary></indexterm> Vous pouvez aussi "
+"<quote>glisser vers un gestionnaire de fichiers compatible XDS pour "
+"enregistrer l'image</quote>. <acronym>XDS</acronym> est un aconyme pour "
+"<quote>X Direct Save Protocol</quote>, un élément supplémentaire pour "
+"l'interface utilisateur graphique X Window dans les systèmes d'exploitation "
+"de type Unix."
 
-#: src/concepts/qmask.xml:122(para)
+#: src/concepts/toolbox.xml:109(para)
 msgid ""
-"Normally the QuickMask shows unselected areas <quote>fogged over </quote> "
-"and selected areas <quote>in clear</quote>, but you can reverse this by "
-"choosing <quote>Mask Selected Areas</quote> instead of the default "
-"<quote>Mask Unselected Areas</quote>."
+"At every start, <acronym>GIMP</acronym> selects a tool (the brush), a color, "
+"a brush and a pattern by default, always the same. If you want "
+"<acronym>GIMP</acronym> to select the last tool, color, brush and pattern "
+"you used when quitting your previous session, check the <guilabel>Save input "
+"device settings on exit</guilabel> in <link linkend=\"gimp-prefs-input-"
+"devices\">Preferences/Input Devices</link>."
 msgstr ""
-"En utilisation normale le masque assombrit les régions non sélectionnées "
-"mais il est possible d'inverser ce comportement en choisissant "
-"<guilabel>Masquer les régions sélectionnées</guilabel> au lieu de "
-"<guilabel>Masquer les régions non sélectionnées</guilabel>."
+"À chaque démarrage, <acronym>GIMP</acronym> sélectionne par défaut un outil "
+"(le pinceau), une couleur, une pointe de brosse et un motif, toujours les "
+"mêmes. Si vous voulez que <acronym>GIMP</acronym> sélectionne l'outil, la "
+"couleur, la pointe de brosse et le motif utilisés quand vous avez quitté la "
+"session précédente, cochez l'option <quote>Enregistrer l'état des "
+"périphériques en quittant</quote> dans Préférences/Périphériques"
 
-#: src/concepts/qmask.xml:130(para)
+#: src/concepts/toolbox.xml:121(para)
 msgid ""
-"Use <quote>Configure Color and Opacity</quote> to open a dialog that allows "
-"you to set these to values other than the defaults, which are red at 50% "
-"opacity."
+"The Toolbox window displays <quote>Wilber's eyes</quote> along the top of "
+"the dialog. You can get rid of the <quote>Wilber's eyes</quote> by adding "
+"the following line to your <filename>gimprc</filename> file: <code>(toolbox-"
+"wilber&nbsp;no)</code>. It only affects the toolbox. The eyes in the Image "
+"window are only visible when you do not have an open image."
 msgstr ""
-"<guilabel>Configurer la couleur et l'opacité</guilabel> ouvre un dialogue "
-"qui permet de modifier l'assombrissement qui permet de visualiser le masque "
-"(rouge à 50% d'opacité par défaut)."
+"Vous pouvez vous débarrasser des <quote>Yeux de Wilber</quote> (qui "
+"remplacent l'ancien menu de la Boîte à outils) en ajoutant la ligne suivante "
+"à votre fichier <filename>gimprc</filename> : <code>(toolbox-wilber&nbsp;"
+"no)</code>. Cela n'affecte que la Boîte à outils. Les yeux dans la fenêtre "
+"d'image ne sont visibles que lorsque elle est vide d'image."
+
+#: src/concepts/toolbox.xml:132(para)
+msgid ""
+"Drag and drop an image from a file browser into the Toolbox window to open "
+"the image in its own Image window or tab."
+msgstr ""
+"Cliquez-glissez un fichier d'image depuis un navigateur de fichiers vers la "
+"Boîte à outils pour ouvrir l'image dans sa propre fenêtre ou son propre "
+"onglet."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4590,191 +4596,520 @@ msgstr ""
 "encore nécessitent la présence ou l'absence d'un canal Alpha. La solution "
 "est alors de convertir l'image en mode RVB."
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/toolbox.xml:22(None)
+#: src/concepts/intro.xml:13(title) src/concepts/intro.xml:15(primary)
+msgid "Running GIMP"
+msgstr "Lancer GIMP"
+
+#: src/concepts/intro.xml:17(para)
 msgid ""
-"@@image: 'images/using/toolbox-description.png'; "
-"md5=53382765536fb6aeb60cf626e23bb6e0"
+"Most often, you start <acronym>GIMP</acronym> either by clicking on an icon "
+"(if your system is set up to provide you with one), or by typing "
+"<command>gimp</command> on a command line. If you have multiple versions of "
+"<acronym>GIMP</acronym> installed, you may need to type <command>gimp-2.8</"
+"command> to get the latest version. You can, if you want, give a list of "
+"image files on the command line after the program name, and they will "
+"automatically be opened by <acronym>GIMP</acronym> as it starts. It is also "
+"possible, though, to open files from within <acronym>GIMP</acronym> once it "
+"is running."
 msgstr ""
-"@@image: 'images/using/toolbox-description.png'; "
-"md5=53382765536fb6aeb60cf626e23bb6e0"
+"Le plus souvent vous lancez <acronym>GIMP</acronym> en cliquant sur une "
+"icône (si votre système est configuré pour vous en afficher une), ou en "
+"tapant <command>gimp</command> sur la ligne de commande. Si vous avez "
+"plusieurs versions de <acronym>GIMP</acronym> installées, vous devrez taper "
+"<emphasis>gimp-2.8</emphasis> pour lancer la dernière version. Vous pouvez, "
+"si vous le désirez, donner une liste de fichiers d'image dans la ligne de "
+"commande après le nom du programme, pour qu'ils soient automatiquement "
+"ouverts au démarrage de <acronym>GIMP</acronym>. On peut aussi, bien sûr, "
+"ouvrir des images une fois le programme démarré."
 
-#: src/concepts/toolbox.xml:11(title)
-msgid "The Toolbox"
-msgstr "La Boîte à outils"
-
-#: src/concepts/toolbox.xml:13(primary)
-msgid "Toolbox"
-msgstr "Boîte à Outils"
-
-#: src/concepts/toolbox.xml:18(title)
-msgid "Screenshot of the Toolbox"
-msgstr "Capture d'écran de la Boîte à outils"
-
-#: src/concepts/toolbox.xml:26(para)
+#: src/concepts/intro.xml:30(para)
 msgid ""
-"The Toolbox is the heart of <acronym>GIMP</acronym>. Here is a quick tour of "
-"what you will find there."
+"Most operating systems support file associations, which associates a class "
+"of files (as determined by their filename extension, such as .jpg) with a "
+"corresponding application (such as <acronym>GIMP</acronym>). When image "
+"files are properly <quote>associated</quote> to <acronym>GIMP</acronym>, you "
+"can double click on an image to open it in <acronym>GIMP</acronym>."
 msgstr ""
-"La Boîte à outils est le cœur de <acronym>GIMP</acronym>. Voici un rapide "
-"aperçu de ce que vous y trouverez."
+"La plupart des systèmes d'exploitation savent associer les extensions de "
+"noms de fichier (comme .jpg) à un logiciel particulier. Vous pouvez ainsi "
+"associer les fichiers d'image à <acronym>GIMP</acronym> qui les ouvrira "
+"quand vous cliquerez sur le nom de fichier."
 
-#: src/concepts/toolbox.xml:31(para)
-msgid ""
-"In the Toolbox, as in most parts of <acronym>GIMP</acronym>, moving the "
-"mouse over something and letting it rest for a moment, usually displays a "
-"<quote>tooltip</quote> that describes the thing. Short cut keys are also "
-"frequently shown in the tooltip. In many cases, you can hover the mouse over "
-"an item and press the <keycap>F1</keycap> key to get help about the thing "
-"that is underneath the mouse."
-msgstr ""
-"Dans la Boîte à outils, comme dans la plupart des autres dialogues de "
-"<acronym>GIMP</acronym>, placer et maintenir la souris sur un élément fait "
-"généralement apparaître une bulle d'information sur l'outil qui vous aide à "
-"comprendre ce qu'est cet élément et ce qu'il vous permet de faire. De plus, "
-"dans la plupart des cas, vous pouvez presser la touche <keycap>F1</keycap> "
-"pour obtenir de l'aide sur ce qui est sous la souris."
+#: src/concepts/intro.xml:40(title)
+msgid "Known Platforms"
+msgstr "Plateformes connues"
 
-#: src/concepts/toolbox.xml:40(para)
+#: src/concepts/intro.xml:41(para)
 msgid ""
-"By default, only the Foreground-background icon is visible. You can add "
-"Brush-Pattern-Gradient icons and Active Image icon through "
-"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
-"guisubmenu><guimenuitem>Toolbox</guimenuitem></menuchoice>: <xref linkend="
-"\"prefs-tools-config\"/>."
+"The <acronym>GIMP</acronym> is the most widely supported image manipulation "
+"available today. The platforms on which <acronym>GIMP</acronym> is known to "
+"work include:"
 msgstr ""
-"Par défaut, seule l'icône Premier-plan-Arrière-plan est visible. Vous pouvez "
-"ajouter les icônes Brosses-Motifs-Dégradés et Image active dans "
-"<menuchoice><guimenu>Édition</guimenu><guisubmenu>Préférences</"
-"guisubmenu><guimenuitem>Boîte à outils</guimenuitem></menuchoice>: <xref "
-"linkend=\"prefs-tools-config\"/>."
+"<acronym>GIMP</acronym> est probablement le programme de manipulation "
+"d'images le mieux accepté par les différents systèmes d'exploitation. "
+"Plateformes sur lesquelles <acronym>GIMP</acronym> a été vu fonctionner :"
 
-#: src/concepts/toolbox.xml:52(para)
+#: src/concepts/intro.xml:46(para)
 msgid ""
-"<emphasis>Tool icons:</emphasis> These icons are buttons which activate "
-"tools for a wide variety of purposes: selecting parts of images, painting an "
-"image, transforming an image, etc. <xref linkend=\"gimp-toolbox\"/> gives an "
-"overview of how to work with tools, and each tool is described "
-"systematically in the <link linkend=\"gimp-tools\">Tools</link> chapter."
+"<productname><acronym>GNU</acronym>/Linux</productname>, <productname>Apple "
+"Mac OS X</productname>, <productname>Microsoft Windows</productname>, "
+"<productname>OpenBSD</productname>, <productname>NetBSD</productname>, "
+"<productname>FreeBSD</productname>, <productname>Solaris</productname>, "
+"<productname>SunOS</productname>, <productname>AIX</productname>, "
+"<productname>HP-UX</productname>, <productname>Tru64</productname>, "
+"<productname>Digital UNIX</productname>, <productname>OSF/1</productname>, "
+"<productname>IRIX</productname>, <productname>OS/2</productname>, and "
+"<productname>BeOS</productname>."
 msgstr ""
-"<emphasis>Les icônes d'outils :</emphasis> Ces icônes sont des boutons qui "
-"activent les outils permettant de multiples choses : sélectionner des "
-"parties d'image, les peindre, les transformer, etc... La section <xref "
-"linkend=\"gimp-toolbox\"/>donne un aperçu du fonctionnement des outils, et "
-"chaque outil est décrit dans le chapitre <link linkend=\"gimp-toolbox"
-"\">Outils</link>."
+"<productname><acronym>GNU</acronym>/Linux</productname>, <productname>Apple "
+"Mac OS X</productname>, <productname>Microsoft Windows</productname>, "
+"<productname>OpenBSD</productname>, <productname>NetBSD</productname>, "
+"<productname>FreeBSD</productname>, <productname>Solaris</productname>, "
+"<productname>SunOS</productname>, <productname>AIX</productname>, "
+"<productname>HP-UX</productname>, <productname>Tru64</productname>, "
+"<productname>Digital UNIX</productname>, <productname>OSF/1</productname>, "
+"<productname>IRIX</productname>, <productname>OS/2</productname>, et "
+"<productname>BeOS</productname>."
 
-#: src/concepts/toolbox.xml:62(para)
+#: src/concepts/intro.xml:59(para)
 msgid ""
-"<emphasis>Foreground/Background colors:</emphasis> The color areas here show "
-"you <acronym>GIMP</acronym>'s current foreground and background colors, "
-"which come into play in many operations. Clicking on either one of them "
-"brings up a color selector dialog that allows you to change to a different "
-"color. Clicking on the double-headed arrow swaps the two colors, and "
-"clicking on the small symbol in the lower left corner resets them to black "
-"and white."
+"The <acronym>GIMP</acronym> is easily ported to other operating systems "
+"because of its source code availability. For further information visit the "
+"<acronym>GIMP</acronym> developers homepage. <xref linkend=\"bibliography-"
+"online-gimp-dev\"/>."
 msgstr ""
-"<emphasis>Couleurs de premier-plan et d'arrière-plan</emphasis> : L'aire des "
-"couleurs vous montre les couleurs de premier plan et d'arrière plan "
-"actuelles; elles interviennent dans de nombreuses opérations. Cliquer sur "
-"l'une d'entre elles fera apparaître un dialogue de choix des couleurs qui "
-"vous permettra de la changer. Cliquer sur la double-flèche permute les deux "
-"couleurs, et cliquer sur le petit symbole dans le coin en bas à gauche "
-"réinitialise le noir et le blanc."
+"<acronym>GIMP</acronym> peut aisément être porté sur d'autres systèmes grâce "
+"à la disponibilité de son code source. Pour plus d'informations visitez la "
+"page Web des développeurs du <acronym>GIMP</acronym>.<xref linkend="
+"\"bibliography-online-gimp-dev\"/>."
 
-#: src/concepts/toolbox.xml:74(para)
-msgid ""
-"<emphasis>Brush/Pattern/Gradient:</emphasis> The symbols here show you "
-"<acronym>GIMP's</acronym> current selections for: the Paintbrush, used by "
-"all tools that allow you to paint on the image (<quote>painting</quote> "
-"includes operations like erasing and smudging, by the way); for the Pattern, "
-"which is used in filling selected areas of an image; and for the Gradient, "
-"which comes into play whenever an operation requires a smoothly varying "
-"range of colors. Clicking on any of these symbols brings up a dialog window "
-"that allows you to change it."
-msgstr ""
-"<emphasis>Brosse, Motif et Dégradé</emphasis> : Ces symboles vous montrent "
-"la sélection actuelle de <acronym>GIMP</acronym> pour: <emphasis>la brosse</"
-"emphasis>, utilisée par tous les outils qui permettent de dessiner sur "
-"l'image (<quote>dessiner</quote> est pris au sens large et inclut les "
-"opérations telles que le gommage et le barbouillage) ; <emphasis>le motif</"
-"emphasis>, utilisé pour remplir des aires sélectionnées d'une image ; et "
-"<emphasis>le dégradé</emphasis>, qui intervient dès qu'une opération "
-"nécessite une douce transition de couleurs. Un clic sur l'un de ces symboles "
-"affichera la fenêtre de dialogue permettant d'en changer."
+#: src/concepts/intro.xml:68(title)
+msgid "Language"
+msgstr "Langue"
 
-#: src/concepts/toolbox.xml:87(para)
-msgid ""
-"<emphasis>Active Image:</emphasis> In <acronym>GIMP</acronym>, you can work "
-"with many images at once, but at any given moment, only one image is the "
-"<quote>active image</quote>. Here you find a small iconic representation of "
-"the active image. Click the icon to display a dialog with a list of the "
-"currently open images, click an image in the dialog to make it active. "
-"Usually, you click an image window in multi-window mode, or an image tab in "
-"single-window mode, to make it the active image."
-msgstr ""
-"<emphasis>L'image active</emphasis> : Dans <acronym>GIMP</acronym>, vous "
-"pouvez travailler avec plusieurs images en même temps, mais à chaque "
-"instant, l'une d'entre elle est <quote>l'image active</quote>. Vous "
-"trouverez ici une représentation miniature de cette image. Cliquer sur elle "
-"ouvrira une liste toutes les images actuellement ouvertes, vous permettant "
-"de changer l'image active si vous le désirez (Bien sûr, on peut aussi rendre "
-"une image active en cliquant sur la fenêtre de l'image en mode multi-fenêtre "
-"ou sur l'onglet correspondant dans la barre d'onglets en mode fenêtre-"
-"unique)."
+#: src/concepts/intro.xml:70(primary)
+msgid "Languages"
+msgstr "Langues"
 
-#: src/concepts/toolbox.xml:97(para)
+#: src/concepts/intro.xml:72(para)
 msgid ""
-"<indexterm><primary>XDS</primary></indexterm> You can <quote>Drop to an XDS "
-"file manager to save the image</quote>. <acronym>XDS</acronym> is an acronym "
-"for <quote>X Direct Save Protocol</quote>: an additional feature for the X "
-"Window System graphical user interface for Unix-like operating systems."
+"<acronym>GIMP</acronym> automatically detects and uses the system language. "
+"In the unlikely event that language detection fails, or if you just want to "
+"use a different language, since <acronym>GIMP</acronym>-2.8, you can do so "
+"through: <menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
+"guisubmenu><guimenuitem>Interface</guimenuitem></menuchoice>."
 msgstr ""
-"<indexterm><primary>XDS</primary></indexterm> Vous pouvez aussi "
-"<quote>glisser vers un gestionnaire de fichiers compatible XDS pour "
-"enregistrer l'image</quote>. <acronym>XDS</acronym> est un aconyme pour "
-"<quote>X Direct Save Protocol, un élément supplémentaire pour l'interface "
-"utilisateur graphique X Window dans les systèmes d'exploitation de type Unix."
+"<acronym>GIMP</acronym> détecte automatiquement la langue de votre système "
+"d'exploitation. S'il échoue, ou si vous désirez changer la langue utilisée "
+"par <acronym>GIMP</acronym>, vous pouvez, depuis <acronym>GIMP</"
+"acronym>-2.8, passer par <menuchoice><guimenu>Édition</"
+"guimenu><guisubmenu>Préférences</guisubmenu><guimenuitem>Interface</"
+"guimenuitem></menuchoice>."
 
-#: src/concepts/toolbox.xml:109(para)
-msgid ""
-"At every start, <acronym>GIMP</acronym> selects a tool (the brush), a color, "
-"a brush and a pattern by default, always the same. If you want "
-"<acronym>GIMP</acronym> to select the last tool, color, brush and pattern "
-"you used when quitting your previous session, check the <guilabel>Save input "
-"device settings on exit</guilabel> in <link linkend=\"gimp-prefs-input-"
-"devices\">Preferences/Input Devices</link>."
-msgstr ""
-"À chaque démarrage, <acronym>GIMP</acronym> sélectionne par défaut un outil "
-"(le pinceau), une couleur, une pointe de brosse et un motif, toujours les "
-"mêmes. Si vous voulez que <acronym>GIMP</acronym> sélectionne l'outil, la "
-"couleur, la pointe de brosse et le motif utilisés quand vous avez quitté la "
-"session précédente, cochez l'option <quote>Enregistrer l'état des "
-"périphériques en quittant</quote> dans Préférences/Périphériques"
+#: src/concepts/intro.xml:84(para)
+msgid "You can also use:"
+msgstr "Vous pouvez aussi :"
 
-#: src/concepts/toolbox.xml:121(para)
-msgid ""
-"The Toolbox window displays <quote>Wilber's eyes</quote> along the top of "
-"the dialog. You can get rid of the <quote>Wilber's eyes</quote> by adding "
-"the following line to your <filename>gimprc</filename> file: <code>(toolbox-"
-"wilber&nbsp;no)</code>. It only affects the toolbox. The eyes in the Image "
-"window are only visible when you do not have an open image."
-msgstr ""
-"Vous pouvez vous débarrasser des <quote>Yeux de Wilber</quote> (qui "
-"remplacent l'ancien menu de la Boîte à outils) en ajoutant la ligne suivante "
-"à votre fichier <filename>gimprc</filename> : <code>(toolbox-wilber&nbsp;no)"
-"</code>. Cela n'affecte que la Boîte à outils. Les yeux dans la fenêtre "
-"d'image ne sont visibles que lorsque elle est vide d'image."
+#: src/concepts/intro.xml:89(term)
+msgid "Under Linux"
+msgstr "Sous Linux"
 
-#: src/concepts/toolbox.xml:132(para)
+#: src/concepts/intro.xml:91(para)
 msgid ""
-"Drag and drop an image from a file browser into the Toolbox window to open "
-"the image in its own Image window or tab."
+"<emphasis>In LINUX</emphasis>: in console mode, type <userinput>LANGUAGE=en "
+"gimp</userinput> or <userinput>LANG=en gimp</userinput> replacing en by fr, "
+"de, ... according to the language you want. Background: Using "
+"<userinput>LANGUAGE=en</userinput> sets an environment variable for the "
+"executed program <userinput>gimp</userinput>."
 msgstr ""
-"Cliquez-glissez un fichier d'image depuis un navigateur de fichiers vers la "
-"Boîte à outils pour ouvrir l'image dans sa propre fenêtre ou son propre "
-"onglet."
+"<emphasis>Sous LINUX</emphasis> : en mode console, tapez "
+"<userinput>LANGUAGE=fr gimp</userinput> ou <userinput>LANG=fr gimp</"
+"userinput> en remplaçant fr par en, de, ... selon la langue choisie. En "
+"utilisant <userinput>LANGUAGE=en</userinput> vous choisissez une variable "
+"d'environnement pour le programme <userinput>gimp</userinput> dans ce cas."
+
+#: src/concepts/intro.xml:103(term)
+msgid "Under Windows XP"
+msgstr "Sous Windows XP"
+
+#: src/concepts/intro.xml:105(para)
+msgid ""
+"<menuchoice><guimenu>Control Panel</guimenu><guisubmenu>System</"
+"guisubmenu><guisubmenu>Advanced</guisubmenu><guimenuitem>Environment</"
+"guimenuitem></menuchoice> button in <quote>System Variables</quote> area: "
+"<guibutton>Add</guibutton> button: Enter LANG for Name and fr or de... for "
+"Value. Watch out! You have to click on three successive <guibutton>OK</"
+"guibutton> to validate your choice."
+msgstr ""
+"<guimenuitem>Poste de travail</guimenuitem>/<guimenuitem>Propriétés</"
+"guimenuitem>/ <guimenuitem>Onglet Avancé</guimenuitem>. Cliquez sur le "
+"Bouton <guibutton>Variables d'environnement</guibutton> puis sur le bouton "
+"<guibutton>Nouveau</guibutton> et entrez <userinput>\n"
+"              LANG</userinput> pour Nom et <userinput>FR, EN, DE ...</"
+"userinput> pour Valeur. Attention ! vous devez cliquer sur trois <quote>OK</"
+"quote> successifs pour valider votre choix."
+
+#: src/concepts/intro.xml:117(para)
+msgid ""
+"If you change languages often, you can create a batch file to change the "
+"language. Open NotePad. Type the following commands (for french for "
+"instance): <literallayout><userinput>set lang=fr\n"
+"start gimp-2.8.exe</userinput></literallayout> Save this file as "
+"<filename>GIMP-FR.BAT</filename> (or another name, but always with a "
+"<filename class=\"extension\">.BAT</filename> extension). Create a shortcut "
+"and drag it to your desktop."
+msgstr ""
+"Si vous changez souvent de langue, vous pouvez créer un fichier de "
+"commandes .BAT. Ouvrez le Bloc-Note. Tapez les commandes (pour avoir "
+"<acronym>GIMP</acronym> en anglais) : <literallayout><userinput>set lang=en\n"
+"start gimp-2.8.exe</userinput></literallayout> Enregistrez ce fichier sous "
+"le nom GIMP-EN.BAT (ou tout autre nom mais toujours avec l'extension .BAT). "
+"Créez un raccourci pour ce fichier et faites-le glisser jusque sur votre "
+"bureau."
+
+#: src/concepts/intro.xml:129(para)
+msgid ""
+"Another possibility: <menuchoice><guimenu>Start</"
+"guimenu><guisubmenu>Programs</guisubmenu><guimenuitem>GTK Runtime "
+"Environment</guimenuitem></menuchoice> Then <guimenuitem>Select language</"
+"guimenuitem> and select the language you want in the drop-down list."
+msgstr ""
+"Autre possibilité : <menuchoice><guimenu>Démarrer</"
+"guimenu><guisubmenu>Programmes</guisubmenu><guimenuitem>GTK Runtime "
+"Environment</guimenuitem></menuchoice>. Choisissez <guimenuitem>Select "
+"language</guimenuitem> et sélectionnez la langue voulue dans la liste "
+"déroulante."
+
+#: src/concepts/intro.xml:142(term)
+msgid "Under Apple Mac OS X"
+msgstr "Under Apple Mac OS X"
+
+#: src/concepts/intro.xml:144(para)
+msgid ""
+"From System Preferences, click on the International icon. In the Language "
+"tab, the desired language should be the first in the list."
+msgstr ""
+"Allez dans les Préférences système, cliquez sur l'icône International et "
+"dans l'onglet Langue, la langue voulue doit être placée en premier dans la "
+"liste."
+
+#: src/concepts/intro.xml:152(term)
+msgid "Another GIMP instance"
+msgstr "Démarrer une nouvelle instance GIMP"
+
+#: src/concepts/intro.xml:155(primary)
+msgid "New instance"
+msgstr "New-instance"
+
+#: src/concepts/intro.xml:157(para)
+msgid ""
+"Use <userinput>-n</userinput> to run multiple instances of GIMP. For "
+"example, use <userinput>gimp-2.8</userinput> to start GIMP in the default "
+"system language, and <userinput>LANGUAGE=en gimp-2.8 -n</userinput> to start "
+"another instance of <acronym>GIMP</acronym> in English; this is very useful "
+"for translators."
+msgstr ""
+"Vous pouvez créer une autre instance de <acronym>GIMP</acronym>en lançant la "
+"commande avec l'option <userinput>-n</userinput>. Par exemple : "
+"<userinput>gimp-2.8</userinput> pour <acronym>GIMP</acronym> en français et "
+"<userinput>LANGUAGE=en gimp-2.8 -n</userinput> pour avoir aussi "
+"<acronym>GIMP</acronym> en anglais. C'est utile pour les traducteurs."
+
+#: src/concepts/intro.xml:171(title)
+msgid "Command Line Arguments"
+msgstr "Les arguments de la ligne de commande"
+
+#: src/concepts/intro.xml:173(primary)
+msgid "Command line Arguments"
+msgstr "Ligne de commande"
+
+#: src/concepts/intro.xml:175(para)
+msgid ""
+"Although arguments are not required when starting <acronym>GIMP</acronym>, "
+"the most common arguments are shown below. On a Unix system, you can use "
+"<userinput>man gimp</userinput>for a complete list."
+msgstr ""
+"Bien que les arguments ne soient pas nécessaires pour démarrer "
+"<acronym>GIMP</acronym>, ces arguments sont néanmoins décrits ci-dessous. "
+"Dans un système LINUX, vous pouvez utiliser <userinput>man gimp</userinput> "
+"pour en avoir une liste complète."
+
+#: src/concepts/intro.xml:181(para)
+msgid ""
+"Command line arguments must be in the command line that you use to start "
+"<acronym>GIMP</acronym> as <command>gimp-2.8 [OPTION...] [FILE|URI...]</"
+"command>."
+msgstr ""
+"Pour utiliser les options de la ligne de commande, vous devez les placer "
+"dans la ligne de commande que vous utilisez pour démarrer <acronym>GIMP</"
+"acronym>, par exemple <command>gimp-2.8 [OPTION...] [FICHIER|URI...]</"
+"command>."
+
+#: src/concepts/intro.xml:188(term)
+msgid "-?, --help"
+msgstr "-?, --help"
+
+#: src/concepts/intro.xml:190(para)
+msgid "Display a list of all commandline options."
+msgstr "Affiche la liste de toutes les options de la ligne de commande."
+
+#: src/concepts/intro.xml:194(term)
+msgid "--help-all"
+msgstr "--help-all"
+
+#: src/concepts/intro.xml:196(para)
+msgid "Show all help options."
+msgstr "Afficher toutes les options d'aide"
+
+#: src/concepts/intro.xml:200(term)
+msgid "--help-gtk"
+msgstr "--help-gtk"
+
+#: src/concepts/intro.xml:202(para)
+msgid "Show GTK+ Options."
+msgstr "Afficher les options GTK+"
+
+#: src/concepts/intro.xml:206(term)
+msgid "-v, --version"
+msgstr "-v, --version"
+
+#: src/concepts/intro.xml:208(para)
+msgid "Print the <acronym>GIMP</acronym> version and exit."
+msgstr "Affiche la version de <acronym>GIMP</acronym> utilisée et quitte."
+
+#: src/concepts/intro.xml:214(term)
+msgid "--license"
+msgstr "--license"
+
+#: src/concepts/intro.xml:216(para)
+msgid "Show license information and exit."
+msgstr "Afficher les informations sur la licence et sortir"
+
+#: src/concepts/intro.xml:220(term)
+msgid "--verbose"
+msgstr "--verbose"
+
+#: src/concepts/intro.xml:222(para)
+msgid "Show detailed start-up messages."
+msgstr "Affiche les messages de démarrage détaillés."
+
+#: src/concepts/intro.xml:226(term)
+msgid "-n, --new-instance"
+msgstr "-n, --new-instance"
+
+#: src/concepts/intro.xml:228(para)
+msgid "Start a new <acronym>GIMP</acronym> instance."
+msgstr "Démarrer une nouvelle instance <acronym>GIMP</acronym>"
+
+#: src/concepts/intro.xml:232(term)
+msgid "-a, --as-new"
+msgstr "-a, --as-new"
+
+#: src/concepts/intro.xml:234(para)
+msgid "Open images as new."
+msgstr "Ouvrir les images en tant que nouvelles"
+
+#: src/concepts/intro.xml:238(term)
+msgid "-i, --no-interface"
+msgstr "-i, --no-interface"
+
+#: src/concepts/intro.xml:240(para)
+msgid "Run without a user interface."
+msgstr "Lancer sans interface utilisateur"
+
+#: src/concepts/intro.xml:244(term)
+msgid "-d, --no-data"
+msgstr "-d, --no-data"
+
+#: src/concepts/intro.xml:246(para)
+msgid ""
+"Do not load patterns, gradients, palettes, or brushes. Often useful in non-"
+"interactive situations where start-up time is to be minimized."
+msgstr ""
+"Ne charge ni motifs, ni dégradés, ni palettes, ni brosses. Souvent utile "
+"dans les situations non interactives quand le temps de démarrage doit être "
+"optimisé."
+
+#: src/concepts/intro.xml:254(term)
+msgid "-f, --no-fonts"
+msgstr "-f, --no-fonts"
+
+#: src/concepts/intro.xml:256(para)
+msgid ""
+"Do not load any fonts. This is useful to load <acronym>GIMP</acronym> faster "
+"for scripts that do not use fonts, or to find problems related to malformed "
+"fonts that hang <acronym>GIMP</acronym>."
+msgstr ""
+"Ne charge aucune police de caractères. Cette option peut être utile pour "
+"accélérer le démarrage de <acronym>GIMP</acronym>, pour les scripts qui "
+"n'utilisent pas de police, ou pour résoudre les problèmes de police "
+"malformée qui peuvent bloquer GIMP."
+
+#: src/concepts/intro.xml:264(term)
+msgid "-s, --no-splash"
+msgstr "-s, --no-splash"
+
+#: src/concepts/intro.xml:266(para)
+msgid "Do not show the splash screen while starting."
+msgstr "N'affiche pas l'écran de démarrage."
+
+#: src/concepts/intro.xml:270(term)
+msgid "--no-shm"
+msgstr "--no-shm"
+
+#: src/concepts/intro.xml:272(para)
+msgid "Do not use shared memory between <acronym>GIMP</acronym> and plugins."
+msgstr ""
+"Ne pas utiliser de mémoire partagée entre<acronym>GIMP</acronym>et les "
+"greffons."
+
+#: src/concepts/intro.xml:277(term)
+msgid "--no-cpu-accel"
+msgstr "--no-cpu-accel"
+
+#: src/concepts/intro.xml:279(para)
+msgid ""
+"Do not use special CPU acceleration functions. Useful for finding or "
+"disabling buggy accelerated hardware or functions."
+msgstr ""
+"Ne pas utiliser les fonctions spéciales d'accélération du microprocesseur. "
+"Utile pour détecter et désactiver les fonctions ou matériels accélérés "
+"bogués."
+
+#: src/concepts/intro.xml:285(term)
+msgid "--session=<replaceable>name</replaceable>"
+msgstr "--session=<replaceable>name</replaceable>"
+
+#: src/concepts/intro.xml:287(para)
+msgid ""
+"Use a different <filename>sessionrc</filename> for this <acronym>GIMP</"
+"acronym> session. The given session name is appended to the default "
+"<filename>sessionrc</filename> filename."
+msgstr ""
+"Utilise un <filename>sessionrc</filename> différent pour cette session de "
+"<acronym>GIMP</acronym>. Le nom de session passé en paramètre est ajouté au "
+"nom du fichier sessionrc par défaut."
+
+#: src/concepts/intro.xml:296(term)
+msgid "--gimprc=<filename>filename</filename>"
+msgstr "--gimprc=<filename>filename</filename>"
+
+#: src/concepts/intro.xml:298(para)
+msgid ""
+"Use an alternative <filename>gimprc</filename> instead of the default one. "
+"The <filename>gimprc</filename> file contains a record of your preferences. "
+"Useful in cases where plugins paths or machine specs may be different."
+msgstr ""
+"Utilise un gimprc de remplacement à la place de celui par défaut. Le fichier "
+"<quote>gimprc</quote> contient l'enregistrement de vos préférences. Utile "
+"dans les cas où le chemin des greffons ou les spécifications de machine sont "
+"différents."
+
+#: src/concepts/intro.xml:307(term)
+msgid "--system-gimprc=<replaceable>filename</replaceable>"
+msgstr "--system-gimprc=<replaceable>filename</replaceable>"
+
+#: src/concepts/intro.xml:309(para)
+msgid "Use an alternate system gimprc file."
+msgstr "Utiliser un autre fichier système gimprc"
+
+#: src/concepts/intro.xml:313(term)
+msgid "-b, --batch=<replaceable>commands</replaceable>"
+msgstr "-b, --batch=<replaceable>commands</replaceable>"
+
+#: src/concepts/intro.xml:317(para)
+msgid ""
+"Execute the set of commands non-interactively. The set of commands is "
+"typically in the form of a script that can be executed by one of the "
+"<acronym>GIMP</acronym> scripting extensions. When the command is "
+"<userinput>-</userinput>, commands are read from standard input."
+msgstr ""
+"Exécute les commandes de manière non interactive. Les commandes sont "
+"généralement sous la forme d'un script qui peut être exécuté par l'une des "
+"extensions de script du <acronym>GIMP</acronym>. Quand la commande est "
+"<userinput>-</userinput>, les commandes sont lues sur l'entrée standard."
+
+#: src/concepts/intro.xml:327(term)
+msgid "--batch-interpreter=<replaceable>proc</replaceable>"
+msgstr "--batch-interpreter=<replaceable>proc</replaceable>"
+
+#: src/concepts/intro.xml:329(para)
+msgid ""
+"Specify the procedure to use to process batch commands. The default "
+"procedure is Script-Fu."
+msgstr ""
+"Procédure à utiliser pour élaborer les commandes batch. La procédure par "
+"défaut est Scrip-Fu."
+
+#: src/concepts/intro.xml:334(term)
+msgid "--console-messages"
+msgstr "--console-messages"
+
+#: src/concepts/intro.xml:336(para)
+msgid ""
+"Do not popup dialog boxes on errors or warnings. Print the messages on the "
+"console instead."
+msgstr ""
+"N'ouvre pas de boîte de dialogues pour les messages d'avertissements mais "
+"les affiche dans la fenêtre console à la place."
+
+#: src/concepts/intro.xml:343(term)
+msgid "--pdb-compat-mode=<replaceable>mode</replaceable>"
+msgstr "--pdb-compat-mode=<replaceable>mode</replaceable>"
+
+#: src/concepts/intro.xml:345(para)
+msgid "PDB compatibility mode (off|on|warn)."
+msgstr "Mode de compatibilité PDB (off|on|warn)."
+
+#: src/concepts/intro.xml:349(term)
+msgid "--stack-trace-mode=<replaceable>mode</replaceable>"
+msgstr "--stack-trace-mode=<replaceable>mode</replaceable>"
+
+#: src/concepts/intro.xml:351(para)
+msgid "Debug in case of a crash (never|query|always)."
+msgstr "Déboguer en cas de plantage (never|query|always)"
+
+#: src/concepts/intro.xml:355(term)
+msgid "--debug-handlers"
+msgstr "--debug-handlers"
+
+#: src/concepts/intro.xml:357(para)
+msgid ""
+"Enable non-fatal debugging signal handlers. Useful for <acronym>GIMP</"
+"acronym> debugging."
+msgstr ""
+"Active les routines de débogage des signaux non fatals. Utile pour le "
+"débogage."
+
+#: src/concepts/intro.xml:362(term)
+msgid "--g-fatal-warnings"
+msgstr "--g-fatal-warnings"
+
+#: src/concepts/intro.xml:364(para)
+msgid "Make all warnings fatal. Useful for debug."
+msgstr "Rendre fatals tous avertissements. Utile pour le débogage."
+
+#: src/concepts/intro.xml:368(term)
+msgid "--dump-gimprc"
+msgstr "--dump-gimprc"
+
+#: src/concepts/intro.xml:370(para)
+msgid ""
+"Output a gimprc file with default settings. Useful if you messed up the "
+"gimprc file."
+msgstr ""
+"Génère un fichier gimprc avec les valeurs par défaut. Utile si vous avez "
+"détérioré le fichier gimprc."
+
+#: src/concepts/intro.xml:375(term)
+msgid "--display=<replaceable>display</replaceable>"
+msgstr "--display=<replaceable>display</replaceable>"
+
+#: src/concepts/intro.xml:377(para)
+msgid "Use the designated X display (does not apply to all platforms)."
+msgstr ""
+"Utilise l'affichage spécifié du serveur X (ne fonctionne évidemment pas sous "
+"Windows)"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -4810,7 +5145,7 @@ msgstr " "
 
 #: src/concepts/patterns.xml:18(title) src/concepts/patterns.xml:21(primary)
 #: src/concepts/script-fu.xml:186(primary)
-#: src/concepts/script-fu.xml:197(para) src/concepts/script-fu.xml:214(term)
+#: src/concepts/script-fu.xml:197(para) src/concepts/script-fu.xml:211(term)
 msgid "Patterns"
 msgstr "Motifs"
 
@@ -5076,7 +5411,7 @@ msgstr ""
 "Vous pouvez accéder directement à ces scripts générateurs de motifs livrés "
 "avec <acronym>GIMP</acronym>.Vous les trouverez dans le menu de la boîte à "
 "outils sous <menuchoice><guimenu>Fichier</guimenu><guisubmenu>Créer</"
-"guisubmenu><guimenuitem>Motifs</guimenitem></menuchoice>. Chacun de ces "
+"guisubmenu><guimenuitem>Motifs</guimenuitem></menuchoice>. Chacun de ces "
 "scripts crée une nouvelle image remplie d'un type particulier de motif ; une "
 "fenêtre de dialogue vous permet de choisir les détails de l'apparence. "
 "Certains de ces filtres sont plus utiles pour le découpage et le collage, "
@@ -5442,521 +5777,6 @@ msgstr ""
 "<menuchoice><guimenu>Édition</guimenu><guimenuitem>Effacer</guimenuitem></"
 "menuchoice> qui donne une transparence complète et ne vous permet pas de "
 "bénéficier du réglage d'opacité que procure l'outil Remplissage."
-
-#: src/concepts/intro.xml:13(title) src/concepts/intro.xml:15(primary)
-msgid "Running GIMP"
-msgstr "Lancer GIMP"
-
-#: src/concepts/intro.xml:17(para)
-msgid ""
-"Most often, you start <acronym>GIMP</acronym> either by clicking on an icon "
-"(if your system is set up to provide you with one), or by typing "
-"<command>gimp</command> on a command line. If you have multiple versions of "
-"<acronym>GIMP</acronym> installed, you may need to type <command>gimp-2.6</"
-"command> to get the latest version. You can, if you want, give a list of "
-"image files on the command line after the program name, and they will "
-"automatically be opened by <acronym>GIMP</acronym> as it starts. It is also "
-"possible, though, to open files from within <acronym>GIMP</acronym> once it "
-"is running."
-msgstr ""
-"Le plus souvent vous lancez <acronym>GIMP</acronym> en cliquant sur une "
-"icône (si votre système est configuré pour vous en afficher une), ou en "
-"tapant <command>gimp</command> sur la ligne de commande. Si vous avez "
-"plusieurs versions de <acronym>GIMP</acronym> installées, vous devrez taper "
-"<emphasis>gimp-2.6</emphasis> pour lancer la dernière version. Vous pouvez, "
-"si vous le désirez, donner une liste de fichiers d'image dans la ligne de "
-"commande après le nom du programme, pour qu'ils soient automatiquement "
-"ouverts au démarrage de <acronym>GIMP</acronym>. On peut aussi, bien sûr, "
-"ouvrir des images une fois le programme démarré."
-
-#: src/concepts/intro.xml:30(para)
-msgid ""
-"Most operating systems support file associations, which associates a class "
-"of files (as determined by their filename extension, such as .jpg) with a "
-"corresponding application (such as <acronym>GIMP</acronym>). When image "
-"files are properly <quote>associated</quote> to <acronym>GIMP</acronym>, you "
-"can double click on an image to open it in <acronym>GIMP</acronym>."
-msgstr ""
-"La plupart des systèmes d'exploitation savent associer les extensions de "
-"noms de fichier (comme .jpg) à un logiciel particulier. Vous pouvez ainsi "
-"associer les fichiers d'image à <acronym>GIMP</acronym> qui les ouvrira "
-"quand vous cliquerez sur le nom de fichier."
-
-#: src/concepts/intro.xml:40(title)
-msgid "Known Platforms"
-msgstr "Plateformes connues"
-
-#: src/concepts/intro.xml:41(para)
-msgid ""
-"The <acronym>GIMP</acronym> is the most widely supported image manipulation "
-"available today. The platforms on which <acronym>GIMP</acronym> is known to "
-"work include:"
-msgstr ""
-"<acronym>GIMP</acronym> est probablement le programme de manipulation "
-"d'images le mieux accepté par les différents systèmes d'exploitation. "
-"Plateformes sur lesquelles <acronym>GIMP</acronym> a été vu fonctionner :"
-
-#: src/concepts/intro.xml:46(para)
-msgid ""
-"<productname><acronym>GNU</acronym>/Linux</productname>, <productname>Apple "
-"Mac OS X</productname>, <productname>Microsoft Windows</productname>, "
-"<productname>OpenBSD</productname>, <productname>NetBSD</productname>, "
-"<productname>FreeBSD</productname>, <productname>Solaris</productname>, "
-"<productname>SunOS</productname>, <productname>AIX</productname>, "
-"<productname>HP-UX</productname>, <productname>Tru64</productname>, "
-"<productname>Digital UNIX</productname>, <productname>OSF/1</productname>, "
-"<productname>IRIX</productname>, <productname>OS/2</productname>, and "
-"<productname>BeOS</productname>."
-msgstr ""
-"<productname><acronym>GNU</acronym>/Linux</productname>, <productname>Apple "
-"Mac OS X</productname>, <productname>Microsoft Windows</productname>, "
-"<productname>OpenBSD</productname>, <productname>NetBSD</productname>, "
-"<productname>FreeBSD</productname>, <productname>Solaris</productname>, "
-"<productname>SunOS</productname>, <productname>AIX</productname>, "
-"<productname>HP-UX</productname>, <productname>Tru64</productname>, "
-"<productname>Digital UNIX</productname>, <productname>OSF/1</productname>, "
-"<productname>IRIX</productname>, <productname>OS/2</productname>, and "
-"<productname>BeOS</productname>."
-
-#: src/concepts/intro.xml:59(para)
-msgid ""
-"The <acronym>GIMP</acronym> is easily ported to other operating systems "
-"because of its source code availability. For further information visit the "
-"<acronym>GIMP</acronym> developers homepage. <xref linkend=\"bibliography-"
-"online-gimp-dev\"/>."
-msgstr ""
-"<acronym>GIMP</acronym> peut aisément être porté sur d'autres systèmes grâce "
-"à la disponibilité de son code source. Pour plus d'informations visitez la "
-"page Web des développeurs du <acronym>GIMP</acronym>.<xref linkend="
-"\"bibliography-online-gimp-dev\"/>."
-
-#: src/concepts/intro.xml:68(title)
-msgid "Language"
-msgstr "Langue"
-
-#: src/concepts/intro.xml:70(primary)
-msgid "Languages"
-msgstr "Langues"
-
-#: src/concepts/intro.xml:72(para)
-msgid ""
-"<acronym>GIMP</acronym> automatically detects and uses the system language. "
-"In the unlikely event that language detection fails, or if you just want to "
-"use a different language, since <acronym>GIMP</acronym>-2.8, you can do so "
-"through: <menuchoice><guimenu>Edit</guimenu><guisubmenu>Preferences</"
-"guisubmenu><guimenuitem>Interface</guimenuitem></menuchoice>."
-msgstr ""
-"<acronym>GIMP</acronym> détecte automatiquement la langue de votre système "
-"d'exploitation. S'il échoue, ou si vous désirez changer la langue utilisée "
-"par <acronym>GIMP</acronym>, vous pouvez, depuis <acronym>GIMP</"
-"acronym>-2.8, passer par <menuchoice><guimenu>Édition</"
-"guimenu><guisubmenu>Préférences</guisubmenu><guimenuitem>Interface</"
-"guimenuitem></menuchoice>."
-
-#: src/concepts/intro.xml:84(para)
-msgid "You can also use:"
-msgstr "Vous pouvez aussi :"
-
-#: src/concepts/intro.xml:89(term)
-msgid "Under Linux"
-msgstr "Sous Linux"
-
-#: src/concepts/intro.xml:91(para)
-msgid ""
-"<emphasis>In LINUX</emphasis>: in console mode, type <userinput>LANGUAGE=en "
-"gimp</userinput> or <userinput>LANG=en gimp</userinput> replacing en by fr, "
-"de, ... according to the language you want. Background: Using "
-"<userinput>LANGUAGE=en</userinput> sets an environment variable for the "
-"executed program <userinput>gimp</userinput>."
-msgstr ""
-"<emphasis>Sous LINUX</emphasis> : en mode console, tapez "
-"<userinput>LANGUAGE=fr gimp</userinput> ou <userinput>LANG=fr gimp</"
-"userinput> en remplaçant fr par en, de, ... selon la langue choisie. En "
-"utilisant <userinput>LANGUAGE=en</userinput> vous choisissez une variable "
-"d'environnement pour le programme <userinput>gimp</userinput> dans ce cas."
-
-#: src/concepts/intro.xml:103(term)
-msgid "Under Windows XP"
-msgstr "Sous Windows XP"
-
-#: src/concepts/intro.xml:105(para)
-msgid ""
-"<menuchoice><guimenu>Control Panel</guimenu><guisubmenu>System</"
-"guisubmenu><guisubmenu>Advanced</guisubmenu><guimenuitem>Environment</"
-"guimenuitem></menuchoice> button in <quote>System Variables</quote> area: "
-"<guibutton>Add</guibutton> button: Enter LANG for Name and fr or de... for "
-"Value. Watch out! You have to click on three successive <guibutton>OK</"
-"guibutton> to validate your choice."
-msgstr ""
-"<guimenuitem>Poste de travail</guimenuitem>/<guimenuitem>Propriétés</"
-"guimenuitem>/ <guimenuitem>Onglet Avancé</guimenuitem>. Cliquez sur le "
-"Bouton <guibutton>Variables d'environnement</guibutton> puis sur le bouton "
-"<guibutton>Nouveau</guibutton> et entrez <userinput>\n"
-"              LANG</userinput> pour Nom et <userinput>FR, EN, DE ...</"
-"userinput> pour Valeur. Attention ! vous devez cliquer sur trois <quote>OK</"
-"quote> successifs pour valider votre choix."
-
-#: src/concepts/intro.xml:117(para)
-msgid ""
-"If you change languages often, you can create a batch file to change the "
-"language. Open NotePad. Type the following commands (for french for "
-"instance): <literallayout><userinput>set lang=fr\n"
-"            start gimp-2.6.exe</userinput></literallayout> Save this file as "
-"<filename>GIMP-FR.BAT</filename> (or another name, but always with a "
-"<filename class=\"extension\">.BAT</filename> extension). Create a shortcut "
-"and drag it to your desktop."
-msgstr ""
-"Si vous changez souvent de langue, vous pouvez créer un fichier de "
-"commandes .BAT. Ouvrez le Bloc-Note. Tapez les commandes (pour avoir "
-"<acronym>GIMP</acronym> en anglais) : <literallayout><userinput>set lang=en\n"
-"start gimp-2.6.exe</userinput></literallayout> Enregistrez ce fichier sous "
-"le nom GIMP-EN.BAT (ou tout autre nom mais toujours avec l'extension .BAT). "
-"Créez un raccourci pour ce fichier et faites-le glisser jusque sur votre "
-"bureau."
-
-#: src/concepts/intro.xml:129(para)
-msgid ""
-"Another possibility: <menuchoice><guimenu>Start</"
-"guimenu><guisubmenu>Programs</guisubmenu><guimenuitem>GTK Runtime "
-"Environment</guimenuitem></menuchoice> Then <guimenuitem>Select language</"
-"guimenuitem> and select the language you want in the drop-down list."
-msgstr ""
-"Autre possibilité : <menuchoice><guimenu>Démarrer</"
-"guimenu><guisubmenu>Programmes</guisubmenu><guimenuitem>GTK Runtime "
-"Environment</guimenuitem></menuchoice>. Choisissez <guimenuitem>Select "
-"language</guimenuitem> et sélectionnez la langue voulue dans la liste "
-"déroulante."
-
-#: src/concepts/intro.xml:142(term)
-msgid "Under Apple Mac OS X"
-msgstr "Under Apple Mac OS X"
-
-#: src/concepts/intro.xml:144(para)
-msgid ""
-"From System Preferences, click on the International icon. In the Language "
-"tab, the desired language should be the first in the list."
-msgstr ""
-"Allez dans les Préférences système, cliquez sur l'icône International et "
-"dans l'onglet Langue, la langue voulue doit être placée en premier dans la "
-"liste."
-
-#: src/concepts/intro.xml:152(term)
-msgid "Another GIMP instance"
-msgstr "Démarrer une nouvelle instance GIMP"
-
-#: src/concepts/intro.xml:155(primary)
-msgid "New instance"
-msgstr "New-instance"
-
-#: src/concepts/intro.xml:157(para)
-msgid ""
-"Use <userinput>-n</userinput> to run multiple instances of GIMP. For "
-"example, use <userinput>gimp-2.8</userinput> to start GIMP in the default "
-"system language, and <userinput>LANGUAGE=en gimp-2.8 -n</userinput> to start "
-"another instance of <acronym>GIMP</acronym> in English; this is very useful "
-"for translators."
-msgstr ""
-"Vous pouvez créer une autre instance de <acronym>GIMP</acronym>en lançant la "
-"commande avec l'option <userinput>-n</userinput>. Par exemple : "
-"<userinput>gimp-2.8</userinput> pour <acronym>GIMP</acronym> en français et "
-"<userinput>LANGUAGE=en gimp-2.8 -n</userinput> pour avoir aussi "
-"<acronym>GIMP</acronym> en anglais. C'est utile pour les traducteurs."
-
-#: src/concepts/intro.xml:171(title)
-msgid "Command Line Arguments"
-msgstr "Les arguments de la ligne de commande"
-
-#: src/concepts/intro.xml:173(primary)
-msgid "Command line Arguments"
-msgstr "Ligne de commande"
-
-#: src/concepts/intro.xml:175(para)
-msgid ""
-"Although arguments are not required when starting <acronym>GIMP</acronym>, "
-"the most common arguments are shown below. On a Unix system, you can use "
-"<userinput>man gimp</userinput>for a complete list."
-msgstr ""
-"Bien que les arguments ne soient pas nécessaires pour démarrer "
-"<acronym>GIMP</acronym>, ces arguments sont néanmoins décrits ci-dessous. "
-"Dans un système LINUX, vous pouvez utiliser <userinput>man gimp</userinput> "
-"pour en avoir une liste complète."
-
-#: src/concepts/intro.xml:181(para)
-msgid ""
-"Command line arguments must be in the command line that you use to start "
-"<acronym>GIMP</acronym> as <command>gimp-2.6 [OPTION...] [FILE|URI...]</"
-"command>."
-msgstr ""
-"Pour utiliser les options de la ligne de commande, vous devez les placer "
-"dans la ligne de commande que vous utilisez pour démarrer <acronym>GIMP</"
-"acronym>, par exemple <command>gimp-2.6 [OPTION...] [FICHIER|URI...]</"
-"command>."
-
-#: src/concepts/intro.xml:188(term)
-msgid "-?, --help"
-msgstr "-?, --help"
-
-#: src/concepts/intro.xml:190(para)
-msgid "Display a list of all commandline options."
-msgstr "Affiche la liste de toutes les options de la ligne de commande."
-
-#: src/concepts/intro.xml:194(term)
-msgid "--help-all"
-msgstr "--help-all"
-
-#: src/concepts/intro.xml:196(para)
-msgid "Show all help options."
-msgstr "Afficher toutes les options d'aide"
-
-#: src/concepts/intro.xml:200(term)
-msgid "--help-gtk"
-msgstr "--help-gtk"
-
-#: src/concepts/intro.xml:202(para)
-msgid "Show GTK+ Options."
-msgstr "Afficher les options GTK+"
-
-#: src/concepts/intro.xml:206(term)
-msgid "-v, --version"
-msgstr "-v, --version"
-
-#: src/concepts/intro.xml:208(para)
-msgid "Print the <acronym>GIMP</acronym> version and exit."
-msgstr "Affiche la version de <acronym>GIMP</acronym> utilisée et quitte."
-
-#: src/concepts/intro.xml:214(term)
-msgid "--license"
-msgstr "--license"
-
-#: src/concepts/intro.xml:216(para)
-msgid "Show license information and exit."
-msgstr "Afficher les informations sur la licence et sortir"
-
-#: src/concepts/intro.xml:220(term)
-msgid "--verbose"
-msgstr "--verbose"
-
-#: src/concepts/intro.xml:222(para)
-msgid "Show detailed start-up messages."
-msgstr "Affiche les messages de démarrage détaillés."
-
-#: src/concepts/intro.xml:226(term)
-msgid "-n, --new-instance"
-msgstr "-n, --new-instance"
-
-#: src/concepts/intro.xml:228(para)
-msgid "Start a new <acronym>GIMP</acronym> instance."
-msgstr "Démarrer une nouvelle instance <acronym>GIMP</acronym>"
-
-#: src/concepts/intro.xml:232(term)
-msgid "-a, --as-new"
-msgstr "-a, --as-new"
-
-#: src/concepts/intro.xml:234(para)
-msgid "Open images as new."
-msgstr "Ouvrir les images en tant que nouvelles"
-
-#: src/concepts/intro.xml:238(term)
-msgid "-i, --no-interface"
-msgstr "-i, --no-interface"
-
-#: src/concepts/intro.xml:240(para)
-msgid "Run without a user interface."
-msgstr "Lancer sans interface utilisateur"
-
-#: src/concepts/intro.xml:244(term)
-msgid "-d, --no-data"
-msgstr "-d, --no-data"
-
-#: src/concepts/intro.xml:246(para)
-msgid ""
-"Do not load patterns, gradients, palettes, or brushes. Often useful in non-"
-"interactive situations where start-up time is to be minimized."
-msgstr ""
-"Ne charge ni motifs, ni dégradés, ni palettes, ni brosses. Souvent utile "
-"dans les situations non interactives quand le temps de démarrage doit être "
-"optimisé."
-
-#: src/concepts/intro.xml:254(term)
-msgid "-f, --no-fonts"
-msgstr "-f, --no-fonts"
-
-#: src/concepts/intro.xml:256(para)
-msgid ""
-"Do not load any fonts. This is useful to load <acronym>GIMP</acronym> faster "
-"for scripts that do not use fonts, or to find problems related to malformed "
-"fonts that hang <acronym>GIMP</acronym>."
-msgstr ""
-"Ne charge aucune police de caractères. Cette option peut être utile pour "
-"accélérer le démarrage de <acronym>GIMP</acronym>, pour les scripts qui "
-"n'utilisent pas de police, ou pour résoudre les problèmes de police "
-"malformée qui peuvent bloquer GIMP."
-
-#: src/concepts/intro.xml:264(term)
-msgid "-s, --no-splash"
-msgstr "-s, --no-splash"
-
-#: src/concepts/intro.xml:266(para)
-msgid "Do not show the splash screen while starting."
-msgstr "N'affiche pas l'écran de démarrage."
-
-#: src/concepts/intro.xml:270(term)
-msgid "--no-shm"
-msgstr "--no-shm"
-
-#: src/concepts/intro.xml:272(para)
-msgid "Do not use shared memory between <acronym>GIMP</acronym> and plugins."
-msgstr ""
-"Ne pas utiliser de mémoire partagée entre<acronym>GIMP</acronym>et les "
-"greffons."
-
-#: src/concepts/intro.xml:277(term)
-msgid "--no-cpu-accel"
-msgstr "--no-cpu-accel"
-
-#: src/concepts/intro.xml:279(para)
-msgid ""
-"Do not use special CPU acceleration functions. Useful for finding or "
-"disabling buggy accelerated hardware or functions."
-msgstr ""
-"Ne pas utiliser les fonctions spéciales d'accélération du microprocesseur. "
-"Utile pour détecter et désactiver les fonctions ou matériels accélérés "
-"bogués."
-
-#: src/concepts/intro.xml:285(term)
-msgid "--session=<replaceable>name</replaceable>"
-msgstr "--session=<replaceable>name</replaceable>"
-
-#: src/concepts/intro.xml:287(para)
-msgid ""
-"Use a different <filename>sessionrc</filename> for this <acronym>GIMP</"
-"acronym> session. The given session name is appended to the default "
-"<filename>sessionrc</filename> filename."
-msgstr ""
-"Utilise un <filename>sessionrc</filename> différent pour cette session de "
-"<acronym>GIMP</acronym>. Le nom de session passé en paramètre est ajouté au "
-"nom du fichier sessionrc par défaut."
-
-#: src/concepts/intro.xml:296(term)
-msgid "--gimprc=<filename>filename</filename>"
-msgstr "--gimprc=<filename>filename</filename>"
-
-#: src/concepts/intro.xml:298(para)
-msgid ""
-"Use an alternative <filename>gimprc</filename> instead of the default one. "
-"The <filename>gimprc</filename> file contains a record of your preferences. "
-"Useful in cases where plugins paths or machine specs may be different."
-msgstr ""
-"Utilise un gimprc de remplacement à la place de celui par défaut. Le fichier "
-"<quote>gimprc</quote> contient l'enregistrement de vos préférences. Utile "
-"dans les cas où le chemin des greffons ou les spécifications de machine sont "
-"différents."
-
-#: src/concepts/intro.xml:307(term)
-msgid "--system-gimprc=<replaceable>filename</replaceable>"
-msgstr "--system-gimprc=<replaceable>filename</replaceable>"
-
-#: src/concepts/intro.xml:309(para)
-msgid "Use an alternate system gimprc file."
-msgstr "Utiliser un autre fichier système gimprc"
-
-#: src/concepts/intro.xml:313(term)
-msgid "-b, --batch=<replaceable>commands</replaceable>"
-msgstr "-b, --batch=<replaceable>commands</replaceable>"
-
-#: src/concepts/intro.xml:317(para)
-msgid ""
-"Execute the set of commands non-interactively. The set of commands is "
-"typically in the form of a script that can be executed by one of the "
-"<acronym>GIMP</acronym> scripting extensions. When the command is "
-"<userinput>-</userinput>, commands are read from standard input."
-msgstr ""
-"Exécute les commandes de manière non interactive. Les commandes sont "
-"généralement sous la forme d'un script qui peut être exécuté par l'une des "
-"extensions de script du <acronym>GIMP</acronym>. Quand la commande est "
-"<userinput>-</userinput>, les commandes sont lues sur l'entrée standard."
-
-#: src/concepts/intro.xml:327(term)
-msgid "--batch-interpreter=<replaceable>proc</replaceable>"
-msgstr "--batch-interpreter=<replaceable>proc</replaceable>"
-
-#: src/concepts/intro.xml:329(para)
-msgid ""
-"Specify the procedure to use to process batch commands. The default "
-"procedure is Script-Fu."
-msgstr ""
-"Procédure à utiliser pour élaborer les commandes batch. La procédure par "
-"défaut est Scrip-Fu."
-
-#: src/concepts/intro.xml:334(term)
-msgid "--console-messages"
-msgstr "--console-messages"
-
-#: src/concepts/intro.xml:336(para)
-msgid ""
-"Do not popup dialog boxes on errors or warnings. Print the messages on the "
-"console instead."
-msgstr ""
-"N'ouvre pas de boîte de dialogues pour les messages d'avertissements mais "
-"les affiche dans la fenêtre console à la place."
-
-#: src/concepts/intro.xml:343(term)
-msgid "--pdb-compat-mode=<replaceable>mode</replaceable>"
-msgstr "--pdb-compat-mode=<replaceable>mode</replaceable>"
-
-#: src/concepts/intro.xml:345(para)
-msgid "PDB compatibility mode (off|on|warn)."
-msgstr "Mode de compatibilité PDB (off|on|warn)."
-
-#: src/concepts/intro.xml:349(term)
-msgid "--stack-trace-mode=<replaceable>mode</replaceable>"
-msgstr "--stack-trace-mode=<replaceable>mode</replaceable>"
-
-#: src/concepts/intro.xml:351(para)
-msgid "Debug in case of a crash (never|query|always)."
-msgstr "Déboguer en cas de plantage (never|query|always)"
-
-#: src/concepts/intro.xml:355(term)
-msgid "--debug-handlers"
-msgstr "--debug-handlers"
-
-#: src/concepts/intro.xml:357(para)
-msgid ""
-"Enable non-fatal debugging signal handlers. Useful for <acronym>GIMP</"
-"acronym> debugging."
-msgstr ""
-"Active les routines de débogage des signaux non fatals. Utile pour le "
-"débogage."
-
-#: src/concepts/intro.xml:362(term)
-msgid "--g-fatal-warnings"
-msgstr "--g-fatal-warnings"
-
-#: src/concepts/intro.xml:364(para)
-msgid "Make all warnings fatal. Useful for debug."
-msgstr "Rendre fatals tous avertissements. Utile pour le débogage."
-
-#: src/concepts/intro.xml:368(term)
-msgid "--dump-gimprc"
-msgstr "--dump-gimprc"
-
-#: src/concepts/intro.xml:370(para)
-msgid ""
-"Output a gimprc file with default settings. Useful if you messed up the "
-"gimprc file."
-msgstr ""
-"Génère un fichier gimprc avec les valeurs par défaut. Utile si vous avez "
-"détérioré le fichier gimprc."
-
-#: src/concepts/intro.xml:375(term)
-msgid "--display=<replaceable>display</replaceable>"
-msgstr "--display=<replaceable>display</replaceable>"
-
-#: src/concepts/intro.xml:377(para)
-msgid "Use the designated X display (does not apply to all platforms)."
-msgstr ""
-"Utilise l'affichage spécifié du serveur X (ne fonctionne évidemment pas sous "
-"Windows)"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -6649,7 +6469,7 @@ msgid ""
 "<acronym>GIMP</acronym> you can have reliable output for both Web and print."
 msgstr ""
 "Les nombreux dispositifs utilisés pour des productions de dessins ou de "
-"photos, comme le appareils photos numériques, les scanners, les écrans, les "
+"photos, comme le appareils photos numériques, les scanneurs, les écrans, les "
 "imprimantes etc..., ont leurs caractéristiques propres de reproduction de la "
 "couleur. S'il n'en est pas tenu compte lors de l'ouverture, de l'édition et "
 "de l'enregistrement, des modifications néfastes pourront être appliquées aux "
@@ -6688,7 +6508,7 @@ msgid ""
 msgstr ""
 "Les différences de couleurs peuvent être causées par les caractéristiques "
 "des différents appareils tels que les appareils photo numériques, les "
-"scanners, les écrans ou les imprimantes."
+"scanneurs, les écrans ou les imprimantes."
 
 #: src/concepts/color-management.xml:64(para)
 msgid ""
@@ -6735,7 +6555,7 @@ msgid ""
 msgstr ""
 "La création de profils colorimétriques est le plus souvent de la "
 "responsabilité du fabricant de l'appareil. Pour que ces profils soient "
-"utilisables indépendemment de la plate-forme et du système de gestion "
+"utilisables indépendamment de la plate-forme et du système de gestion "
 "utilisé, l'ICC (International Color Consortium) a créé un standard appelé "
 "ICC-profil décrivant comment les profils colorimétriques sont agencés dans "
 "les fichiers et utilisés dans les images."
@@ -6765,8 +6585,8 @@ msgid ""
 "they also attach to the scanned images."
 msgstr ""
 "La plupart des appareils numériques inscrivent un profil colorimétrique dans "
-"chaque fichier de photo sans intervention de l'utilisateur. Les scanners eux "
-"aussi inscrivent leur profil colorimétrique dans les images scannées."
+"chaque fichier de photo sans intervention de l'utilisateur. Les scanneurs "
+"eux aussi inscrivent leur profil colorimétrique dans les images scannées."
 
 #: src/concepts/color-management.xml:110(title)
 msgid "Applying the ICC-profile"
@@ -7003,7 +6823,7 @@ msgid ""
 "improve system performance."
 msgstr ""
 "Vous pouvez ouvrir plusieurs images en même temps dans <acronym>GIMP</"
-"acronym>. Si elles sont grandes, chacune utilisera plusieurs megabytes de "
+"acronym>. Si elles sont grandes, chacune utilisera plusieurs mégaoctets de "
 "mémoire, mais <acronym>GIMP</acronym>utilise un procédé de gestion de la "
 "mémoire perfectionné basé sur un découpage en morceaux qui lui permet de "
 "manipuler les très grosses images facilement. Il y a tout de même des "
@@ -7126,7 +6946,7 @@ msgid ""
 "Blue. If they do, <acronym>GIMP</acronym>'s channels are converted into the "
 "appropriate ones for the device when the image is displayed."
 msgstr ""
-" Ces canaux de couleur sont recombinés avant d'être envoyés sur le "
+" Ces canaux de couleur sont re-combinés avant d'être envoyés sur le "
 "périphérique de sortie (la plupart du temps l'écran). Les canaux employés "
 "pour l'affichage écran sont le rouge, le vert et le bleu. D'autres "
 "périphériques de sortie peuvent utiliser des canaux différents. Si c'est le "
@@ -7198,9 +7018,9 @@ msgstr ""
 "GIMP sont très graduées et ne sont pas du tout-ou-rien. La sélection est en "
 "fait représentée par un canal de teinte de gris irréguliers. La ligne "
 "pointillée que vous voyez est un contour moyen du niveau sélectionné. Vous "
-"pouvez visualiser le canal de sélection dans ses moindres détails en (Dés)"
-"activant le <link linkend=\"gimp-image-window-qmask-button\">Masque rapide</"
-"link>."
+"pouvez visualiser le canal de sélection dans ses moindres détails en "
+"(Dés)activant le <link linkend=\"gimp-image-window-qmask-button\">Masque "
+"rapide</link>."
 
 #: src/concepts/concepts.xml:209(para)
 msgid ""
@@ -7574,6 +7394,181 @@ msgstr ""
 "garantie ne peut être assurée pour ceux d'autre origine. Le risque est alors "
 "une altération de l'Historique d'annulation. C'est également le cas si vous "
 "interrompez un greffon en cours."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/concepts/qmask.xml:26(None)
+msgid ""
+"@@image: 'images/dialogs/channel-quickmask.png'; "
+"md5=339a3364ffa87f2e59a161718089e00e"
+msgstr " "
+
+#: src/concepts/qmask.xml:15(title)
+msgid "The QuickMask"
+msgstr "Le Masque rapide"
+
+#: src/concepts/qmask.xml:18(primary)
+msgid "QuickMask"
+msgstr "Masque rapide"
+
+#: src/concepts/qmask.xml:22(title)
+msgid "Image with QuickMask enabled"
+msgstr "Image avec Masque Rapide"
+
+#: src/concepts/qmask.xml:30(para)
+msgid ""
+"The usual <link linkend=\"gimp-tools-selection\">selection tools</link> "
+"involve tracing an outline around an area of interest, which does not work "
+"well for some complex selections. The QuickMask, however, allows you to "
+"paint a selection instead of just tracing its outline."
+msgstr ""
+"Les <link linkend=\"gimp-tools-selection\">outils de sélection</link> "
+"montrent parfois leurs limites lorsqu'il s'agit de créer des sélections aux "
+"contours complexes, voir progressifs. Dans ce cas l'utilisation du Masque "
+"rapide s'avère particulièrement efficace. En gros, il permet de peindre une "
+"sélection au lieu d'en tracer le contour."
+
+#: src/concepts/qmask.xml:39(para)
+msgid ""
+"Normally, a selection in <acronym>GIMP</acronym> is represented by "
+"<quote>marching ants</quote> that trace the selection outline, but there may "
+"be more to a selection than the marching ants show. A <acronym>GIMP</"
+"acronym> selection is actually a full-fledged grayscale channel, covering "
+"the image, with pixel values ranging from 0 (unselected) to 255 (fully "
+"selected). The marching ants are drawn along a contour of half-selected "
+"pixels. Thus, what the marching ants show you as either inside or outside "
+"the boundary is really just a slice through a continuum."
+msgstr ""
+"Normalement, quand vous créez une sélection, vous la voyez entourée de "
+"pointillés mobiles. En fait, ces pointillés ne représentent pas exactement "
+"le contour de la sélection. Dans <acronym>GIMP</acronym>, une sélection est "
+"en réalité un canal en niveaux de gris de la taille de l'image. Chaque pixel "
+"y est représenté par une valeur entre 0 (non sélectionné) et 255 "
+"(complètement sélectionné). Les pointillés mobiles sont tracés mi-chemin "
+"entre les pixels non sélectionnés et les pixels sélectionnés."
+
+#: src/concepts/qmask.xml:50(para)
+msgid ""
+"The QuickMask is <acronym>GIMP</acronym>'s way of showing the full structure "
+"of the selection. QuickMask also provides the ability to interact with the "
+"selection in new, and substantially more powerful, ways. Click the small "
+"outlined button at the lower left of the image window to toggle QuickMask on "
+"and off. The button switches between QuickMask mode, and marching ants mode. "
+"You can also use <menuchoice><guimenu>Select</guimenu><guimenuitem>Toggle "
+"QuickMask</guimenuitem></menuchoice>, or <keycombo><keycap>Shift</"
+"keycap><keycap>Q</keycap></keycombo>, to toggle between QuickMask and "
+"marching ants mode."
+msgstr ""
+"Le Masque rapide est une façon pour <acronym>GIMP</acronym> de vous montrer "
+"la véritable structure de la sélection. Il vous donne aussi la possibilité "
+"d'agir sur la sélection. Pour activer le Masque rapide, cliquez sur le "
+"bouton en bas à gauche de la fenêtre d'image, entouré de rouge. Ce bouton "
+"est une bascule et en cliquant dessus, vous revenez aux pointillés mobiles "
+"de la sélection. Vous pouvez aussi l'activer en sélectionnant dans le menu "
+"d'image <menuchoice><guimenu>Sélection</guimenu><guimenuitem>(Dés)activer le "
+"masque rapide</guimenuitem></menuchoice>, ou en utilisant le raccourci-"
+"clavier <keycombo><keycap>Maj</keycap><keycap>Q</keycap></keycombo>."
+
+#: src/concepts/qmask.xml:66(para)
+msgid ""
+"In QuickMask mode, the selection is shown as a translucent screen overlying "
+"the image, whose transparency at each pixel indicates the degree to which "
+"that pixel is selected. By default the mask is shown in red, but you can "
+"change this if another mask color is more convenient. The less a pixel is "
+"selected, the more it is obscured by the mask. Fully selected pixels are "
+"shown completely clear."
+msgstr ""
+"L'activation du Masque rapide le fait apparaître comme un voile transparent, "
+"de couleur rouge par défaut, où le degré de transparence représente le degré "
+"de sélection des pixels. Moins un pixel est sélectionné, et plus il est "
+"obscurci par le masque. Plus il est sélectionné et plus le masque est "
+"transparent."
+
+#: src/concepts/qmask.xml:74(para)
+msgid ""
+"In QuickMask mode, many image manipulations act on the selection channel "
+"rather than the image itself. This includes, in particular, paint tools. "
+"Painting with white selects pixels, and painting with black unselects "
+"pixels. You can use any of the paint tools, as well as the bucket fill and "
+"gradient fill tools, in this way. Advanced users of <acronym>GIMP</acronym> "
+"learn that <quote>painting the selection</quote> is the easiest and most "
+"effective way to delicately manipulate the image."
+msgstr ""
+"Quand le Masque rapide est activé, la plupart des opérations agissent sur le "
+"canal de sélection au lieu d'agir sur l'image elle-même. Vous pouvez "
+"utiliser les outils de peinture. Si vous peignez avec du blanc, les pixels "
+"peints seront sélectionnés ; avec du noir, ils seront dé-sélectionnés. Vous "
+"pouvez aussi utiliser l'outil de remplissage (le Pot de Peinture) et l'outil "
+"de dégradé. <quote>Peindre la sélection</quote> est la façon la plus simple "
+"et la plus efficace pour manipuler délicatement une sélection."
+
+#: src/concepts/qmask.xml:86(para)
+msgid ""
+"To save a QuickMask selection to a new channel; Make sure that there is a "
+"selection and that QuickMask mode is not active in the image window. Use "
+"<menuchoice><guimenu>Select</guimenu><guimenuitem>Save to Channel</"
+"guimenuitem></menuchoice>. to create a new channel in the channel dialog "
+"called <quote>SelectionMask copy</quote> (repeating this command creates "
+"<quote>..copy#1</quote>, <quote>...copy#2</quote> and so on...)."
+msgstr ""
+"Pour sauvegarder dans un canal la sélection créée avec le Masque rapide, "
+"assurez-vous qu'une sélection existe et que le Masque rapide n'est pas actif "
+"dans la fenêtre d'image. Choisissez <menuchoice><guimenu>Sélection</"
+"guimenu><guimenuitem>Enregistrer dans un canal</guimenuitem></menuchoice> "
+"dans le menu d'image. Cela créera un nouveau canal appelé Selection Mask 1 "
+"dans la fenêtre de dialogue des canaux."
+
+#: src/concepts/qmask.xml:101(para)
+msgid ""
+"In QuickMask mode, Cut and Paste act on the selection rather than the image. "
+"You can sometimes make use of this as the most convenient way of "
+"transferring a selection from one image to another."
+msgstr ""
+"Quand le Masque rapide est actif, le Copier-Coller agit sur la sélection au "
+"lieu de l'image entière. Ce peut-être un moyen pratique de transférer une "
+"sélection d'une image dans une autre."
+
+#: src/concepts/qmask.xml:107(para)
+msgid ""
+"You can learn more on <link linkend=\"gimp-channel-mask\">Selection masks</"
+"link> in the section dedicated to the channel dialog."
+msgstr ""
+"Vous pourrez en apprendre bien plus sur les <link linkend=\"gimp-channel-mask"
+"\">Masques de sélection</link> dans la section dédiée au dialogue des canaux."
+
+#: src/concepts/qmask.xml:115(title)
+msgid "Properties"
+msgstr "Propriétés"
+
+#: src/concepts/qmask.xml:116(para)
+msgid ""
+"There are two QuickMask properties you can change by right-clicking on the "
+"QuickMask button."
+msgstr ""
+"Il y a deux propriétés du masque rapide qui sont accessibles et modifiables "
+"via un clic droit sur le bouton du masque rapide."
+
+#: src/concepts/qmask.xml:122(para)
+msgid ""
+"Normally the QuickMask shows unselected areas <quote>fogged over </quote> "
+"and selected areas <quote>in clear</quote>, but you can reverse this by "
+"choosing <quote>Mask Selected Areas</quote> instead of the default "
+"<quote>Mask Unselected Areas</quote>."
+msgstr ""
+"En utilisation normale le masque assombrit les régions non sélectionnées "
+"mais il est possible d'inverser ce comportement en choisissant "
+"<guilabel>Masquer les régions sélectionnées</guilabel> au lieu de "
+"<guilabel>Masquer les régions non sélectionnées</guilabel>."
+
+#: src/concepts/qmask.xml:130(para)
+msgid ""
+"Use <quote>Configure Color and Opacity</quote> to open a dialog that allows "
+"you to set these to values other than the defaults, which are red at 50% "
+"opacity."
+msgstr ""
+"<guilabel>Configurer la couleur et l'opacité</guilabel> ouvre un dialogue "
+"qui permet de modifier l'assombrissement qui permet de visualiser le masque "
+"(rouge à 50% d'opacité par défaut)."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -8654,9 +8649,9 @@ msgid ""
 "We added a white layer <emphasis>out</emphasis> of the layer group with "
 "saturation mode: all layers underneath are grayed out, background layer also."
 msgstr ""
-"Nous avons ajouté un calque blanc <emphasis> au dessus du groupe de calque "
-"avec un mode Saturation : tous les calques en-dessous sont en grisé, y "
-"compris le calque d'arrière-plan."
+"Nous avons ajouté un calque blanc <emphasis>au dessus</emphasis> du groupe "
+"de calque avec un mode Saturation : tous les calques en-dessous sont en "
+"grisé, y compris le calque d'arrière-plan."
 
 #: src/concepts/layer-groups.xml:229(para)
 msgid ""
@@ -8673,12 +8668,13 @@ msgstr "Masque de calque"
 #: src/concepts/layer-groups.xml:239(para)
 msgid ""
 "You cannot add a layer mask to a layer group (the corresponding option is "
-"grayed out. But, as with normal layers, you can add a layer mask to a layer "
+"grayed out). But, as with normal layers, you can add a layer mask to a layer "
 "in the group to mask a part of the layer."
 msgstr ""
 "Vous ne pouvez pas ajouter un masque de calque au groupe lui-même (l'option "
-"correspondante est en grisé), mais vous pouvez l'appliquer à chacun des "
-"calques du groupe."
+"correspondante est en grisé), mais, comme pour les calques normaux, vous "
+"pouvez ajouter un masque de calque à un calque dans le groupe pour masquer "
+"une partie du calque."
 
 #: src/concepts/layer-groups.xml:250(para)
 msgid "We added a white (Full opacity) layer mask to the triangle layer."
@@ -9005,7 +9001,7 @@ msgstr ""
 msgid ""
 "Paint tools, which are normally in Toolbox, have a preset system that have "
 "been much improved with <acronym>GIMP</acronym>-2.8. Color tools (except "
-"Posterize and Desaturate), which are not normally in Toolbox, have there own "
+"Posterize and Desaturate), which are not normally in Toolbox, have their own "
 "preset system."
 msgstr ""
 "Les outils de peinture, qui normalement sont dans la Boîte à outils,ont un "
@@ -9027,14 +9023,14 @@ msgstr ""
 msgid ""
 "Paint tool presets are described in <xref linkend=\"gimp-presets-dialog\"/>."
 msgstr ""
-"Les préréglges des outils de peinture sont décrits dans <xref linkend=\"gimp-"
-"presets-dialog\"/>."
+"Les préréglages des outils de peinture sont décrits dans <xref linkend="
+"\"gimp-presets-dialog\"/>."
 
 #: src/concepts/tools-presets.xml:42(para)
 msgid ""
 "Color tool presets are described in <xref linkend=\"color-tool-presets\"/>."
 msgstr ""
-"Les préréglages des outils de peinture sont décrits dans <xref linkend="
+"Les préréglages des outils de couleur sont décrits dans <xref linkend="
 "\"color-tool-presets\"/>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -9120,8 +9116,8 @@ msgstr "Utiliser les Script-Fu"
 #: src/concepts/script-fu.xml:18(primary)
 #: src/concepts/script-fu.xml:69(primary)
 #: src/concepts/script-fu.xml:182(primary)
-#: src/concepts/script-fu.xml:296(primary)
-#: src/concepts/script-fu.xml:349(primary)
+#: src/concepts/script-fu.xml:286(primary)
+#: src/concepts/script-fu.xml:339(primary)
 msgid "Script-Fu"
 msgstr "Script-fu"
 
@@ -9328,8 +9324,8 @@ msgid "Standalone"
 msgstr "Autonome"
 
 #: src/concepts/script-fu.xml:187(secondary)
-#: src/concepts/script-fu.xml:301(secondary)
-#: src/concepts/script-fu.xml:354(secondary)
+#: src/concepts/script-fu.xml:291(secondary)
+#: src/concepts/script-fu.xml:344(secondary)
 msgid "Script-Fu-generated"
 msgstr "Script-fu : création"
 
@@ -9347,7 +9343,7 @@ msgstr ""
 msgid "Web page themes"
 msgstr "Thèmes de page Web"
 
-#: src/concepts/script-fu.xml:203(para) src/concepts/script-fu.xml:293(term)
+#: src/concepts/script-fu.xml:203(para) src/concepts/script-fu.xml:283(term)
 msgid "Logos"
 msgstr "Logos"
 
@@ -9355,18 +9351,14 @@ msgstr "Logos"
 msgid "Buttons"
 msgstr "Boutons"
 
-#: src/concepts/script-fu.xml:209(para) src/concepts/script-fu.xml:367(term)
-msgid "Misc."
-msgstr "Divers"
-
-#: src/concepts/script-fu.xml:216(para)
+#: src/concepts/script-fu.xml:213(para)
 msgid ""
 "You will find all kinds of pattern-generating scripts here. Generally, they "
 "are quite useful because you can add many arguments to your own patterns."
 msgstr ""
 "Vous trouverez là toutes sortes de scripts générateurs de motifs.<<<<<<<"
 
-#: src/concepts/script-fu.xml:221(para)
+#: src/concepts/script-fu.xml:218(para)
 msgid ""
 "We'll take a look at the Land script. In this script you have to set the "
 "image/pattern size, and specify what levels of random to use for your land "
@@ -9376,19 +9368,20 @@ msgid ""
 "Scale refers to the scale of your map, just as in an ordinary road map, 1:10 "
 "will be typed as 10."
 msgstr ""
-"We'll take a look at the Land script. In this script you have to set the "
-"image/pattern size, and specify what levels of random to use for your land "
-"creation. The colors used to generate the land map are taken from the "
-"currently selected gradient in the gradient editor. You must also supply "
-"values for the level of detail, land and sea height/depth and the scale. "
-"Scale refers to the scale of your map, just as in an ordinary road map, 1:10 "
-"will be typed as 10."
+"Nous allons jeter un œil au script Land. Dans ce script, vous devez régler "
+"la taille de l'image ou du motif, et définir les niveaux de hasard à "
+"utiliser dans votre création de pays. Les couleurs utilisées pour générer la "
+"carte des pays sont prélevées depuis le dégradé actif dans l'éditeur de "
+"dégradé. Vous devez aussi fournir les valeurs de niveaux de détail, hauteur "
+"et largeur des terres et de la mer ainsi que l'échelle. L'échelle est celle "
+"de votre carte, comme dans une carte routière ordinaire, 1/10 sera saisi "
+"comme 10."
 
-#: src/concepts/script-fu.xml:234(term)
+#: src/concepts/script-fu.xml:231(term)
 msgid "Web Page Themes"
 msgstr "Thèmes de pages Web"
 
-#: src/concepts/script-fu.xml:236(para)
+#: src/concepts/script-fu.xml:233(para)
 msgid ""
 "Here is clearly a practical use for scripts. By creating a script for making "
 "custom text, logos, buttons arrows, etc., for your web site, you will give "
@@ -9401,49 +9394,39 @@ msgstr ""
 "économiserez beaucoup de temps puisque vous n'aurez pas à les créer à la "
 "main."
 
-#: src/concepts/script-fu.xml:243(para)
-msgid ""
-"You will find the <acronym>GIMP</acronym>.org theme under the Web page theme "
-"submenu. If you want to create your own theme, this script will serve as an "
-"excellent template that you can modify to create a theme for your web site."
-msgstr ""
-"Vous trouverez le thème <acronym>GIMP</acronym>.org dans le sous-menu pages "
-"Web. Ce script vous servira de modèle que vous pourrez modifier pour créer "
-"votre propre thème."
-
-#: src/concepts/script-fu.xml:250(para)
+#: src/concepts/script-fu.xml:240(para)
 msgid ""
 "Most of the scripts are quite self-explanatory, but here are some hints:"
 msgstr ""
 "La plupart des scripts n'ont pas besoin d'explication. Voici néanmoins "
 "quelques conseils :"
 
-#: src/concepts/script-fu.xml:256(para)
+#: src/concepts/script-fu.xml:246(para)
 msgid "Leave all strange characters like ' and \" intact."
 msgstr "Laissez intacts les caractères étranges comme ' et \"."
 
-#: src/concepts/script-fu.xml:261(para)
+#: src/concepts/script-fu.xml:251(para)
 msgid "Make sure that the pattern specified in the script exists."
 msgstr "Assurez-vous que le motif spécifié dans le script existe."
 
-#: src/concepts/script-fu.xml:266(para)
+#: src/concepts/script-fu.xml:256(para)
 msgid "Padding refers to the amount of space around your text."
 msgstr ""
 "Remplissage (padding) se réfère à l'importance de l'espace vide autour de "
 "votre texte."
 
-#: src/concepts/script-fu.xml:271(para)
+#: src/concepts/script-fu.xml:261(para)
 msgid "A high value for bevel width gives the illusion of a higher button."
 msgstr ""
 "Une forte valeur de biseau (bevel) donne l'illusion d'un bouton plus haut."
 
-#: src/concepts/script-fu.xml:277(para)
+#: src/concepts/script-fu.xml:267(para)
 msgid "If you type TRUE for \"Press\", the button will look pushed down."
 msgstr ""
 "Si vous donnez la valeur TRUE (Vrai) à <quote>Press</quote>, le bouton "
 "semblera enfoncé."
 
-#: src/concepts/script-fu.xml:283(para)
+#: src/concepts/script-fu.xml:273(para)
 msgid ""
 "Choose transparency if you don't want a solid background. If you choose a "
 "solid background, make sure it is the same color as the web page background."
@@ -9452,12 +9435,12 @@ msgstr ""
 "vous choisissez un fond plein, veillez à ce qu'il soit de la même couleur "
 "que le fond de votre page Web."
 
-#: src/concepts/script-fu.xml:297(secondary)
-#: src/concepts/script-fu.xml:300(primary)
+#: src/concepts/script-fu.xml:287(secondary)
+#: src/concepts/script-fu.xml:290(primary)
 msgid "Logo"
 msgstr "Logo"
 
-#: src/concepts/script-fu.xml:303(para)
+#: src/concepts/script-fu.xml:293(para)
 msgid ""
 "Here you will find all kinds of logo-generating scripts. This is nice, but "
 "use it with care, as people might recognize your logo as being made by a "
@@ -9471,18 +9454,18 @@ msgstr ""
 "quelque chose d'original. La boîte de dialogue est à peu près la même dans "
 "tous ces scripts :"
 
-#: src/concepts/script-fu.xml:313(para)
+#: src/concepts/script-fu.xml:303(para)
 msgid "In the Text String field, type your logo name, like Frozenriver."
 msgstr ""
 "Dans le champ Chaîne de texte (Text String), tapez le nom de votre logo."
 
-#: src/concepts/script-fu.xml:319(para)
+#: src/concepts/script-fu.xml:309(para)
 msgid "In the Font Size text field, type the size of your logo in pixels."
 msgstr ""
 "Dans le champ taille de police (Font Size), tapez la taille de votre logo en "
 "pixels."
 
-#: src/concepts/script-fu.xml:325(para)
+#: src/concepts/script-fu.xml:315(para)
 msgid ""
 "In the Font text field, type the name of the font that you want to use for "
 "your logo."
@@ -9490,7 +9473,7 @@ msgstr ""
 "Dans le champ Police (Font), tapez le nom de la police que vous voulez "
 "utiliser."
 
-#: src/concepts/script-fu.xml:331(para)
+#: src/concepts/script-fu.xml:321(para)
 msgid ""
 "To choose the color of your logo, just click on the color button. This "
 "brings up a color dialog."
@@ -9498,22 +9481,22 @@ msgstr ""
 "Pour choisir la couleur de votre logo, cliquez simplement sur le bouton "
 "couleur, ce qui ouvrira une fenêtre de choix de couleurs."
 
-#: src/concepts/script-fu.xml:337(para)
+#: src/concepts/script-fu.xml:327(para)
 msgid "If you look at the current command field, you can watch the script run."
 msgstr ""
 "Si vous regardez le champ de commande courant, vous pouvez voir comment le "
 "script agit."
 
-#: src/concepts/script-fu.xml:346(term)
+#: src/concepts/script-fu.xml:336(term)
 msgid "Make Buttons"
 msgstr "Créer des boutons"
 
-#: src/concepts/script-fu.xml:350(secondary)
-#: src/concepts/script-fu.xml:353(primary)
+#: src/concepts/script-fu.xml:340(secondary)
+#: src/concepts/script-fu.xml:343(primary)
 msgid "Button"
 msgstr "Script-Fu"
 
-#: src/concepts/script-fu.xml:356(para)
+#: src/concepts/script-fu.xml:346(para)
 msgid ""
 "Under this headline you'll find two scripts that makes rectangular beveled "
 "buttons, with or without round corners (Round Button or Simple Beveled "
@@ -9527,28 +9510,11 @@ msgstr ""
 "paramètres dont la plupart ressemblent à ceux des scripts de logo. "
 "Expérimentez par vous-même."
 
-#: src/concepts/script-fu.xml:369(para)
-msgid ""
-"Under Misc. you'll find scripts that can be quite useful, but aren't "
-"suitable for the other submenus. An example is the Sphere script. You will "
-"have to set the radius in pixels to determine the sphere size. The lighting "
-"angle is where at the sphere you point the spotlight. This value also has an "
-"impact on the sphere shadow. If you don't want a shadow, you just have "
-"remove the tick on the \"shadow\" checkbox. The last thing you have to "
-"select is background color, and the color of your sphere."
-msgstr ""
-"Sous Divers (Misc.), vous trouverez des scripts qui peuvent être utiles mais "
-"ne peuvent figurer dans les autres sous-menus. Par exemple le script Sphère. "
-"Vous aurez à fixer le rayon de la sphère en pixels. L'angle d'éclairage "
-"détermine la position de la source de lumière éclairant la sphère, ce qui "
-"agit aussi sur l'ombre de la sphère. Si vous ne voulez pas d'ombre, entrez "
-"la valeur FALSE. Enfin, choisissez la couleur de la sphère et du fond."
-
-#: src/concepts/script-fu.xml:385(title)
+#: src/concepts/script-fu.xml:360(title)
 msgid "Image-Dependent Scripts"
 msgstr "Scripts dépendant d'une image"
 
-#: src/concepts/script-fu.xml:386(para)
+#: src/concepts/script-fu.xml:361(para)
 msgid ""
 "Now, scripts and filters that perform operations on an existing image are "
 "accessible directly by the appropriate menu. For example, the script "
@@ -9565,7 +9531,7 @@ msgstr ""
 "guimenu><guimenuitem>Coller comme...</guimenuitem><guimenuitem>Nouvelle "
 "brosse</guimenuitem></menuchoice>), ce qui est plus logique."
 
-#: src/concepts/script-fu.xml:398(para)
+#: src/concepts/script-fu.xml:373(para)
 msgid ""
 "Furthermore, a new <guimenu>Color</guimenu> menu has been created that "
 "regroups together all that concern works on colors, the hue or level color "
@@ -9575,7 +9541,7 @@ msgstr ""
 "tout ce qui concerne les travaux sur les couleurs, les outils d'ajustement "
 "de teinte ou de niveaux par exemple, etc."
 
-#: src/concepts/script-fu.xml:403(para)
+#: src/concepts/script-fu.xml:378(para)
 msgid ""
 "<guimenu>Filters</guimenu> menu and <guimenu>Scripts-Fu</guimenu> menu are "
 "regrouped in one <guimenu>Filters</guimenu> menu and organised according to "
@@ -9588,7 +9554,7 @@ msgstr ""
 "et un script réalisent des opérations voisines, ils seront également voisins "
 "dans le menu."
 
-#: src/concepts/script-fu.xml:409(para)
+#: src/concepts/script-fu.xml:384(para)
 msgid ""
 "The <guimenu>Scripts-Fu</guimenu> menu only appears if you have loaded "
 "additional scripts: for example the gimp-resynthesizer pack corresponding to "
@@ -9640,7 +9606,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/gradients.xml:24(None)
+#: src/concepts/gradients.xml:19(None)
 msgid ""
 "@@image: 'images/using/gradient-examples.png'; "
 "md5=99dbccd875234d4f305f90501d02ef20"
@@ -9648,7 +9614,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/gradients.xml:115(None)
+#: src/concepts/gradients.xml:110(None)
 msgid ""
 "@@image: 'images/using/gradient-draw.png'; "
 "md5=3dff4b59a3ad75746473176ba9c073b2"
@@ -9656,33 +9622,35 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/gradients.xml:134(None)
+#: src/concepts/gradients.xml:138(None)
 msgid ""
 "@@image: 'images/using/color-gradient-pencil.png'; "
-"md5=805b03140b4f7e2042e627aa860df103"
-msgstr " "
+"md5=5d0f45fb8aeb86fe34219e4074478906"
+msgstr ""
+"@@image: 'images/using/color-gradient-pencil.png'; "
+"md5=5d0f45fb8aeb86fe34219e4074478906"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/concepts/gradients.xml:145(None)
+#: src/concepts/gradients.xml:159(None)
 msgid ""
 "@@image: 'images/using/gradient-usage.png'; "
 "md5=d70171cbaaccc00565123fae0277ec01"
 msgstr " "
 
-#: src/concepts/gradients.xml:15(title)
+#: src/concepts/gradients.xml:10(title)
 msgid "Gradients"
 msgstr "Dégradés"
 
-#: src/concepts/gradients.xml:17(primary)
+#: src/concepts/gradients.xml:12(primary)
 msgid "Gradient"
 msgstr "Dégradé"
 
-#: src/concepts/gradients.xml:21(title)
+#: src/concepts/gradients.xml:16(title)
 msgid "Some examples of GIMP gradients."
 msgstr "Quelques exemples de dégradés GIMP."
 
-#: src/concepts/gradients.xml:27(para)
+#: src/concepts/gradients.xml:22(para)
 msgid ""
 "Gradients from top to bottom: FG to BG (RGB); Full saturation spectrum; "
 "Nauseating headache; Browns; Four bars"
@@ -9691,7 +9659,7 @@ msgstr ""
 "pleine saturation) ; Nauseating headache (Migraine nauséeuse) ; Browns "
 "(Marrons) ; Four bars (Quatre barres)"
 
-#: src/concepts/gradients.xml:34(para)
+#: src/concepts/gradients.xml:29(para)
 msgid ""
 "A <emphasis>gradient</emphasis> is a set of colors arranged in a linear "
 "order. The most basic use of gradients is by the <link linkend=\"gimp-tool-"
@@ -9708,11 +9676,11 @@ msgstr ""
 "contrôler la manière dont les couleurs seront appliquées. Il y aussi deux "
 "autres façons importantes d'utiliser les dégradés :"
 
-#: src/concepts/gradients.xml:47(term)
+#: src/concepts/gradients.xml:42(term)
 msgid "Painting with a gradient"
 msgstr "Peindre avec un dégradé"
 
-#: src/concepts/gradients.xml:49(para)
+#: src/concepts/gradients.xml:44(para)
 msgid ""
 "Each of <acronym>GIMP</acronym>'s basic painting tools allows you the option "
 "of using colors from a gradient. This enables you to create brushstrokes "
@@ -9721,11 +9689,11 @@ msgstr ""
 "Tous les outils de peinture possèdent l'option <quote>Dégradé</quote> : le "
 "coup de pinceau changera de couleur tout au long de son tracé."
 
-#: src/concepts/gradients.xml:58(term)
+#: src/concepts/gradients.xml:53(term)
 msgid "The Gradient Map filter"
 msgstr "Le filtre Application de dégradé"
 
-#: src/concepts/gradients.xml:60(para)
+#: src/concepts/gradients.xml:55(para)
 msgid ""
 "This filter is now in the Colors menu, and allows you to <quote>colorize</"
 "quote> an image, using the color intensity of each point with the "
@@ -9742,7 +9710,7 @@ msgstr ""
 "remplacée par la couleur la plus à droite du dégradé). Voyez la section "
 "<link linkend=\"plug-in-gradmap\">Application de dégradé</link>"
 
-#: src/concepts/gradients.xml:73(para)
+#: src/concepts/gradients.xml:68(para)
 msgid ""
 "When you install <acronym>GIMP</acronym>, it comes presupplied with a large "
 "number of interesting gradients, and you can add new ones that you create or "
@@ -9765,7 +9733,7 @@ msgstr ""
 "dégradé actif dans la Boîte à outils est une autre façon d'ouvrir la fenêtre "
 "du dialogue des dégradés."
 
-#: src/concepts/gradients.xml:86(para)
+#: src/concepts/gradients.xml:81(para)
 msgid ""
 "Many quickly examples of working with gradient (for more information see "
 "<link linkend=\"gimp-tool-blend\">Blend Tool</link>):"
@@ -9773,22 +9741,22 @@ msgstr ""
 "Quelques exemples rapides d'utilisation de dégradés (pour plus de détails "
 "voir <link linkend=\"gimp-tool-blend\">Outil de dégradé</link>:"
 
-#: src/concepts/gradients.xml:92(para)
+#: src/concepts/gradients.xml:87(para)
 msgid "Put a gradient in a selection:"
 msgstr "Mise en place d'un dégradé dans une sélection:"
 
-#: src/concepts/gradients.xml:95(para)
+#: src/concepts/gradients.xml:90(para)
 msgid "Choose a gradient."
 msgstr "Choisir un dégradé."
 
-#: src/concepts/gradients.xml:98(para)
+#: src/concepts/gradients.xml:93(para)
 msgid ""
 "With the Blend Tool click and drag with the mouse between two points of a "
 "selection."
 msgstr ""
 "Avec l'outil Dégradé cliquer-glisser entre deux points de la sélection."
 
-#: src/concepts/gradients.xml:104(para)
+#: src/concepts/gradients.xml:99(para)
 msgid ""
 "Colors will distributed perpendicularly to the direction of the drag of the "
 "mouse and according to the length of it."
@@ -9796,40 +9764,69 @@ msgstr ""
 "Les couleurs se répartiront perpendiculairement à la direction du cliquer-"
 "glisser et en fonction de la longueur de celui-ci."
 
-#: src/concepts/gradients.xml:112(title)
+#: src/concepts/gradients.xml:107(title)
 msgid "How to use rapidly a gradient in a selection"
 msgstr "Comment utiliser rapidement un dégradé dans une sélection"
 
-#: src/concepts/gradients.xml:121(para)
-msgid "Use a gradient with a drawing tool:"
-msgstr "Utiliser un dégradé avec un outil de dessin:"
+#: src/concepts/gradients.xml:116(para)
+msgid "Painting with a gradient:"
+msgstr "Peindre avec un dégradé :"
 
-#: src/concepts/gradients.xml:122(para)
+#: src/concepts/gradients.xml:117(para)
 msgid ""
-"You can also use a gradient with pencil, brush or airbrush tools if you "
-"check <guilabel>Use color from gradient</guilabel> In the example below the "
-"option is checked for a pencil tool. You see in the drawing in the right "
-"side the succession of the colors of the gradient (to infinity...)."
+"You can also use a gradient with the Pencil, Paintbrush or Airbrush tools if "
+"you choose the dynamics <guilabel>Color From Gradient</guilabel>. In the "
+"next step choose a suitable gradient from <guilabel>Color options</guilabel> "
+"and in the <guilabel>Fade options</guilabel> set the gradients length and "
+"the style of the repeating. The chapter <xref linkend=\"gimp-tool-dynamic-"
+"options\"/> describes these parameters in more detail."
 msgstr ""
-"Vous pouvez aussi utiliser un dégradé avec les outils: crayon, pinceau et "
-"aérographe à condition de cocher la case <guilabel>Couleur à partir du "
-"dégradé</guilabel>. Dans l'exemple ci-dessous, la case a été cochée pour "
-"l'outil crayon. Vous constatez, dans le coup de crayon à droite, que l'on "
-"retrouve la succession des couleurs du dégradé (à l'infini...)."
+"Vous pouvez aussi utiliser un dégradé avec les outils Crayon, Pinceau ou "
+"aérographe en choisissant l'option <guilabel>Couleur depuis le dégradé</"
+"guilabel>. Puis sélectionnez le dégradé voulu dans les <guilabel>Options de "
+"couleur</guilabel> et, dans les <guilabel>Options d'estompement</guilabel>, "
+"réglez la longueur du dégradé et le style de répétition. Le chapitre <xref "
+"linkend=\"gimp-tool-dynamic-options\"/> décrit ces paramètres en détail."
 
-#: src/concepts/gradients.xml:130(title)
+#: src/concepts/gradients.xml:127(para)
+msgid ""
+"The following example shows the impact on the Pencil tool. You see in the "
+"upper side of the figure the necessary settings and the lower side of the "
+"figure shows the resulting succession of the gradients colors."
+msgstr ""
+"L'exemple suivant montre le résultat avec l'outil Crayon. À la partie haute "
+"figurent les réglages nécessaires et, en bas, la succession des couleurs du "
+"dégradé."
+
+#: src/concepts/gradients.xml:134(title)
 msgid "How to use rapidly a gradient with a drawing tool"
 msgstr "Comment utiliser rapidement un dégradé avec un outil de dessin"
 
-#: src/concepts/gradients.xml:140(para)
+#: src/concepts/gradients.xml:142(para)
+msgid ""
+"To use the Paint tools with the same settings as they were known as option "
+"<guilabel>Use color from gradient</guilabel> in GIMP up to version 2.6 open "
+"the <link linkend=\"gimp-presets-dialog\">Tool Presets Dialog</link>. Then "
+"choose one of the items <guilabel>Airbrush (Color From Gradient)</guilabel>, "
+"<guilabel>Paintbrush (Color From Gradient)</guilabel> or <guilabel>Pencil "
+"(Color From Gradient)</guilabel> from it."
+msgstr ""
+"Vous pouvez bien sûr enregistrer un pré-réglage pour chacun des outils. Vous "
+"retrouverez ce dégradé avec ses options en ouvrant la fenêtre ancrable <link "
+"linkend=\"gimp-presets-dialog\">Préréglages d'outils</link> et en "
+"choisissant <guilabel>Aérographe (Couleur depuis le dégradé)</guilabel>, "
+"<guilabel>Pinceau (Couleur depuis le dégradé)</guilabel> ou <guilabel>Crayon "
+"(Couleur depuis le dégradé)</guilabel>."
+
+#: src/concepts/gradients.xml:154(para)
 msgid "Different productions with the same gradient:"
 msgstr "Différentes réalisations avec le même dégradé:"
 
-#: src/concepts/gradients.xml:142(title)
+#: src/concepts/gradients.xml:156(title)
 msgid "Gradient usage"
 msgstr "Utilisation des dégradés"
 
-#: src/concepts/gradients.xml:148(para)
+#: src/concepts/gradients.xml:162(para)
 msgid ""
 "Four ways of using the Tropical Colors gradient: a linear gradient fill, a "
 "shaped gradient fill, a stroke painted using colors from a gradient, and a "
@@ -9842,13 +9839,13 @@ msgstr ""
 "brosse floue colorée ensuite en utilisant le filtre <guibutton>Application "
 "de Dégradé</guibutton>."
 
-#: src/concepts/gradients.xml:159(para)
+#: src/concepts/gradients.xml:174(para)
 msgid "A few useful things to know about <acronym>GIMP</acronym>'s gradients:"
 msgstr ""
 "Quelques points utiles à connaître à propos des dégradés de <acronym>GIMP</"
 "acronym> :"
 
-#: src/concepts/gradients.xml:163(para)
+#: src/concepts/gradients.xml:178(para)
 msgid ""
 "The first four gradients in the list are special: they use the Foreground "
 "and Background colors from the Toolbox Color Area, instead of being fixed. "
@@ -9877,7 +9874,7 @@ msgstr ""
 "couleurs de premier-plan et d'arrière-plan, vous pouvez ainsi adoucir une "
 "transition entre deux couleurs de votre choix."
 
-#: src/concepts/gradients.xml:180(para)
+#: src/concepts/gradients.xml:195(para)
 msgid ""
 "Gradients can involve not just color changes, but also changes in opacity. "
 "Some of the gradients are completely opaque; others include transparent or "
@@ -9890,7 +9887,7 @@ msgstr ""
 "non opaque, les zones du calque sur lequel vous peignez transparaîtront dans "
 "les zones transparentes du dégradé."
 
-#: src/concepts/gradients.xml:189(para)
+#: src/concepts/gradients.xml:204(para)
 msgid ""
 "You can create new <emphasis>custom</emphasis> gradients, using the <link "
 "linkend=\"gimp-gradient-editor-dialog\">Gradient Editor</link>. You cannot "
@@ -9902,7 +9899,7 @@ msgstr ""
 "link>. Vous ne pouvez modifier un dégradé existant, mais vous pouvez le "
 "dupliquer et le modifier à votre gré."
 
-#: src/concepts/gradients.xml:198(para)
+#: src/concepts/gradients.xml:213(para)
 msgid ""
 "The gradients that are supplied with <acronym>GIMP</acronym> are stored in a "
 "system <filename>gradients</filename> folder. By default, gradients that you "
@@ -9922,7 +9919,7 @@ msgstr ""
 "l'onglet Dégradés de la page <link linkend=\"gimp-prefs-folders-data"
 "\">Dossiers/Dégradés</link> des Préférences."
 
-#: src/concepts/gradients.xml:211(para)
+#: src/concepts/gradients.xml:226(para)
 msgid ""
 "New in <acronym>GIMP</acronym> 2.2 is the ability to load gradient files in "
 "SVG format, used by many vector graphics programs. To make <acronym>GIMP</"
@@ -9935,7 +9932,7 @@ msgstr ""
 "dessin vectoriel. Tout ce que vous avez à faire est de les mettre dans votre "
 "répertoire de dégradés personnels."
 
-#: src/concepts/gradients.xml:221(para)
+#: src/concepts/gradients.xml:236(para)
 msgid ""
 "You can find a large number of interesting SVG gradients on the web, in "
 "particular at OpenClipArt Gradients <xref linkend=\"bibliography-online-"
@@ -9955,323 +9952,88 @@ msgid "translator-credits"
 msgstr ""
 "Julien Hardelin, jhardlin{AT}orange{POINT}fr, 2008, 2009, 2010, 2011, 2012"
 
-#, fuzzy
-#~ msgid ""
-#~ "@@image: 'images/using/left-vertical-line.png'; "
-#~ "md5=52ab1d6e1dc2b4831a1fd21f0dc8b296"
-#~ msgstr " "
+#~ msgid "Misc."
+#~ msgstr "Divers"
 
 #~ msgid ""
-#~ "<anchor id=\"dotted-strips\"/><indexterm><primary>Dotted strips</"
-#~ "primary></indexterm><emphasis>Dotted strips</emphasis>: <placeholder-1/> "
-#~ "In single-window mode, depending on your system and gtk theme, you can "
-#~ "notice these small dotted strips, or nothing, on the left and the right "
-#~ "side of the image. They mark the limit between the image area and the "
-#~ "panels, from top to bottom. When the mouse pointer passes over this "
-#~ "limit, it turns to a double-arrow. Then, click-and-drag to move the limit "
-#~ "between image area and panels."
+#~ "You will find the <acronym>GIMP</acronym>.org theme under the Web page "
+#~ "theme submenu. If you want to create your own theme, this script will "
+#~ "serve as an excellent template that you can modify to create a theme for "
+#~ "your web site."
 #~ msgstr ""
-#~ "<anchor id=\"dotted-strips\"/><indexterm><primary>bandes pointillées</"
-#~ "primary></indexterm><emphasis>bandes pointillées</emphasis> : "
-#~ "<placeholder-1/> En mode fenêtre unique, selon le système d'exploitation "
-#~ "et le thème gtk, vous pouvez apercevoir ces petites bandes pointillées, "
-#~ "ou rien, sur les bords gauche et droit de l'image. Elles marquent la "
-#~ "limite entre la surface d'image et les panneaux, de haut en bas. Quand le "
-#~ "pointeur passe sur cette limite, il devient une double flèche. Cliquez-"
-#~ "glissez alors pour déplacer la limite entre la surface d'image et les "
-#~ "panneaux."
+#~ "Vous trouverez le thème <acronym>GIMP</acronym>.org dans le sous-menu "
+#~ "pages Web. Ce script vous servira de modèle que vous pourrez modifier "
+#~ "pour créer votre propre thème."
 
 #~ msgid ""
-#~ "In multi-window mode, dragging an image into an existing Image window, "
-#~ "adds it to the currently open image in a new layer. This feature is not "
-#~ "available in single-window mode but you can, of course, drop the image in "
-#~ "the Layers dialog."
+#~ "Under Misc. you'll find scripts that can be quite useful, but aren't "
+#~ "suitable for the other submenus. An example is the Sphere script. You "
+#~ "will have to set the radius in pixels to determine the sphere size. The "
+#~ "lighting angle is where at the sphere you point the spotlight. This value "
+#~ "also has an impact on the sphere shadow. If you don't want a shadow, you "
+#~ "just have remove the tick on the \"shadow\" checkbox. The last thing you "
+#~ "have to select is background color, and the color of your sphere."
 #~ msgstr ""
-#~ "En déposant une image dans la boîte de dialogue des calques, on l'ajoute "
-#~ "à l'image en tant que nouveau calque."
+#~ "Sous Divers (Misc.), vous trouverez des scripts qui peuvent être utiles "
+#~ "mais ne peuvent figurer dans les autres sous-menus. Par exemple le script "
+#~ "Sphère. Vous aurez à fixer le rayon de la sphère en pixels. L'angle "
+#~ "d'éclairage détermine la position de la source de lumière éclairant la "
+#~ "sphère, ce qui agit aussi sur l'ombre de la sphère. Si vous ne voulez pas "
+#~ "d'ombre, entrez la valeur FALSE. Enfin, choisissez la couleur de la "
+#~ "sphère et du fond."
 
 #~ msgid ""
-#~ "The <quote>Active Image</quote> preview is disabled by default. If you "
-#~ "want it, you can enable it in the <link linkend=\"gimp-prefs-toolbox"
-#~ "\">Toolbox Preferences</link> tab."
+#~ "In former versions of <acronym>GIMP</acronym>, you had a <guilabel>Color "
+#~ "from Gradient</guilabel> option in tool options that allowed you to paint "
+#~ "with a gradient. This option no longer exists in <acronym>GIMP-2.8</"
+#~ "acronym>. But you can still paint with a gradient by creating a custom "
+#~ "new dynamics. Here is the trick:"
 #~ msgstr ""
-#~ "L'affichage de la miniature de l'image active est désactivée par défaut. "
-#~ "Pour l'afficher, voyez <link linkend=\"gimp-prefs-toolbox\">Préférences "
-#~ "des outils</link>."
+#~ "Dans les précédentes versions de <acronym>GIMP</acronym>, vous disposiez "
+#~ "d'une option <guilabel>Couleur depuis le dégradé</guilabel> qui vous "
+#~ "permettait de peindre avec un dégradé. Cette option n'existe plus dans "
+#~ "<acronym>GIMP-2.8</acronym>. Mais vous pouvez continuer à peindre avec un "
+#~ "dégradé en créant une nouvelle dynamique de brosse personnalisée. Voici "
+#~ "l'astuce :"
 
 #~ msgid ""
-#~ "Drag and drop an image into the Toolbox window to open the image in its "
-#~ "own Image window. This is very different than dragging an image into an "
-#~ "existing Image window, which adds it to the currently open image in a new "
-#~ "layer&mdash;usually not what you want."
+#~ "Open the <emphasis>Windows/Dockable Dialogs/Paint Dynamics</emphasis> "
+#~ "dialog."
 #~ msgstr ""
-#~ "Cliquer-glisser une image dans la Boîte à outils pour ouvrir l'image dans "
-#~ "sa propre fenêtre. C'est tout à fait différent du fait de cliquer-glisser "
-#~ "une image dans une autre image, qui ajoute la nouvelle image dans un "
-#~ "nouveau calque."
+#~ "Ouvrez la fenêtre <emphasis>Fenêtres/Fenêtres ancrables/Dynamique de la "
+#~ "brosse</emphasis>."
 
 #~ msgid ""
-#~ "<emphasis>Title Bar:</emphasis> The top of the image window typically "
-#~ "displays a Title Bar with the name of the image and some basic "
-#~ "information about the image. The Title Bar is provided by the operating "
-#~ "system, not by <acronym>GIMP</acronym>, so its appearance is likely to "
-#~ "vary with the operating system, window manager, and/or theme. Use the "
-#~ "<link linkend=\"gimp-prefs-dialog\">Preferences dialog</link> to "
-#~ "customize the information that appears in the Title Bar."
+#~ "Right-click in this dialog and choose the <guilabel>New Dynamics</"
+#~ "guilabel> command, or click on the <guilabel>Create a new dynamics</"
+#~ "guilabel> button at the bottom of the dialog. This opens the Paint "
+#~ "Dynamics Editor."
 #~ msgstr ""
-#~ "<emphasis>Barre de titre</emphasis> : En haut de la fenêtre image se "
-#~ "trouve probablement la barre de titre dans laquelle s'affiche le nom de "
-#~ "l'image et quelques informations de base. La barre de titre est en fait "
-#~ "générée par le gestionnaire de fenêtre du système et non par "
-#~ "<acronym>GIMP</acronym>, aussi son apparence peut changer selon le "
-#~ "système d'exploitation, le gestionnaire de fenêtre et/ou le thème. Dans "
-#~ "le <link linkend=\"gimp-prefs-dialog\">Dialogue des préférences</link> "
-#~ "vous pouvez personnaliser les informations qui y apparaissent."
+#~ "Faites un clic droit dans cette boîte de dialogue et choisissez la "
+#~ "commande <guilabel>Nouvelle dynamique</guilabel>, ou cliquez sur le "
+#~ "bouton <guilabel>Créer une nouvelle dynamique</guilabel> en bas de la "
+#~ "fenêtre. Cela ouvre l'éditeur de dynamique (Dynamique de la brosse)."
 
 #~ msgid ""
-#~ "@@image: 'images/using/dock-tab.png'; md5=80c51d15c672f9f15c25f0371a481fc6"
-#~ msgstr " "
-
-#~ msgid ""
-#~ "@@image: 'images/using/dialog-highlight-dockbar.png'; "
-#~ "md5=b2cf8cfa42fe861e2b7ea91b82b84a34"
-#~ msgstr " "
-
-#~ msgid ""
-#~ "@@image: 'images/using/dialog-highlight-handle.png'; "
-#~ "md5=74e48a36ae7e58678251b30fc12b3f9a"
-#~ msgstr " "
-
-#~ msgid "Docking Areas"
-#~ msgstr "Barre d'ancrage"
-
-#~ msgid "Docking areas"
-#~ msgstr "Barre d'ancrage"
-
-#~ msgid "The Layers, Channels and Paths dock."
-#~ msgstr "Le groupe de fenêtres Calques, Canaux et Chemins"
-
-#~ msgid ""
-#~ "The Toolbox is a <emphasis>utility window</emphasis>. The Tool Options "
-#~ "window is normally attached under the Toolbox and displays the options of "
-#~ "the selected tool."
+#~ "In this editor, rename <quote>Untitled</quote> to <quote>Color from "
+#~ "Gradient</quote> and check the Color/Fade box. This new dynamics appears "
+#~ "at the top of the dynamics list."
 #~ msgstr ""
-#~ "La Boîte à outils est désormais aussi une <emphasis>fenêtre utilitaire</"
-#~ "emphasis>. La fenêtre d'option de l'outil actif est normalement ancrée "
-#~ "sous la Boîte à outils."
+#~ "Dans cet éditeur, renommez <quote>Sans titre</quote> en <quote>Couleur "
+#~ "depuis le dégradé</quote> et cochez la case Couleur/Fondu. Cette nouvelle "
+#~ "dynamique apparaît automatiquement en haut de la liste des dynamiques."
+
+#~ msgid "Use a gradient with a drawing tool:"
+#~ msgstr "Utiliser un dégradé avec un outil de dessin:"
 
 #~ msgid ""
-#~ "Every dockable dialog has two types of docking areas: the docking bars "
-#~ "and the docking-tab area. In a dock, the docking-tab area covers the "
-#~ "entire window."
+#~ "You can also use a gradient with pencil, brush or airbrush tools if you "
+#~ "check <guilabel>Use color from gradient</guilabel> In the example below "
+#~ "the option is checked for a pencil tool. You see in the drawing in the "
+#~ "right side the succession of the colors of the gradient (to infinity...)."
 #~ msgstr ""
-#~ "Chaque fenêtre ancrable possède deux types de zone d'ancrage : les barres "
-#~ "d'ancrage la zone d'ancrage des onglets. Dans une fenêtre isolée, la "
-#~ "<emphasis>zone ancrage d'onglet</emphasis> est la même que celle de "
-#~ "cliquer-glisser (voir plus bas). Dans un groupe de fenêtres, la zone "
-#~ "d'ancrage d'onglet recouvre toute la fenêtre."
-
-#~ msgid "The two docking types"
-#~ msgstr "Les deux types d'ancrage"
-
-#~ msgid "The dockable window is docked onto a dock bar."
-#~ msgstr "La fenêtre ancrable a été fixée sur une barre d'ancrage"
-
-#~ msgid ""
-#~ "The dockable window is docked onto the docking-tab area. A new tab has "
-#~ "been created."
-#~ msgstr ""
-#~ "La fenêtre ancrable a été ajoutée dans la zone d'ancrage d'onglets. Un "
-#~ "nouvel onglet a été ajouté."
-
-#~ msgid "Docking Bars"
-#~ msgstr "Barres d'ancrage"
-
-#~ msgid "Docking bars"
-#~ msgstr "Barres d'ancrage"
-
-#~ msgid ""
-#~ "Each dockable window has two <emphasis>docking bars</emphasis>. These "
-#~ "bars are thin gray bars, very unobtrusive and easy to not notice: most "
-#~ "people don't realize that they exist until they are specifically pointed "
-#~ "out."
-#~ msgstr ""
-#~ "Une fenêtre avec les <emphasis>barres d'ancrage</emphasis> surlignées. Il "
-#~ "s'agit de fines barres grises pas faciles à repérer et nombreux sont ceux "
-#~ "qui ne les ont pas remarquées."
-
-#~ msgid "A window with <emphasis>docking bars</emphasis> highlighted."
-#~ msgstr ""
-#~ "Une fenêtre avec ses <emphasis>Barres d'ancrage</emphasis> surlignées."
-
-#~ msgid "Docking Drag Handles"
-#~ msgstr "Poignées de glisser/déposer"
-
-#~ msgid "Docking drag handle"
-#~ msgstr "Poignée de glisser-déposer"
-
-#~ msgid ""
-#~ "onto a docking bar so that the dialog is attached below the docking bar "
-#~ "in the window,"
-#~ msgstr ""
-#~ "une des barres d'ancrage d'une fenêtre : la  nouvelle fenêtre sera ancrée "
-#~ "dessous."
-
-#~ msgid "or into the docking-tab area so that the dialog is added as a tab."
-#~ msgstr ""
-#~ "ou la zone d'ancrage d'onglet : la nouvelle fenêtre sera ajoutée en tant "
-#~ "que nouvel onglet."
-
-#~ msgid ""
-#~ "Each dockable window has a <emphasis>drag handle area</emphasis>, as "
-#~ "highlighted in the figure below. The cursor changes to a hand shape when "
-#~ "it is over a drag handle area. To dock a dialog, click in the drag handle "
-#~ "area, and drag it: <placeholder-1/>"
-#~ msgstr ""
-#~ "Chaque dialogue dans une fenêtre possède une zone <emphasis>poignée de "
-#~ "glisser-déposer</emphasis>. Vous pouvez aisément l'identifier par le fait "
-#~ "que le pointeur de la souris prend l'aspect d'une main index tendu quand "
-#~ "il se trouve au-dessus de cette zone. Pour ancrer une fenêtre, faites la "
-#~ "glisser pour la déposer sur cette zone : <placeholder-1/>"
-
-#~ msgid "A dockable window, with the drag handle area highlighted"
-#~ msgstr "Un fenêtre ancrable, avec sa zone de poignée de cliquer-glisser"
-
-#~ msgid ""
-#~ "This screenshot shows the area that can be used to drag a dialog window "
-#~ "onto a dock. It can also be used to take a dialog off the dock."
-#~ msgstr ""
-#~ "Cette capture d'écran illustre la zone permettant de saisir un dialogue "
-#~ "et de l'extraire de la fenêtre de regroupement."
-
-#~ msgid ""
-#~ "You can drag more than one dialog onto the same docking bar. If you do, "
-#~ "the dialogs are displayed as tabs, represented by iconic symbols at the "
-#~ "top. Click on the iconic symbol to bring the tab to the front."
-#~ msgstr ""
-#~ "Vous pouvez rattacher plus qu'un dialogue dans la même zone de "
-#~ "rattachement. À chaque fois un nouvel onglet sera créé. Si vous cliquez "
-#~ "dans la zone de rattachement d'un onglet alors vous pouvez le glisser et "
-#~ "le déposer, soit sur le bureau, soit sur une autre zone de rattachement, "
-#~ "dans la même fenêtre ou dans une autre fenêtre."
-
-#~ msgid ""
-#~ "You can also add, detach, or delete a tab window using the Tab menu (see "
-#~ "below)."
-#~ msgstr ""
-#~ "Vous pouvez aussi ajouter un nouvel onglet à une fenêtre, le détacher ou "
-#~ "l'effacer grâce au menu d'onglet. Voir plus bas."
-
-#~ msgid "Image Selection"
-#~ msgstr "Sélection de l'image"
-
-#~ msgid "Auto button"
-#~ msgstr "Bouton Auto"
-
-#~ msgid ""
-#~ "Some docks contain an <emphasis>Image Selection Menu</emphasis>: a menu "
-#~ "listing all of the images open in <acronym>GIMP</acronym>. The Image Menu "
-#~ "displays the name of the image whose information is shown in the dock. "
-#~ "Use the <guilabel>Auto</guilabel> button to toggle the value of "
-#~ "<guilabel>Auto Follow Active Image</guilabel>. Suppose you are using the "
-#~ "Layers dialog and you want to see the layers for a different image. "
-#~ "Select the desired image from the Image Selection Menu. Although this is "
-#~ "convenient, do not forget that you changed the working image for the "
-#~ "dock. Setting <guilabel>Auto Follow Active Image</guilabel> from the Tab "
-#~ "menu helps to avoid this problem."
-#~ msgstr ""
-#~ "Certains groupes de fenêtres possèdent un menu de sélection d'image dont "
-#~ "la liste déroulante affiche les images ouvertes dans <acronym>GIMP</"
-#~ "acronym>. Si le bouton <guilabel>Auto</guilabel> est activé, "
-#~ "l'information affichée dans ce groupe de fenêtres sera automatiquement "
-#~ "celle de la fenêtre d'image active."
-
-#~ msgid ""
-#~ "By default, a <quote>Layers, Channels, and Paths</quote> dock shows an "
-#~ "Image Menu at the top, and other types of docks do not. You can always "
-#~ "add or remove an Image Menu, however, using the <quote>Show Image Menu</"
-#~ "quote> toggle in the Tab menu, as described below. (Exception: you cannot "
-#~ "add an Image Menu to the dock that contains the Toolbox.)"
-#~ msgstr ""
-#~ "Par défaut, en haut d'une fenêtre d'onglets de type Calques, Canaux et "
-#~ "Chemins on trouve un Menu des images, alors que dans d'autres non. Vous "
-#~ "pouvez toujours ajouter ou retrancher ce Menu des Images en utilisant "
-#~ "<guilabel> Afficher l'image sélectionnée (Afficher le Menu des images) </"
-#~ "guilabel> dans le menu des onglets. Attention ! cette option n'est pas "
-#~ "disponible quand les onglets sont rattachés sous la boîte à outils."
-
-#~ msgid ""
-#~ "When the treeview is <guilabel>View as List</guilabel>, pressing "
-#~ "<keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> (or "
-#~ "<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo>, it depends "
-#~ "on your GTK+ keybindings), opens a text box, a search field, where you "
-#~ "can enter the first letter(s) of the name of the item you want. The "
-#~ "search field will not open with <guilabel>View as Grid</guilabel>."
-#~ msgstr ""
-#~ "Quand l'affichage est en mode Liste, l'appui sur la combinaison de "
-#~ "touches <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo> (ou "
-#~ "<keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo> selon votre "
-#~ "affectation des touches GTK+), ouvre une boîte de texte, un champ de "
-#~ "recherche ou vous pouvez entrer la ou les premières lettres de l'item "
-#~ "recherché."
-
-#~ msgid ""
-#~ "@@image: 'images/using/standard-setup.png'; "
-#~ "md5=8fbce7e411aca78b7d4485a6b5855aac"
-#~ msgstr " "
-
-#~ msgid ""
-#~ "The screenshot illustrates the standard windows of <acronym>GIMP</acronym>"
-#~ msgstr ""
-#~ "Capture d'écran illustrant la fenêtre <acronym>GIMP</acronym> au démarrage"
-
-#~ msgid ""
-#~ "<acronym>GIMP</acronym> does not support placing all controls and images "
-#~ "into a single comprehensive window. The consensus in the <acronym>GIMP</"
-#~ "acronym> community, is that multiple windows offers a better user "
-#~ "experience&mdash;and a single window is difficult to do in a way that "
-#~ "works correctly across all of the operating systems on which "
-#~ "<acronym>GIMP</acronym> runs."
-#~ msgstr ""
-#~ "<acronym>GIMP</acronym> préfère utiliser plusieurs fenêtres plutôt que "
-#~ "d'avoir tous les contrôles et images dans une seule fenêtre. Cela "
-#~ "facilite la gestion du programme et la compatibilité avec les différents "
-#~ "systèmes d'exploitation."
-
-#~ msgid ""
-#~ "Earlier versions of <acronym>GIMP</acronym> (up to <acronym>GIMP</"
-#~ "acronym> 1.2.5) used many dialogs: advanced users often had half a dozen "
-#~ "or more dialogs open at once, scattered all over the screen and very "
-#~ "difficult to track. <acronym>GIMP</acronym> 2.0 is much better in this "
-#~ "respect, because it allows dialogs to be docked together in a flexible "
-#~ "way. (The Layers dialog in the screenshot actually contains four dialogs, "
-#~ "represented by tabs: Layers, Channels, Paths, and Undo.) The system takes "
-#~ "a little while to learn, but once you learn it, we hope that you will "
-#~ "like it."
-#~ msgstr ""
-#~ "Les versions précédentes de <acronym>GIMP</acronym> utilisaient beaucoup "
-#~ "de fenêtres : les utilisateurs avancés avaient souvent une demi-douzaine "
-#~ "de fenêtres ouvertes en même temps, éparpillées sur l'écran et il était "
-#~ "difficile de les garder en vue. <acronym>GIMP</acronym>2.x est bien moins "
-#~ "fouillis puisqu'il permet d'ancrer les fenêtres de manière flexible (la "
-#~ "fenêtre des calques de la copie d'écran contient en fait quatre "
-#~ "dialogues, représentés par des onglets : calques, canaux, chemins et "
-#~ "historiques d'annulation). Ce système demande une période "
-#~ "d'apprentissage, mais une fois maîtrisé, nous espérons que vous "
-#~ "l'apprécierez."
-
-#~ msgid ""
-#~ "If you would like to set up a build environment, and are ready for the "
-#~ "heroism involved, you can find a reasonably recent description of how to "
-#~ "go about it in the <acronym>GIMP</acronym> Wiki, at HowToCompileGimp/"
-#~ "MicrosoftWindows <xref linkend=\"bibliography-online-gimp-wiki-compile-"
-#~ "windows\"/>. Since it is a Wiki, anybody is free to edit it, so please "
-#~ "keep it up to date by adding advice based on your own experiences."
-#~ msgstr ""
-#~ "Si vous voulez vous lancez dans l'aventure de la compilation "
-#~ "de<acronym>GIMP</acronym>sous Windows, vous trouverez la description la "
-#~ "plus récente du HowToCompileGimp/MicrosoftWindows <xref linkend="
-#~ "\"bibliography-online-gimp-wiki-compile-windows\"/> (en Anglais). Comme "
-#~ "il s'agit d'un Wiki, tout le monde peut librement le compléter, aussi, "
-#~ "s'il vous plaît, tenez-le à jour en y ajoutant vos conseils tirés de "
-#~ "votre expérience (ou de vos expériences!)."
+#~ "Vous pouvez aussi utiliser un dégradé avec les outils: crayon, pinceau et "
+#~ "aérographe à condition de cocher la case <guilabel>Couleur à partir du "
+#~ "dégradé</guilabel>. Dans l'exemple ci-dessous, la case a été cochée pour "
+#~ "l'outil crayon. Vous constatez, dans le coup de crayon à droite, que l'on "
+#~ "retrouve la succession des couleurs du dégradé (à l'infini...)."

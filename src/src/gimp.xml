@@ -36,6 +36,7 @@
       <year>2010</year>
       <year>2011</year>
       <year>2012</year>
+      <year>2013</year>
       <holder>The GIMP Documentation Team</holder>
     </copyright>
     <legalnotice>
@@ -143,7 +144,7 @@
       <xi:include href="concepts/color-management.xml"/>
     </chapter>
     <chapter id="gimp-pimping">
-      <title>Pimp my GIMP</title>
+      <title>Enrich my GIMP</title>
       <xi:include href="using/preferences/preferences_introduction.xml"/>
       <xi:include href="concepts/grid-and-guides.xml"/>
       <xi:include href="using/grid-and-guides.xml"/>

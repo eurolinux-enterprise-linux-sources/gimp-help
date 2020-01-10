@@ -100,7 +100,7 @@
     <variablelist>
       <varlistentry>
         <term>
-          Transform; Interpolation; Direction; Clipping; Preview
+          Transform; Interpolation; Direction; Clipping; Preview; Guides
         </term>
         <listitem>
           <xi:include href="about-common-transform-options.xml"/>
@@ -111,11 +111,11 @@
 
   <sect3>
     <title>
-      The Information window for perspective transformation
+      The information window for perspective transformation
     </title>
     <figure>
       <title>
-        The dialog window of the <quote>Perspective</quote> tool
+        The information window of the <quote>Perspective</quote> tool
       </title>
       <mediaobject>
         <imageobject>
@@ -129,8 +129,11 @@
         <term>Matrix</term>
         <listitem>
           <para>
-            You can get a small knowledge about matrices in the
-            <xref linkend="plug-in-convmatrix"/>.
+            The information window shows a mathematical representation
+            of the perspective transformation. You can find more
+            information about transformation matrices on
+            <ulink
+              url="http://en.wikipedia.org/wiki/Transformation_Matrices">Wikipedia</ulink>.
           </para>
         </listitem>
       </varlistentry>

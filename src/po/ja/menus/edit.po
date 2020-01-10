@@ -1,15 +1,15 @@
-# 島本良太 (SimaMoto,RyōTa) <liangtai.s4@gmail.com>, 2009, 2010, 2011, 2012.
+# 島本良太 (SimaMoto,RyōTa) <liangtai.s16@gmail.com>, 2009-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-2.8-HELP\n"
-"POT-Creation-Date: 2012-03-25 13:50+0000\n"
-"PO-Revision-Date: 2012-03-25 13:22+0900\n"
-"Last-Translator: liangtai <liangtai.s4@gmail.com>\n"
+"POT-Creation-Date: 2012-06-11 04:29+0900\n"
+"PO-Revision-Date: 2012-08-28 22:26+0900\n"
+"Last-Translator: liangtai <liangtai.s16@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
@@ -30,7 +30,7 @@ msgstr "localized"
 
 #: src/menus/edit/units.xml:11(title) src/menus/edit/units.xml:17(primary)
 msgid "Units"
-msgstr "単位の編集"
+msgstr "単位の定義"
 
 #: src/menus/edit/units.xml:14(primary)
 msgid "Unit of measurement"
@@ -38,7 +38,7 @@ msgstr "寸法の単位"
 
 #: src/menus/edit/units.xml:20(primary)
 msgid "Unit Editor"
-msgstr "単位の編集"
+msgstr "単位の定義"
 
 #: src/menus/edit/units.xml:23(para)
 msgid ""
@@ -47,10 +47,10 @@ msgid ""
 "<acronym>GIMP</acronym>. It also allows you to create new units which can be "
 "used by <acronym>GIMP</acronym> in a variety of situations."
 msgstr ""
-"<guimenuitem>単位の編集</guimenuitem> コマンドは<acronym>GIMP</acronym>で現在"
-"使用されている寸法の単位についての情報を表示するダイアログを開きます。 ここで"
-"はさらに新たな単位が設定でき、 <acronym>GIMP</acronym>のさまざまな場面で利用"
-"できます。"
+"<guimenuitem>単位の定義</guimenuitem> コマンドは <acronym>GIMP</acronym> で現"
+"在使用されている寸法の単位についての情報を表示するダイアログを開きます。 ここ"
+"ではさらに新たな単位が設定でき、 <acronym>GIMP</acronym> のさまざまな場面で利"
+"用できます。"
 
 #: src/menus/edit/units.xml:32(title) src/menus/edit/undo.xml:38(title)
 #: src/menus/edit/stroke-selection.xml:33(title)
@@ -74,15 +74,15 @@ msgid ""
 "menuchoice>."
 msgstr ""
 "画像ウィンドウのメニューより <menuchoice><guimenu>編集</guimenu><guimenuitem>"
-"単位の編集</guimenuitem></menuchoice>"
+"単位の定義</guimenuitem></menuchoice>"
 
 #: src/menus/edit/units.xml:47(title)
 msgid "Description of the <quote>Unit Editor</quote> dialog window"
-msgstr "<quote>単位の編集</quote>ダイアログのご説明"
+msgstr "<quote>単位の定義</quote>ダイアログのご説明"
 
 #: src/menus/edit/units.xml:49(title)
 msgid "The <quote>Unit Editor</quote> dialog window"
-msgstr "<quote>単位の編集</quote>ダイアログのウィンドウ"
+msgstr "<quote>単位の定義</quote>ダイアログのウィンドウ"
 
 #: src/menus/edit/units.xml:57(para)
 msgid ""
@@ -91,7 +91,7 @@ msgid ""
 "click on the <guilabel>New</guilabel> button or the <guilabel>Duplicate</"
 "guilabel> button to create a new measurement unit, as described below."
 msgstr ""
-"上図は<quote>単位の編集</quote>ダイアログのウィンドウです。 その一覧表は現在"
+"上図は<quote>単位の定義</quote>ダイアログのウィンドウです。 その一覧表は現在"
 "定義されている寸法の単位を示しています。 ダイアログ上端の<quote>新しい単位を"
 "定義</quote> <guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-"
 "new.png\"/></guiicon> アイコンボタンや<quote>選択している単位を元にして新しい"
@@ -111,16 +111,16 @@ msgid ""
 "list."
 msgstr ""
 "<guilabel>保存済</guilabel>: この列のチェックボックスにチェックが入っている"
-"と、 <acronym>GIMP</acronym>終了時にその単位の定義が保存されます。 ただし一部"
-"の単位はここにチェックがなくとも常時存在します。 この一覧表ではそれらの単位の"
-"行だけ強調した配色になっています。"
+"と、 <acronym>GIMP</acronym> 終了時にその単位の定義が保存されます。 ただし一"
+"部の単位はここにチェックがなくとも常時存在します。 この一覧表ではそれらの単位"
+"の行だけ強調した配色になっています。"
 
 #: src/menus/edit/units.xml:76(para)
 msgid ""
 "<emphasis>ID</emphasis>: The string <acronym>GIMP</acronym> uses to identify "
 "the unit in its configuration files."
 msgstr ""
-"<guilabel>ID</guilabel>: <acronym>GIMP</acronym>が保管する各設定ファイルの記"
+"<guilabel>ID</guilabel>: <acronym>GIMP</acronym> が保管する各設定ファイルの記"
 "述でこの表記法が用いられます。"
 
 #: src/menus/edit/units.xml:83(para)
@@ -161,8 +161,8 @@ msgid ""
 "<acronym>GIMP</acronym> can use to display messages about the unit."
 msgstr ""
 "<guilabel>単数形</guilabel>: 品詞に単複の区別がある言語で単位の単数形表記を設"
-"定します。 <acronym>GIMP</acronym>は数値により <guilabel>複数形</guilabel> と"
-"使い分けて表示します。"
+"定します。 <acronym>GIMP</acronym> は数値により <guilabel>複数形</guilabel> "
+"と使い分けて表示します。"
 
 #: src/menus/edit/units.xml:119(para)
 msgid ""
@@ -170,8 +170,8 @@ msgid ""
 "acronym> can use to display messages about the unit."
 msgstr ""
 "<guilabel>複数形</guilabel>: 品詞に単複の区別がある言語で単位の複数形表記を設"
-"定します。 <acronym>GIMP</acronym>は数値により <guilabel>単数形</guilabel> と"
-"使い分けて表示します。"
+"定します。 <acronym>GIMP</acronym> は数値により <guilabel>単数形</guilabel> "
+"と使い分けて表示します。"
 
 #: src/menus/edit/units.xml:130(title)
 msgid "Defining New Units"
@@ -192,7 +192,7 @@ msgid ""
 "on the <guimenuitem>Unit Editor</guimenuitem> dialog. The input fields on "
 "the dialog are described above."
 msgstr ""
-"このダイアログは<quote>単位の編集</quote>ダイアログの "
+"このダイアログは<quote>単位の定義</quote>ダイアログの "
 "<guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-new.png\"/></"
 "guiicon> アイコンボタンや <guiicon><inlinegraphic fileref=\"images/dialogs/"
 "stock-duplicate-16.png\"/></guiicon> アイコンボタンをクリックすると呼び出され"
@@ -238,7 +238,7 @@ msgstr ""
 "プトはこの機能を封じてしまうので除きます。) 深く数手にわたる取り消しもできま"
 "すが、 その回数は <link linkend=\"gimp-prefs-environment\">設定</link> ダイア"
 "ログの<quote>環境</quote>ページで定めた手数までの制限があります。 "
-"<acronym>GIMP</acronym>の非常に高度な<quote>作業履歴</quote>機構については "
+"<acronym>GIMP</acronym> の非常に高度な<quote>作業履歴</quote>機構については "
 "<link linkend=\"gimp-concepts-undo\">取り消し</link> の節で詳しく述べていま"
 "す。"
 
@@ -765,8 +765,8 @@ msgid ""
 "look, feel, and performance of the <acronym>GIMP</acronym>."
 msgstr ""
 "このコマンドは <link linkend=\"gimp-prefs-dialog\">設定ダイアログ</link> を開"
-"きます。 このダイアログで<acronym>GIMP</acronym>の外観や使い勝手、 性能を左右"
-"するさまざまな設定ができます。"
+"きます。 このダイアログで <acronym>GIMP</acronym> の外観や使い勝手、 性能を左"
+"右するさまざまな設定ができます。"
 
 #: src/menus/edit/preferences.xml:24(title)
 msgid "Activate Command"
@@ -1007,7 +1007,7 @@ msgid ""
 "class=\"directory\">patterns</filename> folder."
 msgstr ""
 "新しくできたパターンは <guilabel>ファイル名</guilabel> (と拡張子 <filename "
-"class=\"extension\">.pat</filename>) の名前で個人用<acronym>GIMP</acronym>"
+"class=\"extension\">.pat</filename>) の名前で個人用 <acronym>GIMP</acronym> "
 "ディレクトリーの <filename class=\"directory\">patterns</filename> フォルダー"
 "に保存されます。"
 
@@ -1144,7 +1144,7 @@ msgid ""
 "class=\"directory\">brushes</filename> folder."
 msgstr ""
 "新しくできたブラシは <guilabel>ファイル名</guilabel> (拡張子は <filename "
-"class=\"extension\">.gbr</filename>) の名前で個人用<acronym>GIMP</acronym>"
+"class=\"extension\">.gbr</filename>) の名前で個人用 <acronym>GIMP</acronym> "
 "ディレクトリーの <filename class=\"directory\">brushes</filename> フォルダー"
 "に保存されます。"
 
@@ -1177,7 +1177,7 @@ msgstr ""
 #: src/menus/edit/module-manager.xml:54(None)
 msgid ""
 "@@image: 'images/menus/edit/modules.png'; "
-"md5=9f66a23e78fce842311235d27e134e55"
+"md5=67b2b64746b3aa9dafc5fff224c611e5"
 msgstr "localized"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -1216,12 +1216,12 @@ msgid ""
 "capabilities, its size in memory and its start-up time."
 msgstr ""
 "<guimenuitem>モジュール</guimenuitem> コマンドは利用可能な拡張モジュールを表"
-"示し、 <acronym>GIMP</acronym>に読み込むべきものと読み込ませないものを調整で"
+"示し、 <acronym>GIMP</acronym> に読み込むべきものと読み込ませないものを調整で"
 "きるダイアログを開きます。 モジュールは色の選択やフィルターの表示など、 いく"
-"つかの機能があります。 モジュールマネージャーの設定に変更を加えると、 次回"
-"<acronym>GIMP</acronym>の起動時に反映されます。 いずれの変更も<acronym>GIMP</"
-"acronym>の機能上の制約や発展に影響し、 メモリーを占める容量や起動時の所要時間"
-"を増加・短縮します。"
+"つかの機能があります。 モジュールマネージャーの設定に変更を加えると、 次回 "
+"<acronym>GIMP</acronym> の起動時に反映されます。 いずれの変更も "
+"<acronym>GIMP</acronym> の機能上の制約や発展に影響し、 メモリーを占める容量や"
+"起動時の所要時間を増加・短縮します。"
 
 #: src/menus/edit/module-manager.xml:37(para)
 msgid ""
@@ -1251,9 +1251,9 @@ msgid ""
 "uncheck the modules. The next time you start <acronym>GIMP</acronym>, any "
 "checked module will be loaded."
 msgstr ""
-"最初のチェックボックスをクリックして読み込むべきモジュールを選別します。 次回"
-"<acronym>GIMP</acronym>を起動したときにチェックの入ったモジュールだけが自動的"
-"に読み込まれます。"
+"最初のチェックボックスをクリックして読み込むべきモジュールを選別します。 次"
+"回 <acronym>GIMP</acronym> を起動したときにチェックの入ったモジュールだけが自"
+"動的に読み込まれます。"
 
 #: src/menus/edit/module-manager.xml:67(para)
 msgid ""
@@ -1263,11 +1263,11 @@ msgid ""
 "selectors are modules and will only be available when you check the "
 "respective option in the module manager:"
 msgstr ""
-"モジュールを使うときになってはじめてこの変化に気付かれることでしょう。 例えば"
-"描画色と背景色を選択するときに使われる <link linkend=\"gimp-color-dialog\">色"
-"を選択するダイアログ</link> にはさまざまな機能があります。 タブ化された色選択"
-"機能のいくつかはモジュールマネージャーで該当するモジュールに読み込みチェック"
-"を入れている場合のみ利用できるようになっています。"
+"モジュールを使うときになってはじめてこの変化に気付かれることでしょう。 たとえ"
+"ば描画色と背景色を選択するときに使われる <link linkend=\"gimp-color-dialog\">"
+"色を選択するダイアログ</link> にはさまざまな機能があります。 タブ化された色選"
+"択機能のいくつかはモジュールマネージャーで該当するモジュールに読み込みチェッ"
+"クを入れている場合のみ利用できるようになっています。"
 
 #: src/menus/edit/module-manager.xml:75(title)
 msgid "Loaded modules example: Color selector modules"
@@ -1305,9 +1305,10 @@ msgid ""
 "modules will be updated: modules no longer on disk will be removed, and new "
 "modules found will be added."
 msgstr ""
-"<guibutton>更新</guibutton> アイコンボタンをクリックするとモジュールの一覧表"
-"が更新されます。 ディスク上から削除されたモジュールの行は消え、 新たに発見さ"
-"れたモジュールは追加されます。"
+"<guibutton><inlinegraphic format=\"PNG\" fileref=\"images/dialogs/stock-"
+"reload-16.png\"/> 更新</guibutton> ボタンをクリックするとモジュールの一覧表が"
+"更新されます。 ディスク上から削除されたモジュールの行は消え、 新たに発見され"
+"たモジュールは追加されます。"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1348,7 +1349,7 @@ msgstr "塗りつぶし"
 #: src/menus/edit/fill-pattern.xml:14(tertiary)
 #: src/menus/edit/fill-pattern.xml:19(tertiary)
 msgid "Fill with pattern"
-msgstr "パターンで塗りつぶし"
+msgstr "パターンで塗りつぶす"
 
 #: src/menus/edit/fill-pattern.xml:25(para)
 msgid ""
@@ -1359,7 +1360,7 @@ msgid ""
 "feathering the selection), they are filled in proportion to how much they "
 "are selected."
 msgstr ""
-"<guimenuitem>パターンで塗りつぶし</guimenuitem> コマンドはツールボックスの"
+"<guimenuitem>パターンで塗りつぶす</guimenuitem> コマンドはツールボックスの"
 "<link linkend=\"gimp-toolbox-indicator-area\">ブラシ/パターン/グラデーション"
 "</link> の領域 (やこのメニュー項目の左側) で示されているパターンで活性画像上"
 "の選択範囲を埋め尽くします。 選択範囲の境界線をぼかすなどして画像に不完全な選"
@@ -1405,11 +1406,11 @@ msgstr "描画色で塗りつぶす"
 #: src/menus/edit/fill-fg.xml:14(tertiary)
 #: src/menus/edit/fill-fg.xml:19(tertiary)
 msgid "Fill with foreground color"
-msgstr "描画色で塗りつぶし"
+msgstr "描画色で塗りつぶす"
 
 #: src/menus/edit/fill-fg.xml:22(primary)
 msgid "Fill with Foreground Color"
-msgstr "描画色で塗りつぶし"
+msgstr "描画色で塗りつぶす"
 
 #: src/menus/edit/fill-fg.xml:25(para)
 msgid ""
@@ -1420,7 +1421,7 @@ msgid ""
 "as a result of feathering the selection), they are filled in proportion to "
 "how much they are selected."
 msgstr ""
-"<guimenuitem>描画色で塗りつぶし</guimenuitem> コマンドはツールボックスの塗色"
+"<guimenuitem>描画色で塗りつぶす</guimenuitem> コマンドはツールボックスの塗色"
 "標識 (やこのメニュー項目の左側) に示された描画色で活性画像上の選択範囲を単色"
 "に塗りつぶします。 選択範囲の境界線をぼかすなどして画像に不完全な選択範囲があ"
 "れば、 選択の強度に従って塗る色の濃度も変わります。"
@@ -1457,11 +1458,11 @@ msgstr "背景色で塗りつぶす"
 #: src/menus/edit/fill-bg.xml:15(tertiary)
 #: src/menus/edit/fill-bg.xml:20(tertiary)
 msgid "Fill with background color"
-msgstr "背景色で塗りつぶし"
+msgstr "背景色で塗りつぶす"
 
 #: src/menus/edit/fill-bg.xml:23(primary)
 msgid "Fill with Background color"
-msgstr "背景色で塗りつぶし"
+msgstr "背景色で塗りつぶす"
 
 #: src/menus/edit/fill-bg.xml:26(para)
 msgid ""
@@ -1472,7 +1473,7 @@ msgid ""
 "as a result of feathering the selection), they are filled in proportion to "
 "how much they are selected."
 msgstr ""
-"<guimenuitem>背景色で塗りつぶし</guimenuitem> コマンドはツールボックスの塗色"
+"<guimenuitem>背景色で塗りつぶす</guimenuitem> コマンドはツールボックスの塗色"
 "標識 (やこのメニュー項目の左側) に示された背景色で活性画像上の選択範囲を単色"
 "に塗りつぶします。 選択範囲の境界線をぼかすなどして画像に不完全な選択範囲があ"
 "れば、 選択の強度に従って塗る色の濃度も変わります。"
@@ -1719,7 +1720,9 @@ msgstr ""
 "edit-copy\">コピー</link> コマンドとよく似ています。 ただし現在活性化している"
 "レイヤーの成分だけを取り込むのではなくすべての可視レイヤーの成分 (もしくは可"
 "視レイヤーの選択範囲内の成分) をひとつの合成成分として取り込みます。 可視レイ"
-"ヤーはレイヤーダイアログ上で<quote>目</quote>のしるしが付いています。"
+"ヤーはレイヤーダイアログ上で<quote>目</quote>のしるし "
+"<guiicon><inlinegraphic format=\"PNG\" fileref=\"images/dialogs/stock-eye-20."
+"png\"/></guiicon> が付いています。"
 
 #: src/menus/edit/copy-visible.xml:31(para)
 msgid ""
@@ -1918,5 +1921,4 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/edit/buffer.xml:0(None)
 msgid "translator-credits"
-msgstr ""
-"島本良太 (SimaMoto,RyōTa) <liangtai.s4@gmail.com>, 2009, 2010, 2011, 2012."
+msgstr "島本良太 (SimaMoto,RyōTa) <liangtai.s16@gmail.com>, 2009-2013."

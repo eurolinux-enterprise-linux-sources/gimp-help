@@ -1,25 +1,26 @@
-# Julien Hardelin, 2011.
-# Julien Hardelin <jhardlin@orange.fr>, 2011.
+#
+# Julien Hardelin <jhardlin@orange.fr>, 2011, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-User-Manual\n"
-"POT-Creation-Date: 2010-12-24 07:08+0100\n"
-"PO-Revision-Date: 2011-12-17 16:10+0100\n"
+"Project-Id-Version: Manuel utilisateur de GIMP\n"
+"POT-Creation-Date: 2012-11-14 14:59+0100\n"
+"PO-Revision-Date: 2012-11-15 20:21+0100\n"
 "Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
-"Language-Team: French <GNOME French Team <gnomefr@traduc.org>>\n"
+"Language-Team: français <GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/selection/rectangle.xml:30(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-rectsel.png'; "
-"md5=39396ff0a33cfde53a6e3b258282faa5"
-msgstr " "
+"md5=3da266cb8eca2e92666f956adb439673"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -42,8 +43,8 @@ msgstr " "
 #: src/toolbox/selection/rectangle.xml:264(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-rectsel.png'; "
-"md5=53a52b9c0f879692acd0fb6a745d3052"
-msgstr " "
+"md5=3f6e5085b1378bb8ec4582bcf7f928c8"
+msgstr "\" \""
 
 #: src/toolbox/selection/rectangle.xml:16(title)
 #: src/toolbox/selection/rectangle.xml:19(secondary)
@@ -55,7 +56,7 @@ msgstr "Sélection Rectangulaire"
 #: src/toolbox/selection/fuzzy.xml:17(primary)
 #: src/toolbox/selection/free.xml:18(primary)
 #: src/toolbox/selection/foreground.xml:17(primary)
-#: src/toolbox/selection/ellipse.xml:19(primary)
+#: src/toolbox/selection/ellipse.xml:17(primary)
 #: src/toolbox/selection/by-color.xml:17(primary)
 msgid "Tools"
 msgstr "Outils"
@@ -65,8 +66,8 @@ msgstr "Outils"
 #: src/toolbox/selection/free.xml:22(primary)
 #: src/toolbox/selection/free.xml:26(primary)
 #: src/toolbox/selection/foreground.xml:21(primary)
-#: src/toolbox/selection/ellipse.xml:23(primary)
-#: src/toolbox/selection/common-features.xml:264(primary)
+#: src/toolbox/selection/ellipse.xml:21(primary)
+#: src/toolbox/selection/common-features.xml:259(primary)
 #: src/toolbox/selection/by-color.xml:21(primary)
 msgid "Selection"
 msgstr "Sélection"
@@ -117,7 +118,7 @@ msgstr ""
 #: src/toolbox/selection/iscissors.xml:64(title)
 #: src/toolbox/selection/fuzzy.xml:72(title)
 #: src/toolbox/selection/free.xml:91(title)
-#: src/toolbox/selection/ellipse.xml:66(title)
+#: src/toolbox/selection/ellipse.xml:64(title)
 #: src/toolbox/selection/by-color.xml:50(title)
 msgid "Activating the tool"
 msgstr "Activation de l'outil"
@@ -151,17 +152,17 @@ msgstr "par le raccourci-clavier <keycap>R</keycap>."
 #: src/toolbox/selection/rectangle.xml:85(title)
 #: src/toolbox/selection/iscissors.xml:98(title)
 #: src/toolbox/selection/free.xml:125(title)
-#: src/toolbox/selection/ellipse.xml:103(title)
+#: src/toolbox/selection/ellipse.xml:101(title)
 msgid "Key modifiers"
 msgstr "Touches de contrôle"
 
 #: src/toolbox/selection/rectangle.xml:90(keycap)
 #: src/toolbox/selection/rectangle.xml:136(keycap)
 #: src/toolbox/selection/foreground.xml:194(keycap)
-#: src/toolbox/selection/ellipse.xml:109(keycap)
-#: src/toolbox/selection/ellipse.xml:138(keycap)
-#: src/toolbox/selection/common-features.xml:103(keycap)
-#: src/toolbox/selection/common-features.xml:181(keycap)
+#: src/toolbox/selection/ellipse.xml:107(keycap)
+#: src/toolbox/selection/ellipse.xml:136(keycap)
+#: src/toolbox/selection/common-features.xml:98(keycap)
+#: src/toolbox/selection/common-features.xml:176(keycap)
 msgid "Ctrl"
 msgstr "Ctrl"
 
@@ -187,10 +188,10 @@ msgstr ""
 #: src/toolbox/selection/rectangle.xml:110(keycap)
 #: src/toolbox/selection/rectangle.xml:137(keycap)
 #: src/toolbox/selection/iscissors.xml:111(keycap)
-#: src/toolbox/selection/ellipse.xml:123(keycap)
-#: src/toolbox/selection/ellipse.xml:139(keycap)
-#: src/toolbox/selection/common-features.xml:149(keycap)
-#: src/toolbox/selection/common-features.xml:182(keycap)
+#: src/toolbox/selection/ellipse.xml:121(keycap)
+#: src/toolbox/selection/ellipse.xml:137(keycap)
+#: src/toolbox/selection/common-features.xml:144(keycap)
+#: src/toolbox/selection/common-features.xml:177(keycap)
 msgid "Shift"
 msgstr "Shift"
 
@@ -395,7 +396,7 @@ msgstr "Mode ; Lissage ; Adoucir les bords"
 
 #: src/toolbox/selection/rectangle.xml:278(para)
 #: src/toolbox/selection/fuzzy.xml:164(para)
-#: src/toolbox/selection/ellipse.xml:199(para)
+#: src/toolbox/selection/ellipse.xml:197(para)
 #: src/toolbox/selection/by-color.xml:138(para)
 msgid "Common select options."
 msgstr "Options communes aux sélections"
@@ -476,6 +477,7 @@ msgstr ""
 "hauteur fixe, dans l'unité de votre choix. Seule la largeur sera variable."
 
 #: src/toolbox/selection/rectangle.xml:340(term)
+#: src/toolbox/selection/rectangle.xml:364(term)
 msgid "Size"
 msgstr "Taille"
 
@@ -488,24 +490,32 @@ msgstr ""
 "possible)."
 
 #: src/toolbox/selection/rectangle.xml:353(term)
-msgid "X; Y; Width; Height"
-msgstr "Position (X ; Y) ; Taille (Largeur ; Hauteur)"
+msgid "Position"
+msgstr "Position"
 
 #: src/toolbox/selection/rectangle.xml:355(para)
 msgid ""
-"These four text fields contain the current place and size of the selection. "
-"You can use these fields to adjust size and place of the selection by "
-"numbers."
+"These two text fields contain the current horizontal and vertical "
+"coordinates of the upper left corner of the selection. You can use these "
+"fields to adjust the selection position precisely."
 msgstr ""
-"Ces quatre champs contiennent les coordonnées et les dimensions de la "
-"sélection. Vous pouvez les utiliser pour positionner ou dimensionner une "
-"sélection."
+"Ces deux champs contiennent les coordonnées horizontale et verticale du coin "
+"en haut à gauche de la sélection. Vous pouvez les utiliser pour positionner "
+"avec précision la sélection."
 
-#: src/toolbox/selection/rectangle.xml:364(term)
+#: src/toolbox/selection/rectangle.xml:366(para)
+msgid ""
+"These two text fields contain the current width and height of the the "
+"selection. You can use these fields to adjust the selection size precisely."
+msgstr ""
+"Ces deux champs contiennent la largeur et la hauteur de la sélection. Vous "
+"pouvez les utiliser pour ajuster avec précision le taille de la sélection."
+
+#: src/toolbox/selection/rectangle.xml:375(term)
 msgid "Highlight"
 msgstr "Mise en évidence"
 
-#: src/toolbox/selection/rectangle.xml:366(para)
+#: src/toolbox/selection/rectangle.xml:377(para)
 msgid ""
 "If you enable this option, the selected area is emphasized by a surrounding "
 "mask to make visual selection much easier."
@@ -513,16 +523,20 @@ msgstr ""
 "Avec cette option cochée, la zone sélectionnée est mise en évidence par un "
 "masque plus foncé qui entoure le région sélectionnée."
 
-#: src/toolbox/selection/rectangle.xml:374(term)
-#: src/toolbox/selection/rectangle.xml:377(primary)
+#: src/toolbox/selection/rectangle.xml:385(term)
+#: src/toolbox/selection/rectangle.xml:388(primary)
 msgid "Guides"
 msgstr "Guides de sélection"
 
-#: src/toolbox/selection/rectangle.xml:378(secondary)
+#: src/toolbox/selection/rectangle.xml:389(secondary)
 msgid "Selection guides"
 msgstr "Sélection : guides"
 
-#: src/toolbox/selection/rectangle.xml:380(para)
+#: src/toolbox/selection/rectangle.xml:392(primary)
+msgid "Composition guides"
+msgstr "Guides de composition"
+
+#: src/toolbox/selection/rectangle.xml:394(para)
 msgid ""
 "With this menu you can select the type of guides that is shown within the "
 "selection to make the creation of a selection easier, respecting "
@@ -534,41 +548,33 @@ msgstr ""
 "gles_de_composition_dans_la_peinture_occidentale\">Règles de composition</"
 "ulink>."
 
-#: src/toolbox/selection/rectangle.xml:387(term)
+#: src/toolbox/selection/rectangle.xml:403(para)
 msgid "No Guides"
 msgstr "Aucun guide"
 
-#: src/toolbox/selection/rectangle.xml:389(para)
-msgid "No guides are shown at all."
-msgstr "La sélection ne comporte aucun guide"
-
-#: src/toolbox/selection/rectangle.xml:395(term)
+#: src/toolbox/selection/rectangle.xml:406(para)
 msgid "Center lines"
 msgstr "Ligne de centre"
 
-#: src/toolbox/selection/rectangle.xml:397(para)
-msgid "Only center lines are shown as guides within the selected area."
-msgstr "Tracé des axes médians de la sélection."
-
-#: src/toolbox/selection/rectangle.xml:404(term)
+#: src/toolbox/selection/rectangle.xml:409(para)
 msgid "Rule of thirds"
 msgstr "Règle du tiers"
 
-#: src/toolbox/selection/rectangle.xml:406(para)
-msgid "Guides are shown along the rule of thirds while creating the selection."
-msgstr ""
-"Deux lignes partagent la sélection en trois parties égales, dans le sens de "
-"la hauteur et de la largeur."
+#: src/toolbox/selection/rectangle.xml:412(para)
+msgid "Rule of fifths"
+msgstr "Règle des cinquièmes"
 
-#: src/toolbox/selection/rectangle.xml:413(term)
+#: src/toolbox/selection/rectangle.xml:415(para)
 msgid "Golden sections"
 msgstr "Sections d'or"
 
-#: src/toolbox/selection/rectangle.xml:415(para)
-msgid "With this option, guides show up to mark the golden sections."
-msgstr ""
-"Deux lignes partagent la sélection selon la proportion particulière du "
-"nombre d'or, dans le sens de la hauteur et de la largeur."
+#: src/toolbox/selection/rectangle.xml:418(para)
+msgid "Diagonal lines"
+msgstr "Lignes diagonales"
+
+#: src/toolbox/selection/rectangle.xml:399(para)
+msgid "Six options are available: <placeholder-1/>"
+msgstr "Six options sont disponibles : <placeholder-1/>"
 
 #: src/toolbox/selection/rectangle.xml:426(term)
 msgid "Auto Shrink Selection"
@@ -617,8 +623,8 @@ msgstr ""
 #: src/toolbox/selection/iscissors.xml:34(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-scissor.png'; "
-"md5=fabb800b0af11e636b0858cdcda66be5"
-msgstr " "
+"md5=e9cc77ef13ef76cd8dbec23e6368b3fe"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -633,8 +639,8 @@ msgstr " "
 #: src/toolbox/selection/iscissors.xml:204(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-scissor.png'; "
-"md5=55a586ce86d97c091262477b623d2325"
-msgstr " "
+"md5=e3fb8a0dd9852af3c1b5e90a84ef1756"
+msgstr "\" \""
 
 #: src/toolbox/selection/iscissors.xml:20(title)
 msgid "Intelligent Scissors"
@@ -754,7 +760,7 @@ msgstr ""
 #: src/toolbox/selection/iscissors.xml:131(title)
 #: src/toolbox/selection/fuzzy.xml:115(title)
 #: src/toolbox/selection/free.xml:135(title)
-#: src/toolbox/selection/ellipse.xml:153(title)
+#: src/toolbox/selection/ellipse.xml:151(title)
 msgid "Tool handling"
 msgstr "Manipulation de l'outil"
 
@@ -847,8 +853,8 @@ msgstr ""
 #: src/toolbox/selection/fuzzy.xml:144(title)
 #: src/toolbox/selection/free.xml:151(title)
 #: src/toolbox/selection/foreground.xml:207(title)
-#: src/toolbox/selection/ellipse.xml:181(title)
-#: src/toolbox/selection/common-features.xml:238(title)
+#: src/toolbox/selection/ellipse.xml:179(title)
+#: src/toolbox/selection/common-features.xml:233(title)
 #: src/toolbox/selection/by-color.xml:119(title)
 msgid "Options"
 msgstr "Options"
@@ -858,7 +864,7 @@ msgid "Tool Options for the Intelligent Scissors"
 msgstr "Options des outils pour les ciseaux intelligents"
 
 #: src/toolbox/selection/iscissors.xml:213(term)
-#: src/toolbox/selection/ellipse.xml:197(term)
+#: src/toolbox/selection/ellipse.xml:195(term)
 msgid "Modes; Antialiasing; Feather edges"
 msgstr "Mode ; Lissage ; Adoucir les bords"
 
@@ -886,8 +892,8 @@ msgstr ""
 #: src/toolbox/selection/fuzzy.xml:35(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-wand.png'; "
-"md5=6401f2bf73524a50643dd04956d6fcce"
-msgstr " "
+"md5=28aba01cdf578716f043af7a73b06dc2"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -902,8 +908,8 @@ msgstr " "
 #: src/toolbox/selection/fuzzy.xml:150(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-wand.png'; "
-"md5=5efe4e076907f89772e636ddafefd8eb"
-msgstr " "
+"md5=07993d17136ac39d9d5c664d06a745a1"
+msgstr "\" \""
 
 #: src/toolbox/selection/fuzzy.xml:15(title)
 msgid "Fuzzy selection (Magic wand)"
@@ -1008,7 +1014,7 @@ msgstr "par le raccourci-clavier <keycap>U</keycap>."
 
 #: src/toolbox/selection/fuzzy.xml:106(title)
 #: src/toolbox/selection/foreground.xml:190(title)
-#: src/toolbox/selection/common-features.xml:86(title)
+#: src/toolbox/selection/common-features.xml:81(title)
 #: src/toolbox/selection/by-color.xml:84(title)
 msgid "Key modifiers (Defaults)"
 msgstr "Touches de contrôle (Par défaut)"
@@ -1161,8 +1167,8 @@ msgstr ""
 #: src/toolbox/selection/free.xml:36(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-lasso.png'; "
-"md5=9fff914c33227d10fb5a481891aa4584"
-msgstr " "
+"md5=417ef9ff0b6df339426b006afe6f2b23"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1185,8 +1191,8 @@ msgstr " "
 #: src/toolbox/selection/free.xml:156(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-lasso.png'; "
-"md5=a79aae1ea288380723611f1267edf2f0"
-msgstr " "
+"md5=37b1a1aa9f2a868227c99c526c5f1848"
+msgstr "\" \""
 
 #: src/toolbox/selection/free.xml:15(title)
 msgid "Free Selection (Lasso)"
@@ -1339,8 +1345,8 @@ msgstr ""
 #: src/toolbox/selection/foreground.xml:32(None)
 msgid ""
 "@@image: 'images/toolbox/FG-select-toolbox.png'; "
-"md5=874a5a1f7252d04090446808150cf7c5"
-msgstr " "
+"md5=b9b912bf0ed432330dbdb5e45d203c6e"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1379,8 +1385,8 @@ msgstr " "
 #: src/toolbox/selection/foreground.xml:213(None)
 msgid ""
 "@@image: 'images/toolbox/FG-select-options.png'; "
-"md5=16dbf37fdc72e0c002c5383bb055d501"
-msgstr " "
+"md5=754cd829b4dc99bad8167ba157fcf32c"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1404,30 +1410,6 @@ msgstr " "
 msgid ""
 "@@image: 'images/toolbox/FG-select-contig3.png'; "
 "md5=b582845288c2fade15545613ea897720"
-msgstr " "
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/foreground.xml:330(None)
-msgid ""
-"@@image: 'images/toolbox/FG-select-smoothing1.png'; "
-"md5=08c54005bdea17d8b3e253f2dd73a15e"
-msgstr " "
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/foreground.xml:342(None)
-msgid ""
-"@@image: 'images/toolbox/FG-select-smoothing2.png'; "
-"md5=87890630ec72fc067e68c2fddf40832c"
-msgstr " "
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/foreground.xml:354(None)
-msgid ""
-"@@image: 'images/toolbox/FG-select-smoothing3.png'; "
-"md5=68def2b1edcec19f40b1a9222f3b6729"
 msgstr " "
 
 #: src/toolbox/selection/foreground.xml:14(title)
@@ -1552,8 +1534,8 @@ msgstr ""
 "Jusqu'à ce que vous tapiez <keycap>Entrée</keycap>, vous ne pouvez pas "
 "annuler cette sélection par <keycombo><keycap>Ctrl</keycap><keycap>Z</"
 "keycap></keycombo> ni par <menuchoice><guimenu>Sélection</"
-"guimenu><guimenuitem>Aucune</guimenuitem></menuchoice>, et l'Historique "
-"d' Annulation n'est pas concerné. Pour la supprimer, vous devez choisir un "
+"guimenu><guimenuitem>Aucune</guimenuitem></menuchoice>, et l'Historique d' "
+"Annulation n'est pas concerné. Pour la supprimer, vous devez choisir un "
 "autre outil."
 
 #: src/toolbox/selection/foreground.xml:147(title)
@@ -1711,49 +1693,29 @@ msgid "Smoothing"
 msgstr "Lissage (Reprisage)"
 
 #: src/toolbox/selection/foreground.xml:322(para)
-msgid "The slider lets you remove small holes in your selection."
-msgstr ""
-"Ce curseur vous permet de faire disparaître de petits trous à l'intérieur de "
-"votre sélection."
-
-#: src/toolbox/selection/foreground.xml:326(title)
-msgid "<quote>Smoothing</quote> option effect"
-msgstr "Effet de l'option <quote>Lissage</quote>"
-
-#: src/toolbox/selection/foreground.xml:333(para)
 msgid ""
-"For this demonstration, small holes painted with the background color of the "
-"image have been added (left)."
+"Smaller values give a more accurate selection border but may introduce holes "
+"in the selection."
 msgstr ""
-"Pour cette démonstration, nous avons ajouté de petits trous peints avec la "
-"couleur d'arrière-plan de l'image."
+"Les petites valeurs donnent une bordure de sélection plus nette, mais "
+"risquent d'introduire des trous dans la sélection."
 
-#: src/toolbox/selection/foreground.xml:345(para)
-msgid "Smoothing = 0 : more than 1 pixel wide holes are not selected."
-msgstr ""
-"Lissage = 0 : les trous de plus d'un pixel de large ne sont pas sélectionnés."
-
-#: src/toolbox/selection/foreground.xml:357(para)
-msgid "Smoothing = 7 : less than 3 pixels wide holes are selected."
-msgstr ""
-"Lissage = 7 : les trous de moins de 3 pixels de large sont sélectionnés."
-
-#: src/toolbox/selection/foreground.xml:366(term)
+#: src/toolbox/selection/foreground.xml:329(term)
 msgid "Preview color"
 msgstr "Couleur d'aperçu"
 
-#: src/toolbox/selection/foreground.xml:368(para)
+#: src/toolbox/selection/foreground.xml:331(para)
 msgid ""
 "You can select between Red, Green and Blue to mask the image background."
 msgstr ""
 "Vous pouvez choisir entre trois couleurs, Rouge, Vert et Bleu pour masquer "
 "l'arrière-plan de l'image."
 
-#: src/toolbox/selection/foreground.xml:375(term)
+#: src/toolbox/selection/foreground.xml:338(term)
 msgid "Color Sensitivity"
 msgstr "Sensibilité à la couleur"
 
-#: src/toolbox/selection/foreground.xml:377(para)
+#: src/toolbox/selection/foreground.xml:340(para)
 msgid ""
 "This option uses the <link linkend=\"glossary-lab\">L*a*b</link> color "
 "model. If your image contains many pixels of the same color in different "
@@ -1767,15 +1729,15 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/ellipse.xml:35(None)
+#: src/toolbox/selection/ellipse.xml:33(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-ellipsel.png'; "
-"md5=d4a1b74eefb03de327894581dcce0f5c"
-msgstr " "
+"md5=59f7e5dc6d1a800eea1667c1f87d1f6b"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/ellipse.xml:87(None)
+#: src/toolbox/selection/ellipse.xml:85(None)
 msgid ""
 "@@image: 'images/toolbox/stock-tool-ellipse-select-22.png'; "
 "md5=085bf385202782aaa270fa47ba9f3ef7"
@@ -1783,7 +1745,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/ellipse.xml:159(None)
+#: src/toolbox/selection/ellipse.xml:157(None)
 msgid ""
 "@@image: 'images/toolbox/ellipse-selection.png'; "
 "md5=536f10c1a37e270c69453fc30a431d86"
@@ -1791,30 +1753,30 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/ellipse.xml:187(None)
+#: src/toolbox/selection/ellipse.xml:185(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-ellipsel.png'; "
-"md5=2e7c65ecc1a29090fac2b895738fcce5"
-msgstr " "
+"md5=9e0fd92170dc7be2c61e0efd73e6476c"
+msgstr "\" \""
 
-#: src/toolbox/selection/ellipse.xml:16(title)
-#: src/toolbox/selection/ellipse.xml:20(secondary)
+#: src/toolbox/selection/ellipse.xml:14(title)
+#: src/toolbox/selection/ellipse.xml:18(secondary)
 msgid "Ellipse Selection"
 msgstr "Sélection Elliptique"
 
-#: src/toolbox/selection/ellipse.xml:24(secondary)
+#: src/toolbox/selection/ellipse.xml:22(secondary)
 msgid "Ellipse selection"
 msgstr "Ellipse : sélection"
 
-#: src/toolbox/selection/ellipse.xml:27(primary)
+#: src/toolbox/selection/ellipse.xml:25(primary)
 msgid "Ellipse Selection Tool"
 msgstr "Sélection Elliptique"
 
-#: src/toolbox/selection/ellipse.xml:31(title)
+#: src/toolbox/selection/ellipse.xml:29(title)
 msgid "Ellipse Select icon in the Toolbox"
 msgstr "L'icône Sélection Elliptique dans la Boîte à outils."
 
-#: src/toolbox/selection/ellipse.xml:39(para)
+#: src/toolbox/selection/ellipse.xml:37(para)
 msgid ""
 "The Ellipse Selection tool is designed to select circular and elliptical "
 "regions from an image, with high-quality anti-aliasing if you want it. For "
@@ -1828,7 +1790,7 @@ msgstr ""
 "actif. La sélection devient active dès qu'on relâche le bouton de la souris. "
 "On peut la supprimer en cliquant en dehors de la sélection."
 
-#: src/toolbox/selection/ellipse.xml:47(para)
+#: src/toolbox/selection/ellipse.xml:45(para)
 msgid ""
 "This tool is also used for rendering a circle or ellipse on an image. To "
 "render a filled ellipse, create an elliptical selection, and then fill it "
@@ -1852,12 +1814,12 @@ msgstr ""
 "guimenu><guimenuitem>Bordure...</guimenuitem></menuchoice> rend cela plus "
 "facile."
 
-#: src/toolbox/selection/ellipse.xml:67(para)
+#: src/toolbox/selection/ellipse.xml:65(para)
 msgid "You can access the Ellipse Selection Tool in different ways:"
 msgstr ""
 "L'outil Sélection Elliptique peut être appelé de différentes manières :"
 
-#: src/toolbox/selection/ellipse.xml:72(para)
+#: src/toolbox/selection/ellipse.xml:70(para)
 msgid ""
 "From the image menu bar <menuchoice><guimenu>Tools</"
 "guimenu><guisubmenu>Selection Tools</guisubmenu><guimenuitem>Ellipse Select</"
@@ -1867,15 +1829,15 @@ msgstr ""
 "guimenu><guisubmenu>Outils de sélection</guisubmenu><guimenuitem>Sélection "
 "Elliptique</guimenuitem></menuchoice>,"
 
-#: src/toolbox/selection/ellipse.xml:82(para)
+#: src/toolbox/selection/ellipse.xml:80(para)
 msgid "By clicking on the tool icon <placeholder-1/> in the ToolBox,"
 msgstr "en cliquant sur l'icône <placeholder-1/> dans la Boîte à outils,"
 
-#: src/toolbox/selection/ellipse.xml:95(para)
+#: src/toolbox/selection/ellipse.xml:93(para)
 msgid "By using the keyboard shortcut <keycap>E</keycap>."
 msgstr "par le raccourci-clavier <keycap>E</keycap>."
 
-#: src/toolbox/selection/ellipse.xml:111(para)
+#: src/toolbox/selection/ellipse.xml:109(para)
 msgid ""
 "Pressing the key after starting your selection, and holding it down until "
 "you are finished, causes your starting point to be used as the center of the "
@@ -1892,7 +1854,7 @@ msgstr ""
 "vous appuyez sur <keycap>Ctrl</keycap> <emphasis>avant</emphasis> de "
 "démarrer la sélection, celle-ci sera soustraite de la sélection existante."
 
-#: src/toolbox/selection/ellipse.xml:125(para)
+#: src/toolbox/selection/ellipse.xml:123(para)
 msgid ""
 "Pressing the <keycap>Shift</keycap> key after starting your selection, and "
 "holding it down until you are finished, constrains the selection to be a "
@@ -1905,7 +1867,7 @@ msgstr ""
 "cercle. Notez que si vous appuyez sur <keycap>Maj</keycap> avant de démarrer "
 "la sélection, elle sera ajoutée à la sélection existante."
 
-#: src/toolbox/selection/ellipse.xml:143(para)
+#: src/toolbox/selection/ellipse.xml:141(para)
 msgid ""
 "Pressing both keys combines the two effects, giving you a circular selection "
 "centered on your starting point."
@@ -1914,11 +1876,11 @@ msgstr ""
 "keycap></keycombo> vous donne une sélection circulaire centrée sur le point "
 "de départ."
 
-#: src/toolbox/selection/ellipse.xml:155(title)
+#: src/toolbox/selection/ellipse.xml:153(title)
 msgid "Example of Ellipse Selection."
 msgstr "Un exemple de sélection elliptique."
 
-#: src/toolbox/selection/ellipse.xml:163(para)
+#: src/toolbox/selection/ellipse.xml:161(para)
 msgid ""
 "When this tool is selected the mouse pointer comes with a circle icon as "
 "soon as it is over the image. A drag-and-drop allows you to get an ellipse "
@@ -1935,7 +1897,7 @@ msgstr ""
 "pas nécessaire d'ajuster rigoureusement la sélection, celle-ci peut "
 "facilement être redimensionnée et déplacée par la suite."
 
-#: src/toolbox/selection/ellipse.xml:171(para)
+#: src/toolbox/selection/ellipse.xml:169(para)
 msgid ""
 "When the pointer is moving on the canvas, the pointer and selection aspects "
 "change. You can change the size of the selection by using handles. See <link "
@@ -1950,15 +1912,15 @@ msgstr ""
 "\"tool-rect-select-manip\"> Manipulation de l'outil</link> relatif à la "
 "sélection rectangulaire."
 
-#: src/toolbox/selection/ellipse.xml:183(title)
+#: src/toolbox/selection/ellipse.xml:181(title)
 msgid "Tool Options for the Ellipse Select tool"
 msgstr "Les options de l'outil de sélection elliptique."
 
-#: src/toolbox/selection/ellipse.xml:203(term)
+#: src/toolbox/selection/ellipse.xml:201(term)
 msgid "All other options"
 msgstr "Toutes autres options"
 
-#: src/toolbox/selection/ellipse.xml:205(para)
+#: src/toolbox/selection/ellipse.xml:203(para)
 msgid ""
 "All these options work exactly the same way, they were described for the "
 "rectangular selection already. See for <xref linkend=\"tool-rect-select-"
@@ -1970,7 +1932,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/common-features.xml:255(None)
+#: src/toolbox/selection/common-features.xml:250(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-selection.png'; "
 "md5=3522160b5c265a6616c089ce6e800d8c"
@@ -1978,7 +1940,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/common-features.xml:280(None)
+#: src/toolbox/selection/common-features.xml:275(None)
 msgid ""
 "@@image: 'images/tool-options/rectsel-mode-replace.png'; "
 "md5=36c832994992907daf9f37b8f24be98b"
@@ -1986,7 +1948,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/common-features.xml:296(None)
+#: src/toolbox/selection/common-features.xml:291(None)
 msgid ""
 "@@image: 'images/tool-options/rectsel-mode-add.png'; "
 "md5=7695c3c5779758da96289e04ad9db951"
@@ -1994,7 +1956,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/common-features.xml:312(None)
+#: src/toolbox/selection/common-features.xml:307(None)
 msgid ""
 "@@image: 'images/tool-options/rectsel-mode-subtract.png'; "
 "md5=0ee958c35ee768e3040dc4daf95ed25c"
@@ -2002,22 +1964,22 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/selection/common-features.xml:328(None)
+#: src/toolbox/selection/common-features.xml:323(None)
 msgid ""
 "@@image: 'images/tool-options/rectsel-mode-intersect.png'; "
 "md5=34af7b3e54c259e2b0405266a77f6026"
 msgstr " "
 
-#: src/toolbox/selection/common-features.xml:17(title)
-#: src/toolbox/selection/common-features.xml:21(secondary)
+#: src/toolbox/selection/common-features.xml:12(title)
+#: src/toolbox/selection/common-features.xml:16(secondary)
 msgid "Common Features"
 msgstr "Fonctions communes"
 
-#: src/toolbox/selection/common-features.xml:20(primary)
+#: src/toolbox/selection/common-features.xml:15(primary)
 msgid "Selections"
 msgstr "Sélections"
 
-#: src/toolbox/selection/common-features.xml:24(para)
+#: src/toolbox/selection/common-features.xml:19(para)
 msgid ""
 "Selection tools are designed to select regions from the active layer so you "
 "can work on them without affecting the unselected areas. Each tool has its "
@@ -2036,45 +1998,45 @@ msgstr ""
 "besoin de savoir ce qu'est une sélection et comment ça marche, voyez <link "
 "linkend=\"gimp-concepts-selection\">Sélection</link>."
 
-#: src/toolbox/selection/common-features.xml:34(para)
+#: src/toolbox/selection/common-features.xml:29(para)
 msgid "There are seven selection tools:"
 msgstr "Il y a sept outils de sélection :"
 
-#: src/toolbox/selection/common-features.xml:37(para)
+#: src/toolbox/selection/common-features.xml:32(para)
 msgid "the <link linkend=\"gimp-tool-rect-select\">Rectangle Select</link>;"
 msgstr "Sélection rectangulaire"
 
-#: src/toolbox/selection/common-features.xml:42(para)
+#: src/toolbox/selection/common-features.xml:37(para)
 msgid "the <link linkend=\"gimp-tool-ellipse-select\">Ellipse Select</link>;"
 msgstr "Sélection elliptique"
 
-#: src/toolbox/selection/common-features.xml:47(para)
+#: src/toolbox/selection/common-features.xml:42(para)
 msgid ""
 "the <link linkend=\"gimp-tool-free-select\">Free Select (the Lasso)</link>;"
 msgstr "Sélection à main levée (le Lasso)"
 
-#: src/toolbox/selection/common-features.xml:53(para)
+#: src/toolbox/selection/common-features.xml:48(para)
 msgid ""
 "the <link linkend=\"gimp-tool-fuzzy-select\"> Select Contiguous Regions (the "
 "Magic Wand) </link>;"
 msgstr "Sélection de régions contiguës (La Baguette magique)"
 
-#: src/toolbox/selection/common-features.xml:60(para)
+#: src/toolbox/selection/common-features.xml:55(para)
 msgid "the <link linkend=\"gimp-tool-by-color-select\">Select by Color</link>;"
 msgstr "Sélection par couleur"
 
-#: src/toolbox/selection/common-features.xml:65(para)
+#: src/toolbox/selection/common-features.xml:60(para)
 msgid ""
 "the <link linkend=\"gimp-tool-iscissors\"> Select Shapes from Image "
 "(Intelligent Scissors) </link> and"
 msgstr "Ciseaux intelligents"
 
-#: src/toolbox/selection/common-features.xml:72(para)
+#: src/toolbox/selection/common-features.xml:67(para)
 msgid ""
 "the <link linkend=\"gimp-tool-foreground-select\">Foreground Select</link>."
 msgstr "Extraction de Premier-plan"
 
-#: src/toolbox/selection/common-features.xml:78(para)
+#: src/toolbox/selection/common-features.xml:73(para)
 msgid ""
 "In some ways the Path tool can also be thought of as a selection tool: any "
 "closed path can be converted into a selection. It also can do a great deal "
@@ -2086,7 +2048,7 @@ msgstr ""
 "peut aussi faire beaucoup de choses, différentes de ce que font les vrais "
 "outils de sélection."
 
-#: src/toolbox/selection/common-features.xml:87(para)
+#: src/toolbox/selection/common-features.xml:82(para)
 msgid ""
 "The behavior of selection tools is modified if you hold down the "
 "<keycap>Ctrl</keycap>, <keycap>Shift</keycap>, and/or <keycap>Alt</keycap> "
@@ -2096,7 +2058,7 @@ msgstr ""
 "touches <keycap>Ctrl</keycap>, <keycap>Shift</keycap>, <keycap>Alt</keycap> "
 "pendant leur utilisation."
 
-#: src/toolbox/selection/common-features.xml:93(para)
+#: src/toolbox/selection/common-features.xml:88(para)
 msgid ""
 "Advanced users find the modifier keys very valuable, but novice users often "
 "find them confusing. Fortunately, it is possible for most purposes to use "
@@ -2107,7 +2069,7 @@ msgstr ""
 "du temps d'utiliser les boutons Mode (décrits plus bas) à la place de ces "
 "touches."
 
-#: src/toolbox/selection/common-features.xml:106(para)
+#: src/toolbox/selection/common-features.xml:101(para)
 msgid ""
 "When creating a selection, holding down the <keycap>Ctrl</keycap> key can "
 "have two different actions according to the way you use it:"
@@ -2115,7 +2077,7 @@ msgstr ""
 "Lors de la création d'une sélection, la touche <keycap>Ctrl</keycap> peut "
 "avoir deux actions différentes selon la façon dont vous l'utilisez :"
 
-#: src/toolbox/selection/common-features.xml:113(para)
+#: src/toolbox/selection/common-features.xml:108(para)
 msgid ""
 "Holding down the key <emphasis>while drawing</emphasis> the selection "
 "toggles the <quote>Expand from center</quote> option."
@@ -2124,7 +2086,7 @@ msgstr ""
 "débuter la création d'une sélection</emphasis> active l'option "
 "<quote>Étendre depuis le centre</quote> tant que vous maintenez l'appui."
 
-#: src/toolbox/selection/common-features.xml:120(para)
+#: src/toolbox/selection/common-features.xml:115(para)
 msgid ""
 "If you hold down the <keycap>Ctrl</keycap> key <emphasis>before drawing a "
 "selection</emphasis>, this new selection switches to the Subtract mode. So, "
@@ -2137,11 +2099,11 @@ msgstr ""
 "existante dès que vous relâcherez le bouton de la souris, pour autant "
 "qu'elles aient des pixels en commun."
 
-#: src/toolbox/selection/common-features.xml:133(keycap)
+#: src/toolbox/selection/common-features.xml:128(keycap)
 msgid "Alt"
 msgstr "Alt"
 
-#: src/toolbox/selection/common-features.xml:136(para)
+#: src/toolbox/selection/common-features.xml:131(para)
 msgid ""
 "Holding <keycap>Alt</keycap> will allow movement of the current selection "
 "(only its frame, not its content). If the whole image is moved instead of "
@@ -2153,7 +2115,7 @@ msgstr ""
 "Voir la section <link linkend=\"gimp-using-selections-moving\">Déplacer une "
 "sélection</link>."
 
-#: src/toolbox/selection/common-features.xml:152(para)
+#: src/toolbox/selection/common-features.xml:147(para)
 msgid ""
 "When creating a selection, holding down the <keycap>Shift</keycap> key can "
 "have two different actions according to the way you use it:"
@@ -2161,7 +2123,7 @@ msgstr ""
 "Lors de la création d'une sélection, la touche <keycap>Maj</keycap> peut "
 "avoir deux actions différentes selon la façon dont vous l'utilisez :"
 
-#: src/toolbox/selection/common-features.xml:159(para)
+#: src/toolbox/selection/common-features.xml:154(para)
 msgid ""
 "If you hold down the key <emphasis>before clicking</emphasis> to start the "
 "selection, this selection will be in <emphasis>Addition</emphasis> mode as "
@@ -2174,7 +2136,7 @@ msgstr ""
 "relâcherez le bouton de la souris, pour autant qu'elles aient des pixels en "
 "commun."
 
-#: src/toolbox/selection/common-features.xml:167(para)
+#: src/toolbox/selection/common-features.xml:162(para)
 msgid ""
 "If you hold down the <keycap>Shift</keycap> key <emphasis>after clicking</"
 "emphasis> to start the selection, the effect will depend on the tool you are "
@@ -2187,7 +2149,7 @@ msgstr ""
 "sera carrée avec l'outil Sélection Rectangulaire ou un cercle avec la "
 "Sélection Elliptique."
 
-#: src/toolbox/selection/common-features.xml:186(para)
+#: src/toolbox/selection/common-features.xml:181(para)
 msgid ""
 "Using <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap></keycombo> "
 "together can do a variety of things, depending on which tool is used. Common "
@@ -2209,11 +2171,11 @@ msgstr ""
 "keycap><keycap>Maj</keycap></keycombo> et en relâchant l'une ou l'autre "
 "avant de relâcher le <mousebutton>bouton gauche</mousebutton> de la souris."
 
-#: src/toolbox/selection/common-features.xml:203(term)
+#: src/toolbox/selection/common-features.xml:198(term)
 msgid "Key modifiers to move selections"
 msgstr "Touches de contrôle pour déplacer les sélections"
 
-#: src/toolbox/selection/common-features.xml:205(para)
+#: src/toolbox/selection/common-features.xml:200(para)
 msgid ""
 "<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><mousebutton>Click-and-"
 "drag</mousebutton></keycombo> and <keycombo><keycap>Shift</"
@@ -2227,16 +2189,16 @@ msgstr ""
 "déplacer une sélection. Voyez <link linkend=\"gimp-using-selections-moving"
 "\">Déplacer les sélections</link>"
 
-#: src/toolbox/selection/common-features.xml:222(term)
+#: src/toolbox/selection/common-features.xml:217(term)
 msgid "Space bar"
 msgstr "Barre d'espace"
 
-#: src/toolbox/selection/common-features.xml:224(para)
+#: src/toolbox/selection/common-features.xml:219(para)
 msgid ""
 "Pressing the <keycap>Space Bar</keycap> while using a selection tool "
 "transforms this tool into the Navigation cross as long as you press the bar, "
 "allowing you to pan around the image instead of using the scroll-bars when "
-"your image is bigger than the canvas. This the default option: in "
+"your image is bigger than the canvas. This is the default option: in "
 "Preferences/Image Windows, you can toggle the Space bar to the Move tool."
 msgstr ""
 "Si vous appuyez sur la <keycap>Barre d'espace</keycap> pendant l'utilisation "
@@ -2247,16 +2209,15 @@ msgstr ""
 "défaut : dans Préférences/Fenêtres d'images, vous pouvez faire que l'appui "
 "sur la barre d'espace active l'outil Déplacement."
 
-#: src/toolbox/selection/common-features.xml:239(para)
+#: src/toolbox/selection/common-features.xml:234(para)
 msgid ""
 "Here we describe the tool options that apply to all selection tools: options "
 "that apply only to some tools, or that affect each tool differently, are "
 "described in the sections devoted to the individual tools. The current "
 "settings for these options can be seen in the Tool Options dialog, which you "
-"should always have visible when you are using tools. (Most users keep it "
-"docked directly below the Toolbox.) To make the interface consistent, the "
-"same options are presented for all selection tools, even though some of them "
-"don't have any effect for some of the tools."
+"should always have visible when you are using tools. To make the interface "
+"consistent, the same options are presented for all selection tools, even "
+"though some of them don't have any effect for some of the tools."
 msgstr ""
 "Nous allons décrire ici les options communes à tous les outils et que l'on "
 "retrouve donc dans toutes les boîtes : les options spécifiques à chaque "
@@ -2267,19 +2228,19 @@ msgstr ""
 "options apparaissent pour tous les outils, même si elles elles ne sont pas "
 "concernées."
 
-#: src/toolbox/selection/common-features.xml:251(title)
+#: src/toolbox/selection/common-features.xml:246(title)
 msgid "Common options of selection tools"
 msgstr "Options communes des outils de sélection"
 
-#: src/toolbox/selection/common-features.xml:261(term)
+#: src/toolbox/selection/common-features.xml:256(term)
 msgid "Mode"
 msgstr "Mode"
 
-#: src/toolbox/selection/common-features.xml:265(secondary)
+#: src/toolbox/selection/common-features.xml:260(secondary)
 msgid "Modes"
 msgstr "Modes"
 
-#: src/toolbox/selection/common-features.xml:267(para)
+#: src/toolbox/selection/common-features.xml:262(para)
 msgid ""
 "This determines the way that the selection you create is combined with any "
 "pre-existing selection. Note that the functions performed by these buttons "
@@ -2291,7 +2252,7 @@ msgstr ""
 "une sélection existante. Ces fonctions peuvent aussi être réalisées avec les "
 "touches de contrôle, comme nous l'avons vu plus haut."
 
-#: src/toolbox/selection/common-features.xml:285(para)
+#: src/toolbox/selection/common-features.xml:280(para)
 msgid ""
 "Replace mode will cause any existing selection to be destroyed or replaced "
 "when the new selection is created."
@@ -2299,7 +2260,7 @@ msgstr ""
 "Mode Remplace : la sélection existante sera détruite et remplacée par la "
 "nouvelle."
 
-#: src/toolbox/selection/common-features.xml:301(para)
+#: src/toolbox/selection/common-features.xml:296(para)
 msgid ""
 "Add mode will cause the new selection to be added to any existing selection "
 "regions."
@@ -2307,7 +2268,7 @@ msgstr ""
 "Mode Ajouter : la nouvelle sélection s'ajoute à la sélection courante si "
 "elle existe."
 
-#: src/toolbox/selection/common-features.xml:317(para)
+#: src/toolbox/selection/common-features.xml:312(para)
 msgid ""
 "Subtract mode will remove the new selection area from any existing selection "
 "regions."
@@ -2315,7 +2276,7 @@ msgstr ""
 "Mode Soustraire : la partie commune aux deux sélections est soustraite de la "
 "sélection existante."
 
-#: src/toolbox/selection/common-features.xml:333(para)
+#: src/toolbox/selection/common-features.xml:328(para)
 msgid ""
 "Intersection mode will make a new selection from the area where the existing "
 "selection region and the new selection region overlap."
@@ -2323,29 +2284,27 @@ msgstr ""
 "Mode Intersection : la sélection résultante sera la partie commune aux deux "
 "sélections."
 
-#: src/toolbox/selection/common-features.xml:344(term)
+#: src/toolbox/selection/common-features.xml:339(term)
 msgid "Antialiasing"
 msgstr "Lissage"
 
-#: src/toolbox/selection/common-features.xml:346(para)
+#: src/toolbox/selection/common-features.xml:341(para)
 msgid ""
-"This option only affects a few of the selection tools: it causes the "
-"boundary of the selection to be drawn more smoothly."
+"This option only affects some selection tools: it causes the boundary of the "
+"selection to be drawn more smoothly."
 msgstr ""
-"Cette option n'affecte que certains outils de sélection. Elle élimine le "
-"crénelage (\"marches d'escalier\") du tracé des bords de la sélection. Vous "
-"trouverez plus d'information dans le Glossaire à l'article <link linkend="
-"\"glossary-antialiasing\">Lissage</link>."
+"Cette option n'affecte que certains outils de sélection. Elle réduit le "
+"crénelage (\"marches d'escalier\") du tracé des bords de la sélection."
 
-#: src/toolbox/selection/common-features.xml:353(term)
+#: src/toolbox/selection/common-features.xml:348(term)
 msgid "Feather Edges"
 msgstr "Adoucir les bords"
 
-#: src/toolbox/selection/common-features.xml:356(primary)
+#: src/toolbox/selection/common-features.xml:351(primary)
 msgid "Edge feathering (Selections)"
 msgstr "Bords flous (Sélections)"
 
-#: src/toolbox/selection/common-features.xml:358(para)
+#: src/toolbox/selection/common-features.xml:353(para)
 msgid ""
 "This options allows the boundary of the selection to be blurred, so that "
 "points near the boundary are only partially selected. For further "
@@ -2362,8 +2321,8 @@ msgstr ""
 #: src/toolbox/selection/by-color.xml:33(None)
 msgid ""
 "@@image: 'images/toolbox/toolbox-selbycolor.png'; "
-"md5=5d0db1f870ebb8fee5ff781968bebe2d"
-msgstr " "
+"md5=fc6e74a40d166272d1cca8dc34613dde"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2378,8 +2337,8 @@ msgstr " "
 #: src/toolbox/selection/by-color.xml:124(None)
 msgid ""
 "@@image: 'images/toolbox/tool-options-selbycolor.png'; "
-"md5=0996edae37dd040f9ed122aff5731901"
-msgstr " "
+"md5=9cbbfc4595ec4c09e69ed480bb95c8ff"
+msgstr "\" \""
 
 #: src/toolbox/selection/by-color.xml:15(title)
 msgid "Select By Color"
@@ -2519,6 +2478,78 @@ msgstr ""
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/toolbox/selection/about-common-select-modifiers.xml:0(None)
 msgid "translator-credits"
-msgstr "Julien Hardelin <jhardlin{AT}wanadoo{POINT}fr> 2005-2011"
+msgstr "Julien Hardelin <jhardlin{AT}wanadoo{POINT}fr> 2005-2012"
 
+#~ msgid ""
+#~ "@@image: 'images/toolbox/toolbox-rectsel.png'; "
+#~ "md5=39396ff0a33cfde53a6e3b258282faa5"
+#~ msgstr " "
 
+#~ msgid "X; Y; Width; Height"
+#~ msgstr "Position (X ; Y) ; Taille (Largeur ; Hauteur)"
+
+#~ msgid "No guides are shown at all."
+#~ msgstr "La sélection ne comporte aucun guide"
+
+#~ msgid "Only center lines are shown as guides within the selected area."
+#~ msgstr "Tracé des axes médians de la sélection."
+
+#~ msgid ""
+#~ "Guides are shown along the rule of thirds while creating the selection."
+#~ msgstr ""
+#~ "Deux lignes partagent la sélection en trois parties égales, dans le sens "
+#~ "de la hauteur et de la largeur."
+
+#~ msgid "With this option, guides show up to mark the golden sections."
+#~ msgstr ""
+#~ "Deux lignes partagent la sélection selon la proportion particulière du "
+#~ "nombre d'or, dans le sens de la hauteur et de la largeur."
+
+#~ msgid ""
+#~ "@@image: 'images/toolbox/FG-select-smoothing1.png'; "
+#~ "md5=08c54005bdea17d8b3e253f2dd73a15e"
+#~ msgstr " "
+
+#~ msgid ""
+#~ "@@image: 'images/toolbox/FG-select-smoothing2.png'; "
+#~ "md5=87890630ec72fc067e68c2fddf40832c"
+#~ msgstr " "
+
+#~ msgid ""
+#~ "@@image: 'images/toolbox/FG-select-smoothing3.png'; "
+#~ "md5=68def2b1edcec19f40b1a9222f3b6729"
+#~ msgstr " "
+
+#~ msgid "The slider lets you remove small holes in your selection."
+#~ msgstr ""
+#~ "Ce curseur vous permet de faire disparaître de petits trous à l'intérieur "
+#~ "de votre sélection."
+
+#~ msgid "<quote>Smoothing</quote> option effect"
+#~ msgstr "Effet de l'option <quote>Lissage</quote>"
+
+#~ msgid ""
+#~ "For this demonstration, small holes painted with the background color of "
+#~ "the image have been added (left)."
+#~ msgstr ""
+#~ "Pour cette démonstration, nous avons ajouté de petits trous peints avec "
+#~ "la couleur d'arrière-plan de l'image."
+
+#~ msgid "Smoothing = 0 : more than 1 pixel wide holes are not selected."
+#~ msgstr ""
+#~ "Lissage = 0 : les trous de plus d'un pixel de large ne sont pas "
+#~ "sélectionnés."
+
+#~ msgid "Smoothing = 7 : less than 3 pixels wide holes are selected."
+#~ msgstr ""
+#~ "Lissage = 7 : les trous de moins de 3 pixels de large sont sélectionnés."
+
+#~ msgid ""
+#~ "@@image: 'images/toolbox/toolbox-ellipsel.png'; "
+#~ "md5=d4a1b74eefb03de327894581dcce0f5c"
+#~ msgstr " "
+
+#~ msgid ""
+#~ "@@image: 'images/toolbox/toolbox-selbycolor.png'; "
+#~ "md5=5d0db1f870ebb8fee5ff781968bebe2d"
+#~ msgstr " "

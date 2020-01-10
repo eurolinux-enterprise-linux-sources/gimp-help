@@ -1,25 +1,21 @@
-# 島本良太 (SimaMoto,RyōTa) <liangtai.s4@gmail.com>, 2009, 2010, 2011, 2012.
+# 島本良太 (SimaMoto,RyōTa) <liangtai.s16@gmail.com>, 2009-2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-2.8-HELP\n"
-"POT-Creation-Date: 2012-04-05 06:40+0000\n"
-"PO-Revision-Date: 2012-01-05 18:23+0900\n"
-"Last-Translator: liangtai <liangtai.s4@gmail.com>\n"
+"POT-Creation-Date: 2012-03-19 01:47+0900\n"
+"PO-Revision-Date: 2012-06-14 22:47+0900\n"
+"Last-Translator: liangtai <liangtai.s16@gmail.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/web.xml:26(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/filters/web.png'; "
-#| "md5=7085666b073aa8f6b6e76aa920ac2f21"
 msgid ""
 "@@image: 'images/menus/filters/web.png'; md5=a8b0fa42eca1fc0bed84d13b0788a4a5"
 msgstr "localized"
@@ -62,8 +58,8 @@ msgstr ""
 "リック感応領域を配置するときに使います。 <link linkend=\"plug-in-semiflatten"
 "\">半統合</link> フィルターはアルファチャンネルがない画像形式にあたかも半透明"
 "のような効果を加えるときに使います。 <link linkend=\"python-fu-slice\">画像分"
-"割...</link> フィルターはマウスに反応する画像を<acronym>HTML</acronym>言語の"
-"テーブルを用いて構成するときに使います。"
+"割...</link> フィルターはマウスに反応する画像を <acronym>HTML</acronym> 言語"
+"のテーブルを用いて構成するときに使います。"
 
 #: src/filters/render.xml:6(title)
 msgid "Rendering Filters"
@@ -118,7 +114,7 @@ msgid ""
 "of effects and those effects are discussed here."
 msgstr ""
 "フィルターとは与えられたレイヤーもしくは画像に所定の数式アルゴリズムを適用し"
-"て改変させることに特化したツールです。 <acronym>GIMP</acronym>はさまざまな効"
+"て改変させることに特化したツールです。 <acronym>GIMP</acronym> はさまざまな効"
 "果のあるフィルターをとり揃えています。 この章はそれぞれの効果について説明しま"
 "す。"
 
@@ -155,10 +151,6 @@ msgstr "汎用フィルター"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/filters/enhance.xml:12(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'images/menus/filters/enhance.png'; "
-#| "md5=21226ae271e62e71e00e9d5f51169cd6"
 msgid ""
 "@@image: 'images/menus/filters/enhance.png'; "
 "md5=1e43953d31f5223f059018597a938d45"
@@ -247,5 +239,4 @@ msgstr "ロゴ効果フィルター"
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/filters/alpha-to-logo.xml:0(None)
 msgid "translator-credits"
-msgstr ""
-"島本良太 (SimaMoto,RyōTa) <liangtai.s4@gmail.com>, 2009, 2010, 2011, 2012."
+msgstr "島本良太 (SimaMoto,RyōTa) <liangtai.s16@gmail.com>, 2009-2013."

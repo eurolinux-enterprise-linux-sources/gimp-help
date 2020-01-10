@@ -30,37 +30,26 @@ DOC_LINGUAS = $(LINGUAS)
 ####            External programs                                   ####
 ########################################################################
 
-## Essential external programs and their default options
-## (some of these variables are provided via "configure" -- see configure.ac)
+## Essential external programs and their default options:
 ##
-## XSLTPROC  = xsltproc
-## XSLTFLAGS = --nonet
+## (the following variables are provided via "configure";
+## edit configure.ac to change their default values)
+##
+## XSLTPROC, XSLTFLAGS
+## XMLLINT, XMLLINTFLAGS
+## XML2PO, XML2POFLAGS
+## MSGWIDTH
+## MSGUNIQ. MSGUNIQFLAGS
+## MSGCAT, MSGCATFLAGS
+## MSGINIT, MSGINITFLAGS
+## MSGFMT, MSGFMTFLAGS
+## MSGMERGE, MSGMERGEFLAGS
+## DBLATEX, DBLATEXFLAGS
+## DOCBOOK2ODF, DOCBOOK2ODFFLAGS
+
 # HIDE FROM AUTOMAKE #ifneq ($(srcdir),$(builddir))
 # HIDE FROM AUTOMAKE #XSLTFLAGS += --path $(builddir)
 # HIDE FROM AUTOMAKE #endif
-##
-## XMLLINT      = xmllint
-XMLLINTFLAGS = --nonet
-##
-## XML2PO        = $(srcdir)/tools/xml2po.py
-## XML2POFLAGS   = --mode=gimphelp
-##
-MSGWIDTH      = 79
-## MSGUNIQ       = msguniq
-MSGUNIQFLAGS  =
-## MSGCAT        = msgcat
-MSGCATFLAGS   = --width=$(MSGWIDTH)
-## MSGINIT       = msginit
-MSGINITFLAGS  = --no-translator --width=$(MSGWIDTH)
-## MSGFMT        = msgfmt
-## MSGFMTFLAGS   = --check --use-fuzzy --statistics
-## MSGMERGE      = msgmerge
-MSGMERGEFLAGS = --quiet --width=$(MSGWIDTH)
-##
-## DBLATEX       = dblatex
-DBLATEXFLAGS     = --backend=xetex --style=db2latex --verbose
-## DOCBOOK2ODF      = docbook2odf
-DOCBOOK2ODFFLAGS =
 
 # Standard shell commands
 find_l = find -L
@@ -147,17 +136,9 @@ OTHER_CSS_FILES = \
 
 # stylesheets (and more) for XSLT
 XSL_FILES = \
-	stylesheets/authors_docbook.xsl	\
-	stylesheets/authors_text.xsl	\
-	stylesheets/authors_common.xsl	\
 	stylesheets/authors.dtd 	\
-	stylesheets/makeindex.xsl	\
-	stylesheets/getsortkey.xsl	\
-	stylesheets/plainprint.xsl	\
 	stylesheets/plainhtml.xsl.in	\
-	stylesheets/htmlalternate.xsl	\
-	stylesheets/float-images.xsl 	\
-	stylesheets/doap2text.xsl	\
+	$(shell cd $(srcdir) && $(find_l) stylesheets/ -type f -name '*.xsl')	\
 	gimp-help-2.doap
 
 # tools needed for building
@@ -252,29 +233,12 @@ xml2pot = $(XML2PO) $(XML2POFLAGS) --output='-' $(filter %.xml,$(1)) \
 #     $1 - input POT file
 #     $2 - translation language
 #     $3 - output PO file
-pot2po = with_compendium="$(shell $(call get_compendium,$3)) \
-                          $(shell $(call use_gimp_po_files,$2))"; \
-         tmpfile=$(3).tmp; \
-         if [ -s $(3) ]; then \
-             $(MSGMERGE) $(MSGMERGEFLAGS) $${with_compendium} \
-                 --output-file $${tmpfile} $(3) $(1); \
-         else \
+pot2po = test -e $(3) || \
              $(MSGINIT) $(MSGINITFLAGS) --input $(1) --locale=$(2) --output=$(3); \
-             pofile=$(3); \
-             if [ -s $${pofile%/*}.po ]; then \
-                 $(MSGMERGE) $(MSGMERGEFLAGS) $${with_compendium} \
-                     --output-file $${tmpfile} $${pofile%/*}.po $(3); \
-             elif [ -n "$${with_compendium}" ]; then \
-                 $(MSGMERGE) $(MSGMERGEFLAGS) $${with_compendium} \
-	             --output-file $${tmpfile} $(3) $(1); \
-             else \
-                 $(SED) -e '/Plural-Forms:/d' $(3) > $${tmpfile}; \
-             fi; \
-         fi; \
-         test -s $${tmpfile} && mv -f $${tmpfile} $(3) || rm -f $${tmpfile}; \
-         test -s $(3) && $(MSGFMT) $(MSGFMTFLAGS) $(3); \
-         rm -f messages.mo messages.gmo; \
-         test -s $(3)
+         with_compendium="$(shell $(call get_compendium,$3))"; \
+         $(MSGMERGE) $(MSGMERGEFLAGS) $${with_compendium} --update $(3) $(1) \
+         && $(MSGFMT) $(MSGFMTFLAGS) $(3) || exit 70; \
+         rm -f $(3)~ messages.mo messages.gmo
 
 # Merge PO file into (translated) XML file
 #
@@ -315,15 +279,14 @@ copy = $(LN_S) $(abs_srcdir)/$(1) $(2)
 # HIDE FROM AUTOMAKE #	file="$(1)"; dir=$${file%/*}; \
 # HIDE FROM AUTOMAKE #	while true; do \
 # HIDE FROM AUTOMAKE #		if test -f $${dir}/$(COMPENDIUM); then \
-# HIDE FROM AUTOMAKE #			opt="$${opt} --compendium=$${dir}/$(COMPENDIUM)"; \
+# HIDE FROM AUTOMAKE #			echo "--compendium=$${dir}/$(COMPENDIUM)"; \
 # HIDE FROM AUTOMAKE #		fi; \
 # HIDE FROM AUTOMAKE #		case "$${dir}" in \
 # HIDE FROM AUTOMAKE #			po|*/po) break;; \
 # HIDE FROM AUTOMAKE #			    */*) dir="$${dir%/*}";; \
 # HIDE FROM AUTOMAKE #			      *) break;; \
 # HIDE FROM AUTOMAKE #		esac; \
-# HIDE FROM AUTOMAKE #	done; \
-# HIDE FROM AUTOMAKE #	if test -n "$${opt}"; then echo $${opt}; fi
+# HIDE FROM AUTOMAKE #	done
 # HIDE FROM AUTOMAKE #else
 # HIDE FROM AUTOMAKE #get_compendium =
 # HIDE FROM AUTOMAKE #endif
@@ -364,22 +327,11 @@ help: make.help
 	    -e '### skip comments ###' \
 	    -e '/^#/d' \
 	    -e '### print if no "make" variable found ###' \
-	    -e '/@/!b' \
+	    -e '/%/!b' \
 	    -e '### replace "make" variables ###' \
-	    -e 's/@LANGUAGES@/@$(strip $(LANGUAGES))@/' \
-	    -e 's/@LINGUAS@/@$(strip $(LINGUAS))@/' \
-	    -e 's/@ALL_LINGUAS@/@$(strip $(ALL_LINGUAS))@/' \
-	    -e '### add commas ###' \
-	    -e 'tloop' \
-	    -e ':loop' \
-	    -e '    ### mark value of variable (@@...@@) ###' \
-	    -e '    s/@\([^@]*\)@/@@\1@@/' \
-	    -e '    twhile' \
-	    -e '    :while' \
-	    -e '        s/\(@@[^,@]*\) \([^@]*@@\)/\1, \2/' \
-	    -e '    twhile' \
-	    -e '    s/@@\([^@]*\)@@/\1/' \
-	    -e 'tloop' \
+	    -e 's/%LANGUAGES%/%$(strip $(LANGUAGES))%/' \
+	    -e 's/%LINGUAS%/%$(strip $(LINGUAS))%/' \
+	    -e 's/%ALL_LINGUAS%/%$(strip $(ALL_LINGUAS))%/' \
 	$<
 
 .PHONY: help
@@ -596,7 +548,7 @@ po: $(foreach LANG,$(PO_LANGS),po-$(LANG)) ;
 # HIDE FROM AUTOMAKE #
 # HIDE FROM AUTOMAKE ## This is indirectly used as HTML and PDF prerequisite:
 # HIDE FROM AUTOMAKE #xml/$(1): $$($(1)_XML_FILES) | xml/$(1)/images
-# HIDE FROM AUTOMAKE #	$$(cmd) test -d $$@ && touch $$@ || $(mkdir_p) $$@
+# HIDE FROM AUTOMAKE #	$$(cmd) test -d $$@ && touch $$@ || $(MKDIR_P) $$@
 # HIDE FROM AUTOMAKE #
 # HIDE FROM AUTOMAKE ## Targets suitable for command line
 # HIDE FROM AUTOMAKE #xml-$(1): po-$(1) xml/$(1) cleanup-xml-$(1) ;
@@ -665,6 +617,7 @@ xml: $(foreach LANG,$(LANGUAGES),xml-$(LANG)) ;
 
 validate: validate-en ;
 validate-%: xmllint-% ;
+validate-all: $(foreach LANG,$(LANGUAGES),validate-$(LANG)) ;
 
 xmllint: xmllint-en ;
 xmllint-%: log/%-xmllint.log
@@ -999,14 +952,13 @@ check-image-references:
 	    echo "*** Checking image references ... "; \
 	    python tools/validate_references.py \
 	        --verbose --broken --orphaned \
-		$(VALIDATEREFERENCESFLAGS); \
+		$(IMAGE_LANGS); \
 	else \
 	    echo >&2 "*** Cannot check image references (no Python installed?) ***"; \
 	fi
 
 check-images-%: FORCE
-	$(cmd) $(RMAKE) check-image-references \
-		VALIDATEREFERENCESFLAGS="--imgdir=images/C,images/$*"
+	$(cmd) $(RMAKE) check-image-references IMAGE_LANGS="C $*"
 
 check-image-resolutions-%:
 	$(cmd) /bin/sh tools/check_image_resolutions.sh images/$*

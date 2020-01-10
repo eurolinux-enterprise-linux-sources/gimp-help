@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Manual\n"
-"POT-Creation-Date: 2012-04-30 15:58+0200\n"
-"PO-Revision-Date: 2012-04-30 15:53+0200\n"
+"POT-Creation-Date: 2013-04-25 01:47+0200\n"
+"PO-Revision-Date: 2013-09-25 14:48+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -59,7 +59,7 @@ msgstr "Gestione finestre"
 
 #: src/using/preferences/prefs-window-management.xml:15(primary)
 #: src/using/preferences/prefs-tool-options.xml:14(primary)
-#: src/using/preferences/prefs-toolbox.xml:15(primary)
+#: src/using/preferences/prefs-toolbox.xml:14(primary)
 #: src/using/preferences/prefs-theme.xml:12(primary)
 #: src/using/preferences/prefs-interface.xml:13(primary)
 #: src/using/preferences/prefs-image-window.xml:15(primary)
@@ -79,10 +79,10 @@ msgstr "Finestre"
 #: src/using/preferences/prefs-window-management.xml:16(secondary)
 #: src/using/preferences/prefs-tool-options.xml:15(secondary)
 #: src/using/preferences/prefs-tool-options.xml:20(secondary)
-#: src/using/preferences/prefs-toolbox.xml:16(secondary)
-#: src/using/preferences/prefs-toolbox.xml:21(secondary)
-#: src/using/preferences/prefs-toolbox.xml:52(secondary)
-#: src/using/preferences/prefs-toolbox.xml:56(secondary)
+#: src/using/preferences/prefs-toolbox.xml:15(secondary)
+#: src/using/preferences/prefs-toolbox.xml:20(secondary)
+#: src/using/preferences/prefs-toolbox.xml:51(secondary)
+#: src/using/preferences/prefs-toolbox.xml:55(secondary)
 #: src/using/preferences/prefs-theme.xml:13(secondary)
 #: src/using/preferences/prefs-interface.xml:14(secondary)
 #: src/using/preferences/prefs-interface.xml:19(secondary)
@@ -155,7 +155,7 @@ msgstr ""
 
 #: src/using/preferences/prefs-window-management.xml:45(title)
 #: src/using/preferences/prefs-tool-options.xml:40(title)
-#: src/using/preferences/prefs-toolbox.xml:34(title)
+#: src/using/preferences/prefs-toolbox.xml:33(title)
 #: src/using/preferences/prefs-interface.xml:47(title)
 #: src/using/preferences/prefs-image-window.xml:41(title)
 #: src/using/preferences/prefs-help.xml:39(title)
@@ -351,7 +351,7 @@ msgstr "Autoesplicativa"
 
 #: src/using/preferences/prefs-tool-options.xml:50(term)
 msgid "Save Tool Options Now"
-msgstr "Salva le opzioni delgli strumenti ora"
+msgstr "Salva ora le opzioni strumenti"
 
 #: src/using/preferences/prefs-tool-options.xml:56(term)
 msgid "Reset Saved Tool Options To Default Values"
@@ -500,7 +500,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/preferences/prefs-toolbox.xml:28(None)
+#: src/using/preferences/prefs-toolbox.xml:27(None)
 msgid ""
 "@@image: 'images/preferences/prefs-toolbox.png'; "
 "md5=d67c7e3c55c4e6031d82066f833d3da9"
@@ -508,28 +508,28 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/preferences/prefs-toolbox.xml:39(None)
+#: src/using/preferences/prefs-toolbox.xml:38(None)
 msgid ""
 "@@image: 'images/using/toolbox-description.png'; "
 "md5=53382765536fb6aeb60cf626e23bb6e0"
 msgstr " "
 
-#: src/using/preferences/prefs-toolbox.xml:12(title)
-#: src/using/preferences/prefs-toolbox.xml:17(tertiary)
-#: src/using/preferences/prefs-toolbox.xml:20(primary)
-#: src/using/preferences/prefs-toolbox.xml:95(primary)
+#: src/using/preferences/prefs-toolbox.xml:11(title)
+#: src/using/preferences/prefs-toolbox.xml:16(tertiary)
+#: src/using/preferences/prefs-toolbox.xml:19(primary)
+#: src/using/preferences/prefs-toolbox.xml:94(primary)
 msgid "Toolbox"
 msgstr "Strumenti"
 
-#: src/using/preferences/prefs-toolbox.xml:25(title)
+#: src/using/preferences/prefs-toolbox.xml:24(title)
 msgid "Toolbox Preferences"
 msgstr "Preferenze strumenti"
 
-#: src/using/preferences/prefs-toolbox.xml:36(title)
+#: src/using/preferences/prefs-toolbox.xml:35(title)
 msgid "Default Toolbox appearance"
 msgstr "Aspetto predefinito del pannello degli strumenti"
 
-#: src/using/preferences/prefs-toolbox.xml:43(para)
+#: src/using/preferences/prefs-toolbox.xml:42(para)
 msgid ""
 "This page lets you customize the appearance of the Toolbox, by deciding "
 "whether the three <quote>context information</quote> areas should be shown "
@@ -540,42 +540,42 @@ msgstr ""
 "<quote>informazione contestuale</quote> debbano essere mostrate in fondo ad "
 "esso."
 
-#: src/using/preferences/prefs-toolbox.xml:49(title)
+#: src/using/preferences/prefs-toolbox.xml:48(title)
 msgid "Appearance"
 msgstr "Aspetto"
 
-#: src/using/preferences/prefs-toolbox.xml:51(primary)
+#: src/using/preferences/prefs-toolbox.xml:50(primary)
 msgid "Color area"
 msgstr "Area colore"
 
-#: src/using/preferences/prefs-toolbox.xml:55(primary)
+#: src/using/preferences/prefs-toolbox.xml:54(primary)
 msgid "Brush, Pattern, Gradient area"
 msgstr "Pennello, Motivo, Area gradiente"
 
-#: src/using/preferences/prefs-toolbox.xml:59(primary)
+#: src/using/preferences/prefs-toolbox.xml:58(primary)
 #: src/using/preferences/prefs-image-window.xml:85(primary)
 msgid "Image"
 msgstr "Immagine"
 
-#: src/using/preferences/prefs-toolbox.xml:60(secondary)
+#: src/using/preferences/prefs-toolbox.xml:59(secondary)
 msgid "Active Image Thumbnail"
 msgstr "Miniatura immagine attiva"
 
-#: src/using/preferences/prefs-toolbox.xml:63(term)
+#: src/using/preferences/prefs-toolbox.xml:62(term)
 msgid "Show foreground and background color"
 msgstr "Mostra i colori di primo piano e di sfondo"
 
-#: src/using/preferences/prefs-toolbox.xml:65(para)
+#: src/using/preferences/prefs-toolbox.xml:64(para)
 msgid "Controls whether the color area on the left (2) appears in the Toolbox."
 msgstr ""
 "Controlla la visualizzazione dell'area colore sul fondo a sinistra (2) del "
 "pannello degli strumenti."
 
-#: src/using/preferences/prefs-toolbox.xml:72(term)
+#: src/using/preferences/prefs-toolbox.xml:71(term)
 msgid "Show active brush, pattern, and gradient"
 msgstr "Mostra i pennelli, motivi e gradienti attivi"
 
-#: src/using/preferences/prefs-toolbox.xml:74(para)
+#: src/using/preferences/prefs-toolbox.xml:73(para)
 msgid ""
 "Controls whether the area in the center (3), with the brush, pattern, and "
 "gradient icons, appears in the Toolbox."
@@ -584,11 +584,11 @@ msgstr ""
 "al centro (3) con le icone del pennello, motivo e gradiente attivi "
 "correntemente."
 
-#: src/using/preferences/prefs-toolbox.xml:82(term)
+#: src/using/preferences/prefs-toolbox.xml:81(term)
 msgid "Show active image"
 msgstr "Mostra immagine attiva"
 
-#: src/using/preferences/prefs-toolbox.xml:84(para)
+#: src/using/preferences/prefs-toolbox.xml:83(para)
 msgid ""
 "Controls whether a preview of the currently active image appears on the "
 "right (4)."
@@ -596,15 +596,15 @@ msgstr ""
 "Controlla la visualizzazione di un'anteprima dell'immagine correntemente "
 "attiva in fondo a destra (4) del pannello degli strumenti."
 
-#: src/using/preferences/prefs-toolbox.xml:93(title)
+#: src/using/preferences/prefs-toolbox.xml:92(title)
 msgid "Tools configuration"
 msgstr "Configurazione degli strumenti"
 
-#: src/using/preferences/prefs-toolbox.xml:96(secondary)
+#: src/using/preferences/prefs-toolbox.xml:95(secondary)
 msgid "Configuration"
 msgstr "Configurazione"
 
-#: src/using/preferences/prefs-toolbox.xml:101(para)
+#: src/using/preferences/prefs-toolbox.xml:100(para)
 msgid ""
 "In this list, tools with an eye are present in the Toolbox. By default, "
 "color tools have no eye: you can add them to the Toolbox by clicking the "
@@ -615,7 +615,13 @@ msgstr ""
 "sono abilitati: si possono aggiungere al pannello strumenti facendo clic "
 "sulla casella corrispondente."
 
-#: src/using/preferences/prefs-toolbox.xml:106(para)
+#: src/using/preferences/prefs-toolbox.xml:105(para)
+msgid ""
+"You can also sort tools by priority using the arrow up and down buttons at "
+"the bottom of the dialog."
+msgstr "È inoltre possibile ordinare gli strumenti per priorità usando i pulsanti freccia presenti in fondo alla finestra di dialogo."
+
+#: src/using/preferences/prefs-toolbox.xml:109(para)
 msgid ""
 "This option replaces the Tools Dialog of former <acronym>GIMP</acronym> "
 "versions."
@@ -707,7 +713,7 @@ msgstr ""
 #: src/using/preferences/prefs-interface.xml:35(None)
 msgid ""
 "@@image: 'images/preferences/prefs-interface.png'; "
-"md5=efd11dcdb868cc6ab7a935f1e61386ed"
+"md5=79ed12a2df384083fc68f500d66b3e60"
 msgstr " "
 
 #: src/using/preferences/prefs-interface.xml:10(title)
@@ -738,23 +744,38 @@ msgstr "Varie preferenze sull'interfaccia utente"
 
 #: src/using/preferences/prefs-interface.xml:38(para)
 msgid ""
-"This page lets you customize layer/channel previews and keyboard shortcuts."
-msgstr ""
-"Questa pagina permette la personalizzazione delle anteprime livelli/canali e "
-"dei tasti scorciatoia."
+"This page lets you customize language, layer/channel previews and keyboard "
+"shortcuts."
+msgstr "Questa pagina permette la personalizzazione della lingua, dei livelli/canali e dei tasti scorciatoia."
 
 #: src/using/preferences/prefs-interface.xml:49(primary)
-#: src/using/preferences/prefs-interface.xml:55(term)
+msgid "Languages"
+msgstr "Lingue"
+
+#: src/using/preferences/prefs-interface.xml:52(primary)
+#: src/using/preferences/prefs-interface.xml:69(term)
 msgid "Previews"
 msgstr "Anteprime"
 
-#: src/using/preferences/prefs-interface.xml:52(primary)
-#: src/using/preferences/prefs-interface.xml:69(varlistentry:xreflabel)
-#: src/using/preferences/prefs-interface.xml:70(term)
+#: src/using/preferences/prefs-interface.xml:55(primary)
+#: src/using/preferences/prefs-interface.xml:83(varlistentry:xreflabel)
+#: src/using/preferences/prefs-interface.xml:84(term)
 msgid "Keyboard Shortcuts"
 msgstr "Tasti scorciatoia"
 
-#: src/using/preferences/prefs-interface.xml:57(para)
+#: src/using/preferences/prefs-interface.xml:58(term)
+msgid "Language"
+msgstr "Lingua"
+
+#: src/using/preferences/prefs-interface.xml:60(para)
+msgid ""
+"The GIMP's default language is that of your system. You can select another "
+"language in the drop-down list. You have to start GIMP again to make this "
+"change effective. Please refer to <xref linkend=\"gimp-concepts-running-"
+"language\"/>."
+msgstr "La lingua predefinita di GIMP è quella del sistema. È possibile impostare un'altra lingua selezionandola dal menu a discesa. È necessario riavviare GIMP per poter rendere questa modifica effettiva. Per i particolari fare riferimento alla sezione <xref linkend=\"gimp-concepts-running-language\"/>."
+
+#: src/using/preferences/prefs-interface.xml:71(para)
 msgid ""
 "By default, GIMP shows miniature previews of the contents of layers and "
 "channels in several places, including the Layers dialog. If for some reason "
@@ -763,17 +784,9 @@ msgid ""
 "previews to be shown, you can customize their sizes using the menus for "
 "<guilabel>Default layer and channel preview size</guilabel> and "
 "<guilabel>Navigation preview size</guilabel>."
-msgstr ""
-"Il comportamento predefinito di GIMP è di mostrare delle miniature delle "
-"anteprime dei contenuti dei livelli e dei canali in più posizioni, compresa "
-"la finestra dei livelli. Se per qualche motivo si desiderasse disabilitarle, "
-"si può agire sull'opzione <quote>Abilita anteprime del livello e del canale</"
-"quote>. Se invece si desidera visualizzare le anteprime, è possibile "
-"personalizzarne le dimensioni usando i menu a discesa <quote>Dimensione "
-"predefinita anteprime di livello e del canale</quote> e <quote>Dimensione "
-"anteprima di navigazione</quote>."
+msgstr "Il comportamento predefinito di GIMP è di mostrare delle miniature delle anteprime dei contenuti dei livelli e dei canali in più posizioni, compresa la finestra dei livelli. Se per qualche motivo si desiderasse disabilitarle, si può agire sull'opzione <guilabel>Abilita anteprime del livello e del canale</guilabel>. Se invece si desidera visualizzare le anteprime, è possibile personalizzarne le dimensioni usando i menu a discesa <guilabel>Dimensione predefinita anteprime di livello e del canale</guilabel> e <guilabel>Dimensione anteprima di navigazione</guilabel>."
 
-#: src/using/preferences/prefs-interface.xml:72(para)
+#: src/using/preferences/prefs-interface.xml:86(para)
 msgid ""
 "Any menu item can be activated by holding down <keycap>Alt</keycap> and "
 "pressing a sequence of keys. Normally, the key associated with each menu "
@@ -782,17 +795,9 @@ msgid ""
 "to go away (maybe because you think they're ugly and you don't use them "
 "anyway), then you can make this happen by unchecking <guilabel>Show menu "
 "mnemonics</guilabel>."
-msgstr ""
-"Qualsiasi voce di menu può essere attivata mantenendo premuto il tasto "
-"<keycap>Alt</keycap> e premendo una sequenza di tasti. Normalmente, il tasto "
-"associato con ogni voce di menu viene mostrato con una lettera sottolineata "
-"nel testo. La lettera viene chiamata <emphasis>acceleratore</emphasis>. Se "
-"per qualche motivo si desiderasse far sparire le sottolineature (per esempio "
-"perché le si considera orribili ed in ogni caso non le si usa), è possibile "
-"farlo togliendo la spunta alla voce <quote>Mostra mnemonici menu (tasti di "
-"accesso)</quote>."
+msgstr "Qualsiasi voce di menu può essere attivata mantenendo premuto il tasto <keycap>Alt</keycap> e premendo una sequenza di tasti. Normalmente, il tasto associato con ogni voce di menu viene mostrato con una lettera sottolineata nel testo. La lettera viene chiamata <emphasis>acceleratore</emphasis>. Se per qualche motivo si desiderasse far sparire le sottolineature (per esempio perché le si considera orribili ed in ogni caso non le si usa), è possibile farlo togliendo la spunta alla voce <guilabel>Mostra mnemonici menu (tasti di accesso)</guilabel>."
 
-#: src/using/preferences/prefs-interface.xml:83(para)
+#: src/using/preferences/prefs-interface.xml:97(para)
 msgid ""
 "GIMP can give you the ability to create keyboard shortcuts (key combinations "
 "that activate a menu entry) dynamically, by pressing the keys while the "
@@ -800,26 +805,16 @@ msgid ""
 "disabled by default, because it might lead novice users to accidentally "
 "overwrite the standard keyboard shortcuts. If you want to enable it, check "
 "<guilabel>Use dynamics keyboard shortcuts</guilabel> here."
-msgstr ""
-"GIMP dà la possibilità di creare dei tasti acceleratori (combinazioni di "
-"tasti che attivano una voce di menu) dinamicamente, premendo dei tasti "
-"mentre con il puntatore del mouse si passa sopra la voce di menu desiderata. "
-"Comunque questa funzionalità è normalmente disabilitata perché può portare "
-"gli utenti inesperti a cancellare accidentalmente le scorciatoie da tastiera "
-"predefinite. Se la si vuole abilitare, basta spuntare la voce <quote>Usa "
-"tasti scorciatoia dinamici</quote>."
+msgstr "GIMP dà la possibilità di creare dei tasti acceleratori (combinazioni di tasti che attivano una voce di menu) dinamicamente, premendo dei tasti mentre con il puntatore del mouse si passa sopra la voce di menu desiderata. Comunque questa funzionalità è normalmente disabilitata perché può portare gli utenti inesperti a cancellare accidentalmente le scorciatoie da tastiera predefinite. Se la si vuole abilitare, basta spuntare la voce <guilabel>Usa tasti scorciatoia dinamici</guilabel>."
 
-#: src/using/preferences/prefs-interface.xml:93(para)
+#: src/using/preferences/prefs-interface.xml:107(para)
 msgid ""
 "Pressing the button for <guilabel>Configure Keyboard Shortcuts</guilabel> "
 "brings up the Shortcut Editor, which gives you a graphical interface to "
 "select menu items and assign shortcuts to them."
-msgstr ""
-"Premendo il pulsante <quote>Configura tasti scorciatoia</quote> si porta in "
-"primo piano l'editor delle scorciatoie, che fornisce un'interfaccia grafica "
-"per selezionare le voci di menu ed assegnarvi delle scorciatoie."
+msgstr "Premendo il pulsante <guilabel>Configura tasti scorciatoia</guilabel> si porta in primo piano l'editor delle scorciatoie, che fornisce un'interfaccia grafica per selezionare le voci di menu ed assegnarvi delle scorciatoie."
 
-#: src/using/preferences/prefs-interface.xml:99(para)
+#: src/using/preferences/prefs-interface.xml:113(para)
 msgid ""
 "If you change shortcuts, you will probably want your changes to continue to "
 "apply in future GIMP sessions. If not, uncheck <guilabel>Save keyboard "
@@ -1108,10 +1103,7 @@ msgstr ""
 msgid ""
 "You will find an example of these notions in <link linkend=\"gimp-using-"
 "variable-size-brush\"> Creating a variable size brush </link>."
-msgstr ""
-"Si può trovare un esempio su questo argomento in You will find an example of "
-"these notions in <link linkend=\"gimp-using-variable-size-brush\"> Creazione "
-"di un pennello a dimensione variabile </link>."
+msgstr "Si può trovare un esempio su questo argomento nella sezione <link linkend=\"gimp-using-variable-size-brush\">Creazione di un pennello a dimensione variabile</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1234,14 +1226,7 @@ msgid ""
 "zoom. If you choose the second option, and the image is too large to fit on "
 "your display, then the image window will show only part of it (but you will "
 "be able to scroll to other parts)."
-msgstr ""
-"È possibile scegliere di avere le immagini scalate in modo che stiano entro "
-"il display o che vengano mostrate con un rapporto di zoom fisso a 1:1 alla "
-"prima apertura di queste. Se si sceglie la seconda opzione e l'immagine è "
-"troppo grande per essere visualizzata sul proprio schermo con questo fattore "
-"di scala, la finestra ne visualizzarà solo una parte, anche se sarà comunque "
-"possibile agire su ogni parte dell'immagine usando le barre di scorrimento "
-"orizzontale o verticale."
+msgstr "È possibile scegliere di avere le immagini scalate in modo che stiano entro il display o che vengano mostrate con un rapporto di zoom fisso a 1:1 alla prima apertura di queste. Se si sceglie la seconda opzione e l'immagine è troppo grande per essere visualizzata sul proprio schermo con questo fattore di scala, la finestra ne visualizzerà solo una parte, anche se sarà comunque possibile agire su ogni parte dell'immagine usando le barre di scorrimento orizzontale o verticale."
 
 #: src/using/preferences/prefs-image-window.xml:125(title)
 #: src/using/preferences/prefs-image-window.xml:127(primary)
@@ -1616,13 +1601,7 @@ msgid ""
 "on an image-specific basis using entries in the View menu. See the <link "
 "linkend=\"gimp-image-window\">Image Window</link> section for information on "
 "the meaning of the entries."
-msgstr ""
-"Questa pagine permette di personalizzare l'aspetto predefinito delle "
-"finestre immagine, per la modalità normale e per la modalita a schermo "
-"pieno. Tutte le impostazioni possono essere modificate per ogni immagine in "
-"maniera indipendente agendo sulle voci presenti nel menu visualizza. Vedere "
-"la sezione <link linkend=\"gimp-image-window\">Finestra immagine</link> per "
-"informazioni sul significato delle singole voci."
+msgstr "Questa pagina permette di personalizzare l'aspetto predefinito delle finestre immagine, per la modalità normale e per la modalità a schermo pieno. Tutte le impostazioni possono essere modificate per ogni immagine in maniera indipendente agendo sulle voci presenti nel menu visualizza. Vedere la sezione <link linkend=\"gimp-image-window\">Finestra immagine</link> per informazioni sul significato delle singole voci."
 
 #: src/using/preferences/prefs-image-window-appearance.xml:39(para)
 msgid ""
@@ -1634,16 +1613,7 @@ msgid ""
 "dark colors specified for checks, such as represent transparent parts of the "
 "image; or to use a custom color, which can be set using the color button for "
 "<quote>Custom padding color</quote>."
-msgstr ""
-"Le uniche parti che potrebbero necessitare di spiegazioni sono gli "
-"riempimenti. Lo <quote>riempimento</quote> è il colore mostrato attorno ai "
-"bordi dell'immagine, se essa non occupa tutta l'area visualizzata (in tutte "
-"le figure qui presenti è rappresentato da un colore grigio chiaro). È "
-"possibile scegliere tra quattro colori per lo riempimento: usare il colore "
-"specificato dal tema corrente; usare i colori chiari e scuri specificati per "
-"gli scacchi come per la rappresentazione delle immagini trasparenti; o usare "
-"un colore personalizzato, impostabile tramite il tasto <quote>colore "
-"personalizzato di riempimento</quote>."
+msgstr "Le uniche parti che potrebbero necessitare di spiegazioni sono i riempimenti. Il <quote>riempimento</quote> è il colore mostrato attorno ai bordi dell'immagine, se essa non occupa tutta l'area visualizzata (in tutte le figure qui presenti è rappresentato da un colore grigio chiaro). È possibile scegliere tra quattro colori per il riempimento: usare il colore specificato dal tema corrente; usare i colori chiari e scuri specificati per gli scacchi come per la rappresentazione delle immagini trasparenti; o usare un colore personalizzato, impostabile tramite il tasto <quote>colore personalizzato di riempimento</quote>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2085,12 +2055,7 @@ msgid ""
 "This is the amount of undo memory allocated for each image. If the Undo "
 "History size exceeds this, the oldest points are deleted, unless this would "
 "result in fewer points being present than the minimal number specified above."
-msgstr ""
-"Questo è l'ammontare massimo di memoria allocata per gli annullamenti di "
-"ogni immagine. Se la dimensione della cronologia degli annullamenti eccede "
-"questo limite, le voci più vecchie vengono eliminate, a meno che il numero "
-"di voci non sia più piccolo del numero minimo specificato in nell'opzione "
-"precedentemente descritta."
+msgstr "Questo è l'ammontare massimo di memoria allocata per gli annullamenti di ogni immagine. Se la dimensione della cronologia degli annullamenti eccede questo limite, le voci più vecchie vengono eliminate, a meno che il numero di voci non sia più piccolo del numero minimo specificato nell'opzione precedentemente descritta."
 
 #: src/using/preferences/prefs-environment.xml:70(term)
 msgid "Tile cache size"
@@ -2138,9 +2103,7 @@ msgstr "Numero di processori da usare"
 
 #: src/using/preferences/prefs-environment.xml:98(para)
 msgid "Default is one. Your computer may have more than one processor."
-msgstr ""
-"Il valore predefinito è uno. Il vostro computer però potrebbe essere "
-"equipaggiato da più di processore."
+msgstr "Il valore predefinito è uno. Il vostro computer però potrebbe essere equipaggiato da più di un processore."
 
 #: src/using/preferences/prefs-environment.xml:105(title)
 msgid "Image Thumbnails"
@@ -2339,11 +2302,7 @@ msgstr "La finestra di dialogo di calibrazione monitor"
 msgid ""
 "My monitor was impressively off when I tried the Calibrate Dialog. The "
 "<quote>Calibrate Game</quote> is fun to play. You will need a soft ruler."
-msgstr ""
-"Il monitor dell'autore era impostato in maniera completamente errata, la "
-"prima volta che si tentò di calibrarlo. Il <quote>Gioco della calibratura "
-"del monitor</quote> è semplice e divertente. Per <quote>giocarlo</quote> è "
-"utile avere un metro pieghevole."
+msgstr "Il monitor dell'autore era impostato in maniera completamente errata, la prima volta che si tentò di calibrarlo. Il <quote>Gioco della calibratura del monitor</quote> è semplice e divertente. Per giocarlo è utile avere un metro pieghevole."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2820,4 +2779,5 @@ msgstr ""
 #: src/using/preferences/preferences_introduction.xml:0(None)
 msgid "translator-credits"
 msgstr ""
-"Marco Ciampa <ciampix@libero.it>, 2005, 2006, 2007, 2008, 2009, 2010, 2011."
+"Marco Ciampa <ciampix@libero.it>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, "
+"2012."

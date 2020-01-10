@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- This file is part of the gimp-help-2 project and is
-     (C) 2002, 2003, 2004, 2005, 2006 Daniel Egger, Róman Joost
+     (C) 2002-2012 Daniel Egger, Róman Joost
      You may use this file in accordance to the GNU General Public License
      Version 2 which is available from http://www.gnu.org.
 -->
@@ -8,6 +8,7 @@
     xmlns="http://www.w3.org/1999/xhtml">
 
   <xsl:import href="@STYLEBASE@/xhtml/chunk.xsl" />
+  <xsl:import href="languageMenu.xsl" />
   <xsl:import href="float-images.xsl" />
   <xsl:include href="htmlalternate.xsl" />
 
@@ -64,6 +65,10 @@
   <xsl:param name="targets.filename" select="'gimp-xrefs.xml'" />
   <xsl:param name="toc.section.depth" select="2" />
   <xsl:param name="use.id.as.filename">1</xsl:param>
+  <xsl:param name="gimp.help.languageselector">0</xsl:param>
+  <xsl:param name="gimp.help.all_linguas">@ALL_LINGUAS@</xsl:param>
+  <!-- Quick access to report bugs in our Bugzilla Bug: 711318 -->
+  <xsl:param name="gimphelp.reportbug" select="//ulink[@id='reportbug']" />
 
   <!-- Add NotInToc role to simplesect, which is using in fdl.xml to
   deal with FDL-In-TOC issue.
@@ -173,6 +178,17 @@
         </xsl:if>
         <xsl:if test="$header.rule != 0">
           <hr/>
+        </xsl:if>
+        <xsl:if test="$gimp.help.languageselector != 0">
+          <div class="show_other_language">
+            <xsl:variable name="filename">
+              <xsl:call-template name="href.target" />
+            </xsl:variable>
+            <xsl:call-template name="gimp.help.linguas.tokenize">
+              <xsl:with-param name="linguas" select="normalize-space($gimp.help.all_linguas)"/>
+              <xsl:with-param name="filename" select="$filename" />
+            </xsl:call-template>
+          </div>
         </xsl:if>
       </div>
     </xsl:if>
@@ -321,6 +337,15 @@
             </xsl:if>
           </table>
         </xsl:if>
+        <a>
+          <xsl:attribute name="href">
+            <xsl:value-of select="$gimphelp.reportbug/@url"/>
+          </xsl:attribute>
+          <xsl:attribute name="class">
+            <xsl:value-of select="$gimphelp.reportbug/@id"/>
+          </xsl:attribute>
+          <xsl:value-of select="$gimphelp.reportbug" />
+        </a>
       </div>
     </xsl:if>
   </xsl:template>

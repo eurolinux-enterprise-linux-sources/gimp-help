@@ -12,19 +12,122 @@
       <listitem>
         <simplelist type="inline">
           <member>
-            <phrase>Axel Wernicke (German, English)</phrase>
+            <phrase>Alex Muñoz (Spanish)</phrase>
           </member>
           <member>
-            <phrase>Róman Joost (German, English)</phrase>
+            <phrase>Alexandre Franke (French)</phrase>
           </member>
           <member>
-            <phrase>Ulf-D. Ehlert (German)</phrase>
+            <phrase>Alexandre Prokoudine (Russian)</phrase>
+          </member>
+          <member>
+            <phrase>Angelo Córdoba Inunza (Spanish)</phrase>
+          </member>
+          <member>
+            <phrase>Christian Kirbach (German)</phrase>
+          </member>
+          <member>
+            <phrase>Daniel Francis (Spanish)</phrase>
+          </member>
+          <member>
+            <phrase>Daniel Mustieles (Spanish)</phrase>
+          </member>
+          <member>
+            <phrase>Daniel Winzen (German)</phrase>
+          </member>
+          <member>
+            <phrase>Delin Chang (Chinese)</phrase>
+          </member>
+          <member>
+            <phrase>Dimitris Spingos (Greek)</phrase>
+          </member>
+          <member>
+            <phrase>Djavan Fagundes (Brasilian)</phrase>
+          </member>
+          <member>
+            <phrase>Enrico Nicoletto (Brasilian)</phrase>
+          </member>
+          <member>
+            <phrase>Felipe Ribeiro (Brasilian)</phrase>
+          </member>
+          <member>
+            <phrase>Guiu Rocafort (Spanish)</phrase>
+          </member>
+          <member>
+            <phrase>Jiro Matsuzawa (Japanese)</phrase>
+          </member>
+          <member>
+            <phrase>Joe Hansen (Danish)</phrase>
+          </member>
+          <member>
+            <phrase>João S. O. Bueno (Brasilian)</phrase>
+          </member>
+          <member>
+            <phrase>Julien Hardelin (French, English)</phrase>
+          </member>
+          <member>
+            <phrase>Kenneth Nielsen (Danish)</phrase>
+          </member>
+          <member>
+            <phrase>Kolbjørn Stuestøl (Norwegian)</phrase>
           </member>
           <member>
             <phrase>Marco Ciampa (Italian)</phrase>
           </member>
           <member>
-            <phrase>Julien Hardelin (French, English)</phrase>
+            <phrase>María Majadas (Spanish)</phrase>
+          </member>
+          <member>
+            <phrase>Milagros Infante Montero (Spanish)</phrase>
+          </member>
+          <member>
+            <phrase>Milo Casagrande (Italian)</phrase>
+          </member>
+          <member>
+            <phrase>Piotr Drąg (Polish)</phrase>
+          </member>
+          <member>
+            <phrase>Rafael Ferreira (Brasilian)</phrase>
+          </member>
+          <member>
+            <phrase>Róman Joost (German, English)</phrase>
+          </member>
+          <member>
+            <phrase>Seong-ho Cho (Korean)</phrase>
+          </member>
+          <member>
+            <phrase>SimaMoto,RyōTa (島本良太) (Japanese)</phrase>
+          </member>
+          <member>
+            <phrase>Sven Claussner (German, English)</phrase>
+          </member>
+          <member>
+            <phrase>Timo Jyrinki (Finnish)</phrase>
+          </member>
+          <member>
+            <phrase>Ulf-D. Ehlert (German)</phrase>
+          </member>
+          <member>
+            <phrase>Vitaly Lomov (Russian)</phrase>
+          </member>
+          <member>
+            <phrase>Willer Gomes Junior (Brasilian)</phrase>
+          </member>
+          <member>
+            <phrase>Yuri Myasoedov (Russian)</phrase>
+          </member>
+        </simplelist>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Proof Reading</term>
+      <listitem>
+        <simplelist type="inline">
+          <member>
+            <phrase>Stéphane Poumaer (French)</phrase>
+          </member>
+          <member>
+            <phrase>Axel Wernicke (German, English)</phrase>
           </member>
           <member>
             <phrase>Alessandro Falappa (Italian)</phrase>
@@ -51,21 +154,8 @@
             <phrase>Patrycja Stawiarska (Polish)</phrase>
           </member>
           <member>
-            <phrase>Kolbjørn Stuestøl (Norwegian)</phrase>
-          </member>
-          <member>
             <phrase>Andrew Pitonyak (English)</phrase>
           </member>
-          <member>
-            <phrase>SimaMoto,RyōTa (島本良太) (Japanese)</phrase>
-          </member>
-        </simplelist>
-      </listitem>
-    </varlistentry>
-    <varlistentry>
-      <term>Proof Reading</term>
-      <listitem>
-        <simplelist type="inline">
           <member>
             <phrase>Jakub Friedl (Czech, English)</phrase>
           </member>
@@ -178,9 +268,6 @@
             <phrase>Roxana Chernogolova (Russian)</phrase>
           </member>
           <member>
-            <phrase>Alexandre Prokoudine (Russian)</phrase>
-          </member>
-          <member>
             <phrase>Grigory Bakunov (Russian)</phrase>
           </member>
           <member>
@@ -207,6 +294,9 @@
           <member>
             <phrase>Daniel Hornung (English)</phrase>
           </member>
+          <member>
+            <phrase>Sven Claussner (English, German)</phrase>
+          </member>
         </simplelist>
       </listitem>
     </varlistentry>
@@ -228,10 +318,13 @@
       <listitem>
         <simplelist type="inline">
           <member>
-            <phrase>Axel Wernicke</phrase>
+            <phrase>Kenneth Nielsen</phrase>
           </member>
           <member>
             <phrase>Róman Joost</phrase>
+          </member>
+          <member>
+            <phrase>Axel Wernicke</phrase>
           </member>
           <member>
             <phrase>Nickolay V. Shmyrev</phrase>

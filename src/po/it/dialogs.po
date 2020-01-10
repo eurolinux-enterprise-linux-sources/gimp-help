@@ -1,14 +1,18 @@
+#
+# Marco Ciampa <ciampix@libero.it>, 2005-2013.
+# Milo Casagrande <milo@ubuntu.com>, 2013.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Manual\n"
-"POT-Creation-Date: 2012-06-01 18:50+1000\n"
-"PO-Revision-Date: 2012-04-29 19:23+0200\n"
+"POT-Creation-Date: 2013-11-06 16:51+0100\n"
+"PO-Revision-Date: 2013-11-06 16:54+0100\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
-"Language-Team: Italian <it@li.org>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8-bit\n"
 "#-#-#-#-#  brushes-dialog.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  buffers-dialog.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  channel-dialog.po (PACKAGE VERSION)  #-#-#-#-#\n"
@@ -43,6 +47,7 @@ msgstr ""
 "#-#-#-#-#  templates-dialog.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  tools-dialog.po (PACKAGE VERSION)  #-#-#-#-#\n"
 "#-#-#-#-#  undo-history-dialog.po (PACKAGE VERSION)  #-#-#-#-#\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -112,7 +117,7 @@ msgstr ""
 #: src/dialogs/patterns-dialog.xml:46(title)
 #: src/dialogs/path-dialog.xml:42(title)
 #: src/dialogs/palettes-dialog.xml:53(title)
-#: src/dialogs/navigation-dialog.xml:34(title)
+#: src/dialogs/navigation-dialog.xml:52(title)
 #: src/dialogs/layer-dialog.xml:60(title)
 #: src/dialogs/indexed-palette-dialog.xml:46(title)
 #: src/dialogs/images-dialog.xml:39(title)
@@ -137,7 +142,7 @@ msgstr ""
 #: src/dialogs/patterns-dialog.xml:52(para)
 #: src/dialogs/path-dialog.xml:48(para)
 #: src/dialogs/palettes-dialog.xml:58(para)
-#: src/dialogs/navigation-dialog.xml:40(para)
+#: src/dialogs/navigation-dialog.xml:58(para)
 #: src/dialogs/layer-dialog.xml:66(para)
 #: src/dialogs/indexed-palette-dialog.xml:51(para)
 #: src/dialogs/images-dialog.xml:44(para)
@@ -437,7 +442,7 @@ msgstr ""
 "strumento per le preimpostazioni selezionate. Si possono modificare le "
 "preimpostazioni che si è create mentre le preimpostazioni opzionali "
 "predefinite sono tutte disabilitate. Per modificare queste ultime basta "
-"creare una nuova preimpostazione da una predefinita e così si potra "
+"creare una nuova preimpostazione da una predefinita e così si potrà "
 "modificarne le opzioni e salvarla. <placeholder-1/> L'editor delle "
 "preimpostazioni dello strumento è descritto in <xref linkend=\"tool-preset-"
 "editor\"/>."
@@ -937,20 +942,20 @@ msgstr ""
 #: src/dialogs/save-file-dialog.xml:22(None)
 msgid ""
 "@@image: 'images/using/save-message.png'; "
-"md5=da96fa7596dc2d6e5e9a4d5921f6848f"
+"md5=50bdc783b38746ab4d42cfa93cfc383e"
 msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/save-file-dialog.xml:46(None)
+#: src/dialogs/save-file-dialog.xml:48(None)
 msgid ""
 "@@image: 'images/using/save-image-dialog.png'; "
-"md5=3f56a0964e3be0073960f3340c9152f2"
+"md5=a7292ed267fe34c8750323158d0e3a2b"
 msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/save-file-dialog.xml:92(None)
+#: src/dialogs/save-file-dialog.xml:101(None)
 msgid ""
 "@@image: 'images/using/save-select-file-type.png'; "
 "md5=052b52f2c4f4eae50068d0b3e2389753"
@@ -971,8 +976,8 @@ msgstr "Salva l'immagine"
 
 #: src/dialogs/save-file-dialog.xml:10(tertiary)
 #: src/dialogs/save-file-dialog.xml:13(primary)
-#: src/dialogs/palettes-dialog.xml:706(phrase)
-#: src/dialogs/gradient-editor-dialog.xml:187(phrase)
+#: src/dialogs/palettes-dialog.xml:719(phrase)
+#: src/dialogs/gradient-editor-dialog.xml:188(phrase)
 msgid "Save"
 msgstr "Salva"
 
@@ -981,15 +986,12 @@ msgid ""
 "The <guimenuitem>Save</guimenuitem> command saves your image to disk. With "
 "<acronym>GIMP</acronym>-2.8, this command saves in XCF format only. If you "
 "try to save to a format other than XCF, you get an error message: "
-"<placeholder-1/> Please see <xref linkend=\"save-export-image\"/>."
-msgstr ""
-"Il comando <guimenuitem>Salva</guimenuitem> salva l'immagine su disco. Con "
-"<acronym>GIMP</acronym>-2.8, questo comando salva solo in formato XCF. Se si "
-"tenta di salvare in un formato diverso dall'XCF, si ottiene solo un "
-"messaggio di errore: <placeholder-1/> Consultare <xref linkend=\"save-export-"
-"image\"/>."
+"<placeholder-1/> Starting from <acronym>GIMP</acronym>-2.8.8, the error "
+"dialog sports a link that jumps directly to the export command dialog. "
+"Please see <xref linkend=\"save-export-image\"/>."
+msgstr "Il comando <guimenuitem>Salva</guimenuitem> salva l'immagine su disco. Con <acronym>GIMP</acronym>-2.8, questo comando salva solo in formato XCF. Se si tenta di salvare in un formato diverso dall'XCF, si ottiene solo un messaggio di errore: <placeholder-1/> A cominciare dalla versione di <acronym>GIMP</acronym>-2.8.8 la finestra di errore mostra un collegamento che porta l'utente direttamente alla finestra di dialogo del comando di esportazione. Consultare <xref linkend=\"save-export-image\"/>."
 
-#: src/dialogs/save-file-dialog.xml:27(para)
+#: src/dialogs/save-file-dialog.xml:29(para)
 msgid ""
 "If you have already saved the image, the previous image file is overwritten "
 "with the current version. If you have not already saved the image, the "
@@ -1000,7 +1002,7 @@ msgstr ""
 "comando <guimenuitem>Salva</guimenuitem> apre la finestra di dialogo "
 "corrispondente."
 
-#: src/dialogs/save-file-dialog.xml:34(para)
+#: src/dialogs/save-file-dialog.xml:36(para)
 msgid ""
 "If you quit without having saved your image, <acronym>GIMP</acronym> asks "
 "you if you really want to do so, if the <quote>Confirm closing of unsaved "
@@ -1013,25 +1015,25 @@ msgstr ""
 "linkend=\"gimp-prefs-environment\">Ambiente</link> della finestra delle "
 "preferenze."
 
-#: src/dialogs/save-file-dialog.xml:43(title)
+#: src/dialogs/save-file-dialog.xml:45(title)
 msgid "Save Image Dialog"
 msgstr "La finestra di dialogo di salvataggio delle immagini"
 
-#: src/dialogs/save-file-dialog.xml:52(title)
+#: src/dialogs/save-file-dialog.xml:54(title)
 msgid "Activate the Dialog"
 msgstr "Attivazione della finestra"
 
-#: src/dialogs/save-file-dialog.xml:55(para)
+#: src/dialogs/save-file-dialog.xml:57(para)
 msgid ""
 "You can access this command in the image menu bar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></"
 "menuchoice>,"
 msgstr ""
-"questo comando è raggiungibile dalla barra del menu immagine tramite "
+"Questo comando è raggiungibile dalla barra del menu immagine tramite "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Salva</guimenuitem></"
 "menuchoice>,"
 
-#: src/dialogs/save-file-dialog.xml:64(para)
+#: src/dialogs/save-file-dialog.xml:66(para)
 msgid ""
 "or from the keyboard by using the shortcut <keycombo><keycap>Ctrl</"
 "keycap><keycap>S</keycap></keycombo>."
@@ -1039,11 +1041,19 @@ msgstr ""
 "o attraverso la combinazione di tasti: <keycombo><keycap>Ctrl</"
 "keycap><keycap>S</keycap></keycombo>."
 
-#: src/dialogs/save-file-dialog.xml:73(title)
+#: src/dialogs/save-file-dialog.xml:72(para)
+msgid ""
+"Use <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>S</keycap></"
+"keycombo> to save the opened image with a different name."
+msgstr ""
+"Usare <keycombo><keycap>Ctrl</keycap><keycap>Maiusc</keycap><keycap>S</"
+"keycap></keycombo> per salvare l'immagine aperta con un nome diverso."
+
+#: src/dialogs/save-file-dialog.xml:82(title)
 msgid "The Save Image Dialog"
 msgstr "La finestra di dialogo di salvataggio delle immagini"
 
-#: src/dialogs/save-file-dialog.xml:74(para)
+#: src/dialogs/save-file-dialog.xml:83(para)
 msgid ""
 "With this file browser, you can edit filename directly in name box (default "
 "is <quote>Untitled.xcf</quote>) or by selecting a file in name list. We "
@@ -1058,12 +1068,12 @@ msgstr ""
 "destinazione dell'immagine con <guilabel>Salva nella cartella</guilabel>. Se "
 "necessario, è anche possibile creare una nuova cartella."
 
-#: src/dialogs/save-file-dialog.xml:83(title)
+#: src/dialogs/save-file-dialog.xml:92(title)
 #: src/dialogs/export-file-dialog.xml:49(title)
 msgid "Select File Type"
 msgstr "Seleziona il tipo di file"
 
-#: src/dialogs/save-file-dialog.xml:84(para)
+#: src/dialogs/save-file-dialog.xml:93(para)
 msgid ""
 "If you develop this option, you can select a compressed format for your XCF "
 "file:"
@@ -1075,7 +1085,7 @@ msgstr ""
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/sample-points.xml:55(None)
 #: src/dialogs/pointer-dialog.xml:62(None)
-#: src/dialogs/navigation-dialog.xml:60(None)
+#: src/dialogs/navigation-dialog.xml:78(None)
 #: src/dialogs/error-console.xml:50(None)
 #: src/dialogs/error-console.xml:134(None)
 msgid ""
@@ -1086,7 +1096,6 @@ msgstr " "
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/sample-points.xml:79(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/using/pointer-reticle.png'; "
 "md5=b8fd47dd468d1c1df933d537d37d1390"
@@ -1103,7 +1112,6 @@ msgstr " "
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/sample-points.xml:128(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/dialogs/sample-points-dialog.png'; "
 "md5=365b9c53f487c848bf000d150436d67e"
@@ -1117,7 +1125,7 @@ msgstr "Finestra <quote>punti di campionamento</quote>"
 #: src/dialogs/patterns-dialog.xml:21(secondary)
 #: src/dialogs/path-dialog.xml:20(secondary)
 #: src/dialogs/palettes-dialog.xml:22(secondary)
-#: src/dialogs/navigation-dialog.xml:14(secondary)
+#: src/dialogs/navigation-dialog.xml:15(secondary)
 #: src/dialogs/layer-dialog.xml:19(secondary)
 #: src/dialogs/gradient-dialog.xml:22(secondary)
 #: src/dialogs/fonts-dialog.xml:18(secondary)
@@ -1200,6 +1208,7 @@ msgstr ""
 #: src/dialogs/sample-points.xml:82(para)
 msgid "The reticle you get Ctrl + click-and-dragging from a rule."
 msgstr ""
+"Il reticolo che si ottiene facendo Ctrl + clic e trascinando da un righello."
 
 #: src/dialogs/sample-points.xml:88(para)
 msgid ""
@@ -1227,7 +1236,7 @@ msgid ""
 "it up to a rule. Order numbers are automatically re-arranged in the dialog "
 "window; the most recent are moved one rank up."
 msgstr ""
-"Per cancellare un punto dicampionamento si agisce come con le guide, cioè "
+"Per cancellare un punto di campionamento si agisce come con le guide, cioè "
 "trascinandolo su uno dei due righelli. La numerazione viene aggiornata "
 "automaticamente nella finestra di dialogo; i punti creati più di recente "
 "vengono spostati in alto."
@@ -1257,7 +1266,6 @@ msgid "Sample points dialog"
 msgstr "La finestra punti di campionamento"
 
 #: src/dialogs/sample-points.xml:132(para)
-#, fuzzy
 msgid ""
 "The information about four sample points is displayed in this window. You "
 "can create more, which will be existing and not shown. To show them, you "
@@ -1266,7 +1274,7 @@ msgstr ""
 "Le informazioni sui quattro punti di campionamento sono mostrate in questa "
 "finestra. Se ne possono creare di più di quattro ma solo i primi quattro "
 "vengono mostrati. Per mostrare i successivi è necessario prima cancellare i "
-"primi punti."
+"punti mostrati."
 
 #: src/dialogs/sample-points.xml:137(para)
 msgid "The color of the sampled point is displayed in a swatch box."
@@ -1526,7 +1534,6 @@ msgstr ""
 "nelle aree selezionate che in quelle che non lo sono!"
 
 #: src/dialogs/qmask.xml:138(para)
-#, fuzzy
 msgid ""
 "After the QuickMask Button is pressed, the command generates a temporary 8-"
 "bit (0-255) channel, on which the progressive selection work is stored. If a "
@@ -1582,13 +1589,12 @@ msgstr ""
 "il contenuto della selezione."
 
 #: src/dialogs/qmask.xml:178(para)
-#, fuzzy
 msgid ""
 "Choose a <link linkend=\"gimp-tools-paint\">drawing tool</link> and use it "
 "with grayscale colors on the QuickMask."
 msgstr ""
-"Scegliere uno strumento di disegno ed usarlo sulla maschera veloce con "
-"colori in scala di grigio."
+"Scegliere uno <link linkend=\"gimp-tools-paint\">strumento di disegno</link> "
+"ed usarlo sulla maschera veloce con colori in scala di grigi."
 
 #: src/dialogs/qmask.xml:184(para)
 msgid ""
@@ -1600,7 +1606,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/pointer-dialog.xml:24(None)
-#, fuzzy
 msgid ""
 "@@image: 'images/dialogs/pointer-dialog.png'; "
 "md5=14041d93b7163d2d95e67b43051773d1"
@@ -1650,7 +1655,6 @@ msgstr ""
 "guisubmenu><guimenuitem>Puntatore</guimenuitem></menuchoice>."
 
 #: src/dialogs/pointer-dialog.xml:57(para)
-#, fuzzy
 msgid ""
 "from the Tab menu in any dockable dialog by clicking on <placeholder-1/> and "
 "selecting <menuchoice><guimenu>Add Tab</guimenu><guimenuitem>Pointer</"
@@ -1687,9 +1691,8 @@ msgid "Shows the distance from the origin, in inches."
 msgstr "Mostra la distanza dall'origine, in pollici."
 
 #: src/dialogs/pointer-dialog.xml:97(term)
-#, fuzzy
 msgid "Pointer Bounding Box"
-msgstr "Finestra puntatore"
+msgstr "Finestra di delimitazione del puntatore"
 
 #: src/dialogs/pointer-dialog.xml:99(para)
 msgid ""
@@ -1698,22 +1701,30 @@ msgid ""
 "rectangular and ellipse selections. H and W are the height and width of this "
 "box."
 msgstr ""
+"Questa informazione è attiva quando esiste una selezione. X e Y sono le "
+"coordinate dell'angolo in alto a sinistra del contorno rettangolare che "
+"delimita le selezioni rettangolari ed elissoidali. H e W sono "
+"rispettivamente l'altezza e la larghezza di questo rettangolo."
 
 #: src/dialogs/pointer-dialog.xml:105(para)
 msgid ""
 "This information also exits for the other selections, but they are of less "
 "interest and the bounding box is not visible."
 msgstr ""
+"Questa informazione esiste anche per gli altri tipi di selezione, ma siccome "
+"in questo caso è meno importante, il contorno non è visibile."
 
 #: src/dialogs/pointer-dialog.xml:109(para)
 msgid ""
 "This information concerning the selection remains unchanged when you use "
 "another tool, while pointer coordinates vary."
 msgstr ""
+"Questa informazione riguardante la selezione rimane intatta quando si usa un "
+"altro strumento, mentre le coordinate del puntatore possono variare."
 
 #: src/dialogs/pointer-dialog.xml:116(term)
 msgid "Channel values"
-msgstr "FIXME"
+msgstr "Valori di canale"
 
 #: src/dialogs/pointer-dialog.xml:119(para)
 msgid ""
@@ -1724,7 +1735,14 @@ msgid ""
 "<link linkend=\"glossary-html-notation\">HTML Notation</link> of the pixel "
 "color, in hexadecimal. The choices on the pulldown menus are "
 "(<guilabel>Pixel</guilabel> is the default):"
-msgstr "FIXME"
+msgstr ""
+"I valori di canale per il <link linkend=\"glossary-colormodel\">modello di "
+"colore</link> selezionato sono mostrati appresso. Entrambi i menu a discesa "
+"contengono le stesse scelte, cosa che rende più facile confrontare i valori "
+"di colore di uno specifico pixel usando differenti modelli di colore. "
+"<quote>Hex</quote> è la <link linkend=\"glossary-html-notation\">notazione "
+"HTML</link> del colore del pixel, in esadecimale. Le scelte sui menu a "
+"discesa sono (<guilabel>Pixel</guilabel> è il valore predefinito):"
 
 #: src/dialogs/pointer-dialog.xml:133(para)
 msgid ""
@@ -1732,7 +1750,11 @@ msgid ""
 "displays the <emphasis>Red</emphasis>, <emphasis>Green</emphasis>, "
 "<emphasis>Blue</emphasis> and <emphasis>Alpha</emphasis> values of the "
 "pixel, as numbers between 0 and 255."
-msgstr "FIXME"
+msgstr ""
+"I valori di canale <link linkend=\"glossary-rgb\">RGB</link>. Questa scelta "
+"mostra i valori di <emphasis>Rosso</emphasis>, <emphasis>Verde</emphasis>, "
+"<emphasis>Blu</emphasis> e <emphasis>Alfa</emphasis> del pixel, come numeri "
+"compresi tra 0 e 255."
 
 #: src/dialogs/pointer-dialog.xml:145(para)
 msgid ""
@@ -1741,7 +1763,11 @@ msgid ""
 "<emphasis>Blue</emphasis> and <emphasis>Alpha</emphasis> values of the "
 "pixel, as percentages. It also shows the hexadecimal value of the pixel's "
 "color."
-msgstr "FIXME"
+msgstr ""
+"I valori di canale <link linkend=\"glossary-rgb\">RGB</link>. Questa scelta "
+"mostra i valori del pixel di <emphasis>rosso</emphasis>, <emphasis>verde</"
+"emphasis>, <emphasis>blu</emphasis> e <emphasis>alfa</emphasis>, in "
+"percentuale, insieme ai loro valori esadecimali."
 
 #: src/dialogs/pointer-dialog.xml:158(para)
 msgid ""
@@ -1749,7 +1775,11 @@ msgid ""
 "displays the <emphasis>Hue</emphasis>, in degrees, as well as the "
 "<emphasis>Saturation</emphasis>, <emphasis>Value</emphasis> and "
 "<emphasis>Alpha</emphasis> of the pixel, as percentages."
-msgstr "FIXME"
+msgstr ""
+"Le componenti <link linkend=\"glossary-hsv\">HSV</link>. Questa scelta "
+"mostra la <emphasis>tonalità</emphasis>, in gradi, oltre alla "
+"<emphasis>saturazione</emphasis>, <emphasis>valore</emphasis> e "
+"<emphasis>alfa</emphasis> del pixel, in percentuale."
 
 #: src/dialogs/pointer-dialog.xml:170(para)
 msgid ""
@@ -1773,7 +1803,7 @@ msgid ""
 msgstr ""
 "Se quest'opzione è impostata (valore predefinito), il campionamento viene "
 "effettuato su tutti i livelli. Se non è selezionata, il campionamento viene "
-"effettuato sono sul livello attivo."
+"effettuato solo sul livello attivo."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -2083,13 +2113,12 @@ msgstr ""
 "possiede meno protezioni."
 
 #: src/dialogs/patterns-dialog.xml:263(para)
-#: src/dialogs/gradient-dialog.xml:335(para)
 msgid ""
-"You can use tags to reorganize the gradients display. See <xref linkend="
+"You can use tags to reorganize the patterns display. See <xref linkend="
 "\"gimp-tagging\"/>."
 msgstr ""
-"Si possono usare le marcature per riorganizzare la visualizzazione dei "
-"gradienti. Vedere <xref linkend=\"gimp-tagging\"/>."
+"È possibile usare le marcature per riorganizzare la visualizzazione dei "
+"motivi. Vedere <xref linkend=\"gimp-tagging\"/>."
 
 #: src/dialogs/patterns-dialog.xml:270(title)
 msgid "The Pattern context menu"
@@ -2103,7 +2132,7 @@ msgid ""
 msgstr ""
 "Lo si ottiene facendo clic destro sul pannello dei <quote>Motivi</quote>. I "
 "comandi di questo menu sono descritti con pulsanti eccetto per "
-"<guilabel>Copia posizione</quote> per permette di copiare il percorso al "
+"<guilabel>Copia posizione</guilabel> per permette di copiare il percorso al "
 "motivo negli appunti."
 
 #: src/dialogs/patterns-dialog.xml:280(title)
@@ -2258,7 +2287,7 @@ msgid ""
 "Menu to the dock by choosing <quote>Show Image Menu</quote> from the Tab "
 "menu.)"
 msgstr ""
-"Ogni tracciato appartiene ad un immagine: essi sono componenti delle "
+"Ogni tracciato appartiene ad un'immagine: essi sono componenti delle "
 "immagini proprio come i livelli. La finestra dei tracciati visualizza una "
 "lista di tutti i tracciati che appartengono all'immagine attiva in quel "
 "momento: passando ad un'altra immagine la finestra visualizzerà una lista di "
@@ -2379,7 +2408,7 @@ msgstr ""
 
 #: src/dialogs/path-dialog.xml:188(title)
 #: src/dialogs/images-dialog.xml:126(term)
-#: src/dialogs/gradient-editor-dialog.xml:176(term)
+#: src/dialogs/gradient-editor-dialog.xml:177(term)
 msgid "Buttons"
 msgstr "Pulsanti"
 
@@ -2505,9 +2534,8 @@ msgstr ""
 "solo ai programmatori di GIMP."
 
 #: src/dialogs/path-dialog.xml:283(term)
-#, fuzzy
 msgid "Paint along the path"
-msgstr "Disegnare la maschera di livello"
+msgstr "Disegno lungo il tracciato"
 
 #: src/dialogs/path-dialog.xml:285(para)
 msgid "See <link linkend=\"gimp-path-stroke\">Stroke Path</link>."
@@ -2697,9 +2725,9 @@ msgid ""
 "<guiicon><inlinegraphic fileref=\"images/dialogs/stock-selection-to-path-16."
 "png\"/></guiicon> at the bottom of the Paths dialog."
 msgstr ""
-"Dal pulsante <guilabel>Selezione a tracciato</"
-"guilabel><guiicon><inlinegraphic fileref=\"images/dialogs/stock-selection-to-"
-"path-16.png\"/></guiicon> in fondo alla finestra di dialogo dei tracciati."
+"Dal pulsante <guilabel>Selezione a tracciato</guilabel> "
+"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-selection-to-path-16."
+"png\"/></guiicon> in fondo alla finestra di dialogo dei tracciati."
 
 #: src/dialogs/path-dialog.xml:474(para)
 msgid ""
@@ -2763,15 +2791,14 @@ msgstr ""
 "guimenuitem>."
 
 #: src/dialogs/path-dialog.xml:525(para)
-#, fuzzy
 msgid ""
 "From the <guilabel>Paint along the path</guilabel> button "
 "<guiicon><inlinegraphic fileref=\"images/dialogs/stock-path-stroke-16.png\"/"
 "></guiicon> at the bottom of the Paths dialog."
 msgstr ""
-"Dal pulsante <guilabel>delinea tracciato</guilabel> <guiicon><inlinegraphic "
-"fileref=\"images/dialogs/stock-path-stroke-16.png\"/></guiicon> presente in "
-"fondo alla finestra di dialogo dei tracciati."
+"Dal pulsante <guilabel>Disegna lungo il tracciato</guilabel> "
+"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-path-stroke-16.png\"/"
+"></guiicon> presente in fondo alla finestra di dialogo dei tracciati."
 
 #: src/dialogs/path-dialog.xml:535(para)
 msgid ""
@@ -2906,7 +2933,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:316(None)
+#: src/dialogs/palettes-dialog.xml:329(None)
 msgid ""
 "@@image: 'images/dialogs/palette-import-dialog.png'; "
 "md5=339f7fcce57ccce9171e02e49a4e5dff"
@@ -2914,7 +2941,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:497(None)
+#: src/dialogs/palettes-dialog.xml:510(None)
 msgid ""
 "@@image: 'images/dialogs/palettes-offset-options.png'; "
 "md5=3e84ea676a409a88baad273886cb1845"
@@ -2922,7 +2949,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:515(None)
+#: src/dialogs/palettes-dialog.xml:528(None)
 msgid ""
 "@@image: 'images/dialogs/examples/palettes-offset.png'; "
 "md5=1f0be94be450fa788998fc5b06680801"
@@ -2930,7 +2957,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:562(None)
+#: src/dialogs/palettes-dialog.xml:575(None)
 msgid ""
 "@@image: 'images/dialogs/examples/palettes-repeat-gradient.png'; "
 "md5=47d531e4dedec269ba1aca8ca0a32ab1"
@@ -2938,7 +2965,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:586(None)
+#: src/dialogs/palettes-dialog.xml:599(None)
 msgid ""
 "@@image: 'images/dialogs/palettes-sort.png'; "
 "md5=5377b10af81c32803b20174ee6a1b73d"
@@ -2946,7 +2973,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:630(None)
+#: src/dialogs/palettes-dialog.xml:643(None)
 msgid ""
 "@@image: 'images/dialogs/palette-editor-dialog.png'; "
 "md5=9dd5b857bc647e9a9fe6f8703f71d058"
@@ -2954,7 +2981,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/palettes-dialog.xml:830(None)
+#: src/dialogs/palettes-dialog.xml:843(None)
 msgid ""
 "@@image: 'images/dialogs/palette-editor-context-menu.png'; "
 "md5=b82025a9e2b599583ab0f89ca8e345ce"
@@ -2975,8 +3002,8 @@ msgstr "Tavolozze"
 #: src/dialogs/palettes-dialog.xml:223(primary)
 #: src/dialogs/palettes-dialog.xml:241(primary)
 #: src/dialogs/palettes-dialog.xml:256(primary)
-#: src/dialogs/palettes-dialog.xml:308(primary)
-#: src/dialogs/palettes-dialog.xml:622(primary)
+#: src/dialogs/palettes-dialog.xml:321(primary)
+#: src/dialogs/palettes-dialog.xml:635(primary)
 #: src/dialogs/color-dialog.xml:202(term)
 msgid "Palette"
 msgstr "Tavolozza"
@@ -3147,7 +3174,7 @@ msgstr ""
 "ci sono diversi pulsanti:"
 
 #: src/dialogs/palettes-dialog.xml:169(phrase)
-#: src/dialogs/palettes-dialog.xml:276(term)
+#: src/dialogs/palettes-dialog.xml:289(term)
 msgid "Edit Palette"
 msgstr "Modifica tavolozza"
 
@@ -3159,7 +3186,7 @@ msgstr ""
 "dialog\"/>."
 
 #: src/dialogs/palettes-dialog.xml:183(phrase)
-#: src/dialogs/palettes-dialog.xml:292(term)
+#: src/dialogs/palettes-dialog.xml:305(term)
 msgid "New Palette"
 msgstr "Nuova tavolozza"
 
@@ -3176,7 +3203,7 @@ msgstr ""
 "palette-new\"/>."
 
 #: src/dialogs/palettes-dialog.xml:201(phrase)
-#: src/dialogs/palettes-dialog.xml:432(term)
+#: src/dialogs/palettes-dialog.xml:445(term)
 msgid "Duplicate Palette"
 msgstr "Duplica tavolozza"
 
@@ -3193,7 +3220,7 @@ msgstr ""
 "palette-duplicate\"/>."
 
 #: src/dialogs/palettes-dialog.xml:219(phrase)
-#: src/dialogs/palettes-dialog.xml:463(term)
+#: src/dialogs/palettes-dialog.xml:476(term)
 msgid "Delete Palette"
 msgstr "Elimina tavolozza"
 
@@ -3211,7 +3238,7 @@ msgstr ""
 "palette-delete\"/>."
 
 #: src/dialogs/palettes-dialog.xml:237(phrase)
-#: src/dialogs/palettes-dialog.xml:476(term)
+#: src/dialogs/palettes-dialog.xml:489(term)
 msgid "Refresh Palettes"
 msgstr "Aggiorna tavolozze"
 
@@ -3248,7 +3275,26 @@ msgstr ""
 "delle tavolozze oppure scegliendo la prima voce in alto del menu delle "
 "schede (<inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/>)."
 
-#: src/dialogs/palettes-dialog.xml:278(para)
+#: src/dialogs/palettes-dialog.xml:275(para)
+msgid ""
+"Some of the listed pop-menu entries are installation dependend and need the "
+"<ulink url=\"http://www.python.org\">Python language interpreter</ulink> to "
+"be installed. This includes at the time of writing: <link linkend=\"gimp-"
+"palette-offset\">Offset Palette...</link>, <link linkend=\"gimp-palette-to-"
+"gradient\">Palette to gradient</link>, <link linkend=\"gimp-palette-to-"
+"repeat-gradient\">Palette to Repeating Gradient</link> and <link linkend="
+"\"gimp-palette-sort\">Sort Palette...</link>."
+msgstr ""
+"Alcune delle voci di menu a scomparsa elencate dipendono dall'installazione "
+"e necessitano dell'<ulink url=\"http://www.python.org\">interprete del "
+"linguaggio Python</ulink> per essere installate. Queste, al momento della "
+"scrittura di questa nota, includono: <link linkend=\"gimp-palette-offset"
+"\">Sposta tavolozza...</link>, <link linkend=\"gimp-palette-to-gradient"
+"\">Tavolozza a gradiente</link>, <link linkend=\"gimp-palette-to-repeat-"
+"gradient\">Tavolozza a gradiente ripetuto</link> e <link linkend=\"gimp-"
+"palette-sort\">Ordinamento tavolozza...</link>."
+
+#: src/dialogs/palettes-dialog.xml:291(para)
 msgid ""
 "<quote>Edit Palette</quote> is an alternative way of activating the <link "
 "linkend=\"gimp-palette-editor-dialog\">Palette Editor</link>: it can also be "
@@ -3264,7 +3310,7 @@ msgstr ""
 "tavolozza</quote> <guiicon><inlinegraphic fileref=\"images/dialogs/stock-"
 "edit-16.png\"/></guiicon> in fondo alla finestra di dialogo."
 
-#: src/dialogs/palettes-dialog.xml:294(para)
+#: src/dialogs/palettes-dialog.xml:307(para)
 msgid ""
 "<quote>New Palette</quote> creates a new, untitled palette, initially "
 "containing no color entries, and pops up the Palette Editor so that you can "
@@ -3279,19 +3325,19 @@ msgstr ""
 "<filename>palettes</filename> all'uscita da GIMP, in modo tale da poterla "
 "ritrovare nella finestra delle tavolozze nelle sessioni future."
 
-#: src/dialogs/palettes-dialog.xml:305(term)
+#: src/dialogs/palettes-dialog.xml:318(term)
 msgid "Import Palette"
 msgstr "Importa una nuova tavolozza"
 
-#: src/dialogs/palettes-dialog.xml:309(secondary)
+#: src/dialogs/palettes-dialog.xml:322(secondary)
 msgid "Import"
 msgstr "Importa"
 
-#: src/dialogs/palettes-dialog.xml:312(title)
+#: src/dialogs/palettes-dialog.xml:325(title)
 msgid "The Import Palette dialog"
 msgstr "La finestra di importazione delle tavolozze"
 
-#: src/dialogs/palettes-dialog.xml:320(para)
+#: src/dialogs/palettes-dialog.xml:333(para)
 msgid ""
 "<quote>Import Palette</quote> allows you to create a new palette from the "
 "colors in a gradient, an image or a palette file. Choosing it brings up the "
@@ -3302,7 +3348,7 @@ msgstr ""
 "Selezionando questa voce si porta in primo piano la finestra <quote>importa "
 "una nuova tavolozza</quote> che propone le seguenti scelte:"
 
-#: src/dialogs/palettes-dialog.xml:328(para)
+#: src/dialogs/palettes-dialog.xml:341(para)
 msgid ""
 "Former versions of GIMP had a <quote>Save palette</quote> command. It no "
 "longer exists. To save the palette of an image, indexed or not, you must "
@@ -3313,11 +3359,11 @@ msgstr ""
 "indicizzata oppure no, è necessario <emphasis>importarla</emphasis> "
 "dall'immagine."
 
-#: src/dialogs/palettes-dialog.xml:337(term)
+#: src/dialogs/palettes-dialog.xml:350(term)
 msgid "Select Source"
 msgstr "Seleziona sorgente"
 
-#: src/dialogs/palettes-dialog.xml:339(para)
+#: src/dialogs/palettes-dialog.xml:352(para)
 msgid ""
 "You can import a palette either from any of GIMP's gradients (choosing one "
 "from the adjoining menu), or from any of the currently open images (chosen "
@@ -3332,13 +3378,13 @@ msgstr ""
 "<filename>.pal</filename>), del tipo usato in molte applicazionei di "
 "Microsoft Windows."
 
-#: src/dialogs/palettes-dialog.xml:347(para)
+#: src/dialogs/palettes-dialog.xml:360(para)
 msgid "Two options concerning image as source, available for RGB images only:"
 msgstr ""
 "Due opzioni, riguardanti l'immagine come sorgente, disponibili solo per "
 "immagini di tipo RGB:"
 
-#: src/dialogs/palettes-dialog.xml:353(para)
+#: src/dialogs/palettes-dialog.xml:366(para)
 msgid ""
 "<guilabel>Sample merged</guilabel>: When this option is checked, colors are "
 "picked from all visible layers. If unchecked, pixels are picked from the "
@@ -3349,7 +3395,7 @@ msgstr ""
 "selezionata, i pixels vengono prelevati solo dal livello attivo, anche se "
 "non visibile."
 
-#: src/dialogs/palettes-dialog.xml:361(para)
+#: src/dialogs/palettes-dialog.xml:374(para)
 msgid ""
 "<guilabel>Selected pixels only</guilabel>: As the name says, pixels are "
 "picked from the selected area only, in the active layer or all visible "
@@ -3359,11 +3405,11 @@ msgstr ""
 "pixel sono prelevati solo dall'area selezionata, nel livello attivo o da "
 "tutti i livelli visibili a seconda dello stato dell'opzione precedente."
 
-#: src/dialogs/palettes-dialog.xml:372(term)
+#: src/dialogs/palettes-dialog.xml:385(term)
 msgid "Palette name"
 msgstr "Nome tavolozza"
 
-#: src/dialogs/palettes-dialog.xml:374(para)
+#: src/dialogs/palettes-dialog.xml:387(para)
 msgid ""
 "You can give a name to the new palette here. If the name you choose is "
 "already used by an existing palette, a unique name will be formed by "
@@ -3373,11 +3419,11 @@ msgstr ""
 "già stato utilizzato per una tavolozza esistente, verrà creato "
 "automaticamente un nome univoco aggiungendo un numero (per es. \"#1\")."
 
-#: src/dialogs/palettes-dialog.xml:382(term)
+#: src/dialogs/palettes-dialog.xml:395(term)
 msgid "Number of colors"
 msgstr "Numero di colori"
 
-#: src/dialogs/palettes-dialog.xml:384(para)
+#: src/dialogs/palettes-dialog.xml:397(para)
 msgid ""
 "Here you specify the number of colors in the palette. The default is 256, "
 "chosen for three reasons: (1) every gradient contains 256 distinct colors; "
@@ -3394,11 +3440,11 @@ msgstr ""
 "tavolozza spaziando il numero dei colori specificato anche attraverso il "
 "campo di colori del gradiente o dell'immagine."
 
-#: src/dialogs/palettes-dialog.xml:397(term)
+#: src/dialogs/palettes-dialog.xml:410(term)
 msgid "Columns"
 msgstr "Colonne"
 
-#: src/dialogs/palettes-dialog.xml:399(para)
+#: src/dialogs/palettes-dialog.xml:412(para)
 msgid ""
 "Here you specify the number of columns for the palette. This only affects "
 "the way the palette is displayed, and has no effect on the way the palette "
@@ -3408,11 +3454,11 @@ msgstr ""
 "interessa il modo in cui la tavolozza viene visualizzata e non ha effetto "
 "sulla modalità di utilizzo della tavolozza."
 
-#: src/dialogs/palettes-dialog.xml:407(term)
+#: src/dialogs/palettes-dialog.xml:420(term)
 msgid "Interval"
 msgstr "Intervallo"
 
-#: src/dialogs/palettes-dialog.xml:409(para)
+#: src/dialogs/palettes-dialog.xml:422(para)
 msgid ""
 "Even setting <quote>Number of colors</quote> to maximum, the number of "
 "colors can't exceed 10000 in the palette. RGB images have much more colors. "
@@ -3422,7 +3468,7 @@ msgid ""
 "is grayed out with more than 256 colors indexed palettes too)."
 msgstr "Da fare: non abbiamo alcuna idea di cosa faccia questa funzione."
 
-#: src/dialogs/palettes-dialog.xml:422(para)
+#: src/dialogs/palettes-dialog.xml:435(para)
 msgid ""
 "The imported palette will be added to the Palettes dialog, and automatically "
 "saved in your personal <filename class=\"directory\">palettes</filename> "
@@ -3434,7 +3480,7 @@ msgstr ""
 "<filename>palettes</filename> all'uscita da GIMP, in maniera da renderla "
 "disponibile per le sessioni future."
 
-#: src/dialogs/palettes-dialog.xml:434(para)
+#: src/dialogs/palettes-dialog.xml:447(para)
 msgid ""
 "Duplicate Palette creates a new palette by copying the palette that is "
 "currently selected, and brings up a Palette Editor so that you can alter the "
@@ -3449,11 +3495,11 @@ msgstr ""
 "<filename>palettes</filename> all'uscita da GIMP, in maniera da renderla "
 "disponibile per sessioni future."
 
-#: src/dialogs/palettes-dialog.xml:445(term)
+#: src/dialogs/palettes-dialog.xml:458(term)
 msgid "Merge Palettes"
 msgstr "Fondi tavolozze"
 
-#: src/dialogs/palettes-dialog.xml:447(para)
+#: src/dialogs/palettes-dialog.xml:460(para)
 msgid ""
 "Currently this operation is not implemented, and the menu entry will always "
 "be insensitive."
@@ -3461,11 +3507,11 @@ msgstr ""
 "Questa funzione non è stata ancora implementata e la voce corrispondente del "
 "menu è sempre disabilitata."
 
-#: src/dialogs/palettes-dialog.xml:454(term)
+#: src/dialogs/palettes-dialog.xml:467(term)
 msgid "Copy Palette Location"
 msgstr "Copia posizione tavolozza"
 
-#: src/dialogs/palettes-dialog.xml:456(para)
+#: src/dialogs/palettes-dialog.xml:469(para)
 msgid ""
 "This command allows you to copy the palette file location to clipboard. You "
 "can then paste it in a text editor."
@@ -3473,7 +3519,7 @@ msgstr ""
 "Questo comando permette di copiare la posizione file tavolozza negli "
 "appunti. È poi possibile incollare gli appunti in un editor di testo."
 
-#: src/dialogs/palettes-dialog.xml:465(para)
+#: src/dialogs/palettes-dialog.xml:478(para)
 msgid ""
 "Delete Palette removes the palette from the <quote>Palettes </quote>dialog, "
 "and deletes the disk file in which it is stored. Before it acts, it asks you "
@@ -3488,7 +3534,7 @@ msgstr ""
 "volontà dell'utente. Notare che non è possibile tramite questo comando "
 "eliminare le tavolozze fornite con GIMP, ma solo quelle aggiunte dall'utente."
 
-#: src/dialogs/palettes-dialog.xml:478(para)
+#: src/dialogs/palettes-dialog.xml:491(para)
 msgid ""
 "Refresh Palettes rescans all of the folders in your palette search path, and "
 "adds any newly discovered palettes to the list in the Palettes dialog. This "
@@ -3502,19 +3548,19 @@ msgstr ""
 "cartella delle tavolozze, per potervi accedere senza dover per forza "
 "riavviare GIMP."
 
-#: src/dialogs/palettes-dialog.xml:489(term)
+#: src/dialogs/palettes-dialog.xml:502(term)
 msgid "Offset Palette..."
-msgstr "Spostamento tavolozza..."
+msgstr "Sposta tavolozza..."
 
-#: src/dialogs/palettes-dialog.xml:491(para)
+#: src/dialogs/palettes-dialog.xml:504(para)
 msgid "This command opens a dialog window:"
 msgstr "Questo comando apre una finestra di dialogo:"
 
-#: src/dialogs/palettes-dialog.xml:493(title)
+#: src/dialogs/palettes-dialog.xml:506(title)
 msgid "The <quote>Offset Palette</quote>dialog"
-msgstr "Il pannello <quote>spotamento tavolozze</quote>"
+msgstr "Il pannello <quote>Sposta tavolozza</quote>"
 
-#: src/dialogs/palettes-dialog.xml:501(para)
+#: src/dialogs/palettes-dialog.xml:514(para)
 msgid ""
 "This command takes the last color of the palette and puts it at the first "
 "place. The <guilabel>Offset</guilabel> parameter lets you set how many times "
@@ -3524,7 +3570,7 @@ msgstr ""
 "posto. Il parametro <guilabel>spostamento</guilabel> permette di indicare il "
 "numero di volte che quest'azione deve essere eseguita."
 
-#: src/dialogs/palettes-dialog.xml:506(para)
+#: src/dialogs/palettes-dialog.xml:519(para)
 msgid ""
 "With negative <quote>Offsets</quote> colors are put from the first position "
 "to the end of the colors list."
@@ -3532,31 +3578,31 @@ msgstr ""
 "Con <quote>spostamenti</quote> negativi i colori vengono spostati dalla "
 "prima posizione all'ultima, nella lista dei colori."
 
-#: src/dialogs/palettes-dialog.xml:511(title)
+#: src/dialogs/palettes-dialog.xml:524(title)
 msgid "<quote>Offset Palette</quote> examples"
-msgstr "Esempi di <quote>spostamento tavolozze</quote>"
+msgstr "Esempi di <quote>Sposta tavolozza</quote>"
 
-#: src/dialogs/palettes-dialog.xml:518(para)
+#: src/dialogs/palettes-dialog.xml:531(para)
 msgid "From top to bottom: original palette, Offset = 1, Offset = 2."
 msgstr ""
 "Dall'alto in basso: tavolozza originale, spostamento = 1, spostamento = 2."
 
-#: src/dialogs/palettes-dialog.xml:528(term)
+#: src/dialogs/palettes-dialog.xml:541(term)
 msgid "Palette to gradient"
 msgstr "Tavolozza a gradiente"
 
-#: src/dialogs/palettes-dialog.xml:531(primary)
-#: src/dialogs/gradient-editor-dialog.xml:17(primary)
-#: src/dialogs/gradient-editor-dialog.xml:623(primary)
+#: src/dialogs/palettes-dialog.xml:544(primary)
+#: src/dialogs/gradient-editor-dialog.xml:18(primary)
+#: src/dialogs/gradient-editor-dialog.xml:646(primary)
 #: src/dialogs/gradient-dialog.xml:21(primary)
 msgid "Gradient"
 msgstr "Gradiente"
 
-#: src/dialogs/palettes-dialog.xml:532(secondary)
+#: src/dialogs/palettes-dialog.xml:545(secondary)
 msgid "From palette"
 msgstr "Dalla tavolozza"
 
-#: src/dialogs/palettes-dialog.xml:534(para)
+#: src/dialogs/palettes-dialog.xml:547(para)
 msgid ""
 "With this command, all the colors of the palette are used to form the "
 "current gradient which is saved in the Gradient Dialog. The created gradient "
@@ -3568,11 +3614,11 @@ msgstr ""
 "gradiente creato viene costruito con un numero segmenti corrispondente al "
 "numero di colori della tavolozza fornita."
 
-#: src/dialogs/palettes-dialog.xml:543(term)
+#: src/dialogs/palettes-dialog.xml:556(term)
 msgid "Palette to Repeating Gradient"
 msgstr "Tavolozza a gradiente ripetuto"
 
-#: src/dialogs/palettes-dialog.xml:547(para)
+#: src/dialogs/palettes-dialog.xml:560(para)
 msgid ""
 "This command creates a repeating gradient, using all the colors of the "
 "palette. This gradient appears in the Gradient Dialog and becomes the "
@@ -3587,19 +3633,19 @@ msgstr ""
 "sinistra del segmento all'estremo sinistro sarà uguale al colore destro del "
 "segmento all'estremo destro del gradiente."
 
-#: src/dialogs/palettes-dialog.xml:556(title)
+#: src/dialogs/palettes-dialog.xml:569(title)
 msgid "<quote>Palette to repeating gradient</quote> examples"
 msgstr "Esempi di <quote>tavolozza a gradiente ripetuto</quote>"
 
-#: src/dialogs/palettes-dialog.xml:565(para)
+#: src/dialogs/palettes-dialog.xml:578(para)
 msgid "Top: palette. Bottom: the gradient created with the command."
 msgstr "In cima: tavolozza. In fondo: il cradiente creato con il comando."
 
-#: src/dialogs/palettes-dialog.xml:575(term)
+#: src/dialogs/palettes-dialog.xml:588(term)
 msgid "Sort Palette..."
 msgstr "Ordina tavolozza..."
 
-#: src/dialogs/palettes-dialog.xml:577(para)
+#: src/dialogs/palettes-dialog.xml:590(para)
 msgid ""
 "This command opens a dialog window which allows you to sort the colors of "
 "the palette according to certain criterions:"
@@ -3607,11 +3653,11 @@ msgstr ""
 "Questo comando apre una finestra di dialogo che permette di ordinare i "
 "colori di una tavolozza secondo certi criteri:"
 
-#: src/dialogs/palettes-dialog.xml:582(title)
+#: src/dialogs/palettes-dialog.xml:595(title)
 msgid "The <quote>Sort Palette</quote>dialog"
 msgstr "Il pannello <quote>ordina tavolozza</quote>"
 
-#: src/dialogs/palettes-dialog.xml:592(para)
+#: src/dialogs/palettes-dialog.xml:605(para)
 msgid ""
 "<guilabel>Color model</guilabel>: you can choose between <emphasis>RGB</"
 "emphasis> and <emphasis>HSV</emphasis>"
@@ -3619,7 +3665,7 @@ msgstr ""
 "<guilabel>Modello di colore</guilabel>: è possibile scegliere tra "
 "<emphasis>RGB</emphasis> e <emphasis>HSV</emphasis>"
 
-#: src/dialogs/palettes-dialog.xml:598(para)
+#: src/dialogs/palettes-dialog.xml:611(para)
 msgid ""
 "<guilabel>Channel to sort</guilabel>: you can choose between the three RGB "
 "channels if the RGB model is selected, or the three HSV channels if the HSV "
@@ -3629,7 +3675,7 @@ msgstr ""
 "canali RGB se è selezionato il modello RGB, o i tre canali HSV se invece è "
 "selezionato il modello HSV."
 
-#: src/dialogs/palettes-dialog.xml:605(para)
+#: src/dialogs/palettes-dialog.xml:618(para)
 msgid ""
 "<guilabel>Ascending</guilabel> (default is Yes): values are sorted from the "
 "lower to the upper. By clicking on this <guibutton>Yes</guibutton> you can "
@@ -3641,20 +3687,20 @@ msgstr ""
 "<guibutton>Si</guibutton> è possibile commutare a <guibutton>No</guibutton> "
 "e i valori saranno ordinati in ordine discendente."
 
-#: src/dialogs/palettes-dialog.xml:620(title)
+#: src/dialogs/palettes-dialog.xml:633(title)
 msgid "Palette Editor"
 msgstr "Editor tavolozza"
 
-#: src/dialogs/palettes-dialog.xml:623(secondary)
-#: src/dialogs/gradient-editor-dialog.xml:18(secondary)
+#: src/dialogs/palettes-dialog.xml:636(secondary)
+#: src/dialogs/gradient-editor-dialog.xml:19(secondary)
 msgid "Editor"
 msgstr "Editor"
 
-#: src/dialogs/palettes-dialog.xml:626(title)
+#: src/dialogs/palettes-dialog.xml:639(title)
 msgid "The Palette Editor"
 msgstr "L'editor delle tavolozze"
 
-#: src/dialogs/palettes-dialog.xml:634(para)
+#: src/dialogs/palettes-dialog.xml:647(para)
 msgid ""
 "The Palette Editor is used mainly for two purposes: first, for setting "
 "GIMP's foreground or background colors (as shown in the Color Area of the "
@@ -3677,11 +3723,11 @@ msgstr ""
 "una tavolozza, il risultato del proprio lavoro sarà salvato automaticamente "
 "all'uscita dal GIMP."
 
-#: src/dialogs/palettes-dialog.xml:647(title)
+#: src/dialogs/palettes-dialog.xml:660(title)
 msgid "How to Activate the Palette Editor"
 msgstr "Come attivare l'editor delle tavolozze"
 
-#: src/dialogs/palettes-dialog.xml:648(para)
+#: src/dialogs/palettes-dialog.xml:661(para)
 msgid ""
 "The Palette Editor is only accessible from the Palettes dialog: you can "
 "activate it by double-clicking on a palette, or by pressing the "
@@ -3695,7 +3741,7 @@ msgstr ""
 "<guiicon><inlinegraphic fileref=\"images/dialogs/stock-edit-16.png\"/></"
 "guiicon> presente in fondo alla finestra di dialogo e nel menu tavolozze."
 
-#: src/dialogs/palettes-dialog.xml:657(para)
+#: src/dialogs/palettes-dialog.xml:670(para)
 msgid ""
 "The Palette Editor is a dockable dialog; see the section on <link linkend="
 "\"gimp-concepts-docks\">Dialogs and Docking</link> for help on manipulating "
@@ -3705,11 +3751,11 @@ msgstr ""
 "<link linkend=\"gimp-concepts-docks\">Finestre agganciabili</link> per un "
 "aiuto su come gestire questo tipo di finestre."
 
-#: src/dialogs/palettes-dialog.xml:665(title)
+#: src/dialogs/palettes-dialog.xml:678(title)
 msgid "Using the Palette Editor"
 msgstr "Uso dell'editor delle tavolozze"
 
-#: src/dialogs/palettes-dialog.xml:666(para)
+#: src/dialogs/palettes-dialog.xml:679(para)
 msgid ""
 "If you click on a color box in the palette display, GIMP's foreground color "
 "will be set to the selected color: you can see this in the Color Area of the "
@@ -3722,7 +3768,7 @@ msgstr ""
 "strumenti. Mantenendo premuto il tasto <keycap>Ctrl</keycap> mentre si fa "
 "clic, verrà modificato invece il colore di sfondo corrente di GIMP."
 
-#: src/dialogs/palettes-dialog.xml:673(para)
+#: src/dialogs/palettes-dialog.xml:686(para)
 msgid ""
 "If the palette is a custom palette, double-clicking on a color not only sets "
 "the foreground, it also brings up a color editor that allows you to modify "
@@ -3734,7 +3780,7 @@ msgstr ""
 "succede solo se la tavolozza è modificabile dall'utente: cioè una delle "
 "tavolozze aggiunte dall'utente stesso)."
 
-#: src/dialogs/palettes-dialog.xml:678(para)
+#: src/dialogs/palettes-dialog.xml:691(para)
 msgid ""
 "Right-clicking in the palette display area brings up the Palette Editor "
 "menu. It's functions are mainly the same as those of the buttons at the "
@@ -3745,7 +3791,7 @@ msgstr ""
 "presente in fondo alla finestra delle tavolozze e descritto altrove in "
 "questa sezione."
 
-#: src/dialogs/palettes-dialog.xml:683(para)
+#: src/dialogs/palettes-dialog.xml:696(para)
 msgid ""
 "Below the palette display area, at the left, appears a text entry area that "
 "shows the name of the selected color (or <quote>Untitled </quote> if it does "
@@ -3758,7 +3804,7 @@ msgstr ""
 "uno). Quest'informazione non ha significato per il funzionamento della "
 "tavolozza; è presente solo come aiuto mnemonico per l'utente."
 
-#: src/dialogs/palettes-dialog.xml:689(para)
+#: src/dialogs/palettes-dialog.xml:702(para)
 msgid ""
 "To the right of the name entry is a spinbutton that allows you to set the "
 "number of columns used to display the palette. This only affects the "
@@ -3770,7 +3816,7 @@ msgstr ""
 "condiziona solo la visualizzazione, non il modo in cui lavora la tavolozza. "
 "Se il valore è posto a 0, verrà usato il valore predefinito."
 
-#: src/dialogs/palettes-dialog.xml:695(para)
+#: src/dialogs/palettes-dialog.xml:708(para)
 msgid ""
 "At the bottom of the dialog are a set of buttons, which mostly match the "
 "entries in the Palette Editor menu, accessible by right-clicking in the "
@@ -3781,7 +3827,7 @@ msgstr ""
 "tramite il tasto destro del mouse sulla finestra della tavolozza. Eccone il "
 "significato:"
 
-#: src/dialogs/palettes-dialog.xml:709(para)
+#: src/dialogs/palettes-dialog.xml:722(para)
 msgid ""
 "This button causes the palette to be saved in your personal <filename class="
 "\"directory\">palettes</filename> folder. It would be saved automatically "
@@ -3795,21 +3841,21 @@ msgstr ""
 "usare questa funzione nel caso si tema che un crash di <acronym>GIMP</"
 "acronym> o del sistema ne impedisca il salvataggio."
 
-#: src/dialogs/palettes-dialog.xml:724(phrase)
-#: src/dialogs/gradient-editor-dialog.xml:205(phrase)
+#: src/dialogs/palettes-dialog.xml:737(phrase)
+#: src/dialogs/gradient-editor-dialog.xml:206(phrase)
 msgid "Revert"
 msgstr "Ripristina"
 
-#: src/dialogs/palettes-dialog.xml:727(para)
+#: src/dialogs/palettes-dialog.xml:740(para)
 msgid "This operation has not yet been implemented."
 msgstr "Questa funzione non è stata ancora implementata."
 
-#: src/dialogs/palettes-dialog.xml:737(phrase)
-#: src/dialogs/palettes-dialog.xml:842(term)
+#: src/dialogs/palettes-dialog.xml:750(phrase)
+#: src/dialogs/palettes-dialog.xml:855(term)
 msgid "Edit Color"
 msgstr "Modifica colore"
 
-#: src/dialogs/palettes-dialog.xml:740(para)
+#: src/dialogs/palettes-dialog.xml:753(para)
 msgid ""
 "Pops up a color editor allowing you to alter the color. If the palette is "
 "one you aren't allowed to alter, this button will be insensitive. See <link "
@@ -3819,11 +3865,11 @@ msgstr ""
 "tavolozza non è modificabile, il pulsante apparirà disabilitato. Vedere "
 "<link linkend=\"gimp-palette-editor-edit\">più avanti</link>."
 
-#: src/dialogs/palettes-dialog.xml:753(phrase)
+#: src/dialogs/palettes-dialog.xml:766(phrase)
 msgid "New Color from FG"
 msgstr "Nuovo colore dal primo piano"
 
-#: src/dialogs/palettes-dialog.xml:756(para)
+#: src/dialogs/palettes-dialog.xml:769(para)
 msgid ""
 "For more information on this button please refer to <link linkend=\"gimp-"
 "palette-editor-new\">below</link>."
@@ -3831,12 +3877,12 @@ msgstr ""
 "Per ulteriori informazioni su questo pulsante, vedere <link linkend=\"gimp-"
 "palette-editor-new\">più avanti</link>."
 
-#: src/dialogs/palettes-dialog.xml:767(phrase)
-#: src/dialogs/palettes-dialog.xml:866(term)
+#: src/dialogs/palettes-dialog.xml:780(phrase)
+#: src/dialogs/palettes-dialog.xml:879(term)
 msgid "Delete Color"
 msgstr "Cancella colore"
 
-#: src/dialogs/palettes-dialog.xml:770(para)
+#: src/dialogs/palettes-dialog.xml:783(para)
 msgid ""
 "For more information on this button please refer to <link linkend=\"gimp-"
 "palette-editor-delete\">below</link>."
@@ -3844,13 +3890,13 @@ msgstr ""
 "Per ulteriori informazioni su questo pulsante, vedere <link linkend=\"gimp-"
 "palette-editor-delete\">più avanti</link>."
 
-#: src/dialogs/palettes-dialog.xml:781(phrase)
-#: src/dialogs/palettes-dialog.xml:877(term)
-#: src/dialogs/gradient-editor-dialog.xml:221(phrase)
+#: src/dialogs/palettes-dialog.xml:794(phrase)
+#: src/dialogs/palettes-dialog.xml:890(term)
+#: src/dialogs/gradient-editor-dialog.xml:222(phrase)
 msgid "Zoom Out"
 msgstr "Zoom indietro"
 
-#: src/dialogs/palettes-dialog.xml:784(para)
+#: src/dialogs/palettes-dialog.xml:797(para)
 msgid ""
 "For more information on this button please refer to <link linkend=\"gimp-"
 "palette-editor-zoom-out\">below</link>."
@@ -3858,13 +3904,13 @@ msgstr ""
 "Per ulteriori informazioni su questo pulsante, vedere <link linkend=\"gimp-"
 "palette-editor-zoom-out\">più avanti</link>."
 
-#: src/dialogs/palettes-dialog.xml:795(phrase)
-#: src/dialogs/palettes-dialog.xml:886(term)
-#: src/dialogs/gradient-editor-dialog.xml:237(phrase)
+#: src/dialogs/palettes-dialog.xml:808(phrase)
+#: src/dialogs/palettes-dialog.xml:899(term)
+#: src/dialogs/gradient-editor-dialog.xml:238(phrase)
 msgid "Zoom In"
 msgstr "Zoom avanti"
 
-#: src/dialogs/palettes-dialog.xml:798(para)
+#: src/dialogs/palettes-dialog.xml:811(para)
 msgid ""
 "For more information on this button please refer to <link linkend=\"gimp-"
 "palette-editor-zoom-in\">below</link>."
@@ -3872,13 +3918,13 @@ msgstr ""
 "Per ulteriori informazioni su questo pulsante, vedere <link linkend=\"gimp-"
 "palette-editor-zoom-in\">più avanti</link>."
 
-#: src/dialogs/palettes-dialog.xml:810(phrase)
-#: src/dialogs/palettes-dialog.xml:895(term)
-#: src/dialogs/gradient-editor-dialog.xml:254(phrase)
+#: src/dialogs/palettes-dialog.xml:823(phrase)
+#: src/dialogs/palettes-dialog.xml:908(term)
+#: src/dialogs/gradient-editor-dialog.xml:255(phrase)
 msgid "Zoom All"
 msgstr "Zoom totale"
 
-#: src/dialogs/palettes-dialog.xml:813(para)
+#: src/dialogs/palettes-dialog.xml:826(para)
 msgid ""
 "For more information on this button please refer to <link linkend=\"gimp-"
 "palette-editor-zoom-all\">below</link>."
@@ -3886,12 +3932,12 @@ msgstr ""
 "Per ulteriori informazioni su questo pulsante, vedere <link linkend=\"gimp-"
 "palette-editor-zoom-all\">più avanti</link>."
 
-#: src/dialogs/palettes-dialog.xml:824(title)
-#: src/dialogs/palettes-dialog.xml:826(title)
+#: src/dialogs/palettes-dialog.xml:837(title)
+#: src/dialogs/palettes-dialog.xml:839(title)
 msgid "The Palette Editor pop-menu"
 msgstr "Menu dell'editor delle tavolozze"
 
-#: src/dialogs/palettes-dialog.xml:834(para)
+#: src/dialogs/palettes-dialog.xml:847(para)
 msgid ""
 "The Palette Editor Menu can be accessed by right-clicking on the palette "
 "display in the Palette Editor, or by choosing the top entry from the dialog "
@@ -3905,7 +3951,7 @@ msgstr ""
 "dei pulsanti presenti in fondo alla finestra di dialogo dell'editor delle "
 "tavolozze."
 
-#: src/dialogs/palettes-dialog.xml:844(para)
+#: src/dialogs/palettes-dialog.xml:857(para)
 msgid ""
 "<quote>Edit Color</quote> brings up a color editor that allows you to modify "
 "the color of the selected palette entry. If the palette is one that you are "
@@ -3918,11 +3964,11 @@ msgstr ""
 "quelle fornite dall'installazione di GIMP), allora il pulsante "
 "corrispondente sarà disabilitato."
 
-#: src/dialogs/palettes-dialog.xml:854(term)
+#: src/dialogs/palettes-dialog.xml:867(term)
 msgid "New Color from FG; New Color from BG"
 msgstr "Nuovo colore dal primo piano / dallo sfondo"
 
-#: src/dialogs/palettes-dialog.xml:858(para)
+#: src/dialogs/palettes-dialog.xml:871(para)
 msgid ""
 "These commands each create a new palette entry, using either GIMP's current "
 "foreground color (as shown in the Color Area of the Toolbox), or the current "
@@ -3932,7 +3978,7 @@ msgstr ""
 "il colore di primo piano corrente di GIMP o lo sfondo (entrambi mostrati "
 "nell'area colore del pannello degli strumenti)."
 
-#: src/dialogs/palettes-dialog.xml:868(para)
+#: src/dialogs/palettes-dialog.xml:881(para)
 msgid ""
 "<quote>Delete Color</quote> removes the selected color entry from the "
 "palette. If the palette is one that you are not allowed to edit, then the "
@@ -3942,7 +3988,7 @@ msgstr ""
 "tavolozza. Se la tavolozza è del tipo non modificabile, allora la voce di "
 "menu non sarà abilitata."
 
-#: src/dialogs/palettes-dialog.xml:879(para)
+#: src/dialogs/palettes-dialog.xml:892(para)
 msgid ""
 "<quote>Zoom Out</quote> reduces the vertical scale of the entries in the "
 "palette display."
@@ -3950,7 +3996,7 @@ msgstr ""
 "<quote>Zoom indietro</quote> riduce la scala verticale delle voci nella "
 "finestra di visualizzazione della tavolozza."
 
-#: src/dialogs/palettes-dialog.xml:888(para)
+#: src/dialogs/palettes-dialog.xml:901(para)
 msgid ""
 "<quote>Zoom In</quote> increases the vertical scale of the entries in the "
 "palette display."
@@ -3958,7 +4004,7 @@ msgstr ""
 "<quote>Zoom avanti</quote> incrementa la scala verticale delle voci presenti "
 "nella finestra di visualizzazione della tavolozza."
 
-#: src/dialogs/palettes-dialog.xml:897(para)
+#: src/dialogs/palettes-dialog.xml:910(para)
 msgid ""
 "<quote>Zoom All</quote> adjusts the vertical size of the entries in the "
 "palette display so that the entire palette fits into the display area."
@@ -3967,11 +4013,11 @@ msgstr ""
 "visualizzate nella finestra tavolozza, in maniera tale da permettere una "
 "visione di insieme dell'intera tavolozza."
 
-#: src/dialogs/palettes-dialog.xml:905(term)
+#: src/dialogs/palettes-dialog.xml:918(term)
 msgid "Edit Active Palette"
 msgstr "Modifica tavolozza attiva"
 
-#: src/dialogs/palettes-dialog.xml:907(para)
+#: src/dialogs/palettes-dialog.xml:920(para)
 msgid ""
 "When this option is checked (default), you can edit another palette by "
 "clicking on it in the <quote>Palettes</quote> dialog."
@@ -3982,7 +4028,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/navigation-dialog.xml:21(None)
+#: src/dialogs/navigation-dialog.xml:22(None)
 msgid ""
 "@@image: 'images/dialogs/navigation.png'; "
 "md5=dc993294cb087c2419d0ee1cd4758745"
@@ -3990,38 +4036,55 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/navigation-dialog.xml:86(None)
+#: src/dialogs/navigation-dialog.xml:104(None)
 msgid ""
 "@@image: 'images/dialogs/icon-navigation.png'; "
 "md5=59a3ed5d4b20665276c36c1292b11a6f"
 msgstr " "
 
-#: src/dialogs/navigation-dialog.xml:11(title)
-#: src/dialogs/navigation-dialog.xml:18(title)
+#: src/dialogs/navigation-dialog.xml:12(title)
+#: src/dialogs/navigation-dialog.xml:19(title)
 msgid "Navigation Dialog"
 msgstr "Finestra di navigazione"
 
-#: src/dialogs/navigation-dialog.xml:13(primary)
+#: src/dialogs/navigation-dialog.xml:14(primary)
 msgid "Navigation"
 msgstr "Navigazione"
 
-#: src/dialogs/navigation-dialog.xml:25(para)
+#: src/dialogs/navigation-dialog.xml:26(para)
 msgid ""
 "The Navigation dialog is designed to offer easy movement around the active "
 "image if the zoom is set higher than what the image window can display. If "
 "this is the case, there is an inversely colored rectangle that shows the "
-"location of the current view area in respect to the image. This rectangular "
-"outline can be dragged to change the viewing region."
+"location of the current view area in respect to the image."
 msgstr ""
 "La finestra di navigazione è stata concepita per offrire un modo semplice "
 "per spostarsi all'interno dell'immagine attiva quanto lo zoom è impostato ad "
 "un valore alto e l'immagine non può essere contenuta nella finestra "
 "immagine. In questo caso appare un rettangolo colorato in negativo che "
 "mostra la posizione dell'area visualizzata in quel momento rispetto "
-"all'immagine. Questo contorno rettangolare può essere trascinato per "
-"modificare l'area visualizzata."
+"all'immagine."
 
-#: src/dialogs/navigation-dialog.xml:35(para)
+#: src/dialogs/navigation-dialog.xml:36(para)
+msgid "Click and drag the rectangular area."
+msgstr "Fare clic e trascinare l'area rettangolare."
+
+#: src/dialogs/navigation-dialog.xml:41(para)
+msgid ""
+"Use <keycap>Shift</keycap> and mouse-wheel to move horizontally, "
+"<keycap>Alt</keycap> and mouse-wheel to move vertically. The mouse pointer "
+"must be on the rectangular area in the shape of a grabbing hand."
+msgstr ""
+"Usare <keycap>Maiusc</keycap> e la rotellina del mouse per spostarsi "
+"orizzontalmente, <keycap>Alt</keycap> e la rotellina del mouse per spostarsi "
+"verticalmente. Il puntatore del mouse deve essere posizionato sull'area "
+"rettangolare ed avere la forma di una mano chiusa."
+
+#: src/dialogs/navigation-dialog.xml:32(para)
+msgid "To change the viewing region: <placeholder-1/>"
+msgstr "Per cambiare la zona di visualizzazione: <placeholder-1/>"
+
+#: src/dialogs/navigation-dialog.xml:53(para)
 msgid ""
 "The <quote>Navigation</quote> dialog is a dockable dialog; see the section "
 "<xref linkend=\"gimp-concepts-docks\"/> for help on manipulating it."
@@ -4031,16 +4094,17 @@ msgstr ""
 "\">Finestre agganciabili</link> per un aiuto su come gestire questo tipo di "
 "finestre."
 
-#: src/dialogs/navigation-dialog.xml:45(para)
+#: src/dialogs/navigation-dialog.xml:63(para)
 msgid ""
 "from the image menu: <menuchoice><guimenu>Windows</"
 "guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Navigation</"
 "guimenuitem></menuchoice>;"
 msgstr ""
-"da un menu immagine: <guimenuitem>Finestre</guimenuitem><guisubmenu>Pannelli "
-"agganciabili</guisubmenu><guimenuitem>Navigazione</guimenuitem>;"
+"da un menu immagine: <menuchoice><guimenu>Finestre</"
+"guimenu><guisubmenu>Pannelli agganciabili</"
+"guisubmenu><guimenuitem>Navigazione</guimenuitem></menuchoice>;"
 
-#: src/dialogs/navigation-dialog.xml:55(para)
+#: src/dialogs/navigation-dialog.xml:73(para)
 msgid ""
 "from the Tab menu in any dockable dialog by clicking on <placeholder-1/> and "
 "selecting <menuchoice><guimenu>Add Tab</guimenu><guimenuitem>Navigation</"
@@ -4050,7 +4114,7 @@ msgstr ""
 "<placeholder-1/> e selezionando <menuchoice><guimenu>Aggiungi scheda</"
 "guimenu><guimenuitem>Navigazione</guimenuitem></menuchoice>,"
 
-#: src/dialogs/navigation-dialog.xml:71(para)
+#: src/dialogs/navigation-dialog.xml:89(para)
 msgid ""
 "from the image-menu: <menuchoice><guimenu>View</"
 "guimenu><guimenuitem>Navigation window</guimenuitem></menuchoice>."
@@ -4058,7 +4122,7 @@ msgstr ""
 "dal menu immagine: <guimenuitem>Visualizza</"
 "guimenuitem><guimenuitem>Finestra di navigazione</guimenuitem>."
 
-#: src/dialogs/navigation-dialog.xml:80(para)
+#: src/dialogs/navigation-dialog.xml:98(para)
 msgid ""
 "You can access more quickly to it (but without the zoom functions) by "
 "clicking on the icon at the right bottom corner of the image window: "
@@ -4068,27 +4132,32 @@ msgstr ""
 "facendo clic sull'icona presente nell'angolo in basso a destra della "
 "finestra immagine: <placeholder-1/>"
 
-#: src/dialogs/navigation-dialog.xml:95(title)
+#: src/dialogs/navigation-dialog.xml:113(title)
 msgid "Using the Navigation Dialog"
 msgstr "Utilizzo della finestra di navigazione"
 
-#: src/dialogs/navigation-dialog.xml:98(term)
+#: src/dialogs/navigation-dialog.xml:116(term)
 msgid "The slider"
 msgstr "La barra di scorrimento"
 
-#: src/dialogs/navigation-dialog.xml:100(para)
+#: src/dialogs/navigation-dialog.xml:118(para)
 msgid ""
 "It allows easy zoom level control, more precise than with the <link linkend="
-"\"gimp-view-zoom\">Zoom</link> command."
+"\"gimp-view-zoom\">Zoom</link> command. This slider can also be moved using "
+"the mouse wheel when the mouse pointer is on the slider, or <keycap>Ctrl</"
+"keycap> and mouse wheel when the mouse pointer is on the rectangular area."
 msgstr ""
-"Permette di controllare facilmente il livello dello zoom, in modo più "
-"preciso rispetto al comando Zoom."
+"Ciò consente di controllare il livello di zoom in modo più semplice e "
+"preciso che con il comando <link linkend=\"gimp-view-zoom\">Zoom</link>. "
+"Questo cursore può essere spostato usando anche la rotella del mouse, quando "
+"il puntatore del mouse è posizionato sul cursore, o con <keycap>Ctrl</"
+"keycap> e rotella quando il puntatore del mouse è sopra l'area rettangolare."
 
-#: src/dialogs/navigation-dialog.xml:107(term)
+#: src/dialogs/navigation-dialog.xml:128(term)
 msgid "The buttons"
 msgstr "I pulsanti"
 
-#: src/dialogs/navigation-dialog.xml:109(para)
+#: src/dialogs/navigation-dialog.xml:130(para)
 msgid ""
 "<emphasis>Zoom Out</emphasis><guiicon><inlinegraphic fileref=\"images/"
 "dialogs/stock-zoom-out-16.png\"/></guiicon><emphasis>Zoom In</"
@@ -4104,11 +4173,11 @@ msgstr ""
 "fileref=\"images/dialogs/stock-zoom-original-16.png\"/></guiicon> sono "
 "autoesplicative."
 
-#: src/dialogs/navigation-dialog.xml:127(term)
+#: src/dialogs/navigation-dialog.xml:148(term)
 msgid "Adjust the zoom ratio so that the image becomes fully visible"
 msgstr "Adatta al lato corto della finestra"
 
-#: src/dialogs/navigation-dialog.xml:131(para)
+#: src/dialogs/navigation-dialog.xml:152(para)
 msgid ""
 "The zoom ratio is adjusted so that the whole image becomes visible in the "
 "window as it is."
@@ -4117,11 +4186,11 @@ msgstr ""
 "al lato lungo della finestra</emphasis> : Effettuano uno zoom dell'immagine "
 "in modo da adattarla alle dimensioni della finestra."
 
-#: src/dialogs/navigation-dialog.xml:138(term)
+#: src/dialogs/navigation-dialog.xml:159(term)
 msgid "Adjust the zoom ratio so that the window is used optimally"
 msgstr "Adatta cornice"
 
-#: src/dialogs/navigation-dialog.xml:142(para)
+#: src/dialogs/navigation-dialog.xml:163(para)
 msgid ""
 "The image size and the zoom are adjusted so that the image is fully "
 "displayed with the lesser zoom."
@@ -4129,11 +4198,11 @@ msgstr ""
 "<emphasis>Adatta cornice</emphasis> : Ingrandisce la finestra in modo da "
 "contenere l'intera immagine zoomata (se possibile)."
 
-#: src/dialogs/navigation-dialog.xml:149(term)
+#: src/dialogs/navigation-dialog.xml:170(term)
 msgid "Reduce the image window to the size of the image display"
 msgstr "Riduce la finestra alle dimensioni dell'immagine"
 
-#: src/dialogs/navigation-dialog.xml:153(para)
+#: src/dialogs/navigation-dialog.xml:174(para)
 msgid ""
 "Restore the image window to the size which allows the image to be fully "
 "displayed with the zoom unchanged. This command is also as menu entry "
@@ -4314,15 +4383,10 @@ msgstr ""
 "della miniatura del livello. Facendo clic alternativamente sulle miniature "
 "del livello e della maschera è possibile abilitare l'uno o l'altra. La voce "
 "attiva viene evidenziata da un bordo bianco (che per la verità non è troppo "
-"visibile intorno ad una maschera bianca). Premendo <keycap>Alt</keycap> (or "
-"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>) e facendo "
-"clic sulla miniatura della maschera si ottiene lo stesso effetto del comando "
-"<link linkend=\"gimp-layer-mask-show\">Mostra maschera livello</link>: il "
-"bordo della maschera diviene verde. Premendo invece il tasto <keycap>Ctrl</"
-"keycap> il bordo diviene rosso e si ottiene un risultato analogo al comando "
-"<link linkend=\"gimp-layer-mask-disable\">Disabilita maschera livello</"
-"link>. Per tornare alla visualizzazione normale, ripetere la procedura. "
-"Queste procedure aiutano a sveltire il lavoro."
+"visibile intorno ad una maschera bianca). Questo è un punto importante. "
+"Mantenere sempre la finestra di dialogo dei livelli sottomano quando si "
+"lavora con le maschere, dato he non si può vedere, guardando l'area di "
+"disegno, quale livello o maschera sono attivi."
 
 #: src/dialogs/layer-mask.xml:111(para)
 msgid ""
@@ -4335,15 +4399,15 @@ msgid ""
 "command. To return to normal view redo last operation. These options are for "
 "greater convenience in your work."
 msgstr ""
-"Premendo <keycap>Alt</keycap> (o <keycombo><keycap>Ctrl</keycap><keycap>Alt</"
+"Premere <keycap>Alt</keycap> (o <keycombo><keycap>Ctrl</keycap><keycap>Alt</"
 "keycap></keycombo> e facendo clic sulla miniatura della maschera di livello) "
 "è equivalente al comando <link linkend=\"gimp-layer-mask-show\">Mostra "
 "maschera di livello</link>: i bordi della maschera di livello diventano "
 "verdi. Se si preme <keycap>Ctrl</keycap> il bordo diventa rosso e il "
 "risultato è equivalente al comando <link linkend=\"gimp-layer-mask-disable"
 "\">Disabilita maschera di livello</link>. Per tornare alla vista normale "
-"basta rifare l'ultimo comando. Queste opzioni sono state create per "
-"aumentare il livello di comodità del lavoro."
+"basta rifare l'ultimo comando. Queste opzioni sono state create per rendere "
+"più comodo il lavoro."
 
 #: src/dialogs/layer-mask.xml:126(term)
 msgid "Layer Mask example"
@@ -4648,8 +4712,7 @@ msgstr "Visibilità livello"
 msgid ""
 "In front of the thumbnail is an icon showing an eye. By clicking on the eye, "
 "you toggle whether the layer is visible or not. (<keycap>Shift</keycap>-"
-"clicking on the eye causes all <emphasis>other</emphasis> to be temporarily "
-"hidden.)"
+"clicking on the eye causes all <emphasis>other</emphasis> to be hidden.)"
 msgstr ""
 "Di fronte alla miniatura c'è un'icona che mostra un occhio. Facendo clic "
 "sull'occhio, si commuta la visibilità del livello (<keycap>Maiusc</keycap>-"
@@ -4825,10 +4888,10 @@ msgid ""
 "checked the <guilabel>Fill transparent areas</guilabel> option for the "
 "Bucket fill tool."
 msgstr ""
-"\"<emphasis role=\\\"bold\\\">Blocca canale alfa</emphasis>: se "
-"quest'opzione viene selezionata le zone trasparenti del livello verranno "
-"mantenute tali, anche se è selezionata l'opzione <guilabel>Riempi aree "
-"trasparenti</guilabel> dello strumento riempimento colore."
+"<emphasis role=\"bold\">Blocca canale alfa</emphasis>: se quest'opzione "
+"viene selezionata le zone trasparenti del livello verranno mantenute tali, "
+"anche se è selezionata l'opzione <guilabel>Riempi aree trasparenti</"
+"guilabel> dello strumento riempimento colore."
 
 #: src/dialogs/layer-dialog.xml:308(title)
 msgid "Example for Locking Alpha Channel"
@@ -5496,16 +5559,14 @@ msgid "Using the Images dialog"
 msgstr "Uso della finestra di dialogo immagini"
 
 #: src/dialogs/images-dialog.xml:85(para)
-#, fuzzy
 msgid ""
 "In multi-window mode, at the top of the dialog, a drop-list of open images "
 "appears if the <quote>Show Image Selection</quote> option is checked in the "
 "Tab Menu."
 msgstr ""
-"Se l'opzione <quote>Mostra selezione immagine</quote> presente nel menu "
-"scheda è selezionata, allora in cima alla finestra di dialogo apparirà il "
-"nome dell'immagine correntemente selezionata. Quest'opzione è inutile se si "
-"è selezionata la modalità griglia; comunque il nome è sempre visualizzato."
+"In modalità multifinestra, se l'opzione <quote>Mostra selezione immagine</"
+"quote> presente nel menu scheda è selezionata, allora in cima alla finestra "
+"di dialogo apparirà un elenco delle immagini attualmente aperte."
 
 #: src/dialogs/images-dialog.xml:90(para)
 msgid ""
@@ -5747,7 +5808,7 @@ msgstr ""
 "canali colore: un'immagine RGB nei canali R, G e B, un'immagine in scala di "
 "grigi nel singolo canale chiamato valore. I livelli che supportano la "
 "trasparenza hanno un canale aggiuntivo, il canale alfa. Ogni canale supporta "
-"dei valori d'intensità da 0 a 255 (in numeri interi). Perciò un pixel nerò "
+"dei valori d'intensità da 0 a 255 (in numeri interi). Perciò un pixel nero "
 "viene codificato con lo 0 in tutti i canali colore, un pixel bianco con 255 "
 "in tutti i canali colore. Un pixel trasparente viene codificato con lo 0 sul "
 "canale alfa; un pixel opaco con il 255."
@@ -6016,7 +6077,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:26(None)
+#: src/dialogs/gradient-editor-dialog.xml:27(None)
 msgid ""
 "@@image: 'images/dialogs/gradient-editor-dialog.png'; "
 "md5=24917bba5d6cce3a3866624a16aea813"
@@ -6024,7 +6085,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:277(None)
+#: src/dialogs/gradient-editor-dialog.xml:278(None)
 msgid ""
 "@@image: 'images/dialogs/gradient-editor-popup-menu.png'; "
 "md5=226375ddf2b404c7869c7c7e589c7136"
@@ -6032,7 +6093,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:301(None)
+#: src/dialogs/gradient-editor-dialog.xml:302(None)
 msgid ""
 "@@image: 'images/dialogs/gradient-editor-colortype-submenu.png'; "
 "md5=fff86e0f31cbe9b4405f9db69cf8a87f"
@@ -6040,7 +6101,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:343(None)
+#: src/dialogs/gradient-editor-dialog.xml:344(None)
 msgid ""
 "@@image: 'images/dialogs/gradient-editor-colorfrom.png'; "
 "md5=e1d47f3cb690b6bea586b8dfcc5d55cf"
@@ -6048,7 +6109,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:422(None)
+#: src/dialogs/gradient-editor-dialog.xml:445(None)
 msgid ""
 "@@image: 'images/dialogs/gradient-editor-blend.png'; "
 "md5=41bc455a12f4d7fb615b213c2dc543e5"
@@ -6056,7 +6117,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:489(None)
+#: src/dialogs/gradient-editor-dialog.xml:512(None)
 msgid ""
 "@@image: 'images/dialogs/gradient-editor-color.png'; "
 "md5=52ffeffc712de04d7132d142fa2240a0"
@@ -6064,7 +6125,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:647(None)
+#: src/dialogs/gradient-editor-dialog.xml:670(None)
 msgid ""
 "@@image: 'images/dialogs/examples/new-gradient-1.png'; "
 "md5=0d91f635a1a6f0544bdd66aa542b81c8"
@@ -6072,7 +6133,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:663(None)
+#: src/dialogs/gradient-editor-dialog.xml:686(None)
 msgid ""
 "@@image: 'images/dialogs/examples/new-gradient-2.png'; "
 "md5=fb7435a1a153e61551d357797257f0e1"
@@ -6080,21 +6141,21 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/gradient-editor-dialog.xml:688(None)
+#: src/dialogs/gradient-editor-dialog.xml:711(None)
 msgid ""
 "@@image: 'images/dialogs/examples/new-gradient-3.png'; "
 "md5=e0ee25a980f77c5eb7adbfe7f170d6af"
 msgstr " "
 
-#: src/dialogs/gradient-editor-dialog.xml:13(title)
+#: src/dialogs/gradient-editor-dialog.xml:14(title)
 msgid "The Gradient Editor"
 msgstr "L'editor dei gradienti"
 
-#: src/dialogs/gradient-editor-dialog.xml:22(title)
+#: src/dialogs/gradient-editor-dialog.xml:23(title)
 msgid "The gradient editor"
 msgstr "L'editor dei gradienti"
 
-#: src/dialogs/gradient-editor-dialog.xml:30(para)
+#: src/dialogs/gradient-editor-dialog.xml:31(para)
 msgid ""
 "The Gradient Editor allows you to edit the colors in a gradient. It can only "
 "be used on gradients you have created yourself (or on a copy of a system "
@@ -6114,27 +6175,27 @@ msgstr ""
 "vengono preinstallati con GIMP. È uno strumento sofisticato che necessita di "
 "un certo sforzo di apprendimento. Il concetto sottostante è che un gradiente "
 "può essere scomposto in una serie di <emphasis>segmenti</emphasis> "
-"adiacenti, di cui ogniuno consistente in una transizione continua tra il "
+"adiacenti, di cui ognuno consistente in una transizione continua tra il "
 "colore posizionato sul bordo sinistro fino a quello sul bordo destro del "
 "segmento stesso. L'editor del gradiente permette di affiancare qualsiasi "
 "numero di segmenti, di qualsiasi colore e con una serie di possibilità di "
 "scelta per il tipo di transizione dalla sinistra a destra."
 
-#: src/dialogs/gradient-editor-dialog.xml:45(title)
+#: src/dialogs/gradient-editor-dialog.xml:46(title)
 msgid "How to Activate the Gradient Editor"
 msgstr "Come attivare l'editor del gradiente"
 
-#: src/dialogs/gradient-editor-dialog.xml:46(para)
+#: src/dialogs/gradient-editor-dialog.xml:47(para)
 msgid "You can activate the Gradient Editor in several ways:"
 msgstr "L' editor del gradiente è attivabile con più di un metodo:"
 
-#: src/dialogs/gradient-editor-dialog.xml:51(para)
+#: src/dialogs/gradient-editor-dialog.xml:52(para)
 msgid "by double-clicking on the gradient stripe in the Gradient dialog,"
 msgstr ""
 "facendo doppio clic sulla striscia del gradiente nella finestra del "
 "gradiente,"
 
-#: src/dialogs/gradient-editor-dialog.xml:56(para)
+#: src/dialogs/gradient-editor-dialog.xml:57(para)
 msgid ""
 "from the context menu you get by right clicking on the selected gradient "
 "name,"
@@ -6142,7 +6203,7 @@ msgstr ""
 "dal menu contestuale che si ottiene facendo clic a destra sul nome del "
 "gradiente selezionato,"
 
-#: src/dialogs/gradient-editor-dialog.xml:62(para)
+#: src/dialogs/gradient-editor-dialog.xml:63(para)
 msgid ""
 "by clicking on the <guibutton>Edit gradient</"
 "guibutton><guiicon><inlinegraphic fileref=\"images/dialogs/stock-edit-16.png"
@@ -6152,7 +6213,7 @@ msgstr ""
 "guibutton><guiicon><inlinegraphic fileref=\"images/dialogs/stock-edit-16.png"
 "\"/></guiicon> nella finestra dei gradienti,"
 
-#: src/dialogs/gradient-editor-dialog.xml:71(para)
+#: src/dialogs/gradient-editor-dialog.xml:72(para)
 msgid ""
 "from the Gradient Menu you get by clicking on <guiicon><inlinegraphic "
 "fileref=\"images/dialogs/stock-menu-left-12.png\"/></guiicon> in the "
@@ -6162,26 +6223,26 @@ msgstr ""
 "\"images/dialogs/stock-menu-left-12.png\"/></guiicon> nella finestra di "
 "dialogo dei gradienti."
 
-#: src/dialogs/gradient-editor-dialog.xml:84(title)
+#: src/dialogs/gradient-editor-dialog.xml:85(title)
 msgid "Display"
 msgstr "Disposizione"
 
-#: src/dialogs/gradient-editor-dialog.xml:87(term)
+#: src/dialogs/gradient-editor-dialog.xml:88(term)
 #: src/dialogs/edit-template-dialog.xml:44(term)
 msgid "Name"
 msgstr "Nome"
 
-#: src/dialogs/gradient-editor-dialog.xml:89(para)
+#: src/dialogs/gradient-editor-dialog.xml:90(para)
 msgid "In the name area, you have the tab menu button (the small triangle)."
 msgstr ""
 "Nell'area del nome si può notare il pulsante del menu scheda (il piccolo "
 "triangolo) che apre un menu dove si trova il menu dell'editor del gradiente."
 
-#: src/dialogs/gradient-editor-dialog.xml:96(term)
+#: src/dialogs/gradient-editor-dialog.xml:97(term)
 msgid "The Gradient Preview Window"
 msgstr "La finestra del gradiente"
 
-#: src/dialogs/gradient-editor-dialog.xml:98(para)
+#: src/dialogs/gradient-editor-dialog.xml:99(para)
 msgid ""
 "Below the name, you see the current result of your work if the "
 "<guilabel>Instant update</guilabel> option is checked; else, changes will "
@@ -6192,7 +6253,7 @@ msgstr ""
 "lavoro; altrimenti i cambiamenti appariranno solo al rilascio del pulsante "
 "del mouse."
 
-#: src/dialogs/gradient-editor-dialog.xml:103(para)
+#: src/dialogs/gradient-editor-dialog.xml:104(para)
 msgid ""
 "If you simply move the mouse pointer on this display, it works somewhat as a "
 "color-picker. Values of the pointed pixel are displayed in a rather odd way. "
@@ -6207,7 +6268,7 @@ msgstr ""
 "destra dell'intero gradiente. <emphasis>RGB, HSV, Intensità e Opacità</"
 "emphasis> sono anch'essi un rapporto."
 
-#: src/dialogs/gradient-editor-dialog.xml:112(para)
+#: src/dialogs/gradient-editor-dialog.xml:113(para)
 msgid ""
 "If you click-n-drag on display, then only position and RGB data are "
 "displayed. But they are passed on to the Foreground color in the Toolbox and "
@@ -6220,11 +6281,11 @@ msgstr ""
 "(premendo il tasto <keycap>Ctrl</keycap>, il colore viene impostato sul "
 "colore di sfondo, come si può osservare nel pannello degli strumenti)."
 
-#: src/dialogs/gradient-editor-dialog.xml:122(term)
+#: src/dialogs/gradient-editor-dialog.xml:123(term)
 msgid "Range Selection/Control Sliders"
 msgstr "Selezione di intervallo/Cursori di controllo"
 
-#: src/dialogs/gradient-editor-dialog.xml:124(para)
+#: src/dialogs/gradient-editor-dialog.xml:125(para)
 msgid ""
 "Below the gradient display, you see a set of black and white triangles lined "
 "up in row which allow you to adjust endpoints and midpoints in the gradient "
@@ -6251,14 +6312,14 @@ msgstr ""
 "possibile selezionare un segmento facendo clic tra i due triangoli neri che "
 "lo definiscono. È possibile selezionare un insieme di segmenti facendo clic "
 "su di essi con il tasto delle maiuscole premuto. L'insieme selezionato è "
-"sempre costituito da un blocco di segmenti <emphasis>consecutivi</"
-"emphasis> , per cui se se ne salta qualcuno e poi si fa Maiusc+clic oltre, "
-"questi verranno inclusi automaticamente. Se l'opzione <quote>Aggiornamento "
-"istantaneo</quote> è abilitata, la finestra viene aggiornata immediatamente "
-"dopo il movimento dei cursori; se non è abilitata, l'aggiornamento viene "
-"effettuato solo in concomitanza del rilascio del pulsante del mouse."
+"sempre costituito da un blocco di segmenti <emphasis>consecutivi</emphasis>, "
+"per cui se ne salta qualcuno e poi si fa Maiusc+clic oltre, questi verranno "
+"inclusi automaticamente. Se l'opzione <quote>Aggiornamento istantaneo</"
+"quote> è abilitata, la finestra viene aggiornata immediatamente dopo il "
+"movimento dei cursori; se non è abilitata, l'aggiornamento viene effettuato "
+"solo in concomitanza del rilascio del pulsante del mouse."
 
-#: src/dialogs/gradient-editor-dialog.xml:144(para)
+#: src/dialogs/gradient-editor-dialog.xml:145(para)
 msgid ""
 "You can move sliders, segments and selections. If you simply <emphasis>click-"
 "n-drag a slider</emphasis>, you only move the corresponding transition. By "
@@ -6275,11 +6336,11 @@ msgstr ""
 "si può spostare il segmento/selezione e comprimere/dilatare i segmenti "
 "adiacenti."
 
-#: src/dialogs/gradient-editor-dialog.xml:157(term)
+#: src/dialogs/gradient-editor-dialog.xml:158(term)
 msgid "Scrollbar"
 msgstr "La barra di scorrimento"
 
-#: src/dialogs/gradient-editor-dialog.xml:159(para)
+#: src/dialogs/gradient-editor-dialog.xml:160(para)
 msgid ""
 "Below the sliders is a scrollbar. This only comes into play if you zoom in "
 "using the buttons at the bottom."
@@ -6288,11 +6349,11 @@ msgstr ""
 "attiva solamente usando i pulsanti di zoom. Questi sono descritti in seguito "
 "e sono posti in fondo alla finestra di dialogo."
 
-#: src/dialogs/gradient-editor-dialog.xml:166(term)
+#: src/dialogs/gradient-editor-dialog.xml:167(term)
 msgid "Feedback Area"
 msgstr "Area informativa"
 
-#: src/dialogs/gradient-editor-dialog.xml:168(para)
+#: src/dialogs/gradient-editor-dialog.xml:169(para)
 msgid ""
 "Below, a color swatch shows the color pointed by the mouse cursor. "
 "Informations about this color and helpful hints or feedback messages may "
@@ -6304,11 +6365,11 @@ msgstr ""
 "area, secondo le azioni dell'utente, può riempirsi anche di suggerimenti o "
 "messaggi informativi."
 
-#: src/dialogs/gradient-editor-dialog.xml:178(para)
+#: src/dialogs/gradient-editor-dialog.xml:179(para)
 msgid "At the bottom of the dialog appear five buttons:"
 msgstr "In fondo alla finestra di dialogo appaiono cinque pulsanti:"
 
-#: src/dialogs/gradient-editor-dialog.xml:190(para)
+#: src/dialogs/gradient-editor-dialog.xml:191(para)
 msgid ""
 "Clicking this button causes the gradient, in its current state, to be saved "
 "in your personal <filename class=\"directory\">gradients</filename> folder, "
@@ -6320,7 +6381,7 @@ msgstr ""
 "\">gradients</filename>, in modo da essere automaticamente caricato al "
 "prossimo riavvio di <acronym>GIMP</acronym>."
 
-#: src/dialogs/gradient-editor-dialog.xml:208(para)
+#: src/dialogs/gradient-editor-dialog.xml:209(para)
 msgid ""
 "Clicking this button undoes all of your editing. (However, at the time this "
 "is being written, this function is not yet implemented.)"
@@ -6328,13 +6389,13 @@ msgstr ""
 "Facendo clic su questo pulsante si annulleranno tutte le modifiche "
 "(attualmente la funzione non è ancora stata implementata)."
 
-#: src/dialogs/gradient-editor-dialog.xml:225(para)
+#: src/dialogs/gradient-editor-dialog.xml:226(para)
 msgid "Clicking this button shrinks the gradient display horizontally."
 msgstr ""
 "Facendo clic su questo pulsante si restringe la finestra dei gradienti "
 "orizzontalmente."
 
-#: src/dialogs/gradient-editor-dialog.xml:241(para)
+#: src/dialogs/gradient-editor-dialog.xml:242(para)
 msgid ""
 "Clicking this button expands the gradient display horizontally. You can then "
 "use the scrollbar to pan the display left or right."
@@ -6344,7 +6405,7 @@ msgstr ""
 "disposizione, viene abilitata la barra di scorrimento, utile per far "
 "scorrere il gradiente nella sua finestra."
 
-#: src/dialogs/gradient-editor-dialog.xml:258(para)
+#: src/dialogs/gradient-editor-dialog.xml:259(para)
 msgid ""
 "Clicking this button resizes the display horizontally so that it fits "
 "precisely into the window."
@@ -6352,15 +6413,15 @@ msgstr ""
 "Facendo clic su questo pulsante si ridimensiona la vista del gradiente nella "
 "sua finestra in maniera tale da consentirne la visualizzazione completa."
 
-#: src/dialogs/gradient-editor-dialog.xml:271(title)
+#: src/dialogs/gradient-editor-dialog.xml:272(title)
 msgid "The Gradient Editor pop-up Menu"
 msgstr "Il menu dell'editor del gradiente"
 
-#: src/dialogs/gradient-editor-dialog.xml:273(title)
+#: src/dialogs/gradient-editor-dialog.xml:274(title)
 msgid "The Gradient Editor pop-up menu"
 msgstr "Il menu dell'editor del gradiente"
 
-#: src/dialogs/gradient-editor-dialog.xml:281(para)
+#: src/dialogs/gradient-editor-dialog.xml:282(para)
 msgid ""
 "You can access the Gradient Editor menu either by right-clicking on the "
 "gradient display, or by choosing the top item in the dialog's tab menu. The "
@@ -6374,27 +6435,27 @@ msgstr ""
 "impostare il colore del bordo destro e sinistro di ogni segmento e di "
 "impostare il tipo di transizione tra questi colori."
 
-#: src/dialogs/gradient-editor-dialog.xml:289(para)
+#: src/dialogs/gradient-editor-dialog.xml:290(para)
 msgid "The following commands can be found in the menu:"
 msgstr "I comandi seguenti si trovano in questo menu:"
 
-#: src/dialogs/gradient-editor-dialog.xml:291(title)
+#: src/dialogs/gradient-editor-dialog.xml:292(title)
 msgid "Editing endpoint's color"
 msgstr "Modifica del colore delle estremità"
 
-#: src/dialogs/gradient-editor-dialog.xml:293(term)
+#: src/dialogs/gradient-editor-dialog.xml:294(term)
 msgid "Left/Right color type"
 msgstr "Tipo di colore sinistro/destro"
 
-#: src/dialogs/gradient-editor-dialog.xml:295(para)
+#: src/dialogs/gradient-editor-dialog.xml:296(para)
 msgid "This command opens a submenu:"
 msgstr "Questo comando apre un sottomenù:"
 
-#: src/dialogs/gradient-editor-dialog.xml:297(title)
+#: src/dialogs/gradient-editor-dialog.xml:298(title)
 msgid "The Left/Right color type sub-menu"
 msgstr "Il sottomenu tipo di colore sinistro/destro"
 
-#: src/dialogs/gradient-editor-dialog.xml:305(para)
+#: src/dialogs/gradient-editor-dialog.xml:306(para)
 msgid ""
 "This submenu allows you to select the endpoint color from the toolbox "
 "foreground and background colors. Whenever you change the foreground or "
@@ -6407,11 +6468,11 @@ msgstr ""
 "cambia di conseguenza. L'alternativa è impostare un colore dell'estremità di "
 "tipo <guimenuitem>Fisso</guimenuitem>."
 
-#: src/dialogs/gradient-editor-dialog.xml:315(term)
+#: src/dialogs/gradient-editor-dialog.xml:316(term)
 msgid "Left [Right] Endpoint's Color"
 msgstr "Colore capo Sinistro [Destro]"
 
-#: src/dialogs/gradient-editor-dialog.xml:319(para)
+#: src/dialogs/gradient-editor-dialog.xml:320(para)
 msgid ""
 "These options allow you to choose a color for the respective endpoint using "
 "a Color Editor."
@@ -6419,7 +6480,7 @@ msgstr ""
 "Queste opzioni permettono di scegliere, tramite un'editor, un colore per il "
 "rispettivo capo."
 
-#: src/dialogs/gradient-editor-dialog.xml:324(para)
+#: src/dialogs/gradient-editor-dialog.xml:325(para)
 msgid ""
 "This command is related to the previous one and becomes inactive if you have "
 "selected any other value than <guimenuitem>Fixed</guimenuitem> for the "
@@ -6429,15 +6490,15 @@ msgstr ""
 "selezionato un valore diverso da <guimenuitem>Fisso</guimenuitem> per il "
 "tipo di colore sinistro [destro] corrispondente."
 
-#: src/dialogs/gradient-editor-dialog.xml:334(term)
+#: src/dialogs/gradient-editor-dialog.xml:335(term)
 msgid "Load Left [Right] Color From"
 msgstr "Carica il colore sinistro [destro] da"
 
-#: src/dialogs/gradient-editor-dialog.xml:339(title)
+#: src/dialogs/gradient-editor-dialog.xml:340(title)
 msgid "The <quote>Load Color From</quote> submenu"
 msgstr "Il sottomenu di <quote>Carica il colore da</quote>"
 
-#: src/dialogs/gradient-editor-dialog.xml:347(para)
+#: src/dialogs/gradient-editor-dialog.xml:348(para)
 msgid ""
 "These options give you a number of alternative ways of assigning colors to "
 "the endpoints. From the submenu you can choose (assuming we're dealing with "
@@ -6447,11 +6508,11 @@ msgstr ""
 "colori ai capi. Dal sottomenu è possibile scegliere (assumendo che si abbia "
 "a che fare con il capo sinistro):"
 
-#: src/dialogs/gradient-editor-dialog.xml:354(term)
+#: src/dialogs/gradient-editor-dialog.xml:355(term)
 msgid "Left Neighbor's Right Endpoint"
 msgstr "Capo destro più vicino a sinistra"
 
-#: src/dialogs/gradient-editor-dialog.xml:356(para)
+#: src/dialogs/gradient-editor-dialog.xml:357(para)
 msgid ""
 "This choice will cause the color of the right endpoint of the segment "
 "neighboring on the left to be assigned to the left endpoint of the selected "
@@ -6460,11 +6521,11 @@ msgstr ""
 "Questa scelta provocherà l'assegnamento al capo sinistro dell'intervallo "
 "selezionato del colore del capo destro del segmento adiacente."
 
-#: src/dialogs/gradient-editor-dialog.xml:364(term)
+#: src/dialogs/gradient-editor-dialog.xml:365(term)
 msgid "Right Endpoint"
 msgstr "Capo destro"
 
-#: src/dialogs/gradient-editor-dialog.xml:366(para)
+#: src/dialogs/gradient-editor-dialog.xml:367(para)
 msgid ""
 "This choice will cause the color of the right endpoint of the selected range "
 "to be assigned to the left endpoint."
@@ -6472,11 +6533,11 @@ msgstr ""
 "Questa scelta causerà il riassegnamento del colore del capo sinistro al "
 "colore del capo destro dell'intervallo selezionato."
 
-#: src/dialogs/gradient-editor-dialog.xml:373(term)
+#: src/dialogs/gradient-editor-dialog.xml:374(term)
 msgid "FG/BG color"
 msgstr "Colore di PP/SF"
 
-#: src/dialogs/gradient-editor-dialog.xml:375(para)
+#: src/dialogs/gradient-editor-dialog.xml:376(para)
 msgid ""
 "This choice causes GIMP's current foreground or background color, as shown "
 "in the Toolbox, to be assigned to the endpoint. Note that changing "
@@ -6487,11 +6548,11 @@ msgstr ""
 "osservi che cambiare successivamente il colore di primo piano o di sfondo "
 "non avrà effetto sul colore dell'estremità."
 
-#: src/dialogs/gradient-editor-dialog.xml:384(term)
+#: src/dialogs/gradient-editor-dialog.xml:385(term)
 msgid "RGBA slots"
 msgstr "Tavolozza RGBA"
 
-#: src/dialogs/gradient-editor-dialog.xml:386(para)
+#: src/dialogs/gradient-editor-dialog.xml:387(para)
 msgid ""
 "At the bottom of the menu are 10 <quote>memory slots</quote>. You can assign "
 "colors to them using the <quote>Save</quote> menu option described below. If "
@@ -6503,11 +6564,11 @@ msgstr ""
 "quote> descritta in seguito. Se si sceglie uno di questi moduli, il colore "
 "in esso viene assegnato al capo."
 
-#: src/dialogs/gradient-editor-dialog.xml:399(term)
+#: src/dialogs/gradient-editor-dialog.xml:400(term)
 msgid "Save Left [Right] Color To"
 msgstr "Salva il colore sinistro [destro] su"
 
-#: src/dialogs/gradient-editor-dialog.xml:403(para)
+#: src/dialogs/gradient-editor-dialog.xml:404(para)
 msgid ""
 "These options cause the color of the endpoint in question to be assigned to "
 "the <quote>memory slot</quote> selected from the submenu."
@@ -6515,19 +6576,45 @@ msgstr ""
 "Queste opzioni permettono di assegnare il colore del capo in oggetto al "
 "<quote>modulo di memoria</quote> selezionato nel sottomenu."
 
-#: src/dialogs/gradient-editor-dialog.xml:412(title)
+#. 2013-03-29
+#: src/dialogs/gradient-editor-dialog.xml:412(term)
+msgid "Click and drag colors"
+msgstr "Fare clic e trascinare i colori"
+
+#: src/dialogs/gradient-editor-dialog.xml:419(para)
+msgid "to an endpoint (a black triangle), to set left [right] colors,"
+msgstr ""
+"ad un capo (un triangolo nero), per impostare i colori di sinistra [destra],"
+
+#: src/dialogs/gradient-editor-dialog.xml:424(para)
+msgid ""
+"to the gradient display area, to add a new endpoint with this color on both "
+"sides."
+msgstr ""
+"all'area di visualizzazione del gradiente, per aggiungere un nuovo capo con "
+"questo colore su entrambi i lati."
+
+#: src/dialogs/gradient-editor-dialog.xml:414(para)
+msgid ""
+"You can also click and drag a color from the toolbox FG-BG colors or from a "
+"palette <placeholder-1/>"
+msgstr ""
+"È possibile anche fare clic e trascinare un colore dai colori di primo piano "
+"e sfondo del pannello degli strumenti o da una tavolozza <placeholder-1/>"
+
+#: src/dialogs/gradient-editor-dialog.xml:435(title)
 msgid "Blending and coloring functions for segment"
 msgstr "Funzioni di sfumatura e colorazione dei segmenti"
 
-#: src/dialogs/gradient-editor-dialog.xml:414(term)
+#: src/dialogs/gradient-editor-dialog.xml:437(term)
 msgid "Blending Function for Segment"
 msgstr "Tipo di funzione di sfumatura per il segmento/la selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:418(title)
+#: src/dialogs/gradient-editor-dialog.xml:441(title)
 msgid "The Blending Function submenu"
 msgstr "Il sottomenu del tipo di funzione di sfumatura"
 
-#: src/dialogs/gradient-editor-dialog.xml:426(para)
+#: src/dialogs/gradient-editor-dialog.xml:449(para)
 msgid ""
 "This option determines the course of the transition from one endpoint of the "
 "range (segment or selection) to the other, by fitting the specified type of "
@@ -6537,11 +6624,11 @@ msgstr ""
 "dell'intervallo (segmento o selezione) specificando la funzione utilizzata "
 "tra:"
 
-#: src/dialogs/gradient-editor-dialog.xml:434(term)
+#: src/dialogs/gradient-editor-dialog.xml:457(term)
 msgid "Linear"
 msgstr "Lineare"
 
-#: src/dialogs/gradient-editor-dialog.xml:436(para)
+#: src/dialogs/gradient-editor-dialog.xml:459(para)
 msgid ""
 "Default option. Color varies linearly from one endpoint of the range to the "
 "other."
@@ -6549,21 +6636,21 @@ msgstr ""
 "La scelta predefinita. Il colore varia linearmente da un capo "
 "dell'intervallo all'altro."
 
-#: src/dialogs/gradient-editor-dialog.xml:443(term)
+#: src/dialogs/gradient-editor-dialog.xml:466(term)
 msgid "Curved"
 msgstr "Curvo"
 
-#: src/dialogs/gradient-editor-dialog.xml:445(para)
+#: src/dialogs/gradient-editor-dialog.xml:468(para)
 msgid "Gradient varies more quickly on ends of the range than on its middle."
 msgstr ""
 "Il gradiente varia più velocemente presso gli estremi dell'intervallo, "
 "piuttosto che nella sua parte centrale."
 
-#: src/dialogs/gradient-editor-dialog.xml:452(term)
+#: src/dialogs/gradient-editor-dialog.xml:475(term)
 msgid "Sinusoidal"
 msgstr "Sinusoidale"
 
-#: src/dialogs/gradient-editor-dialog.xml:454(para)
+#: src/dialogs/gradient-editor-dialog.xml:477(para)
 msgid ""
 "The opposite of the curved type. Gradients varies more quickly on center of "
 "the range than on its ends."
@@ -6571,36 +6658,36 @@ msgstr ""
 "L'opposto del tipo curvo. I gradienti variano più velocemente al centro "
 "dell'intervallo che ai suoi estremi."
 
-#: src/dialogs/gradient-editor-dialog.xml:461(term)
+#: src/dialogs/gradient-editor-dialog.xml:484(term)
 msgid "Spherical (increasing)"
 msgstr "Sferico (incrementale)"
 
-#: src/dialogs/gradient-editor-dialog.xml:463(para)
+#: src/dialogs/gradient-editor-dialog.xml:486(para)
 msgid ""
 "Gradient varies more quickly on the left of the range than on its right."
 msgstr ""
 "Il gradiente varia più velocemente sulla sinistra dell'intervallo che sulla "
 "sua parte destra."
 
-#: src/dialogs/gradient-editor-dialog.xml:470(term)
+#: src/dialogs/gradient-editor-dialog.xml:493(term)
 msgid "Spherical (decreasing)"
 msgstr "Sferico (decrementale)"
 
-#: src/dialogs/gradient-editor-dialog.xml:472(para)
+#: src/dialogs/gradient-editor-dialog.xml:495(para)
 msgid "Gradient varies more quickly on the right than on the left."
 msgstr ""
 "Il gradiente varia più velocemente sulla destra dell'intervallo, piuttosto "
 "che sulla sinistra."
 
-#: src/dialogs/gradient-editor-dialog.xml:481(term)
+#: src/dialogs/gradient-editor-dialog.xml:504(term)
 msgid "Coloring Type for Segment"
 msgstr "Tipo di colorazione per il segmento/la selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:485(title)
+#: src/dialogs/gradient-editor-dialog.xml:508(title)
 msgid "The Coloring Type submenu"
 msgstr "Il menu del \"Tipo di colorazione\""
 
-#: src/dialogs/gradient-editor-dialog.xml:493(para)
+#: src/dialogs/gradient-editor-dialog.xml:516(para)
 msgid ""
 "This option gives you additional control of the type of transition from one "
 "endpoint to the other: as a line either in RGB space or in HSV space."
@@ -6608,15 +6695,15 @@ msgstr ""
 "Quest'opzione fornisce ulteriore controllo sul tipo di transizione da un "
 "capo all'altro: come linea in spazio RGB o in spazio HSV."
 
-#: src/dialogs/gradient-editor-dialog.xml:502(title)
+#: src/dialogs/gradient-editor-dialog.xml:525(title)
 msgid "Modifying segments"
 msgstr "Modifica dei segmenti"
 
-#: src/dialogs/gradient-editor-dialog.xml:504(term)
+#: src/dialogs/gradient-editor-dialog.xml:527(term)
 msgid "Flip Segment"
 msgstr "Rifletti il segmento/la selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:507(para)
+#: src/dialogs/gradient-editor-dialog.xml:530(para)
 msgid ""
 "This option does a right-to-left flip of the selected range (segment or "
 "selection), flipping all colors and endpoint locations."
@@ -6625,11 +6712,11 @@ msgstr ""
 "da destra a sinistra dell'intervallo (segmento o selezione), scambiando "
 "tutti i colori rispetto agli estremi."
 
-#: src/dialogs/gradient-editor-dialog.xml:515(term)
+#: src/dialogs/gradient-editor-dialog.xml:538(term)
 msgid "Replicate Segment"
 msgstr "Duplica il segmento/la selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:518(para)
+#: src/dialogs/gradient-editor-dialog.xml:541(para)
 msgid ""
 "This option splits the selected range (segment or selection) into two parts, "
 "each of which is a perfect compressed copy of the original range."
@@ -6637,11 +6724,11 @@ msgstr ""
 "Quest'opzione divide l'intervallo selezionato (segmento o selezione) in due "
 "parti, ognuna delle quali è una copia compressa perfetta dell'originale."
 
-#: src/dialogs/gradient-editor-dialog.xml:526(term)
+#: src/dialogs/gradient-editor-dialog.xml:549(term)
 msgid "Split Segment at Midpoint"
 msgstr "Dividi il segmento a metà"
 
-#: src/dialogs/gradient-editor-dialog.xml:529(para)
+#: src/dialogs/gradient-editor-dialog.xml:552(para)
 msgid ""
 "This option splits each segment in the selected range in into two segments, "
 "splitting at the location of the white triangle."
@@ -6649,11 +6736,11 @@ msgstr ""
 "Quest'opzione divide ogni segmento nell'intervallo selezionato in due "
 "segmenti, tagliando nel punto del triangolo bianco."
 
-#: src/dialogs/gradient-editor-dialog.xml:536(term)
+#: src/dialogs/gradient-editor-dialog.xml:559(term)
 msgid "Split Segment Uniformly"
 msgstr "Taglia il segmento uniformemente"
 
-#: src/dialogs/gradient-editor-dialog.xml:539(para)
+#: src/dialogs/gradient-editor-dialog.xml:562(para)
 msgid ""
 "This option is similar to the previous one, but it splits each segment "
 "halfway between the endpoints, instead of at the white triangle."
@@ -6661,11 +6748,11 @@ msgstr ""
 "Quest'opzione è simile alla precedente ma taglia ogni segmento a metà tra "
 "gli estremi di questo invece che in corrispondenza del triangolo bianco."
 
-#: src/dialogs/gradient-editor-dialog.xml:547(term)
+#: src/dialogs/gradient-editor-dialog.xml:570(term)
 msgid "Delete Segment"
 msgstr "Elimina il segmento/la selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:550(para)
+#: src/dialogs/gradient-editor-dialog.xml:573(para)
 msgid ""
 "This option deletes all segments in the selected range, (segment or "
 "selection) replacing them with a single black triangle at the center, and "
@@ -6675,11 +6762,11 @@ msgstr ""
 "selezionato rimpiazzandoli con un singolo triangolo nero al centro e "
 "allargando i segmenti ai due estremi per riempire il vuoto."
 
-#: src/dialogs/gradient-editor-dialog.xml:558(term)
+#: src/dialogs/gradient-editor-dialog.xml:581(term)
 msgid "Re-center Segment's midpoint"
 msgstr "Ri-centra la metà del segmento/selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:561(para)
+#: src/dialogs/gradient-editor-dialog.xml:584(para)
 msgid ""
 "This option moves the white triangle for each segment in the selected range "
 "to a point halfway between the neighboring black triangles."
@@ -6687,11 +6774,11 @@ msgstr ""
 "Quest'opzione sposta i triangoli bianchi di ogni segmento nell'intervallo "
 "selezionato in un punto a metà tra triangoli neri corrispondenti."
 
-#: src/dialogs/gradient-editor-dialog.xml:569(term)
+#: src/dialogs/gradient-editor-dialog.xml:592(term)
 msgid "Re-distribute Handles in Segment"
 msgstr "Re-distribuzione punti nel segmento/selezione"
 
-#: src/dialogs/gradient-editor-dialog.xml:572(para)
+#: src/dialogs/gradient-editor-dialog.xml:595(para)
 msgid ""
 "This option causes the black and white triangles in the selected range to be "
 "shifted so that the distances from one to the next are all equal."
@@ -6699,21 +6786,21 @@ msgstr ""
 "Quest'opzione provoca lo spostamento dei triangoli bianchi e neri "
 "nell'intervallo selezionato in maniera tale che siano equidistanti tra loro."
 
-#: src/dialogs/gradient-editor-dialog.xml:581(title)
+#: src/dialogs/gradient-editor-dialog.xml:604(title)
 msgid "Blending colors"
 msgstr "Sfuma colori"
 
-#: src/dialogs/gradient-editor-dialog.xml:582(para)
+#: src/dialogs/gradient-editor-dialog.xml:605(para)
 msgid "These options are available only if more than one segment are selected."
 msgstr ""
 "Queste opzioni sono disponibili sono se è stato selezionato più di un "
 "segmento alla volta."
 
-#: src/dialogs/gradient-editor-dialog.xml:587(term)
+#: src/dialogs/gradient-editor-dialog.xml:610(term)
 msgid "Blend Endpoints' Colors"
 msgstr "Sfuma i colori dei capi"
 
-#: src/dialogs/gradient-editor-dialog.xml:590(para)
+#: src/dialogs/gradient-editor-dialog.xml:613(para)
 msgid ""
 "This option causes the colors at interior endpoints in the range to be "
 "averaged, so that the transition from each segment to the next is smooth."
@@ -6722,11 +6809,11 @@ msgstr ""
 "Con essa si ottiene che venga calcolata la media dei colori dei capi interni "
 "in modo da rendere continua la transizione tra segmenti."
 
-#: src/dialogs/gradient-editor-dialog.xml:598(term)
+#: src/dialogs/gradient-editor-dialog.xml:621(term)
 msgid "Blend Endpoints' Opacity"
 msgstr "Sfuma l'opacità dei capi"
 
-#: src/dialogs/gradient-editor-dialog.xml:601(para)
+#: src/dialogs/gradient-editor-dialog.xml:624(para)
 msgid ""
 "This option does the same thing as the previous option, but with opacity "
 "instead of color."
@@ -6734,7 +6821,7 @@ msgstr ""
 "Questa opzione è simile alla precedente ma agisce con l'opacità invece che "
 "con il colore."
 
-#: src/dialogs/gradient-editor-dialog.xml:609(para)
+#: src/dialogs/gradient-editor-dialog.xml:632(para)
 msgid ""
 "There is no <quote>undo</quote> available within the Gradient Editor, so be "
 "careful!"
@@ -6742,21 +6829,21 @@ msgstr ""
 "Non c'è la possibilità di <quote>annullamento</quote> per le funzioni "
 "dell'editor del gradiente, per cui è necessario essere prudenti!"
 
-#: src/dialogs/gradient-editor-dialog.xml:617(title)
+#: src/dialogs/gradient-editor-dialog.xml:640(title)
 msgid "Using example for the Gradient Editor"
 msgstr "Esempio di utilizzo dell'editor dei gradienti"
 
-#: src/dialogs/gradient-editor-dialog.xml:619(primary)
+#: src/dialogs/gradient-editor-dialog.xml:642(primary)
 msgid "Tutorials"
 msgstr "Guide"
 
-#: src/dialogs/gradient-editor-dialog.xml:620(secondary)
-#: src/dialogs/gradient-editor-dialog.xml:624(secondary)
-#: src/dialogs/gradient-editor-dialog.xml:643(title)
+#: src/dialogs/gradient-editor-dialog.xml:643(secondary)
+#: src/dialogs/gradient-editor-dialog.xml:647(secondary)
+#: src/dialogs/gradient-editor-dialog.xml:666(title)
 msgid "New gradient"
 msgstr "Nuovo gradiente"
 
-#: src/dialogs/gradient-editor-dialog.xml:626(para)
+#: src/dialogs/gradient-editor-dialog.xml:649(para)
 msgid ""
 "All these options can seem somewhat boring. Here is an example to clear "
 "ideas:"
@@ -6764,7 +6851,7 @@ msgstr ""
 "Tutte queste opzioni possono confondere. Ecco quindi un esempio "
 "chiarificatore:"
 
-#: src/dialogs/gradient-editor-dialog.xml:632(para)
+#: src/dialogs/gradient-editor-dialog.xml:655(para)
 msgid ""
 "Open the Gradient Dialog. Click the <guibutton>New Gradient</"
 "guibutton><guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-new."
@@ -6776,7 +6863,7 @@ msgstr ""
 "dialogs-icon-new.png\"/></guiicon>. L'editor dei gradienti viene aperto e "
 "mostra un gradiente da nero a bianco."
 
-#: src/dialogs/gradient-editor-dialog.xml:653(para)
+#: src/dialogs/gradient-editor-dialog.xml:676(para)
 msgid ""
 "Right click in this new gradient and click the <guilabel>Split Segment "
 "Uniformly</guilabel>. Fix the number of segments you want."
@@ -6785,11 +6872,11 @@ msgstr ""
 "<guilabel>Dividi il segmento uniformemente</guilabel>. Impostare il numero "
 "segmenti desiderato."
 
-#: src/dialogs/gradient-editor-dialog.xml:659(title)
+#: src/dialogs/gradient-editor-dialog.xml:682(title)
 msgid "Gradient with three segments"
 msgstr "Gradiente con tre segmenti"
 
-#: src/dialogs/gradient-editor-dialog.xml:666(para)
+#: src/dialogs/gradient-editor-dialog.xml:689(para)
 msgid ""
 "Every segment is limited with two black triangular sliders. Click a segment "
 "to activate it. By pressing the <keycap>Shift</keycap> key, you can select "
@@ -6799,7 +6886,7 @@ msgstr ""
 "segmento per attivarlo. Premendo il tasto <keycap>Maiusc</keycap>, si può "
 "selezionare diversi segmenti contigui alla volta."
 
-#: src/dialogs/gradient-editor-dialog.xml:677(para)
+#: src/dialogs/gradient-editor-dialog.xml:700(para)
 msgid ""
 "In the context menu you get by right-clicking in the gradient, set "
 "<guilabel>Left Endpoint Color</guilabel> and <guilabel>Right Endpoint Color</"
@@ -6809,17 +6896,17 @@ msgstr ""
 "impostare <guilabel>Colore del capo sinistro</guilabel> e <guilabel>Colore "
 "del capo destro</guilabel> per il segmento o gruppo di segmenti selezionati."
 
-#: src/dialogs/gradient-editor-dialog.xml:684(title)
+#: src/dialogs/gradient-editor-dialog.xml:707(title)
 msgid "First segment colored"
 msgstr "Primo segmento colorato"
 
-#: src/dialogs/gradient-editor-dialog.xml:691(para)
+#: src/dialogs/gradient-editor-dialog.xml:714(para)
 msgid "Red has been chosen for left endpoint and yellow for the right enpoint."
 msgstr ""
 "Sono stati scelti i rosso per il capo sinistro e il giallo per il capo "
 "destro."
 
-#: src/dialogs/gradient-editor-dialog.xml:700(para)
+#: src/dialogs/gradient-editor-dialog.xml:723(para)
 msgid ""
 "Go on the same way for other segments. Then use the <guilabel>Blending "
 "functions for segment</guilabel> to achieve various effects."
@@ -7213,7 +7300,7 @@ msgid ""
 "background gradient. The \"CSS Save\" plugin is a CSS3 linear gradient "
 "generator that allows you to save a CSS3 code snippet, containing the "
 "gradient data for a given GIMP gradient. This code snippet is a text file: "
-"you can copy-past it to the stylesheet related to your HTML file, to get a "
+"you can copy-paste it to the stylesheet related to your HTML file, to get a "
 "gradient background on opening the HTML file in Firefox, Chrome or Safari "
 "web navigators. This CSS3 code snippet can also be used as a gradient in SVG "
 "files."
@@ -7261,6 +7348,14 @@ msgstr ""
 "     color-stop(0.000, rgb(0,123,255)),color-stop(0.566, rgb(72,226,255)),\n"
 "    color-stop(1.000, rgb(0,255,161)));\n"
 "              "
+
+#: src/dialogs/gradient-dialog.xml:335(para)
+msgid ""
+"You can use tags to reorganize the gradients display. See <xref linkend="
+"\"gimp-tagging\"/>."
+msgstr ""
+"Si possono usare le marcature per riorganizzare la visualizzazione dei "
+"gradienti. Vedere <xref linkend=\"gimp-tagging\"/>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -7491,12 +7586,12 @@ msgid ""
 "You can access to this command through <menuchoice><guimenu>File</"
 "guimenu><guimenuitem>Export...</guimenuitem></menuchoice>, or from the "
 "keyboard by using the shortcut <keycombo><keycap>Ctrl</keycap><keycap>Shift</"
-"keycap><keycap>S</keycap></keycombo>."
+"keycap><keycap>E</keycap></keycombo>."
 msgstr ""
 "È possibile accedere a questo comando tramite <menuchoice><guimenu>File</"
 "guimenu><guimenuitem>Esporta...</guimenuitem></menuchoice>, o con la "
 "tastiera usando la scorciatoia <keycombo><keycap>Ctrl</"
-"keycap><keycap>Maiusc</keycap><keycap>S</keycap></keycombo>."
+"keycap><keycap>Maiusc</keycap><keycap>E</keycap></keycombo>."
 
 #: src/dialogs/export-file-dialog.xml:30(title)
 msgid "Export Image Dialog"
@@ -8158,7 +8253,6 @@ msgid "The <quote>Device Status</quote> Dialog"
 msgstr "La finestra di dialogo <quote>Stato dispositivo</quote>"
 
 #: src/dialogs/device-status-dialog.xml:26(para)
-#, fuzzy
 msgid ""
 "This window gathers together the current options of Toolbox, for each of "
 "your input devices: the mouse (named <quote>Core pointer</quote>) or either "
@@ -8168,17 +8262,18 @@ msgid ""
 "option; the tool-box will be updated when changing. You can drag and drop "
 "items to this dialog."
 msgstr ""
-"Questa finestra raccoglie assieme, per ciascuno dei dispositivi di ingresso, "
-"mouse (chiamato <quote>Core pointer</quote>) o tavoletta grafica, se si ha "
-"la fortuna di possederne una, le opzioni correnti degli strumenti. Queste "
-"opzioni sono rappresentate da icone: colore di primo piano e di sfondo, "
-"pennello, motivo e gradiente correnti. Eccetto che per i colori, facendo "
-"clic su una di queste icone provoca l'apertura della finestra che permette "
-"di selezionare un'altra opzione; una volta fatta la selezione, il pannello "
-"degli strumenti sarà aggiornato per riflettere i cambiamenti."
+"Questa finestra raccoglie assieme le opzioni correnti del pannello degli "
+"strumenti, per ciascuno dei dispositivi di ingresso: mouse (chiamato "
+"<quote>Core pointer</quote>) o tavoletta grafica, se si ha la fortuna di "
+"possederne una. Queste opzioni sono rappresentate da icone: colore di primo "
+"piano e di sfondo, pennello, motivo e gradiente correnti. Eccetto che per i "
+"colori, facendo clic su una di queste icone provoca l'apertura della "
+"finestra che permette di selezionare un'altra opzione; una volta fatta la "
+"selezione, il pannello degli strumenti sarà aggiornato per riflettere i "
+"cambiamenti. Su questa finestra di dialogo si possono trascinare e "
+"rilasciare degli elementi."
 
 #: src/dialogs/device-status-dialog.xml:35(para)
-#, fuzzy
 msgid ""
 "The <quote>Save device status</quote> button <guiicon><inlinegraphic fileref="
 "\"images/dialogs/stock-save-16.png\"/></guiicon> at the bottom of the "
@@ -8188,8 +8283,9 @@ msgstr ""
 "Il pulsante <quote>Salva lo stato dispositivo</quote> "
 "<guiicon><inlinegraphic fileref=\"images/dialogs/stock-save-16.png\"/></"
 "guiicon> presente in fondo alla finestra, sembra avere la stessa funzione "
-"dell'opzione<quote>Salva ora lo stato dei dispositivi di ingresso</quote> "
-"presente nella sezione Dispositivi di ingresso nelle preferenze."
+"dell'opzione <quote>Salva ora lo stato dei dispositivi di ingresso</quote> "
+"presente nella sezione <quote>Dispositivi di ingresso</quote> nelle "
+"preferenze."
 
 #: src/dialogs/device-status-dialog.xml:47(para)
 msgid ""
@@ -8522,7 +8618,6 @@ msgid "Color picker"
 msgstr "Prelievo colore"
 
 #: src/dialogs/color-dialog.xml:247(para)
-#, fuzzy
 msgid ""
 "The color picker has a completely different behavior, than the <link linkend="
 "\"gimp-tool-color-picker\">color picker tool</link>. Instead of picking the "
@@ -8868,7 +8963,6 @@ msgid "Subtract from Selection"
 msgstr "Sottrai dalla selezione"
 
 #: src/dialogs/channel-menu.xml:73(para)
-#, fuzzy
 msgid ""
 "Final selection is subtraction of selection derived from a channel from "
 "previous active selection."
@@ -9480,7 +9574,7 @@ msgstr ""
 "taglia o si copia una parte di un disegnabile (un livello, una maschera di "
 "livello, ecc.). È possibile salvare i dati in questi buffer in due modi: "
 "<menuchoice><guimenu>Modifica</guimenu><guisubmenu>Buffer</"
-"guisubmenu><guimenuitem>Copia con nome</guimenuitem></menuchoice> or "
+"guisubmenu><guimenuitem>Copia con nome</guimenuitem></menuchoice> o "
 "<menuchoice><guimenu>Modifica</guimenu><guisubmenu>Buffer</"
 "guisubmenu><guimenuitem>Taglia con nome</guimenuitem></menuchoice> Una "
 "finestra di dialogo si apre per una qualsiasi delle due scelte chiedendo di "
@@ -9633,7 +9727,7 @@ msgid ""
 "uses the selected buffer rather than the global clipboard buffer."
 msgstr ""
 "Questo comando incolla il contenuto del buffer selezionato nell'immagine "
-"attiva, come selezione flottante. L'unica differenza tra questo e "
+"attiva, come selezione fluttuante. L'unica differenza tra questo e "
 "l'ordinario comando <link linkend=\"gimp-edit-paste\">Incolla</link> è che "
 "il primo usa il buffer selezionato invece che il buffer globale degli "
 "appunti."
@@ -9651,7 +9745,7 @@ msgid ""
 "buffer."
 msgstr ""
 "Questo comando incolla i contenuti del buffer selezionato nella selezione "
-"dell'immagine attiva, come selezione flottante. L'unica differenza tra "
+"dell'immagine attiva, come selezione fluttuante. L'unica differenza tra "
 "questo e l'ordinario comando <link linkend=\"gimp-edit-paste-into\">Incolla "
 "dentro</link> è che il primo usa il buffer selezionato invece che il buffer "
 "globale degli appunti."
@@ -10392,157 +10486,4 @@ msgstr ""
 msgid "translator-credits"
 msgstr ""
 "Marco Ciampa <ciampix@libero.it>, 2005, 2006, 2007, 2008, 2009, 2010, 2011, "
-"2012."
-
-#~ msgid ""
-#~ "@@image: 'images/dialogs/tools-dialog.png'; "
-#~ "md5=d05b7e33a770e6bc5ab74e1410d5237b"
-#~ msgstr " "
-
-#~ msgid "Tools Dialog"
-#~ msgstr "Pannello strumenti"
-
-#~ msgid "Tools"
-#~ msgstr "Strumenti"
-
-#~ msgid "Customize"
-#~ msgstr "Personalizza"
-
-#~ msgid "Toolbox"
-#~ msgstr "Pannello degli strumenti"
-
-#~ msgid "The Tools dialog"
-#~ msgstr "Il pannello strumenti"
-
-#~ msgid ""
-#~ "The <quote>Tools</quote> dialog is used mainly to control the appearance "
-#~ "of the Toolbox. It allows you to customize the set of tools for which "
-#~ "icons are shown in the Toolbox, and the order in which the icons are "
-#~ "arranged. Probably the most common use for it is to make the Color tools "
-#~ "available directly from the Toolbox. You can also use the Tools dialog to "
-#~ "select a tool by clicking on its symbol, but for this purpose you might "
-#~ "as well just use the Toolbox."
-#~ msgstr ""
-#~ "La finestra <quote>strumenti</quote> viene usata principalmente per "
-#~ "controllare la visualizzazione dei pulsanti degli strumenti. Permette di "
-#~ "personalizzare l'insieme degli strumenti per i quali sono visibili le "
-#~ "icone e l'ordine di visualizzazione di queste ultime, nella finestra. "
-#~ "Probabilmente l'uso più comune è quello di rendere gli strumenti di "
-#~ "colore direttamente accessibili dal pannello. È anche possibile usare la "
-#~ "finestra strumenti per la selezione di uno strumento facendo clic sul "
-#~ "simbolo corrispondente, ma per questa funzione è più semplice usare "
-#~ "direttamente la barra degli strumenti."
-
-#~ msgid ""
-#~ "The <quote>Tools</quote> dialog is a dockable dialog; see the section "
-#~ "<xref linkend=\"gimp-concepts-docks\"/> for help on manipulating it."
-#~ msgstr ""
-#~ "La finestra di dialogo <quote>Strumenti</quote> è del tipo agganciabile; "
-#~ "vedere la sezione sulle <link linkend=\"gimp-concepts-docks\">Finestre "
-#~ "agganciabili</link> per le istruzioni su come gestire questo tipo di "
-#~ "finestre."
-
-#~ msgid ""
-#~ "from the image menu: <menuchoice><guimenu>Windows</"
-#~ "guimenu><guisubmenu>Dockable Dialogs</guisubmenu><guimenuitem>Tools</"
-#~ "guimenuitem></menuchoice>."
-#~ msgstr ""
-#~ "dal menu immagine: <menuchoice><guimenu>Finestre</"
-#~ "guimenu><guisubmenu>Pannelli agganciabili</"
-#~ "guisubmenu><guimenuitem>Strumenti</guimenuitem></menuchoice>."
-
-#~ msgid ""
-#~ "from the Tab menu in any dockable dialog by clicking on "
-#~ "<guiicon><inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/"
-#~ "></guiicon> and selecting <menuchoice><guimenu>Add Tab</"
-#~ "guimenu><guimenuitem>Tools</guimenuitem></menuchoice>."
-#~ msgstr ""
-#~ "da un menu scheda di un qualsiasi pannello agganciabile facendo clic su "
-#~ "<guiicon><inlinegraphic fileref=\"images/dialogs/stock-menu-left-12.png\"/"
-#~ "></guiicon> e selezionando <menuchoice><guimenu>Aggiungi scheda</"
-#~ "guimenu><guimenuitem>Strumenti</guimenuitem></menuchoice>,"
-
-#~ msgid ""
-#~ "In the Tab menu, you can choose between <guimenuitem>View as Grid</"
-#~ "guimenuitem> and <guimenuitem>View as List</guimenuitem>. In Grid mode, "
-#~ "the tools are laid out in a rectangular array. In List mode, they are "
-#~ "lined up vertically, with each row showing the tool name, tool icon, and "
-#~ "an <quote>eye</quote> icon if the tool is currently visible in the "
-#~ "Toolbox."
-#~ msgstr ""
-#~ "Nel menu scheda, si può scegliere tra <guimenuitem>Mostra come griglia</"
-#~ "guimenuitem> e <guimenuitem>Mostra come elenco</guimenuitem>. In modalità "
-#~ "griglia, gli strumenti sono disposti in posizione rettangolare. In "
-#~ "modalità elenco, sono allineati verticalmente, con ogni riga composta dal "
-#~ "nome dello strumento, icona dello strumento e un'icona a forma di \"occhio"
-#~ "\" se lo strumento è attualmente visibile nella barra degli strumenti."
-
-#~ msgid "Using the Tools dialog"
-#~ msgstr "Uso del pannello strumenti"
-
-#~ msgid ""
-#~ "The most basic thing you can do is to select a tool by clicking on its "
-#~ "icon: this has the same effect as clicking on an icon in the Toolbox. You "
-#~ "can do this in either List or Grid mode: the other functions of the "
-#~ "dialog are available only in List mode."
-#~ msgstr ""
-#~ "La cosa più semplice da fare è selezionare uno strumento facendo clic "
-#~ "sulla sua icona: è come fare clic su un'icona nella finestra strumenti. "
-#~ "L'operazione è possibile sia in modalità elenco che griglia: le altre "
-#~ "funzioni delle finestre sono accessibili solo in modalità elenco."
-
-#~ msgid ""
-#~ "The most important function of the <quote>Tools</quote> dialog is to let "
-#~ "you choose which tools to make visible in the Toolbox, by toggling the "
-#~ "<quote>eye</quote> icons that appear on the left side of each row in List "
-#~ "mode. In particular, if you use the Color tools a lot, you may benefit "
-#~ "from toggling visibility on for them here."
-#~ msgstr ""
-#~ "La funzione più importante della finestra <quote>strumenti</quote> è "
-#~ "permettere la scelta di quali strumenti rendere visibili nel pannello, "
-#~ "abilitando o disabilitando l'icona a forma di occhio che appare sulla "
-#~ "sinistra di ogni riga nella modalità elenco. In particolare, se si usa "
-#~ "molto gli strumenti di colore è molto utile per commutarne la visibilità."
-
-#~ msgid ""
-#~ "You can also change the order of tools in the Toolbox, by clicking on an "
-#~ "item in the <quote>Tools</quote> dialog, in List mode, and dragging it up "
-#~ "or down in the list. Selected item can be also moved by clicking "
-#~ "<guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-icon-raise.png\"/"
-#~ "></guiicon> or <guiicon><inlinegraphic fileref=\"images/dialogs/dialogs-"
-#~ "icon-lower.png\"/></guiicon> icon at the bottom of the dialog. If you "
-#~ "screw things up, you can always press the <quote>Reset</"
-#~ "quote><guiicon><inlinegraphic fileref=\"images/dialogs/stock-reset-16.png"
-#~ "\"/></guiicon> button at the bottom of the dialog, to restore the "
-#~ "defaults for order and visibility."
-#~ msgstr ""
-#~ "È anche possibile cambiare l'ordine degli <quote>strumenti</quote> nel "
-#~ "pannello facendo clic su uno di essi in modalità elenco e trascinandolo "
-#~ "su o giù nell'elenco. Le voci selezionate possono essere spostate anche "
-#~ "facendo clic sull'icona <guiicon><inlinegraphic fileref=\"images/dialogs/"
-#~ "dialogs-icon-raise.png\"/></guiicon> o sull'icona <guiicon><inlinegraphic "
-#~ "fileref=\"images/dialogs/dialogs-icon-lower.png\"/></guiicon> presenti in "
-#~ "fondo alla finestra di dialogo. Se si fanno pasticci si può sempre "
-#~ "premere il tasto di <quote>Reimpostazione</quote><guiicon><inlinegraphic "
-#~ "fileref=\"images/dialogs/stock-reset-16.png\"/></guiicon> in fondo alla "
-#~ "finestra per ripristinare i valori predefiniti per ordine e visibilità."
-
-#~ msgid ""
-#~ "Right-clicking inside the dialog produces the <quote>Tools</quote> menu, "
-#~ "which gives you an alternative way of toggling visibility or restoring "
-#~ "the defaults."
-#~ msgstr ""
-#~ "Facendo clic con il tasto destro del mouse dentro la finestra si ottiene "
-#~ "il menu <quote>strumenti</quote> che permette un modo alternativo di "
-#~ "commutare la visibilità o il ripristino dei valori predefiniti."
-
-#~ msgid ""
-#~ "@@image: 'images/dialogs/pointer-dialog.png'; "
-#~ "md5=0fc9addf47062a5b14d201eac1fdc22a"
-#~ msgstr " "
-
-#~ msgid "Pointer Information"
-#~ msgstr "Informazioni sul puntatore"
-
-#~ msgid "Substract from Selection"
-#~ msgstr "Sottrai dalla selezione"
+"2012, 2013."

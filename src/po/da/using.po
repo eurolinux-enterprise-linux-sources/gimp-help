@@ -1,11 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.6.0\n"
-"POT-Creation-Date: 2012-06-01 18:50+1000\n"
+"POT-Creation-Date: 2010-12-23 14:04+0100\n"
 "PO-Revision-Date: 2010-12-23 14:04+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -512,67 +511,6 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/text-tool-box.xml:22(None)
-msgid ""
-"@@image: 'images/using/text-toolbar.png'; "
-"md5=833ae1a50dd02ad22fc20a9cb0c6c22d"
-msgstr ""
-
-#: src/using/text-tool-box.xml:10(title) src/using/text-tool-box.xml:18(title)
-msgid "Text Tool Box"
-msgstr ""
-
-#: src/using/text-tool-box.xml:13(primary)
-#: src/using/fonts-and-text.xml:12(title)
-#: src/using/fonts-and-text.xml:16(secondary)
-#: src/using/fonts-and-text.xml:22(primary)
-#: src/using/fonts-and-text.xml:67(primary)
-msgid "Text"
-msgstr "Tekst"
-
-#: src/using/text-tool-box.xml:14(secondary)
-msgid "Tool Box"
-msgstr ""
-
-#: src/using/text-tool-box.xml:27(para)
-msgid ""
-"You get this box, which overlays canvas, as soon as you click on canvas with "
-"the Text Tool. It allows you to edit text directly on canvas."
-msgstr ""
-
-#: src/using/text-tool-box.xml:31(para)
-msgid ""
-"Apart from the usual text formatting features like font family, style and "
-"size selectors you get numeric control over baseline offset and kerning, as "
-"well as the ability to change text color for a selection."
-msgstr ""
-
-#: src/using/text-tool-box.xml:36(para)
-msgid "Help pop-ups are self-explanatory."
-msgstr ""
-
-#: src/using/text-tool-box.xml:39(para)
-msgid ""
-"You can also use <keycombo><keycap>Alt</keycap><keycap>Arrow keys</keycap></"
-"keycombo> to change baseline offset and kerning."
-msgstr ""
-
-#: src/using/text-tool-box.xml:44(para)
-msgid ""
-"These features work on selected text. You get weird effects if no text is "
-"selected."
-msgstr ""
-
-#: src/using/text-tool-box.xml:51(title)
-msgid "Text Tool Box Context menu"
-msgstr ""
-
-#: src/using/text-tool-box.xml:52(para)
-msgid "TODO"
-msgstr ""
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/simpleobjects.xml:56(None)
 msgid ""
 "@@image: 'images/using/straightline1.png'; "
@@ -747,14 +685,13 @@ msgstr ""
 
 #: src/using/simpleobjects.xml:155(para)
 msgid ""
-"<acronym>GIMP</acronym> is not designed to be used for drawing."
-"<placeholder-1/> However, you may create shapes by either painting them "
-"using the technique described in <xref linkend=\"gimp-using-line\"/> or by "
-"using the selection tools. Of course, there are various other ways to paint "
-"a shape, but we'll stick to the easiest ones here. So, create a <link "
-"linkend=\"gimp-file-new\">new image</link> and check that the <link linkend="
-"\"gimp-toolbox-color-area\">foreground and background colors</link> are "
-"different."
+"<acronym>GIMP</acronym> is not designed to be used for drawing.<placeholder-"
+"1/> However, you may create shapes by either painting them using the "
+"technique described in <xref linkend=\"gimp-using-line\"/> or by using the "
+"selection tools. Of course, there are various other ways to paint a shape, "
+"but we'll stick to the easiest ones here. So, create a <link linkend=\"gimp-"
+"file-new\">new image</link> and check that the <link linkend=\"gimp-toolbox-"
+"color-area\">foreground and background colors</link> are different."
 msgstr ""
 
 #: src/using/simpleobjects.xml:172(title)
@@ -4248,8 +4185,8 @@ msgstr ""
 msgid "Saving Your Results"
 msgstr ""
 
-#: src/using/photography.xml:674(title) src/using/fileformats.xml:13(title)
-#: src/using/fileformats.xml:16(primary)
+#: src/using/photography.xml:674(title) src/using/fileformats.xml:16(title)
+#: src/using/fileformats.xml:19(primary)
 msgid "Files"
 msgstr ""
 
@@ -4798,8 +4735,8 @@ msgstr ""
 #: src/using/paths.xml:367(para)
 msgid ""
 "A text item created using the Text tool can be transformed into a path using "
-"the <command>Path from Text</command> command in the the context menu of the "
-"Text tool. This can be useful for several purposes, including:"
+"the <guibutton>Create path from text</guibutton> button in the Tool Options "
+"for the Text tool. This can be useful for several purposes, including:"
 msgstr ""
 
 #: src/using/paths.xml:375(para)
@@ -5198,6 +5135,13 @@ msgid ""
 "md5=d5e1265a0ff3bd7fd656c06ae66d3537"
 msgstr ""
 
+#: src/using/fonts-and-text.xml:12(title)
+#: src/using/fonts-and-text.xml:16(secondary)
+#: src/using/fonts-and-text.xml:22(primary)
+#: src/using/fonts-and-text.xml:67(primary)
+msgid "Text"
+msgstr "Tekst"
+
 #: src/using/fonts-and-text.xml:20(title)
 msgid "Embellishing Text"
 msgstr ""
@@ -5464,90 +5408,65 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:101(None)
+#: src/using/fileformats.xml:77(None)
 msgid ""
-"@@image: 'images/using/close-warning.png'; "
-"md5=daf43dc485b063912be438bd8196b348"
+"@@image: 'images/using/export-dialog.png'; "
+"md5=a909fc8d9f5f9e453d075e4e5cbf6b38"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:135(None)
+#: src/using/fileformats.xml:126(None)
 msgid ""
-"@@image: 'images/using/export-gif-dialog.png'; "
-"md5=6c0effc027a23e667a6da56e007eda6d"
+"@@image: 'images/using/gif-save-dialog.png'; "
+"md5=18e73a491e516f7006c5aea9a73ec2fd"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:295(None)
+#: src/using/fileformats.xml:272(None)
 msgid ""
-"@@image: 'images/using/export-jpeg-dialog.png'; "
-"md5=9e3cb45071a45a4b1fbd43de66079830"
+"@@image: 'images/using/save-jpeg-dialog.png'; "
+"md5=8f727eb1345bd7fea3c3afcf43fb0bbe"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:608(None)
+#: src/using/fileformats.xml:600(None)
 msgid ""
-"@@image: 'images/using/export-png-dialog.png'; "
-"md5=a7e763ba4e72b4a8be0c207d91781a70"
+"@@image: 'images/using/save-png-dialog.png'; "
+"md5=d1298afd125230c7f448ebe314277ba0"
 msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:768(None)
+#: src/using/fileformats.xml:760(None)
 msgid ""
-"@@image: 'images/using/export-tiff-dialog.png'; "
-"md5=1911ab89ff8b7b2ddd1ba3228c6ef94c"
+"@@image: 'images/using/save-tiff-dialog.png'; "
+"md5=0c2f1e58089f71e9daac13fb461fb557"
 msgstr ""
 
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:883(None)
+#: src/using/fileformats.xml:22(para)
 msgid ""
-"@@image: 'images/using/export-mng-dialog.png'; "
-"md5=77f5b2f7624bbfe11d26c730ad28d6a7"
+"The <acronym>GIMP</acronym> is capable of reading and writing a large "
+"variety of graphics file formats. With the exception of <acronym>GIMP</"
+"acronym>'s native XCF file type, file handling is done by Plugins. Thus, it "
+"is relatively easy to extend <acronym>GIMP</acronym> to support new file "
+"types when the need arises."
 msgstr ""
 
-#: src/using/fileformats.xml:19(para)
+#: src/using/fileformats.xml:29(para)
 msgid ""
-"<acronym>GIMP</acronym> is capable of reading and writing a large variety of "
-"graphics file formats. With the exception of <acronym>GIMP</acronym>'s "
-"native XCF file type, file handling is done by Plugins. Thus, it is "
-"relatively easy to extend <acronym>GIMP</acronym> to support new file types "
-"when the need arises."
+"Not all file types are equally good for all purposes. This part of the "
+"documentation should help you understand the advantages and disadvantages of "
+"each type."
 msgstr ""
 
-#: src/using/fileformats.xml:28(title)
-#, fuzzy
-msgid "Save / Export Images"
+#: src/using/fileformats.xml:36(title)
+msgid "Saving Images"
 msgstr "Gemning af billeder"
 
-#: src/using/fileformats.xml:30(primary)
-#, fuzzy
-msgid "Save/Export Images"
-msgstr "Gemning af billeder"
-
-#: src/using/fileformats.xml:33(primary)
-msgid "Export Images"
-msgstr ""
-
-#: src/using/fileformats.xml:36(para)
-msgid ""
-"In former <acronym>GIMP</acronym> releases, when you loaded an image in some "
-"format, let us say JPG or PNG, the image kept its format and was saved in "
-"the same format by <command>Save</command>. With <acronym>GIMP</"
-"acronym>-2.8, images are loaded, imported, in the XCF format as a new "
-"project. For example, a <quote>sunflower.png</quote> image will be loaded as "
-"<quote>*[sunflower] (imported)-1.0 (indexed color, 1 layer)</quote>. The "
-"leading asterisk indicates that this file has been changed. This image will "
-"be saved as <quote>sunflower.xcf</quote> by <command>Save</command>. To save "
-"this image in a format other than XCF, you must use <command>Export</"
-"command>."
-msgstr ""
-
-#: src/using/fileformats.xml:50(para)
+#: src/using/fileformats.xml:37(para)
 msgid ""
 "When you are finished working with an image, you will want to save the "
 "results. (In fact, it is often a good idea to save at intermediate stages "
@@ -5562,100 +5481,103 @@ msgid ""
 "intermediate results, and for saving images to be re-opened later in "
 "<acronym>GIMP</acronym>. XCF files are not readable by most other programs "
 "that display images, so once you have finished, you will probably also want "
-"to export the image in a more widely used format, such as JPEG, PNG, TIFF, "
-"etc."
+"to save the image in a more widely used format, such as JPEG, PNG, TIFF, etc."
 msgstr ""
 
-#: src/using/fileformats.xml:71(title)
-msgid "File Formats"
+#: src/using/fileformats.xml:58(title)
+msgid "Saving Files"
 msgstr ""
 
-#: src/using/fileformats.xml:72(para)
+#: src/using/fileformats.xml:59(para)
 msgid ""
-"There are several commands for <emphasis>saving</emphasis> images. A list, "
-"and information on how to use them, can be found in the section covering the "
-"<link linkend=\"gimp-file-menu\">File Menu</link>."
+"There are several commands for saving images. A list, and information on how "
+"to use them, can be found in the section covering the <link linkend=\"gimp-"
+"file-menu\">File Menu</link>."
 msgstr ""
 
-#: src/using/fileformats.xml:77(para)
+#: src/using/fileformats.xml:64(para)
 msgid ""
-"<acronym>GIMP</acronym> allows you to <emphasis>export</emphasis> the images "
-"you create in a wide variety of formats. It is important to realize that the "
-"only format capable of saving <emphasis>all</emphasis> of the information in "
-"an image, including layers, transparency, etc., is GIMP's native XCF format. "
-"Every other format preserves some image properties and loses others. It is "
-"up to you to understand the capabilities of the format you choose."
+"<acronym>GIMP</acronym> allows you to save the images you create in a wide "
+"variety of formats. It is important to realize that the only format capable "
+"of saving <emphasis>all</emphasis> of the information in an image, including "
+"layers, transparency, etc., is GIMP's native XCF format. Every other format "
+"preserves some image properties and loses others. When you save an image, "
+"<acronym>GIMP</acronym> tries to warn you, but it is up to you to understand "
+"the capabilities of the format you choose."
 msgstr ""
 
-#: src/using/fileformats.xml:85(para)
+#: src/using/fileformats.xml:74(title)
+msgid "Example of an Export dialog"
+msgstr ""
+
+#: src/using/fileformats.xml:81(para)
 msgid ""
-"Exporting an image does not modify the image itself, so you do not lose "
-"anything by exporting. See <link linkend=\"gimp-export-dialog\">Export file</"
-"link>."
+"As stated above, there is no file format, with the exception of GIMP's "
+"native <link linkend=\"glossary-xcf\">XCF</link> format, that is capable of "
+"storing all the information in a <acronym>GIMP</acronym> image. When you ask "
+"to save an image in a format that will lose information, <acronym>GIMP</"
+"acronym> notifies you, tells you what information will be lost, and asks you "
+"whether you would like to <quote>export</quote> the image in a form that the "
+"file type can handle. Exporting an image does not modify the image itself, "
+"so you do not lose anything by exporting. See <link linkend=\"gimp-export-"
+"dialog\">Export file</link>."
 msgstr ""
 
-#: src/using/fileformats.xml:91(para)
+#: src/using/fileformats.xml:94(para)
 msgid ""
 "When you close an image (possibly by quitting GIMP), you are warned if the "
 "image is \"dirty\"; that is, if it has been changed without subsequently "
-"being saved (an asterisk is in front of the image name)."
+"being saved. Saving an image in any file format will cause the image to be "
+"considered \"not dirty\", even if the file format does not represent all of "
+"the information from the image."
 msgstr ""
 
-#: src/using/fileformats.xml:97(title)
-msgid "Closing warning"
+#: src/using/fileformats.xml:104(title)
+msgid "Saving as GIF"
 msgstr ""
 
-#: src/using/fileformats.xml:105(para)
-msgid ""
-"Saving an image in any file format will cause the image to be considered "
-"\"not dirty\", even if the file format does not represent all of the "
-"information from the image."
-msgstr ""
-
-#: src/using/fileformats.xml:113(title) src/using/fileformats.xml:123(primary)
-#, fuzzy
-msgid "Export Image as GIF"
-msgstr "Gem som GIF"
-
-#: src/using/fileformats.xml:114(anchor:xreflabel)
-#: src/using/fileformats.xml:117(primary)
-#: src/using/fileformats.xml:127(secondary)
+#: src/using/fileformats.xml:105(anchor:xreflabel)
+#: src/using/fileformats.xml:108(primary)
+#: src/using/fileformats.xml:118(secondary)
 msgid "GIF"
 msgstr ""
 
-#: src/using/fileformats.xml:120(primary)
+#: src/using/fileformats.xml:111(primary)
 msgid ".gif"
 msgstr ""
 
-#: src/using/fileformats.xml:126(primary)
-#: src/using/fileformats.xml:279(primary)
-#: src/using/fileformats.xml:599(primary)
-#: src/using/fileformats.xml:760(primary)
-#: src/using/fileformats.xml:875(primary) src/using/brushes.xml:37(primary)
+#: src/using/fileformats.xml:114(primary)
+msgid "Save as GIF"
+msgstr "Gem som GIF"
+
+#: src/using/fileformats.xml:117(primary)
+#: src/using/fileformats.xml:254(primary)
+#: src/using/fileformats.xml:591(primary)
+#: src/using/fileformats.xml:754(primary) src/using/brushes.xml:37(primary)
 #: src/using/brushes.xml:73(primary) src/using/brushes.xml:100(primary)
 msgid "Formats"
 msgstr ""
 
-#: src/using/fileformats.xml:131(title)
-msgid "The GIF Export dialog"
+#: src/using/fileformats.xml:122(title)
+msgid "The GIF Save dialog"
 msgstr ""
 
-#: src/using/fileformats.xml:140(para)
+#: src/using/fileformats.xml:131(para)
 msgid ""
 "The GIF file format does not support some basic image properties such as "
 "<emphasis>print resolution</emphasis>. If you care for these properties, use "
 "a different file format like PNG."
 msgstr ""
 
-#: src/using/fileformats.xml:149(term)
+#: src/using/fileformats.xml:141(term)
 msgid "GIF Options"
 msgstr "GIF-indstillinger"
 
-#: src/using/fileformats.xml:153(term)
+#: src/using/fileformats.xml:145(term)
 msgid "Interlace"
 msgstr "Understøt gradvis indlæsning"
 
-#: src/using/fileformats.xml:155(para) src/using/fileformats.xml:616(para)
+#: src/using/fileformats.xml:147(para) src/using/fileformats.xml:608(para)
 msgid ""
 "Checking interlace allows an image on a web page to be progressively "
 "displayed as it is downloaded. Progressive image display is useful with slow "
@@ -5663,123 +5585,115 @@ msgid ""
 "interlace is of less use today with our faster connection speeds."
 msgstr ""
 
-#: src/using/fileformats.xml:166(term)
+#: src/using/fileformats.xml:158(term)
 msgid "GIF comment"
 msgstr ""
 
-#: src/using/fileformats.xml:168(para)
+#: src/using/fileformats.xml:160(para)
 msgid ""
 "GIF comments support only 7-bit ASCII characters. If you use a character "
-"outside the 7-bit ASCII set, <acronym>GIMP</acronym> will export the image "
+"outside the 7-bit ASCII set, <acronym>GIMP</acronym> will save the image "
 "without a comment, and then inform you that the comment was not saved."
 msgstr ""
 
-#: src/using/fileformats.xml:182(term)
+#: src/using/fileformats.xml:173(term)
 msgid "Animated GIF Options"
 msgstr "Indstillinger for animeret GIF"
 
-#: src/using/fileformats.xml:185(primary)
+#: src/using/fileformats.xml:176(primary)
 #: src/using/animated-brushes.xml:13(primary)
 msgid "Animation"
 msgstr ""
 
-#: src/using/fileformats.xml:186(secondary)
+#: src/using/fileformats.xml:177(secondary)
 msgid "Animated GIF options"
 msgstr ""
 
-#: src/using/fileformats.xml:190(term)
+#: src/using/fileformats.xml:181(term)
 msgid "Loop forever"
 msgstr ""
 
-#: src/using/fileformats.xml:192(para)
+#: src/using/fileformats.xml:183(para)
 msgid ""
 "When this option is checked, the animation will play repeatedly until you "
 "stop it."
 msgstr ""
 
-#: src/using/fileformats.xml:199(term)
-msgid "Delay between frames where unspecified"
+#: src/using/fileformats.xml:190(term)
+msgid "Delay between frames if unspecified"
 msgstr ""
 
-#: src/using/fileformats.xml:201(para)
+#: src/using/fileformats.xml:192(para)
 msgid ""
 "You can set the delay, in milliseconds, between frames if it has not been "
 "set before. In this case, you can modify every delay in the Layer Dialog."
 msgstr ""
 
-#: src/using/fileformats.xml:209(term)
-msgid "Frame disposal where unspecified"
+#: src/using/fileformats.xml:200(term)
+msgid "Frame disposal when unspecified"
 msgstr ""
 
-#: src/using/fileformats.xml:211(para)
+#: src/using/fileformats.xml:202(para)
 msgid ""
 "If this has not been set before, you can set how frames will be "
 "superimposed. You can select among three options :"
 msgstr ""
 
-#: src/using/fileformats.xml:217(para)
+#: src/using/fileformats.xml:208(para)
 msgid ""
 "<guilabel>I don't care</guilabel>: you can use this option if all your "
 "layers are opaque. Layers will overwrite what is beneath."
 msgstr ""
 
-#: src/using/fileformats.xml:224(para)
+#: src/using/fileformats.xml:215(para)
 msgid ""
 "<guilabel>Cumulative Layers (combine)</guilabel>: previous frames will not "
 "be deleted when a new one is displayed."
 msgstr ""
 
-#: src/using/fileformats.xml:231(para)
+#: src/using/fileformats.xml:222(para)
 msgid ""
 "<guilabel>One frame per layer (replace)</guilabel>: previous frames will be "
 "deleted before displaying a new frame."
 msgstr ""
 
-#: src/using/fileformats.xml:241(term)
-msgid "Use delay entered above for all frames"
+#: src/using/fileformats.xml:238(title)
+msgid "Saving as JPEG"
 msgstr ""
 
-#: src/using/fileformats.xml:243(para) src/using/fileformats.xml:251(para)
-msgid "Self-explanatory."
-msgstr ""
-
-#: src/using/fileformats.xml:249(term)
-msgid "Use disposal entered above for all frames"
-msgstr ""
-
-#: src/using/fileformats.xml:263(title) src/using/fileformats.xml:276(primary)
-#, fuzzy
-msgid "Export Image as JPEG"
-msgstr "Gem som JPEG"
-
-#: src/using/fileformats.xml:264(anchor:xreflabel)
-#: src/using/fileformats.xml:267(primary)
-#: src/using/fileformats.xml:280(secondary)
+#: src/using/fileformats.xml:239(anchor:xreflabel)
+#: src/using/fileformats.xml:242(primary)
+#: src/using/fileformats.xml:255(secondary)
 msgid "JPEG"
 msgstr ""
 
-#: src/using/fileformats.xml:270(primary)
+#: src/using/fileformats.xml:245(primary)
 msgid ".jpg"
 msgstr ""
 
-#: src/using/fileformats.xml:273(primary)
+#: src/using/fileformats.xml:248(primary)
 msgid ".jpeg"
 msgstr ""
 
-#: src/using/fileformats.xml:283(para)
+#: src/using/fileformats.xml:251(primary)
+msgid "Save as JPEG"
+msgstr "Gem som JPEG"
+
+#: src/using/fileformats.xml:258(para)
 msgid ""
 "JPEG files usually have an extension .jpg, .JPG, or .jpeg. It is a very "
 "widely used format, because it compresses images very efficiently, while "
 "minimizing the loss of image quality. No other format comes close to "
 "achieving the same level of compression. It does not, however, support "
-"transparency or multiple layers."
+"transparency or multiple layers. For this reason, saving images as JPEG "
+"often requires them to be exported from <acronym>GIMP</acronym>."
 msgstr ""
 
-#: src/using/fileformats.xml:291(title)
-msgid "The JPEG Export dialog"
+#: src/using/fileformats.xml:268(title)
+msgid "The JPEG Save dialog"
 msgstr ""
 
-#: src/using/fileformats.xml:299(para)
+#: src/using/fileformats.xml:276(para)
 msgid ""
 "The JPEG algorithm is quite complex, and involves a bewildering number of "
 "options, whose meaning is beyond the scope of this documentation. Unless you "
@@ -5787,11 +5701,22 @@ msgid ""
 "need to adjust."
 msgstr ""
 
-#: src/using/fileformats.xml:307(term)
+#: src/using/fileformats.xml:284(para)
+msgid ""
+"After you save an image as a JPEG file, the image is no longer considered "
+"<quote>dirty</quote> by <acronym>GIMP</acronym>, so unless you make further "
+"changes to it, you will not receive any warning if you close it. Because "
+"JPEG is lossy and does not support transparency or multiple layers, some of "
+"the information in the image might then be lost. If you want to save all of "
+"the information in an image, use <acronym>GIMP</acronym>'s native <link "
+"linkend=\"glossary-xcf\">XCF format</link>."
+msgstr ""
+
+#: src/using/fileformats.xml:298(term)
 msgid "Quality"
 msgstr "Kvalitet"
 
-#: src/using/fileformats.xml:309(para)
+#: src/using/fileformats.xml:300(para)
 msgid ""
 "When you save a file in JPEG format, a dialog is displayed that allows you "
 "to set the Quality level, which ranges from 0 to 100. Values above 95 are "
@@ -5802,7 +5727,7 @@ msgid ""
 "image window</guilabel> in the JPEG dialog."
 msgstr ""
 
-#: src/using/fileformats.xml:321(para)
+#: src/using/fileformats.xml:312(para)
 msgid ""
 "Please note, that the numbers for the JPEG quality level have a different "
 "meaning in different applications. Saving with a quality level of 80 in GIMP "
@@ -5810,41 +5735,41 @@ msgid ""
 "different application."
 msgstr ""
 
-#: src/using/fileformats.xml:332(term)
+#: src/using/fileformats.xml:323(term)
 msgid "Preview in image window"
 msgstr ""
 
-#: src/using/fileformats.xml:334(para)
+#: src/using/fileformats.xml:325(para)
 msgid ""
 "Checking this option causes each change in quality (or any other JPEG "
 "parameter) to be shown in the image display. (This does not alter the image: "
 "the image reverts back to its original state when the JPEG dialog is closed.)"
 msgstr ""
 
-#: src/using/fileformats.xml:343(term)
+#: src/using/fileformats.xml:334(term)
 msgid "Advanced settings"
 msgstr ""
 
-#: src/using/fileformats.xml:345(para)
+#: src/using/fileformats.xml:336(para)
 msgid "Some information about the advanced settings:"
 msgstr ""
 
-#: src/using/fileformats.xml:350(term)
+#: src/using/fileformats.xml:341(term)
 msgid "Optimize"
 msgstr "Optimér"
 
-#: src/using/fileformats.xml:352(para)
+#: src/using/fileformats.xml:343(para)
 msgid ""
 "If you enable this option, the optimization of entropy encoding parameters "
 "will be used. The result is typically a smaller file, but it takes more time "
 "to generate."
 msgstr ""
 
-#: src/using/fileformats.xml:360(term)
+#: src/using/fileformats.xml:351(term)
 msgid "Progressive"
 msgstr "Progressiv"
 
-#: src/using/fileformats.xml:362(para)
+#: src/using/fileformats.xml:353(para)
 msgid ""
 "With this option enabled, the image chunks are stored in the file in an "
 "order that allows progressive image refinement during a slow connection web "
@@ -5853,15 +5778,15 @@ msgid ""
 "slightly larger JPG files (than without the progressive option)."
 msgstr ""
 
-#: src/using/fileformats.xml:376(term)
+#: src/using/fileformats.xml:367(term)
 msgid "Save EXIF data"
 msgstr "Gem EXIF-data"
 
-#: src/using/fileformats.xml:379(primary)
+#: src/using/fileformats.xml:370(primary)
 msgid "EXIF"
 msgstr ""
 
-#: src/using/fileformats.xml:381(para)
+#: src/using/fileformats.xml:372(para)
 msgid ""
 "JPEG files from many digital cameras contain extra information, called EXIF "
 "data. EXIF data provides information about the image such as camera make and "
@@ -5869,54 +5794,54 @@ msgid ""
 "quote> library to read and write EXIF data, the library is not automatically "
 "packaged with GIMP. If GIMP was built with libexif support, then EXIF data "
 "is preserved if you open a JPEG file, work with the resulting image, and "
-"then export it as JPEG. The EXIF data is not altered in any way when you do "
+"then save it as JPEG. The EXIF data is not altered in any way when you do "
 "this. The EXIF data may indicate things such as image creation time and file "
 "name, which may no longer be correct. If GIMP was not built with EXIF "
 "support, you can still open JPG files containing EXIF data, but the EXIF "
 "data is ignored, and will not be saved when the resulting image is later "
-"exported."
+"saved."
 msgstr ""
 
-#: src/using/fileformats.xml:403(term)
+#: src/using/fileformats.xml:394(term)
 #, fuzzy
 msgid "Save thumbnail"
 msgstr "Gem fil"
 
-#: src/using/fileformats.xml:405(para)
+#: src/using/fileformats.xml:396(para)
 msgid ""
 "This option lets you save a thumbnail with the image. Many applications use "
 "the small thumbnail image as a quickly available small preview image."
 msgstr ""
 
-#: src/using/fileformats.xml:411(para)
+#: src/using/fileformats.xml:402(para)
 msgid ""
 "This option is present only if <acronym>GIMP</acronym> was built with EXIF "
 "support."
 msgstr ""
 
-#: src/using/fileformats.xml:419(term)
+#: src/using/fileformats.xml:410(term)
 msgid "Save XMP data"
 msgstr ""
 
-#: src/using/fileformats.xml:421(para)
+#: src/using/fileformats.xml:412(para)
 msgid ""
 "XMP data is <quote>meta</quote> data about the image; it is a competing "
 "format with EXIF. If you enable this option, the meta data of the image is "
 "saved in an <acronym>XMP</acronym>-structure within the file."
 msgstr ""
 
-#: src/using/fileformats.xml:431(term)
+#: src/using/fileformats.xml:422(term)
 msgid "Use quality settings from original image"
 msgstr ""
 
-#: src/using/fileformats.xml:435(para)
+#: src/using/fileformats.xml:426(para)
 msgid ""
 "If a particular quality setting (or <quote>quantization table</quote>) was "
 "attached to the image when it was loaded, then this option allows you to use "
 "them instead of the standard ones."
 msgstr ""
 
-#: src/using/fileformats.xml:441(para)
+#: src/using/fileformats.xml:432(para)
 msgid ""
 "If you have only made a few changes to the image, then re-using the same "
 "quality setting will give you almost the same quality and file size as the "
@@ -5924,7 +5849,7 @@ msgid ""
 "step, compared to what would happen if you used different quality setting."
 msgstr ""
 
-#: src/using/fileformats.xml:449(para)
+#: src/using/fileformats.xml:440(para)
 msgid ""
 "If the quality setting found in the original file are not better than your "
 "default quality settings, then the option <quote>Use quality settings from "
@@ -5934,32 +5859,32 @@ msgid ""
 "the same quality as the original, then you can do it by enabling this option."
 msgstr ""
 
-#: src/using/fileformats.xml:462(term)
+#: src/using/fileformats.xml:453(term)
 msgid "Smoothing"
 msgstr ""
 
-#: src/using/fileformats.xml:464(para)
+#: src/using/fileformats.xml:455(para)
 msgid ""
 "JPG compression creates artifacts. By using this option, you can smooth the "
 "image when saving, reducing them. But your image becomes somewhat blurred."
 msgstr ""
 
-#: src/using/fileformats.xml:472(term)
+#: src/using/fileformats.xml:463(term)
 msgid "Restart markers"
 msgstr ""
 
-#: src/using/fileformats.xml:474(para)
+#: src/using/fileformats.xml:465(para)
 msgid ""
 "The image file can include markers which allow the image to be loaded as "
 "segments. If a connection is broken while loading the image in a web page, "
 "loading can resume from the next marker."
 msgstr ""
 
-#: src/using/fileformats.xml:483(term)
+#: src/using/fileformats.xml:474(term)
 msgid "Subsampling"
 msgstr ""
 
-#: src/using/fileformats.xml:485(para)
+#: src/using/fileformats.xml:476(para)
 msgid ""
 "The human eye is not sensitive in the same way over the entire color "
 "spectrum. The compression can use this to treat slightly different colors "
@@ -5967,14 +5892,14 @@ msgid ""
 "available :"
 msgstr ""
 
-#: src/using/fileformats.xml:494(para)
+#: src/using/fileformats.xml:485(para)
 msgid ""
 "<guilabel>1x1,1x1,1x1 (best quality)</guilabel>: Commonly referred to as "
 "(4:4:4), this produces the best quality, preserving borders and contrasting "
 "colors, but compression is less."
 msgstr ""
 
-#: src/using/fileformats.xml:503(para)
+#: src/using/fileformats.xml:494(para)
 msgid ""
 "<guilabel>2x1,1x1,1x1 (4:2:2)</guilabel>: This is the standard subsampling, "
 "which usually provides a good ratio between image quality and file size. "
@@ -5984,25 +5909,25 @@ msgid ""
 "images with almost-flat colors."
 msgstr ""
 
-#: src/using/fileformats.xml:515(para)
+#: src/using/fileformats.xml:506(para)
 msgid ""
 "<guilabel>1x2,1x1,1x1</guilabel> This is similar to (2x1,1x1,1x1), but the "
 "chroma sampling is in the horizontal direction rather than the vertical "
 "direction; as if someone rotated an image."
 msgstr ""
 
-#: src/using/fileformats.xml:524(para)
+#: src/using/fileformats.xml:515(para)
 msgid ""
 "<guilabel>2x2,1x1,1x1 (smallest file)</guilabel>: Commonly referred to as "
 "(4:1:1), this produces the smallest files. This suits images with weak "
 "borders but tends to denature colors."
 msgstr ""
 
-#: src/using/fileformats.xml:535(term)
+#: src/using/fileformats.xml:526(term)
 msgid "DCT Method"
 msgstr ""
 
-#: src/using/fileformats.xml:537(para)
+#: src/using/fileformats.xml:528(para)
 msgid ""
 "DCT is <quote>discrete cosine transform</quote>, and it is the first step in "
 "the JPEG algorithm going from the spatial to the frequency domain. The "
@@ -6010,7 +5935,7 @@ msgid ""
 "<quote>fast integer</quote>."
 msgstr ""
 
-#: src/using/fileformats.xml:546(para)
+#: src/using/fileformats.xml:537(para)
 msgid ""
 "<guilabel>float</guilabel>: The float method is very slightly more accurate "
 "than the integer method, but is much slower unless your machine has very "
@@ -6019,65 +5944,68 @@ msgid ""
 "should give the same results everywhere."
 msgstr ""
 
-#: src/using/fileformats.xml:557(para)
+#: src/using/fileformats.xml:548(para)
 msgid ""
 "<guilabel>integer</guilabel> (the default): This method is faster than "
 "<quote>float</quote>, but not as accurate."
 msgstr ""
 
-#: src/using/fileformats.xml:564(para)
+#: src/using/fileformats.xml:555(para)
 msgid ""
 "<guilabel>fast integer</guilabel>: The fast integer method is much less "
 "accurate than the other two."
 msgstr ""
 
-#: src/using/fileformats.xml:574(term)
+#: src/using/fileformats.xml:565(term)
 msgid "Image comments"
 msgstr "Billedkommentarer"
 
-#: src/using/fileformats.xml:576(para)
+#: src/using/fileformats.xml:567(para)
 msgid ""
 "In this text box, you can enter a comment which is saved with the image."
 msgstr ""
 
-#: src/using/fileformats.xml:589(title) src/using/fileformats.xml:593(primary)
-#, fuzzy
-msgid "Export Image as PNG"
-msgstr "Gem som PNG"
+#: src/using/fileformats.xml:580(title)
+msgid "Saving as PNG"
+msgstr ""
 
-#: src/using/fileformats.xml:590(anchor:xreflabel)
-#: src/using/fileformats.xml:591(anchor:xreflabel)
-#: src/using/fileformats.xml:596(primary)
-#: src/using/fileformats.xml:600(secondary)
+#: src/using/fileformats.xml:581(anchor:xreflabel)
+#: src/using/fileformats.xml:582(anchor:xreflabel)
+#: src/using/fileformats.xml:588(primary)
+#: src/using/fileformats.xml:592(secondary)
 msgid "PNG"
 msgstr "PNG"
 
-#: src/using/fileformats.xml:604(title)
-msgid "The <quote>Export Image as PNG</quote> dialog"
+#: src/using/fileformats.xml:585(primary)
+msgid "Save as PNG"
+msgstr "Gem som PNG"
+
+#: src/using/fileformats.xml:596(title)
+msgid "The <quote>Save as PNG</quote> dialog"
 msgstr ""
 
-#: src/using/fileformats.xml:614(term)
+#: src/using/fileformats.xml:606(term)
 msgid "Interlacing"
 msgstr ""
 
-#: src/using/fileformats.xml:627(term)
+#: src/using/fileformats.xml:619(term)
 #, fuzzy
 msgid "Save background color"
 msgstr "Gem _baggrundsfarve"
 
-#: src/using/fileformats.xml:629(para)
+#: src/using/fileformats.xml:621(para)
 msgid ""
 "If your image has many transparency levels, the Internet browsers that "
 "recognize only two levels, will use the background color of your Toolbox "
 "instead. Internet Explorer up to version 6 did not use this information."
 msgstr ""
 
-#: src/using/fileformats.xml:638(term)
+#: src/using/fileformats.xml:630(term)
 #, fuzzy
 msgid "Save gamma"
 msgstr "Gem gamma"
 
-#: src/using/fileformats.xml:640(para)
+#: src/using/fileformats.xml:632(para)
 msgid ""
 "Gamma correction is the ability to correct for differences in how computers "
 "interpret color values. This saves gamma information in the PNG that "
@@ -6086,14 +6014,14 @@ msgid ""
 "too bright."
 msgstr ""
 
-#: src/using/fileformats.xml:651(term)
+#: src/using/fileformats.xml:643(term)
 msgid "Save layer offset"
 msgstr ""
 
 #. Andrew Pitonyak (andrew@pitonyak.org)
 #.             verified this with Alexia Death (alexiadeath@gmail.com)
 #.             on August 17, 2009.
-#: src/using/fileformats.xml:656(para)
+#: src/using/fileformats.xml:648(para)
 msgid ""
 "PNG supports an offset value called the <quote>oFFs chunk</quote>, which "
 "provides position data. Unfortunately, PNG offset support in <acronym>GIMP</"
@@ -6102,48 +6030,48 @@ msgid ""
 "acronym> flatten the layers before saving, and you will have no problems."
 msgstr ""
 
-#: src/using/fileformats.xml:669(term)
+#: src/using/fileformats.xml:661(term)
 msgid "Save Resolution"
 msgstr "Gem opløsning"
 
-#: src/using/fileformats.xml:671(para)
+#: src/using/fileformats.xml:663(para)
 msgid "Save the image resolution, in DPI (dots per inch)."
 msgstr ""
 
-#: src/using/fileformats.xml:677(term)
+#: src/using/fileformats.xml:669(term)
 #, fuzzy
 msgid "Save creation time"
 msgstr "Gem oprettelses_dato"
 
-#: src/using/fileformats.xml:679(para)
+#: src/using/fileformats.xml:671(para)
 msgid "Date the file was saved."
 msgstr ""
 
-#: src/using/fileformats.xml:685(term)
+#: src/using/fileformats.xml:677(term)
 msgid "Save comment"
 msgstr ""
 
-#: src/using/fileformats.xml:687(para)
+#: src/using/fileformats.xml:679(para)
 msgid ""
 "You can read this comment in the <link linkend=\"gimp-image-properties"
 "\">Image Properties</link>."
 msgstr ""
 
-#: src/using/fileformats.xml:694(term) src/using/fileformats.xml:846(term)
+#: src/using/fileformats.xml:686(term) src/using/fileformats.xml:838(term)
 msgid "Save color values from transparent pixels"
 msgstr ""
 
-#: src/using/fileformats.xml:696(para)
+#: src/using/fileformats.xml:688(para)
 msgid ""
 "With this option is checked, the color values are saved even if the pixels "
 "are completely transparent."
 msgstr ""
 
-#: src/using/fileformats.xml:703(term)
+#: src/using/fileformats.xml:695(term)
 msgid "Compression level"
 msgstr ""
 
-#: src/using/fileformats.xml:705(para)
+#: src/using/fileformats.xml:697(para)
 msgid ""
 "Since compression is not lossy, the only reason to use a compression level "
 "less than 9, is if it takes too long to compress a file on a slow computer. "
@@ -6151,24 +6079,24 @@ msgid ""
 "level."
 msgstr ""
 
-#: src/using/fileformats.xml:715(term)
+#: src/using/fileformats.xml:707(term)
 msgid "Save Defaults"
 msgstr ""
 
-#: src/using/fileformats.xml:717(para)
+#: src/using/fileformats.xml:709(para)
 msgid ""
 "Click to save the current settings. Latter, you can use <guibutton>Load "
 "Defaults</guibutton> to load the saved settings."
 msgstr ""
 
-#: src/using/fileformats.xml:726(para)
+#: src/using/fileformats.xml:718(para)
 msgid ""
 "The PNG format supports indexed images. Using fewer colors, therefore, "
 "results in a smaller file; this is especially useful for creating web "
 "images; see <xref linkend=\"gimp-image-convert-indexed\"/>."
 msgstr ""
 
-#: src/using/fileformats.xml:732(para)
+#: src/using/fileformats.xml:724(para)
 msgid ""
 "Computers work on 8 bits blocks named <quote>Byte</quote>. A byte allows 256 "
 "colors. Reducing the number of colors below 256 is not useful: a byte will "
@@ -6177,7 +6105,7 @@ msgid ""
 "transparency levels are possible, transparent or opaque."
 msgstr ""
 
-#: src/using/fileformats.xml:740(para)
+#: src/using/fileformats.xml:732(para)
 msgid ""
 "If you want PNG transparency to be fully displayed by Internet Explorer, you "
 "can use the AlphaImageLoader DirectX filter in the code of your Web page. "
@@ -6186,36 +6114,39 @@ msgid ""
 "and above."
 msgstr ""
 
-#: src/using/fileformats.xml:752(title) src/using/fileformats.xml:754(primary)
-#, fuzzy
-msgid "Export Image as TIFF"
+#: src/using/fileformats.xml:744(title)
+msgid "Saving as TIFF"
+msgstr ""
+
+#: src/using/fileformats.xml:746(title)
+msgid "The TIFF Save dialog"
+msgstr ""
+
+#: src/using/fileformats.xml:748(primary)
+msgid "Save as TIFF"
 msgstr "Gem som TIFF"
 
-#: src/using/fileformats.xml:757(primary)
-#: src/using/fileformats.xml:761(secondary)
+#: src/using/fileformats.xml:751(primary)
+#: src/using/fileformats.xml:755(secondary)
 msgid "TIFF"
 msgstr ""
 
-#: src/using/fileformats.xml:764(title)
-msgid "The TIFF Export dialog"
-msgstr ""
-
-#: src/using/fileformats.xml:774(term)
+#: src/using/fileformats.xml:766(term)
 msgid "Compression"
 msgstr "Komprimering"
 
-#: src/using/fileformats.xml:776(para)
+#: src/using/fileformats.xml:768(para)
 msgid ""
 "This option allows you to specify the algorithm used to compress the image."
 msgstr ""
 
-#: src/using/fileformats.xml:782(para)
+#: src/using/fileformats.xml:774(para)
 msgid ""
 "<guilabel>None</guilabel>: is fast, and lossless, but the resulting file is "
 "very large."
 msgstr ""
 
-#: src/using/fileformats.xml:788(para)
+#: src/using/fileformats.xml:780(para)
 msgid ""
 "<guilabel>LZW</guilabel>: The image is compressed using the <quote>Lempel-"
 "Ziv-Welch</quote> algorithm, a lossless compression technique. This is old, "
@@ -6223,7 +6154,7 @@ msgid ""
 "online-wkpd-lzw\"/>."
 msgstr ""
 
-#: src/using/fileformats.xml:797(para)
+#: src/using/fileformats.xml:789(para)
 msgid ""
 "<guilabel>Pack Bits</guilabel>: is a fast, simple compression scheme for run-"
 "length encoding of data. Apple introduced the PackBits format with the "
@@ -6232,7 +6163,7 @@ msgid ""
 "linkend=\"bibliography-online-wkpd-packbits\"/>)"
 msgstr ""
 
-#: src/using/fileformats.xml:808(para)
+#: src/using/fileformats.xml:800(para)
 msgid ""
 "<guilabel>Deflate</guilabel>: is a lossless data compression algorithm that "
 "uses a combination of the LZ77 algorithm and Huffman coding. It is also used "
@@ -6240,18 +6171,18 @@ msgid ""
 "online-wkpd-deflate\"/>."
 msgstr ""
 
-#: src/using/fileformats.xml:817(para)
+#: src/using/fileformats.xml:809(para)
 msgid ""
 "<guilabel>JPEG</guilabel>: is a very good compression algorithm but lossy."
 msgstr ""
 
-#: src/using/fileformats.xml:823(para)
+#: src/using/fileformats.xml:815(para)
 msgid ""
 "<guilabel>CCITT Group 3 fax</guilabel>; <guilabel>CCITT Group 4 fax</"
 "guilabel> is a black and white format developed to transfer images by FAX."
 msgstr ""
 
-#: src/using/fileformats.xml:829(para)
+#: src/using/fileformats.xml:821(para)
 msgid ""
 "These options can only be selected, if the image is in indexed mode and "
 "reduced to two colors. Use <menuchoice><guimenu>Image</"
@@ -6260,44 +6191,19 @@ msgid ""
 "black and white (1-bit) palette</quote>."
 msgstr ""
 
-#: src/using/fileformats.xml:848(para)
+#: src/using/fileformats.xml:840(para)
 msgid ""
 "With this option the color values are saved even if the pixels are "
 "completely transparent."
 msgstr ""
 
-#: src/using/fileformats.xml:855(term)
+#: src/using/fileformats.xml:847(term)
 msgid "Comment"
 msgstr "Kommentar"
 
-#: src/using/fileformats.xml:857(para)
+#: src/using/fileformats.xml:849(para)
 msgid ""
 "In this text box, you can enter a comment that is associated with the image."
-msgstr ""
-
-#: src/using/fileformats.xml:867(title) src/using/fileformats.xml:869(primary)
-msgid "Export Image as MNG"
-msgstr ""
-
-#: src/using/fileformats.xml:872(primary)
-#: src/using/fileformats.xml:876(secondary)
-#, fuzzy
-msgid "MNG"
-msgstr "PNG"
-
-#: src/using/fileformats.xml:879(title)
-msgid "Export MNG File Dialog"
-msgstr ""
-
-#: src/using/fileformats.xml:887(para)
-msgid "MNG is acronym for <quote>Multiple-Image Network Graphics</quote>."
-msgstr ""
-
-#: src/using/fileformats.xml:890(para)
-msgid ""
-"The main problem is that Konqueror is the only Web navigator that recognizes "
-"the MNG animation format. Please see <ulink url=\"http://en.wikipedia.org/"
-"wiki/Multiple-image_Network_Graphics\"/>."
 msgstr ""
 
 #: src/using/customize-splashscreen.xml:13(title)

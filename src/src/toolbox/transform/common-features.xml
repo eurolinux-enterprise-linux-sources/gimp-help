@@ -93,7 +93,7 @@
         <term>Direction</term>
         <listitem>
           <para>
-            <guilabel>Direction</guilabel> sets which way or direction a
+            This option sets which way or direction a
             layer is transformed:
           </para>
           <para>
@@ -149,7 +149,7 @@
                 <para>
                   The color of each pixel is computed as the average color of
                   the eight closest pixels in the original image. This usually
-                  gives the best result, but it naturally takes more time.
+                  gives a good result, but it naturally takes more time.
                   Sometimes this method is called <quote>Bicubic</quote>.
                 </para>
               </listitem>
@@ -159,7 +159,9 @@
               <listitem>
                 <para>
                   The Lanczos3 method uses the Sinc mathematical function and
-                  performs a high quality interpolation.
+                  performs a high quality interpolation. This is usually the
+                  best method but if you are not satisfied with the result,
+                  you may give <quote>Cubic</quote> a try.
                 </para>
               </listitem>
             </varlistentry>
@@ -174,6 +176,14 @@
       <varlistentry>
         <term>Clipping</term>
         <listitem>
+          <indexterm>
+            <primary>Transform</primary>
+            <secondary>Clipping</secondary>
+          </indexterm>
+          <indexterm>
+            <primary>Clipping</primary>
+            <secondary>Transform</secondary>
+          </indexterm>               
           <para>
             After transformation, the image can be bigger. This option will
             clip the transformed image to the original image size.
@@ -287,18 +297,34 @@
             <varlistentry>
               <term>Crop with aspect</term>
               <listitem>
-<!--                <figure>
+                <figure>
                   <title>Example for Crop with aspect</title>
                   <mediaobject>
                     <imageobject>
-                      <imagedata fileref="images/toolbox/clip-4.png" format="PNG"/>
+                      <imagedata fileref="images/toolbox/clip-4a.png" format="PNG"/>
                     </imageobject>
                     <caption>
-                      <para>Crop with aspect</para>
+                      <para>Original image</para>
                     </caption>
                   </mediaobject>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/toolbox/clip-4b.png" format="PNG"/>
+                    </imageobject>
+                    <caption>
+                      <para>Rotation -22°</para>
+                    </caption>
+                  </mediaobject>
+                  <mediaobject>
+                    <imageobject>
+                      <imagedata fileref="images/toolbox/clip-4c.png" format="PNG"/>
+                    </imageobject>
+                    <caption>
+                      <para>The rotated image</para>
+                    </caption>
+                  </mediaobject>                    
                 </figure>
-Commented until somebody finds a valid example-->
+
                 <para>
                   This option works like the one described before, but makes
                   sure, that the aspect ratio is maintained.
@@ -314,78 +340,160 @@ Commented until somebody finds a valid example-->
           <indexterm>
             <primary>Preview</primary>
             <secondary>Transformation tools</secondary>
+          </indexterm>         
+          <para>
+            If this is marked, which is the default setting, the transformed
+            image will be visible on top of the original image or layer. There 
+            will also be a slider with which you may select the preview opacity.
+          </para>
+        </listitem>    
+      </varlistentry>
+      
+      <varlistentry id="gimp-tool-transform-guides">
+        <term>Guides</term>
+        <listitem>
+          <indexterm>
+            <primary>Transform</primary>
+            <secondary>Guides</secondary>
           </indexterm>
+          <indexterm>
+            <primary>Guides</primary>
+            <secondary>Transform</secondary>
+          </indexterm>       
+          <para>
+            This is a drop down list where you select the type of guide lines 
+            which suits your transforming. All the guides uses a frame to mark 
+            the image's outline in addition to the lines used by the different 
+            selections. 
+          </para>
           <variablelist>
-            <para>
-              <acronym>GIMP</acronym> lets you select among four Preview
-              possibilities:
-            </para>
             <varlistentry>
-              <term>Outline</term>
+              <term>No guides</term>
               <listitem>
                 <para>
-                  Puts a frame to mark the image outline, with a handle on
-                  each corner. Movements will affect this frame only on the
-                  Preview, but the result of the transformation will concern
-                  either the content or the boundaries of the selection
-                  according to the selected Affect mode.
+                  As the name tells you, there are no guides used.
                 </para>
               </listitem>
             </varlistentry>
             <varlistentry>
-              <term>Grid</term>
+              <term>Center lines</term>
+                <listitem>
+                  <para>
+                    Uses one vertical line and one horizontal line crossing each 
+                    other in the center of the image or layer.
+                  </para>
+                </listitem>
+            </varlistentry>        
+            <varlistentry>
+              <term>Rule of thirds</term>
               <listitem>
                 <para>
-                  Puts a grid on the image, with four handles. Movements will
-                  affect this grid only on the Preview, but the result of the
-                  transformation will concern either the content or the
-                  boundaries of the selection according to the selected
-                  Transform mode.
+                  Divides the transforming area in nine equal parts by adding 
+                  two horizontal lines and two vertical lines equally spaced. 
+                  According to this rule the most interesting parts of the image 
+                  should be placed at the intersection points.              
+                </para>
+              </listitem>
+            </varlistentry>        
+            <varlistentry>
+              <term>Rule of fifths</term>
+              <listitem>
+                <para>
+                  Just as the <quote>Rules of thirds</quote> but divides the area in five by 
+                  five parts.
                 </para>
               </listitem>
             </varlistentry>
             <varlistentry>
-              <term>Image</term>
+              <term>Golden sections</term>
               <listitem>
                 <para>
-                  Here, the preview is a copy of the image superimposed on the
-                  image, with an outline. Movements affect this copy and the
-                  underlying image appears.
+                  Also called <quote>The Golden Ratio</quote>. This divides the 
+                  transforming area in nine parts using a mathematical formula 
+                  proportioning the parts to each others and to the area to be
+                  transformed.
+                </para>
+              </listitem>
+            </varlistentry> 
+            <varlistentry>
+              <term>Diagonal lines</term>
+              <listitem>
+                <para>
+                  Divide the transforming area using diagonally lines.
                 </para>
               </listitem>
             </varlistentry>
             <varlistentry>
-              <term>Grid+Image</term>
+              <term>Number of lines</term>
               <listitem>
-                <para>Both turn at the same time.</para>
+                <para>
+                  Puts a rectangular grid with equal numbers of vertically 
+                  and horizontally lines. The number of lines is set in the 
+                  slider popping up when this guide is selected.
+                </para>
+              </listitem>
+            </varlistentry> 
+            <varlistentry>
+              <term>Line spacing</term>
+              <listitem>
+                <para>
+                  Puts a rectangular grid on the transforming area using the 
+                  spacing between the lines set in the slider.
+                </para>
               </listitem>
             </varlistentry>
           </variablelist>
-          <para>
-            Options with grid activate a drop-list with two options:
-            <guilabel>Number of Grid Lines</guilabel> will allow control
-            over the total number of displayed grid lines. Use the
-            slider to set the number of grid lines.
-            <guilabel>Grid Line Spacing</guilabel> allows control over
-            the distance between the grid lines. Use the slider to set
-            the distance.
-          </para>
-        </listitem>
-      </varlistentry>
-      <varlistentry>
-        <term>Opacity</term>
-        <listitem>
-          <para>
-            This slider lets you set the preview opacity.
-          </para>
-        </listitem>
+        </listitem>        
       </varlistentry>
     </variablelist>
-    <note>
-      <para>
-        When rotating a path, Preview options are not valid: only Outline is
-        active.
-      </para>
-    </note>
   </sect3>
+  <sect3>
+    <title>Transforming Paths</title>
+    <indexterm>
+      <primary>Transform</primary>
+      <secondary>Paths</secondary>
+    </indexterm>
+    <indexterm>
+      <primary>Paths</primary>
+      <secondary>Transform</secondary>
+    </indexterm>
+    <para>
+      If you for some reason want to transform paths, it is possible to do 
+      this using the transform tools. 
+    </para>
+    <figure>
+      <title>Rotating paths</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/paths-transform-1.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>Paths dialog</para>
+        </caption>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/paths-transform-2.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>Option modus: Path</para>
+        </caption>
+      </mediaobject>                 
+    </figure>    
+    <para>
+      When the path is drawn go to the path dialog and click on the first field 
+      before the path outline in the dialog window to get the eye icon visible.
+      Then choose the transformation tool and in the upper part of the option
+      dialog click on the path icon to tell the tool to act on the path.      
+    </para>
+    <para>
+      Do the transformation the usual way and confirm it when finished. It 
+      could be a good idea to set the Guides to <quote>No guides</quote> to get
+      the path more recognizable. 
+    </para>
+    <para>
+      When the transformation is finished, choose the path tool and click on 
+      the changed path to activate it again for further working on it. 
+    </para>
+  </sect3>    
 </sect2>

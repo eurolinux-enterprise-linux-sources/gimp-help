@@ -1,21 +1,23 @@
 #
 # Ignacio AntI <ant dot ign at gmail dot com>, 2010.
 # Jorge González <jorgegonz@svn.gnome.org>, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP Manual\n"
-"POT-Creation-Date: 2012-03-19 14:07+0000\n"
-"PO-Revision-Date: 2012-03-21 17:25+0100\n"
+"POT-Creation-Date: 2013-11-26 06:02+0000\n"
+"PO-Revision-Date: 2013-11-26 11:54+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Bookmarks: -1,-1,-1,79,-1,-1,-1,-1,-1,-1\n"
 "X-Poedit-Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.4\n"
 
 #: src/key-reference.xml:6(title)
 msgid "Keys and Mouse Reference"
@@ -44,7 +46,7 @@ msgstr "Ayuda Contextual"
 
 #: src/key-reference.xml:37(refentrytitle) src/key-reference.xml:40(refname)
 #: src/key-reference.xml:46(title) src/key-reference.xml:48(title)
-#: src/gimp.xml:163(title)
+#: src/gimp.xml:166(title)
 msgid "Tools"
 msgstr "Herramientas"
 
@@ -453,7 +455,7 @@ msgid "Quit"
 msgstr "Salir"
 
 #: src/key-reference.xml:365(refentrytitle) src/key-reference.xml:368(refname)
-#: src/gimp.xml:172(title)
+#: src/gimp.xml:175(title)
 msgid "Dialogs"
 msgstr "Diálogos"
 
@@ -1045,7 +1047,7 @@ msgid "Path to selection"
 msgstr "Ruta a selección"
 
 #: src/key-reference.xml:945(refentrytitle) src/key-reference.xml:948(refname)
-#: src/key-reference.xml:954(title) src/gimp.xml:195(title)
+#: src/key-reference.xml:954(title) src/gimp.xml:198(title)
 msgid "Filters"
 msgstr "Filtros"
 
@@ -1104,7 +1106,7 @@ msgstr "Bienvenido al GIMP"
 msgid "GIMP"
 msgstr "GIMP"
 
-#: src/introduction.xml:19(secondary) src/gimp.xml:60(title)
+#: src/introduction.xml:19(secondary) src/gimp.xml:62(title)
 msgid "Introduction"
 msgstr "Introducción"
 
@@ -1116,9 +1118,9 @@ msgid ""
 "of image manipulation tasks, including photo retouching, image composition, "
 "and image construction."
 msgstr ""
-"El <acronym>GIMP</acronym> es una herramienta de manipulación fotográfica "
+"<acronym>GIMP</acronym> es una herramienta de manipulación fotográfica "
 "multiplataforma. <acronym>GIMP</acronym> es un acrónimo de <acronym>GNU</"
-"acronym> Image Manipulation Program. En el <acronym>GIMP</acronym> se pueden "
+"acronym> Image Manipulation Program. En <acronym>GIMP</acronym> se pueden "
 "realizar todo tipo de tareas de manipulación de imágenes, incluyendo retoque "
 "fotográfico, composición de imágenes y creación de imágenes."
 
@@ -1129,7 +1131,7 @@ msgid ""
 "processing system, a mass production image renderer, an image format "
 "converter, etc."
 msgstr ""
-"El <acronym>GIMP</acronym> tiene muchas capacidades. Se puede usar como un "
+"<acronym>GIMP</acronym> tiene muchas capacidades. Se puede usar como un "
 "sencillo programa de pintura, un programa de retoque fotográfico "
 "profesional, un sistema en línea de proceso por lotes, un generador de "
 "imágenes para producción en masa, un conversor de formatos de imágenes, etc."
@@ -1141,7 +1143,7 @@ msgid ""
 "advanced scripting interface allows everything from the simplest task to the "
 "most complex image manipulation procedures to be easily scripted."
 msgstr ""
-"El <acronym>GIMP</acronym> es ampliable y extensible. Está diseñado para "
+"<acronym>GIMP</acronym> es ampliable y extensible. Está diseñado para "
 "ampliarse con complementos y extensiones. La interfaz avanzada de guionado "
 "(scripting) permite automatizar desde las tareas más simples hasta los "
 "procedimientos más complejos de manipulación de imágenes."
@@ -1160,17 +1162,17 @@ msgid ""
 "with the freedom to access and alter the source code that makes up computer "
 "programs."
 msgstr ""
-"Uno de los fuertes del <acronym>GIMP</acronym> es su libre disponibilidad "
+"Uno de los fuertes de <acronym>GIMP</acronym> es su libre disponibilidad "
 "desde varias fuentes para muchos sistemas operativos. Casi todas las "
 "distribuciones de <acronym>GNU</acronym>/<application>Linux</application> "
 "incluyen al <acronym>GIMP</acronym> como una aplicación estándar. El "
 "<acronym>GIMP</acronym> también está disponible para otros sistemas "
 "operativos como <productname>Microsoft Windows</productname> o "
 "<productname>Mac OS X</productname>(<application>Darwin</application>) de "
-"Apple. El <acronym>GIMP</acronym> es una aplicación de Software Libre "
-"cubierta por la Licencia Pública General <xref linkend=\"bibliography-online-"
-"gpl\"/>. La <acronym>GPL</acronym> brinda a los usuarios la libertad de "
-"acceder y modificar el código fuente del que se construyen los programas."
+"Apple. <acronym>GIMP</acronym> es una aplicación de Software Libre cubierta "
+"por la Licencia Pública General <xref linkend=\"bibliography-online-gpl\"/>. "
+"La <acronym>GPL</acronym> brinda a los usuarios la libertad de acceder y "
+"modificar el código fuente del que se construyen los programas."
 
 #: src/introduction.xml:58(title)
 msgid "Authors"
@@ -1184,8 +1186,8 @@ msgid ""
 "releases are currently being orchestrated by Sven Neumann and Mitch Natterer "
 "and the other members of the <acronym>GIMP</acronym>-Team."
 msgstr ""
-"La primera versión del <acronym>GIMP</acronym> fue escrita por Peter Mattis "
-"y Spencer Kimball. Muchos otros desarrolladores han contribuido más "
+"La primera versión de <acronym>GIMP</acronym> fue escrita por Peter Mattis y "
+"Spencer Kimball. Muchos otros desarrolladores han contribuido más "
 "recientemente, y miles han proporcionado su asistencia y pruebas. Los "
 "lanzamientos del <acronym>GIMP</acronym> actualmente son orquestados por "
 "Sven Neumann y Mitch Natterer y mucha otra gente denominada el "
@@ -1208,17 +1210,16 @@ msgid ""
 "while the mouse pointer is focused on the menu item. Read on to begin your "
 "<acronym>GIMP</acronym> journey."
 msgstr ""
-"El Equipo de Documentación del <acronym>GIMP</acronym>y otros usuarios han "
-"proporcionado la información necesaria para entender cómo usar el "
+"El Equipo de Documentación de <acronym>GIMP</acronym>y otros usuarios han "
+"proporcionado la información necesaria para entender cómo usar "
 "<acronym>GIMP</acronym>. El manual de usuario es una parte importante de "
 "este documento. La versión actual está en el sitio web del Equipo de "
 "Documentación <xref linkend=\"bibliography-online-gimp-docs\"/> en formato "
 "HTML. La versión HTML también está disponible como ayuda sensible al "
-"contexto mientras se usa el <acronym>GIMP</acronym> presionando la tecla "
+"contexto mientras se usa <acronym>GIMP</acronym> presionando la tecla "
 "<keycap>F1</keycap>. Se puede acceder a la ayuda a los elementos específicos "
 "del menú presionando <keycap>F1</keycap> mientras el ratón enfoca en dicho "
-"elemento. Continúe leyendo para empezar su viaje por el <acronym>GIMP</"
-"acronym>."
+"elemento. Continúe leyendo para empezar su viaje por <acronym>GIMP</acronym>."
 
 #: src/introduction.xml:89(title)
 msgid "Features and Capabilities"
@@ -1230,7 +1231,7 @@ msgid ""
 "capabilities which <acronym>GIMP</acronym> offers you:"
 msgstr ""
 "La siguiente lista es un pequeño repaso de algunas de las propiedades y "
-"capacidades que ofrece el <acronym>GIMP</acronym>:"
+"capacidades que ofrece <acronym>GIMP</acronym>:"
 
 #: src/introduction.xml:96(para)
 msgid ""
@@ -1267,7 +1268,7 @@ msgid ""
 "A procedural database for calling internal <acronym>GIMP</acronym> functions "
 "from external programs, such as Script-Fu"
 msgstr ""
-"Una base de datos de procedimientos para llamar a funciones internas del "
+"Una base de datos de procedimientos para llamar a funciones internas de "
 "<acronym>GIMP</acronym> desde programas externos como Script-Fu"
 
 #: src/introduction.xml:128(para)
@@ -1296,8 +1297,8 @@ msgid ""
 "Selection tools, including rectangle, ellipse, free, fuzzy, bezier and "
 "intelligent scissors"
 msgstr ""
-"Herramientas de selección incluyendo rectangular, elíptica, libre, difusa, "
-"bézier y tijeras inteligente"
+"Herramientas de selección incluyendo rectángulo, elipse, forma libre, forma "
+"difusa, bézier y tijeras inteligentes"
 
 #: src/introduction.xml:151(para)
 msgid ""
@@ -1319,86 +1320,108 @@ msgid ""
 msgstr ""
 "Lo sentimos pero falta el elemento de la ayuda para la función que busca. "
 "Puede que la encuentre en la versión en línea de la ayuda en la página web "
-"de la <ulink url=\"http://docs.gimp.org/es\"> documentación del "
+"de la <ulink url=\"http://docs.gimp.org/es\"> documentación de "
 "<acronym>GIMP</acronym></ulink>."
 
 #: src/help-missing.xml:15(para)
 msgid ""
 "Feel free to join us and fill the gap by writing documentation for "
 "<acronym>GIMP</acronym>. For more information, subscribe to our <ulink url="
-"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</"
+"\"https://mail.gnome.org/mailman/listinfo/gimp-docs-list\">Mailing list</"
 "ulink>. Generally, it's a good idea to check the <ulink url=\"http://www."
-"gimp.org\"><acronym>GIMP</acronym> project page</ulink>."
+"gimp.org/docs\"><acronym>GIMP</acronym> project page</ulink>."
 msgstr ""
-"Puede unirse a nosotros y contribuir escribiendo documentación para el "
-"<acronym>GIMP</acronym>. Para obtener más información, visite la página wiki "
-"del proyecto <ulink url=\"http://wiki.gimp.org/gimp/GimpDocs"
-"\"><acronym>GIMP</acronym> Wiki</ulink>. También hay una <ulink url="
-"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Lista de "
-"correo</ulink> disponible. Generalmente, es útil visitar la <ulink url="
-"\"http://www.gimp.org\">Página del <acronym>GIMP</acronym></ulink>."
+"Puede unirse a nosotros y contribuir escribiendo documentación para "
+"<acronym>GIMP</acronym>. Para obtener más información, suscríbase a nuestra "
+"<ulink url=\"https://mail.gnome.org/mailman/listinfo/gimp-docs-list\">Lista "
+"de correo</ulink> disponible. Generalmente, es útil visitar la <ulink url="
+"\"http://www.gimp.org/docs\"><acronym>Página de <acronym>GIMP</acronym></"
+"ulink>."
 
-#: src/gimp.xml:24(title)
+#: src/help-missing.xml:23(para)
+#| msgid ""
+#| "Found a <emphasis role=\"bold\">content error</emphasis> or just "
+#| "something which doesn't look right? <ulink id=\"reportbug\" url=\"https://"
+#| "bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual\"> Report an error "
+#| "in Bugzilla </ulink><ulink url=\"https://bugzilla.gnome.org/enter_bug.cgi?"
+#| "product=GIMP-manual\"> Report an error in Bugzilla </ulink> and let us "
+#| "know."
+msgid ""
+"Found a <emphasis role=\"bold\">content error</emphasis> or just something "
+"which doesn't look right? <ulink id=\"reportbug\" url=\"https://bugzilla."
+"gnome.org/enter_bug.cgi?product=GIMP-manual\"> Report an error in Bugzilla </"
+"ulink> and let us know."
+msgstr ""
+"¿Ha encontrado un <emphasis role=\"bold\">error en el contenido</emphasis> o "
+"simplemente algo que no parece ser correcto? <ulink id=\"reportbug\" url="
+"\"https://bugzilla.gnome.org/enter_bug.cgi?product=GIMP-manual\"> Informe de "
+"un error en Bugzilla </ulink> y háganoslo saber."
+
+#: src/gimp.xml:25(title)
 msgid "GNU Image Manipulation Program"
 msgstr "Programa de manipulación de imágenes de GNU"
 
-#: src/gimp.xml:25(subtitle)
+#: src/gimp.xml:26(subtitle)
 msgid "User Manual"
 msgstr "Manual de usuario"
 
-#: src/gimp.xml:27(year)
+#: src/gimp.xml:28(year)
 msgid "2002"
 msgstr "2002"
 
-#: src/gimp.xml:28(year)
+#: src/gimp.xml:29(year)
 msgid "2003"
 msgstr "2003"
 
-#: src/gimp.xml:29(year)
+#: src/gimp.xml:30(year)
 msgid "2004"
 msgstr "2004"
 
-#: src/gimp.xml:30(year)
+#: src/gimp.xml:31(year)
 msgid "2005"
 msgstr "2005"
 
-#: src/gimp.xml:31(year)
+#: src/gimp.xml:32(year)
 msgid "2006"
 msgstr "2006"
 
-#: src/gimp.xml:32(year)
+#: src/gimp.xml:33(year)
 msgid "2007"
 msgstr "2007"
 
-#: src/gimp.xml:33(year)
+#: src/gimp.xml:34(year)
 msgid "2008"
 msgstr "2008"
 
-#: src/gimp.xml:34(year)
+#: src/gimp.xml:35(year)
 msgid "2009"
 msgstr "2009"
 
-#: src/gimp.xml:35(year)
+#: src/gimp.xml:36(year)
 msgid "2010"
 msgstr "2010"
 
-#: src/gimp.xml:36(year)
+#: src/gimp.xml:37(year)
 msgid "2011"
 msgstr "2011"
 
-#: src/gimp.xml:37(year)
+#: src/gimp.xml:38(year)
 msgid "2012"
 msgstr "2012"
 
-#: src/gimp.xml:38(holder)
+#: src/gimp.xml:39(year)
+msgid "2013"
+msgstr "2013"
+
+#: src/gimp.xml:40(holder)
 msgid "The GIMP Documentation Team"
 msgstr "Equipo de documentación de GIMP"
 
-#: src/gimp.xml:41(title)
+#: src/gimp.xml:43(title)
 msgid "Legal Notice"
 msgstr "Nota legal"
 
-#: src/gimp.xml:42(para)
+#: src/gimp.xml:44(para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License, Version 1.2 or any later "
@@ -1414,45 +1437,45 @@ msgstr ""
 "license is included in the section enphrased <link linkend=\"legal\">GNU "
 "Free Documentation License</link>."
 
-#: src/gimp.xml:54(title)
+#: src/gimp.xml:56(title)
 msgid "Preface"
 msgstr "Prefacio"
 
-#: src/gimp.xml:58(title)
+#: src/gimp.xml:60(title)
 msgid "Getting Started"
 msgstr "Primeros pasos"
 
-#: src/gimp.xml:65(title)
+#: src/gimp.xml:67(title)
 msgid "Fire up the GIMP"
 msgstr "Ejecutando GIMP"
 
-#: src/gimp.xml:70(title)
+#: src/gimp.xml:72(title)
 msgid "First Steps with Wilber"
 msgstr "Primeros pasos con Wilber"
 
-#: src/gimp.xml:78(title)
+#: src/gimp.xml:80(title)
 msgid "Getting Unstuck"
 msgstr "Desatascarse"
 
-#: src/gimp.xml:83(title)
+#: src/gimp.xml:85(title)
 msgid "How do I Become a <acronym>GIMP</acronym> Wizard?"
 msgstr "¿Cómo convertirse en un mago del <acronym>GIMP</acronym>?"
 
-#: src/gimp.xml:87(title)
+#: src/gimp.xml:89(title)
 msgid "Getting Images into GIMP"
 msgstr "Introducir imágenes al GIMP"
 
-#: src/gimp.xml:88(para)
+#: src/gimp.xml:90(para)
 msgid ""
 "This chapter is about getting images into GIMP. It explains how to create "
 "new images, how to load images from files, how to scan them and how to make "
 "screenshots."
 msgstr ""
-"Este capítulo trata de cómo introducir imágenes al GIMP. Se explica como "
+"Este capítulo trata de cómo introducir imágenes en GIMP. Se explica como "
 "crear imágenes nuevas, como cargar imágenes desde archivos, como escanearlas "
 "y como hacer capturas de pantalla."
 
-#: src/gimp.xml:93(para)
+#: src/gimp.xml:95(para)
 msgid ""
 "But first we want to introduce you to the general structure of images in "
 "GIMP."
@@ -1460,43 +1483,43 @@ msgstr ""
 "Pero en primer lugar, le queremos introducir en la estructura general de las "
 "imágenes en GIMP."
 
-#: src/gimp.xml:102(title)
+#: src/gimp.xml:104(title)
 msgid "Getting Images out of GIMP"
 msgstr "Obtener imágenes de GIMP"
 
-#: src/gimp.xml:107(title)
+#: src/gimp.xml:109(title)
 msgid "Painting with GIMP"
 msgstr "Pintar con GIMP"
 
-#: src/gimp.xml:123(title)
+#: src/gimp.xml:126(title)
 msgid "Combining Images"
 msgstr "Combinar imágenes"
 
-#: src/gimp.xml:130(title)
+#: src/gimp.xml:133(title)
 msgid "Text Management"
 msgstr "Gestión del texto"
 
-#: src/gimp.xml:136(title)
+#: src/gimp.xml:139(title)
 msgid "Enhancing Photographs"
 msgstr "Mejorar fotografías"
 
-#: src/gimp.xml:140(title)
+#: src/gimp.xml:143(title)
 msgid "Color Management with GIMP"
 msgstr "Gestión del color con GIMP"
 
-#: src/gimp.xml:144(title)
-msgid "Pimp my GIMP"
-msgstr "Adaptando mi GIMP"
+#: src/gimp.xml:147(title)
+msgid "Enrich my GIMP"
+msgstr "Enriquecer mi GIMP"
 
-#: src/gimp.xml:154(title)
+#: src/gimp.xml:157(title)
 msgid "Scripting"
-msgstr "Programar en GIMP"
+msgstr "Automatizar tareas en GIMP"
 
-#: src/gimp.xml:161(title)
+#: src/gimp.xml:164(title)
 msgid "Function Reference"
 msgstr "Referencia de funciones"
 
-#: src/gimp.xml:180(title)
+#: src/gimp.xml:183(title)
 msgid "Menus"
 msgstr "Menús"
 

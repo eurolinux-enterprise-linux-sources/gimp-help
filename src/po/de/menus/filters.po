@@ -1,17 +1,19 @@
 # This is a German catalog for the GIMP User Manual.
 # Copyright (C) 2002-2010 The GIMP Documentation Team
-#
+# Daniel Winzen <d@winzen4.de>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-manual\n"
-"POT-Creation-Date: 2010-03-10 18:23+0100\n"
-"PO-Revision-Date: 2010-03-10 18:23+0100\n"
-"Last-Translator: Ulf-D. Ehlert <ulfehlert@svn.gnome.org>\n"
+"POT-Creation-Date: 2012-11-03 00:13+0000\n"
+"PO-Revision-Date: 2013-09-21 22:29+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -34,8 +36,8 @@ msgstr "TODO"
 #: src/menus/filters/script-fu.xml:108(None)
 msgid ""
 "@@image: 'images/menus/filters/procedure-browser-apply-button.png'; "
-"md5=710798bf62360dd55512d8ccac982429"
-msgstr "TODO"
+"md5=fb5e8a7b7280bdda3407e15921e8e24e"
+msgstr "OK"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -555,8 +557,8 @@ msgid ""
 "guimenuitem></menuchoice>."
 msgstr ""
 "Das Kommando kann aus dem Bildfenster erreicht werden: "
-"<menuchoice><guimenu>F</accel>ilter</guimenu><guimenuitem>Alle "
-"Filtereinstellung zurücksetzen </guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Filter</guimenu><guimenuitem>Alle Filtereinstellung "
+"zurücksetzen </guimenuitem></menuchoice>."
 
 #: src/menus/filters/repeat.xml:9(title)
 #: src/menus/filters/repeat.xml:14(tertiary)
@@ -728,8 +730,8 @@ msgid ""
 "window as a Python command:"
 msgstr ""
 "Wenn Sie nun im Prozeduren-Browser auf diesen <guibutton>Anwenden</"
-"guibutton>-Schalter  klicken, wird die gerade ausgewählte Prozedur als "
-"Python-Anweisung in die Konsole eingetragen:"
+"guibutton>-Schalter klicken, wird die gerade ausgewählte Prozedur als Python-"
+"Anweisung in die Konsole eingetragen:"
 
 #: src/menus/filters/python-fu.xml:138(para)
 msgid "Applied <acronym>PDB</acronym> procedure"
@@ -884,9 +886,10 @@ msgid ""
 "the <link linkend=\"filters\">Filters</link> chapter. For filters you "
 "install yourself, please refer to the information which came with them."
 msgstr ""
-"Die Beschreibung der <link linkend=\"gimp-concepts-plugins\">Plugins</link> "
-"&ndash; also aller Kommandos außer den ersten drei Menüeinträgen &ndash; "
-"finden Sie in <xref linkend=\"filters\"/>. Für selbst installierte Filter "
+"Der Abschnitt <link linkend=\"gimp-concepts-plugins\">Plugins</link> gibt "
+"allgemeine Informationen über Plugins und deren Verwendung. Sie finden in "
+"<link linkend=\"filters\">Filter</link> Beschreibungen zu den mit "
+"<acronym>GIMP</acronym> gelieferten Filtern. Für eigens installierte Filter "
 "sei auf die Dokumentation des jeweiligen Filters verwiesen."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
@@ -896,4 +899,6 @@ msgstr ""
 "Daniel Egger\n"
 "Roman Joost\n"
 "Axel Wernicke\n"
-"Ulf-D. Ehlert"
+"Ulf-D. Ehlert\n"
+"Daniel Winzen\n"
+"Christian Kirbach"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Manual\n"
-"POT-Creation-Date: 2012-04-30 15:58+0200\n"
-"PO-Revision-Date: 2012-04-19 00:00+0200\n"
+"POT-Creation-Date: 2012-06-11 11:09+0200\n"
+"PO-Revision-Date: 2013-09-25 14:36+0200\n"
 "Last-Translator: Marco Ciampa <ciampix@libero.it>\n"
 "Language-Team: Italian <it@li.org>\n"
 "Language: it\n"
@@ -305,6 +305,7 @@ msgstr ""
 #: src/menus/layer/raise-to-top.xml:27(title)
 #: src/menus/layer/previous.xml:46(title) src/menus/layer/offset.xml:30(title)
 #: src/menus/layer/next.xml:36(title) src/menus/layer/new.xml:30(title)
+#: src/menus/layer/new-layer-group.xml:22(title)
 #: src/menus/layer/new-from-visible.xml:29(title)
 #: src/menus/layer/merge-down.xml:44(title)
 #: src/menus/layer/mask-show.xml:35(title)
@@ -475,7 +476,7 @@ msgstr "Soglia impostata a 50, 127, 210."
 #: src/menus/layer/text-commands.xml:19(None)
 msgid ""
 "@@image: 'images/menus/layer/text-commands.png'; "
-"md5=282345dbc0406b4174defc95afdf6f2f"
+"md5=8236fc6413fba25a0eb649b8bfd80729"
 msgstr " "
 
 #: src/menus/layer/text-discard.xml:10(title)
@@ -1657,7 +1658,7 @@ msgstr "o usando la scorciatoia da tastiera <keycap>Giù</keycap>."
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:50(None)
 msgid ""
-"@@image: 'images/menus/layer/new.png'; md5=949ff5a2ed7e6571781af93f45dc4ca2"
+"@@image: 'images/menus/layer/new.png'; md5=16ba97364a105bf8906bdff0d9887a84"
 msgstr " "
 
 #: src/menus/layer/new.xml:11(title) src/menus/layer/new.xml:19(primary)
@@ -1673,11 +1674,7 @@ msgid ""
 "The <guimenuitem>New Layer</guimenuitem> command adds a new, empty layer to "
 "the layer stack of the image, just above the active layer. The command "
 "displays a dialog in which you can specify the size of the new layer."
-msgstr ""
-"Il comando <guimenuitem>Nuovo livello</guimenuitem> aggiunge un nuovo "
-"livello vuoto alla pila dei livelli dell'immagine, appena sopra il livello "
-"attivo. Il comando porta in primo piano una finestra di dialogo che permette "
-"di impostare la dimensione e lo riempimento di colore del nuovo livello."
+msgstr "Il comando <guimenuitem>Nuovo livello</guimenuitem> aggiunge un nuovo livello vuoto alla pila dei livelli dell'immagine, appena sopra il livello attivo. Il comando porta in primo piano una finestra di dialogo che permette di impostare la dimensione e il riempimento di colore del nuovo livello."
 
 #: src/menus/layer/new.xml:33(para)
 msgid ""
@@ -1759,6 +1756,32 @@ msgstr ""
 "<guilabel>Colore di primo piano</guilabel> corrente, <guilabel>Colore di "
 "sfondo</guilabel> corrente, <guilabel>Bianco</guilabel> e "
 "<guilabel>Trasparenza</guilabel>."
+
+#: src/menus/layer/new-layer-group.xml:9(title)
+msgid "New Layer Group"
+msgstr "Nuovo gruppo di livelli"
+
+#: src/menus/layer/new-layer-group.xml:12(primary)
+msgid "Layer Group"
+msgstr "Gruppo di livelli"
+
+#: src/menus/layer/new-layer-group.xml:13(secondary)
+msgid "New"
+msgstr "Nuovo"
+
+#: src/menus/layer/new-layer-group.xml:16(para)
+msgid ""
+"This command creates a new layer group directly. Please refer to <xref "
+"linkend=\"gimp-layer-groups\"/>."
+msgstr "Questo comando crea un nuovo gruppo di livelli. Fare riferimento a <xref linkend=\"gimp-layer-groups\"/> per ulteriori informazioni."
+
+#: src/menus/layer/new-layer-group.xml:25(para)
+msgid ""
+"You can access this command from an image menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>New Layer Group</"
+"guimenuitem></menuchoice>, or from the layer context menu you get by right "
+"clicking on the layer dialog."
+msgstr "È possibile accedere a questo comando dal menu immagine tramite <menuchoice><guimenu>Livello</guimenu><guimenuitem>Nuovo gruppo di livelli</guimenuitem></menuchoice>, o dal menu locale che appare facendo clic con il tasto destro sulla finestra di dialogo dei livelli."
 
 #: src/menus/layer/new-from-visible.xml:8(title)
 msgid "New From Visible"
@@ -2182,14 +2205,7 @@ msgid ""
 "for the image. White areas of the layer mask are selected, black areas are "
 "not selected, and gray areas are converted into feathered selections. The "
 "layer mask itself is not modified by this command."
-msgstr ""
-"Il comando <guimenuitem>interseca con la selezione</guimenuitem> converte la "
-"maschera di livello del livello attivo in una selezione. L'intersezione di "
-"questa selezione e della selezione già attiva formano la nuova selezione "
-"dell'immagine. Le aree bianche della maschera di livello vengono "
-"selezionater, quelle nere non vengono selezionate e quelle grige vengono "
-"convertite in selezioni sfumate. La maschera di livello non viene modificata "
-"dal comando."
+msgstr "Il comando <guimenuitem>interseca con la selezione</guimenuitem> converte la maschera di livello del livello attivo in una selezione. L'intersezione di questa selezione e della selezione già attiva formano la nuova selezione dell'immagine. Le aree bianche della maschera di livello vengono selezionate, quelle nere non vengono selezionate e quelle grige vengono convertite in selezioni sfumate. La maschera di livello non viene modificata dal comando."
 
 #: src/menus/layer/mask-selection-intersect.xml:39(para)
 msgid ""
@@ -2602,10 +2618,7 @@ msgid ""
 "With this option, the contents of the alpha channel are used to fill the "
 "layer mask. The alpha channel itself is not altered, so the transparency of "
 "partially visible areas is increased, leading to a more transparent layer."
-msgstr ""
-"Con quest'opzione, i contenuti del canale alfa vengono usati per riempire la "
-"maschera di livello. Il canale alfa non viene non viene alterato, perciò la "
-"trasparenza delle aree parzialmente visibili viene incrementata."
+msgstr "Con quest'opzione, i contenuti del canale alfa vengono usati per riempire la maschera di livello. Il canale alfa non viene alterato, perciò la trasparenza delle aree parzialmente visibili viene incrementata."
 
 #: src/menus/layer/mask-add.xml:113(term)
 msgid "Transfer layer's alpha channel"
@@ -2774,7 +2787,7 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/introduction.xml:22(None)
-msgid "@@image: 'images/menus/layer.png'; md5=bfc42e9c9d0e8e0fa820df804bc4fd21"
+msgid "@@image: 'images/menus/layer.png'; md5=4bfbb89261f38ef0e9a7bce8be51b918"
 msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -2782,7 +2795,7 @@ msgstr " "
 #: src/menus/layer/introduction.xml:43(None)
 msgid ""
 "@@image: 'images/menus/layer/context-menu.png'; "
-"md5=c1358d652d50f15b57e386ff378af949"
+"md5=b4bd6237b286974bfa5659187322ea55"
 msgstr " "
 
 #: src/menus/layer/introduction.xml:11(title)
@@ -2990,13 +3003,7 @@ msgid ""
 "<quote>parasites</quote> attached to the active layer, they are not "
 "duplicated. (If your understanding of the word <quote>parasites</quote> is "
 "limited to small, unpleasant creatures, please ignore the last sentence.)"
-msgstr ""
-"Se si duplica un livello di sfondo che non possiede un canale alfa, al nuovo "
-"livello ne verrà automaticamente fornito uno. Inoltre, se ci sono "
-"<quote>parassiti</quote> allegati al livello attivo, essi non saranno "
-"duplicati (se credete che la parola <quote>parassita</quote> significhi solo "
-"una piccola repellente creatura, non preoccupatevi di comprendere "
-"quat'ultima frase)."
+msgstr "Se si duplica un livello di sfondo che non possiede un canale alfa, al nuovo livello ne verrà automaticamente fornito uno. Inoltre, se ci sono <quote>parassiti</quote> allegati al livello attivo, essi non saranno duplicati (se credete che la parola <quote>parassita</quote> significhi solo una piccola repellente creatura, non preoccupatevi di comprendere quest'ultima frase)."
 
 #: src/menus/layer/duplicate.xml:40(title)
 #: src/menus/layer/delete.xml:27(title) src/menus/layer/bottom.xml:30(title)

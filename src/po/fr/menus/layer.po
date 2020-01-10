@@ -1,17 +1,18 @@
-# Julien Hardelin, 2011.
-# Julien Hardelin <jhardlin@orange.fr>, 2011.
+#
+# Julien Hardelin <jhardlin@orange.fr>, 2011, 2012.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-2.6-HELP\n"
-"POT-Creation-Date: 2011-02-08 20:55+0100\n"
-"PO-Revision-Date: 2011-12-17 16:00+0100\n"
+"Project-Id-Version: Manuel utilisateur de GIMP\n"
+"POT-Creation-Date: 2012-11-14 14:59+0100\n"
+"PO-Revision-Date: 2012-11-15 18:25+0100\n"
 "Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
-"Language-Team: French <GNOME French Team <gnomefr@traduc.org>>\n"
+"Language-Team: français <GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n!=1)\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -22,7 +23,8 @@ msgid ""
 msgstr " "
 
 #: src/menus/layer/transparency.xml:11(title)
-msgid "The <quote>Transparency</quote> Submenu of the <quote>Layer</quote> menu"
+msgid ""
+"The <quote>Transparency</quote> Submenu of the <quote>Layer</quote> menu"
 msgstr "Le sous-menu <quote>Transparence</quote> du menu <quote>Calque</quote>"
 
 #: src/menus/layer/transparency.xml:16(primary)
@@ -90,7 +92,8 @@ msgid "Transparency"
 msgstr "Transparence"
 
 #: src/menus/layer/transparency.xml:22(title)
-msgid "The <quote>Transparency</quote> submenu of the <quote>Layer</quote> menu"
+msgid ""
+"The <quote>Transparency</quote> submenu of the <quote>Layer</quote> menu"
 msgstr "Le sous-menu Transparence du menu Calque"
 
 #: src/menus/layer/transparency.xml:32(para)
@@ -249,6 +252,7 @@ msgstr ""
 #: src/menus/layer/raise-to-top.xml:27(title)
 #: src/menus/layer/previous.xml:46(title) src/menus/layer/offset.xml:30(title)
 #: src/menus/layer/next.xml:36(title) src/menus/layer/new.xml:30(title)
+#: src/menus/layer/new-layer-group.xml:22(title)
 #: src/menus/layer/new-from-visible.xml:29(title)
 #: src/menus/layer/merge-down.xml:44(title)
 #: src/menus/layer/mask-show.xml:35(title)
@@ -413,11 +417,11 @@ msgstr "Seuil alpha fixé à 50, 127, 210"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/text-discard.xml:32(None)
-#: src/menus/layer/text-commands.xml:20(None)
+#: src/menus/layer/text-commands.xml:19(None)
 msgid ""
 "@@image: 'images/menus/layer/text-commands.png'; "
-"md5=282345dbc0406b4174defc95afdf6f2f"
-msgstr " "
+"md5=8236fc6413fba25a0eb649b8bfd80729"
+msgstr "\" \""
 
 #: src/menus/layer/text-discard.xml:10(title)
 msgid "Discard Text Information"
@@ -479,36 +483,32 @@ msgstr ""
 "<menuchoice><guimenu>Calque</guimenu><guimenuitem>Abandonner l'information "
 "de texte</guimenuitem></menuchoice>."
 
-#: src/menus/layer/text-commands.xml:10(title)
+#: src/menus/layer/text-commands.xml:9(title)
 msgid "The Text Commands of the Layer Menu"
 msgstr "Commandes Texte du menu calque"
 
-#: src/menus/layer/text-commands.xml:12(para)
+#: src/menus/layer/text-commands.xml:11(para)
 msgid "These commands are displayed only if a text layer is present."
 msgstr "Ces commandes n'apparaissent que si un calque de texte est présent."
 
-#: src/menus/layer/text-commands.xml:16(title)
+#: src/menus/layer/text-commands.xml:15(title)
 msgid "Text commands in the Layer menu"
 msgstr "Les commandes texte dans le menu Calque"
 
-#: src/menus/layer/text-commands.xml:26(title)
+#: src/menus/layer/text-commands.xml:25(title)
 msgid "The Text Commands"
 msgstr "Les commandes Texte"
 
-#: src/menus/layer/text-commands.xml:31(listitem:xreflabel)
-msgid "Path from Text"
-msgstr "Chemin depuis le texte"
-
-#: src/menus/layer/text-commands.xml:34(listitem:xreflabel)
+#: src/menus/layer/text-commands.xml:33(listitem:xreflabel)
 msgid "Text along Path"
 msgstr "Texte le long du chemin"
 
-#: src/menus/layer/text-commands.xml:39(primary)
-#: src/menus/layer/text-commands.xml:48(listitem:xreflabel)
+#: src/menus/layer/text-commands.xml:38(primary)
+#: src/menus/layer/text-commands.xml:47(listitem:xreflabel)
 msgid "Text to Selection"
 msgstr "Texte vers Sélection"
 
-#: src/menus/layer/text-commands.xml:41(para)
+#: src/menus/layer/text-commands.xml:40(para)
 msgid ""
 "In the <guilabel>Text to Selection</guilabel> drop-down list, the commands "
 "are identical to those of the Transparency sub-menu (in fact, the text is "
@@ -518,39 +518,40 @@ msgstr ""
 "commandes sont identiques à celles du sous-menu Transparence (un texte est "
 "formé d'aires de différentes transparences) :"
 
-#: src/menus/layer/text-commands.xml:50(title)
+#: src/menus/layer/text-commands.xml:49(title)
 msgid "Text to Selection:"
 msgstr "Texte vers Sélection :"
 
-#: src/menus/layer/text-commands.xml:57(listitem:xreflabel)
+#: src/menus/layer/text-commands.xml:56(listitem:xreflabel)
 msgid "Add to Selection"
 msgstr "Ajouter à la sélection"
 
-#: src/menus/layer/text-commands.xml:59(title)
+#: src/menus/layer/text-commands.xml:58(title)
 msgid "Add to Selection:"
 msgstr "Ajouter à la sélection"
 
-#: src/menus/layer/text-commands.xml:66(listitem:xreflabel)
+#: src/menus/layer/text-commands.xml:65(listitem:xreflabel)
 #: src/menus/layer/alpha-selection-subtract.xml:14(title)
 msgid "Subtract from Selection"
 msgstr "Soustraire de la sélection"
 
-#: src/menus/layer/text-commands.xml:68(title)
+#: src/menus/layer/text-commands.xml:67(title)
 msgid "Subtract from Selection:"
 msgstr "Soustraire de la sélection"
 
-#: src/menus/layer/text-commands.xml:75(listitem:xreflabel)
+#: src/menus/layer/text-commands.xml:74(listitem:xreflabel)
 msgid "Intersect with Selection"
 msgstr "Intersection avec la sélection"
 
-#: src/menus/layer/text-commands.xml:77(title)
+#: src/menus/layer/text-commands.xml:76(title)
 msgid "Intersect with Selection:"
 msgstr "Intersection avec la sélection"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/stack.xml:27(None)
-msgid "@@image: 'images/menus/layer/stack.png'; md5=fed64f7dd29004a642740b7fb03bc0fb"
+msgid ""
+"@@image: 'images/menus/layer/stack.png'; md5=fed64f7dd29004a642740b7fb03bc0fb"
 msgstr " "
 
 #: src/menus/layer/stack.xml:12(title)
@@ -596,8 +597,10 @@ msgid "The Contents of the <quote>Stack</quote> Submenu"
 msgstr "Contenu du sous-menu <quote>Pile</quote>"
 
 #: src/menus/layer/stack.xml:56(para)
-msgid "The <guisubmenu>Stack</guisubmenu> submenu contains the following commands:"
-msgstr "Le menu <guisubmenu>Pile</guisubmenu> contient les commandes suivantes :"
+msgid ""
+"The <guisubmenu>Stack</guisubmenu> submenu contains the following commands:"
+msgstr ""
+"Le menu <guisubmenu>Pile</guisubmenu> contient les commandes suivantes :"
 
 #: src/menus/layer/stack-reverse.xml:10(title)
 msgid "The <quote>Reverse Layer Order</quote> command"
@@ -628,7 +631,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/scale.xml:51(None)
-msgid "@@image: 'images/menus/layer/scale.png'; md5=1dc8a4455df0655ed81745bf2e112f4f"
+msgid ""
+"@@image: 'images/menus/layer/scale.png'; md5=1dc8a4455df0655ed81745bf2e112f4f"
 msgstr " "
 
 #: src/menus/layer/scale.xml:12(title)
@@ -831,16 +835,16 @@ msgstr ""
 #: src/menus/layer/rotate-180.xml:50(None)
 msgid ""
 "@@image: 'images/menus/layer/rotate.png'; "
-"md5=faf13166cb97090a02a5b8380f587c34"
-msgstr " "
+"md5=fcc910def973b232bbf8080e88e691c8"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/rotate-arbitrary.xml:65(None)
 msgid ""
 "@@image: 'images/menus/layer/rotate-arb.png'; "
-"md5=cf2201108ccb0e10dec2a93bdfef9dba"
-msgstr " "
+"md5=b71905292bcd875c7170593c97cd3e68"
+msgstr "\" \""
 
 #: src/menus/layer/rotate-arbitrary.xml:10(title)
 msgid "Arbitrary Rotation"
@@ -1020,8 +1024,8 @@ msgstr "Application de <quote>Rotation 90° anti-horaire</quote>"
 #: src/menus/layer/rotate-180.xml:60(None)
 msgid ""
 "@@image: 'images/menus/layer/rotate-180.png'; "
-"md5=43dbfb06cae403e0c85367ab2322a30d"
-msgstr " "
+"md5=2a6fafa4d5d168964b2131ac93bf0370"
+msgstr "\" \""
 
 #: src/menus/layer/rotate-180.xml:10(title)
 #: src/menus/layer/rotate-180.xml:18(primary)
@@ -1451,14 +1455,16 @@ msgstr "Comportement sur les bords"
 msgid ""
 "You can specify one of three ways to treat the areas left empty when the "
 "contents of the layer are shifted:"
-msgstr "Il y a trois façons de remplir la partie du calque dégagée par le décalage:"
+msgstr ""
+"Il y a trois façons de remplir la partie du calque dégagée par le décalage:"
 
 #: src/menus/layer/offset.xml:106(para)
 msgid ""
 "<emphasis>Wrap around</emphasis>: The empty space on one side of the layer "
 "is filled with the part of the layer which is shifted out of the other side, "
 "so none of the content is lost."
-msgstr "<emphasis>Reboucler</emphasis>: Ce qui sort d'un côté rentre de l'autre côté."
+msgstr ""
+"<emphasis>Reboucler</emphasis>: Ce qui sort d'un côté rentre de l'autre côté."
 
 #: src/menus/layer/offset.xml:114(para)
 msgid ""
@@ -1480,7 +1486,9 @@ msgstr ""
 
 #: src/menus/layer/offset.xml:136(title)
 msgid "Using <quote>Offset</quote> together with <quote>Edge Behaviors</quote>"
-msgstr "Utilisation de <quote>Décalage</quote> en même temps que <quote>Comportement sur les bords</quote> "
+msgstr ""
+"Utilisation de <quote>Décalage</quote> en même temps que <quote>Comportement "
+"sur les bords</quote> "
 
 #: src/menus/layer/offset.xml:142(para)
 msgid "The Original"
@@ -1546,8 +1554,9 @@ msgstr "ou en utilisant le raccourci clavier <keycap>Page bas</keycap>,"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/new.xml:50(None)
-msgid "@@image: 'images/menus/layer/new.png'; md5=949ff5a2ed7e6571781af93f45dc4ca2"
-msgstr " "
+msgid ""
+"@@image: 'images/menus/layer/new.png'; md5=16ba97364a105bf8906bdff0d9887a84"
+msgstr "\" \""
 
 #: src/menus/layer/new.xml:11(title) src/menus/layer/new.xml:19(primary)
 msgid "New Layer"
@@ -1646,6 +1655,38 @@ msgstr ""
 "plan</guilabel>, <guilabel>Blanc</guilabel> et <guilabel>Transparence</"
 "guilabel>."
 
+#: src/menus/layer/new-layer-group.xml:9(title)
+msgid "New Layer Group"
+msgstr "Nouveau groupe de calques"
+
+#: src/menus/layer/new-layer-group.xml:12(primary)
+msgid "Layer Group"
+msgstr "Groupe de calques"
+
+#: src/menus/layer/new-layer-group.xml:13(secondary)
+msgid "New"
+msgstr "Nouveau"
+
+#: src/menus/layer/new-layer-group.xml:16(para)
+msgid ""
+"This command creates a new layer group directly. Please refer to <xref "
+"linkend=\"gimp-layer-groups\"/>."
+msgstr ""
+"Cette commande crée directement un nouveau groupe de calques. Veuillez vous "
+"référer à <xref linkend=\"gimp-layer-groups\"/>."
+
+#: src/menus/layer/new-layer-group.xml:25(para)
+msgid ""
+"You can access this command from an image menu through "
+"<menuchoice><guimenu>Layer</guimenu><guimenuitem>New Layer Group</"
+"guimenuitem></menuchoice>, or from the layer context menu you get by right "
+"clicking on the layer dialog."
+msgstr ""
+"Vous trouverez cette commande dans le menu d'image en suivant "
+"<menuchoice><guimenu>Calque</guimenu><guimenuitem>Nouveau groupe de calques</"
+"guimenuitem></menuchoice>, ou dans le menu local que vous obtenez par un "
+"clic droit sur la fenêtre du Dialogue des calques."
+
 #: src/menus/layer/new-from-visible.xml:8(title)
 msgid "New From Visible"
 msgstr "Nouveau depuis le visible"
@@ -1742,7 +1783,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/mask.xml:23(None)
-msgid "@@image: 'images/menus/layer/mask.png'; md5=a243a9096e25e611c1575e75d5fdf558"
+msgid ""
+"@@image: 'images/menus/layer/mask.png'; md5=a243a9096e25e611c1575e75d5fdf558"
 msgstr " "
 
 #: src/menus/layer/mask.xml:10(title)
@@ -1787,7 +1829,8 @@ msgstr "Contenu du sous-menu"
 
 #: src/menus/layer/mask.xml:52(para)
 msgid "The <guimenu>Mask</guimenu> submenu contains the following commands:"
-msgstr "Le sous-menu <guilabel>Masque</guilabel> contient les commandes suivantes:"
+msgstr ""
+"Le sous-menu <guilabel>Masque</guilabel> contient les commandes suivantes:"
 
 #: src/menus/layer/mask-show.xml:10(title)
 msgid "Show Layer Mask"
@@ -1924,11 +1967,11 @@ msgstr ""
 "Cette commande soustrait de la sélection existante les pixels de l'image "
 "correspondant dans le masque de calque à des pixels dont l'opacité est "
 "supérieure à 0%. Les pixels blancs (100% opaques) du masque de calque "
-"donneront des pixels entièrement soustraits de l'image. Les pixels gris (1%-"
-"99% opaques) donneront une sélection adoucie. Les pixels noirs (0% opaques) "
-"ne seront pas soustraits. Les pixels soustraits ne sont pas éliminés : ils "
-"sont simplement hors sélection. Le masque de calque n'est pas modifié par "
-"cette commande."
+"donneront des pixels entièrement soustraits de l'image. Les pixels gris "
+"(1%-99% opaques) donneront une sélection adoucie. Les pixels noirs (0% "
+"opaques) ne seront pas soustraits. Les pixels soustraits ne sont pas "
+"éliminés : ils sont simplement hors sélection. Le masque de calque n'est pas "
+"modifié par cette commande."
 
 #: src/menus/layer/mask-selection-subtract.xml:38(para)
 msgid ""
@@ -2592,7 +2635,8 @@ msgstr ""
 "guisubmenu><guimenuitem>Descendre le calque</guimenuitem></menuchoice>,"
 
 #: src/menus/layer/lower.xml:39(para)
-msgid "or by clicking on the down-arrow icon at the bottom of the Layers dialog."
+msgid ""
+"or by clicking on the down-arrow icon at the bottom of the Layers dialog."
 msgstr ""
 "ou en cliquant sur l'icône flèche-bas en bas de la fenêtre du Dialogue des "
 "Calques."
@@ -2637,16 +2681,16 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/introduction.xml:22(None)
-msgid "@@image: 'images/menus/layer.png'; md5=bfc42e9c9d0e8e0fa820df804bc4fd21"
-msgstr " "
+msgid "@@image: 'images/menus/layer.png'; md5=4bfbb89261f38ef0e9a7bce8be51b918"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/introduction.xml:43(None)
 msgid ""
 "@@image: 'images/menus/layer/context-menu.png'; "
-"md5=c1358d652d50f15b57e386ff378af949"
-msgstr " "
+"md5=b4bd6237b286974bfa5659187322ea55"
+msgstr "\" \""
 
 #: src/menus/layer/introduction.xml:11(title)
 msgid "Introduction to the <quote>Layer</quote> Menu"
@@ -2661,8 +2705,10 @@ msgid "The Contents of the <quote>Layer</quote> Menu"
 msgstr "Menu des calques"
 
 #: src/menus/layer/introduction.xml:26(para)
-msgid "The items on the <guimenu>Layer</guimenu> menu allow you to work on layers."
-msgstr "Ce menu vous donne accès à différentes fonctions concernant les calques."
+msgid ""
+"The items on the <guimenu>Layer</guimenu> menu allow you to work on layers."
+msgstr ""
+"Ce menu vous donne accès à différentes fonctions concernant les calques."
 
 #: src/menus/layer/introduction.xml:30(para)
 msgid ""
@@ -2687,16 +2733,17 @@ msgstr "Menu contextuel des calques"
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/flip-vertical.xml:49(None)
 #: src/menus/layer/flip-horizontal.xml:50(None)
-msgid "@@image: 'images/menus/layer/flip.png'; md5=c05f0b0f89d804ae1a53065da5a62904"
-msgstr " "
+msgid ""
+"@@image: 'images/menus/layer/flip.png'; md5=fec2df09a41ee04f5f525f275a934a83"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/flip-vertical.xml:59(None)
 msgid ""
 "@@image: 'images/menus/layer/flip-v.png'; "
-"md5=5dcc039b3763ec026426e90559b0f5ba"
-msgstr " "
+"md5=0ab484233b242290633d851d90d8fcae"
+msgstr "\" \""
 
 #: src/menus/layer/flip-vertical.xml:11(title)
 msgid "Flip Vertically"
@@ -2747,8 +2794,8 @@ msgstr ""
 #: src/menus/layer/flip-horizontal.xml:60(None)
 msgid ""
 "@@image: 'images/menus/layer/flip-h.png'; "
-"md5=d2975d5ff3e99fad2de8467f6527adbe"
-msgstr " "
+"md5=7969ab66d467dbfca94f2fb9602ec273"
+msgstr "\" \""
 
 #: src/menus/layer/flip-horizontal.xml:11(title)
 msgid "Flip Horizontally"
@@ -2922,7 +2969,8 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/layer/crop.xml:53(None)
-msgid "@@image: 'images/menus/layer/crop.png'; md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
+msgid ""
+"@@image: 'images/menus/layer/crop.png'; md5=a85dcee6a55ea3e1e21bfb2a2aced52e"
 msgstr " "
 
 #: src/menus/layer/crop.xml:12(title)
@@ -3264,7 +3312,8 @@ msgstr ""
 #: src/menus/layer/alpha-selection-replace.xml:70(None)
 #: src/menus/layer/alpha-selection-intersect.xml:63(None)
 #: src/menus/layer/alpha-selection-add.xml:65(None)
-msgid "@@image: 'images/menus/layer/BBR.png'; md5=cf9be96a565760ab4aad5c4d38020a33"
+msgid ""
+"@@image: 'images/menus/layer/BBR.png'; md5=cf9be96a565760ab4aad5c4d38020a33"
 msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -3637,7 +3686,15 @@ msgstr "ou par le menu local obtenu par clic droit sur la Fenêtre des calques."
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/layer/alpha-add.xml:0(None)
 msgid "translator-credits"
-msgstr "Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2011"
+msgstr "Julien Hardelin, jhardlin{AT}orange{POINT}fr, 2008, 2009, 2011, 2012"
+
+#~ msgid "Path from Text"
+#~ msgstr "Chemin depuis le texte"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/layer/new.png'; "
+#~ "md5=949ff5a2ed7e6571781af93f45dc4ca2"
+#~ msgstr " "
 
 #~ msgid "@@image: 'images/menus/layer.png'; md5=THIS FILE DOESN'T EXIST"
 #~ msgstr " "

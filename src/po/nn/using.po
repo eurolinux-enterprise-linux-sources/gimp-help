@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-2.6-HELP\n"
-"POT-Creation-Date: 2012-05-28 18:23+0200\n"
-"PO-Revision-Date: 2012-05-29 19:45+0100\n"
+"Project-Id-Version: GIMP-2.8-help\n"
+"POT-Creation-Date: 2013-09-13 12:52+0200\n"
+"PO-Revision-Date: 2013-09-13 17:37+0100\n"
 "Last-Translator: Kolbjørn Stuestøl <kolbjoern@stuestoel.no>\n"
-"Language-Team: NORWEGIAN NYNORSK <none>\n"
+"Language-Team: Norwegian nynorsk <i18n-no@lister.ping.uio.no>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: NORWEGIAN NYNORSK\n"
-"X-Poedit-Country: NORWAY\n"
+"Language: nn_NO\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -81,7 +81,7 @@ msgstr "Etter at du har flata ut biletet, kan du <link linkend=\"gimp-file-save\
 
 #: src/using/web.xml:91(para)
 msgid "You can save your image in the PNG format with the default settings. Always using maximum compression when creating the image. Maximum compression has no affect on image quality or the time required to display the image, but it does take longer to save. A <link linkend=\"file-jpeg-save\">JPEG</link> image, however, loses quality as the compression is increased. If your image is a photograph with lots of colors, you should use jpeg. The main thing is to find the best tradeoff between quality and compression. You can find more information about this topic in <xref linkend=\"file-jpeg-save\"/>."
-msgstr "Når du lagrar biletet i PNG-format kan du stort sett bruke dei førehandsinnstilte verdiane. Det einaste du treng forandra på er å setje kompresjonen til maksimum. Graden av komprimering betyr ingenting for kvaliteten og opplastingstida for biletet, bare forkor lang tid som blir brukt for å lagre biletet. For <link linkend=\"file-jpeg-save\">JPEG</link>-formatet blir kvaliteten derimot merkbart dårlegare med aukande kompresjon. Er biletet ditt eit foto med mange fargar, bør du likevel bruke jpeg og heller bruke litt tid på å finne det beste kompromisset mellom komprimering og kvalitet. Di finn meir om dette i <xref linkend=\"file-jpeg-save\"/>."
+msgstr "Når du eksporterer biletet i PNG-format kan du stort sett bruke dei førehandsinnstilte verdiane. Det einaste du treng forandra på er å setje kompresjonen til maksimum. Graden av komprimering betyr ingenting for kvaliteten og opplastingstida for biletet, bare for kor lang tid som blir brukt for å lagre biletet. For <link linkend=\"file-jpeg-save\">JPEG</link>-formatet blir kvaliteten derimot merkbart dårlegare med aukande kompresjon. Er biletet ditt eit foto med mange fargar, bør du likevel bruke jpeg og heller bruke litt tid på å finne det beste kompromisset mellom komprimering og kvalitet. Di finn meir om dette i <xref linkend=\"file-jpeg-save\"/>."
 
 #: src/using/web.xml:107(title)
 msgid "Reducing the File Size Even More"
@@ -145,7 +145,7 @@ msgstr "Den originale XCF-fila inneheld bakgrunnslag som kan fjernast. <acronym>
 
 #: src/using/web.xml:221(para)
 msgid "After you're done with your image, you can <link linkend=\"gimp-file-save\">save</link> it in <link linkend=\"file-png-save-defaults\">PNG format</link>."
-msgstr "Når du er ferdig med biletet, kan du <link linkend=\"gimp-file-save\">lagra</link> det i <link linkend=\"file-png-save-defaults\">PNG format</link>."
+msgstr "Når du er ferdig med biletet, kan du <link linkend=\"gimp-file-save\">eksportere</link> det i <link linkend=\"file-png-save-defaults\">PNG format</link>."
 
 #: src/using/web.xml:229(title)
 msgid "The Wilber image with transparency"
@@ -158,7 +158,7 @@ msgstr "Dei grå firkantane i bakgrunnen er <acronym>GIMP</acronym> sin måte å
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:42(None)
-msgid "@@image: 'images/using/stretch-shrink-cursor.png'; md5=b70a76fbfbd80f1063e6a0e86ba559d1"
+msgid "@@image: 'images/using/stretch-shrink-cursor.png'; md5=edadb8b7d447b4f283c904702df0f125"
 msgstr "Bildefil"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
@@ -210,7 +210,7 @@ msgstr "Dette kan gjerast på tre ulike måtar:"
 
 #: src/using/variable-size-brush.xml:31(para)
 msgid "Using the <guilabel>Scale</guilabel> slider of the tool that uses the brush. Pencil, Paintbrush, Eraser, Airbrush, Clone, Heal, Perspective Clone, Blur/Sharpen and Dodge/Burn tools have a slider to vary brush size."
-msgstr "Ved hjelp av glidebrytaren <guilabel>Breidde</guilabel> for verktøya som brukar penselen. Dette gjeld blyant, målarpensel, viskeler, luftpensel, kloning, helbred, perspektivkloning, slør/skjerp og avskygging/etterbelysing."
+msgstr "Ved hjelp av glidebrytaren <guilabel>Breidde</guilabel> for verktøya som brukar penselen. Dette gjeld blyant, målarpensel, viskeler, luftpensel, kloning, helbred, perspektivkloning, slør/skjerp og avskygging/etterbelysing. Du kan forandre breidda når markøren er lik ein av dei som er viste på biletet eller ved å skrive inn ein talverdi i ruta til høgre."
 
 #: src/using/variable-size-brush.xml:38(title)
 msgid "The Scale slider"
@@ -329,8 +329,8 @@ msgid "Zoom on this new image to enlarge it and draw on it with a black pencil."
 msgstr "Forstørr visinga av biletet og bruk ein svart blyant for å lage ei teikning på biletet."
 
 #: src/using/variable-size-brush.xml:230(para)
-msgid "Save it with a <guilabel>.gbr</guilabel> extension in the directory <guilabel>/home/name_of_user/.gimp-2.6/brushes/</guilabel>."
-msgstr "Lagra biletet med filutvidinga <guilabel>.gbr</guilabel> i mappa for eigendefinerte penslar, t.d. <guilabel>/home/_brukarnamn_/.gimp-2.6/brushes/</guilabel>."
+msgid "Save it with a <guilabel>.gbr</guilabel> extension in the directory <guilabel>/home/name_of_user/.gimp-2.8/brushes/</guilabel>."
+msgstr "Eksporter biletet med filutvidinga <guilabel>.gbr</guilabel> i mappa for eigendefinerte penslar, t.d. <guilabel>/home/_brukarnamn_/.gimp-2.8/brushes/</guilabel>."
 
 #: src/using/variable-size-brush.xml:234(para)
 msgid "In the Brushes dialog window, click on the button <guilabel>Refresh brushes</guilabel><guiicon><inlinegraphic fileref=\"images/dialogs/stock-reload-16.png\"/></guiicon>."
@@ -597,7 +597,7 @@ msgstr "Å bruke dynamiske snarvegar"
 
 #: src/using/shortcuts.xml:33(para)
 msgid "First, you have to activate this capability by checking the <guilabel>Use dynamic keyboard shortcuts</guilabel> option in the <guilabel>Interface</guilabel> item of the <link linkend=\"gimp-prefs-interface\">Preferences</link> menu. This option is usually not checked, to prevent accidental key presses from creating an unwanted shortcut."
-msgstr "Først må du gå inn i menyen <link linkend=\"gimp-prefs-interface\">Innstillingar</link> og krysse av for <guilabel>Bruk dynamiske tastatursnarvegar</guilabel> i <guilabel>Grensesnitt</guilabel>-delen av menyen. Normalt er dette valet deaktivert for å hindre at det blir laga uønskte snarvegar."
+msgstr "Først må du gå inn i menyen <link linkend=\"gimp-prefs-interface\">Brukarinnstillingar</link> og krysse av for <guilabel>Bruk dynamiske tastatursnarvegar</guilabel> i <guilabel>Grensesnitt</guilabel>-delen av menyen. Normalt er dette valet deaktivert for å hindre at det blir laga uønskte snarvegar."
 
 #: src/using/shortcuts.xml:43(para)
 msgid "While you're doing that, also check the <guilabel>Save keyboard shortcuts on exit</guilabel> option so that your shortcut will be saved."
@@ -609,7 +609,7 @@ msgstr "For å lage snarvegen, plasserer du musepeikaren på kommandoen og skriv
 
 #: src/using/shortcuts.xml:59(para)
 msgid "It is best to use the <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>Key</keycap></keycombo> sequence for your custom shortcuts."
-msgstr "For å unngå konfliktar med eksisterande kombinasjonar, bør du bruke <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>Key</keycap></keycombo>-sekvensar for dei nye snarvegane."
+msgstr "For å unngå konfliktar med eksisterande kombinasjonar, bør du bruke <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap><keycap>Tast</keycap></keycombo>-sekvensar for dei nye snarvegane."
 
 #: src/using/shortcuts.xml:72(title)
 msgid "Configure Keyboard Shortcuts"
@@ -621,7 +621,7 @@ msgstr "Å bruke snarvegshandteraren"
 
 #: src/using/shortcuts.xml:84(para)
 msgid "You get to this Editor by clicking on <guibutton>Configure keyboard shortcuts</guibutton> in the <quote>Interface</quote> item of the <link linkend=\"gimp-prefs-interface\">Preferences</link> menu."
-msgstr "Du kjem fram til denne innskrivingsfunksjonen ved å klikke på knappen <guibutton>Sett opp tastatursnarvegar</guibutton> i «Grensesnitt»-delen i menyen <link linkend=\"gimp-prefs-interface\">brukarinnstillingar</link>."
+msgstr "Du kjem fram til denne innskrivingsfunksjonen ved å klikke på knappen <guibutton>Sett opp tastatursnarvegar</guibutton> i «Grensesnitt»-delen i menyen <link linkend=\"gimp-prefs-interface\">brukarinnstillingar</link>. Funksjonen er også tilgjengeleg frå menyvalet <menuchoice><guimenu>Rediger</guimenu><guimenuitem>Tastatursnarvegar</guimenuitem></menuchoice>."
 
 #: src/using/shortcuts.xml:91(para)
 msgid "As shown in this dialog, you can select the command you want to create a shortcut for, in the <quote>Action</quote> area. Then you type your key sequence as above. In principle, the Space bar should clear a shortcut. (In practice, it clears it, but doesn't delete it.)"
@@ -629,11 +629,11 @@ msgstr "I denne dialogen klikkar du på den funksjonen du ønskjer å lage ny sn
 
 #: src/using/shortcuts.xml:99(para)
 msgid "This shortcut editor also allows you to <emphasis>control the tool parameter settings</emphasis> with the keyboard. At the top of this dialog, you can find a <guilabel>Context</guilabel> menu that takes you to the tool parameters. To make your work easier, tool types are marked with small icons."
-msgstr "Du kan også bruke snarvegshandteraren til å setje opp <emphasis>parametra for verktøya</emphasis> frå tastaturet. Øvst i dialogvindauget finn du menyen <guilabel>Innhald</guilabel> som fører deg til verktøyparametra. For å forenkla arbeidet, er kvar verktøytype merka med eit ikon. (Denne funksjonen finst ikkje i den utgåva eg har, versjon 2.2.10 for Windows.)"
+msgstr "Du kan også bruke snarvegshandteraren til å setje opp <emphasis>parametra for verktøya</emphasis> frå tastaturet. Øvst i dialogvindauget finn du menyen <guilabel>Innhald</guilabel> som fører deg til verktøyparametra. For å forenkla arbeidet, er kvar verktøytype merka med eit ikon. (Denne funksjonen finst ikkje i den utgåva eg har, versjon 2.8.0 for Windows.)"
 
 #: src/using/shortcuts.xml:110(para)
-msgid "Custom Keyboard shortcuts are stored in one of Gimp's hidden directory (<filename class=\"directory\">/home/[username]/.gimp-2.6/menurc</filename>) under Linux, and <filename class=\"directory\" role=\"html\">C:\\Documents and Settings\\[Username]\\.gimp-2.6\\menurc</filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents and Settings\\\\[Username]\\\\.gimp-2.6\\\\menurc</filename> under Windows XP. It is a simple text file that you can transport from one computer to another."
-msgstr "Tastatursnarvegane blir lagra i ei av <acronym>GIMP</acronym> sine skjulte mapper. I Linux er dette <filename class=\"directory\">/home/[username]/.gimp-2.6/menurc</filename> og i Windows (XP) er det i <filename class=\"directory\">C:\\Documents and Settings\\[Brukarnamnet ditt]\\.gimp-2.6\\menurc</filename>. Dette er ei enkel tekstfil som kan kopierast utan problem til andre datamaskiner."
+msgid "Custom Keyboard shortcuts are stored in one of Gimp's hidden directory (<filename class=\"directory\">/home/[username]/.gimp-2.8/menurc</filename>) under Linux, and <filename class=\"directory\" role=\"html\">C:\\Documents and Settings\\[Username]\\.gimp-2.8\\menurc</filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents and Settings\\\\[Username]\\\\.gimp-2.8\\\\menurc</filename> under Windows XP. It is a simple text file that you can transport from one computer to another."
+msgstr "Tastatursnarvegane blir lagra i ei av <acronym>GIMP</acronym> sine skjulte mapper. I Linux er dette <filename class=\"directory\">/home/[username]/.gimp-2.8/menurc</filename> og i Windows (XP) er det i <filename class=\"directory\">C:\\Documents and Settings\\[Brukarnamnet ditt]\\.gimp-2.8\\menurc</filename>. Dette er ei enkel tekstfil som kan kopierast utan problem til andre datamaskiner."
 
 #: src/using/setup.xml:12(title)
 msgid "How to Set Your Tile Cache"
@@ -875,7 +875,7 @@ msgstr "Verktøya har ulike innstillingar som du kan setje opp. Du kan bestemme 
 
 #: src/using/selections.xml:202(title)
 msgid "Enlarging a rectangular selection with the Lasso"
-msgstr "Å forstørre eit rektangelutval med lassoen"
+msgstr "Å utvide eit rektangelutval med lassoen"
 
 #: src/using/selections.xml:210(para)
 msgid "The figure shows an existing rectangular selection. Select the Lasso. While pressing the <keycap>Shift</keycap> key, make a free hand selection that includes the existing selection. Release the mouse button and areas are included in the selection."
@@ -1629,7 +1629,7 @@ msgstr "Script-Fu-meisteren, og kanskje også studenten hans, har sjølvsagt opp
 
 #: src/using/script-fu-tutorial.xml:637(para)
 msgid "We will, therefore, create a script, called Text Box, which creates an image correctly sized to fit snugly around a line of text the user inputs. We'll also let the user choose the font, font size and text color."
-msgstr "Vi vill derfor lage eit skript som vi kallar «Text Box», og som lagar eit bilete i høveleg storleik for å passa pent rundt ei tekstlinje som brukaren skriv inn. Sjølvsagt kan brukaren også velja både type, storleik og farge for skrifta."
+msgstr "Vi vill derfor lage eit skript som vi kallar «Text Box», og som lagar eit bilete i høveleg storleik til å passa pent rundt ei tekstlinje som brukaren skriv inn. Sjølvsagt kan brukaren også velja både type, storleik og farge for skrifta."
 
 #: src/using/script-fu-tutorial.xml:646(title)
 msgid "Editing And Storing Your Scripts"
@@ -1644,8 +1644,8 @@ msgid "Where you place your scripts is a matter of preference &mdash; if you hav
 msgstr "Kvar du lagrar filene, er eigentleg likegyldig. Har du tilgang til <acronym>GIMP</acronym> sine skriptmapper, kan du legge skripta dine der. Det beste er likevel å halde skripta dine langt borte frå dei ferdiginstallerte skripta, og heller lagra dei i eigne skriptmapper."
 
 #: src/using/script-fu-tutorial.xml:658(para)
-msgid "In the <filename class=\"directory\">.gimp-2.6</filename> directory that <acronym>GIMP</acronym> made off of your home directory, you should find a directory called <filename class=\"directory\">scripts</filename>. <acronym>GIMP</acronym> will automatically look in your <filename class=\"directory\">.gimp-2.6</filename> directory for a <filename class=\"directory\">scripts</filename> directory, and add the scripts in this directory to the Script-Fu database. You should place your personal scripts here."
-msgstr "Ein eller annan stad i maskinen din har <acronym>GIMP</acronym> laga ei privat filmappe med namnet <filename>gimp-2.6</filename>. I denne mappa finn du undermappa <filename>scripts</filename>. Dette er normalt den ideelle staden å legge skripta dine i. <acronym>GIMP</acronym> vil automatisk leite gjennom desse mappene og legge skripta som blir fundne til i Script-Fu-databasen."
+msgid "In the <filename class=\"directory\">.gimp-2.8</filename> directory that <acronym>GIMP</acronym> made off of your home directory, you should find a directory called <filename class=\"directory\">scripts</filename>. <acronym>GIMP</acronym> will automatically look in your <filename class=\"directory\">.gimp-2.8</filename> directory for a <filename class=\"directory\">scripts</filename> directory, and add the scripts in this directory to the Script-Fu database. You should place your personal scripts here."
+msgstr "Ein eller annan stad i maskinen din har <acronym>GIMP</acronym> laga ei privat filmappe med namnet <filename>gimp-2.8</filename>. I denne mappa finn du undermappa <filename>scripts</filename>. Dette er normalt den ideelle staden å legge skripta dine i. <acronym>GIMP</acronym> vil automatisk leite gjennom desse mappene og legge skripta som blir fundne til i Script-Fu-databasen."
 
 #: src/using/script-fu-tutorial.xml:671(title)
 msgid "The Bare Essentials"
@@ -2170,7 +2170,7 @@ msgstr "Stryk det skitne flagget"
 
 #: src/using/script-fu-tutorial.xml:1214(para)
 msgid "If you try to close the image created without first saving the file, <acronym>GIMP</acronym> will ask you if you want to save your work before you close the image. It asks this because the image is marked as dirty, or unsaved. In the case of our script, this is a nuisance for the times when we simply give it a test run and don't add or change anything in the resulting image &mdash; that is, our work is easily reproducible in such a simple script, so it makes sense to get rid of this dirty flag."
-msgstr "Dersom du prøver å lukke biletet utan å lagra det først, vil <acronym>GIMP</acronym> kome med eit spørsmål om du ønskjer å lagra biletet. Dette fordi alle bilete det er gjort endringar i, eller som ikkje er lagra, blir definerte til å vere «skitne». Dette blir markert med eit (for oss usynleg) flagg. For dette skriptet, som er lett å henta tilbake igjen, er det liten vits i å lagra kvar gong du har sett på det. Du kan likegodt fjerna dette flagget."
+msgstr "Dersom du prøver å lukke biletet utan å lagra det først, vil <acronym>GIMP</acronym> kome med eit spørsmål om du ønskjer å lagra biletet. Dette fordi alle bilete det er gjort endringar i, eller som ikkje er lagra, blir definerte til å vere «skitne». Dette blir markert med eit (for oss usynleg) flagg. For dette skriptet, som er lett å henta tilbake igjen, er det liten vits i å lagra kvar gong du har sett på det. Du kan like godt fjerne dette flagget."
 
 #: src/using/script-fu-tutorial.xml:1224(para)
 msgid "To do this, we can clear the dirty flag after displaying the image:"
@@ -2786,7 +2786,7 @@ msgstr "Slå snarmaska av ved å trykke på snarmaskeknappen i nedre, venstre hj
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/photography.xml:806(None)
+#: src/using/photography.xml:807(None)
 msgid "@@image: 'images/dialogs/stock-vchain-24.png'; md5=7c1f223b72d0d77f316a2ee9b96a08fb"
 msgstr "Bildefil"
 
@@ -3129,76 +3129,76 @@ msgid "If you intend to open the image in GIMP again for further work, you shoul
 msgstr "Dersom meininga er å opna biletet i <acronym>GIMP</acronym> igjen for å arbeida vidare på det, må du lagra i <acronym>GIMP</acronym> sitt eige XCF-format. Altså som «biletnamn.xcf». Dette er det einaste formatet som garanterar at det meste av informasjonen i biletet verkeleg blir lagra. Ulempen er at det bare kan lesast av <acronym>GIMP</acronym>."
 
 #: src/using/photography.xml:690(para)
-msgid "If you intend to print the image on paper, you should avoid shrinking the image, except by cropping it. The reason is that printers are capable of achieving much higher dot resolutions than video monitors---600 to 1400 dots per inch for typical printers, as compared to 72 to 100 dots per inch for monitors. A 3000 x 5000 image looks huge on a monitor, but it only comes to about 5 inches by 8 inches on paper at 600 dpi. There is usually no good reason to <emphasis>expand</emphasis> the image either: you can't increase the true resolution that way, and it can always be scaled up at the time it is printed. As for the file format, it will usually be fine to use JPEG at a quality level of 75 to 85. In rare cases, where there are large swaths of nearly uniform color, you may need to set the quality level even higher or use a lossless format such as TIFF instead."
-msgstr "Er det meininga å skriva biletet ut på papir, må du unngå å redusera formatet på andre måtar enn ved beskjering. Ein skrivar kan ha frå 600 til 1400 fargepunkt per tomme (dpi), alt etter kvaliteten og bruksområdet. Dataskjermen har frå 72 til 100 dpi. Eit bilete på 3000 x 5000 dpi ser svært stort ut på skjermen, men kjem ut som 12,5 x 20 cm på papiret. Altså omlag som eit A5-ark. Skal du forstørre biletet, gjer du dette når du skriv ut, ikkje når du lagrar det. Det er uråd å forbetra oppløysinga når du forstørrer eit bilete, utanom å gå til full retusjering. Til vanleg høver formatet JPEG (ofte oppgitt som JPG) godt til dette føremålet. Sett kvalitetsnivået til 75 - 85. Inneheld biletet store, einsfarga biletflater, kan du setje kvaliteten enda høgare, eller nytte eit anna format som ikkje reduserer biletet, t.d. TIFF-format."
+msgid "If you intend to print the image on paper, you should avoid shrinking the image, except by cropping it. The reason is that printers are capable of achieving much higher resolutions than video monitors &mdash; 600 to 1400 dpi (<quote>dots per inch</quote>, the physical density) for typical printers, as compared to 72 to 100 pixels per inch for monitors. A 3000&nbsp;x&nbsp;5000-pixel image looks huge on a monitor, but it only comes to about 5 inches by 8 inches on paper at 600 ppi. There is usually no good reason to <emphasis>expand</emphasis> the image either: you can't increase the true resolution that way, and it can always be scaled up at the time it is printed. As for the file format, it will usually be fine to use JPEG at a quality level of 75 to 85. In rare cases, where there are large swaths of nearly uniform color, you may need to set the quality level even higher or use a lossless format such as TIFF instead."
+msgstr "Er det meininga å skriva biletet ut på papir, må du unngå å redusera formatet på andre måtar enn ved beskjering. Ein skrivar kan ha frå 600 til 1400 fargepunkt per tomme (dpi), alt etter kvaliteten og bruksområdet. Dataskjermen har frå 72 til 100 dpi. Eit bilete på 3000 x 5000 dpi ser svært stort ut på skjermen, men kjem ut som 12,5 x 20 cm på papiret med 600 ppi. Altså omlag som eit A5-ark. Skal du forstørre biletet, gjer du dette når du skriv ut, ikkje når du lagrar det. Det er uråd å forbetra oppløysinga når du forstørrer eit bilete, utanom å gå til full retusjering. Til vanleg høver formatet JPEG (ofte oppgitt som JPG) godt til dette føremålet. Sett kvalitetsnivået til 75 - 85. Inneheld biletet store, einsfarga biletflater, kan du setje kvaliteten enda høgare, eller nytte eit anna format som ikkje reduserer biletet, t.d. TIFF-format."
 
-#: src/using/photography.xml:708(para)
+#: src/using/photography.xml:709(para)
 msgid "If you intend to display the image on screen or project it with a video projector, bear in mind that the highest screen resolution for most commonly available systems is 1600 x 1200, so there is nothing to gain by keeping the image larger than that. For this purpose, the JPEG format is almost always a good choice."
 msgstr "Skal biletet bare visast på skjerm, eller med videoprosjektør, er det ingen vits i å lage biletet større enn 1600 x 1200. Vanlege skjermar har ikkje betre oppløysing. Også her vil JPEG-formatet vere eit godt val."
 
-#: src/using/photography.xml:717(para)
+#: src/using/photography.xml:718(para)
 msgid "If you want to put the image on a web page or send it by email, it is a good idea to make every effort to keep the file size as small as possible. First, scale the image down to the smallest size that makes it possible to see the relevant details (bear in mind that other people may be using different sized monitors and/or different monitor resolution settings). Second, save the image as a JPEG file. In the JPEG save dialog, check the option to <quote>Preview in image window</quote> , and then adjust the Quality slider to the lowest level that gives you acceptable image quality. (You will see in the image the effects of each change.) Make sure that the image is zoomed at 1:1 while you do this, so you are not misled by the effects of zooming."
-msgstr "For bilete som skal brukast på nettsider eller sendast med e-post, må du nytta alle knep for å laga biletfila så lita som råd er. (Dette er gyldig regel også om alle mottakarane har breiband). Først kan du forminska biletet til det aktuelle formatet. Likevel ikkje meir enn at alle relevante detaljar er synlege. Du bør likevel hugsa på at mottakaren kan nytta ein annan skjermstorleik eller skjermoppløysing enn det du gjer. Neste steg er å lagra biletet i JPEG-format. Bruk «Førehandsvising i biletvindauget» og juster kvaliteten til det lågaste akseptable nivået. Forsikra deg om at biletet blir vist i storleik 1 : 1 slik at du ikkje blir lurt av at biletetstorleiken. Du kan også bruke PNG-formatet, men kan då ikkje førehandsvisa innstillingane, og må såleis prøve deg fram med ulike lagringar. PNG-formatet lagrar fleire opplysningar om biletet enn JPEG gjer. Dessutan har formatet alfakanal, dvs. at du kan ha (deler av) biletet transparent."
+msgstr "For bilete som skal brukast på nettsider eller sendast med e-post, må du nytta alle knep for å laga biletfila så lita som råd er. (Dette er gyldig regel også om alle mottakarane har breiband). Først kan du forminska biletet til det aktuelle formatet. Likevel ikkje meir enn at alle relevante detaljar er synlege. Du bør likevel hugsa på at mottakaren kan nytta ein annan skjermstorleik eller skjermoppløysing enn det du gjer. Neste steg er å lagra biletet i JPEG-format. Bruk «Førehandsvising i biletvindauget» og juster kvaliteten til det lågaste akseptable nivået. Forsikra deg om at biletet blir vist i storleik 1 : 1 slik at du ikkje blir lurt til å tru at kvaliteten er betre enn han eigentleg er. "
 
-#: src/using/photography.xml:734(para)
+#: src/using/photography.xml:735(para)
 msgid "See the <link linkend=\"gimp-using-fileformats\">File Formats</link> section for more information."
 msgstr "Sjå under <link linkend=\"gimp-using-fileformats\">filformat</link> for nærare om dei andre filformata."
 
-#: src/using/photography.xml:741(title)
+#: src/using/photography.xml:742(title)
 msgid "Printing Your Photos"
 msgstr "Å skrive ut foto"
 
-#: src/using/photography.xml:743(primary)
+#: src/using/photography.xml:744(primary)
 msgid "Printing"
 msgstr "Skriv ut"
 
-#: src/using/photography.xml:744(secondary)
+#: src/using/photography.xml:745(secondary)
 msgid "Printing your photos"
 msgstr "Å skrive ut foto"
 
-#: src/using/photography.xml:746(para)
+#: src/using/photography.xml:747(para)
 msgid "As in most softwares, in GIMP, printing needs to go to main menu <menuchoice><guimenu>File</guimenu><guisubmenu>Print</guisubmenu></menuchoice>. However it is very useful to keep in mind some elementary concepts to prevent some unpleasant surprises when looking at result, or to cure them if that occurs. You always must remember:"
 msgstr "Som i dei fleste programma, må du også i <acronym>GIMP</acronym> gå til hovudmenyen på <menuchoice><guimenu>Fil</guimenu><guisubmenu>Skriv ut</guisubmenu></menuchoice> for å aktiver utskrift. Det kan vere nyttig å hugse på noen enkle reglar for å unngå overraskingar når du studerer resultatet. Det viktigaste er:"
 
-#: src/using/photography.xml:758(para)
+#: src/using/photography.xml:759(para)
 msgid "that image displayed on the screen is in RGB mode and printing will be in CMYK mode; consequently color feature you'll get on printed sheet will not be exactly what you was waiting for. That depends on the used corresponding chart. For the curious ones some adding explanations can be got through a click on these useful Wikipedia links:"
 msgstr "at biletet som blir vist på skjermen er i RGB-format og at utskrifta blir gjort i CMYK-modus. Difor vil fargane i utskrifta aldri bli heilt like dei du ser på skjermen. Dette kjem av at fargekarta dei to fargemodellane bruker ikkje er heilt like. Er du nysgjerrig på dette, kan du finne meir opplysningar på desse lenkene i Wikipedia:"
 
-#: src/using/photography.xml:768(para)
+#: src/using/photography.xml:769(para)
 msgid "ICC-Profile <xref linkend=\"bibliography-online-wkpd-icc\"/>"
 msgstr "ICC-Profile <xref linkend=\"bibliography-online-wkpd-icc\"/>"
 
-#: src/using/photography.xml:773(para)
+#: src/using/photography.xml:774(para)
 msgid "CMYK <xref linkend=\"bibliography-online-wkpd-cmyk\"/>"
 msgstr "CMYK <xref linkend=\"bibliography-online-wkpd-cmyk\"/>"
 
-#: src/using/photography.xml:778(para)
+#: src/using/photography.xml:779(para)
 msgid "Gamut <xref linkend=\"bibliography-online-wkpd-gamut\"/>"
 msgstr "Gamut <xref linkend=\"bibliography-online-wkpd-gamut\"/>"
 
-#: src/using/photography.xml:785(para)
+#: src/using/photography.xml:786(para)
 msgid "that a screen resolution is roughly within a range from 75 up to 100 dpi; a printer resolution is about 10x higher (or more) than a screen one; printed image size depends on available pixels and resolution; so actual printed size doesn't correspond inevitably to what is displayed on screen nor available sheet size."
 msgstr "at skjermoppløysinga er til vanleg mellom 75 og 100 dpi, medan skrivare bruker ei oppløysing som er mykje høgare. Storleiken på utskrifta er avhengig av kor mange pikslar som er til rådvelde, og oppløysinga, så det utskrivne biletet vil alltid bli mindre enn det du ser på skjermen."
 
-#: src/using/photography.xml:794(para)
+#: src/using/photography.xml:795(para)
 msgid "Consequently, before any printing it is relevant to go to: <menuchoice><guimenu>Image</guimenu><guisubmenu>Print size</guisubmenu></menuchoice> and choose here your convenient output size in <quote>print size</quote> box adjusting either sizes or resolution. The <placeholder-1/> symbol shows that the both values are linked. You can dissociate x and y resolution by clicking on that symbol, but it is risky! Probably this possibility is open because printers are built with different x vs. y resolutions. Nevertheless if you unlinked them you can be very surprised! You can try this in special effects."
 msgstr "Før du skriv ut noe som helst, bør du kikke på <menuchoice><guimenu>Bilete</guimenu><guisubmenu>Utskriftformat</guisubmenu></menuchoice> for å sjå kor stor utskrifta blir. Du kan forandre storleiken anten ved å endre høgde og breidde, eller ved å endre oppløysinga. Symbolet <placeholder-1/> viser at desse er lenka saman. Normalt bør du ikkje oppheve lenkinga mellom x-oppløysing og y-oppløysing. Vanlege skrivarar bruker same oppløysinga i begge retningane. Valet er truleg set inn for å kunne finjustera defekte skrivarar eller eventuelt for å lage spesielle effektar. Å opne lenka kan såleis gi mange overraskingar!"
 
-#: src/using/photography.xml:816(para)
+#: src/using/photography.xml:817(para)
 msgid "Last recommendation: think of checking your margins as well as centering. It would be a pity if a too much large margin cuts off some part of your image or if an inappropriate centering damages your work especially if you use a special photo paper."
 msgstr "Eit siste råd: Kontroller margane og sentreringa ved hjelp av <guibutton>Biletinnstillingar</guibutton> under <menuchoice><guimenu>Filer</guimenu><guisubmenu>Skriv ut</guisubmenu></menuchoice>. Det ville vere synd om margane er så breie at dei skjer vekk ein del av biletet eller at ei ubrukeleg sentrering øydelegg utskrifta, særleg om du bruker spesielle fotopapir."
 
-#: src/using/photography.xml:825(title)
+#: src/using/photography.xml:826(title)
 msgid "EXIF Data"
 msgstr "EXIF-data"
 
-#: src/using/photography.xml:826(para)
+#: src/using/photography.xml:827(para)
 msgid "Modern digital cameras, when you take a picture, add information to the data file about the camera settings and the circumstances under which the picture was taken. This data is included in JPEG or TIFF files in a structured format called EXIF. For JPEG files, GIMP is capable of maintaining EXIF data, if it is built appropriately: it depends on a library called <quote>libexif</quote>, which may not be available on all systems. If GIMP is built with EXIF support enabled, then loading a JPEG file with EXIF data, and resaving the resulting image in JPEG format, will cause the EXIF data to be preserved unchanged. This is not, strictly speaking, the right way for an image editor to handle EXIF data, but it is better than simply removing it, which is what earlier versions of GIMP did."
-msgstr "Når du fotograferar med eit digitalkamera, vil dei fleste fotoapparata legge ein del informasjon om dato, kamerainnstillingane og elles kva produsenten har meint kan vere relevant, inn i biletfila. Desse opplysningane blir lagt inn i JPEG- eller TIFF-filer i eit format som blir kalla EXIF. <acronym>GIMP</acronym> kan i normaloppsettet ikkje gjere seg nytte av desse opplysningane, men dersom <acronym>GIMP</acronym> er sett opp med funksjonen for å handtere EXIF-data, kan du lasta inn filer med EXIF-data og lagra dei att i JPEG-format utan å mista opplysningane. Dette er ikkje den ideelle måten å handtere EXIF-data på, men det er litt betre enn i tidlegare versjonar av <acronym>GIMP</acronym>, som ignorerte opplysningane utan å lagra dei."
+msgstr "Når du fotograferar med eit digitalkamera, vil dei fleste fotoapparata legge ein del informasjon om dato, kamerainnstillingane og elles kva produsenten har meint kan vere relevant, inn i biletfila. Desse opplysningane blir lagt inn i JPEG- eller TIFF-filer i eit format som blir kalla EXIF. <acronym>GIMP</acronym> kan i normaloppsettet ikkje gjere seg nytte av desse opplysningane, men dersom <acronym>GIMP</acronym> er sett opp med funksjonen for å handtere EXIF-data, kan du lasta inn filer med EXIF-data og eksportere dei att i JPEG-format utan å mista opplysningane. Dette er ikkje den ideelle måten å handtere EXIF-data på, men det er litt betre enn i tidlegare versjonar av <acronym>GIMP</acronym>, som ignorerte opplysningane utan å lagra dei."
 
-#: src/using/photography.xml:840(para)
+#: src/using/photography.xml:841(para)
 msgid "If you would like to see the contents of the EXIF data, you can download from the registry an Exif Browser plug-in <xref linkend=\"bibliography-online-gimp-plugin-exifbrowser\"/>. If you are able to build and install it on your system, you can access it as Filters-&gt;Generic-&gt;Exif Browser from the image menu. (See <link linkend=\"gimp-plugins-install\">Installing New Plug-ins</link> for help.)"
-msgstr "Dersom du har behov for å lesa opplysningane som ligg i EXIF, kan du laste ned og installera tilleggsprogrammet <ulink url=\"http://registry.gimp.org/plugin?id=4153\">Exif Browser plug-in</ulink>. Ein grei plass å legga det er i biletmenyen Filter-&gt;Forbetre-&gt;Exif Browser. Treng du hjelp for dette, sjå <link linkend=\"gimp-plugins-install\">installere nye tilleggsprogram</link>."
+msgstr "Dersom du har behov for å lesa opplysningane som ligg i EXIF, kan du laste ned og installera tilleggsprogrammet  <xref linkend=\"bibliography-online-gimp-plugin-exifbrowser\"/>. Ein grei plass å legga det er i biletmenyen Filter-&gt;Forbetre-&gt;Exif Browser. Treng du hjelp for dette, sjå <link linkend=\"gimp-plugins-install\">installere nye tilleggsprogram</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -3793,7 +3793,7 @@ msgstr "Windows"
 
 #: src/using/fonts-and-text.xml:159(para)
 msgid "The easiest way to install a font is to drag the file onto the Fonts directory and let the shell do its magic. Unless you've done something creative, it's probably in its default location of <filename role=\"html\">C:\\windows\\fonts</filename><filename role=\"tex\">C:\\\\windows\\\\fonts</filename> or <filename role=\"html\">C:\\winnt\\fonts</filename><filename role=\"tex\">C:\\\\winnt\\\\fonts</filename>. Sometimes double-clicking on a font will install it as well as display it; sometimes it only displays it. This method will make the font available not only to <acronym>GIMP</acronym>, but also to other Windows applications."
-msgstr "Den enklaste måten å installera skrifttypar er å dra den aktuelle fila inn i mappa for skrifttypar og la Windows gjere resten. Dersom du ikkje har vore alt for kreativ med å omordna filsystemet, vil du som oftast finna skrifttypane anten i <filename>C:\\windows\\fonts</filename> eller i <filename>C:\\winnt\\fonts</filename>. Dersom du dobbeltklikkar på ein skrifttype, kan det henda han både blir installert og vist fram, andre gonger blir han bare vist. Denne metoden vil gjere skrifttypen tilgjengeleg for alle Windowsprogramma, ikkje bare <acronym>GIMP</acronym>."
+msgstr "Den enklaste måten å installera skrifttypar er å dra den aktuelle fila inn i mappa for skrifttypar og la Windows gjere resten. Dersom du ikkje har vore alt for kreativ med å omordna filsystemet, vil du som oftast finne skrifttypane anten i <filename>C:\\windows\\fonts</filename> eller i <filename>C:\\winnt\\fonts</filename>. Dersom du dobbeltklikkar på ein skrifttype, kan det henda han både blir installert og vist fram, andre gonger blir han bare vist. Denne metoden vil gjere skrifttypen tilgjengeleg for alle Windowsprogramma, ikkje bare <acronym>GIMP</acronym>."
 
 #: src/using/fonts-and-text.xml:175(title)
 msgid "Mac OS X"
@@ -3862,13 +3862,13 @@ msgstr "Bildefil"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:768(None)
+#: src/using/fileformats.xml:766(None)
 msgid "@@image: 'images/using/export-tiff-dialog.png'; md5=1911ab89ff8b7b2ddd1ba3228c6ef94c"
 msgstr "Bildefil"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:883(None)
+#: src/using/fileformats.xml:881(None)
 msgid "@@image: 'images/using/export-mng-dialog.png'; md5=77f5b2f7624bbfe11d26c730ad28d6a7"
 msgstr "Bildefil"
 
@@ -3942,8 +3942,8 @@ msgstr ".gif"
 #: src/using/fileformats.xml:126(primary)
 #: src/using/fileformats.xml:279(primary)
 #: src/using/fileformats.xml:599(primary)
-#: src/using/fileformats.xml:760(primary)
-#: src/using/fileformats.xml:875(primary)
+#: src/using/fileformats.xml:758(primary)
+#: src/using/fileformats.xml:873(primary)
 #: src/using/brushes.xml:37(primary)
 #: src/using/brushes.xml:73(primary)
 #: src/using/brushes.xml:100(primary)
@@ -4078,7 +4078,7 @@ msgstr "Kvalitet"
 
 #: src/using/fileformats.xml:309(para)
 msgid "When you save a file in JPEG format, a dialog is displayed that allows you to set the Quality level, which ranges from 0 to 100. Values above 95 are generally not useful, though. The default quality of 85 usually produces excellent results, but in many cases it is possible to set the quality substantially lower without noticeably degrading the image. You can test the effect of different quality settings by checking <guilabel>Show Preview in image window</guilabel> in the JPEG dialog."
-msgstr "Når du lagrar eit bilete i JPEG-format, dukkar det opp eit dialogvindauge der du kan setje kvalitetsnivået på ein skala frå 1 til 100. Mellom 95 og 100 er det liten skilnad i kvaliteten. Normalverdien er 85, men ofte kan du setje verdien mykje lågare utan å gjere kvaliteten merkbart dårlegare. Dette kan du kontrollera ved å markere for «Førehandsvising i biletvindauget». Du endrar ikkje noe på sjølve biletet før du lagrar det, så metoden er trygg."
+msgstr "Når du eksporterer eit bilete i JPEG-format, dukkar det opp eit dialogvindauge der du kan setje kvalitetsnivået på ein skala frå 1 til 100. Mellom 95 og 100 er det liten skilnad i kvaliteten. Normalverdien er 90, men ofte kan du setje verdien mykje lågare utan å gjere kvaliteten merkbart dårlegare. Dette kan du kontrollera ved å markere for «Førehandsvising i biletvindauget». Du endrar ikkje noe på sjølve biletet før du lagrar det, så metoden er trygg."
 
 #: src/using/fileformats.xml:321(para)
 msgid "Please note, that the numbers for the JPEG quality level have a different meaning in different applications. Saving with a quality level of 80 in GIMP is not necessarily comparable with saving with a quality level of 80 in a different application."
@@ -4122,7 +4122,7 @@ msgstr "Lagra EXIF-data"
 
 #: src/using/fileformats.xml:379(primary)
 msgid "EXIF"
-msgstr "Exif"
+msgstr "EXIF"
 
 #: src/using/fileformats.xml:381(para)
 msgid "JPEG files from many digital cameras contain extra information, called EXIF data. EXIF data provides information about the image such as camera make and model, image size, image date, etc. Although GIMP uses the <quote>libexif</quote> library to read and write EXIF data, the library is not automatically packaged with GIMP. If GIMP was built with libexif support, then EXIF data is preserved if you open a JPEG file, work with the resulting image, and then export it as JPEG. The EXIF data is not altered in any way when you do this. The EXIF data may indicate things such as image creation time and file name, which may no longer be correct. If GIMP was not built with EXIF support, you can still open JPG files containing EXIF data, but the EXIF data is ignored, and will not be saved when the resulting image is later exported."
@@ -4194,11 +4194,11 @@ msgstr "<guilabel>1×1, 1×1, 1×1 (best kvalitet)</guilabel>: Ofte referert til
 
 #: src/using/fileformats.xml:503(para)
 msgid "<guilabel>2x1,1x1,1x1 (4:2:2)</guilabel>: This is the standard subsampling, which usually provides a good ratio between image quality and file size. There are situations, however, in which using no subsampling (4:4:4) provides a noticeable increase in the image quality; for example, when the image contains fine details such as text over a uniform background, or images with almost-flat colors."
-msgstr "<guilabel>2x1,1x1,1x1 (4:2:2)</guilabel>: Dette er standardmellomsteget. Gir som oftast eit godt forhold mellom biletkvalitet og filstorleik. I noen tilfelle kan biletkvaliteten bli merkbar forbetra dersom ein ikkje bruker mellomsteg (4:4:4). Dette gjeld helst for bilete med fine detaljar, som f. eks. tekst på einsfarga bakgrunn eller nesten einsfarga bilete."
+msgstr "<guilabel>2×1,1×1,1×1 (4:2:2)</guilabel>: Dette er standardmellomsteget. Gir som oftast eit godt forhold mellom biletkvalitet og filstorleik. I noen tilfelle kan biletkvaliteten bli merkbar forbetra dersom ein ikkje bruker mellomsteg (4:4:4). Dette gjeld helst for bilete med fine detaljar, som f. eks. tekst på einsfarga bakgrunn eller nesten einsfarga bilete."
 
 #: src/using/fileformats.xml:515(para)
 msgid "<guilabel>1x2,1x1,1x1</guilabel> This is similar to (2x1,1x1,1x1), but the chroma sampling is in the horizontal direction rather than the vertical direction; as if someone rotated an image."
-msgstr "<guilabel>1x2,1x1,1x1</guilabel>: Dette er det same som (2x1,1x1,1x1), men med horisontal fargefletting i staden for vertikal. Som om noen skulle ha rotert biletet."
+msgstr "<guilabel>1×2,1×1,1×1</guilabel>: Dette er det same som (2×1,1×1,1×1), men med horisontal fargefletting i staden for vertikal. Som om noen skulle ha rotert biletet."
 
 #: src/using/fileformats.xml:524(para)
 msgid "<guilabel>2x2,1x1,1x1 (smallest file)</guilabel>: Commonly referred to as (4:1:1), this produces the smallest files. This suits images with weak borders but tends to denature colors."
@@ -4284,143 +4284,143 @@ msgid "Save Resolution"
 msgstr "Lagra oppløysing"
 
 #: src/using/fileformats.xml:671(para)
-msgid "Save the image resolution, in DPI (dots per inch)."
-msgstr "Lagra biletoppløysinga i DPI («dots per inch»)."
+msgid "Save the image resolution, in ppi (pixels per inch)."
+msgstr "Lagra biletoppløysinga i ppi («pixels per inch»)."
 
-#: src/using/fileformats.xml:677(term)
+#: src/using/fileformats.xml:675(term)
 msgid "Save creation time"
 msgstr "Lagra tid for oppretting"
 
-#: src/using/fileformats.xml:679(para)
+#: src/using/fileformats.xml:677(para)
 msgid "Date the file was saved."
 msgstr "Datoen fila blei lagra."
 
-#: src/using/fileformats.xml:685(term)
+#: src/using/fileformats.xml:683(term)
 msgid "Save comment"
 msgstr "Lagra kommentarane"
 
-#: src/using/fileformats.xml:687(para)
+#: src/using/fileformats.xml:685(para)
 msgid "You can read this comment in the <link linkend=\"gimp-image-properties\">Image Properties</link>."
 msgstr "Dette gjeld kommentarar som du har skrive inn om biletet. Kommentarane kan lesast i vindauget <link linkend=\"gimp-image-properties\">bileteigenskapar</link>."
 
-#: src/using/fileformats.xml:694(term)
-#: src/using/fileformats.xml:846(term)
+#: src/using/fileformats.xml:692(term)
+#: src/using/fileformats.xml:844(term)
 msgid "Save color values from transparent pixels"
 msgstr "Lagra fargeverdiar frå gjennomsiktige pikslar"
 
-#: src/using/fileformats.xml:696(para)
+#: src/using/fileformats.xml:694(para)
 msgid "With this option is checked, the color values are saved even if the pixels are completely transparent."
 msgstr "Gjer at fargeverdiane for pikslane blir lagra, sjølv om pikslane er komplett gjennomsiktige."
 
-#: src/using/fileformats.xml:703(term)
+#: src/using/fileformats.xml:701(term)
 msgid "Compression level"
 msgstr "Kompresjon"
 
-#: src/using/fileformats.xml:705(para)
+#: src/using/fileformats.xml:703(para)
 msgid "Since compression is not lossy, the only reason to use a compression level less than 9, is if it takes too long to compress a file on a slow computer. Nothing to fear from decompression: it is as quick whatever the compression level."
 msgstr "Sidan kompressjonen er tapsfri, er den einaste grunnen til å bruke eit nivå lågare enn 9 at komprimeringa kan ta litt lang tid på trege datamaskiner. Dekomprimeringa går like fort uansett kva kompressjonsnivå du vel."
 
-#: src/using/fileformats.xml:715(term)
+#: src/using/fileformats.xml:713(term)
 msgid "Save Defaults"
 msgstr "Lagra standardverdiane"
 
-#: src/using/fileformats.xml:717(para)
+#: src/using/fileformats.xml:715(para)
 msgid "Click to save the current settings. Latter, you can use <guibutton>Load Defaults</guibutton> to load the saved settings."
 msgstr "Klikk for å lagra gjeldande innstillingar. Du kan då klikke på <guibutton>Hent standardverdiane</guibutton> for å hente dei inn igjen."
 
-#: src/using/fileformats.xml:726(para)
+#: src/using/fileformats.xml:724(para)
 msgid "The PNG format supports indexed images. Using fewer colors, therefore, results in a smaller file; this is especially useful for creating web images; see <xref linkend=\"gimp-image-convert-indexed\"/>."
 msgstr "Sidan PNG også kan lagra indekserte bilete, kan du redusere talet på fargar, og dermed også filstorleiken, for bilete som skal sendast over nettverk. Sjå meir om dette i <xref linkend=\"gimp-image-convert-indexed\"/>."
 
-#: src/using/fileformats.xml:732(para)
+#: src/using/fileformats.xml:730(para)
 msgid "Computers work on 8 bits blocks named <quote>Byte</quote>. A byte allows 256 colors. Reducing the number of colors below 256 is not useful: a byte will be used anyway and the file size will not be less. More, this <quote>PNG8</quote> format, like GIF, uses only one bit for transparency; only two transparency levels are possible, transparent or opaque."
 msgstr "Datamaskinene arbeider med 8-bits blokker, såkalla «byte». Kvar byte kan innehalde opp til 256 ulike fargar. Det er ingen vits i å redusere talet på fargar til under 256 i håp om å redusera filstorleiken sidan det blir brukt ein byte uansett. «PNG8»-formatet har heller ikkje støtte for variabel gjennomsikt, bare gjennomsikt eller ikkje gjennomsikt."
 
-#: src/using/fileformats.xml:740(para)
+#: src/using/fileformats.xml:738(para)
 msgid "If you want PNG transparency to be fully displayed by Internet Explorer, you can use the AlphaImageLoader DirectX filter in the code of your Web page. See Microsoft Knowledge Base <xref linkend=\"bibliography-online-microsoft-kb294714\"/>. Please note, that this is not necessary for InternetExplorer 7 and above."
 msgstr "Dersom du ønskjer å bruke delvis gjennomsikt også på Internet Explorer 6 og lågare, kan du bruke filteret AlphaImageLoader DirectX i kodene dine for nettsida. Sjå meir om dette i Microsoft Knowledge Base <xref linkend=\"bibliography-online-microsoft-kb294714\"/>. Internet Explorer 7 og høgare har støtte for delvis gjennomsikt."
 
-#: src/using/fileformats.xml:752(title)
-#: src/using/fileformats.xml:754(primary)
+#: src/using/fileformats.xml:750(title)
+#: src/using/fileformats.xml:752(primary)
 msgid "Export Image as TIFF"
 msgstr "Eksporter biletet som TIFF"
 
-#: src/using/fileformats.xml:757(primary)
-#: src/using/fileformats.xml:761(secondary)
+#: src/using/fileformats.xml:755(primary)
+#: src/using/fileformats.xml:759(secondary)
 msgid "TIFF"
 msgstr "TIFF"
 
-#: src/using/fileformats.xml:764(title)
+#: src/using/fileformats.xml:762(title)
 msgid "The TIFF Export dialog"
 msgstr "Dialogvindauge for TIFF-eksport"
 
-#: src/using/fileformats.xml:774(term)
+#: src/using/fileformats.xml:772(term)
 msgid "Compression"
 msgstr "Komprimering"
 
-#: src/using/fileformats.xml:776(para)
+#: src/using/fileformats.xml:774(para)
 msgid "This option allows you to specify the algorithm used to compress the image."
 msgstr "Dette valet gir deg høve til å bestemma algoritmen som skal brukast for å komprimere biletet."
 
-#: src/using/fileformats.xml:782(para)
+#: src/using/fileformats.xml:780(para)
 msgid "<guilabel>None</guilabel>: is fast, and lossless, but the resulting file is very large."
 msgstr "<guilabel>Ingen</guilabel>: Rask, utan tap, men gir stor fil."
 
-#: src/using/fileformats.xml:788(para)
+#: src/using/fileformats.xml:786(para)
 msgid "<guilabel>LZW</guilabel>: The image is compressed using the <quote>Lempel-Ziv-Welch</quote> algorithm, a lossless compression technique. This is old, but efficient and fast. More information at <xref linkend=\"bibliography-online-wkpd-lzw\"/>."
 msgstr "<guilabel>LZW</guilabel>: LZW er forkorting for algoritmen «Lempel-Ziv-Welch» som komprimerer biletet utan tap. Dette er ein gammal metode, men effektiv og rask.  Meir informasjon (engelsk) på <xref linkend=\"bibliography-online-wkpd-lzw\"/>."
 
-#: src/using/fileformats.xml:797(para)
+#: src/using/fileformats.xml:795(para)
 msgid "<guilabel>Pack Bits</guilabel>: is a fast, simple compression scheme for run-length encoding of data. Apple introduced the PackBits format with the release of MacPaint on the Macintosh computer. A PackBits data stream consists of packets of one byte of header followed by data. (Source: <xref linkend=\"bibliography-online-wkpd-packbits\"/>)"
 msgstr "<guilabel>Pack Bits</guilabel>: Ein rask, enkel kompressjon for «run-length» koding av data. PackBits-formatet blei introdusert av Apple då MacPaint blei tatt i bruk på Macintosh datamaskinen. Ein PackBits datastraum er sett saman av pakker med 1 bytes header etterfølgd av data. (Kjelde: <xref linkend=\"bibliography-online-wkpd-packbits\"/>) "
 
-#: src/using/fileformats.xml:808(para)
+#: src/using/fileformats.xml:806(para)
 msgid "<guilabel>Deflate</guilabel>: is a lossless data compression algorithm that uses a combination of the LZ77 algorithm and Huffman coding. It is also used in Zip, Gzip and PNG file formats. Source: <xref linkend=\"bibliography-online-wkpd-deflate\"/>."
 msgstr "<guilabel>Deflate</guilabel>: Dette er ein algoritme for tapsfri komprimering. Metoden er ei blanding av «Lempel-Ziv-Storer-Szymanski-Algorithmen» (LZ77) og «Huffman-Koding». Den same metoden blir også brukt i filformata Zip, Gzip og PNG. Kjelde: <xref linkend=\"bibliography-online-wkpd-deflate\"/>."
 
-#: src/using/fileformats.xml:817(para)
+#: src/using/fileformats.xml:815(para)
 msgid "<guilabel>JPEG</guilabel>: is a very good compression algorithm but lossy."
 msgstr "<guilabel>JPEG</guilabel>: Ein svært god metode, men ikkje utan tap av data."
 
-#: src/using/fileformats.xml:823(para)
+#: src/using/fileformats.xml:821(para)
 msgid "<guilabel>CCITT Group 3 fax</guilabel>; <guilabel>CCITT Group 4 fax</guilabel> is a black and white format developed to transfer images by FAX."
 msgstr "<guilabel>CCITT Group 3 fax</guilabel>; <guilabel>CCITT Group 4 fax</guilabel>: Dette er komprimeringsmetodar brukte for telefaks."
 
-#: src/using/fileformats.xml:829(para)
+#: src/using/fileformats.xml:827(para)
 msgid "These options can only be selected, if the image is in indexed mode and reduced to two colors. Use <menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</guisubmenu><guimenuitem>Indexed</guimenuitem></menuchoice> to convert the image to indexed. Be certain to check <quote>Use black and white (1-bit) palette</quote>."
 msgstr "Dette valet kan bare brukast dersom biletet er indeksert med to fargtar. Bruk menyvalet <menuchoice><guimenu>Bilete</guimenu><guisubmenu>Modus</guisubmenu><guimenuitem>Indeksert</guimenuitem></menuchoice> for å omforme biletet til indeksert med «Bruk svart og kvit (1-bit) palett». "
 
-#: src/using/fileformats.xml:848(para)
+#: src/using/fileformats.xml:846(para)
 msgid "With this option the color values are saved even if the pixels are completely transparent."
 msgstr "Gjer at fargeverdiane for pikslane blir lagra, sjølv om pikslane er komplett gjennomsiktige."
 
-#: src/using/fileformats.xml:855(term)
+#: src/using/fileformats.xml:853(term)
 msgid "Comment"
 msgstr "Kommentar"
 
-#: src/using/fileformats.xml:857(para)
+#: src/using/fileformats.xml:855(para)
 msgid "In this text box, you can enter a comment that is associated with the image."
 msgstr "Her kan du skrive inn merknader til biletet."
 
-#: src/using/fileformats.xml:867(title)
-#: src/using/fileformats.xml:869(primary)
+#: src/using/fileformats.xml:865(title)
+#: src/using/fileformats.xml:867(primary)
 msgid "Export Image as MNG"
 msgstr "Eksporter biletet som MNG"
 
-#: src/using/fileformats.xml:872(primary)
-#: src/using/fileformats.xml:876(secondary)
+#: src/using/fileformats.xml:870(primary)
+#: src/using/fileformats.xml:874(secondary)
 msgid "MNG"
 msgstr "MNG"
 
-#: src/using/fileformats.xml:879(title)
+#: src/using/fileformats.xml:877(title)
 msgid "Export MNG File Dialog"
 msgstr "Eksportdialogen for MNG"
 
-#: src/using/fileformats.xml:887(para)
+#: src/using/fileformats.xml:885(para)
 msgid "MNG is acronym for <quote>Multiple-Image Network Graphics</quote>."
 msgstr "MNG er eit akronym for «Multiple-Image Network Graphics»."
 
-#: src/using/fileformats.xml:890(para)
+#: src/using/fileformats.xml:888(para)
 msgid "The main problem is that Konqueror is the only Web navigator that recognizes the MNG animation format. Please see <ulink url=\"http://en.wikipedia.org/wiki/Multiple-image_Network_Graphics\"/>."
 msgstr "Hovudproblemet er at  Konqueror er den einaste nettlesaren som kan bruke MNG-animasjonar. Sjå om dette i  <ulink url=\"http://en.wikipedia.org/wiki/Multiple-image_Network_Graphics\"/>."
 
@@ -4438,8 +4438,8 @@ msgid "When you start <acronym>GIMP</acronym>, you see the <emphasis>splash-scre
 msgstr "Medan GIMP blir opna, kjem det fram eit startbilete som viser framgangen medan programmet lastar inn dei ulike komponentane."
 
 #: src/using/customize-splashscreen.xml:28(para)
-msgid "Of course, you can customize the splash-screen: Create a <filename class=\"directory\">splashes</filename> directory in your in your personal <acronym>GIMP</acronym> folder (<filename class=\"directory\">/home/user_name/.gimp-2.6</filename> on Linux, <filename class=\"directory\" role=\"html\">C:\\Documents&nbsp;and&nbsp;Settings\\user_name\\.gimp-2.6\\</filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents&nbsp;and&nbsp;Settings\\\\user_name\\\\.gimp-2.6\\\\</filename> on Windows)."
-msgstr "Sjølvsagt kan du tilpassa startbiletet etter eigne ønskje: Opprett ei mappe med namnet <filename class=\"directory\">splashes</filename> i den private <acronym>GIMP</acronym>-mappa di. <filename class=\"directory\">/home/brukar_namn/.gimp-2.6</filename> i Linux, <filename class=\"directory\">C:\\Documents and Settings\\brukar_namn\\.gimp-2.8\\</filename> i Windows XP, <filename class=\"directory\">Users\\brukar_namn\\.gimp-2.8\\</filename> i Windows 7. (Startbiletet blir kalla  «splash-screen», difor mappenamnet)."
+msgid "Of course, you can customize the splash-screen: Create a <filename class=\"directory\">splashes</filename> directory in your in your personal <acronym>GIMP</acronym> folder (<filename class=\"directory\">/home/user_name/.gimp-2.8</filename> on Linux, <filename class=\"directory\" role=\"html\">C:\\Documents&nbsp;and&nbsp;Settings\\user_name\\.gimp-2.8\\</filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents&nbsp;and&nbsp;Settings\\\\user_name\\\\.gimp-2.8\\\\</filename> on Windows)."
+msgstr "Sjølvsagt kan du tilpassa startbiletet etter eigne ønskje: Opprett ei mappe med namnet <filename class=\"directory\">splashes</filename> i den private <acronym>GIMP</acronym>-mappa di. <filename class=\"directory\">/home/brukar_namn/.gimp-2.8</filename> i Linux, <filename class=\"directory\">C:\\Documents and Settings\\brukar_namn\\.gimp-2.8\\</filename> i Windows). (Startbiletet blir kalla  «splash-screen», difor mappenamnet)."
 
 #: src/using/customize-splashscreen.xml:40(para)
 msgid "Copy your image(s) into this <filename class=\"directory\">splashes</filename> directory. On start, <acronym>GIMP</acronym> will read this directory and choose one of the images at random."
@@ -4479,7 +4479,7 @@ msgstr "Å lagra ein pensel som .gbr"
 
 #: src/using/brushes.xml:40(para)
 msgid "The <filename>.gbr</filename> (\"<emphasis>g</emphasis>imp <emphasis>br</emphasis>ush\") format is used for ordinary and color brushes. You can convert many other types of images, including many brushes used by other programs, into GIMP brushes by opening them in GIMP and saving them with file names ending in <filename>.gbr</filename>. This brings up a dialog box in which you can set the default Spacing for the brush. A more complete description of the GBR file format can be found in the file <filename>gbr.txt</filename> in the <filename class=\"directory\">devel-docs</filename> directory of the GIMP source distribution."
-msgstr "Formatet <filename>.gbr</filename> («<emphasis>g</emphasis>imp <emphasis>br</emphasis>ush») blir brukt for vanlege penslar og for fargepenslar. Du kan konvertera mange biletformat, og penslar frå andre program, om til penslar i <acronym>GIMP</acronym> ved å opna dei som bilete i <acronym>GIMP</acronym> og deretter lagra dei med filendinga <filename>.gbr</filename>. Når du gjer dette, får du opp eit dialogvindauge der du kan bestemme avstanden mellom penselavtrykka og kva penselen skal heite. Ei meir utførleg beskriving av GBR-formatet kan du finne i fila <filename>gbr.txt</filename> i mappa <filename class=\"directory\">devel-docs</filename> som skal følje med kjeldedistribueringa av <acronym>GIMP</acronym>."
+msgstr "Formatet <filename>.gbr</filename> («<emphasis>g</emphasis>imp <emphasis>br</emphasis>ush») blir brukt for vanlege penslar og for fargepenslar. Du kan konvertere mange biletformat og penslar frå andre program om til penslar i <acronym>GIMP</acronym> ved å opna dei som bilete i <acronym>GIMP</acronym> og deretter eksportere dei med filendinga <filename>.gbr</filename>. Når du gjer dette, får du opp eit dialogvindauge der du kan bestemme avstanden mellom penselavtrykka og kva penselen skal heite. Ei meir utførleg beskriving av GBR-formatet kan du finne i fila <filename>gbr.txt</filename> i mappa <filename class=\"directory\">devel-docs</filename> som skal følje med kjeldedistribueringa av <acronym>GIMP</acronym>."
 
 #: src/using/brushes.xml:54(title)
 msgid "Save a <filename class=\"extension\">.gbr</filename> brush"
@@ -4493,7 +4493,7 @@ msgstr "Dialog for mønsterpensel"
 
 #: src/using/brushes.xml:76(para)
 msgid "The <filename>.gih</filename> (\"<emphasis>g</emphasis>imp <emphasis>i</emphasis>mage <emphasis>h</emphasis>ose\") format is used for animated brushes. These brushes are constructed from images containing multiple layers: each layer may contain multiple brush-shapes, arranged in a grid. When you save an image as a <filename>.gih</filename> file, a dialog comes up that allows you to describe the format of the brush. Look at <link linkend=\"gimp-using-animated-brushes\">The GIH dialog box</link> for more information about the dialog. The GIH format is rather complicated: a complete description can be found in the file <filename>gih.txt</filename> in the <filename>devel-docs</filename> directory of the GIMP source distribution."
-msgstr "Formatet <filename>.gih</filename> («<emphasis>G</emphasis>imp <emphasis>I</emphasis>mage <emphasis>H</emphasis>ose») blir brukt for mønsterpenslane. Desse blir laga frå bilete med mange lag. Kvart lag kan innehalde fleire penselformer arrangert i eit rutenett. Når du lagrar eit bilete som <filename>.gih</filename>-fil, kjem det opp eit dialogvindauge der du kan bestemma ein del verdiar for penselen. Sjå nærare om dette i <link linkend=\"gimp-using-animated-brushes\">GIH dialogen</link>. GIH-formater er relativt komplisert. Du kan finne ei meir utførleg beskriving av GBR-formatet i fila <filename>gbr.txt</filename> i mappa <filename class=\"directory\">devel-docs</filename> som skal følje med kjeldedistribueringa av <acronym>GIMP</acronym>."
+msgstr "Formatet <filename>.gih</filename> («<emphasis>G</emphasis>imp <emphasis>I</emphasis>mage <emphasis>H</emphasis>ose») blir brukt for mønsterpenslane. Desse blir laga frå bilete med mange lag. Kvart lag kan innehalde fleire penselformer arrangert i eit rutenett. Når du eksporterer eit bilete som <filename>.gih</filename>-fil, kjem det opp eit dialogvindauge der du kan bestemma ein del verdiar for penselen. Sjå nærare om dette i <link linkend=\"gimp-using-animated-brushes\">GIH dialogen</link>. GIH-formater er relativt komplisert. Du kan finne ei meir utførleg beskriving av GBR-formatet i fila <filename>gbr.txt</filename> i mappa <filename class=\"directory\">devel-docs</filename> som skal følje med kjeldedistribueringa av <acronym>GIMP</acronym>."
 
 #: src/using/brushes.xml:94(term)
 #: src/using/brushes.xml:97(primary)
@@ -4593,7 +4593,7 @@ msgstr "Å lage ein mønsterpensel"
 
 #: src/using/animated-brushes.xml:17(para)
 msgid "When your new animated brush is created, it is displayed within the image window and you would like save it into a gih format. You select <menuchoice><guimenu>File</guimenu><guimenuitem>Save as...</guimenuitem></menuchoice> menu, name your work with the gih extension in the new window relevant field and as soon as you pressed the Save button, the following window is displayed:"
-msgstr "Når den nye mønsterpenselen er ferdig, blir han vist i biletvindauget. Du kan då lagra han i <filename>.gih</filename>-format ved å velje <menuchoice><guimenu>Fil</guimenu><guimenuitem>Lagra som...</guimenuitem></menuchoice> i biletmenyen. Gi penselen filutvidinga <filename>.gih</filename> og trykk knappen <guibutton>Lagra</guibutton>. Du vil då få opp dette vindauget:"
+msgstr "Når den nye mønsterpenselen er ferdig, blir han vist i biletvindauget. Du kan då lagra han i <filename>.gih</filename>-format ved å velje <menuchoice><guimenu>Fil</guimenu><guimenuitem>Eksporter …</guimenuitem></menuchoice> i biletmenyen. Gi penselen filutvidinga <filename>.gih</filename> og trykk knappen <guibutton>Eksporter</guibutton>. Du vil då få opp dette vindauget:"
 
 #: src/using/animated-brushes.xml:30(title)
 msgid "The dialog to describe the animated brush"
@@ -4661,7 +4661,7 @@ msgstr "Dette er ikkje heilt enkelt, så det kan kanskje vere nødvendig med ei 
 
 #: src/using/animated-brushes.xml:120(para)
 msgid "GIMP starts retrieving cells from each layer and stacks them into a FIFO stack (First In First Out: the first in is at the top of the stack and so can be first out). In our example 4 layers with 2 cells in each, we'll have, from top to bottom: first cell of first layer, second cell of first layer, first cell of second layer, second cell of second layer..., second cell of fourth layer. With one cell per layer or with several cells per layer, result is the same. You can see this stack in the Layer Dialog of the resulting <filename class=\"extension\">.gih</filename> image file."
-msgstr "<acronym>GIMP</acronym> byrjar med å hente celler frå kvart lag og lagrar dei i ein FIFO-stabel. (FIFO er eit vanleg IT-uttrykk, og kjem av «First In First Out», altså at det som først blei lagt inn i stabelen kjem først ut igjen. I eksemplet vårt med 4 lag med 2 celler i kvart lag, vil stabelen bli, frå topp til botn, første celle i det første laget, andre celle i det første laget, første celle i det andre laget, andre celle i det andre laget ... første celle i det fjerde laget, andre celle i det fjerde laget. Du kan sjå denne stabelen i lagdialogen for <filename class=\"extension\">.gih</filename>-fila."
+msgstr "<acronym>GIMP</acronym> byrjar med å hente celler frå kvart lag og lagrar dei i ein FIFO-stabel. (FIFO er eit vanleg IKT-uttrykk, og kjem av «First In First Out», altså at det som først blei lagt inn i stabelen kjem først ut igjen. I eksemplet vårt med 4 lag med 2 celler i kvart lag, vil stabelen bli, frå topp til botn, første celle i det første laget, andre celle i det første laget, første celle i det andre laget, andre celle i det andre laget ... første celle i det fjerde laget, andre celle i det fjerde laget. Du kan sjå denne stabelen i lagdialogen for <filename class=\"extension\">.gih</filename>-fila."
 
 #: src/using/animated-brushes.xml:131(para)
 msgid "Then GIMP creates a computer array from this stack with the <guilabel>Dimensions</guilabel> you have set. You can use four dimensions."
@@ -4741,11 +4741,11 @@ msgstr "Opna eit nytt 30 × 30 pikslar bilete som RGB med gjennomsiktig fylltype
 
 #: src/using/animated-brushes.xml:254(para)
 msgid "Save this image first with <filename class=\"extension\">.xcf</filename> extension to keep its properties then save it as <filename class=\"extension\">.gih</filename>."
-msgstr "Lagra biletet først i <filename>.xcf</filename>-format for å behalde bileteigenskapane, og lagra det deretter som <filename>.gih</filename>-fil (GIMP-mønsterpensel)."
+msgstr "Lagra biletet først i <filename>.xcf</filename>-format for å behalde bileteigenskapane, og eksporter det deretter som <filename>.gih</filename>-fil."
 
 #: src/using/animated-brushes.xml:262(para)
 msgid "The Save As Dialog is opened: select a destination for your image. OK. The GIH dialog is opened: Choose Spacing 100, give a name in Description box, 30x30 for Cell Size, 1 dimension, 4 ranks and choose <quote>Incremental</quote> in Selection box. OK."
-msgstr "Når du lagrar biletet som mønsterpensel, kjem dialogvindauget «Lagra som mønsterpensel» opp. Her set du avstand til 100. Gi biletet eit høveleg namn i beskrivingsruta (eg kalla det «talpensel»). Kontroller at cellestorleiken er 30 × 30, dimensjon = 1 og rangering = 4. Vel «Incremental» (Stigande) i utvalsboksen. Klikk deretter «Lagra»."
+msgstr "Når du lagrar biletet som mønsterpensel, kjem dialogvindauget «Eksporter som mønsterpensel» opp. Her set du avstand til 100. Gi biletet eit høveleg namn i beskrivingsruta (eg kalla det «talpensel»). Kontroller at cellestorleiken er 30 × 30, dimensjon = 1 og rangering = 4. Vel «Incremental» (Stigande) i utvalsboksen. Klikk deretter «Eksporter»."
 
 #: src/using/animated-brushes.xml:293(para)
 msgid "You see 1, 2, 3, 4 digits following one another in order."
@@ -4753,7 +4753,7 @@ msgstr "Du kan sjå tala 1, 2, 3 og 4 i normal rekkefølgje."
 
 #: src/using/animated-brushes.xml:271(para)
 msgid "You may have difficulties to save directly in the GIMP Brush directory. In that case, save the <filename class=\"extension\">.gih</filename> file manually into the <filename class=\"directory\">/usr/share/gimp/gimp/2.0/brushes</filename> directory. Then come back into the Toolbox, click in the brush icon to open the Brush Dialog then click on <guibutton>Refresh</guibutton><guiicon><inlinegraphic fileref=\"images/dialogs/stock-reload-16.png\"/></guiicon> icon button. Your new brush appears in the Brush window. Select it. Select pencil tool for instance and click and hold with it on a new image: <placeholder-1/>"
-msgstr "Dersom det skulle vere problematisk å lagre direkte i <acronym>GIMP</acronym> si penselmappe kan du lagre <filename class=\"extension\">.gih</filename>-fila manuelt i mappa <filename>/usr/share/gimp/gimp 2.0/brushes</filename>. Gå deretter inn på penselikonet i verktøykassa og opna penseldialogen. Der klikkar du på <guibutton>Oppdater penslane</guibutton> (<guiicon><inlinegraphic fileref=\"images/dialogs/stock-reload-16.png\"/></guiicon>). Dermed skulle den nye penselen dukka opp i vindauget som syner utvalet av penselmønster. Klikk på den nye penselen din, vel t.d. å teikna med blyant, og bruk den nye reiskapen på eit nytt bilete: <placeholder-1/>"
+msgstr "Dersom det skulle vere problematisk å lagre direkte i <acronym>GIMP</acronym> si penselmappe, kan du lagre <filename class=\"extension\">.gih</filename>-fila manuelt i mappa <filename>/usr/share/gimp/gimp 2.0/brushes</filename>. Gå deretter inn på penselikonet i verktøykassa og opna penseldialogen. Der klikkar du på <guibutton>Oppdater penslane</guibutton> (<guiicon><inlinegraphic fileref=\"images/dialogs/stock-reload-16.png\"/></guiicon>). Dermed skulle den nye penselen dukka opp i vindauget som syner utvalet av penselmønster. Klikk på den nye penselen din, vel t.d. å teikna med blyant, og bruk den nye reiskapen på eit nytt bilete: <placeholder-1/>"
 
 #: src/using/animated-brushes.xml:311(para)
 msgid "Digits will be displayed at random order."
@@ -4761,7 +4761,7 @@ msgstr "Tala blir viste i tilfeldig rekkefølgje."
 
 #: src/using/animated-brushes.xml:301(para)
 msgid "Take your <filename class=\"extension\">.xcf</filename> image file back and save it as <filename class=\"extension\">.gih</filename> setting Selection to <quote>Random</quote>: <placeholder-1/>"
-msgstr "Gå tilbake til .xcf-biletet og lagre det på nytt som <filename class=\"extension\">.gih</filename>-fil. Denne gongen set du utvalet til \"Random\" («Tilfeldig»): <placeholder-1/>"
+msgstr "Gå tilbake til <filename class=\"extension\">.xcf</filename>-biletet og lagre det på nytt som <filename class=\"extension\">.gih</filename>-fil. Denne gongen set du utvalet til \"Random\" («Tilfeldig»): <placeholder-1/>"
 
 #: src/using/animated-brushes.xml:319(para)
 msgid "Now select <quote>Angular</quote> Selection: <placeholder-1/>"
@@ -4869,7 +4869,7 @@ msgstr "<emphasis>Korleis <acronym>GIMP</acronym> les tabellen</emphasis>: <acro
 
 #: src/using/animated-brushes.xml:485(para)
 msgid "Voilà. Your brush is ready. Save it as <filename class=\"extension\">.xcf</filename> first, then as <filename class=\"extension\">.gih</filename> with the following parameters:"
-msgstr "Voilà. Du har laga ein aktiv pensel! Lagra penselen (om du ikkje har gjort det for lenge sidan) først som <filename class=\"extension\">.xcf</filename>-fil og deretter som <filename class=\"extension\">.gih</filename>-fil med følgjande parametrar:"
+msgstr "Voilà. Du har laga ein aktiv pensel! Lagra penselen (om du ikkje har gjort det for lenge sidan) som <filename class=\"extension\">.xcf</filename>-fil og eksporter deretter som <filename class=\"extension\">.gih</filename>-fil med følgjande parametrar:"
 
 #: src/using/animated-brushes.xml:493(para)
 msgid "Spacing: 100"
@@ -4905,7 +4905,7 @@ msgstr "Dimensjon 3: Rangering: 2 Val:: Random"
 
 #: src/using/animated-brushes.xml:519(para)
 msgid "Place your <filename class=\"extension\">.gih</filename> file into <acronym>GIMP</acronym> brush directory and refresh the brush box. You can now use your brush."
-msgstr "Lagra <filename>.gih</filename>-fila i <acronym>GIMP</acronym> si penselmappe, oppdater penslane (eller start <acronym>GIMP</acronym> på nytt) og penselen er klar for bruk."
+msgstr "Eksporter <filename>.gih</filename>-fila til <acronym>GIMP</acronym> si penselmappe, oppdater penslane (eller start <acronym>GIMP</acronym> på nytt) og penselen er klar for bruk."
 
 #: src/using/animated-brushes.xml:525(title)
 msgid "Here is the result by stroking an elliptical selection with the brush:"
@@ -4918,81 +4918,5 @@ msgstr "Denne penselen vekslar regelmessig mellom høgre og venstre hand. Fargan
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/using/animated-brushes.xml:0(None)
 msgid "translator-credits"
-msgstr "Kolbjørn Stuestøl"
+msgstr "Kolbjørn Stuestøl <kolbjoern@stuestoel.no>, 2006, 2012"
 
-#~ msgid ""
-#~ "@@image: 'images/using/gif-save-dialog.png'; "
-#~ "md5=18e73a491e516f7006c5aea9a73ec2fd"
-#~ msgstr "Bildefil"
-
-#~ msgid ""
-#~ "@@image: 'images/using/save-jpeg-dialog.png'; "
-#~ "md5=8f727eb1345bd7fea3c3afcf43fb0bbe"
-#~ msgstr "Bildefil"
-
-#~ msgid ""
-#~ "@@image: 'images/using/save-tiff-dialog.png'; "
-#~ "md5=0c2f1e58089f71e9daac13fb461fb557"
-#~ msgstr "Bildefil"
-
-#~ msgid ""
-#~ "Not all file types are equally good for all purposes. This part of the "
-#~ "documentation should help you understand the advantages and disadvantages "
-#~ "of each type."
-#~ msgstr ""
-#~ "Ikkje alle filtypane er like gode for alle føremål. I dette kapitlet vil "
-#~ "vi prøve å vise fordeler og ulemper med dei vanlegaste typane."
-
-#~ msgid "Saving Files"
-#~ msgstr "Å lagra biletfiler"
-
-#~ msgid "Example of an Export dialog"
-#~ msgstr "Eksempel på ein eksportdialog"
-
-#~ msgid ""
-#~ "As stated above, there is no file format, with the exception of GIMP's "
-#~ "native <link linkend=\"glossary-xcf\">XCF</link> format, that is capable "
-#~ "of storing all the information in a <acronym>GIMP</acronym> image. When "
-#~ "you ask to save an image in a format that will lose information, "
-#~ "<acronym>GIMP</acronym> notifies you, tells you what information will be "
-#~ "lost, and asks you whether you would like to <quote>export</quote> the "
-#~ "image in a form that the file type can handle. Exporting an image does "
-#~ "not modify the image itself, so you do not lose anything by exporting. "
-#~ "See <link linkend=\"gimp-export-dialog\">Export file</link>."
-#~ msgstr ""
-#~ "Som sagt ovanfor, er det bare filformatet <link linkend=\"glossary-xcf"
-#~ "\">XCF</link> som tar vare på (nesten) alle data i eit bilete. Prøver du "
-#~ "å lagra eit bilete i eit format som ikkje tar vare på informasjonen i "
-#~ "biletet, vil <acronym>GIMP</acronym> åtvara deg med ei melding om dette, "
-#~ "og kva for data som går tapt dersom du likevel nyttar det valde formatet. "
-#~ "Du får også eit spørsmål om du heller vil «eksportera» biletet. Når du "
-#~ "eksporterar eit bilete, blir sjølve biletet ikkje forandra. Sjå <link "
-#~ "linkend=\"gimp-export-dialog\">Export file</link>."
-
-#~ msgid "Saving as GIF"
-#~ msgstr "Lagra som GIF"
-
-#~ msgid "Saving as JPEG"
-#~ msgstr "Lagra som JPEG"
-
-#~ msgid ""
-#~ "After you save an image as a JPEG file, the image is no longer considered "
-#~ "<quote>dirty</quote> by <acronym>GIMP</acronym>, so unless you make "
-#~ "further changes to it, you will not receive any warning if you close it. "
-#~ "Because JPEG is lossy and does not support transparency or multiple "
-#~ "layers, some of the information in the image might then be lost. If you "
-#~ "want to save all of the information in an image, use <acronym>GIMP</"
-#~ "acronym>'s native <link linkend=\"glossary-xcf\">XCF format</link>."
-#~ msgstr ""
-#~ "Etter at biletet er lagra som JPEG-fil, vil det bli oppfatta av "
-#~ "<acronym>GIMP</acronym> som «reint», dvs. at det kjem ikkje opp noe "
-#~ "åtvaring dersom du lukkar det. Sidan JPEG-formatet ikkje lagrar alle "
-#~ "opplysningane om biletet, kan dette vere ein ulempe. Difor er det til "
-#~ "vanleg lurt å først lagre biletet i <acronym>GIMP</acronym> sitt eige "
-#~ "<link linkend=\"glossary-xcf\">XCF-format</link>."
-
-#~ msgid "Saving as PNG"
-#~ msgstr "Lagra som PNG"
-
-#~ msgid "Saving as TIFF"
-#~ msgstr "Lagra som TIFF"

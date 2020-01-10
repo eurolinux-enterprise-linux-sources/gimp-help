@@ -1,16 +1,20 @@
 # This is a German catalog for the GIMP User Manual.
 # Copyright (C) 2002-2010 The GIMP Documentation Team
-#
+# Daniel Winzen <d@winzen4.de>, 2012.
+# Christian Kirbach <christian.kirbach@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-manual\n"
-"POT-Creation-Date: 2010-12-28 14:45+0100\n"
-"PO-Revision-Date: 2010-12-28 14:45+0100\n"
-"Last-Translator: Ulf-D. Ehlert <ulfehlert@svn.gnome.org>\n"
+"POT-Creation-Date: 2012-07-31 08:50+0000\n"
+"PO-Revision-Date: 2013-09-21 23:15+0100\n"
+"Last-Translator: Christian Kirbach <christian.kirbach@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -24,11 +28,11 @@ msgstr "CHECK"
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/color/threshold.xml:117(None)
 #: src/toolbox/color/levels.xml:119(None)
-#: src/toolbox/color/hue-saturation.xml:96(None)
+#: src/toolbox/color/hue-saturation.xml:95(None)
 #: src/toolbox/color/curves.xml:99(None)
-#: src/toolbox/color/colorize.xml:105(None)
-#: src/toolbox/color/color-balance.xml:99(None)
-#: src/toolbox/color/brightness-contrast.xml:109(None)
+#: src/toolbox/color/colorize.xml:104(None)
+#: src/toolbox/color/color-balance.xml:98(None)
+#: src/toolbox/color/brightness-contrast.xml:108(None)
 msgid ""
 "@@image: 'images/toolbox/presets-menu.png'; "
 "md5=c981454233864fa5e6e23a54a13a5235"
@@ -38,11 +42,11 @@ msgstr "CHECK"
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/toolbox/color/threshold.xml:131(None)
 #: src/toolbox/color/levels.xml:133(None)
-#: src/toolbox/color/hue-saturation.xml:110(None)
+#: src/toolbox/color/hue-saturation.xml:109(None)
 #: src/toolbox/color/curves.xml:113(None)
-#: src/toolbox/color/colorize.xml:119(None)
-#: src/toolbox/color/color-balance.xml:113(None)
-#: src/toolbox/color/brightness-contrast.xml:123(None)
+#: src/toolbox/color/colorize.xml:118(None)
+#: src/toolbox/color/color-balance.xml:112(None)
+#: src/toolbox/color/brightness-contrast.xml:122(None)
 msgid ""
 "@@image: 'images/toolbox/manage-saved-settings.png'; "
 "md5=0efc169a3ce90d9d66daf53a929ae7dd"
@@ -188,23 +192,22 @@ msgstr ""
 msgid ""
 "or by clicking on the <guiicon><inlinegraphic fileref=\"images/toolbox/stock-"
 "tool-threshold-22.png\"/></guiicon> icon in Toolbox if this tool has been "
-"installed in it. You can do that through the <link linkend=\"gimp-tools-"
-"dialog\">Tool dialog</link>."
+"installed in it. For this, please refer to <xref linkend=\"gimp-prefs-toolbox"
+"\"/>."
 msgstr ""
 "oder mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref="
 "\"images/toolbox/stock-tool-threshold-22.png\"/></guiicon> im "
 "Werkzeugfenster, sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet "
-"sind. Dies können Sie im Dialog <link linkend=\"gimp-tools-dialog"
-"\">Werkzeuge</link> einstellen."
+"sind. Lesen Sie dafür bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
 #: src/toolbox/color/threshold.xml:82(title)
 #: src/toolbox/color/posterize.xml:60(title)
 #: src/toolbox/color/levels.xml:87(title)
-#: src/toolbox/color/hue-saturation.xml:64(title)
+#: src/toolbox/color/hue-saturation.xml:63(title)
 #: src/toolbox/color/desaturate.xml:74(title)
-#: src/toolbox/color/colorize.xml:73(title)
-#: src/toolbox/color/color-balance.xml:67(title)
-#: src/toolbox/color/brightness-contrast.xml:77(title)
+#: src/toolbox/color/colorize.xml:72(title)
+#: src/toolbox/color/color-balance.xml:66(title)
+#: src/toolbox/color/brightness-contrast.xml:76(title)
 msgid "Options"
 msgstr "Eigenschaften"
 
@@ -214,21 +217,21 @@ msgstr "Das Dialogfenster des Werkzeuges <quote>Schwellwert</quote>"
 
 #: src/toolbox/color/threshold.xml:94(term)
 #: src/toolbox/color/levels.xml:98(term)
-#: src/toolbox/color/hue-saturation.xml:75(term)
+#: src/toolbox/color/hue-saturation.xml:74(term)
 #: src/toolbox/color/curves.xml:78(term)
-#: src/toolbox/color/colorize.xml:84(term)
-#: src/toolbox/color/color-balance.xml:78(term)
-#: src/toolbox/color/brightness-contrast.xml:88(term)
+#: src/toolbox/color/colorize.xml:83(term)
+#: src/toolbox/color/color-balance.xml:77(term)
+#: src/toolbox/color/brightness-contrast.xml:87(term)
 msgid "Presets"
 msgstr "Einstellungen"
 
 #: src/toolbox/color/threshold.xml:96(para)
 #: src/toolbox/color/levels.xml:100(para)
-#: src/toolbox/color/hue-saturation.xml:77(para)
+#: src/toolbox/color/hue-saturation.xml:76(para)
 #: src/toolbox/color/curves.xml:80(para)
-#: src/toolbox/color/colorize.xml:86(para)
-#: src/toolbox/color/color-balance.xml:80(para)
-#: src/toolbox/color/brightness-contrast.xml:90(para)
+#: src/toolbox/color/colorize.xml:85(para)
+#: src/toolbox/color/color-balance.xml:79(para)
+#: src/toolbox/color/brightness-contrast.xml:89(para)
 msgid ""
 "You can save the color settings of your image by clicking the <guibutton>Add "
 "settings to favourites</guibutton> button <guiicon><inlinegraphic fileref="
@@ -242,11 +245,11 @@ msgstr ""
 
 #: src/toolbox/color/threshold.xml:104(para)
 #: src/toolbox/color/levels.xml:107(para)
-#: src/toolbox/color/hue-saturation.xml:84(para)
+#: src/toolbox/color/hue-saturation.xml:83(para)
 #: src/toolbox/color/curves.xml:87(para)
-#: src/toolbox/color/colorize.xml:93(para)
-#: src/toolbox/color/color-balance.xml:87(para)
-#: src/toolbox/color/brightness-contrast.xml:97(para)
+#: src/toolbox/color/colorize.xml:92(para)
+#: src/toolbox/color/color-balance.xml:86(para)
+#: src/toolbox/color/brightness-contrast.xml:96(para)
 msgid ""
 "The <guiicon><inlinegraphic fileref=\"images/toolbox/presets-menu-icon.png\"/"
 "></guiicon> button opens a menu:"
@@ -256,38 +259,38 @@ msgstr ""
 
 #: src/toolbox/color/threshold.xml:113(title)
 #: src/toolbox/color/levels.xml:115(title)
-#: src/toolbox/color/hue-saturation.xml:92(title)
+#: src/toolbox/color/hue-saturation.xml:91(title)
 #: src/toolbox/color/curves.xml:95(title)
-#: src/toolbox/color/colorize.xml:101(title)
-#: src/toolbox/color/color-balance.xml:95(title)
-#: src/toolbox/color/brightness-contrast.xml:105(title)
+#: src/toolbox/color/colorize.xml:100(title)
+#: src/toolbox/color/color-balance.xml:94(title)
+#: src/toolbox/color/brightness-contrast.xml:104(title)
 msgid "Preset Menu"
 msgstr "Einstellungen-Menü"
 
 #: src/toolbox/color/threshold.xml:121(para)
 #: src/toolbox/color/levels.xml:123(para)
-#: src/toolbox/color/hue-saturation.xml:100(para)
+#: src/toolbox/color/hue-saturation.xml:99(para)
 #: src/toolbox/color/curves.xml:103(para)
-#: src/toolbox/color/colorize.xml:109(para)
-#: src/toolbox/color/color-balance.xml:103(para)
-#: src/toolbox/color/brightness-contrast.xml:113(para)
+#: src/toolbox/color/colorize.xml:108(para)
+#: src/toolbox/color/color-balance.xml:102(para)
+#: src/toolbox/color/brightness-contrast.xml:112(para)
 msgid ""
 "which lets you <guilabel>Import Settings from File</guilabel> or "
 "<guilabel>Export Settings to File</guilabel>, and gives you access to the "
 "Manage Save Settings dialog:"
 msgstr ""
-"mit dem Sie <guilabel>Einstellungen&nbsp;aus&nbsp;Datei&nbsp;importieren</"
-"guilabel> oder <guilabel>Einstellungen&nbsp;in&nbsp;Datei&nbsp;exportieren</"
-"guilabel> können. Dort haben Sie auch Zugriff auf die Funktion "
-"<guilabel>Einstellungen&nbsp;verwalten</guilabel>:"
+"mit dem Sie <guilabel>Einstellungen aus Datei importieren</guilabel> oder "
+"<guilabel>Einstellungen in Datei exportieren</guilabel> können. Dort haben "
+"Sie auch Zugriff auf die Funktion <guilabel>Einstellungen verwalten</"
+"guilabel>:"
 
 #: src/toolbox/color/threshold.xml:127(title)
 #: src/toolbox/color/levels.xml:129(title)
-#: src/toolbox/color/hue-saturation.xml:106(title)
+#: src/toolbox/color/hue-saturation.xml:105(title)
 #: src/toolbox/color/curves.xml:109(title)
-#: src/toolbox/color/colorize.xml:115(title)
-#: src/toolbox/color/color-balance.xml:109(title)
-#: src/toolbox/color/brightness-contrast.xml:119(title)
+#: src/toolbox/color/colorize.xml:114(title)
+#: src/toolbox/color/color-balance.xml:108(title)
+#: src/toolbox/color/brightness-contrast.xml:118(title)
 msgid "Manage saved Settings Dialog"
 msgstr "Das Dialogfenster <quote>Einstellungen verwalten</quote>"
 
@@ -316,11 +319,11 @@ msgstr ""
 #: src/toolbox/color/threshold.xml:153(term)
 #: src/toolbox/color/posterize.xml:84(term)
 #: src/toolbox/color/levels.xml:502(term)
-#: src/toolbox/color/hue-saturation.xml:233(term)
+#: src/toolbox/color/hue-saturation.xml:232(term)
 #: src/toolbox/color/curves.xml:289(term)
-#: src/toolbox/color/colorize.xml:151(term)
-#: src/toolbox/color/color-balance.xml:162(term)
-#: src/toolbox/color/brightness-contrast.xml:158(term)
+#: src/toolbox/color/colorize.xml:150(term)
+#: src/toolbox/color/color-balance.xml:161(term)
+#: src/toolbox/color/brightness-contrast.xml:157(term)
 msgid "Preview"
 msgstr "Vorschau"
 
@@ -528,13 +531,13 @@ msgstr ""
 msgid ""
 "By clicking on the tool icon <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-posterize-22.png\"/></guiicon> in Toolbox, if this tool "
-"has been installed there (see <link linkend=\"gimp-tools-dialog\">Tools "
-"dialog</link>)."
+"has been installed there. For this, please refer to <xref linkend=\"gimp-"
+"prefs-toolbox\"/>."
 msgstr ""
 "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-posterize-22.png\"/></guiicon> im Werkzeugfenster, sofern "
-"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können Sie im "
-"Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> einstellen."
+"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie dafür "
+"bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
 #: src/toolbox/color/posterize.xml:62(title)
 msgid "Posterize tool options"
@@ -595,6 +598,54 @@ msgid ""
 "@@image: 'images/toolbox/color-tools-menu2.png'; "
 "md5=a1ac1410dca254e3e5e7223d84ad1cf9"
 msgstr "OK"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color/overview.xml:120(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/color-tools-menu1.png'; "
+#| "md5=f91b7af2f74b06a7b7c741ab70eaa9e7"
+msgid ""
+"@@image: 'images/toolbox/color-tool-preset.png'; "
+"md5=884ff6ab58ce12bf79c92a02735d8cbb"
+msgstr "OK"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color/overview.xml:136(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/colors-desaturate-luminosity.png'; "
+#| "md5=c3f4d6ced0029676d9a601275b6293b0"
+msgid ""
+"@@image: 'images/toolbox/color-preset-list.png'; "
+"md5=f4c6db8d64981ae698bb0b9d744d8351"
+msgstr "CHECK"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color/overview.xml:155(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/color-tools-menu1.png'; "
+#| "md5=f91b7af2f74b06a7b7c741ab70eaa9e7"
+msgid ""
+"@@image: 'images/toolbox/color-preset-menu.png'; "
+"md5=6f39abab33b4f7ac2c1a89cd680fdfba"
+msgstr "OK"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color/overview.xml:171(None)
+#, fuzzy
+#| msgid ""
+#| "@@image: 'images/toolbox/colors-desaturate-average.png'; "
+#| "md5=bea6e59f04779763604e5701f6ab0d83"
+msgid ""
+"@@image: 'images/toolbox/color-preset-manage.png'; "
+"md5=6dfa5dadf1ce970d1e5416459ff0a5b3"
+msgstr "CHECK"
 
 #: src/toolbox/color/overview.xml:8(title)
 msgid "Overview"
@@ -676,7 +727,7 @@ msgstr ""
 msgid ""
 "Change the intensity range in a channel: <xref linkend=\"gimp-tool-levels\"/>"
 msgstr ""
-"Intensitätsbereiche in einem Kanal modifizieren:  <xref linkend=\"gimp-tool-"
+"Intensitätsbereiche in einem Kanal modifizieren: <xref linkend=\"gimp-tool-"
 "levels\"/>"
 
 #: src/toolbox/color/overview.xml:88(para)
@@ -697,6 +748,70 @@ msgid ""
 "tool-desaturate\"/>"
 msgstr ""
 "Farbwerte in Graustufen umgewandeln: <xref linkend=\"gimp-tool-desaturate\"/>"
+
+#: src/toolbox/color/overview.xml:107(title)
+#: src/toolbox/color/overview.xml:109(primary)
+msgid "Color Tool Presets"
+msgstr "Voreinstellungen des Farbwerkzeugs"
+
+#: src/toolbox/color/overview.xml:112(para)
+msgid ""
+"Except Desaturate and Posterize, color tools have <emphasis>presets</"
+"emphasis>: saved tool settings that you can retrieve later."
+msgstr ""
+"Außer für Entsättigen und Posterisieren haben Farbwerkzeuge gespeicherte "
+"<emphasis>Voreinstellungen</emphasis>. Es sind gepsicherte "
+"Werkzeugeinstellungen, die Sie später abrufen können."
+
+#: src/toolbox/color/overview.xml:127(para)
+msgid ""
+"<emphasis role=\"bold\">Presets</emphasis>: this drop-down list shows you "
+"the existing presets. <emphasis>Every time you change tool settings, a new "
+"preset is automatically saved, with date and hour</emphasis>; you must be "
+"aware of that, to preserve your computer memory. <placeholder-1/>"
+msgstr ""
+"<emphasis role=\"bold\">Voreinstellungen</emphasis>: Diese Aufklapp-Liste "
+"zeigt die existierenden Voreinstellungen. <emphasis>Jedes Mal, wenn Sie Ihre "
+"Werkzeugeinstellungen ändern, wird automatisch eine neue Voreinstellung mit "
+"Datum und Stunde gespeichert</emphasis>; Sie müssen sich dessen bewusst "
+"sein, um den Speicher Ihres Rechners zu wahren. <placeholder-1/>"
+
+#: src/toolbox/color/overview.xml:142(para)
+msgid ""
+"<emphasis role=\"bold\">The cross</emphasis>: clicking on this cross opens a "
+"window where you can save current settings under the name you want."
+msgstr ""
+"<emphasis role=\"bold\">Das Plus</emphasis>: Durch Klicken auf dieses Plus "
+"öffnet sich ein neues Fenster, in dem Sie die aktuellen Einstellungen unter "
+"dem gewünschten Namen speichern können."
+
+#: src/toolbox/color/overview.xml:159(title)
+msgid "Three options:"
+msgstr "Drei Optionen:"
+
+#: src/toolbox/color/overview.xml:161(para)
+msgid "Import settings from file"
+msgstr "Einstellungen aus Datei importieren"
+
+#: src/toolbox/color/overview.xml:164(para)
+msgid "Export settings to file"
+msgstr "Einstellungen in Datei exportieren"
+
+#: src/toolbox/color/overview.xml:167(para)
+msgid "Manage settings"
+msgstr "Einstellungen verwalten"
+
+#: src/toolbox/color/overview.xml:149(para)
+msgid ""
+"<emphasis role=\"bold\">The small triangle</emphasis>: clicking on this "
+"triangle opens a small menu: <placeholder-1/><placeholder-2/>"
+msgstr ""
+"<emphasis role=\"bold\">Das kleine Dreieck</emphasis>: Durch Klicken auf das "
+"Dreieck öffnet sich ein kleines Menü: <placeholder-1/><placeholder-2/>"
+
+#: src/toolbox/color/overview.xml:123(para)
+msgid "Three elements: <placeholder-1/>"
+msgstr "Drei Elemente: <placeholder-1/>"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -880,13 +995,13 @@ msgstr ""
 msgid ""
 "By clicking on the tool icon <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-levels-22.png\"/></guiicon> in the toolbox if this tool "
-"has been installed there. For this, go to <link linkend=\"gimp-tools-dialog"
-"\">Tools Dialog</link>."
+"has been installed there. For this, please refer to <xref linkend=\"gimp-"
+"prefs-toolbox\"/>."
 msgstr ""
 "Mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-levels-22.png\"/></guiicon> im Werkzeugfenster, sofern "
-"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können Sie im "
-"Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> einstellen."
+"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie dafür "
+"bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
 #: src/toolbox/color/levels.xml:89(title)
 msgid "Level tool options"
@@ -1143,8 +1258,8 @@ msgid ""
 msgstr ""
 "Farbkanäle: wenn Sie beispielsweise den grünen Kanal auswählen und den "
 "Zielwertebereich auf 100-140 einstellen, wird bei allen Pixeln mit einem "
-"noch so geringen Grünanteil der Wert des grünen Kanals auf den Bereich 100-"
-"140 verschoben."
+"noch so geringen Grünanteil der Wert des grünen Kanals auf den Bereich "
+"100-140 verschoben."
 
 #: src/toolbox/color/levels.xml:347(para)
 msgid ""
@@ -1273,16 +1388,16 @@ msgid "<quote>Levels</quote> tool options"
 msgstr "Eigenschaften des Werkzeuges <quote>Werte</quote>"
 
 #: src/toolbox/color/levels.xml:527(para)
-#: src/toolbox/color/curves.xml:300(para)
 msgid ""
-"Although this tool is not present in the Toolbox by default (see <xref "
-"linkend=\"gimp-tools-dialog\"/> if you want to add it), nevertheless it has "
-"a Tool Option Dialog under the Toolbox. These options are described here:"
+"Although this tool is not present in the Toolbox by default (please refer to "
+"<xref linkend=\"gimp-prefs-toolbox\"/> if you want to add it), nevertheless "
+"it has a Tool Option Dialog under the Toolbox. These options are described "
+"here:"
 msgstr ""
 "Obgleich dieses Werkzeug standardmäßig nicht im Werkzeugfenster enthalten "
-"ist (wie Sie es hinzufügen erläutert <xref linkend=\"gimp-tools-dialog\"/>), "
-"verfügt es dennoch über Werkzeugeinstellungen. Diese Eigenschaften werden im "
-"folgenden beschrieben:"
+"ist (wie Sie es hinzufügen erläutert <xref linkend=\"gimp-prefs-toolbox\"/"
+">), verfügt es dennoch über Werkzeugeinstellungen. Diese Eigenschaften "
+"werden im folgenden beschrieben:"
 
 #: src/toolbox/color/levels.xml:534(term)
 #: src/toolbox/color/curves.xml:307(term)
@@ -1292,10 +1407,10 @@ msgstr "Histogrammskala"
 #: src/toolbox/color/levels.xml:536(para)
 msgid ""
 "These two options have the same action as the Logarithmic "
-"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-histogram-logarithmic-"
-"16.png\"/></guiicon> and Linear <guiicon><inlinegraphic fileref=\"images/"
-"dialogs/stock-histogram-linear-16.png\"/></guiicon> buttons in the Levels "
-"dialog."
+"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-histogram-"
+"logarithmic-16.png\"/></guiicon> and Linear <guiicon><inlinegraphic fileref="
+"\"images/dialogs/stock-histogram-linear-16.png\"/></guiicon> buttons in the "
+"Levels dialog."
 msgstr ""
 "Diese zwei Eigenschaften haben die gleiche Funktion wie die beiden Symbole "
 "Logarithmisch <guiicon><inlinegraphic fileref=\"images/dialogs/stock-"
@@ -1369,7 +1484,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/hue-saturation.xml:69(None)
+#: src/toolbox/color/hue-saturation.xml:68(None)
 msgid ""
 "@@image: 'images/toolbox/tools-hue-sat.png'; "
 "md5=141d5e3ea3ab64e9d4748909442fd94b"
@@ -1377,7 +1492,7 @@ msgstr "CHECK"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/hue-saturation.xml:150(None)
+#: src/toolbox/color/hue-saturation.xml:149(None)
 msgid ""
 "@@image: 'images/toolbox/hue-sat-overlap-1.png'; "
 "md5=2688572ebd2714f27f1f07752da63e84"
@@ -1385,7 +1500,7 @@ msgstr "CHECK"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/hue-saturation.xml:163(None)
+#: src/toolbox/color/hue-saturation.xml:162(None)
 msgid ""
 "@@image: 'images/toolbox/hue-sat-overlap-2.png'; "
 "md5=f380d4467e7f1bbf0b05b2bb390bb37f"
@@ -1393,7 +1508,7 @@ msgstr "CHECK"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/hue-saturation.xml:175(None)
+#: src/toolbox/color/hue-saturation.xml:174(None)
 msgid ""
 "@@image: 'images/toolbox/hue-sat-overlap-3.png'; "
 "md5=591daffe61e131a0e8c98ac935bc99cc"
@@ -1436,24 +1551,23 @@ msgstr ""
 msgid ""
 "By clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
 "stock-tool-hue-saturation-22.png\"/></guiicon> in Toolbox, provided that you "
-"have installed color tools in Toolbox. For this, go to <link linkend=\"gimp-"
-"tools-dialog\">Tools Dialog</link>."
+"have installed color tools in Toolbox. For this, please refer to <xref "
+"linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-hue-saturation-22.png\"/></guiicon> im Werkzeugfenster, "
-"sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können "
-"Sie im Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> "
-"einstellen."
+"sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie "
+"dafür bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
-#: src/toolbox/color/hue-saturation.xml:66(title)
+#: src/toolbox/color/hue-saturation.xml:65(title)
 msgid "Hue-Saturation tool options"
 msgstr "Das Dialogfenster des Werkzeuges <quote>Farbton/Sättigung</quote>"
 
-#: src/toolbox/color/hue-saturation.xml:117(term)
+#: src/toolbox/color/hue-saturation.xml:116(term)
 msgid "Select Primary Color to Adjust"
 msgstr "Zu bearbeitende Primärfarbe auswählen"
 
-#: src/toolbox/color/hue-saturation.xml:119(para)
+#: src/toolbox/color/hue-saturation.xml:118(para)
 msgid ""
 "You can choose, between six, the three primary colors (Red, Green and Blue) "
 "and the three complementary colors (Cyan, Magenta and Yellow), the color to "
@@ -1470,7 +1584,7 @@ msgstr ""
 "Schaltfläche <guilabel>Alle</guilabel> werden alle Farben im Farbkreis in "
 "die Bearbeitung durch das Werkzeug einbezogen."
 
-#: src/toolbox/color/hue-saturation.xml:130(para)
+#: src/toolbox/color/hue-saturation.xml:129(para)
 msgid ""
 "Hue changes are shown in color swatches and the result is visible in the "
 "image if the <quote>Preview</quote> option is enabled."
@@ -1479,11 +1593,11 @@ msgstr ""
 "Eigenschaft <quote>Vorschau</quote> aktiviert haben, auch gleich im Bild "
 "bewundert werden."
 
-#: src/toolbox/color/hue-saturation.xml:137(term)
+#: src/toolbox/color/hue-saturation.xml:136(term)
 msgid "Overlap"
 msgstr "Überlagern"
 
-#: src/toolbox/color/hue-saturation.xml:139(para)
+#: src/toolbox/color/hue-saturation.xml:138(para)
 msgid ""
 "This slider lets you set how much color ranges will overlap. This effect is "
 "very subtle and works on very next colors only:"
@@ -1492,11 +1606,11 @@ msgstr ""
 "Farbbereiche überschneiden dürfen. Der Effekt ist sehr subtil und wirkt auch "
 "nur bei sehr ähnlichen Farben:"
 
-#: src/toolbox/color/hue-saturation.xml:144(title)
+#: src/toolbox/color/hue-saturation.xml:143(title)
 msgid "Example for the <quote>Overlap</quote> option"
 msgstr "Beispiel für die Eigenschaft <quote>Überlagern</quote>"
 
-#: src/toolbox/color/hue-saturation.xml:153(para)
+#: src/toolbox/color/hue-saturation.xml:152(para)
 msgid ""
 "<emphasis>Original image</emphasis>. From the left to the right: a reddish "
 "yellow (255;240;0); a pure yellow (255;255;0); a greenish yellow (240;255;0)."
@@ -1504,7 +1618,7 @@ msgstr ""
 "<emphasis>Originalbild</emphasis>: Links: ein rötliches Gelb (255,240,0). "
 "Mitte: reines Gelb (255,255,0). Rechts: ein grünliches Gelb (240,255,0)."
 
-#: src/toolbox/color/hue-saturation.xml:166(para)
+#: src/toolbox/color/hue-saturation.xml:165(para)
 msgid ""
 "<emphasis>Overlap = 0</emphasis>. Hue = 15. Colors become (186;255;1), "
 "(168;255;1), (156;255;1)."
@@ -1512,7 +1626,7 @@ msgstr ""
 "<emphasis>Überlagern = 0</emphasis>: Farbton = 15. Die Farben werden zu "
 "(186,255,1), (168,255,1), (156,255,1)."
 
-#: src/toolbox/color/hue-saturation.xml:178(para)
+#: src/toolbox/color/hue-saturation.xml:177(para)
 msgid ""
 "<emphasis>Overlap = 100</emphasis>. Hue = 15. Colors become (192;255;1), "
 "(168;255;1), (162;255;1). Because of overlap, greenish is less green and "
@@ -1522,11 +1636,11 @@ msgstr ""
 "(192,255,1), (168,255,1), (162,255,1). Da sie sich überlagern, ist sozusagen "
 "<quote>grünlich</quote> weniger grün und <quote>rötlich</quote> weniger rot."
 
-#: src/toolbox/color/hue-saturation.xml:190(term)
+#: src/toolbox/color/hue-saturation.xml:189(term)
 msgid "Adjust Selected Color"
 msgstr "Gewählte Farbe bearbeiten"
 
-#: src/toolbox/color/hue-saturation.xml:194(para)
+#: src/toolbox/color/hue-saturation.xml:193(para)
 msgid ""
 "<guilabel>Hue</guilabel>: The slider and the input box allow you to select a "
 "hue in the color circle (-180, 180)."
@@ -1534,7 +1648,7 @@ msgstr ""
 "<guilabel>Farbton:</guilabel> Der Schieberegler erlaubt es, den Farbton von "
 "seinem Ausgangswert (0) im Bereich -180 bis 180 zu verschieben."
 
-#: src/toolbox/color/hue-saturation.xml:201(para)
+#: src/toolbox/color/hue-saturation.xml:200(para)
 msgid ""
 "<guilabel>Lightness</guilabel>: The slider and the input box allow you to "
 "select a value (luminosity): -100, 100."
@@ -1543,7 +1657,7 @@ msgstr ""
 "Helligkeit von seinem Ausgangswert (0) im Bereich -100 bis 100 zu "
 "verschieben."
 
-#: src/toolbox/color/hue-saturation.xml:207(para)
+#: src/toolbox/color/hue-saturation.xml:206(para)
 msgid ""
 "Lightness changes here concern a color range, while they concern a color "
 "tone with Curves and Levels tools, which work on color channels. If you "
@@ -1558,7 +1672,7 @@ msgstr ""
 "<quote>Werte</quote>- oder <quote>Kurven</quote>-Werkzeug die Helligkeit nur "
 "der dunklen, nur der hellen oder nur der mittleren Pixel geändert werden."
 
-#: src/toolbox/color/hue-saturation.xml:218(para)
+#: src/toolbox/color/hue-saturation.xml:217(para)
 msgid ""
 "<guilabel>Saturation</guilabel>: The slider and the input box allow you to "
 "select a saturation: -100, 100."
@@ -1566,7 +1680,7 @@ msgstr ""
 "<guilabel>Sättigung:</guilabel> Der Schieberegler erlaubt es, die Sättigung "
 "von seinem Ausgangswert (0) im Bereich -100 bis 100 zu verschieben."
 
-#: src/toolbox/color/hue-saturation.xml:225(para)
+#: src/toolbox/color/hue-saturation.xml:224(para)
 msgid ""
 "The <guilabel>Initialize Color</guilabel> button deletes changes to hue, "
 "lightness and saturation of the selected color."
@@ -1574,7 +1688,7 @@ msgstr ""
 "Mit Hilfe der Schaltfläche <guilabel>Farbe zurücksetzen</guilabel> lassen "
 "sich die Primärfarben wieder in ihren Ausgangszustand zurücksetzen."
 
-#: src/toolbox/color/hue-saturation.xml:235(para)
+#: src/toolbox/color/hue-saturation.xml:234(para)
 msgid ""
 "The Preview button makes all changes dynamically so that they can be viewed "
 "straight away."
@@ -1685,14 +1799,13 @@ msgstr ""
 msgid ""
 "by clicking on the tool icon <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-convert-grayscale-16.png\"/></guiicon> in Toolbox, if this "
-"tool has been installed there (see <link linkend=\"gimp-tools-dialog\">Tools "
-"dialog</link>."
+"tool has been installed there.For this, please refer to <xref linkend=\"gimp-"
+"prefs-toolbox\"/>."
 msgstr ""
 "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-convert-grayscale-16.png\"/></guiicon> im Werkzeugfenster, "
-"sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können "
-"Sie im Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> "
-"einstellen."
+"sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie "
+"dafür bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
 #: src/toolbox/color/desaturate.xml:76(title)
 msgid "The <quote>Desaturate</quote> option dialog"
@@ -1870,13 +1983,13 @@ msgstr ""
 msgid ""
 "By clicking on the tool icon <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-curves-22.png\"/></guiicon> in Toolbox, if this tool has "
-"been installed there (see <link linkend=\"gimp-tools-dialog\">Tools dialog</"
-"link>)."
+"been installed there. For this, please refer to <xref linkend=\"gimp-prefs-"
+"toolbox\"/>."
 msgstr ""
-"mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
+"Mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-curves-22.png\"/></guiicon> im Werkzeugfenster, sofern "
-"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können Sie im "
-"Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> einstellen."
+"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie dafür "
+"bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
 #: src/toolbox/color/curves.xml:67(title)
 msgid "<quote>Adjust Color Curves</quote> options"
@@ -2126,13 +2239,25 @@ msgstr ""
 "um die Einstellungen des Werkzeuges vor der Ausführung kontrollieren zu "
 "können."
 
+#: src/toolbox/color/curves.xml:300(para)
+msgid ""
+"Although this tool is not present in the Toolbox by default (For this, "
+"please refer to <xref linkend=\"gimp-prefs-toolbox\"/> if you want to add "
+"it), nevertheless it has a Tool Option Dialog under the Toolbox. These "
+"options are described here:"
+msgstr ""
+"Obgleich dieses Werkzeug standardmäßig nicht im Werkzeugfenster enthalten "
+"ist (wie Sie es hinzufügen erläutert <xref linkend=\"gimp-prefs-toolbox\"/"
+">), verfügt es dennoch über Werkzeugeinstellungen. Diese Eigenschaften "
+"werden im folgenden beschrieben:"
+
 #: src/toolbox/color/curves.xml:309(para)
 msgid ""
 "These two options have the same action as the Logarithmic "
-"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-histogram-logarithmic-"
-"16.png\"/></guiicon> and Linear <guiicon><inlinegraphic fileref=\"images/"
-"dialogs/stock-histogram-linear-16.png\"/></guiicon> buttons in the Curves "
-"dialog."
+"<guiicon><inlinegraphic fileref=\"images/dialogs/stock-histogram-"
+"logarithmic-16.png\"/></guiicon> and Linear <guiicon><inlinegraphic fileref="
+"\"images/dialogs/stock-histogram-linear-16.png\"/></guiicon> buttons in the "
+"Curves dialog."
 msgstr ""
 "Diese beiden Einstellungen haben die gleiche Funktion wie die Schaltflächen "
 "Logarithmisch <guiicon><inlinegraphic fileref=\"images/dialogs/stock-"
@@ -2279,16 +2404,16 @@ msgid ""
 "Black is made White (fully colored / fully opaque). White is made black "
 "(black, fully transparent). All pixels adopt the complementary color. Why "
 "that? Because subtracting the channel values from 255 gives the "
-"complementary color. For example: 19;197;248 a sky blue gives 255-19; 255-"
-"197; 255-248 = 236;58;7, a bright red."
+"complementary color. For example: 19;197;248 a sky blue gives 255-19; "
+"255-197; 255-248 = 236;58;7, a bright red."
 msgstr ""
 "Wenn man den linken Endpunkt nach oben zieht und den rechten nach unten, "
 "werden die Farben invertiert: Schwarz wird Weiß (farbig / deckend), Weiß "
 "wird Schwarz (farblos / transparent). Alle Pixel nehmen die "
 "Komplementärfarbe an. Warum? Weil der Ausgangswert jeweils 255 - "
 "Eingangswert beträgt, was genau die Komplementärfarbe ergibt. So wird "
-"beispielsweise aus Blau (19,197,248) die Komplementärfarbe (255-19,255-"
-"197,255-48) = (236,58,7), ein helles Rot. "
+"beispielsweise aus Blau (19,197,248) die Komplementärfarbe "
+"(255-19,255-197,255-48) = (236,58,7), ein helles Rot."
 
 #: src/toolbox/color/curves.xml:468(title)
 msgid "Enhance contrast"
@@ -2329,7 +2454,7 @@ msgstr "Das Ausgangsbild und das Ergebnis"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/colorize.xml:78(None)
+#: src/toolbox/color/colorize.xml:77(None)
 msgid ""
 "@@image: 'images/toolbox/tools-colorize.png'; "
 "md5=82c1caec103bea05c59a7ab02af73431"
@@ -2383,23 +2508,23 @@ msgstr ""
 msgid ""
 "or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-colorize-22.png\"/></guiicon> in Toolbox, provided that "
-"you have installed color tools in Toolbox. For this, go to <link linkend="
-"\"gimp-tools-dialog\">Tools Dialog</link>."
+"you have installed color tools in Toolbox. For this, please refer to <xref "
+"linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-colorize-22.png\"/></guiicon> im Werkzeugfenster, sofern "
-"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können Sie im "
-"Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> einstellen."
+"die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie dafür "
+"bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
-#: src/toolbox/color/colorize.xml:75(title)
+#: src/toolbox/color/colorize.xml:74(title)
 msgid "Colorize options"
 msgstr "Das Dialogfenster des Werkzeuges <quote>Einfärben</quote>"
 
-#: src/toolbox/color/colorize.xml:126(term)
+#: src/toolbox/color/colorize.xml:125(term)
 msgid "Select Color"
 msgstr "Farbe auswählen"
 
-#: src/toolbox/color/colorize.xml:130(para)
+#: src/toolbox/color/colorize.xml:129(para)
 msgid ""
 "<guilabel>Hue</guilabel>: The slider and the numeric text box allow you to "
 "select a hue in the HSV color circle (0 - 360)."
@@ -2409,7 +2534,7 @@ msgstr ""
 "Werte von mindestens 0 oder maximal 360 können sie über das Eingabefeld "
 "vornehmen. Standardmäßig ist der Farbton auf einen Wert von 180 eingestellt."
 
-#: src/toolbox/color/colorize.xml:136(para)
+#: src/toolbox/color/colorize.xml:135(para)
 msgid ""
 "<guilabel>Saturation</guilabel>: The slider and the input box allows you to "
 "select a saturation: 0 through 100."
@@ -2419,7 +2544,7 @@ msgstr ""
 "der Werte von mindestens 0 oder maximal 100 können Sie über das Eingabefeld "
 "vornehmen. Standardmäßig ist die Sättigung auf einen Wert von 50 eingestellt."
 
-#: src/toolbox/color/colorize.xml:142(para)
+#: src/toolbox/color/colorize.xml:141(para)
 msgid ""
 "<guilabel>Lightness</guilabel> : The slider and the text box allow you to "
 "select a value: -100 (dark) through 100 (light)."
@@ -2430,7 +2555,7 @@ msgstr ""
 "über das Eingabefeld vornehmen. Standardmäßig ist die Helligkeit auf einen "
 "Wert von 0 eingestellt."
 
-#: src/toolbox/color/colorize.xml:153(para)
+#: src/toolbox/color/colorize.xml:152(para)
 msgid ""
 "The Preview button makes all changes dynamically so that they can be viewed "
 "immediately."
@@ -2441,7 +2566,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/color-balance.xml:72(None)
+#: src/toolbox/color/color-balance.xml:71(None)
 msgid ""
 "@@image: 'images/toolbox/tools-color-balance.png'; "
 "md5=c66b6b3c52123f07cfdc5a4f73e35492"
@@ -2486,24 +2611,23 @@ msgstr ""
 msgid ""
 "by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
 "stock-tool-color-balance-22.png\"/></guiicon> in Toolbox, provided that you "
-"have installed color tools in Toolbox. For this, go to <link linkend=\"gimp-"
-"tools-dialog\">Tools Dialog</link>."
+"have installed color tools in Toolbox. For this, please refer to <xref "
+"linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-color-balance-22.png\"/></guiicon> im Werkzeugfenster, "
-"sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Dies können "
-"Sie im Dialog <link linkend=\"gimp-tools-dialog\">Werkzeuge</link> "
-"einstellen."
+"sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet sind. Lesen Sie "
+"dafür bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
-#: src/toolbox/color/color-balance.xml:69(title)
+#: src/toolbox/color/color-balance.xml:68(title)
 msgid "Color Balance options"
 msgstr "Das Dialogfenster des Werkzeuges <quote>Farbabgleich</quote>"
 
-#: src/toolbox/color/color-balance.xml:120(term)
+#: src/toolbox/color/color-balance.xml:119(term)
 msgid "Select range to adjust"
 msgstr "Den zu bearbeitenden Bereich wählen"
 
-#: src/toolbox/color/color-balance.xml:122(para)
+#: src/toolbox/color/color-balance.xml:121(para)
 msgid ""
 "Selecting one of these options will restrict the range of colors which are "
 "changed with the sliders or input boxes for Shadows (darkest pixels), "
@@ -2515,11 +2639,11 @@ msgstr ""
 "Beispielsweise verändern Sie bei ausgewählten <guilabel>Schatten</guilabel> "
 "nur sehr dunkle Bereiche des Bildes."
 
-#: src/toolbox/color/color-balance.xml:131(term)
+#: src/toolbox/color/color-balance.xml:130(term)
 msgid "Adjust color levels"
 msgstr "Die Farbwerte des gewählten Bereichs bearbeiten"
 
-#: src/toolbox/color/color-balance.xml:133(para)
+#: src/toolbox/color/color-balance.xml:132(para)
 msgid ""
 "Sliders and range from the three RGB colors to their complementary colors "
 "(CMY). The zero position corresponds to the current level value of pixels in "
@@ -2537,21 +2661,21 @@ msgstr ""
 "allerdings nur, wenn die Eigenschaft <quote>Helligkeit erhalten</quote> "
 "nicht aktiviert ist."
 
-#: src/toolbox/color/color-balance.xml:143(term)
+#: src/toolbox/color/color-balance.xml:142(term)
 msgid "Reset Range"
 msgstr "Bereich zurücksetzen"
 
-#: src/toolbox/color/color-balance.xml:145(para)
+#: src/toolbox/color/color-balance.xml:144(para)
 msgid ""
 "This button sets color levels of the selected range back to the zero "
 "position (original values)."
 msgstr "Diese Schaltfläche setzt die Farbwerte auf ihre Standardwerte zurück."
 
-#: src/toolbox/color/color-balance.xml:152(term)
+#: src/toolbox/color/color-balance.xml:151(term)
 msgid "Preserve Luminosity"
 msgstr "Helligkeit erhalten"
 
-#: src/toolbox/color/color-balance.xml:154(para)
+#: src/toolbox/color/color-balance.xml:153(para)
 msgid ""
 "This option ensures that brightness of the active layer or selection is "
 "maintained. The Value of brightest pixels is not changed."
@@ -2559,7 +2683,7 @@ msgstr ""
 "Wenn dieses Kontrollkästchen aktiviert ist, wird die Helligkeit des Bildes "
 "durch das Werkzeug konstant gehalten."
 
-#: src/toolbox/color/color-balance.xml:164(para)
+#: src/toolbox/color/color-balance.xml:163(para)
 msgid ""
 "The Preview checkbox toggles dynamic image updating. If this option is on, "
 "any change made to the RGB levels are immediately seen on the active "
@@ -2571,7 +2695,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/toolbox/color/brightness-contrast.xml:82(None)
+#: src/toolbox/color/brightness-contrast.xml:81(None)
 msgid ""
 "@@image: 'images/toolbox/tools-brightness.png'; "
 "md5=229e67ee956ed3e96edace0f3070589c"
@@ -2641,24 +2765,23 @@ msgstr ""
 msgid ""
 "by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
 "stock-tool-brightness-contrast-22.png\"/></guiicon> in Toolbox, provided "
-"that you have installed color tools in Toolbox. For this, go to <link "
-"linkend=\"gimp-tools-dialog\">Tools Dialog</link>."
+"that you have installed color tools in Toolbox. For this, please refer to "
+"<xref linkend=\"gimp-prefs-toolbox\"/>."
 msgstr ""
 "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref=\"images/"
 "toolbox/stock-tool-brightness-contrast-22.png\"/></guiicon> im "
 "Werkzeugfenster, sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet "
-"sind. Dies können Sie im Dialog <link linkend=\"gimp-tools-dialog"
-"\">Werkzeuge</link> einstellen."
+"sind. Lesen Sie dafür bitte <xref linkend=\"gimp-prefs-toolbox\"/>."
 
-#: src/toolbox/color/brightness-contrast.xml:79(title)
+#: src/toolbox/color/brightness-contrast.xml:78(title)
 msgid "Brightness-Contrast options dialog"
 msgstr "Das Dialogfenster des Werkzeuges <quote>Helligkeit / Kontrast</quote>"
 
-#: src/toolbox/color/brightness-contrast.xml:130(term)
+#: src/toolbox/color/brightness-contrast.xml:129(term)
 msgid "Brightness"
 msgstr "Helligkeit"
 
-#: src/toolbox/color/brightness-contrast.xml:132(para)
+#: src/toolbox/color/brightness-contrast.xml:131(para)
 msgid ""
 "This slider sets a negative (to darken) or positive (to brighten) value for "
 "the brightness, decreasing or increasing bright tones."
@@ -2667,11 +2790,11 @@ msgstr ""
 "nach rechts, um das Bild aufzuhellen. Das Eingabefeld dient der Werteingabe "
 "im Bereich -127 bis 127."
 
-#: src/toolbox/color/brightness-contrast.xml:139(term)
+#: src/toolbox/color/brightness-contrast.xml:138(term)
 msgid "Contrast"
 msgstr "Kontrast"
 
-#: src/toolbox/color/brightness-contrast.xml:141(para)
+#: src/toolbox/color/brightness-contrast.xml:140(para)
 msgid ""
 "This slider sets a negative (to decrease) or positive (to increase) value "
 "for the contrast."
@@ -2680,11 +2803,11 @@ msgstr ""
 "verringern, oder nach rechts, um ihn zu erhöhen. Das Eingabefeld dient der "
 "Werteingabe im Bereich -127 bis 127."
 
-#: src/toolbox/color/brightness-contrast.xml:148(term)
+#: src/toolbox/color/brightness-contrast.xml:147(term)
 msgid "Edit these settings as Levels"
 msgstr "Diese Einstellungen als Werte bearbeiten."
 
-#: src/toolbox/color/brightness-contrast.xml:150(para)
+#: src/toolbox/color/brightness-contrast.xml:149(para)
 msgid ""
 "To make your work easier, this button lets you turn to the <link linkend="
 "\"gimp-tool-levels\">Levels</link> tool with the same settings."
@@ -2692,7 +2815,7 @@ msgstr ""
 "Mit Hilfe dieser Schaltfläche wechseln Sie mit den aktuellen Einstellungen "
 "unmittelbar zum Werkzeug <link linkend=\"gimp-tool-levels\">Werte</link>."
 
-#: src/toolbox/color/brightness-contrast.xml:160(para)
+#: src/toolbox/color/brightness-contrast.xml:159(para)
 msgid ""
 "The Preview check-box makes all changes to the brightness and contrast "
 "dynamically so that the new level settings can be viewed immediately."
@@ -2708,4 +2831,18 @@ msgstr ""
 "Daniel Egger\n"
 "Roman Joost\n"
 "Axel Wernicke\n"
-"Ulf-D. Ehlert"
+"Ulf-D. Ehlert\n"
+"Daniel Winzen\n"
+"Christian Kirbach"
+
+#~ msgid ""
+#~ "By clicking on the tool icon <guiicon><inlinegraphic fileref=\"images/"
+#~ "toolbox/stock-tool-curves-22.png\"/></guiicon> in Toolbox, if this tool "
+#~ "has been installed there (see <link linkend=\"gimp-tools-dialog\">Tools "
+#~ "dialog</link>)."
+#~ msgstr ""
+#~ "mit einem Mausklick auf das Symbol <guiicon><inlinegraphic fileref="
+#~ "\"images/toolbox/stock-tool-curves-22.png\"/></guiicon> im "
+#~ "Werkzeugfenster, sofern die Farbwerkzeuge im Werkzeugfenster eingeblendet "
+#~ "sind. Dies können Sie im Dialog <link linkend=\"gimp-tools-dialog"
+#~ "\">Werkzeuge</link> einstellen."

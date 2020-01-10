@@ -1,18 +1,20 @@
 #
 # Ignacio AntI <ant dot ign at gmail dot com>, 2010, 2011.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP Manual\n"
-"POT-Creation-Date: 2011-03-31 18:35+0000\n"
-"PO-Revision-Date: 2011-09-15 11:01+0200\n"
+"POT-Creation-Date: 2012-08-31 00:30+0200\n"
+"PO-Revision-Date: 2012-07-10 13:37+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.4\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -118,7 +120,7 @@ msgstr "<quote>Recorte Zealous</quote> aplicado"
 
 #: src/menus/image/zealous-crop.xml:72(title)
 #: src/menus/image/transform-guillotine.xml:31(title)
-#: src/menus/image/scale.xml:49(title)
+#: src/menus/image/scale.xml:50(title)
 #: src/menus/image/properties.xml:22(title)
 #: src/menus/image/merge-layers.xml:38(title)
 #: src/menus/image/guides-remove.xml:28(title)
@@ -349,7 +351,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/scale.xml:70(None)
+#: src/menus/image/scale.xml:71(None)
 msgid ""
 "@@image: 'images/menus/image/scale-image.png'; "
 "md5=2fe36174e3a2145e2d46d0a61f86c8ab"
@@ -357,11 +359,11 @@ msgstr ""
 "@@image: 'images/menus/image/scale-image.png'; "
 "md5=2fe36174e3a2145e2d46d0a61f86c8ab"
 
-#: src/menus/image/scale.xml:11(title) src/menus/image/scale.xml:14(primary)
+#: src/menus/image/scale.xml:12(title) src/menus/image/scale.xml:15(primary)
 msgid "Scale Image"
 msgstr "Escalar la imagen"
 
-#: src/menus/image/scale.xml:17(para)
+#: src/menus/image/scale.xml:18(para)
 msgid ""
 "The <guimenuitem>Scale Image</guimenuitem> command enlarges or reduces the "
 "physical size of the image by changing the number of pixels it contains. It "
@@ -373,7 +375,7 @@ msgstr ""
 "Cambia el tamaño del contenido de la imagen y redimensiona el lienzo en "
 "consonancia."
 
-#: src/menus/image/scale.xml:23(para)
+#: src/menus/image/scale.xml:24(para)
 msgid ""
 "It operates on the entire image. If your image has layers of different "
 "sizes, making the image smaller could shrink some of them down to nothing, "
@@ -385,7 +387,7 @@ msgstr ""
 "debido a que una capa no puede tener menos de un píxel de anchura o altura. "
 "Si esto ocurre, se le avisará antes de que la operación se ejecute."
 
-#: src/menus/image/scale.xml:29(para)
+#: src/menus/image/scale.xml:30(para)
 msgid ""
 "If you only want to scale a particular layer, use the <link linkend=\"gimp-"
 "layer-scale\">Scale Layer</link> command."
@@ -393,27 +395,28 @@ msgstr ""
 "Si solo quiere escalar una capa en particular, use el comando <link linkend="
 "\"gimp-layer-scale\">Escalar capa</link>."
 
-#: src/menus/image/scale.xml:35(para)
+#: src/menus/image/scale.xml:36(para)
 msgid ""
 "If scaling would produce an image larger than the <quote>Maximum new image "
 "size</quote> set in the <link linkend=\"gimp-prefs-environment"
 "\">Environment</link> page of the Preferences dialog (which has a default of "
-"64Mb), you are warned and asked to confirm the operation before it is "
+"128 Mb), you are warned and asked to confirm the operation before it is "
 "performed. You may not experience any problems if you confirm the operation, "
 "but you should be aware that very large images consume a lot of resources "
 "and extremely large images may take more resources than you have, causing "
 "<acronym>GIMP</acronym> to crash or not perform well."
 msgstr ""
 "Si el escalado produce una imagen más grande que el <quote>Tamaño máximo "
-"para imagen nueva</quote> seleccionado en la página <link linkend=\"gimp-"
-"prefs-environment\">Entorno </link> en el diálogo preferencias (que tiene "
-"por omisión 64 Mb), será advertido y preguntado para confirmar la operación "
-"antes de ejecutarla. No tendrá problemas si confirma la operación, pero "
-"debería saber que las imágenes muy grandes consumen muchos recursos y que "
-"las extremadamente grandes podrían coger más recursos de los que tiene, "
-"provocando un error en El <acronym>GIMP</acronym> o un mal funcionamiento."
+"para imagen nueva</quote> establecido en la página <link linkend=\"gimp-"
+"prefs-environment\">Entorno </link> en el diálogo preferencias (que tiene un "
+"valor predeterminado de 64 MB), se le advertirá y se le preguntará para "
+"confirmar la operación antes de ejecutarla. No tendrá problemas si confirma "
+"la operación, pero debería saber que las imágenes muy grandes consumen "
+"muchos recursos y que las extremadamente grandes podrían coger más recursos "
+"de los que tiene, provocando un error en <acronym>GIMP</acronym> o un mal "
+"funcionamiento."
 
-#: src/menus/image/scale.xml:52(para)
+#: src/menus/image/scale.xml:53(para)
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Scale Image</guimenuitem></"
@@ -423,19 +426,19 @@ msgstr ""
 "<menuchoice><guimenu>Imagen</guimenu><guimenuitem>Escalar la imagen</"
 "guimenuitem></menuchoice>."
 
-#: src/menus/image/scale.xml:64(title)
+#: src/menus/image/scale.xml:65(title)
 msgid "The <quote>Scale Image</quote> Dialog"
 msgstr "El diálogo <quote>Escalar la imagen</quote>"
 
-#: src/menus/image/scale.xml:66(title)
+#: src/menus/image/scale.xml:67(title)
 msgid "The <quote>Scale Image</quote> dialog"
 msgstr "El diálogo <quote>Escalar la imagen</quote>"
 
-#: src/menus/image/scale.xml:77(term)
+#: src/menus/image/scale.xml:78(term)
 msgid "Image Size"
 msgstr "Tamaño de la imagen"
 
-#: src/menus/image/scale.xml:79(para)
+#: src/menus/image/scale.xml:80(para)
 msgid ""
 "You should keep in mind that an image can be located in one of four places: "
 "in the image file, in RAM after it has been loaded, on your screen when it "
@@ -451,7 +454,7 @@ msgstr ""
 "información) que contiene la imagen, así que afecta a la cantidad de memoria "
 "que necesita la imagen (en la RAM o en un archivo)."
 
-#: src/menus/image/scale.xml:87(para)
+#: src/menus/image/scale.xml:88(para)
 msgid ""
 "However printing size also depends upon the resolution of the image, which "
 "essentially determines how many pixels there will be on each inch of paper. "
@@ -471,7 +474,7 @@ msgstr ""
 "pantalla, del factor de ampliación y de la configuración de la opción <link "
 "linkend=\"gimp-view-dot-for-dot\">Punto por punto</link>."
 
-#: src/menus/image/scale.xml:99(para)
+#: src/menus/image/scale.xml:100(para)
 msgid ""
 "If you enlarge an image beyond its original size, <acronym>GIMP</acronym> "
 "calculates the missing pixels by interpolation, but it does not add any new "
@@ -492,7 +495,7 @@ msgstr ""
 "escanea, se hace una foto digital o se produce una imagen digital por otros "
 "medios. Las imágenes rasterizadas intrínsecamente no se agrandan bien."
 
-#: src/menus/image/scale.xml:111(para)
+#: src/menus/image/scale.xml:112(para)
 msgid ""
 "You may need to reduce your image if you intend to use it on a web page. You "
 "have to consider that most internet users have relatively small screens "
@@ -504,16 +507,16 @@ msgstr ""
 "pequeñas que no muestran completamente imágenes muy grandes. Muchas "
 "pantallas tienen una resolución de 1024x768 o menos."
 
-#: src/menus/image/scale.xml:117(para)
+#: src/menus/image/scale.xml:118(para)
 msgid "Adding or removing pixels is called <quote>Resampling</quote>."
 msgstr "Se llama <quote>Remuestrear</quote> a añadir o quitar píxeles."
 
-#: src/menus/image/scale.xml:122(term) src/menus/image/print-size.xml:85(term)
+#: src/menus/image/scale.xml:123(term) src/menus/image/print-size.xml:85(term)
 #: src/menus/image/canvas-size.xml:68(term)
 msgid "Width; Height"
 msgstr "Anchura; altura"
 
-#: src/menus/image/scale.xml:124(para)
+#: src/menus/image/scale.xml:125(para)
 msgid ""
 "When you click on the <guimenuitem>Scale</guimenuitem> command, the dialog "
 "displays the dimensions of the original image in pixels. You can set the "
@@ -531,7 +534,7 @@ msgstr ""
 "proporción entre ellas. Si rompe la cadena pulsando sobre ella, las puede "
 "seleccionar independientemente, pero esto distorsionará la imagen."
 
-#: src/menus/image/scale.xml:136(para)
+#: src/menus/image/scale.xml:137(para)
 msgid ""
 "However, you do not have to set the dimensions in pixels. You can choose "
 "different units from the drop-down menu. If you choose percent as the units, "
@@ -549,12 +552,12 @@ msgstr ""
 "<guilabel>resolución Y</guilabel> a los valores apropiados, porque se usan "
 "para convertir entre unidades físicas y dimensiones de la imagen en píxeles."
 
-#: src/menus/image/scale.xml:150(term)
+#: src/menus/image/scale.xml:151(term)
 #: src/menus/image/print-size.xml:104(term)
 msgid "X resolution; Y resolution"
 msgstr "Resolución X; resolución Y"
 
-#: src/menus/image/scale.xml:152(para)
+#: src/menus/image/scale.xml:153(para)
 msgid ""
 "You can set the printing resolution for the image in the <guilabel>X "
 "resolution</guilabel> and <guilabel>Y resolution</guilabel> fields. You can "
@@ -564,11 +567,11 @@ msgstr ""
 "<guilabel>resolución X</guilabel> y <guilabel>resolución Y</guilabel>. "
 "También puede cambiar la unidad de medida usando el menú desplegable."
 
-#: src/menus/image/scale.xml:165(term)
+#: src/menus/image/scale.xml:166(term)
 msgid "Quality"
 msgstr "Calidad"
 
-#: src/menus/image/scale.xml:167(para)
+#: src/menus/image/scale.xml:168(para)
 msgid ""
 "To change the image size, either some pixels have to be removed or new "
 "pixels must be added. The process you use determines the quality of the "
@@ -582,11 +585,11 @@ msgstr ""
 "de los métodos disponibles de la interpolación del color de los píxeles en "
 "una imagen escalada:"
 
-#: src/menus/image/scale.xml:176(term)
+#: src/menus/image/scale.xml:177(term)
 msgid "Interpolation"
 msgstr "Interpolación"
 
-#: src/menus/image/scale.xml:180(para)
+#: src/menus/image/scale.xml:181(para)
 msgid ""
 "<guilabel>None</guilabel>: No interpolation is used. Pixels are simply "
 "enlarged or removed, as they are when zooming. This method is low quality, "
@@ -596,7 +599,7 @@ msgstr ""
 "simplemente se agrandan o se quitan, como si fueran ampliados. Este método "
 "da una baja calidad pero es muy rápido."
 
-#: src/menus/image/scale.xml:187(para)
+#: src/menus/image/scale.xml:188(para)
 msgid ""
 "<guilabel>Linear</guilabel>: This method is relatively fast, but still "
 "provides fairly good results."
@@ -604,7 +607,7 @@ msgstr ""
 "<guilabel>Lineal</guilabel>: Este método es relativamente rápido, pero "
 "produce resultados discretamente buenos."
 
-#: src/menus/image/scale.xml:192(para)
+#: src/menus/image/scale.xml:193(para)
 msgid ""
 "<guilabel>Cubic</guilabel>: The method that produces the best results, but "
 "also the slowest method."
@@ -612,7 +615,7 @@ msgstr ""
 "<guilabel>Cúbica</guilabel>: El método que produce los mejores resultados "
 "pero también el más lento."
 
-#: src/menus/image/scale.xml:198(para)
+#: src/menus/image/scale.xml:199(para)
 msgid ""
 "<guilabel>Sinc (Lanczos 3)</guilabel>: New with GIMP-2.4, this method gives "
 "less blur in important resizings."
@@ -620,7 +623,7 @@ msgstr ""
 "<guilabel>Sinc (Lanczos 3)</guilabel>: Nuevo en GIMP-2.4, este método da "
 "menos desenfoque en redimensionados importantes."
 
-#: src/menus/image/scale.xml:211(para)
+#: src/menus/image/scale.xml:212(para)
 msgid ""
 "See also the <link linkend=\"gimp-tool-scale\">Scale tool</link>, which lets "
 "you scale a layer, a selection or a path."
@@ -906,14 +909,15 @@ msgstr "El diálogo <quote>Tamaño de la impresión</quote>"
 #: src/menus/image/print-size.xml:64(para)
 msgid ""
 "The output resolution determines the number of pixels used per unit length "
-"for the printed image. Do not confuse the output resolution with the printer "
-"resolution, which is expressed in dpi (dots per inch); several dots are used "
-"to print a pixel."
+"for the printed image. Do not confuse the output resolution with the "
+"printer's resolution, which is a printer feature and expressed in dpi (dots "
+"per inch); several dots are used to print a pixel."
 msgstr ""
 "La resolución de la salida determina el número de píxeles usados por la "
-"unidad de longitud para la imagen impresa. No confundir la resolución de la "
-"salida con la resolución de impresión, que se expresa en dpi (puntos por "
-"pulgada); se utilizan varios puntos para imprimir un píxel."
+"unidad de longitud para la imagen impresa. No confunda la resolución de la "
+"salida con la resolución de impresión, que es una característica de la "
+"impresora que se expresa en dpi (puntos por pulgada); se utilizan varios "
+"puntos para imprimir un píxel."
 
 #: src/menus/image/print-size.xml:70(para)
 msgid ""
@@ -1075,17 +1079,17 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:69(None)
+#: src/menus/image/merge-layers.xml:67(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible.png'; "
-"md5=b759280b40e6f8efb61dde9e609bb460"
+"md5=71c0009b662b6eda320b9d3147423a73"
 msgstr ""
 "@@image: 'images/menus/image/merge-visible.png'; "
-"md5=b759280b40e6f8efb61dde9e609bb460"
+"md5=71c0009b662b6eda320b9d3147423a73"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:124(None)
+#: src/menus/image/merge-layers.xml:132(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible-ex1.png'; "
 "md5=b00e2b465a01a3b41988ff1486125d60"
@@ -1095,7 +1099,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:133(None)
+#: src/menus/image/merge-layers.xml:141(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible-ex2.png'; "
 "md5=8c66ec83471118f2b08124802efaea9b"
@@ -1105,7 +1109,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:144(None)
+#: src/menus/image/merge-layers.xml:152(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible-ex3.png'; "
 "md5=402ceee61292585717828684f4378415"
@@ -1171,20 +1175,20 @@ msgstr ""
 "o usando la combinación de teclas <keycombo><keycap>Ctrl</keycap><keycap>M</"
 "keycap></keycombo>."
 
-#. dialog title differs from command name (GIMP-2.6.7)
-#: src/menus/image/merge-layers.xml:60(title)
-msgid "Description of the <quote>Merge Layers</quote> Dialog"
-msgstr "Descripción del diálogo <quote>Combinar las capas</quote>"
+#: src/menus/image/merge-layers.xml:59(title)
+msgid "Description of the <quote>Layers merge Options</quote> Dialog"
+msgstr ""
+"Descripción del diálogo <quote>Opciones de combinación de capas</quote>"
 
-#: src/menus/image/merge-layers.xml:64(title)
-msgid "The <quote>Merge Layers</quote> Dialog"
-msgstr "El diálogo <quote>Combinar las capas</quote>"
+#: src/menus/image/merge-layers.xml:63(title)
+msgid "The <quote>Layers Merge Options</quote> Dialog"
+msgstr "El diálogo <quote>Opciones de combinación de capas</quote>"
 
-#: src/menus/image/merge-layers.xml:75(term)
+#: src/menus/image/merge-layers.xml:73(term)
 msgid "Final, Merged Layer should be:"
 msgstr "La capa final combinada debería ser:"
 
-#: src/menus/image/merge-layers.xml:77(para)
+#: src/menus/image/merge-layers.xml:75(para)
 msgid ""
 "Visible layers are the layers which are marked with an <quote>eye</quote> "
 "icon in the Layers dialog."
@@ -1192,7 +1196,7 @@ msgstr ""
 "Las capas visibles son las que están marcadas con un icono <quote>ojo</"
 "quote> en el diálogo de capas."
 
-#: src/menus/image/merge-layers.xml:83(para)
+#: src/menus/image/merge-layers.xml:81(para)
 msgid ""
 "<emphasis>Expanded as necessary</emphasis>: The final layer is large enough "
 "to contain all of the merged layers. Please note that a layer in "
@@ -1202,7 +1206,7 @@ msgstr ""
 "grande para contener todas las capas combinadas. Tenga en cuenta que en el "
 "<acronym>GIMP</acronym> una capa puede ser más grande que la imagen."
 
-#: src/menus/image/merge-layers.xml:92(para)
+#: src/menus/image/merge-layers.xml:90(para)
 msgid ""
 "<emphasis>Clipped to image</emphasis>: The final layer is the same size as "
 "the image. Remember that layers in <acronym>GIMP</acronym> can be larger "
@@ -1214,7 +1218,7 @@ msgstr ""
 "puede ser más grande que la imagen. Cualquier capa en la imagen que sea más "
 "grande que la imagen se recorta con esta opción."
 
-#: src/menus/image/merge-layers.xml:101(para)
+#: src/menus/image/merge-layers.xml:99(para)
 msgid ""
 "<emphasis>Clipped to bottom layer</emphasis>: The final layer is the same "
 "size as the bottom layer. If the bottom layer is smaller than some of the "
@@ -1226,11 +1230,20 @@ msgstr ""
 "alguna de las capas visibles, la capa final se recorta y se ajusta al tamaño "
 "y la posición de la capa inferior."
 
-#: src/menus/image/merge-layers.xml:113(term)
+#: src/menus/image/merge-layers.xml:112(term)
+msgid "Merge within active group only"
+msgstr "Mezclar solamente dentro del grupo activo"
+
+#: src/menus/image/merge-layers.xml:114(para)
+msgid "This self-explanatory option is enabled when a layer group exists."
+msgstr ""
+"Esta opción autoexplicativa está activada cuando existe un grupo de capas."
+
+#: src/menus/image/merge-layers.xml:121(term)
 msgid "Discard invisible layers"
 msgstr "Descartar las capas invisibles"
 
-#: src/menus/image/merge-layers.xml:115(para)
+#: src/menus/image/merge-layers.xml:123(para)
 msgid ""
 "When this option is checked, non visible layers are removed from the layer "
 "stack."
@@ -1238,19 +1251,19 @@ msgstr ""
 "Cuando esta opción está marcada, las capas invisibles se quitan de la pila "
 "de capas."
 
-#: src/menus/image/merge-layers.xml:120(title)
+#: src/menus/image/merge-layers.xml:128(title)
 msgid "<quote>Merge visible layers</quote> example"
 msgstr "Ejemplo de <quote>Combinar las capas visibles</quote>"
 
-#: src/menus/image/merge-layers.xml:127(para)
+#: src/menus/image/merge-layers.xml:135(para)
 msgid "Three layers; two are visible"
 msgstr "Tres capas; dos son visibles"
 
-#: src/menus/image/merge-layers.xml:136(para)
+#: src/menus/image/merge-layers.xml:144(para)
 msgid "<quote>Discard invisible layers</quote> unchecked"
 msgstr "<quote>Descartar capas invisibles</quote> sin marcar"
 
-#: src/menus/image/merge-layers.xml:147(para)
+#: src/menus/image/merge-layers.xml:155(para)
 msgid "<quote>Discard invisible layers</quote> checked"
 msgstr "<quote>Descartar capas invisibles</quote> marcada"
 
@@ -2395,7 +2408,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:309(None)
+#: src/menus/image/canvas-size.xml:315(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex4.png'; "
 "md5=9f6d98883e41848510ad04b284999c26"
@@ -2405,7 +2418,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:324(None)
+#: src/menus/image/canvas-size.xml:330(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex5.png'; "
 "md5=ea89ab944513d03214f85e750ded5334"
@@ -2735,14 +2748,24 @@ msgid "What's Canvas Size useful for?"
 msgstr "¿Para que es útil el tamaño del lienzo?"
 
 #: src/menus/image/canvas-size.xml:303(para)
-msgid "You can use this command to crop an image:"
-msgstr "Puede usar este comando para recortar una imagen:"
+msgid ""
+"You may want to add some stuff around your image: enlarge canvas size, add a "
+"new layer that will have the same size as the new canvas and then paint this "
+"new layer. That's the converse of cropping."
+msgstr ""
+"Puede querer añadir algo alrededor de su imagen: agrandar el tamaño del "
+"lienzo, añadir una capa nueva que tendrá el mismo tamaño del lienzo nuevo y "
+"pintar en esta capa. Esto es lo contrario de recortar."
 
-#: src/menus/image/canvas-size.xml:305(title)
+#: src/menus/image/canvas-size.xml:309(para)
+msgid "You can also use this command to crop an image:"
+msgstr "También puede usar este comando para recortar una imagen:"
+
+#: src/menus/image/canvas-size.xml:311(title)
 msgid "Resizing canvas"
 msgstr "Redimensionar el lienzo"
 
-#: src/menus/image/canvas-size.xml:313(para)
+#: src/menus/image/canvas-size.xml:319(para)
 msgid ""
 "Click on the chain next to Width and Height entries to unlink dimensions. By "
 "modifying these dimensions and moving image against canvas, by trial and "
@@ -2755,11 +2778,11 @@ msgstr ""
 "imagen que quiera. Pulse en el botón central y después en el botón de "
 "redimensionar."
 
-#: src/menus/image/canvas-size.xml:320(title)
+#: src/menus/image/canvas-size.xml:326(title)
 msgid "Cropped image"
 msgstr "Imagen recortada"
 
-#: src/menus/image/canvas-size.xml:329(para)
+#: src/menus/image/canvas-size.xml:335(para)
 msgid "The <link linkend=\"gimp-tool-crop\">Crop tool</link> is easier to use."
 msgstr ""
 "La <link linkend=\"gimp-tool-crop\">Herramienta de recorte</link> es más "
@@ -2853,51 +2876,61 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/align-layers.xml:47(None)
-#: src/menus/image/align-layers.xml:134(None)
-#: src/menus/image/align-layers.xml:162(None)
-#: src/menus/image/align-layers.xml:209(None)
-#: src/menus/image/align-layers.xml:241(None)
-#: src/menus/image/align-layers.xml:275(None)
-msgid ""
-"@@image: 'images/menus/image/align-demo.png'; "
-"md5=1e87c0ed481e029df3395a50af940869"
-msgstr ""
-"@@image: 'images/menus/image/align-demo.png'; "
-"md5=1e87c0ed481e029df3395a50af940869"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:92(None)
-msgid ""
-"@@image: 'images/menus/image/align-layers.png'; "
-"md5=2505bd2bff5ef0a36f5a219b2a5eeeb3"
-msgstr ""
-"@@image: 'images/menus/image/align-layers.png'; "
-"md5=2505bd2bff5ef0a36f5a219b2a5eeeb3"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:143(None)
-msgid ""
-"@@image: 'images/menus/image/alignHCLB-.png'; "
-"md5=77a6d29d54d34408f0da3ae3523aee91"
-msgstr ""
-"@@image: 'images/menus/image/alignHCLB-.png'; "
-"md5=77a6d29d54d34408f0da3ae3523aee91"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:144(None)
 #: src/menus/image/align-layers.xml:172(None)
-msgid ""
-"@@image: 'images/menus/image/alignHCLB+.png'; "
-"md5=d69e3722bf945455440bc14ec3c2d8a7"
-msgstr ""
-"@@image: 'images/menus/image/alignHCLB+.png'; "
-"md5=d69e3722bf945455440bc14ec3c2d8a7"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/align-layers.xml:219(None)
+#: src/menus/image/align-layers.xml:251(None)
+#: src/menus/image/align-layers.xml:285(None)
+msgid ""
+"@@image: 'images/menus/image/align-demo.png'; "
+"md5=1e87c0ed481e029df3395a50af940869"
+msgstr ""
+"@@image: 'images/menus/image/align-demo.png'; "
+"md5=1e87c0ed481e029df3395a50af940869"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:87(None)
+msgid ""
+"@@image: 'images/menus/image/align-no-layer.png'; "
+"md5=f758e162de05fd07537abbef8d94840f"
+msgstr ""
+"@@image: 'images/menus/image/align-no-layer.png'; "
+"md5=f758e162de05fd07537abbef8d94840f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:102(None)
+msgid ""
+"@@image: 'images/menus/image/align-layers.png'; "
+"md5=2505bd2bff5ef0a36f5a219b2a5eeeb3"
+msgstr ""
+"@@image: 'images/menus/image/align-layers.png'; "
+"md5=2505bd2bff5ef0a36f5a219b2a5eeeb3"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:153(None)
+msgid ""
+"@@image: 'images/menus/image/alignHCLB-.png'; "
+"md5=77a6d29d54d34408f0da3ae3523aee91"
+msgstr ""
+"@@image: 'images/menus/image/alignHCLB-.png'; "
+"md5=77a6d29d54d34408f0da3ae3523aee91"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:182(None)
+msgid ""
+"@@image: 'images/menus/image/alignHCLB+.png'; "
+"md5=d69e3722bf945455440bc14ec3c2d8a7"
+msgstr ""
+"@@image: 'images/menus/image/alignHCLB+.png'; "
+"md5=d69e3722bf945455440bc14ec3c2d8a7"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:229(None)
 msgid ""
 "@@image: 'images/menus/image/alignHFLB-.png'; "
 "md5=0992e4e1d3fb559032ae6dc72f0bf37a"
@@ -2907,7 +2940,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:250(None)
+#: src/menus/image/align-layers.xml:260(None)
 msgid ""
 "@@image: 'images/menus/image/alignHFLB+.png'; "
 "md5=623ee83be73b978062bea373cc6c2c39"
@@ -2917,7 +2950,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:284(None)
+#: src/menus/image/align-layers.xml:294(None)
 msgid ""
 "@@image: 'images/menus/image/alignVFBB+.png'; "
 "md5=79992594a816b16cffef2b3fd0ddf487"
@@ -2994,27 +3027,33 @@ msgstr ""
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Align Visible layers</"
-"guimenuitem></menuchoice>. There is no default keyboard shortcut. The dialog "
-"doesn't show up if the image holds a single layer only."
+"guimenuitem></menuchoice>. There is no default keyboard shortcut. If the "
+"image holds a single layer only, you get a message from GIMP telling that "
+"there must be more than one layer in the image to execute the command."
 msgstr ""
 "Puede acceder a este comando desde la barra del menú de la imagen a través "
 "de  <menuchoice><guimenu>Imagen</guimenu><guimenuitem>Alinear capas "
 "visibles</guimenuitem></menuchoice>. No tiene atajo de teclado predefinido. "
-"El diálogo no aparece si la imagen sólo tiene una única capa."
+"Si la imagen sólo contiene una capa, obtendrá un mensaje de GIMP diciendo "
+"que debe haber más de una capa en la imagen para ejecutar el comando."
 
-#: src/menus/image/align-layers.xml:84(title)
+#: src/menus/image/align-layers.xml:83(title)
+msgid "The <quote>Not enough layers</quote> message"
+msgstr "El mensaje <quote>No hay capas suficientes</quote>"
+
+#: src/menus/image/align-layers.xml:94(title)
 msgid "Description of the <quote>Align Visible Layers</quote> dialog"
 msgstr "Descripción del diálogo <quote>Alinear capas visibles</quote>"
 
-#: src/menus/image/align-layers.xml:88(title)
+#: src/menus/image/align-layers.xml:98(title)
 msgid "The <quote>Align Visible Layers</quote> dialog"
 msgstr "El diálogo <quote>Alinear capas visibles</quote>"
 
-#: src/menus/image/align-layers.xml:98(term)
+#: src/menus/image/align-layers.xml:108(term)
 msgid "Horizontal Style; Vertical Style"
 msgstr "Estilo horizontal; estilo vertical"
 
-#: src/menus/image/align-layers.xml:100(para)
+#: src/menus/image/align-layers.xml:110(para)
 msgid ""
 "These options control how the layers should be moved in relationship to each "
 "other. You can choose:"
@@ -3022,7 +3061,7 @@ msgstr ""
 "Estas opciones controlan como se deberán mover las capas en relación con las "
 "otras. Puede elegir:"
 
-#: src/menus/image/align-layers.xml:106(para)
+#: src/menus/image/align-layers.xml:116(para)
 msgid ""
 "<guilabel>None</guilabel>: There will be no change in the horizontal or the "
 "vertical position, respectively."
@@ -3030,7 +3069,7 @@ msgstr ""
 "<guilabel>Ninguna</guilabel>: no habrá cambios en las posiciones horizontal "
 "o vertical, respectivamente."
 
-#: src/menus/image/align-layers.xml:113(para)
+#: src/menus/image/align-layers.xml:123(para)
 msgid ""
 "<guilabel>Collect</guilabel>: The visible layers will be aligned on the "
 "canvas, in the way that is determined by the <guilabel>Horizontal base</"
@@ -3050,20 +3089,20 @@ msgstr ""
 "inferior (invisible) como base</guilabel>, las capas se alinearán en la "
 "esquina superior izquierda de la capa inferior."
 
-#: src/menus/image/align-layers.xml:127(title)
+#: src/menus/image/align-layers.xml:137(title)
 msgid "Horizontal <quote>Collect</quote> alignment (on the edge of the canvas)"
 msgstr ""
 "Alineación horizontal <quote>Recolectar</quote> (sobre el borde del lienzo)"
 
-#: src/menus/image/align-layers.xml:137(para)
-#: src/menus/image/align-layers.xml:165(para)
-#: src/menus/image/align-layers.xml:212(para)
-#: src/menus/image/align-layers.xml:244(para)
-#: src/menus/image/align-layers.xml:278(para)
+#: src/menus/image/align-layers.xml:147(para)
+#: src/menus/image/align-layers.xml:175(para)
+#: src/menus/image/align-layers.xml:222(para)
+#: src/menus/image/align-layers.xml:254(para)
+#: src/menus/image/align-layers.xml:288(para)
 msgid "Original image with the layer stack"
 msgstr "Imagen original con la pila de capas"
 
-#: src/menus/image/align-layers.xml:146(para)
+#: src/menus/image/align-layers.xml:156(para)
 msgid ""
 "The layers have been moved horizontally so that their left edges are aligned "
 "with the left edge of the canvas."
@@ -3071,12 +3110,12 @@ msgstr ""
 "Las capas se han movido horizontalmente para que los bordes izquierdos se "
 "alineen con el borde izquierdo del lienzo."
 
-#: src/menus/image/align-layers.xml:155(title)
+#: src/menus/image/align-layers.xml:165(title)
 msgid "Horizontal <quote>Collect</quote> alignment (on the bottom layer)"
 msgstr ""
 "Alineación horizontal <quote>Recolectar</quote> (sobre la capa del fondo)"
 
-#: src/menus/image/align-layers.xml:175(para)
+#: src/menus/image/align-layers.xml:185(para)
 msgid ""
 "The layers have been moved horizontally so that their left edges align with "
 "the left edge of the bottom layer."
@@ -3084,7 +3123,7 @@ msgstr ""
 "Las capas se han movido horizontalmente para que los bordes izquierdos se "
 "alineen con el borde izquierdo de la capa del fondo."
 
-#: src/menus/image/align-layers.xml:185(para)
+#: src/menus/image/align-layers.xml:195(para)
 msgid ""
 "<guilabel>Fill (left to right)</guilabel>; <guilabel>Fill (top to bottom)</"
 "guilabel>: The visible layers will be aligned with the canvas according to "
@@ -3110,11 +3149,11 @@ msgstr ""
 "como base </guilabel>, las capas se alinearán con el borde correspondiente "
 "de la capa inferior."
 
-#: src/menus/image/align-layers.xml:203(title)
+#: src/menus/image/align-layers.xml:213(title)
 msgid "Horizontal <quote>Fill</quote> alignment (canvas)"
 msgstr "Alineación horizontal <quote>Rellenar</quote> (lienzo)"
 
-#: src/menus/image/align-layers.xml:222(para)
+#: src/menus/image/align-layers.xml:232(para)
 msgid ""
 "Horizontal filling alignment, Left to Right, with <guilabel>Use the "
 "(invisible) bottom layer as the base</guilabel> option not checked. The top "
@@ -3128,11 +3167,11 @@ msgstr ""
 "izquierda. La capa inferior en la pila, la roja, se sitúa a la derecha y la "
 "capa amarilla se sitúa entre las otras dos."
 
-#: src/menus/image/align-layers.xml:235(title)
+#: src/menus/image/align-layers.xml:245(title)
 msgid "Horizontal <quote>Fill</quote> alignment (bottom layer)"
 msgstr "Alineación horizontal <quote>Rellenar</quote> (capa inferior)"
 
-#: src/menus/image/align-layers.xml:253(para)
+#: src/menus/image/align-layers.xml:263(para)
 msgid ""
 "The same parameters as in the previous example, but with the lowest (blue) "
 "level as the base."
@@ -3140,7 +3179,7 @@ msgstr ""
 "Los mismos parámetros como en el ejemplo anterior, pero con el nivel más "
 "bajo (azul) como base."
 
-#: src/menus/image/align-layers.xml:262(para)
+#: src/menus/image/align-layers.xml:272(para)
 msgid ""
 "<guilabel>Fill (right to left)</guilabel>; <guilabel>Fill (bottom to top)</"
 "guilabel>: These settings work similarly to the ones described above, but "
@@ -3150,18 +3189,18 @@ msgstr ""
 "(de abajo a arriba)</guilabel>: Esta configuración funciona de manera "
 "similar a las descritas antes, pero se rellena en la dirección opuesta."
 
-#: src/menus/image/align-layers.xml:269(title)
+#: src/menus/image/align-layers.xml:279(title)
 msgid "Vertical <quote>Fill</quote> alignment (bottom layer)"
 msgstr "Alineación vertical <quote>Rellenar</quote> (capa inferior)"
 
-#: src/menus/image/align-layers.xml:287(para)
+#: src/menus/image/align-layers.xml:297(para)
 msgid ""
 "Vertical <quote>Fill</quote> alignment, bottom to top, bottom layer as base"
 msgstr ""
 "Alineación vertical <quote>Rellenar</quote>, inferior a superior, capa "
 "inferior como base"
 
-#: src/menus/image/align-layers.xml:294(para)
+#: src/menus/image/align-layers.xml:304(para)
 msgid ""
 "There must be at least three visible layers in the image to use the "
 "<quote>Fill</quote> options."
@@ -3173,6 +3212,16 @@ msgstr ""
 #: src/menus/image/align-layers.xml:0(None)
 msgid "translator-credits"
 msgstr "Ignacio AntI <ant.ign@gmail.com>, 2010"
+
+#~ msgid ""
+#~ "@@image: 'images/menus/image/merge-visible.png'; "
+#~ "md5=b759280b40e6f8efb61dde9e609bb460"
+#~ msgstr ""
+#~ "@@image: 'images/menus/image/merge-visible.png'; "
+#~ "md5=b759280b40e6f8efb61dde9e609bb460"
+
+#~ msgid "Description of the <quote>Merge Layers</quote> Dialog"
+#~ msgstr "Descripción del diálogo <quote>Combinar las capas</quote>"
 
 #~ msgid "@@image: 'images/menus/image.png'; md5=THIS FILE DOESN'T EXIST"
 #~ msgstr " "
@@ -3384,12 +3433,6 @@ msgstr "Ignacio AntI <ant.ign@gmail.com>, 2010"
 #~ "<menuchoice><guimenu><accel>I</accel>magen</"
 #~ "guimenu><guimenuitem>Configurar la <accel>r</accel>ejilla</guimenuitem></"
 #~ "menuchoice>."
-
-#~ msgid "Description of the <quote>Layer Align</quote> dialog"
-#~ msgstr "Descripción del diálogo <quote>Alinear capa</quote>"
-
-#~ msgid "The <quote>Layer Align</quote> dialog"
-#~ msgstr "El diálogo <quote>Alinear capa</quote>"
 
 #~ msgid "2007-11-07"
 #~ msgstr "2007-12-01"

@@ -7,15 +7,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP Manual\n"
-"POT-Creation-Date: 2012-06-01 18:50+1000\n"
-"PO-Revision-Date: 2012-05-08 12:44+0200\n"
+"POT-Creation-Date: 2012-12-09 06:57+0000\n"
+"PO-Revision-Date: 2012-12-16 20:01+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.5\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -335,10 +336,15 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/variable-size-brush.xml:42(None)
+#| msgid ""
+#| "@@image: 'images/using/stretch-shrink-cursor.png'; "
+#| "md5=b70a76fbfbd80f1063e6a0e86ba559d1"
 msgid ""
 "@@image: 'images/using/stretch-shrink-cursor.png'; "
-"md5=b70a76fbfbd80f1063e6a0e86ba559d1"
-msgstr " "
+"md5=edadb8b7d447b4f283c904702df0f125"
+msgstr ""
+"@@image: 'images/using/stretch-shrink-cursor.png'; "
+"md5=edadb8b7d447b4f283c904702df0f125"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -637,10 +643,10 @@ msgstr ""
 #: src/using/variable-size-brush.xml:230(para)
 msgid ""
 "Save it with a <guilabel>.gbr</guilabel> extension in the directory "
-"<guilabel>/home/name_of_user/.gimp-2.6/brushes/</guilabel>."
+"<guilabel>/home/name_of_user/.gimp-2.8/brushes/</guilabel>."
 msgstr ""
 "Guárdela con una extensión <guilabel>.gbr</guilabel> en la carpeta "
-"<guilabel>/home/nombre_del_usuario/.gimp-2.6/brushes/</guilabel>."
+"<guilabel>/home/nombre_del_usuario/.gimp-2.8/brushes/</guilabel>."
 
 #: src/using/variable-size-brush.xml:234(para)
 msgid ""
@@ -707,6 +713,9 @@ msgid ""
 "You get this box, which overlays canvas, as soon as you click on canvas with "
 "the Text Tool. It allows you to edit text directly on canvas."
 msgstr ""
+"Verá esta caja, que se superpone al lienzo, tan pronto como pulse en el "
+"lienzo con la herramienta de texto. Le permite editar texto directamente en "
+"el lienzo."
 
 #: src/using/text-tool-box.xml:31(para)
 msgid ""
@@ -714,26 +723,31 @@ msgid ""
 "size selectors you get numeric control over baseline offset and kerning, as "
 "well as the ability to change text color for a selection."
 msgstr ""
+"Además de las características habituales de formateado de texto, como la "
+"tipografía, el estilo y los selectores de tamaño, tiene control numérico "
+"sobre el desplazamiento de la línea base y el interlineado, así como la "
+"posibilidad de cambiar el color del texto para una selección."
 
 #: src/using/text-tool-box.xml:36(para)
 msgid "Help pop-ups are self-explanatory."
 msgstr "Las ayudas emergentes son autoexplicativas."
 
 #: src/using/text-tool-box.xml:39(para)
-#, fuzzy
 msgid ""
 "You can also use <keycombo><keycap>Alt</keycap><keycap>Arrow keys</keycap></"
 "keycombo> to change baseline offset and kerning."
 msgstr ""
-"Lo mejor es que utilice la secuencia <keycombo><keycap>Ctrl</"
-"keycap><keycap>Alt</keycap><keycap>Tecla</keycap></keycombo> para sus atajos "
-"personalizados."
+"También puede usar <keycombo><keycap>Alt</keycap><keycap>Teclas de flechas</"
+"keycap></keycombo> para cambiar el desplazamiento de la línea base y el "
+"interlineado."
 
 #: src/using/text-tool-box.xml:44(para)
 msgid ""
 "These features work on selected text. You get weird effects if no text is "
 "selected."
 msgstr ""
+"Estas características funcionan sobre el texto seleccionado. Puede obtener "
+"efectos no deseados si no hay ningún texto seleccionado."
 
 #: src/using/text-tool-box.xml:51(title)
 msgid "Text Tool Box Context menu"
@@ -1168,19 +1182,21 @@ msgstr ""
 #: src/using/shortcuts.xml:110(para)
 msgid ""
 "Custom Keyboard shortcuts are stored in one of Gimp's hidden directory "
-"(<filename class=\"directory\">/home/[username]/.gimp-2.6/menurc</filename>) "
+"(<filename class=\"directory\">/home/[username]/.gimp-2.8/menurc</filename>) "
 "under Linux, and <filename class=\"directory\" role=\"html\">C:"
-"\\Documents and Settings\\[Username]\\.gimp-2.6\\menurc</filename><filename "
+"\\Documents and Settings\\[Username]\\.gimp-2.8\\menurc</filename><filename "
 "class=\"directory\" role=\"tex\">C:\\\\Documents and Settings\\\\[Username]\\"
-"\\.gimp-2.6\\\\menurc</filename> under Windows XP. It is a simple text file "
+"\\.gimp-2.8\\\\menurc</filename> under Windows XP. It is a simple text file "
 "that you can transport from one computer to another."
 msgstr ""
 "Los atajos de teclado personalizados se almacenan en una carpeta oculta de "
-"GIMP (<filename class=\"directory\">/home/[nombre-usuario]/.gimp-2.6/menurc</"
-"filename>) en Linux, y (<filename class=\"directory\">C:\\\\Documents and "
-"Settings\\\\[nombre-usuario]\\\\.gimp-2.6\\menurc </filename>) en Windows "
-"XP. Es un sencillo archivo de texto que puede transportar de un equipo a "
-"otro."
+"GIMP (<filename class=\"directory\">/home/[nombre-usuario]/.gimp-2.8/menurc</"
+"filename>) en Linux, y <filename class=\"directory\" role=\"html\">C:"
+"\\Documents and Settings\\[nombre-usuario]\\.gimp-2.8\\menurc</"
+"filename><filename class=\"directory\" role=\"tex\">C:\\"
+"\\Documents and Settings\\\\[nombre-usuario]\\\\.gimp-2.8\\\\menurc</"
+"filename> en Windows XP. Es un sencillo archivo de texto que puede "
+"transportar de un equipo a otro."
 
 #: src/using/setup.xml:12(title)
 msgid "How to Set Your Tile Cache"
@@ -3010,22 +3026,22 @@ msgstr ""
 
 #: src/using/script-fu-tutorial.xml:658(para)
 msgid ""
-"In the <filename class=\"directory\">.gimp-2.6</filename> directory that "
+"In the <filename class=\"directory\">.gimp-2.8</filename> directory that "
 "<acronym>GIMP</acronym> made off of your home directory, you should find a "
 "directory called <filename class=\"directory\">scripts</filename>. "
 "<acronym>GIMP</acronym> will automatically look in your <filename class="
-"\"directory\">.gimp-2.6</filename> directory for a <filename class="
+"\"directory\">.gimp-2.8</filename> directory for a <filename class="
 "\"directory\">scripts</filename> directory, and add the scripts in this "
 "directory to the Script-Fu database. You should place your personal scripts "
 "here."
 msgstr ""
-"En la carpeta <filename class=\"directory\">.gimp-2.6</filename>, que "
+"En la carpeta <filename class=\"directory\">.gimp-2.8</filename>, que "
 "<acronym>GIMP</acronym> crea en su carpeta personal, debería encontrar una "
 "carpeta llamada <filename class=\"directory\">scripts</filename>. "
 "<acronym>GIMP</acronym>, buscará automáticamente en su carpeta <filename "
-"class=\"directory\">.gimp-2.6</filename>, la carpeta de scripts, y añadirá "
-"los scripts de esta carpeta a la base de datos de Script-Fu. Debería situar "
-"sus scripts personales aquí."
+"class=\"directory\">.gimp-2.8</filename> la carpeta <filename class="
+"\"directory\">scripts</filename>, y añadirá los scripts de esta carpeta a la "
+"base de datos de Script-Fu. Debería situar sus scripts personales aquí."
 
 #: src/using/script-fu-tutorial.xml:671(title)
 msgid "The Bare Essentials"
@@ -4753,7 +4769,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/photography.xml:806(None)
+#: src/using/photography.xml:807(None)
 msgid ""
 "@@image: 'images/dialogs/stock-vchain-24.png'; "
 "md5=7c1f223b72d0d77f316a2ee9b96a08fb"
@@ -5829,13 +5845,14 @@ msgstr ""
 msgid ""
 "If you intend to print the image on paper, you should avoid shrinking the "
 "image, except by cropping it. The reason is that printers are capable of "
-"achieving much higher dot resolutions than video monitors---600 to 1400 dots "
-"per inch for typical printers, as compared to 72 to 100 dots per inch for "
-"monitors. A 3000 x 5000 image looks huge on a monitor, but it only comes to "
-"about 5 inches by 8 inches on paper at 600 dpi. There is usually no good "
-"reason to <emphasis>expand</emphasis> the image either: you can't increase "
-"the true resolution that way, and it can always be scaled up at the time it "
-"is printed. As for the file format, it will usually be fine to use JPEG at a "
+"achieving much higher resolutions than video monitors &mdash; 600 to 1400 "
+"dpi (<quote>dots per inch</quote>, the physical density) for typical "
+"printers, as compared to 72 to 100 pixels per inch for monitors. A 3000&nbsp;"
+"x&nbsp;5000-pixel image looks huge on a monitor, but it only comes to about "
+"5 inches by 8 inches on paper at 600 ppi. There is usually no good reason to "
+"<emphasis>expand</emphasis> the image either: you can't increase the true "
+"resolution that way, and it can always be scaled up at the time it is "
+"printed. As for the file format, it will usually be fine to use JPEG at a "
 "quality level of 75 to 85. In rare cases, where there are large swaths of "
 "nearly uniform color, you may need to set the quality level even higher or "
 "use a lossless format such as TIFF instead."
@@ -5843,18 +5860,18 @@ msgstr ""
 "Si tiene intención de imprimir una imagen en papel, debería evitar "
 "encogerla, excepto recortándola. La razón es que las impresoras son capaces "
 "de lograr resoluciones de muchos más puntos que los monitores de vídeo, de "
-"600 a 1400 puntos por pulgada para las impresoras, comparado con los 72 a "
-"100 puntos por pulgada de los monitores. Una imagen de 3000 x 5000 parece "
-"enorme en un monitor, pero sólo ocupa 5 x 8 pulgadas (12 x 20 cm) a 600 ppp. "
-"Generalmente no hay una buena razón para <emphasis>expandir</emphasis> la "
-"imagen: no puede incrementar la resolución real de esta manera y siempre se "
-"puede escalar en el momento que se imprime. En cuanto al formato del "
-"archivo, generalmente va bien usar JPEG con una calidad de entre 75 y 85. En "
-"raras ocasiones, donde hay grandes áreas de color uniforme, puede necesitar "
-"ajustar el nivel de calidad aún más alto o usar en su lugar un formato sin "
-"pérdidas como TIFF."
+"600 a 1400 ppp (<quote>puntos por pulgada) para las impresoras, comparado "
+"con los 72 a 100 píxeles por pulgada de los monitores. Una imagen de 3000 x "
+"5000 parece enorme en un monitor, pero sólo ocupa 5 x 8 pulgadas (12 x 20 "
+"cm) a 600 ppp. Generalmente no hay una buena razón para <emphasis>expandir</"
+"emphasis> la imagen: no puede incrementar la resolución real de esta manera "
+"y siempre se puede escalar en el momento que se imprime. En cuanto al "
+"formato del archivo, generalmente va bien usar JPEG con una calidad de entre "
+"75 y 85. En raras ocasiones, donde hay grandes áreas de color uniforme, "
+"puede necesitar ajustar el nivel de calidad aún más alto o usar en su lugar "
+"un formato sin pérdidas como TIFF."
 
-#: src/using/photography.xml:708(para)
+#: src/using/photography.xml:709(para)
 msgid ""
 "If you intend to display the image on screen or project it with a video "
 "projector, bear in mind that the highest screen resolution for most commonly "
@@ -5868,7 +5885,7 @@ msgstr ""
 "gana nada en mantener la imagen más grande que eso. Para este propósito, el "
 "formato JPEG es también una buena elección."
 
-#: src/using/photography.xml:717(para)
+#: src/using/photography.xml:718(para)
 msgid ""
 "If you want to put the image on a web page or send it by email, it is a good "
 "idea to make every effort to keep the file size as small as possible. First, "
@@ -5894,7 +5911,7 @@ msgstr ""
 "ampliada a 1:1 mientras lo hace, así no se confundirá con los efectos de la "
 "ampliación."
 
-#: src/using/photography.xml:734(para)
+#: src/using/photography.xml:735(para)
 msgid ""
 "See the <link linkend=\"gimp-using-fileformats\">File Formats</link> section "
 "for more information."
@@ -5902,19 +5919,19 @@ msgstr ""
 "Consulte la sección <link linkend=\"gimp-using-fileformats\">formatos de "
 "archivo</link> para obtener más información."
 
-#: src/using/photography.xml:741(title)
+#: src/using/photography.xml:742(title)
 msgid "Printing Your Photos"
 msgstr "Imprimir sus fotos"
 
-#: src/using/photography.xml:743(primary)
+#: src/using/photography.xml:744(primary)
 msgid "Printing"
 msgstr "Imprimir"
 
-#: src/using/photography.xml:744(secondary)
+#: src/using/photography.xml:745(secondary)
 msgid "Printing your photos"
 msgstr "Imprimir sus fotos"
 
-#: src/using/photography.xml:746(para)
+#: src/using/photography.xml:747(para)
 msgid ""
 "As in most softwares, in GIMP, printing needs to go to main menu "
 "<menuchoice><guimenu>File</guimenu><guisubmenu>Print</guisubmenu></"
@@ -5928,7 +5945,7 @@ msgstr ""
 "conceptos elementales para evitar sorpresas desagradables cuando vea los "
 "resultados o para remediarlos si ocurre. Siempre debe recordar:"
 
-#: src/using/photography.xml:758(para)
+#: src/using/photography.xml:759(para)
 msgid ""
 "that image displayed on the screen is in RGB mode and printing will be in "
 "CMYK mode; consequently color feature you'll get on printed sheet will not "
@@ -5943,19 +5960,19 @@ msgstr ""
 "conseguir explicaciones adicionales pulsando en estos enlaces útiles a la "
 "Wikipedia:"
 
-#: src/using/photography.xml:768(para)
+#: src/using/photography.xml:769(para)
 msgid "ICC-Profile <xref linkend=\"bibliography-online-wkpd-icc\"/>"
 msgstr "Perfil ICC <xref linkend=\"bibliography-online-wkpd-icc\"/>"
 
-#: src/using/photography.xml:773(para)
+#: src/using/photography.xml:774(para)
 msgid "CMYK <xref linkend=\"bibliography-online-wkpd-cmyk\"/>"
 msgstr "CMYK <xref linkend=\"bibliography-online-wkpd-cmyk\"/>"
 
-#: src/using/photography.xml:778(para)
+#: src/using/photography.xml:779(para)
 msgid "Gamut <xref linkend=\"bibliography-online-wkpd-gamut\"/>"
 msgstr "Gamut <xref linkend=\"bibliography-online-wkpd-gamut\"/>"
 
-#: src/using/photography.xml:785(para)
+#: src/using/photography.xml:786(para)
 msgid ""
 "that a screen resolution is roughly within a range from 75 up to 100 dpi; a "
 "printer resolution is about 10x higher (or more) than a screen one; printed "
@@ -5970,7 +5987,7 @@ msgstr ""
 "necesariamente con lo mostrado en la pantalla ni al tamaño de hoja "
 "disponible."
 
-#: src/using/photography.xml:794(para)
+#: src/using/photography.xml:795(para)
 msgid ""
 "Consequently, before any printing it is relevant to go to: "
 "<menuchoice><guimenu>Image</guimenu><guisubmenu>Print size</guisubmenu></"
@@ -5992,7 +6009,7 @@ msgstr ""
 "construyen con resoluciones diferentes de x contra y. Sin embargo si los "
 "desenlaza se puede sorprender. Puede intentar esto en efectos especiales."
 
-#: src/using/photography.xml:816(para)
+#: src/using/photography.xml:817(para)
 msgid ""
 "Last recommendation: think of checking your margins as well as centering. It "
 "would be a pity if a too much large margin cuts off some part of your image "
@@ -6004,11 +6021,11 @@ msgstr ""
 "imagen o si un centrado inapropiado daña su trabajo especialmente si usa un "
 "papel especial para fotografía."
 
-#: src/using/photography.xml:825(title)
+#: src/using/photography.xml:826(title)
 msgid "EXIF Data"
 msgstr "Datos EXIF"
 
-#: src/using/photography.xml:826(para)
+#: src/using/photography.xml:827(para)
 msgid ""
 "Modern digital cameras, when you take a picture, add information to the data "
 "file about the camera settings and the circumstances under which the picture "
@@ -6035,7 +6052,7 @@ msgstr ""
 "editor de imagen gestione los datos EXIF, pero es mejor que quitarlos, que "
 "es lo que hacían las primeras versiones de GIMP."
 
-#: src/using/photography.xml:840(para)
+#: src/using/photography.xml:841(para)
 msgid ""
 "If you would like to see the contents of the EXIF data, you can download "
 "from the registry an Exif Browser plug-in <xref linkend=\"bibliography-"
@@ -7558,7 +7575,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:768(None)
+#: src/using/fileformats.xml:766(None)
 msgid ""
 "@@image: 'images/using/export-tiff-dialog.png'; "
 "md5=1911ab89ff8b7b2ddd1ba3228c6ef94c"
@@ -7568,7 +7585,7 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/using/fileformats.xml:883(None)
+#: src/using/fileformats.xml:881(None)
 msgid ""
 "@@image: 'images/using/export-mng-dialog.png'; "
 "md5=77f5b2f7624bbfe11d26c730ad28d6a7"
@@ -7616,9 +7633,18 @@ msgid ""
 "this image in a format other than XCF, you must use <command>Export</"
 "command>."
 msgstr ""
+"En versiones anteriores de <acronym>GIMP</acronym>, cuando cargaba una "
+"imagen en un determinado formato, por ejemplo JPG o PNG, la imagen mantenía "
+"su formato y se guardaba con la opción <command>Guardar</command>. En "
+"<acronym>GIMP</acronym>-2.8, al cargar una imagen se exporta al formato XCF "
+"como un proyecto nuevo. Por ejemplo, una imagen <quote>girasol.png</quote> "
+"se cargará como <quote>*[girasol] (importada)-1.0 (color indexado, 1 capa)</"
+"quote>. El asterisco indica que la imagen se ha modificado. esta imagen se "
+"guardará como <quote>girasol.xcf</quote> al usar el comando "
+"<command>Guardar</command>. Para guardar esta imagen en un formato distinto "
+"a XCF, deberá <command>Exportarla</command>."
 
 #: src/using/fileformats.xml:50(para)
-#, fuzzy
 msgid ""
 "When you are finished working with an image, you will want to save the "
 "results. (In fact, it is often a good idea to save at intermediate stages "
@@ -7637,38 +7663,36 @@ msgid ""
 "etc."
 msgstr ""
 "Cuando haya terminado de trabajar con una imagen, querrá guardar los "
-"resultados. (de hecho, es a menudo una buena idea guardar también en etapas "
+"resultados. (De hecho, es a menudo una buena idea guardar también en etapas "
 "intermedias: <acronym>GIMP</acronym> es un programa completo y robusto, pero "
 "hemos escuchado algunos rumores, posiblemente apócrifos, de que en raras y "
-"misteriosas ocasiones se lo ha visto fallar). La mayoría de los formatos de "
-"archivo que el <acronym>GIMP</acronym> puede abrir, también pueden ser "
-"usados para guardar. Hay, sin embargo, un formato de archivo que es "
-"especial: XCF es el formato nativo del <acronym>GIMP</acronym>, y es útil "
-"porque guarda todo lo que hay en una imagen (bueno, casi todo, no guarda la "
-"información de <quote>deshacer</quote> ). Por eso, el formato XCF es "
-"especialmente útil para guardar resultados intermedios de trabajos que van a "
-"volver a ser abiertos en el <acronym>GIMP</acronym>. Los archivos XCF no "
-"pueden ser leídos por la mayoría de otros programas que muestran imágenes, "
-"así que una vez que haya terminado, probablemente también querrá guardar la "
-"imagen en un formato usado más ampliamente, como JPEG, PNG, TIFF, etc."
+"misteriosas ocasiones se le ha visto fallar). La mayoría de los formatos de "
+"archivo que <acronym>GIMP</acronym> puede abrir, también se pueden usar para "
+"guardar. Hay, sin embargo, un formato de archivo que es especial: XCF es el "
+"formato nativo del <acronym>GIMP</acronym>, y es útil porque guarda "
+"<emphasis>todo</emphasis> lo que hay en una imagen (bueno, casi todo, no "
+"guarda la información de <quote>deshacer</quote> ). Por eso, el formato XCF "
+"es especialmente útil para guardar resultados intermedios de trabajos que se "
+"van a volver a abrir en <acronym>GIMP</acronym>. Los archivos XCF no los "
+"pueden leer por la mayoría de otros programas que muestran imágenes, así que "
+"una vez que haya terminado, probablemente también querrá exportar la imagen "
+"en un formato usado más ampliamente, como JPEG, PNG, TIFF, etc."
 
 #: src/using/fileformats.xml:71(title)
 msgid "File Formats"
 msgstr "Formatos de archivo"
 
 #: src/using/fileformats.xml:72(para)
-#, fuzzy
 msgid ""
 "There are several commands for <emphasis>saving</emphasis> images. A list, "
 "and information on how to use them, can be found in the section covering the "
 "<link linkend=\"gimp-file-menu\">File Menu</link>."
 msgstr ""
-"Hay varios comandos para guardar imágenes. Una lista, e información sobre "
-"cómo usarlos, se encuentra en la sección dedicada al <link linkend=\"gimp-"
-"file-menu\">menú archivo</link>."
+"Hay varios comandos para <emphasis>guardar</emphasis> imágenes. Puede "
+"encontrar una lista, e información sobre cómo usarlos en la sección dedicada "
+"al <link linkend=\"gimp-file-menu\">menú Archivo</link>."
 
 #: src/using/fileformats.xml:77(para)
-#, fuzzy
 msgid ""
 "<acronym>GIMP</acronym> allows you to <emphasis>export</emphasis> the images "
 "you create in a wide variety of formats. It is important to realize that the "
@@ -7677,13 +7701,13 @@ msgid ""
 "Every other format preserves some image properties and loses others. It is "
 "up to you to understand the capabilities of the format you choose."
 msgstr ""
-"<acronym>GIMP</acronym> le permite guardar las imágenes que crea en una "
-"amplia variedad de formatos. Es importante saber que el único formato capaz "
-"de guardar <emphasis>toda</emphasis> la información de una imagen, "
-"incluyendo capas, transparencia, etc., es el formato nativo de GIMP XCF. "
-"cada uno de los otros formatos preserva algunas propiedades de la imagen y "
-"pierde otras. Cuando guarda una imagen, <acronym>GIMP</acronym>le advierte, "
-"pero depende de que entienda las capacidades del formato que elija."
+"<acronym>GIMP</acronym> le permite <emphasis>exportar</emphasis> las "
+"imágenes que crea en una amplia variedad de formatos. Es importante saber "
+"que el único formato capaz de guardar <emphasis>toda</emphasis> la "
+"información de una imagen, incluyendo capas, transparencia, etc., es el "
+"formato nativo de GIMP XCF. Cada uno de los otros formatos preserva algunas "
+"propiedades de la imagen y pierde otras. Depende del usuario que entienda "
+"las capacidades del formato que elige."
 
 #: src/using/fileformats.xml:85(para)
 msgid ""
@@ -7691,6 +7715,9 @@ msgid ""
 "anything by exporting. See <link linkend=\"gimp-export-dialog\">Export file</"
 "link>."
 msgstr ""
+"Exportar una imagen no modifica la imagen en sí, por lo que no perderá nada "
+"al exportarla. Consulte la sección <link linkend=\"gimp-export-dialog"
+"\">Exportar archivos</link>."
 
 #: src/using/fileformats.xml:91(para)
 msgid ""
@@ -7733,8 +7760,8 @@ msgstr ".gif"
 #: src/using/fileformats.xml:126(primary)
 #: src/using/fileformats.xml:279(primary)
 #: src/using/fileformats.xml:599(primary)
-#: src/using/fileformats.xml:760(primary)
-#: src/using/fileformats.xml:875(primary) src/using/brushes.xml:37(primary)
+#: src/using/fileformats.xml:758(primary)
+#: src/using/fileformats.xml:873(primary) src/using/brushes.xml:37(primary)
 #: src/using/brushes.xml:73(primary) src/using/brushes.xml:100(primary)
 msgid "Formats"
 msgstr "Formatos"
@@ -7813,7 +7840,6 @@ msgstr ""
 "Cuando está opción está marcada, la animación se repetirá hasta que la pare."
 
 #: src/using/fileformats.xml:199(term)
-#, fuzzy
 msgid "Delay between frames where unspecified"
 msgstr "Retraso entre cuadros si no se especifica"
 
@@ -7864,7 +7890,7 @@ msgstr ""
 
 #: src/using/fileformats.xml:241(term)
 msgid "Use delay entered above for all frames"
-msgstr ""
+msgstr "Usar el retraso introducido anteriormente para todos los cuadros"
 
 #: src/using/fileformats.xml:243(para) src/using/fileformats.xml:251(para)
 msgid "Self-explanatory."
@@ -7872,7 +7898,7 @@ msgstr "Autoexplicativa."
 
 #: src/using/fileformats.xml:249(term)
 msgid "Use disposal entered above for all frames"
-msgstr ""
+msgstr "Usar el orden introducido anteriormente para todos los cuadros"
 
 #: src/using/fileformats.xml:263(title) src/using/fileformats.xml:276(primary)
 msgid "Export Image as JPEG"
@@ -7893,7 +7919,6 @@ msgid ".jpeg"
 msgstr ".jpeg"
 
 #: src/using/fileformats.xml:283(para)
-#, fuzzy
 msgid ""
 "JPEG files usually have an extension .jpg, .JPG, or .jpeg. It is a very "
 "widely used format, because it compresses images very efficiently, while "
@@ -7905,8 +7930,7 @@ msgstr ""
 "un formato ampliamente utilizado, porque comprime imágenes muy "
 "eficientemente, minimizando la pérdida de calidad. Ningún otro formato se le "
 "acerca para lograr el mismo nivel de compresión. No obstante, no soporta "
-"transparencia, ni múltiples capas. Por esta razón, guardar imágenes en este "
-"formato normalmente implica exportarlas desde <acronym>GIMP</acronym>."
+"transparencia, ni múltiples capas."
 
 #: src/using/fileformats.xml:291(title)
 msgid "The JPEG Export dialog"
@@ -8023,7 +8047,6 @@ msgid "EXIF"
 msgstr "EXIF"
 
 #: src/using/fileformats.xml:381(para)
-#, fuzzy
 msgid ""
 "JPEG files from many digital cameras contain extra information, called EXIF "
 "data. EXIF data provides information about the image such as camera make and "
@@ -8038,18 +8061,19 @@ msgid ""
 "data is ignored, and will not be saved when the resulting image is later "
 "exported."
 msgstr ""
-"Los archivos JPEG de muchas cámaras digitales contienen información extra "
-"denominada datos EXIF. Los datos EXIF proporcionan información sobre la "
-"imagen como marca y modelo de la cámara, tamaño de la imagen, datos de la "
-"imagen, etc. Aunque GIMP usa la biblioteca <quote>libexif</quote> para leer "
-"y escribir datos EXIF, la biblioteca no viene empaquetada con GIMP. Si GIMP "
-"se construyó con soporte libexif, entonces los datos EXIF se preservan si "
-"abre un archivo JPEG, trabaja con la imagen y luego la guarda en JPEG. Los "
-"datos EXIF no se alteran de ninguna manera si realiza esto. Los datos EXIF "
-"pueden indicar cosas como cuándo se creó la imagen y el nombre del archivo, "
-"que puede que ya no sea correcto. Si GIMP no se construyó con soporte "
-"libexif, puede abrir archivos JPEG con datos EXIF, pero los datos EXIF se "
-"ignoran y no se guardan cuando se guarde la imagen resultante."
+"Los archivos JPEG de muchas cámaras digitales contienen información "
+"adicional denominada datos EXIF. Los datos EXIF proporcionan información "
+"sobre la imagen como la marca y modelo de la cámara, tamaño de la imagen, "
+"datos de la imagen, etc. Aunque GIMP usa la biblioteca <quote>libexif</"
+"quote> para leer y escribir datos EXIF, la biblioteca no viene empaquetada "
+"con GIMP. Si GIMP se construyó con soporte libexif, entonces los datos EXIF "
+"se preservan si abre un archivo JPEG, trabaja con la imagen y luego la "
+"guarda en JPEG. Los datos EXIF no se alteran de ninguna manera si realiza "
+"esto. Los datos EXIF pueden indicar cosas como cuándo se creó la imagen y el "
+"nombre del archivo, que puede que ya no sea correcto. Si GIMP no se "
+"construyó con soporte para libexif, puede abrir archivos JPEG con datos "
+"EXIF, pero los datos EXIF se ignoran y no se guardan cuando posteriormente "
+"se exporte la imagen."
 
 #: src/using/fileformats.xml:403(term)
 msgid "Save thumbnail"
@@ -8356,22 +8380,22 @@ msgid "Save Resolution"
 msgstr "Guardar resolución"
 
 #: src/using/fileformats.xml:671(para)
-msgid "Save the image resolution, in DPI (dots per inch)."
+msgid "Save the image resolution, in ppi (pixels per inch)."
 msgstr "Guardar la resolución de la imagen, en PPP (puntos por pulgada)."
 
-#: src/using/fileformats.xml:677(term)
+#: src/using/fileformats.xml:675(term)
 msgid "Save creation time"
 msgstr "Guardar la hora de creación"
 
-#: src/using/fileformats.xml:679(para)
+#: src/using/fileformats.xml:677(para)
 msgid "Date the file was saved."
 msgstr "Fecha en que se guardó el archivo."
 
-#: src/using/fileformats.xml:685(term)
+#: src/using/fileformats.xml:683(term)
 msgid "Save comment"
 msgstr "Guardar comentario"
 
-#: src/using/fileformats.xml:687(para)
+#: src/using/fileformats.xml:685(para)
 msgid ""
 "You can read this comment in the <link linkend=\"gimp-image-properties"
 "\">Image Properties</link>."
@@ -8379,11 +8403,11 @@ msgstr ""
 "Puede leer este comentario en las <link linkend=\"gimp-image-properties"
 "\">propiedades de la imagen</link>."
 
-#: src/using/fileformats.xml:694(term) src/using/fileformats.xml:846(term)
+#: src/using/fileformats.xml:692(term) src/using/fileformats.xml:844(term)
 msgid "Save color values from transparent pixels"
 msgstr "Guardar los valores de color de los píxeles transparentes"
 
-#: src/using/fileformats.xml:696(para)
+#: src/using/fileformats.xml:694(para)
 msgid ""
 "With this option is checked, the color values are saved even if the pixels "
 "are completely transparent."
@@ -8391,11 +8415,11 @@ msgstr ""
 "Con esta opción marcada, los valores de color se guardan incluso si los "
 "píxeles son completamente transparentes."
 
-#: src/using/fileformats.xml:703(term)
+#: src/using/fileformats.xml:701(term)
 msgid "Compression level"
 msgstr "Nivel de compresión"
 
-#: src/using/fileformats.xml:705(para)
+#: src/using/fileformats.xml:703(para)
 msgid ""
 "Since compression is not lossy, the only reason to use a compression level "
 "less than 9, is if it takes too long to compress a file on a slow computer. "
@@ -8407,11 +8431,11 @@ msgstr ""
 "archivo en un ordenador lento. No hay nada que temer en la descompresión: es "
 "igual de rápido cualquiera que sea el nivel de compresión."
 
-#: src/using/fileformats.xml:715(term)
+#: src/using/fileformats.xml:713(term)
 msgid "Save Defaults"
 msgstr "Guardar predeterminados"
 
-#: src/using/fileformats.xml:717(para)
+#: src/using/fileformats.xml:715(para)
 msgid ""
 "Click to save the current settings. Latter, you can use <guibutton>Load "
 "Defaults</guibutton> to load the saved settings."
@@ -8420,7 +8444,7 @@ msgstr ""
 "<guibutton>Cargar predeterminados</guibutton> para cargar los ajustes "
 "guardados."
 
-#: src/using/fileformats.xml:726(para)
+#: src/using/fileformats.xml:724(para)
 msgid ""
 "The PNG format supports indexed images. Using fewer colors, therefore, "
 "results in a smaller file; this is especially useful for creating web "
@@ -8430,7 +8454,7 @@ msgstr ""
 "resultado un archivo más pequeño; esto es especialmente útil para crear "
 "imágenes web; consulte la <xref linkend=\"gimp-image-convert-indexed\"/>."
 
-#: src/using/fileformats.xml:732(para)
+#: src/using/fileformats.xml:730(para)
 msgid ""
 "Computers work on 8 bits blocks named <quote>Byte</quote>. A byte allows 256 "
 "colors. Reducing the number of colors below 256 is not useful: a byte will "
@@ -8445,7 +8469,7 @@ msgstr ""
 "bit para la transparencia; sólo hay dos niveles de transparencia, "
 "transparente u opaco."
 
-#: src/using/fileformats.xml:740(para)
+#: src/using/fileformats.xml:738(para)
 msgid ""
 "If you want PNG transparency to be fully displayed by Internet Explorer, you "
 "can use the AlphaImageLoader DirectX filter in the code of your Web page. "
@@ -8459,31 +8483,31 @@ msgstr ""
 "\"bibliography-online-microsoft-kb294714\"/>. Tenga en cuenta que esto no es "
 "necesario a partir de Internet Explorer 7."
 
-#: src/using/fileformats.xml:752(title) src/using/fileformats.xml:754(primary)
+#: src/using/fileformats.xml:750(title) src/using/fileformats.xml:752(primary)
 msgid "Export Image as TIFF"
 msgstr "Exportar imagen como TIFF"
 
-#: src/using/fileformats.xml:757(primary)
-#: src/using/fileformats.xml:761(secondary)
+#: src/using/fileformats.xml:755(primary)
+#: src/using/fileformats.xml:759(secondary)
 msgid "TIFF"
 msgstr "TIFF"
 
-#: src/using/fileformats.xml:764(title)
+#: src/using/fileformats.xml:762(title)
 msgid "The TIFF Export dialog"
 msgstr "El diálogo de exportar a TIFF"
 
-#: src/using/fileformats.xml:774(term)
+#: src/using/fileformats.xml:772(term)
 msgid "Compression"
 msgstr "Compresión"
 
-#: src/using/fileformats.xml:776(para)
+#: src/using/fileformats.xml:774(para)
 msgid ""
 "This option allows you to specify the algorithm used to compress the image."
 msgstr ""
 "Esta opción le permite especificar el algoritmo usado para comprimir la "
 "imagen."
 
-#: src/using/fileformats.xml:782(para)
+#: src/using/fileformats.xml:780(para)
 msgid ""
 "<guilabel>None</guilabel>: is fast, and lossless, but the resulting file is "
 "very large."
@@ -8491,7 +8515,7 @@ msgstr ""
 "<guilabel>Ninguno</guilabel>: es rápido y sin pérdida, pero el archivo "
 "resultante es muy grande."
 
-#: src/using/fileformats.xml:788(para)
+#: src/using/fileformats.xml:786(para)
 msgid ""
 "<guilabel>LZW</guilabel>: The image is compressed using the <quote>Lempel-"
 "Ziv-Welch</quote> algorithm, a lossless compression technique. This is old, "
@@ -8503,7 +8527,7 @@ msgstr ""
 "antiguo, pero eficiente y rápido. Puede encontrar más información en la "
 "<xref linkend=\"bibliography-online-wkpd-lzw\"/>."
 
-#: src/using/fileformats.xml:797(para)
+#: src/using/fileformats.xml:795(para)
 msgid ""
 "<guilabel>Pack Bits</guilabel>: is a fast, simple compression scheme for run-"
 "length encoding of data. Apple introduced the PackBits format with the "
@@ -8518,7 +8542,7 @@ msgstr ""
 "byte de cabecera seguido de datos. (Fuente: <xref linkend=\"bibliography-"
 "online-wkpd-packbits\"/>)"
 
-#: src/using/fileformats.xml:808(para)
+#: src/using/fileformats.xml:806(para)
 msgid ""
 "<guilabel>Deflate</guilabel>: is a lossless data compression algorithm that "
 "uses a combination of the LZ77 algorithm and Huffman coding. It is also used "
@@ -8530,14 +8554,14 @@ msgstr ""
 "Huffman. También se usa en los formatos de archivo Zip, Gzip y PNG. Fuente: "
 "<xref linkend=\"bibliography-online-wkpd-deflate\"/>."
 
-#: src/using/fileformats.xml:817(para)
+#: src/using/fileformats.xml:815(para)
 msgid ""
 "<guilabel>JPEG</guilabel>: is a very good compression algorithm but lossy."
 msgstr ""
 "<guilabel>JPEG</guilabel>: es un algoritmo de compresión muy bueno pero con "
 "pérdida."
 
-#: src/using/fileformats.xml:823(para)
+#: src/using/fileformats.xml:821(para)
 msgid ""
 "<guilabel>CCITT Group 3 fax</guilabel>; <guilabel>CCITT Group 4 fax</"
 "guilabel> is a black and white format developed to transfer images by FAX."
@@ -8546,7 +8570,7 @@ msgstr ""
 "guilabel> es un formato en blanco y negro desarrollado para transferir "
 "imágenes por fax."
 
-#: src/using/fileformats.xml:829(para)
+#: src/using/fileformats.xml:827(para)
 msgid ""
 "These options can only be selected, if the image is in indexed mode and "
 "reduced to two colors. Use <menuchoice><guimenu>Image</"
@@ -8560,7 +8584,7 @@ msgstr ""
 "menuchoice> para convertir la imagen a «indexada». Asegúrese de marcar "
 "<quote>Usar paleta en blanco y negro (1-bit)</quote>."
 
-#: src/using/fileformats.xml:848(para)
+#: src/using/fileformats.xml:846(para)
 msgid ""
 "With this option the color values are saved even if the pixels are "
 "completely transparent."
@@ -8568,35 +8592,35 @@ msgstr ""
 "Con esta opción, los valores de color se guardan incluso si los píxeles son "
 "completamente transparentes."
 
-#: src/using/fileformats.xml:855(term)
+#: src/using/fileformats.xml:853(term)
 msgid "Comment"
 msgstr "Comentario"
 
-#: src/using/fileformats.xml:857(para)
+#: src/using/fileformats.xml:855(para)
 msgid ""
 "In this text box, you can enter a comment that is associated with the image."
 msgstr ""
 "En esta caja de texto, puede introducir un comentario que se asocia con la "
 "imagen."
 
-#: src/using/fileformats.xml:867(title) src/using/fileformats.xml:869(primary)
+#: src/using/fileformats.xml:865(title) src/using/fileformats.xml:867(primary)
 msgid "Export Image as MNG"
 msgstr "Exportar imagen como MNG"
 
-#: src/using/fileformats.xml:872(primary)
-#: src/using/fileformats.xml:876(secondary)
+#: src/using/fileformats.xml:870(primary)
+#: src/using/fileformats.xml:874(secondary)
 msgid "MNG"
 msgstr "MNG"
 
-#: src/using/fileformats.xml:879(title)
+#: src/using/fileformats.xml:877(title)
 msgid "Export MNG File Dialog"
 msgstr "Diálogo exportar archivo como MNG"
 
-#: src/using/fileformats.xml:887(para)
+#: src/using/fileformats.xml:885(para)
 msgid "MNG is acronym for <quote>Multiple-Image Network Graphics</quote>."
 msgstr "MNG es el acrónimo de <quote>Multiple-Image Network Graphics</quote>."
 
-#: src/using/fileformats.xml:890(para)
+#: src/using/fileformats.xml:888(para)
 msgid ""
 "The main problem is that Konqueror is the only Web navigator that recognizes "
 "the MNG animation format. Please see <ulink url=\"http://en.wikipedia.org/"
@@ -8630,18 +8654,18 @@ msgid ""
 "Of course, you can customize the splash-screen: Create a <filename class="
 "\"directory\">splashes</filename> directory in your in your personal "
 "<acronym>GIMP</acronym> folder (<filename class=\"directory\">/home/"
-"user_name/.gimp-2.6</filename> on Linux, <filename class=\"directory\" role="
-"\"html\">C:\\Documents&nbsp;and&nbsp;Settings\\user_name\\.gimp-2.6\\</"
+"user_name/.gimp-2.8</filename> on Linux, <filename class=\"directory\" role="
+"\"html\">C:\\Documents&nbsp;and&nbsp;Settings\\user_name\\.gimp-2.8\\</"
 "filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents&nbsp;"
-"and&nbsp;Settings\\\\user_name\\\\.gimp-2.6\\\\</filename> on Windows)."
+"and&nbsp;Settings\\\\user_name\\\\.gimp-2.8\\\\</filename> on Windows)."
 msgstr ""
 "Por supuesto, puede personalizar su pantalla de inicio: cree una carpeta "
 "<filename class=\"directory\">splashes</filename> en su carpeta personal de "
 "<acronym>GIMP</acronym> (<filename class=\"directory\">/home/nombre_usuario/."
-"gimp-2.6</filename> en Linux, <filename class=\"directory\" role=\"html\">C:"
-"\\Documents&nbsp;and&nbsp;Settings\\nombre_usuario\\.gimp-2.6\\</"
+"gimp-2.8</filename> en Linux, <filename class=\"directory\" role=\"html\">C:"
+"\\Documents&nbsp;and&nbsp;Settings\\nombre_usuario\\.gimp-2.8\\</"
 "filename><filename class=\"directory\" role=\"tex\">C:\\\\Documents&nbsp;"
-"and&nbsp;Settings\\\\nombre_usuario\\\\.gimp-2.6\\\\</filename> en Windows)."
+"and&nbsp;Settings\\\\nombre_usuario\\\\.gimp-2.8\\\\</filename> en Windows)."
 
 #: src/using/customize-splashscreen.xml:40(para)
 msgid ""

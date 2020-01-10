@@ -1,17 +1,17 @@
 # NOTE: en/English is in the main package
-# LANGUAGES: ca,Catalan da,Danish de,German el,Greek en_GB,British_English es,Spanish fi,Finnish fr,French hr,Hungarian it,Italian ja,Japanese ko,Korean lt,Lithuanian nl,Dutch nn,Norwegian_Nynorsk pl,Polish ru,Russian sl,Slovenian sv,Swedish zh_CN,Simplified_Chinese
+# LANGUAGES: ca,Catalan da,Danish de,German el,Greek en_GB,British_English es,Spanish fr,French it,Italian ja,Japanese ko,Korean nl,Dutch nn,Norwegian_Nynorsk pt_BR,Brazilian_Portuguese ru,Russian sl,Slovenian sv,Swedish zh_CN,Simplified_Chinese
 %define gimpsubver 2.0
 
 Summary: Help files for GIMP
 Name: gimp-help
-Version: 2.8.0
-Release: 7%{?dist}
+Version: 2.8.1
+Release: 1%{?dist}
 License: GFDL and GPLv2+
 Group: Documentation
 URL: http://wiki.gimp.org/gimp/GimpDocs
 Source0: ftp://ftp.gimp.org/pub/gimp/help/gimp-help-%{version}.tar.bz2
-# files missing from the tarball
-Patch0: gimp-help-2.8.0-missing-po-files.patch.xz
+# Upstream commit d465970683e849de537f34edbd83751aa9e5d02b
+Patch0: gimp-help-2.8.1-xml2po-crash.patch
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-%(%__id_u -n)-root
 BuildRequires: dblatex
@@ -27,6 +27,16 @@ BuildRequires: graphviz
 BuildRequires: pngnq
 BuildRequires: pngcrush
 Requires: gimp >= 2:2.4
+# BEGIN: OBSOLETE LANGUAGES
+Obsoletes: gimp-help-fi < 2.8.1-1%{?dist}
+Conflicts: gimp-help-fi < 2.8.1-1%{?dist}
+Obsoletes: gimp-help-hr < 2.8.1-1%{?dist}
+Conflicts: gimp-help-hr < 2.8.1-1%{?dist}
+Obsoletes: gimp-help-lt < 2.8.1-1%{?dist}
+Conflicts: gimp-help-lt < 2.8.1-1%{?dist}
+Obsoletes: gimp-help-pl < 2.8.1-1%{?dist}
+Conflicts: gimp-help-pl < 2.8.1-1%{?dist}
+# END: OBSOLETE LANGUAGES
 
 %description
 This package contains a user manual written for the GNU Image Manipulation
@@ -81,14 +91,6 @@ Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
 %description es
 Spanish language support for gimp-help.
 
-%package fi
-Summary: Finnish (fi) language support for gimp-help
-Group: Documentation
-Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
-
-%description fi
-Finnish language support for gimp-help.
-
 %package fr
 Summary: French (fr) language support for gimp-help
 Group: Documentation
@@ -96,14 +98,6 @@ Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
 
 %description fr
 French language support for gimp-help.
-
-%package hr
-Summary: Hungarian (hr) language support for gimp-help
-Group: Documentation
-Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
-
-%description hr
-Hungarian language support for gimp-help.
 
 %package it
 Summary: Italian (it) language support for gimp-help
@@ -129,14 +123,6 @@ Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
 %description ko
 Korean language support for gimp-help.
 
-%package lt
-Summary: Lithuanian (lt) language support for gimp-help
-Group: Documentation
-Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
-
-%description lt
-Lithuanian language support for gimp-help.
-
 %package nl
 Summary: Dutch (nl) language support for gimp-help
 Group: Documentation
@@ -153,13 +139,13 @@ Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
 %description nn
 Norwegian Nynorsk language support for gimp-help.
 
-%package pl
-Summary: Polish (pl) language support for gimp-help
+%package pt_BR
+Summary: Brazilian Portuguese (pt_BR) language support for gimp-help
 Group: Documentation
 Requires: %{name} = %{?epoch:%{epoch}:}%{version}-%{release}
 
-%description pl
-Polish language support for gimp-help.
+%description pt_BR
+Brazilian Portuguese language support for gimp-help.
 
 %package ru
 Summary: Russian (ru) language support for gimp-help
@@ -197,12 +183,11 @@ Simplified Chinese language support for gimp-help.
 
 %prep
 %setup -q
-%patch0 -p1 -b .missing-po-files
+%patch0 -p1 -b .xml2po-crash
 
 %build
 %configure
-# don't attempt parallel builds, they succeed or fail without a clear pattern
-make
+make %{?_smp_mflags}
 
 %install
 rm -rf %buildroot
@@ -234,16 +219,13 @@ rm -rf %buildroot
 %files el -f files.list.el
 %files en_GB -f files.list.en_GB
 %files es -f files.list.es
-%files fi -f files.list.fi
 %files fr -f files.list.fr
-%files hr -f files.list.hr
 %files it -f files.list.it
 %files ja -f files.list.ja
 %files ko -f files.list.ko
-%files lt -f files.list.lt
 %files nl -f files.list.nl
 %files nn -f files.list.nn
-%files pl -f files.list.pl
+%files pt_BR -f files.list.pt_BR
 %files ru -f files.list.ru
 %files sl -f files.list.sl
 %files sv -f files.list.sv
@@ -251,6 +233,16 @@ rm -rf %buildroot
 # END: LANGUAGE FILE LISTS
 
 %changelog
+* Thu Jan 09 2014 Nils Philippsen <nils@redhat.com> - 2.8.1-1
+- version 2.8.1
+- reenable parallel building
+- add Brazilian Portuguese translation
+- remove (empty) translations: Finnish, Hungarian, Lithuanian, Polish
+- fix translation that makes xml2po.py/libxml2 crash
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.8.0-8
+- Mass rebuild 2013-12-27
+
 * Tue Jul 09 2013 Nils Philippsen <nils@redhat.com> - 2.8.0-7
 - add GPLv2+ to license list (included tools used for building)
 

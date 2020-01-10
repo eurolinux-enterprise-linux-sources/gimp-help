@@ -5,10 +5,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP Manual\n"
-"POT-Creation-Date: 2012-05-02 13:20+0000\n"
+"POT-Creation-Date: 2012-09-12 11:03+0000\n"
 "PO-Revision-Date: 2012-05-04 16:40+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -294,9 +295,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/preferences/prefs-toolbox.xml:27(None)
-#| msgid ""
-#| "@@image: 'images/preferences/prefs-toolbox.png'; "
-#| "md5=b5fe1447a0767a63a9a9eeb3dc79d845"
 msgid ""
 "@@image: 'images/preferences/prefs-toolbox.png'; "
 "md5=d67c7e3c55c4e6031d82066f833d3da9"
@@ -307,9 +305,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/preferences/prefs-toolbox.xml:38(None)
-#| msgid ""
-#| "@@image: 'images/using/toolbox-description.png'; "
-#| "md5=d7b46171c7250d61c8c5f6c71e695225"
 msgid ""
 "@@image: 'images/using/toolbox-description.png'; "
 "md5=53382765536fb6aeb60cf626e23bb6e0"
@@ -401,7 +396,6 @@ msgid "Tools configuration"
 msgstr "Configuración de las herramientas"
 
 #: src/using/preferences/prefs-toolbox.xml:95(secondary)
-#| msgid "Calibration"
 msgid "Configuration"
 msgstr "Configuración"
 
@@ -417,9 +411,6 @@ msgstr ""
 "correspondiente."
 
 #: src/using/preferences/prefs-toolbox.xml:105(para)
-#| msgid ""
-#| "You can customize the search path with the buttons at the top of the "
-#| "dialog."
 msgid ""
 "You can also sort tools by priority using the arrow up and down buttons at "
 "the bottom of the dialog."
@@ -428,9 +419,6 @@ msgstr ""
 "botones de flecha arriba y abajo de la parte inferior del diálogo."
 
 #: src/using/preferences/prefs-toolbox.xml:109(para)
-#| msgid ""
-#| "This page lets you customize the behaviour of the <acronym>GIMP</acronym> "
-#| "help system."
 msgid ""
 "This option replaces the Tools Dialog of former <acronym>GIMP</acronym> "
 "versions."
@@ -710,9 +698,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/using/preferences/prefs-interface.xml:35(None)
-#| msgid ""
-#| "@@image: 'images/preferences/prefs-interface.png'; "
-#| "md5=efd11dcdb868cc6ab7a935f1e61386ed"
 msgid ""
 "@@image: 'images/preferences/prefs-interface.png'; "
 "md5=79ed12a2df384083fc68f500d66b3e60"
@@ -747,9 +732,6 @@ msgid "Assorted Interface Preferences"
 msgstr "Preferencias de la interfaz de usuario"
 
 #: src/using/preferences/prefs-interface.xml:38(para)
-#| msgid ""
-#| "This page lets you customize layer/channel previews and keyboard "
-#| "shortcuts."
 msgid ""
 "This page lets you customize language, layer/channel previews and keyboard "
 "shortcuts."
@@ -758,7 +740,6 @@ msgstr ""
 "capas/canales y los atajos de teclado."
 
 #: src/using/preferences/prefs-interface.xml:49(primary)
-#| msgid "Saving Images"
 msgid "Languages"
 msgstr "Idiomas"
 
@@ -2812,7 +2793,7 @@ msgid ""
 "what they are used for."
 msgstr ""
 "Toda la información de preferencias se conserva en un archivo llamado "
-"<filename>gimprc</filename> que se encuentra en su directorio personal del "
+"<filename>gimprc</filename> que se encuentra en su carpeta personal del "
 "GIMP. Así que si Ud. es un <quote>superusuario</quote>, que prefiere "
 "trabajar con un editor de textos en lugar de una interfaz gráfica, puede "
 "alterar las preferencias editando el archivo. Si lo hace, y se encuentra en "

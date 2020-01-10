@@ -1,16 +1,18 @@
-# Julien Hardelin, 2011.
+# Julien Hardelin <jhardlin@orange.fr>, 2011, 2012.
+# Stéphane Poumaer <spoumaer@gmail.com>, 2013.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: GIMP-2.6-HELP\n"
-"POT-Creation-Date: 2010-12-24 07:08+0100\n"
-"PO-Revision-Date: 2011-01-22 08:01+0100\n"
-"Last-Translator: Julien Hardelin\n"
-"Language-Team: French <none>\n"
+"Project-Id-Version: Manuel utilisateur de GIMP-2.8\n"
+"POT-Creation-Date: 2013-03-21 17:55+0000\n"
+"PO-Revision-Date: 2013-03-19 08:12+0100\n"
+"Last-Translator: Stéphane Poumaer <spoumaer@gmail.com>\n"
+"Language-Team: français <GNOME French Team <gnomefr@traduc.org>>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -110,7 +112,7 @@ msgstr "<quote>Découpage futé</quote> appliqué"
 
 #: src/menus/image/zealous-crop.xml:72(title)
 #: src/menus/image/transform-guillotine.xml:31(title)
-#: src/menus/image/scale.xml:49(title)
+#: src/menus/image/scale.xml:50(title)
 #: src/menus/image/properties.xml:22(title)
 #: src/menus/image/merge-layers.xml:38(title)
 #: src/menus/image/guides-remove.xml:28(title)
@@ -129,8 +131,8 @@ msgid ""
 "menuchoice>."
 msgstr ""
 "On accède à cette commande par le menu d'image en suivant "
-"<menuchoice><guimenu>Image</guimenu><guimenuitem>Découpage futé"
-"</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Découpage futé</"
+"guimenuitem></menuchoice>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -169,8 +171,8 @@ msgid ""
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Transform</guimenuitem></"
 "menuchoice>."
 msgstr ""
-"On accède à cette commande à partir d\"un menu d\"image en suivant "
-"<menuchoice><guimenu>I>mage</guimenu><guimenuitem>Transformer...</"
+"On accède à cette commande à partir d'un menu d'image en suivant "
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Transformer...</"
 "guimenuitem></menuchoice>."
 
 #: src/menus/image/transform.xml:53(title)
@@ -191,7 +193,7 @@ msgstr "Miroir Horizontal, Miroir vertical"
 
 #: src/menus/image/transform.xml:67(link)
 msgid "Rotate 90° clockwise / counter-clockwise; Rotate 180°"
-msgstr "Rotation 90° sens horaire; 90° sens anti-horaire; 180°"
+msgstr "Rotation 90° sens horaire ; 90° sens anti-horaire ; 180°"
 
 #: src/menus/image/transform.xml:73(link)
 #: src/menus/image/transform-guillotine.xml:11(title)
@@ -230,7 +232,8 @@ msgstr "Accès aux commandes"
 
 #: src/menus/image/transform-rotate.xml:34(para)
 msgid "You can access these three commands from the image menubar through"
-msgstr "Vous pouvez trouver ces trois commandes dans le menu d'image en suivant"
+msgstr ""
+"Vous pouvez trouver ces trois commandes dans le menu d'image en suivant"
 
 #: src/menus/image/transform-rotate.xml:39(para)
 msgid ""
@@ -322,22 +325,22 @@ msgid ""
 "guisubmenu><guimenuitem>Flip Vertically</guimenuitem></menuchoice>."
 msgstr ""
 "On accède à cette commande par le menu d'image en suivant "
-"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transformation</"
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Transformer</"
 "guisubmenu><guimenuitem>Miroir Vertical</guimenuitem></menuchoice>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/scale.xml:70(None)
+#: src/menus/image/scale.xml:71(None)
 msgid ""
 "@@image: 'images/menus/image/scale-image.png'; "
 "md5=2fe36174e3a2145e2d46d0a61f86c8ab"
 msgstr " "
 
-#: src/menus/image/scale.xml:11(title) src/menus/image/scale.xml:14(primary)
+#: src/menus/image/scale.xml:12(title) src/menus/image/scale.xml:15(primary)
 msgid "Scale Image"
 msgstr "Échelle et taille de l'image"
 
-#: src/menus/image/scale.xml:17(para)
+#: src/menus/image/scale.xml:18(para)
 msgid ""
 "The <guimenuitem>Scale Image</guimenuitem> command enlarges or reduces the "
 "physical size of the image by changing the number of pixels it contains. It "
@@ -349,7 +352,7 @@ msgstr ""
 "l'image de façon à ce que, au cas où l'image devient plus grande que le "
 "canevas, elle puisse être entièrement visible."
 
-#: src/menus/image/scale.xml:23(para)
+#: src/menus/image/scale.xml:24(para)
 msgid ""
 "It operates on the entire image. If your image has layers of different "
 "sizes, making the image smaller could shrink some of them down to nothing, "
@@ -360,7 +363,7 @@ msgstr ""
 "taille différente, il se peut que certains soient réduits jusqu'à "
 "disparaître quand vous réduisez l'image. Le programme vous en avertira."
 
-#: src/menus/image/scale.xml:29(para)
+#: src/menus/image/scale.xml:30(para)
 msgid ""
 "If you only want to scale a particular layer, use the <link linkend=\"gimp-"
 "layer-scale\">Scale Layer</link> command."
@@ -368,12 +371,12 @@ msgstr ""
 "Pour changer l'échelle d'un calque particulier, utilisez la fonction <link "
 "linkend=\"gimp-layer-scale\">Échelle et taille du calque</link>."
 
-#: src/menus/image/scale.xml:35(para)
+#: src/menus/image/scale.xml:36(para)
 msgid ""
 "If scaling would produce an image larger than the <quote>Maximum new image "
 "size</quote> set in the <link linkend=\"gimp-prefs-environment"
 "\">Environment</link> page of the Preferences dialog (which has a default of "
-"64Mb), you are warned and asked to confirm the operation before it is "
+"128 Mb), you are warned and asked to confirm the operation before it is "
 "performed. You may not experience any problems if you confirm the operation, "
 "but you should be aware that very large images consume a lot of resources "
 "and extremely large images may take more resources than you have, causing "
@@ -382,11 +385,11 @@ msgstr ""
 "Si le changement de taille risque de produire une image plus grande en "
 "mégaoctets que la <quote>Taille maximum de la nouvelle image</quote> définie "
 "dans la section <link linkend=\"gimp-prefs-environment\">Environnement</"
-"link> des Préférences (64 Mo par défaut), vous en serez averti. Méfiez-vous "
+"link> des Préférences (128 Mo par défaut), vous en serez averti. Méfiez-vous "
 "des très grosses images qui risquent de bloquer GIMP ou de le faire "
 "fonctionner de façon bizarre."
 
-#: src/menus/image/scale.xml:52(para)
+#: src/menus/image/scale.xml:53(para)
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Scale Image</guimenuitem></"
@@ -396,19 +399,19 @@ msgstr ""
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Échelle et Taille de "
 "l'image</guimenuitem></menuchoice>."
 
-#: src/menus/image/scale.xml:64(title)
+#: src/menus/image/scale.xml:65(title)
 msgid "The <quote>Scale Image</quote> Dialog"
 msgstr "La fenêtre <quote>Échelle et Taille de l'image</quote>"
 
-#: src/menus/image/scale.xml:66(title)
+#: src/menus/image/scale.xml:67(title)
 msgid "The <quote>Scale Image</quote> dialog"
 msgstr "La fenêtre <quote>Échelle et Taille de l'image</quote>"
 
-#: src/menus/image/scale.xml:77(term)
+#: src/menus/image/scale.xml:78(term)
 msgid "Image Size"
 msgstr "Taille d'image"
 
-#: src/menus/image/scale.xml:79(para)
+#: src/menus/image/scale.xml:80(para)
 msgid ""
 "You should keep in mind that an image can be located in one of four places: "
 "in the image file, in RAM after it has been loaded, on your screen when it "
@@ -424,7 +427,7 @@ msgstr ""
 "l'image et donc affecte la quantité de mémoire nécessaire à son stockage "
 "(dans la RAM ou dans un fichier)."
 
-#: src/menus/image/scale.xml:87(para)
+#: src/menus/image/scale.xml:88(para)
 msgid ""
 "However printing size also depends upon the resolution of the image, which "
 "essentially determines how many pixels there will be on each inch of paper. "
@@ -439,12 +442,12 @@ msgstr ""
 "détermine combien chaque pouce de papier contiendra de pixels. Si vous "
 "voulez changer la taille d'impression sans changer la taille de l'image ni "
 "le nombre de pixels qu'elle contient, vous devez utiliser la fenêtre de "
-"dialogue <link linkend=\"gimp-image-print-size\">Taille d'impression</link>."
+"dialogue <link linkend=\"gimp-image-print-size\">Taille d'impression</link>. "
 "Sur l'écran, la taille de l'image dépend, non seulement du nombre de pixels, "
 "mais aussi de la résolution d'écran, du facteur de zoom et du réglage de "
 "l'option <link linkend=\"gimp-view-dot-for-dot\">Point pour point</link>."
 
-#: src/menus/image/scale.xml:99(para)
+#: src/menus/image/scale.xml:100(para)
 msgid ""
 "If you enlarge an image beyond its original size, <acronym>GIMP</acronym> "
 "calculates the missing pixels by interpolation, but it does not add any new "
@@ -464,7 +467,7 @@ msgstr ""
 "il vaut mieux prendre vos photos ou scanner en haute résolution. Les images "
 "tramées ne s'agrandissent pas bien pour la même raison."
 
-#: src/menus/image/scale.xml:111(para)
+#: src/menus/image/scale.xml:112(para)
 msgid ""
 "You may need to reduce your image if you intend to use it on a web page. You "
 "have to consider that most internet users have relatively small screens "
@@ -476,18 +479,18 @@ msgstr ""
 "l'affichage des grandes images. La plupart des écrans ont une résolution de "
 "1024x768, voire moins."
 
-#: src/menus/image/scale.xml:117(para)
+#: src/menus/image/scale.xml:118(para)
 msgid "Adding or removing pixels is called <quote>Resampling</quote>."
 msgstr ""
 "L'ajout ou la suppression de pixels s'appelle <quote>Rééchantillonnage</"
 "quote>."
 
-#: src/menus/image/scale.xml:122(term) src/menus/image/print-size.xml:85(term)
+#: src/menus/image/scale.xml:123(term) src/menus/image/print-size.xml:85(term)
 #: src/menus/image/canvas-size.xml:68(term)
 msgid "Width; Height"
-msgstr "Largeur; Hauteur"
+msgstr "Largeur ; Hauteur"
 
-#: src/menus/image/scale.xml:124(para)
+#: src/menus/image/scale.xml:125(para)
 msgid ""
 "When you click on the <guimenuitem>Scale</guimenuitem> command, the dialog "
 "displays the dimensions of the original image in pixels. You can set the "
@@ -505,7 +508,7 @@ msgstr ""
 "même rapport. Si vous brisez la chaîne, vous pourrez les régler "
 "indépendamment, mais cela déformera l'image."
 
-#: src/menus/image/scale.xml:136(para)
+#: src/menus/image/scale.xml:137(para)
 msgid ""
 "However, you do not have to set the dimensions in pixels. You can choose "
 "different units from the drop-down menu. If you choose percent as the units, "
@@ -519,16 +522,16 @@ msgstr ""
 "vous offre différentes possibilités. <guilabel>Pour cent</guilabel> vous "
 "permet de régler la taille de l'image en pourcentage de la taille d'origine. "
 "Vous pouvez aussi changer d'unité de mesure (pouces, millimètres). Si vous "
-"le faites, vous devez régler les champs <guilabel>Résolution X</guilabel> "
-"et <guilabel>Résolution Y</guilabel> car ils sont utilisés pour la "
-"conversion des unités de mesure en pixels."
+"le faites, vous devez régler les champs <guilabel>Résolution X</guilabel> et "
+"<guilabel>Résolution Y</guilabel> car ils sont utilisés pour la conversion "
+"des unités de mesure en pixels."
 
-#: src/menus/image/scale.xml:150(term)
+#: src/menus/image/scale.xml:151(term)
 #: src/menus/image/print-size.xml:104(term)
 msgid "X resolution; Y resolution"
 msgstr "Résolution X ; Résolution Y"
 
-#: src/menus/image/scale.xml:152(para)
+#: src/menus/image/scale.xml:153(para)
 msgid ""
 "You can set the printing resolution for the image in the <guilabel>X "
 "resolution</guilabel> and <guilabel>Y resolution</guilabel> fields. You can "
@@ -538,11 +541,11 @@ msgstr ""
 "<guilabel>Résolution X</guilabel> et <guilabel>Résolution Y</guilabel>. Vous "
 "pouvez aussi changer d'unité de mesure dans la liste déroulante."
 
-#: src/menus/image/scale.xml:165(term)
+#: src/menus/image/scale.xml:166(term)
 msgid "Quality"
 msgstr "Qualité"
 
-#: src/menus/image/scale.xml:167(para)
+#: src/menus/image/scale.xml:168(para)
 msgid ""
 "To change the image size, either some pixels have to be removed or new "
 "pixels must be added. The process you use determines the quality of the "
@@ -555,11 +558,11 @@ msgstr ""
 "déroulante <guilabel>Interpolation</guilabel> fournit une sélection de "
 "différentes méthodes."
 
-#: src/menus/image/scale.xml:176(term)
+#: src/menus/image/scale.xml:177(term)
 msgid "Interpolation"
 msgstr "Interpolation"
 
-#: src/menus/image/scale.xml:180(para)
+#: src/menus/image/scale.xml:181(para)
 msgid ""
 "<guilabel>None</guilabel>: No interpolation is used. Pixels are simply "
 "enlarged or removed, as they are when zooming. This method is low quality, "
@@ -569,7 +572,7 @@ msgstr ""
 "pixels sont simplement agrandis comme ils le sont avec le zoom. Cette "
 "méthode est de pauvre qualité, mais est très rapide."
 
-#: src/menus/image/scale.xml:187(para)
+#: src/menus/image/scale.xml:188(para)
 msgid ""
 "<guilabel>Linear</guilabel>: This method is relatively fast, but still "
 "provides fairly good results."
@@ -577,7 +580,7 @@ msgstr ""
 "<emphasis>Linéaire</emphasis> : cette méthode d'interpolation linéaire est "
 "relativement rapide tout en produisant de bons résultats."
 
-#: src/menus/image/scale.xml:192(para)
+#: src/menus/image/scale.xml:193(para)
 msgid ""
 "<guilabel>Cubic</guilabel>: The method that produces the best results, but "
 "also the slowest method."
@@ -585,7 +588,7 @@ msgstr ""
 "<emphasis>Cubique</emphasis> : la meilleure méthode, mais nécessite beaucoup "
 "de calcul."
 
-#: src/menus/image/scale.xml:198(para)
+#: src/menus/image/scale.xml:199(para)
 msgid ""
 "<guilabel>Sinc (Lanczos 3)</guilabel>: New with GIMP-2.4, this method gives "
 "less blur in important resizings."
@@ -594,7 +597,7 @@ msgstr ""
 "méthode donne plus de finesse et moins de flou dans les redimensionnements "
 "importants."
 
-#: src/menus/image/scale.xml:211(para)
+#: src/menus/image/scale.xml:212(para)
 msgid ""
 "See also the <link linkend=\"gimp-tool-scale\">Scale tool</link>, which lets "
 "you scale a layer, a selection or a path."
@@ -697,7 +700,7 @@ msgstr "Résolution"
 
 #: src/menus/image/properties.xml:81(para)
 msgid "Shows the print resolution of the image in pixel per inch."
-msgstr "Résolution horizontale et verticale en pixels."
+msgstr "Résolution horizontale et verticale en pixels par pouce."
 
 #: src/menus/image/properties.xml:87(term)
 msgid "Color space"
@@ -771,11 +774,11 @@ msgstr "Nombre d'actions que vous avez annulées et que vous pouvez rétablir."
 #: src/menus/image/properties.xml:145(term)
 msgid "Number of pixels; Number of layers; Number of channels; Number of paths"
 msgstr ""
-"Nombre de pixels; Nombre de calques; Nombre de canaux; Nombre de chemins"
+"Nombre de pixels ; Nombre de calques ; Nombre de canaux ; Nombre de chemins"
 
 #: src/menus/image/properties.xml:150(para)
 msgid "Well counted!"
-msgstr "Le compte est bon!"
+msgstr "Le compte est bon !"
 
 #: src/menus/image/properties.xml:157(title)
 #: src/menus/image/properties.xml:159(title)
@@ -864,16 +867,15 @@ msgstr "La fenêtre <quote>Taille de l'impression</quote>"
 #: src/menus/image/print-size.xml:64(para)
 msgid ""
 "The output resolution determines the number of pixels used per unit length "
-"for the printed image. Do not confuse the output resolution with the printer "
-"resolution, which is expressed in dpi (dots per inch); several dots are used "
-"to print a pixel."
+"for the printed image. Do not confuse the output resolution with the "
+"printer's resolution, which is a printer feature and expressed in dpi (dots "
+"per inch); several dots are used to print a pixel."
 msgstr ""
 "La résolution de sortie détermine le nombre de pixels qui seront utilisés "
-"dans chaque pouce de l'image imprimée (ou dans une autre unité de longueur, "
-"selon votre préférence). Ne confondez pas cette résolution de sortie avec la "
-"résolution de l'imprimante exprimée en dpi (dots per inch = points par "
-"pouce) : l'imprimante est capable d'imprimer des points très fins, et il "
-"faut plusieurs points pour imprimer un pixel."
+"par unité de longueur de l'image imprimée. Ne confondez pas cette résolution "
+"de sortie avec la résolution de l'imprimante exprimée en dpi (dots per inch "
+"= points par pouce) : l'imprimante est capable d'imprimer des points très "
+"fins, et il faut plusieurs points pour imprimer un pixel."
 
 #: src/menus/image/print-size.xml:70(para)
 msgid ""
@@ -940,11 +942,11 @@ msgid ""
 "by clicking on the chain symbol, you will be able to set the values "
 "independently of each other."
 msgstr ""
-"utilisez les boîtes de texte pour changer les valeurs de résolution. Elles "
+"Utilisez les boîtes de texte pour changer les valeurs de résolution. Elles "
 "peuvent être liées de façon à garder un rapport constant. Le symbole chaîne "
 "situé entre les deux boîtes indique que les valeurs sont liées. Si vous "
 "cliquez sur le symbole chaîne pour la briser, vous pourrez régler les "
-"valeurs indépendemment l'une de l'autre."
+"valeurs indépendamment l'une de l'autre."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1033,15 +1035,15 @@ msgstr ""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:69(None)
+#: src/menus/image/merge-layers.xml:67(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible.png'; "
-"md5=b759280b40e6f8efb61dde9e609bb460"
-msgstr " "
+"md5=71c0009b662b6eda320b9d3147423a73"
+msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:124(None)
+#: src/menus/image/merge-layers.xml:132(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible-ex1.png'; "
 "md5=b00e2b465a01a3b41988ff1486125d60"
@@ -1049,7 +1051,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:133(None)
+#: src/menus/image/merge-layers.xml:141(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible-ex2.png'; "
 "md5=8c66ec83471118f2b08124802efaea9b"
@@ -1057,7 +1059,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/merge-layers.xml:144(None)
+#: src/menus/image/merge-layers.xml:152(None)
 msgid ""
 "@@image: 'images/menus/image/merge-visible-ex3.png'; "
 "md5=402ceee61292585717828684f4378415"
@@ -1109,8 +1111,8 @@ msgid ""
 "guimenuitem></menuchoice>,"
 msgstr ""
 "On accède à cette commande par le menu d'image en suivant "
-"<menuchoice><guimenu>Image</guimenu><guimenuitem>Échelle et Taille de "
-"l'image</guimenuitem></menuchoice>."
+"<menuchoice><guimenu>Image</guimenu><guimenuitem>Fusionner les calques "
+"visibles</guimenuitem ></menuchoice>."
 
 #: src/menus/image/merge-layers.xml:50(para)
 msgid ""
@@ -1120,20 +1122,19 @@ msgstr ""
 "Une autre possibilité est la combinaison de touches <keycombo><keycap>Ctrl</"
 "keycap><keycap>M</keycap></keycombo>."
 
-#. dialog title differs from command name (GIMP-2.6.7)
-#: src/menus/image/merge-layers.xml:60(title)
-msgid "Description of the <quote>Merge Layers</quote> Dialog"
-msgstr "Options"
+#: src/menus/image/merge-layers.xml:59(title)
+msgid "Description of the <quote>Layers merge Options</quote> Dialog"
+msgstr "Description du dialogue <quote>options de fusion des calques</quote>"
 
-#: src/menus/image/merge-layers.xml:64(title)
-msgid "The <quote>Merge Layers</quote> Dialog"
-msgstr "La fenêtre <quote>Fusionner les calques visibles</quote>"
+#: src/menus/image/merge-layers.xml:63(title)
+msgid "The <quote>Layers Merge Options</quote> Dialog"
+msgstr "Le dialogue <quote>Fusion des calques visibles</quote>"
 
-#: src/menus/image/merge-layers.xml:75(term)
+#: src/menus/image/merge-layers.xml:73(term)
 msgid "Final, Merged Layer should be:"
 msgstr "Les trois façons de fusionner les calques visibles"
 
-#: src/menus/image/merge-layers.xml:77(para)
+#: src/menus/image/merge-layers.xml:75(para)
 msgid ""
 "Visible layers are the layers which are marked with an <quote>eye</quote> "
 "icon in the Layers dialog."
@@ -1141,7 +1142,7 @@ msgstr ""
 "Les calques visibles sont les calques marqués d'un œil dans le dialogue des "
 "Calques."
 
-#: src/menus/image/merge-layers.xml:83(para)
+#: src/menus/image/merge-layers.xml:81(para)
 msgid ""
 "<emphasis>Expanded as necessary</emphasis>: The final layer is large enough "
 "to contain all of the merged layers. Please note that a layer in "
@@ -1151,7 +1152,7 @@ msgstr ""
 "taille du plus grand des calques visibles. Rappelez-vous que dans GIMP un "
 "calque peut être plus grand que l'image."
 
-#: src/menus/image/merge-layers.xml:92(para)
+#: src/menus/image/merge-layers.xml:90(para)
 msgid ""
 "<emphasis>Clipped to image</emphasis>: The final layer is the same size as "
 "the image. Remember that layers in <acronym>GIMP</acronym> can be larger "
@@ -1163,7 +1164,7 @@ msgstr ""
 "grands que l'image. Si un des calques visibles est dans ce cas, il sera "
 "rogné à la taille de l'image."
 
-#: src/menus/image/merge-layers.xml:101(para)
+#: src/menus/image/merge-layers.xml:99(para)
 msgid ""
 "<emphasis>Clipped to bottom layer</emphasis>: The final layer is the same "
 "size as the bottom layer. If the bottom layer is smaller than some of the "
@@ -1174,11 +1175,21 @@ msgstr ""
 "final aura la taille du calque situé le plus bas. Si le calque du bas est "
 "plus petit que l'un des autres calques, le calque final aura cette taille."
 
-#: src/menus/image/merge-layers.xml:113(term)
+#: src/menus/image/merge-layers.xml:112(term)
+msgid "Merge within active group only"
+msgstr "Fusionner dans le groupe actif uniquement"
+
+#: src/menus/image/merge-layers.xml:114(para)
+msgid "This self-explanatory option is enabled when a layer group exists."
+msgstr ""
+"Cette option , qui se comprend d'elle-même, est activée quand un groupe de "
+"calques existe. "
+
+#: src/menus/image/merge-layers.xml:121(term)
 msgid "Discard invisible layers"
 msgstr "Écarter les calques non visibles"
 
-#: src/menus/image/merge-layers.xml:115(para)
+#: src/menus/image/merge-layers.xml:123(para)
 msgid ""
 "When this option is checked, non visible layers are removed from the layer "
 "stack."
@@ -1186,19 +1197,19 @@ msgstr ""
 "Quand cette option est cochée, les calques non visibles sont supprimés de la "
 "pile des calques."
 
-#: src/menus/image/merge-layers.xml:120(title)
+#: src/menus/image/merge-layers.xml:128(title)
 msgid "<quote>Merge visible layers</quote> example"
 msgstr "Exemple pour <quote>Fusionner les calques visibles</quote>"
 
-#: src/menus/image/merge-layers.xml:127(para)
+#: src/menus/image/merge-layers.xml:135(para)
 msgid "Three layers; two are visible"
-msgstr "Trois calques; deux sont visibles"
+msgstr "Trois calques ; deux sont visibles"
 
-#: src/menus/image/merge-layers.xml:136(para)
+#: src/menus/image/merge-layers.xml:144(para)
 msgid "<quote>Discard invisible layers</quote> unchecked"
 msgstr "<quote>Écarter les calques non visibles</quote> non cochée"
 
-#: src/menus/image/merge-layers.xml:147(para)
+#: src/menus/image/merge-layers.xml:155(para)
 msgid "<quote>Discard invisible layers</quote> checked"
 msgstr "<quote>Écarter les calques non visibles</quote> cochée"
 
@@ -1264,14 +1275,15 @@ msgid ""
 "menuchoice>."
 msgstr ""
 "Cette commande se trouve dans <menuchoice><guimenu>Image</"
-"guimenu><guimenuitem>Mode...</guimenuitem></menuchoice>."
+"guimenu><guimenuitem>Guides</guimenuitem></menuchoice>."
 
 #: src/menus/image/guides.xml:52(title)
 msgid "The Contents of the <quote>Guides</quote> Submenu"
 msgstr "Entrées du sous-menu Guides"
 
 #: src/menus/image/guides.xml:53(para)
-msgid "The <guilabel>Guides</guilabel> submenu contains the following commands:"
+msgid ""
+"The <guilabel>Guides</guilabel> submenu contains the following commands:"
 msgstr ""
 "Dans le sous-menu <guilabel>Guides</guilabel> vous trouverez les commandes "
 "suivantes :"
@@ -1373,7 +1385,7 @@ msgstr "Options"
 #: src/menus/image/guides-new.xml:63(term)
 #: src/menus/image/guides-new-percent.xml:66(term)
 msgid "Direction"
-msgstr "Direction ; Position"
+msgstr "Direction"
 
 #: src/menus/image/guides-new.xml:65(para)
 #: src/menus/image/guides-new-percent.xml:68(para)
@@ -1382,10 +1394,8 @@ msgid ""
 "<guilabel>Horizontal</guilabel> or <guilabel>Vertical</guilabel>, by using "
 "the drop-down list."
 msgstr ""
-"Cette option ouvre une fenêtre de dialogue où, après avoir choisi sa "
-"<guilabel>Direction</guilabel>, horizontale ou verticale, vous pouvez fixer "
-"sa <guilabel>Position</guilabel> en pourcentage, plus précisément qu'en "
-"utilisant le cliquer-glisser."
+"Vous pouvez choisir la direction du guide (horizontale ou verticale) à "
+"l'aide de la liste déroulante."
 
 #: src/menus/image/guides-new.xml:73(term)
 #: src/menus/image/guides-new-percent.xml:76(term)
@@ -1433,7 +1443,7 @@ msgid ""
 "guisubmenu><guimenuitem>New Guides from Selection</guimenuitem></menuchoice>."
 msgstr ""
 "On accède à cette commande par le menu d'image en suivant : "
-"<menuchoice><guimenu>Image</guimenu><guisubmenu>Mode</"
+"<menuchoice><guimenu>Image</guimenu><guisubmenu>Guides</"
 "guisubmenu><guimenuitem>Nouveaux guides depuis la sélection</guimenuitem></"
 "menuchoice>."
 
@@ -1481,7 +1491,7 @@ msgid ""
 msgstr ""
 "On accède à cette commande par le menu d'image en suivant : "
 "<menuchoice><guimenu>Image</guimenu><guisubmenu>Guides</"
-"guisubmenu><guimenuitem>Nouveau guide (en pourcentage...</guimenuitem></"
+"guisubmenu><guimenuitem>Nouveau guide (en pourcentage)...</guimenuitem></"
 "menuchoice>."
 
 #: src/menus/image/guides-new-percent.xml:49(title)
@@ -1500,7 +1510,7 @@ msgstr ""
 
 #: src/menus/image/guides-new-percent.xml:56(title)
 msgid "The <quote>New Guide (by Percent)</quote> Dialog"
-msgstr "Options"
+msgstr "La boîte de dialogue <quote>Nouveau guide (en pourcentage)</quote>"
 
 #: src/menus/image/guides-new-percent.xml:78(para)
 msgid ""
@@ -1675,7 +1685,7 @@ msgid ""
 "menuchoice>, all changes are passed on the original image."
 msgstr ""
 "Ne confondez pas une image dupliquée avec une nouvelle vue de cette image. "
-"Dans une <menuchoice><guimenu>View</guimenu><guimenuitem>Nouvelle vue</"
+"Dans une <menuchoice><guimenu>Affichage</guimenu><guimenuitem>Nouvelle vue</"
 "guimenuitem></menuchoice>, les changements s'effectuent en même temps dans "
 "l'image d'origine."
 
@@ -1774,7 +1784,7 @@ msgid ""
 "your image."
 msgstr ""
 "Vous travaillez normalement en mode RVB, bien adapté à l'écran. Voir le "
-"<link linkend=\"glossary-colormodel\">Glossaire</link> . Vous pouvez "
+"<link linkend=\"glossary-colormodel\">Glossaire</link>. Vous pouvez "
 "transformer ce mode RVB en Niveaux de gris ou en image indexée, mais "
 "attention: une fois sauvegardée, l'image ne pourra pas retrouver ses "
 "couleurs d'origine. Travaillez sur une copie."
@@ -2168,7 +2178,8 @@ msgstr "Intersections (croix)"
 msgid ""
 "This style, the default, shows a plus-shaped crosshair at each intersection "
 "of the grid lines."
-msgstr "C'est le style par défaut: il donne un «+» à l'intersection des lignes."
+msgstr ""
+"C'est le style par défaut: il donne un «+» à l'intersection des lignes."
 
 #: src/menus/image/configure-grid.xml:87(term)
 msgid "Dashed"
@@ -2284,7 +2295,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:309(None)
+#: src/menus/image/canvas-size.xml:315(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex4.png'; "
 "md5=9f6d98883e41848510ad04b284999c26"
@@ -2292,7 +2303,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/canvas-size.xml:324(None)
+#: src/menus/image/canvas-size.xml:330(None)
 msgid ""
 "@@image: 'images/menus/image/canvas-size-ex5.png'; "
 "md5=ea89ab944513d03214f85e750ded5334"
@@ -2459,11 +2470,11 @@ msgid ""
 "drop-down list offers you several possibilities:"
 msgstr ""
 "Avant la version GIMP-2.4, <quote>Taille du canevas</quote> n'avait aucune "
-"influence sur la taille des calques; pour la changer, il fallait recourir à "
+"influence sur la taille des calques ; pour la changer, il fallait recourir à "
 "<link linkend=\"gimp-layer-resize\">Taille des bords du calque</link>. "
 "L'option <guilabel>Calques</guilabel> vous permet de spécifier comment "
 "seront, éventuellement, redimensionnés les calques. La liste déroulante vous "
-"donne plusieurs possibilités :"
+"donne plusieurs possibilités :"
 
 #: src/menus/image/canvas-size.xml:156(title)
 msgid "The Resize layers list"
@@ -2524,7 +2535,9 @@ msgid ""
 "automatically calculated and displayed in the text boxes."
 msgstr ""
 "Le bouton <guilabel>Centrer</guilabel> vous permet de placer le centre de "
-"l'image au centre du canevas."
+"l'image au centre du canevas. Quand vous cliquez sur le bouton centre, les "
+"valeurs de décalage sont automatiquement calculées et affichées dans les "
+"boîtes de texte."
 
 #: src/menus/image/canvas-size.xml:220(para)
 msgid ""
@@ -2553,10 +2566,14 @@ msgid ""
 msgstr ""
 "La partie de canevas ajoutée est transparente, représentée par un damier et "
 "n'est pas immédiatement accessible aux outils. Pour qu'elle le soit, vous "
-"devez l' <link linkend=\"gimp-image-flatten\">aplatir</link>. Vous pouvez "
-"aussi créer un nouveau calque pour y déposer le fond de votre choix. Vous "
-"créez ainsi un passe-partout numérique (un passe-partout est une sorte de "
-"sous-verre dont le fond s'ouvre pour qu'on puisse y glisser des photos)."
+"devez l' <link linkend=\"gimp-image-flatten\">aplatir</link>. Vous obtenez "
+"ainsi une image avec un seul calque parfaitement adapté au canevas, ou vous "
+"pouvez utiliser la commande <link linkend=\"gimp-layer-resize-to-image"
+"\">Calque vers la taille de l'image</link> pour ne redimensionner que le "
+"calque actif sans modifier les autres calques. Vous pouvez aussi créer un "
+"nouveau calque pour y déposer le fond de votre choix. Vous créez ainsi un "
+"passe-partout numérique (un passe-partout est une sorte de sous-verre dont "
+"le fond s'ouvre pour qu'on puisse y glisser des photos)."
 
 #: src/menus/image/canvas-size.xml:255(para)
 msgid ""
@@ -2606,14 +2623,25 @@ msgid "What's Canvas Size useful for?"
 msgstr "À quoi sert Taille du canevas?"
 
 #: src/menus/image/canvas-size.xml:303(para)
-msgid "You can use this command to crop an image:"
-msgstr "Cette commande peut servir à recadrer une image :"
+msgid ""
+"You may want to add some stuff around your image: enlarge canvas size, add a "
+"new layer that will have the same size as the new canvas and then paint this "
+"new layer. That's the converse of cropping."
+msgstr ""
+"Vous pouvez avoir besoin d'ajouter quelque chose autour de l'image : "
+"augmentez la taille du canevas, ajoutez un nouveau calque qui aura la même "
+"taille que le nouveau canevas, puis dessinez sur ce nouveau calque. C'est "
+"l'inverse du découpage."
 
-#: src/menus/image/canvas-size.xml:305(title)
+#: src/menus/image/canvas-size.xml:309(para)
+msgid "You can also use this command to crop an image:"
+msgstr "Vous pouvez aussi utiliser cette commande pour découper une image :"
+
+#: src/menus/image/canvas-size.xml:311(title)
 msgid "Resizing canvas"
 msgstr "Redimensionnement du canevas"
 
-#: src/menus/image/canvas-size.xml:313(para)
+#: src/menus/image/canvas-size.xml:319(para)
 msgid ""
 "Click on the chain next to Width and Height entries to unlink dimensions. By "
 "modifying these dimensions and moving image against canvas, by trial and "
@@ -2626,11 +2654,11 @@ msgstr ""
 "cadrer la partie voulue de l'image. Cliquez alors sur le bouton Centrer, et "
 "enfin sur le bouton Redimensionner."
 
-#: src/menus/image/canvas-size.xml:320(title)
+#: src/menus/image/canvas-size.xml:326(title)
 msgid "Cropped image"
 msgstr "Image recadrée"
 
-#: src/menus/image/canvas-size.xml:329(para)
+#: src/menus/image/canvas-size.xml:335(para)
 msgid "The <link linkend=\"gimp-tool-crop\">Crop tool</link> is easier to use."
 msgstr ""
 "L'outil <link linkend=\"gimp-tool-crop\">Découpage</link> est plus facile à "
@@ -2705,9 +2733,9 @@ msgid ""
 "green square; both on a yellow semi-transparent background. The green layer "
 "is active."
 msgstr ""
-"Image composée de trois calques. L'un avec un carré rouge; un autre avec un "
-"carré vert; tous deux sur un fond jaune semi-transparent. Le calque vert est "
-"actif."
+"Image composée de trois calques. L'un avec un carré rouge ; un autre avec un "
+"carré vert  ; tous deux sur un fond jaune semi-transparent. Le calque vert "
+"est actif."
 
 #: src/menus/image/autocrop.xml:75(para)
 msgid ""
@@ -2716,17 +2744,17 @@ msgid ""
 "Only a small part of the red square has been kept."
 msgstr ""
 "<quote>Découpage automatique</quote> a découpé le carré vert et en a fait un "
-"calque. Les autres calques ont été découpés aux dimensions de ce dernier; "
+"calque. Les autres calques ont été découpés aux dimensions de ce dernier ; "
 "seule une petite partie du calque rouge a été retenue."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/menus/image/align-layers.xml:47(None)
-#: src/menus/image/align-layers.xml:134(None)
-#: src/menus/image/align-layers.xml:162(None)
-#: src/menus/image/align-layers.xml:209(None)
-#: src/menus/image/align-layers.xml:241(None)
-#: src/menus/image/align-layers.xml:275(None)
+#: src/menus/image/align-layers.xml:144(None)
+#: src/menus/image/align-layers.xml:172(None)
+#: src/menus/image/align-layers.xml:219(None)
+#: src/menus/image/align-layers.xml:251(None)
+#: src/menus/image/align-layers.xml:285(None)
 msgid ""
 "@@image: 'images/menus/image/align-demo.png'; "
 "md5=1e87c0ed481e029df3395a50af940869"
@@ -2734,7 +2762,15 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:92(None)
+#: src/menus/image/align-layers.xml:87(None)
+msgid ""
+"@@image: 'images/menus/image/align-no-layer.png'; "
+"md5=f758e162de05fd07537abbef8d94840f"
+msgstr "\" \""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/image/align-layers.xml:102(None)
 msgid ""
 "@@image: 'images/menus/image/align-layers.png'; "
 "md5=2505bd2bff5ef0a36f5a219b2a5eeeb3"
@@ -2742,7 +2778,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:143(None)
+#: src/menus/image/align-layers.xml:153(None)
 msgid ""
 "@@image: 'images/menus/image/alignHCLB-.png'; "
 "md5=77a6d29d54d34408f0da3ae3523aee91"
@@ -2750,7 +2786,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:172(None)
+#: src/menus/image/align-layers.xml:182(None)
 msgid ""
 "@@image: 'images/menus/image/alignHCLB+.png'; "
 "md5=d69e3722bf945455440bc14ec3c2d8a7"
@@ -2758,7 +2794,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:219(None)
+#: src/menus/image/align-layers.xml:229(None)
 msgid ""
 "@@image: 'images/menus/image/alignHFLB-.png'; "
 "md5=0992e4e1d3fb559032ae6dc72f0bf37a"
@@ -2766,7 +2802,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:250(None)
+#: src/menus/image/align-layers.xml:260(None)
 msgid ""
 "@@image: 'images/menus/image/alignHFLB+.png'; "
 "md5=623ee83be73b978062bea373cc6c2c39"
@@ -2774,7 +2810,7 @@ msgstr " "
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/menus/image/align-layers.xml:284(None)
+#: src/menus/image/align-layers.xml:294(None)
 msgid ""
 "@@image: 'images/menus/image/alignVFBB+.png'; "
 "md5=79992594a816b16cffef2b3fd0ddf487"
@@ -2846,28 +2882,33 @@ msgstr ""
 msgid ""
 "You can access this command from the image menubar through "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem>Align Visible layers</"
-"guimenuitem></menuchoice>. There is no default keyboard shortcut. The dialog "
-"doesn't show up if the image holds a single layer only."
+"guimenuitem></menuchoice>. There is no default keyboard shortcut. If the "
+"image holds a single layer only, you get a message from GIMP telling that "
+"there must be more than one layer in the image to execute the command."
 msgstr ""
 "On accède à cette commande à partir de la barre de menu de l'image par "
 "<menuchoice><guimenu>Image</guimenu><guimenuitem> Aligner les calques "
 "visibles </guimenuitem></menuchoice>. Il n'y a pas de raccourci-clavier par "
-"défaut. La fenêtre de Dialogue ne s'ouvre pas si l'image ne possède qu'un "
-"seul calque."
+"défaut. Si l'image ne possède qu'un seul calque, vous obtenez un message "
+"disant que plus d'un calque sont nécessaires à l'exécution de la commande."
 
-#: src/menus/image/align-layers.xml:84(title)
+#: src/menus/image/align-layers.xml:83(title)
+msgid "The <quote>Not enough layers</quote> message"
+msgstr "La fenêtre <quote>Il n'y a pas assez de calques</quote>"
+
+#: src/menus/image/align-layers.xml:94(title)
 msgid "Description of the <quote>Align Visible Layers</quote> dialog"
 msgstr "Options"
 
-#: src/menus/image/align-layers.xml:88(title)
+#: src/menus/image/align-layers.xml:98(title)
 msgid "The <quote>Align Visible Layers</quote> dialog"
 msgstr "La fenêtre <quote>Fusionner les calques visibles</quote>"
 
-#: src/menus/image/align-layers.xml:98(term)
+#: src/menus/image/align-layers.xml:108(term)
 msgid "Horizontal Style; Vertical Style"
 msgstr "Style Horizontal/Vertical"
 
-#: src/menus/image/align-layers.xml:100(para)
+#: src/menus/image/align-layers.xml:110(para)
 msgid ""
 "These options control how the layers should be moved in relationship to each "
 "other. You can choose:"
@@ -2875,7 +2916,7 @@ msgstr ""
 "Cette option contrôle comment les calques visibles seront déplacés "
 "horizontalement / verticalement les uns par rapport aux autres:"
 
-#: src/menus/image/align-layers.xml:106(para)
+#: src/menus/image/align-layers.xml:116(para)
 msgid ""
 "<guilabel>None</guilabel>: There will be no change in the horizontal or the "
 "vertical position, respectively."
@@ -2883,7 +2924,7 @@ msgstr ""
 "<guilabel>Aucun</guilabel>: Aucun changement ne sera apporté aux positions "
 "horizontales / verticales."
 
-#: src/menus/image/align-layers.xml:113(para)
+#: src/menus/image/align-layers.xml:123(para)
 msgid ""
 "<guilabel>Collect</guilabel>: The visible layers will be aligned on the "
 "canvas, in the way that is determined by the <guilabel>Horizontal base</"
@@ -2897,24 +2938,24 @@ msgstr ""
 "<guilabel>Rassembler</guilabel>: Cette option aligne la «Base Horizontale / "
 "verticale» sélectionnée (Bord gauche, Milieu, Bord droit / Bord haut, "
 "Milieu, Bord bas) sur le bord gauche / haut du canevas. Si vous choisissez "
-"Bord Droit, les calques sortent du canevas; vous pouvez les retrouver en "
+"Bord Droit, les calques sortent du canevas ; vous pouvez les retrouver en "
 "agrandissant le canevas. Si l'option <guilabel>Calque du bas comme base</"
 "guilabel> est cochée, l'alignement se fait sur le bord correspondant du "
 "calque du bas de la pile."
 
-#: src/menus/image/align-layers.xml:127(title)
+#: src/menus/image/align-layers.xml:137(title)
 msgid "Horizontal <quote>Collect</quote> alignment (on the edge of the canvas)"
 msgstr "Alignement horizontal par rassemblement (sur le bord du Canevas)"
 
-#: src/menus/image/align-layers.xml:137(para)
-#: src/menus/image/align-layers.xml:165(para)
-#: src/menus/image/align-layers.xml:212(para)
-#: src/menus/image/align-layers.xml:244(para)
-#: src/menus/image/align-layers.xml:278(para)
+#: src/menus/image/align-layers.xml:147(para)
+#: src/menus/image/align-layers.xml:175(para)
+#: src/menus/image/align-layers.xml:222(para)
+#: src/menus/image/align-layers.xml:254(para)
+#: src/menus/image/align-layers.xml:288(para)
 msgid "Original image with the layer stack"
 msgstr "Image d'origine avec pile des calques"
 
-#: src/menus/image/align-layers.xml:146(para)
+#: src/menus/image/align-layers.xml:156(para)
 msgid ""
 "The layers have been moved horizontally so that their left edges are aligned "
 "with the left edge of the canvas."
@@ -2922,11 +2963,11 @@ msgstr ""
 "Les calques se sont déplacés horizontalement pour venir aligner leur bord "
 "gauche sur le bord gauche du canevas."
 
-#: src/menus/image/align-layers.xml:155(title)
+#: src/menus/image/align-layers.xml:165(title)
 msgid "Horizontal <quote>Collect</quote> alignment (on the bottom layer)"
 msgstr "Alignement horizontal par rassemblement (sur le calque du bas)"
 
-#: src/menus/image/align-layers.xml:175(para)
+#: src/menus/image/align-layers.xml:185(para)
 msgid ""
 "The layers have been moved horizontally so that their left edges align with "
 "the left edge of the bottom layer."
@@ -2934,7 +2975,7 @@ msgstr ""
 "Les calques se sont déplacés horizontalement pour aligner leur bord gauche "
 "sur le bord gauche du calque du bas de la pile."
 
-#: src/menus/image/align-layers.xml:185(para)
+#: src/menus/image/align-layers.xml:195(para)
 msgid ""
 "<guilabel>Fill (left to right)</guilabel>; <guilabel>Fill (top to bottom)</"
 "guilabel>: The visible layers will be aligned with the canvas according to "
@@ -2958,11 +2999,11 @@ msgstr ""
 "est cochée, la base du calque du haut est alignée sur le bord correspondant "
 "du calque du bas de la pile."
 
-#: src/menus/image/align-layers.xml:203(title)
+#: src/menus/image/align-layers.xml:213(title)
 msgid "Horizontal <quote>Fill</quote> alignment (canvas)"
 msgstr "Alignement horizontal par remplissage (canevas)"
 
-#: src/menus/image/align-layers.xml:222(para)
+#: src/menus/image/align-layers.xml:232(para)
 msgid ""
 "Horizontal filling alignment, Left to Right, with <guilabel>Use the "
 "(invisible) bottom layer as the base</guilabel> option not checked. The top "
@@ -2978,11 +3019,11 @@ msgstr ""
 "calque jaune. Le calque rouge, le dernier de la pile, occupe la position la "
 "plus à droite, qui était celle du calque vert."
 
-#: src/menus/image/align-layers.xml:235(title)
+#: src/menus/image/align-layers.xml:245(title)
 msgid "Horizontal <quote>Fill</quote> alignment (bottom layer)"
 msgstr "Alignement Horizontal par remplissage (calque du bas)"
 
-#: src/menus/image/align-layers.xml:253(para)
+#: src/menus/image/align-layers.xml:263(para)
 msgid ""
 "The same parameters as in the previous example, but with the lowest (blue) "
 "level as the base."
@@ -2990,7 +3031,7 @@ msgstr ""
 "Alignement de remplissage Horizontal, de gauche à droite avec le calque du "
 "bas de la pile (bleu) pour base."
 
-#: src/menus/image/align-layers.xml:262(para)
+#: src/menus/image/align-layers.xml:272(para)
 msgid ""
 "<guilabel>Fill (right to left)</guilabel>; <guilabel>Fill (bottom to top)</"
 "guilabel>: These settings work similarly to the ones described above, but "
@@ -3000,30 +3041,27 @@ msgstr ""
 "précédemment, cette fonction lit la pile des calques de haut en bas, mais "
 "affiche les calques alignés de droite à gauche / de bas en haut."
 
-#: src/menus/image/align-layers.xml:269(title)
+#: src/menus/image/align-layers.xml:279(title)
 msgid "Vertical <quote>Fill</quote> alignment (bottom layer)"
 msgstr "Alignement Vertical par remplissage (calque du bas)"
 
-#: src/menus/image/align-layers.xml:287(para)
+#: src/menus/image/align-layers.xml:297(para)
 msgid ""
 "Vertical <quote>Fill</quote> alignment, bottom to top, bottom layer as base"
 msgstr ""
 "Alignement de remplissage vertical, de bas en haut, avec le calque du bas "
 "pour base"
 
-#: src/menus/image/align-layers.xml:294(para)
+#: src/menus/image/align-layers.xml:304(para)
 msgid ""
 "There must be at least three visible layers in the image to use the "
 "<quote>Fill</quote> options."
-msgstr "Les options de remplissage nécessitent trois calques visibles au moins."
+msgstr ""
+"Les options de remplissage nécessitent trois calques visibles au moins."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: src/menus/image/align-layers.xml:0(None)
 msgid "translator-credits"
-msgstr "Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2011"
-
-#~ msgid "Duplicate image"
-#~ msgstr "Dupliquer l'image"
-
-#~ msgid "@@image: 'images/menus/image.png'; md5=THIS FILE DOESN'T EXIST"
-#~ msgstr " "
+msgstr ""
+"Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2008, 2009, 2011\n"
+"Stéphane Poumaer, spoumaer@gmail.com, 2013"
