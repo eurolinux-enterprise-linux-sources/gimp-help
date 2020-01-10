@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  section history:
+  2008-04-07 Mr.Dust : added 'ko'
+  2007-09-29 AntI: Added 'es'
+  2007-03-25 KoSt: added 'no'
+  2006-11-01 lexa: made the file docbook compliant
+  2008-01-28 jpl: update text & images
+-->
+<sect2 id="gimp-prefs-environment">
+  <title>Environment</title>
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Environment</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Environment preferences</primary>
+  </indexterm>
+
+  <figure>
+    <title>Environment Preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/preferences/prefs-environment.png"/>
+      </imageobject>
+      <caption>
+        <para>
+          This page lets you customize the amount of system memory allocated
+          for various purposes. It also allows you to disable the confirmation
+          dialogs that appear when you close unsaved images, and to set the
+          size of thumbnail files that GIMP produces.
+        </para>
+      </caption>
+    </mediaobject>
+  </figure>
+  <sect3>
+    <title>Options</title>
+    <variablelist>
+      <title>Resource Consumption</title>
+      <varlistentry>
+        <term>Minimal number of undo levels</term>
+        <listitem>
+          <para>
+            GIMP allows you to undo most actions by maintaining an
+            <quote>Undo History</quote>
+            for each image, for which a certain amount of memory is allocated.
+            Regardless of memory usage, however, GIMP always permits some
+            minimal number of the most recent actions to be undone: this is
+            the number specified here. See
+            <xref linkend="gimp-concepts-undo"/>
+            for more information about GIMP's Undo mechanism.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Maximum undo memory</term>
+        <listitem>
+          <para>
+            This is the amount of undo memory allocated for each image. If the
+            Undo History size exceeds this, the oldest points are deleted,
+            unless this would result in fewer points being present than the
+            minimal number specified above.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Tile cache size</term>
+        <listitem>
+          <para>
+            This is the amount of system RAM allocated for GIMP image
+            data.  If GIMP requires more memory than this, it begins to
+            swap to disk, which may in some circumstances cause a
+            dramatic slowdown.  You are given an opportunity to set this
+            number when you install GIMP, but you can alter it here. See
+            <link linkend="gimp-using-setup-tile-cache">How to Set Your
+            Tile Cache</link> for more information.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Maximum new image size</term>
+        <listitem>
+          <para>
+            This is not a hard constraint: if you try to create a new image
+            larger than the specified size, you are asked to confirm that you
+            really want to do it. This is to prevent you from accidentally
+            creating images much larger than you intend, which can either
+            crash GIMP or cause it to respond verrrrrrrry slowwwwwwwwly.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Number of processors to use</term>
+        <listitem>
+          <para>
+            Default is one. Your computer may have more than one processor.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Image Thumbnails</title>
+      <varlistentry>
+        <term>Size of thumbnails</term>
+        <listitem>
+          <para>
+              This options allows you to set the size of the thumbnails shown
+              in the File Open dialog (and also saved for possible use by
+              other programs). The options are <quote>None</quote>,
+              <quote>Normal (128x128)</quote>, and
+              <quote>Large (256x256)</quote>.
+            </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Maximum filesize for thumbnailing</term>
+        <listitem>
+          <para>
+              If an image file is larger than the specified maximum size, GIMP
+              will not generate a thumbnail for it. This options allows you to
+              prevent thumbnailing of extremely large image files from slowing
+              GIMP to a crawl.
+            </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Saving Images</title>
+      <varlistentry>
+        <term>Confirm closing of unsaved images</term>
+        <listitem>
+          <para>
+              Closing an image is not undoable, so by default GIMP asks you to
+              confirm that you really want to do it, whenever it would lead to
+              a loss of unsaved changes. You can disable this if you find it
+              annoying; but then of course you are responsible for remembering
+              what you have and have not saved.
+            </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Document history</title>
+      <varlistentry>
+        <term>Keep record of used files in the Recent Documents list</term>
+        <listitem>
+          <para>
+              When checked, files you have opened will be saved in the
+              Document history. You can access the list of files with the
+              <link linkend="gimp-document-dialog">Document history
+              dialog</link> from the image menu-bar :
+              <menuchoice>
+                <guimenu>File</guimenu>
+                <guisubmenu>Open Recent</guisubmenu>
+                <guimenuitem>Document History</guimenuitem>
+              </menuchoice>.
+            </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

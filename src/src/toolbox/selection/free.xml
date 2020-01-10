@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2008-03-20 JPL : reviewed fr & en
+  2007-12-20  PP : reviewed fr & en ; added sect3 "Tool manipulation" for en & fr ; other lang todo
+  2007-08-08 added 'ko' contents by Mr.Dust
+  2007-06-02 kost: added 'no'
+  2006-02-10 en;fr revised by j.h
+  2005-12-06 replaced informalfigure by figure by lexa
+  050801 addition en;fr by j.h
+  050517 de reviewed by axel.wernicke
+-->
+<sect2 id="gimp-tool-free-select" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Free Selection (Lasso)</title>
+
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Free Selection</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Selection</primary>
+    <secondary>Free Selection</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Selection</primary>
+    <secondary>Polygonal Selection</secondary>
+  </indexterm>
+  <indexterm><primary>Polygonal Selection</primary></indexterm>
+  <indexterm><primary>Lasso</primary></indexterm>
+
+  <figure>
+    <title>Free Selection icon in the Toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-lasso.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>
+    The Free Selection tool, or Lasso, lets you create a selection by drawing
+    it free-hand with the pointer, while holding down the left mouse button
+    (or, for a stylus, pressing it against the tablet). When you release the
+    mouse button, the selection is closed by connecting the current pointer
+    location to the start location with a straight line. You can go outside
+    the edge of the image display and come back in if you want to. The Lasso
+    is often a good tool to use for <quote>roughing in</quote> a selection;
+    it is not so  good for precise definition. Experienced users find that
+    it  is often convenient to begin with the lasso tool, but then switch to
+    <link linkend="gimp-qmask">QuickMask</link> mode for detail work.
+  </para>
+  <para>
+    For information on selections and how
+    they are used in GIMP see
+    <link linkend="gimp-concepts-selection">Selections</link>.  For
+    information on features common to all selection tools see
+    <link linkend="gimp-tool-select">Selection Tools</link>.
+  </para>
+  <note>
+    <para>
+      The Free Selection tool is much easier to use with a tablet than
+      with a mouse.
+    </para>
+  </note>
+
+  <para>
+    A new possibility came up with GIMP-2.6: the polygonal selection.
+    Instead of click-and-dragging to draw a free hand selection, you can
+    click only. This creates an anchor point. Then moving the mouse pointer
+    draws a line with a new anchor point that you can move as long as you
+    don't click again (the mouse pointer comes with the moving cross).
+    Clicking again anchors this point and creates a segment. By pressing
+    the <keycap>Ctrl</keycap> keyboard key while moving the mouse pointer
+    contrains moving angles to 15°.
+  </para>
+  <para>
+    So, you can mix free hand segments and polygonal segments.
+  </para>
+  <figure>
+    <title>Mixing free hand segments and polygonal segments</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+                   fileref="images/using/new-free-select-tool.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect3>
+    <title>Activating the tool</title>
+    <para>
+      You can access the Lasso Tool in different ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From the image menu bar
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Selection Tools</guisubmenu>
+            <guimenuitem>Free Select</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking on the tool icon
+          <guiicon>
+            <inlinegraphic
+              fileref="images/toolbox/stock-tool-free-select-22.png"/>
+          </guiicon>
+          in the ToolBox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by using the keyboard shortcut <keycap>F</keycap>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers</title>
+    <para>
+      The Free Select tool does not have any special key modifiers,
+      only the ones that affect all selection tools in the same way.
+      See <link linkend="gimp-tool-select">Selection Tools</link> for
+      help with these.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Tool handling</title>
+    <para>
+      To move the selection, see
+      <link linkend="gimp-using-selections-moving">Moving selections</link>.
+    </para>
+    <figure>
+      <title>Rough selection with the Free Selection tool. </title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/free-selection.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>Tool Options for the Lasso tool</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/tool-options-lasso.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <para>
+      The Free Select tool has no special tool options,
+      only the ones that affect all selection tools in the same way.
+      See <link linkend="gimp-tool-select">Selection Tools</link> for
+      help with these.
+    </para>
+  </sect3>
+</sect2>

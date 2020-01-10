@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-11-09 KoSt: added 'no'
+  2007-09-14 AntI: Added 'es'
+  2007-08-30 j.h: replaced "select layer" with "choose layer"
+  2007-08-27 ude: added rubber-banding
+  2007-08-22 j.h: completed en and added example. Translated to fr
+  2007-08-19 ude: added stock images; de translation
+  2007-08-14 ciampix: align tool stub page created
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-align">
+  <title>Align</title>
+  <indexterm>
+    <primary>Align</primary>
+  </indexterm>
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Align</secondary>
+  </indexterm>
+
+  <figure>
+    <title>The Align tool in the toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-align.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The Align tool is useful to align the image layers with various
+    image objects. When this tool is selected, the mouse pointer turns
+    to a small hand. By clicking on an element of a layer in the
+    image, you choose the layer which will be moved (with <keycap>Shift
+    </keycap> + click, you can choose several layers to be aligned);
+    this focalised layer has small squares in corners.
+    Various buttons in the dialog allow you to select how the layer
+    will be moved. And you can select the image object (other layer,
+    selection, path...) the selected layer will be aligned on. This
+    object is called <emphasis>target</emphasis>.
+  </para>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>You can activate the Align tool in several ways :</para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From the image-menu, through:
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Transform Tools</guisubmenu>
+            <guimenuitem>Align</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking on the tool icon:
+          <guiicon>
+            <inlinegraphic
+                fileref="images/toolbox/stock-tool-align-22.png"/>
+          </guiicon>
+          in the toolbox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by using the <keycap>Q</keycap> keyboard shortcut.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <variablelist>
+      <varlistentry>
+        <term><keycap>Shift</keycap></term>
+        <listitem>
+          <para>
+            You can select several layers by holding <keycap>Shift</keycap>
+            when clicking the layers.
+          </para>
+          <tip>
+            <para>
+              Sometimes it's easier to choose multiple layers using
+              rubber-banding: click somewhere outside an imaginary rectangular
+              region covering the layers you want to choose. Then drag out
+              that region by moving the pointer, and release the mouse button.
+              Now every layer, which is completely inside the dragged
+              rectangle, is selected.
+            </para>
+            <para>
+              Note that now there is no target <quote>first item</quote> the
+              selected layers can be aligned on.
+            </para>
+          </tip>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3>
+    <title>Tool Options</title>
+    <figure>
+      <title>Tool Options for the Align tool</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+                     fileref="images/toolbox/tool-options-align.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term>Align</term>
+        <listitem>
+          <variablelist>
+            <varlistentry>
+              <term>Relative to:</term>
+              <listitem>
+                <para>
+                  This is the target - the image object the selected layer
+                  will be aligned on.
+                </para>
+                <itemizedlist>
+                  <listitem>
+                    <para>
+                      <guilabel>First item</guilabel>: the first selected
+                      item when selecting multiple layers holding the
+                      <keycap>Shift</keycap>
+                      key. Note that there is no <quote>first item</quote>
+                      when you select multiple layers using rubber-banding.
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para>
+                      <guilabel>Image</guilabel>: the image is used as a
+                      target.
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para>
+                      <guilabel>Selection</guilabel>: the minimal rectangular
+                      region covering the active selection.
+                    </para>
+                  </listitem>
+                  <listitem>
+                    <para><guilabel>Active layer</guilabel>:</para>
+                  </listitem>
+                  <listitem>
+                    <para><guilabel>Active Channel</guilabel>:</para>
+                  </listitem>
+                  <listitem>
+                    <para><guilabel>Active Path</guilabel>:</para>
+                  </listitem>
+                </itemizedlist>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-west-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-hcenter-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-east-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-north-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-vcenter-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-south-24.png"/>
+                </guiicon>
+              </term>
+              <listitem>
+                <para>
+                  These buttons become active when a layer is selected.
+                  When you click on one of these buttons, you align the
+                  selected layer with left edge, horizontal middle, right edge,
+                  top edge, vertical middle, or bottom of the target.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Distribute</term>
+        <listitem>
+          <variablelist>
+            <varlistentry>
+              <term>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-west-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-hcenter-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-east-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-north-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-vcenter-24.png"/>
+                </guiicon>
+                <guiicon>
+                  <inlinegraphic fileref="images/tool-options/stock-gravity-south-24.png"/>
+                </guiicon>
+              </term>
+              <listitem>
+                <para>
+                  These options seem to differ from the <quote>Related to
+                  </quote> options only by the possibility to set an
+                  offset.  This offset is the distance which will
+                  separate the selected layer(s) from the target once the
+                  alignment is performed. It can be positive or negative
+                  and is expressed in pixel.  Distribute add this offset to
+                  the left edges, horizontal centers, right edges, top
+                  edges, vertical centers, or bottoms of targets.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>Offset</term>
+              <listitem>
+                <para>
+                  This entry controls the amount of displacement that could
+                  be given to the desired alignment effect (in pixel)
+                  regarding the target. The default value is 0; it can be
+                  positive or negative.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+  <sect3>
+    <title>Example for the <quote>Align</quote> command</title>
+    <figure>
+      <title>Base image</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/align-ex1.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>
+            This image has three layers with different sizes and a
+            rectangular selection. The yellow layer is active.
+          </para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Red layer selected</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/align-ex2.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>
+            Click on red: the red layer is selected, with a small square
+            in every corner.
+          </para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Red layer aligned</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/align-ex3.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>
+            We chose <quote>Selection</quote> as a target and we clicked
+            on the
+            <guiicon><inlinegraphic
+              fileref="images/tool-options/stock-gravity-east-24.png"/>
+            </guiicon> button (Related to). The red layer alignes with
+            the right side of the selection.
+          </para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Distribute with offset</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/align-ex4.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>
+            We set Offset to -5, we chose <quote>Active layer</quote> as a
+            target and we clicked on the
+            <guiicon><inlinegraphic
+              fileref="images/tool-options/stock-gravity-east-24.png"/>
+            </guiicon> button (Distribution).
+            The layer is aligned 5 pixels before the right side of the
+            yellow active layer.
+          </para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Align using rubber-band box</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/align-ex5a.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>
+            We clicked left from and above the red layer, and dragged out a
+            region covering the red and the yellow layer by moving the pointer
+            towards the bottom right corner.
+          </para>
+        </caption>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/align-ex5b.png" format="PNG"/>
+        </imageobject>
+        <caption>
+          <para>
+            Again, <guilabel>Selection</guilabel> is the target. After a click
+            on the
+            <guiicon><inlinegraphic
+              fileref="images/tool-options/stock-gravity-west-24.png"/>
+            </guiicon>
+            button, both layers aligne with the left side of the
+            selection.
+          </para>
+        </caption>
+      </mediaobject>
+    </figure>
+  </sect3>
+</sect2>

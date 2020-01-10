@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-05-23 j.h: update to v2.8
+  2008-12-15 j.h: updated to v2.6
+  2006-07-05 created by j.h
+-->
+<sect2 id="gimp-device-status-dialog">
+  <title>Device Status Dialog</title>
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Device Status</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Device Status</primary>
+  </indexterm>
+  <figure>
+    <title>The <quote>Device Status</quote> Dialog</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/dialogs/device-status.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    This window gathers together the current options of Toolbox, for each
+    of your input devices: the mouse (named <quote>Core pointer</quote>) or
+    either the tablet, if you have one. These options are represented by
+    icons: foreground and background colors, brush, pattern and
+    gradient. Excepted for colors, clicking on an icon opens the window
+    which lets you select another option; the tool-box will be updated when
+    changing. You can drag and drop items to this dialog.
+  </para>
+  <para>
+    The <quote>Save device status</quote> button
+    <guiicon>
+      <inlinegraphic fileref="images/dialogs/stock-save-16.png"/>
+    </guiicon>
+    at the bottom of the
+    window, seems to have the same action as the <quote>Record device
+    status now</quote> option in the Input Devices section in preferences.
+  </para>
+
+  <sect3>
+    <title>Activating the Dialog</title>
+    <para>
+      The device status dialog is a dockable dialog; see the section
+      <xref linkend="gimp-concepts-docks"/>
+      for help on manipulating it. It can be activated in two ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From an image menu :
+          <menuchoice>
+            <guimenu>Windows</guimenu>
+            <guisubmenu>Dockable Dialogs</guisubmenu>
+            <guimenuitem>Device Status</guimenuitem>
+          </menuchoice>.
+       </para>
+      </listitem>
+      <listitem>
+        <para>
+          From the Tab menu in any dialog :
+          <menuchoice>
+            <guimenu>Add a Dock</guimenu>
+            <guimenuitem>Device Status</guimenuitem>
+          </menuchoice>
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+</sect2>

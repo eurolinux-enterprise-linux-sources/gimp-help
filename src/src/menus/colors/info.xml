@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-12-22 alex falappa: added 'it'
+  2007-10-22 ude: created ('en','de')
+-->
+<sect2 id="gimp-colors-info-menu">
+  <title>The <quote>Info</quote> Submenu</title>
+
+  <para>This command leads to the following submenu</para>
+  <figure>
+    <title>The <quote>Info</quote> submenu</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/menus/colors/info.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    <itemizedlist>
+      <listitem>
+        <para><xref linkend="gimp-colors-info-histogram"/></para>
+      </listitem>
+      <listitem>
+        <para><xref linkend="plug-in-borderaverage"/></para>
+      </listitem>
+      <listitem>
+        <para><xref linkend="plug-in-ccanalyze"/></para>
+      </listitem>
+      <listitem>
+        <para><xref linkend="plug-in-smooth-palette"/></para>
+      </listitem>
+    </itemizedlist>
+  </para>
+</sect2>

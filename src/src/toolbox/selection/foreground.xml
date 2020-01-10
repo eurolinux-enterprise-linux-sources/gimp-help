@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2008-03-23 JPL reviewed for fr
+  2008-01-12 PP reviewed for fr
+  2007-11-11 KoSt: added 'no'
+  2007-11-02 Dust : added 'ko'
+  2007-10-06 lexa: review for de
+  2007-09-14 AntI: Added 'es'
+  2007-07-26 en;fr created by j.h
+     -->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-foreground-select">
+  <title>Foreground Select</title>
+
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Foreground Select</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Selection</primary>
+    <secondary>Foreground Select</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Foreground Select</primary>
+  </indexterm>
+
+  <figure>
+    <title>The <quote>Foreground Select</quote> tool in the Toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/FG-select-toolbox.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>
+    This tool lets you extract the foreground from the active layer or from a
+    selection. It is based on the SIOX method (Simple Interactive Object
+    Extraction). You can visit its Web page at
+    <xref linkend="bibliography-online-siox"/>.
+  </para>
+
+  <sect3 id="tool-fg-select-usage">
+    <title>Directions for use</title>
+    <para>
+      The creation of a selection with this tool works in a couple of steps:
+    </para>
+    <procedure>
+      <step>
+        <para>
+          <emphasis>Roughly select the foreground</emphasis> you want
+          to extract. When you select this tool, the mouse pointer goes with
+          the lasso icon. It actually works like the Fuzzy Select tool.
+          Select as little as possible from the background.
+        </para>
+        <para>
+          As soon as you release the mouse button, the non selected part of
+          the image is covered with a dark blue mask. If the selection is not
+          closed, its ends will be linked automatically together by a straight
+          line. The mouse pointer goes now with the Paint-brush icon for the
+          next step.
+        </para>
+        <figure>
+          <title>The foreground is roughly selected</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/toolbox/FG-select-ex1.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </step>
+      <step>
+        <para>
+          <emphasis>Draw a line through the foreground</emphasis>: using the
+          paintbrush, whose size can be changed in options, draw a continuous
+          line in the selected foreground going over colors which will be
+          kept for the extraction. The color used to draw the line is of no
+          importance; not using the same color as foreground is better. Be
+          careful not painting background pixels.
+        </para>
+        <figure>
+          <title>The line drawn on the foreground</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/toolbox/FG-select-ex2.png"/>
+            </imageobject>
+            <caption>
+              <para>
+                In this example, it is important that the line goes over the
+                yellow capitulum of the flower.
+              </para>
+            </caption>
+          </mediaobject>
+        </figure>
+      </step>
+      <step>
+        <para>
+          When you release the mouse button, all non-selected areas are in
+          dark:
+        </para>
+        <figure>
+          <title>The area which will be selected</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/toolbox/FG-select-ex3.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </step>
+      <step>
+        <para>
+          You still have to press the <keycap>Enter</keycap> key to get the
+          wanted selection:
+        </para>
+        <figure>
+          <title>Foreground is selected</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/toolbox/FG-select-ex4.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </step>
+    </procedure>
+    <note>
+      <para>
+        Until you press <keycap>Enter</keycap>, you can't undo this selection
+        by
+        <keycombo>
+          <keycap>Ctrl</keycap><keycap>Z</keycap>
+        </keycombo> nor by
+        <menuchoice>
+          <guimenu>Select</guimenu>
+          <guimenuitem>None</guimenuitem>
+        </menuchoice>,
+        and the Undo History is not concerned. To delete this selection, you
+        must select another tool.
+      </para>
+    </note>
+  </sect3>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>
+      You can activate the Foreground Select tool in two ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          by clicking on the tool icon
+          <guiicon>
+            <inlinegraphic
+              fileref="images/toolbox/stock-tool-foreground-select-22.png"/>
+          </guiicon>
+          in the Toolbox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          through
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Selection Tools</guisubmenu>
+            <guimenuitem>Foreground Select</guimenuitem>
+          </menuchoice>
+          in the image menu.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          This tool has no shortcut, but you can set one using
+          <menuchoice>
+            <guimenu>Edit</guimenu>
+            <guisubmenu>Preferences</guisubmenu>
+            <guisubmenu>Interface</guisubmenu>
+            <guisubmenu>Configure Keyboard Shortcuts</guisubmenu>
+            <guisubmenu>Tools</guisubmenu>
+            <guimenuitem>Foreground Select</guimenuitem>
+          </menuchoice>
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <variablelist>
+      <varlistentry>
+        <term>
+          <keycap>Ctrl</keycap>
+        </term>
+        <listitem>
+          <para>
+            By pressing the <keycap>Ctrl</keycap> key, you can switching
+            between foreground and background selection painting.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title><quote>Foreground Select</quote> tool options</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/FG-select-options.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term>Mode; Antialiasing; Feather edges</term>
+        <listitem>
+          <xi:include href="about-common-select-options.xml"/>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Contiguous</term>
+        <listitem>
+          <para>
+            If this option is enabled, only the area contiguous to the stroke
+            will be selected. Otherwise all the areas with same colors will be
+            selected.
+          </para>
+          <figure>
+            <title><quote>Contiguous</quote> option effect</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/toolbox/FG-select-contig1.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  Two separated areas with the same color. On the left, only
+                  the left area is marked.
+                </para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/toolbox/FG-select-contig2.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  The Contiguous option is checked: only the area close to the
+                  painted line is selected.
+                </para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/toolbox/FG-select-contig3.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  The Contiguous option is not checked: both areas, although
+                  they are separated, are selected.
+                </para>
+              </caption>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Interactive refinement</term>
+        <listitem>
+          <para>
+            Here are some options to work more precisely on your selection:
+          </para>
+          <variablelist>
+            <varlistentry>
+              <term>Mark foreground</term>
+              <listitem>
+                <para>
+                  default option. The foreground color of the Toolbox is used
+                  to paint. Colors covered by the painted line will be used
+                  for extraction.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>Mark background</term>
+              <listitem>
+                <para>
+                  You can access this option either by clicking on the radio
+                  button or, more simply, by pressing the <keycap>Ctrl</keycap>
+                  key. The mouse pointer goes with a small eraser icon<!-- and a
+                  minus sign-->. The used color is the background color of
+                  Toolbox.
+                  The pixels of the selection which have the same color as the
+                  <quote>erased</quote> pixels will NOT be extracted.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>Small brush / Large brush</term>
+              <listitem>
+                <para>
+                  This slider lets you adapt the size of the brush used to
+                  paint the line. A small brush fits well thin details.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Smoothing</term>
+        <listitem>
+          <para>
+            Smaller values give a more accurate selection border but may
+            introduce holes in the selection.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Preview color</term>
+        <listitem>
+          <para>
+            You can select between Red, Green and Blue to mask the image
+            background.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Color Sensitivity</term>
+        <listitem>
+          <para>
+            This option uses the
+            <link linkend="glossary-lab">L*a*b</link> color model. If your
+            image contains many pixels of the same color in different tones,
+            you can increase the sensibility of the selection for this
+            color.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2008-03-21 JPL reviewed fr & en
+  2007-12-21 PP  reviewed fr
+  2007-10-05 lexa: reviewed de for GIMP 2.4
+  2007-06-02 KoSt: added 'no'
+  2006-02-05 fr revised; shortcut changed in "en" by j.h
+  2005-12-14 note added by j.h
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  2005-11-30 replaced informalfigure by figure by lexa
+  2005=05-19 de reviewed by axel.wernicke
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-by-color-select">
+  <title>Select By Color</title>
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Selection by color</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Selection</primary>
+    <secondary>Selection by color</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Color</primary>
+    <secondary>Selection by color</secondary>
+  </indexterm>
+
+  <figure>
+    <title>Select by Color tool icon in the Toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-selbycolor.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>
+    The Select by Color tool is designed to select areas of an image
+    based on color similarity.  It works a lot like the Fuzzy Select
+    tool (<quote>Magic Wand</quote>).  The main difference between them is
+    that the Magic Wand selects <emphasis>contiguous</emphasis> regions, with
+    all parts connected to the starting point by paths containing no
+    large gaps; while the Select by Color tool selects all pixels that
+    are sufficiently similar in color to the pixel you click on,
+    regardless of where they are located.
+  </para>
+
+  <sect3>
+    <title>Activating the tool</title>
+    <para>
+      You can access the Select by Color Tool in different ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From the image menu bar
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Selection Tools</guisubmenu>
+            <guimenuitem>By Color Select</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking on the tool icon
+          <guiicon><inlinegraphic
+            fileref="images/toolbox/stock-tool-by-color-select-22.png"/>
+          </guiicon>
+          in the ToolBox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by using the keyboard shortcut <keycombo><keycap>Shift
+        </keycap><keycap>O</keycap></keycombo>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <para>
+      The select by color tool does not have any special key modifiers,
+      only the ones that affect all selection tools in the same way.
+      See <link linkend="gimp-tool-select">Selection Tools</link> for
+      help with these.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Handling tool</title>
+    <figure>
+      <title>
+        Using Select by Color tool: selected pixels are not only contiguous
+      </title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/by-color-selection.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <para>
+      As with fuzzy tool, the selection starts as soon as you click and the
+      reference is the first clicked pixel. If you click and drag, you can
+      change the threshold by the same way as with the fuzzy tool.
+    </para>
+    <para>
+      To move the selection see
+      <link linkend="gimp-using-selections-moving">Moving selections</link>.
+      <!--(you can move the selection outline with the arrow keys, not with the
+      mouse...).-->
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>Tool Options for the Select by Color tool</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/tool-options-selbycolor.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <xi:include href="about-common-select-options.xml"/>
+      <varlistentry>
+        <term>
+          Mode; Antialiasing; Feather edges
+        </term>
+        <listitem>
+          <para>Common select options.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Similar colors</term>
+        <listitem>
+          <para>
+            All these options work exactly the same way, they were described
+            for the fuzzy selection already. See for
+            <xref linkend="tool-fuzzy-select-options"/> details.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

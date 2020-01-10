@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2008-06-02 j.h fr renamed "repoussage" to "relief"
+  2007-08-12 Added Spanish translation by AntI
+  2007-04-23 KoSt: added 'no'
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  050905 de added by axel.wernicke
+-->
+<sect2 id="plug-in-emboss">
+  <title>Emboss</title>
+
+  <indexterm>
+    <primary>Filters</primary>
+    <secondary>Distorts</secondary>
+    <tertiary>Emboss</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Emboss</primary>
+  </indexterm>
+
+  <sect3>
+    <title>Overview</title>
+    <figure>
+      <title>Applying example for the Emboss filter</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/taj_orig.jpg"/>
+        </imageobject>
+        <caption>
+          <para>Original image</para>
+        </caption>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/distort-taj-emboss.jpg"/>
+        </imageobject>
+        <caption>
+          <para>Filter <quote>Emboss</quote> applied</para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <para>
+      This filter stamps and carves the active layer or selection, giving it
+      relief with bumps and hollows. Bright areas are raised and dark ones are
+      carved. You can vary the lighting.
+    </para>
+    <para>
+      You can use the filter only with RGB images. If your image is grayscale,
+      it will be grayed out in the menu.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Starting filter</title>
+    <para>
+      You can find this filter through
+      <menuchoice>
+        <guimenu>Filters</guimenu>
+        <guisubmenu>Distorts</guisubmenu>
+        <guimenuitem>Emboss</guimenuitem>
+      </menuchoice>.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title><quote>Emboss</quote> filter options</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/distort/emboss.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Preview</term>
+        <listitem>
+          <para>
+            All your setting changes will appear in the Preview without
+            affecting the image until you click on <guilabel>OK</guilabel>.
+            Don't keep <guilabel>Preview</guilabel> checked if your computer
+            is too slow.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Function</term>
+        <listitem>
+          <variablelist>
+            <varlistentry>
+              <term><guilabel>Bumpmap</guilabel></term>
+              <listitem>
+                <para>
+                  Relief is smooth and colors are preserved.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term><guilabel>Emboss</guilabel></term>
+              <listitem>
+                <para>
+                  It turns your image to grayscale and relief is more marked,
+                  looking like metal.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Azimuth</term>
+        <listitem>
+          <para>
+            This is about lighting according to the points of the compass (0 -
+            360). If you suppose South is at the top of your image, then East
+            (0°) is on the left. Increasing value goes counter-clockwise.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Elevation</term>
+        <listitem>
+          <para>
+            That's height from horizon (0°), in principle up to zenith (90°),
+            but here up to the opposite horizon (180°).
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Depth</term>
+        <listitem>
+          <para>
+            Seems to be the distance of the light source. Light decreases when
+            value increases.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

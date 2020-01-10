@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--section history
+  2007-02-15: added Spanish translation by manuq
+  2006-09-10: added norwegian translation by KoSt
+  2006-07-22: added Korean Translation by Dust
+  2006-06-22: changes in en;fr by j.h
+-->
+<sect1 id="gimp-using-quickmask">
+  <title>Using QuickMask Mode</title>
+
+  <indexterm>
+    <primary>Masks</primary>
+    <secondary>Quick Mask</secondary>
+    <tertiary>Using Quick Mask</tertiary>
+  </indexterm>
+
+  <procedure>
+    <step>
+      <para>Open an image or begin a new document.</para>
+    </step>
+    <step>
+      <para>
+        Activate QuickMask mode using the left-bottom button in the image
+        window. If a selection is present the mask is initialized with the
+        content of the selection.
+      </para>
+    </step>
+    <step>
+      <para>
+        Choose any drawing tool. Paint on the QuickMask with black to
+        remove selected areas, and paint with white to add selected
+        areas. Use grey colors to partially select areas.
+      </para>
+      <para>
+        You can also use selection tools and fill these selections with the
+        Bucket Fill tool; this does not destroy the QuickMask selections!
+      </para>
+    </step>
+    <step>
+      <para>
+        Toggle QuickMask mode off using the left-bottom button in the image
+        window: the selection will be displayed with marching ants.
+      </para>
+    </step>
+  </procedure>
+</sect1>

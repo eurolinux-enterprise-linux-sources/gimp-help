@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect4 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+
+<!-- section history:
+  2012-05-23 j.h: no change for 2.8
+-->
+
+<sect4 id="gimp-channel-menu">
+  <title>Channels Context Menu</title>
+
+  <indexterm>
+    <primary>Channels</primary>
+    <secondary>Menu</secondary>
+  </indexterm>
+
+  <figure>
+    <title>Channel Context Menu</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+                   fileref="images/dialogs/channels-context-menu.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <variablelist>
+    <varlistentry>
+      <term>Overview</term>
+      <listitem>
+        <para>
+          You can get the channel context menu by right clicking on a channel
+          thumbnail. This menu gives the same operations on channels as those
+          available from dialog buttons. The only difference concerns
+          transformation to selection operations, each of them having its own
+          entry in the menu.
+        </para>
+        <variablelist>
+          <varlistentry>
+            <term><guilabel>Edit Channel Attributes</guilabel></term>
+            <term><guilabel>New Channel</guilabel></term>
+            <term><guilabel>Raise Channel</guilabel></term>
+            <term><guilabel>Lower Channel</guilabel></term>
+            <term><guilabel>Duplicate Channel</guilabel></term>
+            <term><guilabel>Delete Channel</guilabel></term>
+            <listitem>
+              <para>
+                See
+                <link linkend="gimp-channel-edit">Managing channels</link>.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><guilabel>Channel to Selection</guilabel></term>
+            <listitem>
+              <para>
+                Selection derived from channel replaces any previous active
+                selection.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><guilabel>Add to Selection</guilabel></term>
+            <listitem>
+              <para>
+                Selection derived from channel is added to previous active
+                selection. Final selection is merging of both.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><guilabel>Subtract from Selection</guilabel></term>
+            <listitem>
+              <para>
+                Final selection is subtraction of selection derived from a
+                channel from previous active selection.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term><guilabel>Intersect with Selection</guilabel></term>
+            <listitem>
+              <para>
+                Final selection is intersection of selection derived from a
+                channel with the previous active selection. Only common parts
+                are kept.
+              </para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</sect4>

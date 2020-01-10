@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--Version history
+  2008-07-15 Mr.Dust : added 'ko'
+  2007-09-29 AntI: Added 'es'
+  2007-03-25 KoSt: added 'no'
+  2006-09-18 lexa: added de translation
+  2006-08-19 Added italian translation by ciampix
+  2006-04-16 Created by j.h
+-->
+<sect2 id="gimp-prefs-input-devices">
+  <title>Input Devices</title>
+  <indexterm>
+    <primary>Preferences</primary>
+    <secondary>Input Devices</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Input Devices</primary>
+  </indexterm>
+
+  <figure>
+    <title>Input devices preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/preferences/input-devices.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <variablelist>
+    <title>Extended Input Devices</title>
+    <varlistentry>
+      <term>Configure Extended Input Devices</term>
+      <listitem>
+        <para>
+          This large button allows you to set the devices associated with your
+          computer: tablet, MIDI keyboard... If you have a tablet, you will
+          see a dialog like this:
+        </para>
+        <figure>
+          <title>Preferences for a tablet</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/preferences/input-devices-tablet.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Save input device settings on exit</term>
+      <listitem>
+        <para>
+          When you check this box, GIMP remembers the tool, color, pattern and
+          brush you were using the last time you quitted.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Save Input Device Settings Now</term>
+      <listitem>
+        <para>Self explanatory.</para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>
+        Reset Saved Input Device Settings to Default Values
+      </term>
+      <listitem>
+        <para>
+          Delete your settings and restore default settings.
+        </para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</sect2>

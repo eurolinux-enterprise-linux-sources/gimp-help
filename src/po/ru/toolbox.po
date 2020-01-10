@@ -1,0 +1,2612 @@
+#
+# Alexandre Prokoudine <alexandre.prokoudine@gmail.com>, 2010.
+# Александр Прокудин <alexandre.prokoudine@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-help trunk\n"
+"POT-Creation-Date: 2011-06-11 04:33+0400\n"
+"PO-Revision-Date: 2011-08-02 20:58-0000\n"
+"Last-Translator: Vitaly Lomov <lomovv@gmail.com>\n"
+"Language-Team: Russian <gnome-cyr@lists.gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2); 10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/zoom.xml:30(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-zoom.png'; "
+"md5=49c8040a2bdbc4fed9f8b1c4c7f84092"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-zoom.png'; "
+"md5=49c8040a2bdbc4fed9f8b1c4c7f84092"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/zoom.xml:108(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-zoom.png'; "
+"md5=1c41a84b725247dd717158688a460c13"
+msgstr ""
+"@@image: 'images/toolbox/tool-options-zoom.png'; "
+"md5=1c41a84b725247dd717158688a460c13"
+
+#: src/toolbox/zoom.xml:18(title)
+#: src/toolbox/zoom.xml:21(secondary)
+#: src/toolbox/zoom.xml:24(primary)
+msgid "Zoom"
+msgstr "Лупа"
+
+#: src/toolbox/zoom.xml:20(primary)
+#: src/toolbox/transform-tools.xml:11(primary)
+#: src/toolbox/text.xml:20(primary)
+#: src/toolbox/path.xml:20(primary)
+#: src/toolbox/paint-tools.xml:18(primary)
+#: src/toolbox/other-tools.xml:15(primary)
+#: src/toolbox/measure.xml:18(primary)
+#: src/toolbox/gegl-operation.xml:11(primary)
+#: src/toolbox/color-picker.xml:20(primary)
+msgid "Tools"
+msgstr "Инструменты"
+
+#: src/toolbox/zoom.xml:27(title)
+msgid "The <quote>Zoom</quote> tool in Toolbox"
+msgstr "Инструмент <quote>Лупа</quote> на панели инструментов"
+
+#: src/toolbox/zoom.xml:34(para)
+msgid ""
+"The Zoom Tool is used to change the zoom level of your working image. If you "
+"only click on the image, the zoom is applied to the whole image. But you can "
+"also click-and-drag the mouse pointer to create a zoom rectangle. Then, the "
+"action of this rectangle is better understood if the <quote>Allow window "
+"resizing</quote> option is unchecked: you can see that the content of this "
+"rectangle will be enlarged or reduced so that its biggest dimension fit the "
+"corresponding dimension of the image window (if the biggest dimension of the "
+"rectangle is width, then it will fit the width of the image window)."
+msgstr ""
+"Инструмент масштаба используется для изменения масштаба активного "
+"изображения. При простом щелчке по изображению масштаб применяется ко всему "
+"изображению. При нажатии и перетаскивании указателя мыши рисуется "
+"прямоугольник масштабирования. Если параметр <quote>Изменять размер "
+"окна</quote> не выбран, содержимое прямоугольника увеличится или уменьшится "
+"так, чтобы вписаться в окно изображения, не меняя пропорций прямоугольника."
+
+#: src/toolbox/zoom.xml:47(title)
+#: src/toolbox/text.xml:72(title)
+#: src/toolbox/path.xml:48(title)
+#: src/toolbox/measure.xml:81(title)
+#: src/toolbox/gegl-operation.xml:51(title)
+#: src/toolbox/color-picker.xml:55(title)
+msgid "Activating the Tool"
+msgstr "Активация инструмента"
+
+#: src/toolbox/zoom.xml:50(para)
+msgid ""
+"You can get to the Zoom Tool from the image-menu through : <menuchoice><"
+"guimenu>Tools</guimenu><guisubmenu>Zoom</guisubmenu></menuchoice>,"
+msgstr ""
+"Инструмент увеличения можно активировать через меню <menuchoice><guimenu>"
+"Инструменты</guimenu><guisubmenu>Лупа</guisubmenu></menuchoice>,"
+
+#: src/toolbox/zoom.xml:59(para)
+msgid ""
+"or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-zoom-22.png\"/></guiicon> in Toolbox."
+msgstr ""
+"либо щелчком по значку инструмента <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-zoom-22.png\"/></guiicon> на панели инструментов."
+
+#: src/toolbox/zoom.xml:72(title)
+#: src/toolbox/path.xml:79(title)
+#: src/toolbox/measure.xml:105(title)
+#: src/toolbox/color-picker.xml:94(title)
+msgid "Key modifiers (Defaults)"
+msgstr "Клавиши-модификаторы (по умолчанию)"
+
+#: src/toolbox/zoom.xml:75(keycap)
+#: src/toolbox/zoom.xml:87(keycap)
+#: src/toolbox/text.xml:419(keycap)
+#: src/toolbox/measure.xml:121(keycap)
+#: src/toolbox/measure.xml:153(keycap)
+#: src/toolbox/color-picker.xml:97(keycap)
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: src/toolbox/zoom.xml:77(para)
+msgid ""
+"Holding <keycap>Ctrl</keycap> when clicking on a point of your image will "
+"change the zoom direction from zooming in to zooming out."
+msgstr ""
+"Нажатие клавиши <keycap>Ctrl</keycap> при нажатии на изображении изменить "
+"направление масштаба с увеличения на уменьшение."
+
+#: src/toolbox/zoom.xml:88(keycap)
+msgid "Mouse wheel"
+msgstr "Колесо мыши"
+
+#: src/toolbox/zoom.xml:92(para)
+msgid ""
+"Spinning the mouse wheel, while pressing <keycap>Ctrl</keycap>, varies the "
+"zoom level."
+msgstr ""
+"Вращение колеса мыши при нажатой клавише <keycap>Ctrl</keycap> меняет масштаб "
+"отображения."
+
+#: src/toolbox/zoom.xml:102(title)
+#: src/toolbox/text.xml:104(title)
+#: src/toolbox/path.xml:113(title)
+#: src/toolbox/measure.xml:170(title)
+#: src/toolbox/gegl-operation.xml:70(title)
+#: src/toolbox/color-picker.xml:133(title)
+msgid "Options"
+msgstr "Параметры"
+
+#: src/toolbox/zoom.xml:104(title)
+msgid "Zoom tool options"
+msgstr "Параметры инструмента <quote>Масштаб</quote>"
+
+#: src/toolbox/zoom.xml:114(term)
+msgid "Auto-resize window"
+msgstr "Изменять размер окна"
+
+#: src/toolbox/zoom.xml:116(para)
+msgid ""
+"This option will allow the canvas to be resized if the zoom level dictates it."
+msgstr ""
+"Этот параметр определяет, может ли меняться размер окна с изображением, если "
+"того требует новый масштаб."
+
+#: src/toolbox/zoom.xml:123(term)
+msgid "Tool Toggle"
+msgstr "Переключатель инструмента"
+
+#: src/toolbox/zoom.xml:125(para)
+msgid ""
+"The two available tool toggles are used for changing the zoom direction "
+"between zooming in and zooming out."
+msgstr ""
+"Два переключателя переключают направление масштаба между увеличением и "
+"уменьшением."
+
+#: src/toolbox/zoom.xml:135(title)
+msgid "Zoom menu"
+msgstr "Меню масштаба"
+
+#: src/toolbox/zoom.xml:136(para)
+msgid ""
+"Using the Zoom tool is not the only way to zoom an image. The <link "
+"linkend=\"gimp-view-zoom\">Zoom menu</link> provides access to several "
+"functions for changing the image magnification level. For example, you can "
+"easily choose an exact magnification level from this menu."
+msgstr ""
+"Этот инструмент является не единственным способом масштабирования вида "
+"изображения. Меню <link linkend=\"gimp-view-zoom\">Масштаб</link> даёт доступ "
+"к нескольким функциям изменения масштаба вида изображения. Например, в этом "
+"меню можно легко выбрать точный уровень масштаба."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/transform-tools.xml:19(None)
+msgid ""
+"@@image: 'images/toolbox/transform-tools.png'; "
+"md5=f97f1d932a0ff3ea54b91a9a1621f091"
+msgstr ""
+"@@image: 'images/toolbox/transform-tools.png'; "
+"md5=f97f1d932a0ff3ea54b91a9a1621f091"
+
+#: src/toolbox/transform-tools.xml:8(title)
+#: src/toolbox/transform-tools.xml:12(secondary)
+msgid "Transform Tools"
+msgstr "Инструменты преобразования"
+
+#: src/toolbox/transform-tools.xml:16(title)
+msgid "An overview of the transform tools"
+msgstr "Обзор инструментов преобразования"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:21(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-show-area.png'; "
+"md5=b92b6266775e33da4f75c1781cb87deb"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-show-area.png'; "
+"md5=b92b6266775e33da4f75c1781cb87deb"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:48(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-active-colors.png'; "
+"md5=140743eb1687db0256af2a58317c41c2"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-active-colors.png'; "
+"md5=140743eb1687db0256af2a58317c41c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:118(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-active-bpg.png'; "
+"md5=eb7fdb6e75c96d33b666d03f47db9961"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-active-bpg.png'; "
+"md5=eb7fdb6e75c96d33b666d03f47db9961"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/toolbox-color-area.xml:142(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-active-image.png'; "
+"md5=e5ea75ba7bc95286052ff506449c41fb"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-active-image.png'; "
+"md5=e5ea75ba7bc95286052ff506449c41fb"
+
+#: src/toolbox/toolbox-color-area.xml:14(title)
+msgid "Color and Indicator Area"
+msgstr "Область цвета и указателей"
+
+#: src/toolbox/toolbox-color-area.xml:17(title)
+msgid "Color and Indicator Area in the Toolbox"
+msgstr "Область цвета и указателей на панели инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:27(title)
+#: src/toolbox/toolbox-color-area.xml:31(secondary)
+#: src/toolbox/toolbox-color-area.xml:34(primary)
+msgid "Color Area"
+msgstr "Область цвета"
+
+#: src/toolbox/toolbox-color-area.xml:30(primary)
+#: src/toolbox/toolbox-color-area.xml:97(primary)
+#: src/toolbox/toolbox-color-area.xml:133(primary)
+#: src/toolbox/paint-tools.xml:22(primary)
+#: src/toolbox/intro.xml:17(primary)
+msgid "Toolbox"
+msgstr "Панель инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:37(primary)
+msgid "Foreground color"
+msgstr "Цвет переднего плана"
+
+#: src/toolbox/toolbox-color-area.xml:40(primary)
+msgid "Background color"
+msgstr "Цвет заднего плана"
+
+#: src/toolbox/toolbox-color-area.xml:44(title)
+msgid "Active Colors in the Toolbox"
+msgstr "Активные цвета на панели инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:54(term)
+msgid "Color area"
+msgstr "Область цвета"
+
+#: src/toolbox/toolbox-color-area.xml:56(para)
+msgid ""
+"This area shows GIMP's basic palette, consisting of two colors, the "
+"Foreground and Background, used for painting, filling, and many other "
+"operations. Clicking on either of the color displays brings up a Color Editor "
+"dialog, which permits you to change it."
+msgstr ""
+"Эта область показывает основную палитру GIMP, состоящую из двух цветов - "
+"переднего плана и фона. Эти цвета используются для рисования, заливки и "
+"других операций. Нажатие на любой из них покажет диалог выбора цвета."
+
+#: src/toolbox/toolbox-color-area.xml:65(term)
+msgid "Default colors"
+msgstr "Цвета по умолчанию"
+
+#: src/toolbox/toolbox-color-area.xml:67(para)
+msgid ""
+"Clicking on this small symbol resets the Foreground and Background colors to "
+"black and white, respectively. Pressing the <keycap>D</keycap> key has the "
+"same effect."
+msgstr ""
+"Нажатие на этот символ сбрасывает цвета переднего плана и фона на чёрный и "
+"белый соответственно. Нажатие клавиши <keycap>D</keycap> имеет тот же "
+"результат."
+
+#: src/toolbox/toolbox-color-area.xml:75(term)
+msgid "Swap FG/BG colors"
+msgstr "Поменять местами цвета ПП и фона"
+
+#: src/toolbox/toolbox-color-area.xml:77(para)
+msgid ""
+"Clicking on the small curved line with two arrowheads causes the Foreground "
+"and Background colors to be swapped. Pressing the <keycap>X</keycap> key has "
+"the same effect."
+msgstr ""
+"Нажатие на маленькую кривую со стрелками на концах или клавиши "
+"<keycap>X</keycap> меняет местами цвет переднего плана и фона."
+
+#: src/toolbox/toolbox-color-area.xml:83(para)
+msgid ""
+"You can click-and-drag one of these colors directly into a layer: it will "
+"fill the whole layer."
+msgstr ""
+"Один из этих цветов можно передвинуть прямо на слой. Тогда цвет заполнит весь "
+"слой."
+
+#: src/toolbox/toolbox-color-area.xml:94(title)
+msgid "Tools Indicator Area"
+msgstr "Область индикатора инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:98(secondary)
+msgid "Indicator Area"
+msgstr "Область указателей"
+
+#: src/toolbox/toolbox-color-area.xml:101(primary)
+msgid "Brushes"
+msgstr "Кисти"
+
+#: src/toolbox/toolbox-color-area.xml:102(secondary)
+#: src/toolbox/toolbox-color-area.xml:106(secondary)
+#: src/toolbox/toolbox-color-area.xml:110(secondary)
+msgid "Toolbox Indicator Area"
+msgstr "Область указателей на панели инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:105(primary)
+msgid "Patterns"
+msgstr "Текстуры"
+
+#: src/toolbox/toolbox-color-area.xml:109(primary)
+msgid "Gradient"
+msgstr "Градиент"
+
+#: src/toolbox/toolbox-color-area.xml:114(title)
+msgid "Active Brush, Pattern and Gradient in the Toolbox"
+msgstr "Активные кисть, текстура и градиент на панели инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:122(para)
+msgid ""
+"This part of the Toolbox shows the currently selected brush, pattern, and "
+"gradient. Clicking on any of them brings up a dialog that allows you to "
+"change it."
+msgstr ""
+"Эта часть панели инструментов показывает активную кисть, шаблон и градиент. "
+"Нажатие на любом из них покажет соответствующий диалог с параметрами."
+
+#: src/toolbox/toolbox-color-area.xml:130(title)
+msgid "Active Image Area"
+msgstr "Область активного изображения"
+
+#: src/toolbox/toolbox-color-area.xml:134(secondary)
+msgid "Active image area"
+msgstr "Область активного изображения"
+
+#: src/toolbox/toolbox-color-area.xml:138(title)
+msgid "Active Image in the Toolbox"
+msgstr "Активное изображение на панели инструментов"
+
+#: src/toolbox/toolbox-color-area.xml:152(para)
+msgid "See <xref linkend=\"bibliography-online-xds\"/>."
+msgstr "см. <xref linkend=\"bibliography-online-xds\"/>."
+
+#: src/toolbox/toolbox-color-area.xml:146(para)
+msgid ""
+"A thumbnail of the active image can be displayed in this area if the <quote>"
+"Display Active Image</quote> option is checked in Preferences/Toolbox. If "
+"you click on this thumbnail, the <quote>Images</quote> dialog is opened, "
+"useful if you have many images on your screen. You can also click and drag "
+"this thumbnail to an enabled XDS<placeholder-1/> file manager to directly "
+"save the corresponding image."
+msgstr ""
+"Миниатюра активного изображения может быть показана в этой области, если "
+"выбран параметр <quote>Показывать активное изображение</quote> в <menuchoice>"
+"<guimenu>Правка</guimenu><guisubmenu>Параметры</guisubmenu><guimenuitem>"
+"Панель инструментов</guimenuitem></menuchoice>. При двойном щелчке на "
+"миниатюре открывается диалог <quote>Изображения</quote>. Кроме того, "
+"перетаскивание этой миниатюры в файловый менеджер, поддерживающий "
+"XDS<placeholder-1/>, приводит к сохранению активного изображения в открытую "
+"там папку."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:32(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-text.png'; "
+"md5=9498dd3d4a3df5c363c0851ed463d1a0"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-text.png'; "
+"md5=9498dd3d4a3df5c363c0851ed463d1a0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:56(None)
+msgid ""
+"@@image: 'images/using/text-tool.png'; "
+"md5=5fa61661087477d18a368defb302a19f"
+msgstr ""
+"@@image: 'images/using/text-tool.png'; "
+"md5=5fa61661087477d18a368defb302a19f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:109(None)
+msgid ""
+"@@image: 'images/toolbox/tool-options-text.png'; "
+"md5=95470a9535691a7c3e94d796f7e4a5aa"
+msgstr ""
+"@@image: 'images/toolbox/tool-options-text.png'; "
+"md5=95470a9535691a7c3e94d796f7e4a5aa"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:307(None)
+msgid ""
+"@@image: 'images/menus/layer/text-commands.png'; "
+"md5=282345dbc0406b4174defc95afdf6f2f"
+msgstr ""
+"@@image: 'images/menus/layer/text-commands.png'; "
+"md5=282345dbc0406b4174defc95afdf6f2f"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:332(None)
+msgid ""
+"@@image: 'images/toolbox/text-along-path.png'; "
+"md5=f389f0801b96adb64ed23fb5c09b0eee"
+msgstr ""
+"@@image: 'images/toolbox/text-along-path.png'; "
+"md5=f389f0801b96adb64ed23fb5c09b0eee"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:337(None)
+msgid ""
+"@@image: 'images/toolbox/text-path.png'; "
+"md5=76e6f9c38366374d6efd8143b6d14836"
+msgstr ""
+"@@image: 'images/toolbox/text-path.png'; "
+"md5=76e6f9c38366374d6efd8143b6d14836"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:373(None)
+msgid ""
+"@@image: 'images/toolbox/tool-dialog-text.png'; "
+"md5=caeb4f66591b7d5c2373eaa4486b7fd0"
+msgstr ""
+"@@image: 'images/toolbox/tool-dialog-text.png'; "
+"md5=caeb4f66591b7d5c2373eaa4486b7fd0"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:414(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char1.png'; "
+"md5=8f752c23c0b9f6f04cc48e3a8a882d0c"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char1.png'; "
+"md5=8f752c23c0b9f6f04cc48e3a8a882d0c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:429(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char2.png'; "
+"md5=7ebeca4192aeb1d9fede22386ae11fa6"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char2.png'; "
+"md5=7ebeca4192aeb1d9fede22386ae11fa6"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:442(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char3.png'; "
+"md5=794748051d9d332c6eee1357a03593c2"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char3.png'; "
+"md5=794748051d9d332c6eee1357a03593c2"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/text.xml:460(None)
+msgid ""
+"@@image: 'images/using/enter-unicode-char4.png'; "
+"md5=91fb55813984d1ce3dedaf9461a80ecf"
+msgstr ""
+"@@image: 'images/using/enter-unicode-char4.png'; "
+"md5=91fb55813984d1ce3dedaf9461a80ecf"
+
+#: src/toolbox/text.xml:17(title)
+#: src/toolbox/text.xml:21(secondary)
+#: src/toolbox/text.xml:24(primary)
+#: src/toolbox/text.xml:364(primary)
+#: src/toolbox/text.xml:472(primary)
+msgid "Text"
+msgstr "Текст"
+
+#: src/toolbox/text.xml:25(secondary)
+#: src/toolbox/path.xml:25(secondary)
+msgid "Tool"
+msgstr "Инструмент"
+
+#: src/toolbox/text.xml:29(title)
+msgid "The Text tool in Toolbox"
+msgstr "Инструмент <quote>Текст</quote> на панели инструментов"
+
+#: src/toolbox/text.xml:37(para)
+msgid ""
+"The Text tool places text into an image. When you click on an image with "
+"this tool the <emphasis>Text Editor dialog</emphasis> is opened where you "
+"can type your text, and a text layer is added in the Layer Dialog. In the "
+"<emphasis>Text Option dialog</emphasis>, you can change the font, color and "
+"size of your text, and justify it, interactively."
+msgstr ""
+"Инструмент Текст размещает в изображении текст. По щелчку на изображении "
+"появляется <emphasis>Диалог текстового редактора</emphasis>, где вводится "
+"текст, и создаётся новый текстовый слой в диалоге слоёв. В <emphasis>Диалоге "
+"параметров текста</emphasis> можно изменить шрифт, цвет и размер текста, а "
+"также выравнивание. Результат изменений отображается немедленно."
+
+#: src/toolbox/text.xml:44(para)
+msgid ""
+"A new possibility appeared with <acronym>GIMP</acronym>-2.6: click-dragging "
+"the mouse pointer on the canvas draws a rectangular frame that you can "
+"enlarge and move as you do with rectangular selections. The text you type in "
+"the Text Editor is displayed in this frame and automatically adapted to the "
+"frame size. You can adjust this frame whenever you like."
+msgstr ""
+"В <acronym>GIMP</acronym> 2.6 появилась новая функция: щелчок с последующим "
+"перетаскиванием указателя мыши по изображению создает прямоугольную рамку, "
+"размер и положение которой можно менять точно так же как если бы это было "
+"прямоугольное выделение. При этом текст будет автоматически адаптироваться "
+"под новый размер текстового блока. Размер текстового блока можно менять в "
+"любой удобный вам момент."
+
+#: src/toolbox/text.xml:53(title)
+msgid "Text tool bounding box"
+msgstr "Площадка текстового блока"
+
+#: src/toolbox/text.xml:60(para)
+msgid ""
+"When the mouse pointer is around the center of the frame, it comes with a "
+"small crosshair <guiicon><inlinegraphic fileref=\"images/toolbox/"
+"stock-tool-move-16.png\"/></guiicon>. Click-and-drag to move the frame and "
+"its contents (the text shows up when you release the mouse button). The text "
+"remains at the same place in the frame."
+msgstr ""
+"Когда указатель мыши находится в центре текстового блока, его значок "
+"меняется на небольшой крест <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-move-16.png\"/></guiicon>. Щелчком и перетаскиванием блок "
+"перемещается вместе с его содержимым (текст сновая становится виден при "
+"отпускании клавиши мыши). Положение текста внутри блока не меняется."
+
+#: src/toolbox/text.xml:73(para)
+msgid "You can access this tool in several ways:"
+msgstr "Инструмент можно вызвать несколькими способами:"
+
+#: src/toolbox/text.xml:78(para)
+msgid ""
+"In the image menu through <menuchoice><guimenu>Tools</guimenu><"
+"guisubmenu>Text</guisubmenu></menuchoice>,"
+msgstr ""
+"через меню изображения <menuchoice><guimenu>Инструменты</"
+"guimenu><guisubmenu>Текст</guisubmenu></menuchoice>,"
+
+#: src/toolbox/text.xml:87(para)
+msgid ""
+"by clicking the tool icon <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-text-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+"щелчком по значку инструмента <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-text-22.png\"/></guiicon> на панели инструментов,"
+
+#: src/toolbox/text.xml:96(para)
+msgid "or by using the <keycap>T</keycap> keyboard shortcut."
+msgstr "или при помощи клавиши быстрого доступа <keycap>T</keycap>."
+
+#: src/toolbox/text.xml:106(title)
+msgid "Text tool options"
+msgstr "Параметры инструмента <quote>Текст</quote>"
+
+#: src/toolbox/text.xml:114(para)
+#: src/toolbox/path.xml:124(para)
+#: src/toolbox/about-common-options-display.xml:5(para)
+msgid ""
+"Normally, tool options are displayed in a window attached under the Toolbox "
+"as soon as you activate a tool. If they are not, you can access them from "
+"the image menu bar through <menuchoice><guimenu>Windows</guimenu><"
+"guisubmenu>Dockable Windows</guisubmenu><guimenuitem>Tool Options</"
+"guimenuitem></menuchoice> which opens the option window of the selected tool."
+msgstr ""
+"Обычно параметры инструмента отображаются в панели, присоединенной к панели "
+"инструментов, как только вы активируете его. Если их там нет, вы можете "
+"перейти к этой панели, выбрав в меню пункт <menuchoice><guimenu>Окна</"
+"guimenu><guisubmenu>Панели</guisubmenu><guimenuitem>Параметры инструмента</"
+"guimenuitem></menuchoice>."
+
+#: src/toolbox/text.xml:127(term)
+msgid "Font"
+msgstr "Шрифт"
+
+#: src/toolbox/text.xml:129(para)
+msgid ""
+"Click on the fonts button <guibutton>A&alpha;</guibutton> to open the font "
+"selector of this tool, which offers you a list of installed X fonts."
+msgstr ""
+"Щёлкните по кнопке <guibutton>A&alpha;</guibutton> для  открытия диалога "
+"выбора шрифта из списка доступных."
+
+#: src/toolbox/text.xml:135(para)
+msgid ""
+"At the bottom of the font selector you find some icons which act as buttoms "
+"for:"
+msgstr ""
+"В нижней части выборщика шрифта расположено несколько клавишей, выполняющих "
+"следующие действия:"
+
+#: src/toolbox/text.xml:140(para)
+msgid "resizing the font previews,"
+msgstr "смена размера области предпросмотра для каждого шрифта;"
+
+#: src/toolbox/text.xml:143(para)
+msgid ""
+"selecting <emphasis>list view</emphasis> or <emphasis>grid view</emphasis>,"
+msgstr ""
+"выбор между <emphasis>списочным представлением</emphasis> и <emphasis>"
+"сеточным представлением</emphasis>;"
+
+#: src/toolbox/text.xml:149(para)
+msgid "opening the <link linkend=\"gimp-font-dialog\">font dialog</link>."
+msgstr "открытие диалога <link linkend=\"gimp-font-dialog\">Шрифты</link>."
+
+#: src/toolbox/text.xml:155(para)
+msgid ""
+"Choose a font from the installed fonts. When you select a font it is "
+"interactively applied to your text."
+msgstr ""
+"Выберите шрифт из предложенных. Выбранный шрифт автоматически будет "
+"использован для активного текстового блока."
+
+#. cf. bug #585823 (2009-06-15)
+#: src/toolbox/text.xml:161(para)
+msgid ""
+"You can use the scroll wheel of your pointing device (usually your mouse) on "
+"the fonts button in order to quickly change the font of your text (move the "
+"pointer on the fonts button, and don't click, just use the wheel button)."
+msgstr ""
+"Вы можете пользоваться прокруткой колеса мыши для быстрой смены текущего "
+"шрифта, поместив указатель мыши над кнопкой вызова диалога дял выбора шрифта."
+
+#: src/toolbox/text.xml:172(term)
+msgid "Size"
+msgstr "Размер"
+
+#: src/toolbox/text.xml:174(para)
+msgid ""
+"This control sets the size of the font in any of several selectable units."
+msgstr "Определяет размер шрифта в любой единице измерения."
+
+#: src/toolbox/text.xml:182(term)
+msgid "Hinting"
+msgstr "Инструктирование"
+
+#: src/toolbox/text.xml:184(para)
+msgid ""
+"Uses the indices of adjustment to modify the characters in order to produce "
+"clear letters in small font sizes."
+msgstr ""
+"Использует индексы изменения, чтобы изменить буквы для лучшего представления "
+"букв при маленьком шрифте."
+
+#: src/toolbox/text.xml:191(term)
+msgid "Force Auto-Hinter"
+msgstr "Автоинструктирование"
+
+#: src/toolbox/text.xml:193(para)
+msgid ""
+"<guilabel>Auto Hinter</guilabel> tries to automatically compute information "
+"for better representation of the character font."
+msgstr ""
+"<guilabel>Автохинтер</guilabel> старается автоматически вычислить наилучшее "
+"представления шрифта на экране мониторов."
+
+#: src/toolbox/text.xml:201(term)
+msgid "Antialiasing"
+msgstr "Сглаживание"
+
+#: src/toolbox/text.xml:203(para)
+msgid ""
+"Antialiasing will render the text with much smoother edges and curves. This "
+"is achieved by slight blurring and merging of the edges. This option can "
+"radically improve the visual appearance of the rendered typeface. Caution "
+"should be exercised when using antialiasing on images that are not in RGB "
+"color space."
+msgstr ""
+"При включенном сглаживании элементы букв текста отрисовываются более плавно "
+"за чет легкого размывания и объединения краёв. Этот параметр может намного "
+"улучшить вид текста на экране монитора. Сглаживание стоит применять "
+"осторожно в тех случаях, когда изображение находится не в режиме RGB."
+
+#: src/toolbox/text.xml:214(term)
+#: src/toolbox/color-picker.xml:30(primary)
+msgid "Color"
+msgstr "Цвет"
+
+#: src/toolbox/text.xml:216(para)
+msgid ""
+"Color of the text that will be drawn next. Defaults to black. Selectable "
+"from the color picker dialog box that opens when the current color sample is "
+"clicked."
+msgstr ""
+"Определяет цвет заливки текста. По умолчанию используется чёрный цвет, "
+"который можно изменить, щелкнув по кнопке с образцом цветом."
+
+#: src/toolbox/text.xml:222(para)
+msgid ""
+"You can also click-and-drag the color from the Toolbox color area onto the "
+"text."
+msgstr "Можно также перетащить цвет из панели инструментов на текстовый блок."
+
+#: src/toolbox/text.xml:231(term)
+#: src/toolbox/text.xml:234(primary)
+msgid "Justify"
+msgstr "Выключка"
+
+#: src/toolbox/text.xml:236(para)
+msgid ""
+"Causes the text to be justified according to any of four rules selectable "
+"from the associated icons."
+msgstr ""
+"Позволяет текст изменятся в соответствии с правилами, выбираемых из "
+"соответствующих значков."
+
+#: src/toolbox/text.xml:244(term)
+#: src/toolbox/text.xml:247(primary)
+msgid "Indent"
+msgstr "Отступ первой строки"
+
+#: src/toolbox/text.xml:249(para)
+msgid "Controls the indent spacing from the left margin, for the fist line."
+msgstr "Определяет отступ первой буквы первой строки от левого края."
+
+#: src/toolbox/text.xml:257(term)
+msgid "Line Spacing"
+msgstr "Интервал между строк"
+
+#: src/toolbox/text.xml:260(primary)
+msgid "Line spacing"
+msgstr "Интерлиньяж"
+
+#: src/toolbox/text.xml:262(para)
+msgid ""
+"Controls the spacing between successive lines of text. This setting is "
+"interactive: it appears at the same time in image text. The number is not "
+"the space between lines itself, but how many pixels must be added to or "
+"subtracted from this space (the value can be negative)."
+msgstr ""
+"Определяет расстояние между соседними строками. Изменения этого значения "
+"вступают в силу немедленно. Значением параметра является не само расстояние "
+"между строками, а число пикселов, которое нужно прибавить или отнять от "
+"этого растояния (значение может быть отрицательным)."
+
+#: src/toolbox/text.xml:273(term)
+msgid "Letter Spacing"
+msgstr "Интервал между буквами"
+
+#: src/toolbox/text.xml:275(para)
+msgid ""
+"Controls the spacing between letters. Also in this case the number is not "
+"the space itself between letters, but how many pixels must be added to or "
+"substracted from this space (the value can be negative)."
+msgstr ""
+"Определяет расстояние между соседними буквами строки. В этом случае значение "
+"также является не расстоянием между буквами, а числом, которое прибавляется "
+"или отнимается от исходного значения. Значение также может быть "
+"отрицательным."
+
+#: src/toolbox/text.xml:285(term)
+#: src/toolbox/text.xml:288(primary)
+msgid "Text along Path"
+msgstr "Текст по контуру"
+
+#: src/toolbox/text.xml:290(para)
+msgid ""
+"This option is enabled only if a <link linkend=\"gimp-using-paths\">path</"
+"link> exists. When your text is created, then create or import a path and "
+"make it active. If you create your path before the text, the path becomes "
+"invisible and you have to make it visible in the Path Dialog."
+msgstr ""
+"Этот параметр доступен, если есть хоть один <link linkend=\"gimp-using-paths"
+"\">контур</link>. Для этого создайте или загрузите контур и активируйте его. "
+"Если контур создан до текста, он становится невидимым, и ему необходимо "
+"возвратить видимость в диалоге <quote>Контуры</quote>."
+
+#: src/toolbox/text.xml:297(para)
+msgid "This command is also available from the <quote>Layer</quote> menu:"
+msgstr "Эта команда также доступна из меню <quote>Слой</quote>:"
+
+#: src/toolbox/text.xml:301(title)
+msgid "The Text to Path command among text commands in the Layer menu"
+msgstr "Команда размещения текста по контуру среди прочих в меню «Слой»"
+
+#: src/toolbox/text.xml:310(para)
+msgid "This group of options appears only if a layer text exists."
+msgstr "Эта группа команд появляется только для текстовых слоёв."
+
+#: src/toolbox/text.xml:316(para)
+msgid ""
+"If you want to use a text which already exists, make it active in the <link "
+"linkend=\"gimp-layer-dialog\">Layer dialog</link>, select the Text tool and "
+"click on the text in the image window."
+msgstr ""
+"Если вы хотите использовать уже существующий текст, переключитесь на "
+"соответствующий слой в <link linkend=\"gimp-layer-dialog\">диалоге слоёв</"
+"link>, выберите инструмент Текст и щелкните по текстовому блоку в окне "
+"изображения."
+
+#: src/toolbox/text.xml:321(para)
+msgid ""
+"Click on the <guibutton>Text along Path</guibutton> button. The text is bent "
+"along the path. Letters are represented with their outline. Each of them is "
+"a component of the new path which appears in the <link linkend=\"gimp-path-"
+"dialog\">Path dialog</link>. All path options should apply to this new path."
+msgstr ""
+"Нажмите кнопку <guibutton>Текст по контуру</guibutton> — текст будет "
+"размещён вдоль контура. Буквы будут представлены своим абрисом. Каждая их "
+"них будет компонентом нового контура, который появится в диалоге <link "
+"linkend=\"gimp-path-dialog\">Контуры</link>. С этим контуром можно выполнять "
+"обычные для контуров операции."
+
+#: src/toolbox/text.xml:329(title)
+msgid "<quote>Text along Path</quote> example"
+msgstr "Пример размещенного по контуру текста"
+
+#: src/toolbox/text.xml:345(term)
+msgid "Path from Text"
+msgstr "Контур из текста"
+
+#: src/toolbox/text.xml:348(primary)
+msgid "Text to Path"
+msgstr "Текст в контур"
+
+#: src/toolbox/text.xml:350(para)
+msgid ""
+"This tool creates a selection path from the selected text. Every letter is "
+"surrounded with a path component. So you can modify the shape of letters by "
+"moving path control points."
+msgstr ""
+"Эта команда создаёт контур из выделенного текста. Каждая буква является "
+"компонентом контура. Можно менять форму букв, перемещая контрольные точки "
+"контура."
+
+#: src/toolbox/text.xml:361(title)
+msgid "Text Editor"
+msgstr "Редактор текста"
+
+#: src/toolbox/text.xml:365(secondary)
+msgid "Editor"
+msgstr "Редактор"
+
+#: src/toolbox/text.xml:369(title)
+msgid "The Text Editor"
+msgstr "Редактор текста"
+
+#: src/toolbox/text.xml:378(para)
+msgid ""
+"This dialog window is opened when you click on the image with the Text Tool. "
+"There, you can enter the text which shows up in real time in the frame on "
+"top of the canvas."
+msgstr ""
+"Этот диалог появляется после щелчка по текстовому блоку указателем "
+"инструмента Текст. В этом диалоге можно редактировать текст, который будет "
+"немедленно отрисовываться на холсте."
+
+#: src/toolbox/text.xml:383(para)
+msgid ""
+"You can correct the text you are writing and you can change the text font "
+"with the Font Editor."
+msgstr "Текст можно изменить в редакторе, а шрифт текста — в редакторе шрифта."
+
+#: src/toolbox/text.xml:387(para)
+msgid ""
+"As soon as you start writing, a Text layer is created in the Layer Dialog. "
+"On an image with such a layer (the image you are working on, or a <filename "
+"class=\"extension\">.xcf</filename> image), you can resume text editing by "
+"activating this text layer then clicking on it (double click). Of course, "
+"you can apply to this text layer the same functions you use with other "
+"layers."
+msgstr ""
+"Как только вы начинаете набирать текст, новый текстовый слой добавляется в "
+"диалог слоёв. В изображении с таким слоем (текущее изображение или файл в "
+"формате <filename class=\"extension\">.xcf</filename>) можно продолжить "
+"редактирование текста, выбрав слой текста в диалоге слоёв и дважды щелкнуть "
+"его. Разумеется, вы можете выполнять с текстовым слоем все те же функции, "
+"что и с прочими слоями."
+
+#: src/toolbox/text.xml:395(para)
+msgid ""
+"To add another text to your image click on a non-text layer: a new Text "
+"Editor will appear and a new text layer will be created. To pass from a text "
+"to another one activate the corresponding text layer and click on it to "
+"activate the editor."
+msgstr ""
+"Чтобы добавить текст к изображению, необходимо выбрать нетекстовый слой. В "
+"этом случае будет создан новый текстовый слой и появится новый текстовый "
+"редактор. Для перехода с одного текстового блока на другой необходимо "
+"активировать соответствующий текстовый слой и щёлкнуть по нему для вызова "
+"диалога редактирования текста."
+
+#. cf. bug #580532 (2009-06-15)
+#: src/toolbox/text.xml:402(para)
+msgid ""
+"You can get Unicode characters with <keycombo><keycap>Ctrl</keycap><keycap>"
+"Shift</keycap><keycap>U</keycap></keycombo> plus hexadecimal Unicode code of "
+"the desired char, for example:"
+msgstr ""
+"Вы можете вводить символы Юникода, нажимая <keycombo><keycap>Ctrl</keycap><"
+"keycap>Shift</keycap><keycap>U</keycap></keycombo> и вводя "
+"шестнадцатиричное значение символа Юникода, например:"
+
+#: src/toolbox/text.xml:410(title)
+msgid "Entering Unicode characters"
+msgstr "Ввод символов Юникода"
+
+#: src/toolbox/text.xml:420(keycap)
+#: src/toolbox/path.xml:88(keycap)
+#: src/toolbox/measure.xml:108(keycap)
+#: src/toolbox/color-picker.xml:112(keycap)
+msgid "Shift"
+msgstr "Shift"
+
+#: src/toolbox/text.xml:421(keycap)
+msgid "U"
+msgstr "U"
+
+#: src/toolbox/text.xml:434(keycap)
+msgid "4"
+msgstr "4"
+
+#: src/toolbox/text.xml:434(keycap)
+msgid "7"
+msgstr "7"
+
+#: src/toolbox/text.xml:446(keycap)
+msgid "Enter"
+msgstr "Ввод"
+
+#: src/toolbox/text.xml:451(para)
+msgid ""
+"Of course this feature is more useful for entering special (even exotic) "
+"characters, provided that the required glyphs for these characters are "
+"supplied by the selected font &mdash; only few fonts support Klingon. ;-)"
+msgstr ""
+"Разумеется, эта функция больше полезна для ввода специальных (и даже "
+"экзотических) символов, если они есть в выбранном шрифте — очень немногие "
+"шрифты содержат буквы клингонского алфавита ;-)"
+
+#: src/toolbox/text.xml:463(para)
+msgid "Unicode 0x47 (<quote>G</quote>), 0x2665, 0x0271, 0x03C0"
+msgstr "Unicode 0x47 (<quote>G</quote>), 0x2665, 0x0271, 0x0288"
+
+#: src/toolbox/text.xml:470(title)
+msgid "The Text Editor options"
+msgstr "Параметры редактора текста"
+
+#: src/toolbox/text.xml:473(secondary)
+msgid "Load from file"
+msgstr "Загрузить из файла"
+
+#: src/toolbox/text.xml:480(phrase)
+msgid "Load text from file"
+msgstr "Загрузить текст из файла"
+
+#: src/toolbox/text.xml:483(para)
+msgid ""
+"Text can be loaded from a text file by clicking the folder icon in the text "
+"editor. All the text in the file is loaded."
+msgstr ""
+"Текст может быть загружен из текстового файла щелчком по значку с "
+"изображением папки в диалоге текстового редактора. Загружается весь текст "
+"файла."
+
+#: src/toolbox/text.xml:494(phrase)
+msgid "Clear all text"
+msgstr "Удалить весь текст"
+
+#: src/toolbox/text.xml:497(para)
+msgid ""
+"Clicking this icon clears the editor and the associated text on the image."
+msgstr "Нажатие этой кнопки удаляет текст в редакторе и в изображении."
+
+#: src/toolbox/text.xml:504(term)
+msgid "From left to right"
+msgstr "Слева направо"
+
+#: src/toolbox/text.xml:506(para)
+msgid ""
+"This option causes text to be entered from left to right, as is the case "
+"with most Western languages and may Eastern languages."
+msgstr ""
+"Этот параметр позволяет вводить текст слева направо, как в большинстве "
+"западных языков и многих восточных языках."
+
+#: src/toolbox/text.xml:514(term)
+msgid "From right to left"
+msgstr "Справа налево"
+
+#: src/toolbox/text.xml:516(para)
+msgid ""
+"This option allows text to be entered from right to left, as is the case "
+"with some Eastern languages, such as Arabic (illustrated in the icon)."
+msgstr ""
+"Этот параметр позволяет вводить текст справа налево, как в некоторых "
+"восточных языках, например, в арабском (арабская вязь использована в значке)."
+
+#: src/toolbox/text.xml:524(term)
+msgid "Use selected font"
+msgstr "Использовать выбранный шрифт"
+
+#: src/toolbox/text.xml:526(para)
+msgid ""
+"Default doesn't use the font you have selected in the Options dialog. If "
+"you want to use it, check this option."
+msgstr ""
+"По умолчанию, шрифт, выбранный в панели параметров инструмента, в поле "
+"ввода текста не используется. Чтобы его использовать, выберите этот "
+"параметр."
+
+#: src/toolbox/text.xml:531(para)
+msgid "See also <xref linkend=\"gimp-using-text\"/>."
+msgstr "Также см. <xref linkend=\"gimp-using-text\"/>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/selection-tools.xml:12(None)
+msgid ""
+"@@image: 'images/toolbox/selection-tools.png'; "
+"md5=e2fc21e367e921311e468be7b3c22553"
+msgstr ""
+"@@image: 'images/toolbox/selection-tools.png'; "
+"md5=e2fc21e367e921311e468be7b3c22553"
+
+#: src/toolbox/selection-tools.xml:6(title)
+msgid "Selection Tools"
+msgstr "Инструменты выделения"
+
+#: src/toolbox/selection-tools.xml:9(title)
+msgid "The Selection tools"
+msgstr "Инструменты выделения"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:34(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-path.png'; "
+"md5=56635d1500ad1b35949947801425419c"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-path.png'; "
+"md5=56635d1500ad1b35949947801425419c"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:119(None)
+msgid ""
+"@@image: 'images/toolbox/path-tool-options.png'; "
+"md5=dd34fb04181407f84c32864d3313257a"
+msgstr ""
+"@@image: 'images/toolbox/path-tool-options.png'; "
+"md5=dd34fb04181407f84c32864d3313257a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:149(None)
+msgid ""
+"@@image: 'images/tool-options/path-stroke.png'; "
+"md5=9941b9c2e027f0ee447ae376ff482ff5"
+msgstr ""
+"@@image: 'images/tool-options/path-stroke.png'; "
+"md5=9941b9c2e027f0ee447ae376ff482ff5"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/path.xml:162(None)
+msgid ""
+"@@image: 'images/tool-options/path-curve.png'; "
+"md5=e1b05a605a91b0c8df3745e0a047bed5"
+msgstr ""
+"@@image: 'images/tool-options/path-curve.png'; "
+"md5=e1b05a605a91b0c8df3745e0a047bed5"
+
+#: src/toolbox/path.xml:18(title)
+#: src/toolbox/path.xml:24(primary)
+msgid "Paths"
+msgstr "Контуры"
+
+#: src/toolbox/path.xml:21(secondary)
+msgid "Path"
+msgstr "Контур"
+
+#: src/toolbox/path.xml:28(primary)
+msgid "Bézier's curve"
+msgstr "Кривая Безье"
+
+#: src/toolbox/path.xml:31(title)
+msgid "Paths tool"
+msgstr "Инструмент Контуры"
+
+#: src/toolbox/path.xml:38(para)
+msgid ""
+"The Paths tool allows to create complex selections called Bézier Curves, a "
+"bit like Lasso but with all the adaptability of vectorial curves. You can "
+"edit your curve, you can paint with your curve, or even save, import, and "
+"export the curve. You can also use paths to create geometrical figures. "
+"Paths have their own dialog box: <link linkend=\"gimp-path-dialog\">Dialog</"
+"link>."
+msgstr ""
+"Инструмент Контуры позволяет создавать сложные выделения, называемые "
+"кривыми Безье,  почти как <quote>Лассо</quote>, только с гибкостью "
+"векторных кривых. Кривую можно редактировать, сохранять, импортировать, "
+"экспортировать; с её помощью можно рисовать и создавать геометрические "
+"фигуры. У контуров есть свой <link linkend=\"gimp-path-dialog\">Диалог</"
+"link>."
+
+#: src/toolbox/path.xml:49(para)
+msgid "You can get this tool in several ways:"
+msgstr "Инструмент можно вызвать несколькими способами:"
+
+#: src/toolbox/path.xml:52(para)
+msgid ""
+"In the image menu through <menuchoice><guimenu>Tools</guimenu><"
+"guisubmenu>Paths</guisubmenu></menuchoice>,"
+msgstr ""
+"через меню изображения <menuchoice><guimenu>Инструменты</"
+"guimenu><guisubmenu>Контуры</guisubmenu></menuchoice>,"
+
+#: src/toolbox/path.xml:61(para)
+msgid ""
+"By clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/toolbox/"
+"stock-tool-path-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+"щелчком по значку инструмента <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-path-22.png\"/></guiicon> на панели инструментов,"
+
+#: src/toolbox/path.xml:71(para)
+msgid "or by using the <keycap>B</keycap> keyboard shortcut."
+msgstr "либо с помощью клавиши быстрого доступа <keycap>B</keycap>."
+
+#: src/toolbox/path.xml:81(para)
+msgid ""
+"Help messages pop up at the bottom of the image window to help you about "
+"all these keys."
+msgstr ""
+"Краткая справка по использованию этих клавиш появляется внизу окна "
+"изображения."
+
+#: src/toolbox/path.xml:90(para)
+msgid ""
+"This key has several functions depending on context. See Options for more "
+"details."
+msgstr ""
+"У этой клавиши несколько функций в зависимости от контекста. За "
+"подробностями обратитесь к описанию параметров."
+
+#: src/toolbox/path.xml:97(term)
+msgid "<keycap>Ctrl</keycap> ; <keycap>Alt</keycap>"
+msgstr "<keycap>Ctrl</keycap> ; <keycap>Alt</keycap>"
+
+#: src/toolbox/path.xml:99(para)
+msgid ""
+"Three modes are available to work with the Paths tool: <guilabel>Design</"
+"guilabel>,<guilabel>Edit</guilabel> and <guilabel>Move</guilabel>. <keycap>"
+"Ctrl</keycap> key toggles between Design and Edit. <keycap>Alt</keycap> (or "
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>) key toggles "
+"between Design and Move."
+msgstr ""
+"У инструмента <quote>Контуры</quote> три режима: <guilabel>Создание</"
+"guilabel>, <guilabel>Правка</guilabel> и <guilabel>Перемещение</guilabel>. "
+"Клавиша <keycap>Ctrl</keycap> переключает режимы между <guilabel>Созданием</"
+"guilabel> и <guilabel>Правкой</guilabel>. Клавиша <keycap>Alt</keycap> (а "
+"также <keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo>) "
+"переключает режимы между <guilabel>Созданием</guilabel> и <guilabel>"
+"Перемещением</guilabel>."
+
+#: src/toolbox/path.xml:115(title)
+msgid "<quote>Path</quote> tool options"
+msgstr "Параметры инструмента <quote>Контуры</quote>"
+
+#: src/toolbox/path.xml:137(term)
+msgid "Design Mode"
+msgstr "Режим создания"
+
+#: src/toolbox/path.xml:139(para)
+msgid ""
+"By default, this tool is in <guilabel>Design</guilabel> mode. You draw the "
+"path by clicking successively. You can move control points by clicking on "
+"them and dragging them. Between control points are segments."
+msgstr ""
+"По умолчанию этот инструмент находится в режиме <guilabel>Создание</"
+"guilabel>. Контур создаётся последовательными щелчками по точкам "
+"изображения. Создаваемые контрольные точки (узлы) можно передвигать, "
+"предварительно щёлкнув по ним. Между узлами находятся сегменты контура."
+
+#: src/toolbox/path.xml:152(para)
+msgid "Numbers are steps to draw a two segments straight path."
+msgstr "Числа — это шаги создания прямого контура из двух сегментов."
+
+#: src/toolbox/path.xml:165(para)
+msgid ""
+"Curved segments are easily built by dragging a segment or a new node. Blue "
+"arrows indicate curve. Two little handles appear that you can drag to bend "
+"the curve."
+msgstr ""
+"Кривые сегменты легко строить, двигая сегменты или узлы. Голубые стрелки "
+"обозначают кривую. Два маленьких рычага позволяют искривлять кривую "
+"смещением их положения."
+
+#: src/toolbox/path.xml:174(para)
+msgid ""
+"To quickly close the curve, press <keycap>Ctrl</keycap> key and click on "
+"the initial control point. In previous versions, clicking inside a closed "
+"path converted it into Selection. Now, you can use the <guibutton>Create "
+"selection from path</guibutton> button or <guiicon><inlinegraphic fileref="
+"\"images/dialogs/stock-selection-16.png\"/></guiicon> the <emphasis>Path to "
+"Selection</emphasis> button in the Path Dialog."
+msgstr ""
+"Чтобы быстро замкнуть контур (кривую), нажмите клавишу <keycap>Ctrl</"
+"keycap> и щёлкните исходный контрольный узел. В предыдущих версиях нажатие "
+"внутри замкнутого контура преобразовывало его в выделение. Теперь для этого "
+"можно использовать кнопку <emphasis>Выделение из контура</emphasis> или "
+"<emphasis>Контур в выделение</emphasis> в диалоге контуров."
+
+#: src/toolbox/path.xml:189(para)
+msgid ""
+"When you have two handles, they work symmetrically by default. Release the "
+"pressure on the mouse button to move handles individually. The <keycap>Shift"
+"</keycap> key will force the handles to be symmetrical again."
+msgstr ""
+"Два рычага по умолчанию расположены симметрично. Однако при первом же "
+"дальнейшем перемещении каждый узел становится рассинхронизированым с "
+"другим. Клавиша <keycap>Shift</keycap> возвращает рычагам симметричность."
+
+#: src/toolbox/path.xml:196(para)
+msgid "Several functions are available with this mode:"
+msgstr "Функции, доступные в этом режиме:"
+
+#: src/toolbox/path.xml:197(para)
+msgid ""
+"<emphasis>Add a new node</emphasis>: If the active node (a small empty "
+"circle after clicking on a node) is at the end of the path, the mouse "
+"pointer is a '+' sign and a new node is created, linked to the previous one "
+"by a segment. If the active node is on the path, the pointer is a square "
+"and you can create a new component to the path. This new component is "
+"independent from the other, but belongs to the path as you can see on the "
+"Path dialog. Pressing <keycap>Shift</keycap> forces the creation of a new "
+"component."
+msgstr ""
+"<emphasis>Добавление узлов</emphasis>: если активный узел (маленький пустой "
+"круг после щелчка по узлу) находится в конце контура, значок курсора "
+"содержит символ <quote>+</quote>, а щелчок им по активному узлу создает "
+"новый узел, соединённый сегментом с предыдущим. Если активный узел "
+"находится на контуре, курсор содержит квадрат, и щелчок по нему создает "
+"новый компонент контура. Этот новый компонент не зависит от других, но "
+"принадлежит контуру, как видно в диалоге. Нажатие клавиши <keycap>Shift</"
+"keycap> приводит к принудительному созданию такого компонента."
+
+#: src/toolbox/path.xml:208(para)
+msgid ""
+"<emphasis>Move one or several nodes</emphasis>: On a node, the mouse "
+"pointer becomes a 4-arrows cross. You can click and drag it. You can select "
+"several nodes by <keycap>Shift</keycap> and click and move them by click "
+"and drag. Pressing <keycombo><keycap>Ctrl</keycap><keycap>Alt </keycap></"
+"keycombo> allows to move all the path, as a selection."
+msgstr ""
+"<emphasis>Смещение одного или нескольких узлов</emphasis>: над узлом курсор "
+"становится крестом из четырёх стрелок. Нажмите узел и переместите его. "
+"Можно выбрать несколько узлов, удерживая нажатой клавишу <keycap>Shift</"
+"keycap>. Удерживая нажатыми клавиши <keycombo><keycap>Ctrl</keycap><keycap>"
+"Alt</keycap></keycombo>, вы можете передвигать весь контур как выделение."
+
+#: src/toolbox/path.xml:218(para)
+msgid ""
+"<emphasis>Modify handles</emphasis>: You have to Edit a node before. A "
+"handle appears. Drag it to bend the curve. Pressing <keycap>Shift</keycap> "
+"toggles to symmetric handles."
+msgstr ""
+"<emphasis>Коррекция положения рычагов</emphasis>: перейдите к режиму правки "
+"узлов; после этого рычаги узлов станут доступны. Переместите рычаги для "
+"сгиба кривой. Нажатие клавиши <keycap>Shift</keycap> делает рычаги "
+"симметричными."
+
+#: src/toolbox/path.xml:223(para)
+msgid ""
+"<emphasis>Modify segment</emphasis>: When the mouse pointer goes over a "
+"segment, it turns to a 4-arrows cross. Click-and-drag it to bend the "
+"segment. As soon as you move, handles appear at both ends of the segment. "
+"Pressing <keycap>Shift</keycap> key toggles to symmetric handles."
+msgstr ""
+"<emphasis>Изменение сегмента</emphasis>: когда указатель мыши оказывается "
+"над сегментом контура, значок указателя превращается в крест из четырёх "
+"стрелок. Щелчком и перемещением вы можете изогнуть сегмент. Как только "
+"сегмент начнёт меняться, по обоим концам сегмента появятся рычаги. Нажатие "
+"клавиши <keycap>Shift</keycap> делает рычаги симметричными."
+
+#: src/toolbox/path.xml:233(term)
+msgid "Edit Mode"
+msgstr "Режим правки"
+
+#: src/toolbox/path.xml:235(para)
+msgid ""
+"<guilabel>Edit</guilabel> performs functions which are not available in "
+"<guilabel>Design</guilabel> mode. With this mode, you can work only on the "
+"existing path. Outside, the pointer is a small crossed circle (on the whole "
+"image if there is no path!) and you can do nothing."
+msgstr ""
+"<guilabel>Правка</guilabel> выполняет функции, которые не доступны в режиме "
+"<guilabel>Создания</guilabel>. В этом режиме можно работать только над "
+"существующим контуром. Вне контура (или по всему изображению, если нет "
+"контура) курсор становится маленьким перечёркнутым кругом и редактирование невозможно."
+
+#: src/toolbox/path.xml:242(para)
+msgid ""
+"<emphasis>Add a segment between two nodes</emphasis>: Click on a node at "
+"one end of the path to activate it. The pointer is like a union symbol. "
+"Click on an other node to link both nodes. This is useful when you have to "
+"link unclosed components."
+msgstr ""
+"<emphasis>Добавление сегмента между двумя узлами</emphasis>: щелчком "
+"активируйте узел с одного конца контура. Значок указателя мыши примет форму "
+"двух объединенных пустых окружностей, означающую объединение узлов. "
+"Щёлкните второй узел, чтобы связать их. Это полезно для соединения "
+"незакрытых компонентов."
+
+#: src/toolbox/path.xml:249(para)
+msgid ""
+"<emphasis>Remove a segment from a path</emphasis>: While pressing "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> key "
+"combination, point to a segment. Pointer turns to -. Click to delete the "
+"segment."
+msgstr ""
+"<emphasis>Удалить сегмент из контура</emphasis>: нажимая комбинацию клавиш "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo>, укажите на "
+"сегмент. Курсор становится <quote>-</quote>. Щёлкните, чтобы удалить сегмент."
+
+#: src/toolbox/path.xml:255(para)
+msgid ""
+"<emphasis>Add a node to a path</emphasis>: point to a segment. Pointer turns "
+"to +. Click where you want to place the new control point."
+msgstr ""
+"<emphasis>Добавление узла к контуру</emphasis>: укажите на сегмент. Значок "
+"указателя мыши сменится на <quote>+</quote>. Щёлкните по точке, в которую "
+"хотите добавить узел."
+
+#: src/toolbox/path.xml:260(para)
+msgid ""
+"<emphasis>Remove a node</emphasis>: While pressing <keycombo><keycap>Shift</"
+"keycap><keycap>Ctrl</keycap></keycombo> key combination, point to a node. "
+"Pointer turns to -. Click to delete the node."
+msgstr ""
+"<emphasis>Удалить узел</emphasis>: нажимая комбинацию клавиш <keycombo><"
+"keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo>, укажите на узел. "
+"Курсор становится <quote>-</quote>. Щёлкните, чтобы удалить узел."
+
+#: src/toolbox/path.xml:265(para)
+msgid ""
+"<emphasis>Add a handle to a node</emphasis>: Point to a node. Pointer turns "
+"to small hand. Drag the node: handle appears. Pressing "
+"<keycap>Shift</keycap> toggles to symmetric handles."
+msgstr ""
+"<emphasis>Добавление рычага к узлу</emphasis>: укажите на узел. Значок "
+"указателя мыши примет форму руки. При перетаскивании узла появится рычаг. "
+"Нажатие клавиши <keycap>Shift</keycap> делает рычаги симметричными."
+
+#: src/toolbox/path.xml:272(para)
+msgid ""
+"<emphasis>Remove a handle from a node</emphasis>: While pressing <keycombo>"
+"<keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> key combination, "
+"point to a handle. The pointer doesn't turn to the expected - and remains a "
+"hand. Click to delete the handle."
+msgstr ""
+"<emphasis>Удаление рычага из узла</emphasis>: удерживая нажатыми клавиши "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo>, "
+"переместите указатель мыши к точке над рычагом. Значок указателя сменится на "
+"ожидаемый символ минуса. Щёлкните для удаления рычага."
+
+#: src/toolbox/path.xml:280(para)
+msgid "No warning before removing a node, a segment or a handle."
+msgstr "До удаления узла, сегмента или обработчика предупреждение не даётся."
+
+#: src/toolbox/path.xml:287(term)
+msgid "Move Mode"
+msgstr "Режим перемещения"
+
+#: src/toolbox/path.xml:289(para)
+msgid ""
+"<guilabel>Move</guilabel> mode allows to move one or all components of a "
+"path. Simply click on the path and drag it."
+msgstr ""
+"Режим <guilabel>Перемещение</guilabel> позволяет перемещать компоненты "
+"контура по одному или все разом. Просто щелкните контур и перетащите его."
+
+#: src/toolbox/path.xml:293(para)
+msgid ""
+"If you have several components, only the selected one is moved. If you click "
+"and drag outside the path, all components are moved. Pressing <keycap>Shift</"
+"keycap> key toggles to move all components also."
+msgstr ""
+"Если у контура несколько компонентов, перемещен будет только выбранный. При "
+"щелчке и перетаскивании вне вне контура передвигаются все компоненты. "
+"Клавиша <keycap>Shift</keycap> также включает перемещение всех компонентов."
+
+#: src/toolbox/path.xml:302(term)
+msgid "Polygonal"
+msgstr "Многоугольники"
+
+#: src/toolbox/path.xml:304(para)
+msgid ""
+"With this option, segments are linear only. Handles are not available and "
+"segments are not bent when moving them."
+msgstr ""
+"При выборе этого параметра сегменты становятся только прямыми. Рычаги не "
+"отображаются, а сегменты не гнутся при их перемещении."
+
+#: src/toolbox/path.xml:311(term)
+msgid "Create selection from path"
+msgstr "Выделение из контура"
+
+#: src/toolbox/path.xml:313(para)
+msgid ""
+"This button allows creation of a selection that is based on the path in its "
+"present state. This selection is marked with the usual \"marching ants\". "
+"Note that the path is still present: current tool is still path tool and you "
+"can modify this path without modifying the selection that has become "
+"independent. If you change tool, the path becomes invisible, but it persists "
+"in Path Dialog and you can re-activate it."
+msgstr ""
+"Эта кнопка создаёт выделение, основанное на текущем контуре и отображаемое "
+"обычными <quote>марширующими муравьями</quote>. Заметьте, что контур "
+"остаётся нетронутым: активный инструмент — всё ещё Контуры, так что этот "
+"контур можно изменять, не меняя выделение, ставшее независимым. Если выбрать "
+"другой инструмент, контур станет невидимым, он останется в диалоге контуров, "
+"и его можно активировать снова."
+
+#: src/toolbox/path.xml:322(para)
+msgid "If the path is not closed, GIMP will close it with a straight line."
+msgstr "Если контур не закрыт, GIMP закроет его прямой линией."
+
+#: src/toolbox/path.xml:325(para)
+msgid ""
+"As the help pop-up tells, pressing <keycap>Shift</keycap> when clicking on "
+"the button will add the new selection to an eventually pre-existent. "
+"Pressing the <keycap>Ctrl</keycap> will subtract the selection from the "
+"pre-existent and the <keycombo><keycap>Shift</keycap><keycap>"
+"Ctrl</keycap></keycombo> key combination will intersect the two selections."
+msgstr ""
+"Как сказано во всплывающей подсказке, нажатие клавиши <keycap>Shift</keycap> "
+"добавит новое выделение к уже существующему, нажатие клавиши <keycap>Ctrl</"
+"keycap> вычтет новое выделение из существующего, а комбинация клавиш "
+"<keycombo><keycap>Shift</keycap><keycap>Ctrl</keycap></keycombo> оставит "
+"пересечение выделений."
+
+#: src/toolbox/path.xml:336(term)
+msgid "Stroke path"
+msgstr "Обводка по контуру"
+
+#: src/toolbox/path.xml:338(para)
+msgid ""
+"In previous versions, you could access to this command only by the Edit "
+"sub-menu in the Image Menu. Now you can access to it also via this button. "
+"See <xref linkend=\"gimp-path-stroke\"/> and <xref linkend=\"gimp-using-paths"
+"\"/>."
+msgstr ""
+"В предыдущих версиях эта команда была доступна только через меню <quote>"
+"Правка</quote> в меню изображения. Сейчас она доступна и через эту кнопку. "
+"За дополнительной информацией обратитесь к главам <xref linkend=\"gimp-path-"
+"stroke\"/> и <xref linkend=\"gimp-using-paths\"/>."
+
+#: src/toolbox/path.xml:348(para)
+msgid ""
+"See the <link linkend=\"gimp-concepts-paths\"><quote>Path</quote></"
+"link>concept."
+msgstr ""
+"Ознакомьтесь с концепцией контуров в главе <link linkend=\"gimp-concepts-"
+"paths\"><quote>Контуры</quote></link>."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/paint-tools.xml:30(None)
+msgid ""
+"@@image: 'images/toolbox/brush-tools.png'; "
+"md5=88f0014c36fb4cffc8a89243c9a41e25"
+msgstr ""
+"@@image: 'images/toolbox/brush-tools.png'; "
+"md5=88f0014c36fb4cffc8a89243c9a41e25"
+
+#: src/toolbox/paint-tools.xml:12(title)
+#: src/toolbox/paint-tools.xml:15(primary)
+#: src/toolbox/paint-tools.xml:23(secondary)
+msgid "Paint Tools"
+msgstr "Инструменты рисования"
+
+#: src/toolbox/paint-tools.xml:19(secondary)
+msgid "Paint"
+msgstr "Рисование"
+
+#: src/toolbox/paint-tools.xml:27(title)
+msgid "The Paint Tools (Tools menu)"
+msgstr "Инструменты рисования (меню инструментов)"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/other-tools.xml:26(None)
+msgid ""
+"@@image: 'images/toolbox/other-tools.png'; "
+"md5=dd843a1dda62a9ae7713c0d2f8e8b7bf"
+msgstr ""
+"@@image: 'images/toolbox/other-tools.png'; "
+"md5=dd843a1dda62a9ae7713c0d2f8e8b7bf"
+
+#: src/toolbox/other-tools.xml:12(title)
+msgid "Other"
+msgstr "Другие"
+
+#: src/toolbox/other-tools.xml:16(secondary)
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: src/toolbox/other-tools.xml:20(title)
+msgid "Overview"
+msgstr "Общая информация"
+
+#: src/toolbox/other-tools.xml:23(title)
+msgid "Other Tools in the Tools Menu"
+msgstr "Другие инструменты в меню <menuchoice><guimenu>Инструменты</guimenu></menuchoice>"
+
+#: src/toolbox/other-tools.xml:30(para)
+msgid ""
+"<quote>Other</quote> tools are simply those tools which don't belong to any "
+"main group of tools. You will find here, for example, the important and "
+"powerful <link linkend=\"gimp-tool-path\">Path</link> tool as well as useful "
+"helper tools like the <link linkend=\"gimp-tool-color-picker\">Color Picker</"
+"link>:"
+msgstr ""
+"<quote>Другие</quote> инструменты — это инструменты, не относящиеся к той "
+"или иной группе инструментов. К ним относятся как важные инструменты вроде "
+"<link linkend=\"gimp-tool-path\">Контуры</link>, так и вспомогательные "
+"инструменты вроде <link linkend=\"gimp-tool-color-picker\">Пипетки</link>:"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/measure.xml:37(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-measure.png'; "
+"md5=03e5c86aa8f9b0519054897866300c4a"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-measure.png'; "
+"md5=03e5c86aa8f9b0519054897866300c4a"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/measure.xml:176(None)
+msgid ""
+"@@image: 'images/toolbox/measure-tool-options.png'; "
+"md5=462bb431160fccab083a3b7052e9d0a5"
+msgstr ""
+"@@image: 'images/toolbox/measure-tool-options.png'; "
+"md5=462bb431160fccab083a3b7052e9d0a5"
+
+#: src/toolbox/measure.xml:16(title)
+#: src/toolbox/measure.xml:19(secondary)
+#: src/toolbox/measure.xml:22(primary)
+msgid "Measure"
+msgstr "Измеритель"
+
+#: src/toolbox/measure.xml:25(primary)
+msgid "Measure a distance"
+msgstr "Измерение расстояния"
+
+#: src/toolbox/measure.xml:28(primary)
+msgid "Measure an angle"
+msgstr "Измерение угла"
+
+#: src/toolbox/measure.xml:31(primary)
+msgid "Measure a surface"
+msgstr "Измерение поверхности"
+
+#: src/toolbox/measure.xml:34(title)
+msgid "Measure tool"
+msgstr "Измеритель"
+
+#: src/toolbox/measure.xml:41(para)
+msgid ""
+"The Measure Tool is used to gain knowledge about pixel distances in your "
+"working image. By clicking and holding the mouse button, you can determine "
+"the angle and number of pixels between the point of click and where the "
+"mouse pointer is located. The information is displayed on the status bar or "
+"can also be displayed in the Info Window."
+msgstr ""
+"Измеритель позволяет узнавать расстояния между точками активного "
+"изображения. Щёлкнув и удержав нажатой клавишу мыши, вы определяете угол и "
+"количество пикселов между точкой нажатия и текущей позицией указателя мыши. "
+"Эта информация отображается в строке состояния и окне информации."
+
+#: src/toolbox/measure.xml:48(para)
+msgid ""
+"When you pass the mouse pointer over the end point it turns to a move "
+"pointer. Then if you click you can resume the measure."
+msgstr ""
+"При прохождении указателя мыши над конечной точкой значок указателя меняется "
+"на значок указателя перемещения. Каждый последующий щелчок выполняет новый "
+"замер."
+
+#: src/toolbox/measure.xml:54(title)
+msgid "Status Bar"
+msgstr "Строка состояния"
+
+#: src/toolbox/measure.xml:61(para)
+msgid "Distance between the original point and the mouse pointer, in pixels."
+msgstr "расстояние между исходной точкой и указателем мыши, в пикселах;"
+
+#: src/toolbox/measure.xml:67(para)
+msgid "Angle, in every quadrant, from 0° to 90°."
+msgstr "угол, в каждом квадранте, от 0° до 90°;"
+
+#: src/toolbox/measure.xml:72(para)
+msgid "Pointer coordinates relative to the original point."
+msgstr "координаты указателя относительно исходной точки."
+
+#: src/toolbox/measure.xml:55(para)
+msgid ""
+"Information is displayed in the <link linkend=\"gimp-image-window-status-"
+"bar\">status bar</link>, at the bottom of the Image window: <placeholder-1/>"
+msgstr ""
+"Информация отображается в <link linkend=\"gimp-image-window-status-bar\">"
+"строке состояния</link>, располагающейся в нижней части окна изображения: "
+"<placeholder-1/>"
+
+#: src/toolbox/measure.xml:84(para)
+msgid ""
+"You can get to the Measure Tool from the image-menu through: <menuchoice><"
+"guimenu>Tools</guimenu><guimenuitem>Measure</guimenuitem></menuchoice>,"
+msgstr ""
+"Вы можете активировать инструмент через меню изображения <menuchoice><guimenu"
+">Инструменты</guimenu><guimenuitem>Измеритель</guimenuitem></menuchoice>,"
+
+#: src/toolbox/measure.xml:93(para)
+msgid ""
+"or by clicking the tool icon: <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-measure-22.png\"/></guiicon> in Toolbox."
+msgstr ""
+"или щелчком по значку инструмента <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-measure-22.png\"/></guiicon> на панели инструментов,"
+
+#: src/toolbox/measure.xml:110(para)
+msgid ""
+"Holding down the <keycap>Shift</keycap> allows to start a new measure from "
+"the pointed point without deleting the previous measure. Angle is measured "
+"from the previous line and not from the default horizontal. The mouse "
+"pointer goes with a <quote>+</quote> sign. So, you can <emphasis>measure any "
+"angle</emphasis> on the image."
+msgstr ""
+"Удерживая нажатой клавишу <keycap>Shift</keycap>, вы можете начать новое "
+"измерение от текущего положения указателя, не удаляя предыдущее измерение. "
+"При этом угол будет измеряться начиная не с обычной горизонтали, а с "
+"предыдущей линии измерителя. Значок указтеля мыши изменится на <quote>+</"
+"quote>. Таким образом вы можете мерять <emphasis>любой угол</emphasis> на "
+"изображении."
+
+#: src/toolbox/measure.xml:123(para)
+msgid ""
+"Holding down the <keycap>Ctrl</keycap> key puts the tool into constrained "
+"straight line mode. The orientation of the line is constrained to the "
+"nearest multiple of 15 degrees."
+msgstr ""
+"Нажатие клавиши <keycap>Ctrl</keycap> позволяет создавать только линии с "
+"ориентацией до ближайших 15°."
+
+#: src/toolbox/measure.xml:128(para)
+msgid ""
+"<keycap>Ctrl</keycap> key pressed and click on an end point creates a "
+"horizontal guide. The mouse pointer goes with the <guiicon><inlinegraphic "
+"fileref=\"images/toolbox/measure-horiz.png\"/></guiicon> icon."
+msgstr ""
+"Нажатие клавиши <keycap>Ctrl</keycap> и щелчок по одной из конечных точек "
+"создает горизонтальную направляющую. Указатель мыши над конечной точкой при "
+"этом будет выглядеть так: <guiicon><inlinegraphic fileref="
+"\"images/toolbox/measure-horiz.png\"/></guiicon>."
+
+#: src/toolbox/measure.xml:139(keycap)
+#: src/toolbox/measure.xml:153(keycap)
+msgid "Alt"
+msgstr "Alt"
+
+#: src/toolbox/measure.xml:141(para)
+msgid ""
+"<keycap>Alt</keycap> key and click on an end point creates a vertical guide. "
+"The mouse pointer goes with the <guiicon><inlinegraphic fileref="
+"\"images/toolbox/measure-vert.png\"/></guiicon> icon."
+msgstr ""
+"Нажатие клавиши <keycap>Alt</keycap> и щелчок по одной из конечных точек "
+"создает вертикальную направляющую. Значок указателя мыши над конечной точкой "
+"при этом будет выглядеть так: <guiicon><inlinegraphic fileref="
+"\"images/toolbox/measure-vert.png\"/></guiicon>."
+
+#: src/toolbox/measure.xml:156(para)
+msgid ""
+"This key combination and click on a measure line allows to move the measure."
+msgstr ""
+"Эта комбинация клавиш включает режим перетаскивания уже нарисованной линии "
+"измерения целиком."
+
+#: src/toolbox/measure.xml:160(para)
+msgid ""
+"<keycombo><keycap>Ctrl</keycap><keycap>Alt</keycap></keycombo> key "
+"combination and click on an end point creates a vertical and a horizontal "
+"guides."
+msgstr ""
+"Нажатие комбинации клавиш <keycombo><keycap>Ctrl</keycap><keycap>"
+"Alt</keycap></keycombo> и щелчок по одной из конечных точек создаст в ней "
+"горизонтальную и вертикальную направляющие."
+
+#: src/toolbox/measure.xml:172(title)
+msgid "<quote>Measure</quote> tool options"
+msgstr "Параметры инструмента <quote>Измеритель</quote>"
+
+#: src/toolbox/measure.xml:182(term)
+msgid "Use Info Window"
+msgstr "Окно информации"
+
+#: src/toolbox/measure.xml:184(para)
+msgid ""
+"This option will display an Info Window dialog that details the measure tool "
+"results. The results are more complete on the status bar."
+msgstr ""
+"Этот параметр покажет окно информации с результатом работы инструмента. "
+"Дополнительная информация находится в строке состояния."
+
+#: src/toolbox/measure.xml:195(title)
+msgid "Measuring surfaces"
+msgstr "Измерение поверхностей"
+
+#: src/toolbox/measure.xml:196(para)
+msgid ""
+"You can't measure surfaces directly, but you can use the <link linkend="
+"\"gimp-histogram-dialog\">Histogram</link> that gives you the number of "
+"pixels in a selection."
+msgstr ""
+"Измерять поверхности напрямую нельзя, но можно использовать <link linkend="
+"\"gimp-histogram-dialog\">Гистограмму</link>, которая сообщает число "
+"пикселов в выделении."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:89(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-icons.png'; "
+"md5=ad68a046d9c629158d710df0f1d2c88e"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-icons.png'; "
+"md5=ad68a046d9c629158d710df0f1d2c88e"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:145(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-tool-options.png'; "
+"md5=2c6e842f37faa01cc578d3da947536e3"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-tool-options.png'; "
+"md5=2c6e842f37faa01cc578d3da947536e3"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:196(None)
+msgid ""
+"@@image: 'images/toolbox/reg-button.png'; "
+"md5=4433bd94e9bed344229ecb383c54c89d"
+msgstr ""
+"@@image: 'images/toolbox/reg-button.png'; "
+"md5=4433bd94e9bed344229ecb383c54c89d"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:218(None)
+msgid ""
+"@@image: 'images/toolbox/resto-button.png'; "
+"md5=85bdc5ad5bb8a48452a31c916cb98d74"
+msgstr ""
+"@@image: 'images/toolbox/resto-button.png'; "
+"md5=85bdc5ad5bb8a48452a31c916cb98d74"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:240(None)
+msgid ""
+"@@image: 'images/toolbox/del-button.png'; "
+"md5=bea903bee781c72d033e8ca8cd0a0908"
+msgstr ""
+"@@image: 'images/toolbox/del-button.png'; "
+"md5=bea903bee781c72d033e8ca8cd0a0908"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/intro.xml:261(None)
+msgid ""
+"@@image: 'images/toolbox/reset-button.png'; "
+"md5=b18d9dff17538b5effdbe13c2148b75c"
+msgstr ""
+"@@image: 'images/toolbox/reset-button.png'; "
+"md5=b18d9dff17538b5effdbe13c2148b75c"
+
+#: src/toolbox/intro.xml:14(title)
+msgid "The Toolbox"
+msgstr "Панель инструментов"
+
+#: src/toolbox/intro.xml:21(title)
+msgid "Introduction"
+msgstr "Введение"
+
+#: src/toolbox/intro.xml:23(para)
+msgid ""
+"<acronym>GIMP</acronym> provides a comprehensive toolbox in order to quickly "
+"perform basic tasks such as making selections or drawing paths. The many "
+"tools contained within <acronym>GIMP</acronym>'s toolbox are discussed in "
+"detail here."
+msgstr ""
+"<acronym>GIMP</acronym> предоставляет большой набор инструментов для "
+"быстрого выполнения таких простых задач как создание выделений или контуров. "
+"Здесь детально описаны инструменты, находящиеся на панели инструментов "
+"программы."
+
+#: src/toolbox/intro.xml:29(para)
+msgid ""
+"(In case you're curious, in <acronym>GIMP</acronym> lingo a \"tool\" is a "
+"way of acting on an image that requires access to its display, either to let "
+"you indicate what you want to do by moving the pointer around inside the "
+"display, or to show you interactively the results of changes that you have "
+"made. But if you want to think of a tool as a saw, and an image as a piece "
+"of wood, it probably won't do you a great deal of harm.)"
+msgstr ""
+"(Если вам интересно, на языке GIMP «инструмент» — способ работы над "
+"изображением, который требует доступ к его видимой части либо для того, "
+"чтобы показать, что вы хотите сделать, перемещая указатель, либо для того, "
+"чтобы показать результаты уже внесенных изменений. Но если вы предпочтете "
+"считать инструмент пилой, а изображение — деревом, особого вреда от этого не "
+"будет.)"
+
+#: src/toolbox/intro.xml:38(para)
+msgid ""
+"See <link linkend=\"gimp-concepts-toolbox\">Main Windows: The Toolbox</link> "
+"for an overview of the toolbox and its components."
+msgstr ""
+"Более подробно панель инструментов и её элементы рассмотрены в главе <link "
+"linkend=\"gimp-concepts-toolbox\">Основные окна: Панель инструментов</link>."
+
+#: src/toolbox/intro.xml:43(para)
+msgid ""
+"<acronym>GIMP</acronym> has a diverse assortment of tools that let you "
+"perform a large variety of tasks. The tools can be thought of as falling "
+"into five categories:"
+msgstr ""
+"У <acronym>GIMP</acronym>а есть широкий набор инструментов, позволяющие "
+"производить самые разные действия. Эти инструменты можно поместить в пять "
+"категорий:"
+
+#: src/toolbox/intro.xml:50(para)
+msgid ""
+"<emphasis>Selection tools</emphasis>, which specify or modify the portion of "
+"the image that will be affected by subsequent actions;"
+msgstr ""
+"<emphasis>Инструменты выделения</emphasis>, которые определяют или изменяют "
+"область в изображении, над которой будут работать другие инструменты;"
+
+#: src/toolbox/intro.xml:56(para)
+msgid ""
+"<emphasis>Paint tools</emphasis>, which alter the colors in some part of the "
+"image;"
+msgstr ""
+"<emphasis>Инструменты рисования</emphasis>, которые меняют цвета в какой-то "
+"отдельной области изображения;"
+
+#: src/toolbox/intro.xml:62(para)
+msgid ""
+"<emphasis>Transform tools</emphasis>, which alter the geometry of the image;"
+msgstr ""
+"<emphasis>Инструменты преобразования</emphasis>, которые изменяют геометрию "
+"изображения;"
+
+#: src/toolbox/intro.xml:68(para)
+msgid ""
+"<emphasis>Color tools</emphasis>, which alter the distribution of colors "
+"across the entire image;"
+msgstr ""
+"<emphasis>Инструменты цвета</emphasis>, которые изменяют распределение "
+"цветов во всём изображении;"
+
+#: src/toolbox/intro.xml:74(para)
+msgid ""
+"<emphasis>Other tools</emphasis>, which don't fall into the other four categories."
+msgstr ""
+"<emphasis>Другие инструменты</emphasis>, которые на попадают ни в одну из "
+"четырёх других категорий."
+
+#: src/toolbox/intro.xml:83(title)
+msgid "Tool Icons"
+msgstr "Значки инструментов"
+
+#: src/toolbox/intro.xml:86(title)
+msgid "The Tool Icons in the Toolbox"
+msgstr "Значки инструментов на панели инструментов"
+
+#: src/toolbox/intro.xml:93(para)
+msgid ""
+"Most tools can be activated by clicking on an icon in the Toolbox. By "
+"default, some tools are accessible only via the menus (namely the Color "
+"tools are accessible only either as <menuchoice><guimenu>Colors</guimenu></"
+"menuchoice> or as <menuchoice><guimenu>Tools</guimenu><guisubmenu>Colors</"
+"guisubmenu></menuchoice>). Every tool, in fact, can be activated from the "
+"<emphasis>Tools</emphasis> menu; also, every tool can be activated from the "
+"keyboard using an accelerator key."
+msgstr ""
+"Большинство инструментов активируется щелчком по соответствующему значку на "
+"панели инструментов. Доступ к некоторым (в частности, инструментам "
+"цветокоррекции, однако, возможен лишь через меню <menuchoice><guimenu>Цвет</"
+"guimenu></menuchoice> или <menuchoice><guimenu>Инструменты</guimenu><"
+"guimenuitem>Цвет</guimenuitem></menuchoice>. Каждый инструмент можно "
+"активировать через меню <menuchoice><guimenu>Инструменты</guimenu></"
+"menuchoice>, а также через клавиатуру при помощи клавиатурной комбинации."
+
+#: src/toolbox/intro.xml:109(para)
+msgid ""
+"In the default setup, created when <acronym>GIMP</acronym> is first "
+"installed, not all tools show icons in the Toolbox: the Color tools are "
+"omitted. You can customize the set of tools that are shown in the Toolbox "
+"using the <link linkend=\"gimp-tools-dialog\">Tools dialog</link>. There are "
+"two reasons you might want to do this: first, if you only rarely use a tool, "
+"it might be easier to find the tools you want if the distracting icon is "
+"removed; second, if you use the Color tools a lot, you might find it "
+"convenient to have icons for them easily available. In any case, regardless "
+"of the Toolbox, you can always access any tool at any time using the "
+"<guimenu>Tools</guimenu> menu from an image menubar."
+msgstr ""
+"При используемых по умолчанию параметрах не у всех инструментов есть значок "
+"на панели инструментов: к примеру, там нет инструментов цветокоррекции. Вы "
+"можете изменить набор показываемых на панели инструментов через диалог <link "
+"linkend=\"gimp-tools-dialog\">Инструменты</link>. Вы можете захотеть сделать "
+"это по двум причинам: во-первых, редко используемые инструменты не будут "
+"отвлекать, и легче будет найти нужный инструмент; во-вторых, если вы часто "
+"используете инструменты цветокоррекции, вам будет удобнее иметь их под "
+"рукой. В любом случае, вне зависимости от панели, вы можете вызвать любой "
+"инструмент через меню окна изображения <guimenu>Инструменты</guimenu>."
+
+#: src/toolbox/intro.xml:121(para)
+msgid ""
+"The shape of the cursor changes when it is inside an image, to one that "
+"indicates which tool is active (if in <guimenu>Preferences</guimenu> you "
+"have set <menuchoice><guimenu>Image Windows</guimenu><guisubmenu>Mouse "
+"Pointers</guisubmenu><guimenuitem>Pointer mode</guimenuitem><guimenuitem>"
+"Tool icon</guimenuitem></menuchoice>)."
+msgstr ""
+"Форма курсора меняется на значок активного инструмента, когда он находится "
+"внутри окна изображения (если в диалоге <guimenu>Параметры</guimenu> на "
+"вкладке <guimenu>Окно изображения</guimenu> включено  <menuchoice><guimenu>"
+"Курсоры мыши</guimenu><guisubmenu>Режим курсора</guisubmenu><guimenuitem>"
+"Значок инструмента</guimenuitem></menuchoice>)."
+
+#: src/toolbox/intro.xml:138(title)
+msgid "Tool Options"
+msgstr "Параметры инструмента"
+
+#: src/toolbox/intro.xml:141(title)
+msgid "Tool Options Dialog"
+msgstr "Диалог параметров инструмента"
+
+#: src/toolbox/intro.xml:149(para)
+msgid ""
+"Tool Options dialog of the Paintbrush tool (with <link linkend=\"gimp-"
+"dockable-dock-bars\">docking bars</link> at its top and bottom)."
+msgstr ""
+"Диалог параметров инструмента для инструмента кисти (с <link linkend=\"gimp-"
+"dockable-dock-bars\">планкой прикрепления</link> вверху и внизу)."
+
+#: src/toolbox/intro.xml:157(para)
+msgid ""
+"If you have things set up like most people do, activating a tool causes its "
+"Tool Options dialog to appear below the Toolbox. If you don't have things "
+"set up this way, you probably should: it is very difficult to use tools "
+"effectively without being able to manipulate their options."
+msgstr ""
+"Если у вас используемое по умолчанию расположение диалогов, при активации "
+"инструмента палитра <quote>Параметры инструмента</quote> появится под "
+"панелью инструментов. Если эта палитра у вас скрыта, стоит вернуть ее на "
+"место: очень трудно эффективно использовать инструменты, не имея возможности "
+"быстро изменить параметры их работы."
+
+#: src/toolbox/intro.xml:164(para)
+msgid ""
+"The Tool Options appear beneath the Toolbox in the default setup. If you "
+"lose it somehow, you can get it back by creating a new Tool Options dialog "
+"using <menuchoice><guimenu>Windows</guimenu><guisubmenu>Dockable Dialogs</"
+"guisubmenu><guimenuitem>Tool Options</guimenuitem></menuchoice> and then "
+"docking it below the Toolbox. See the section on <link linkend=\"gimp-"
+"concepts-docks\">Dialogs and Docking</link> if you need help."
+msgstr ""
+"Параметры инструментов по умолчанию показываются под панелью инструментов. "
+"Если вы каким-то образом потеряете эту панель, ее можно получить обратно через меню <menuchoice><guimenu>Окна</guimenu><guisubmenu>Панели</"
+"guisubmenu><guimenuitem>Параметры инструментов</guimenuitem></menuchoice>, а "
+"затем перенести под панель инструментов. За справкой обратитесь к разделу "
+"<link linkend=\"gimp-concepts-docks\">Диалоги и панели</link>."
+
+#: src/toolbox/intro.xml:178(para)
+msgid ""
+"Each tool has its own specific set of options. The choices you make for them "
+"are kept throughout the session, until you change them. In fact, the tool "
+"options are maintained from session to session. The persistance of tool "
+"options across sessions can sometimes be an annoying nuisance: a tool "
+"behaves very strangely, and you can't figure out why until you remember that "
+"you were using some unusual option the last time you worked with it, two "
+"weeks ago."
+msgstr ""
+"У каждого инструмента свой набор параметров. Ваши выборы сохранены в течение "
+"сессии, пока вы их не измените. В действительности, параметры инструментов "
+"сохраняются от сессии к сессии. Сохраняемость параметров иногда может быть "
+"нежелательна: инструмент ведёт себя ненормально, пока вы не вспомните, что "
+"вы использовали его с необычными параметрами в прошлый раз пару недель назад."
+
+#: src/toolbox/intro.xml:187(para)
+msgid "At the bottom of the Tool Options dialog appear four buttons:"
+msgstr ""
+"Внизу диалога <quote>Параметры инструментов</quote> находятся четыре кнопки:"
+
+#: src/toolbox/intro.xml:200(phrase)
+msgid "Save Options to"
+msgstr "Сохранить параметры в"
+
+#: src/toolbox/intro.xml:203(para)
+msgid ""
+"This button allows you to save the settings for the current tool, so that "
+"you can restore them later. It brings up a small dialog allowing you to give "
+"a name to the array of saved options. When you Restore options, only saved "
+"sets for the active tool are shown, so you need not worry about including "
+"the name of the tool when you assign a name here."
+msgstr ""
+"Эта кнопка позволяет вам сохранить настройки для текущего инструмента, чтобы "
+"потом можно было их востановить. Она показывает на экране маленький диалог, "
+"с помощью которого вы можете дать название набору параметров. Когда вы "
+"востанавливаете настройки, показаны только сохраённые наборы для текущего "
+"инструмента, так что вам здесь не нужно беспокоится об указании имени "
+"инструмента."
+
+#: src/toolbox/intro.xml:222(phrase)
+msgid "Restore Options"
+msgstr "Восстановить параметры"
+
+#: src/toolbox/intro.xml:225(para)
+msgid ""
+"This button allows you to restore a previously saved set of options for the "
+"active tool. If no option-sets have ever been saved for the active tool, the "
+"button will be insensitive. Otherwise, clicking it will bring up a menu "
+"showing the names of all saved option sets: choosing a menu entry will apply "
+"those settings."
+msgstr ""
+"Эта кнопка позволяет востановить сохранённый набор параметров для текущего "
+"инструмента. Если ни один набор не был сохранён до этого, то кнопка будет "
+"нечувствительна к нажатию. Иначе, она покажет меню с именами всех "
+"сохранённых наборов параметров: выбор пункта меню установит те настройки."
+
+#: src/toolbox/intro.xml:244(phrase)
+msgid "Delete Options"
+msgstr "Удалить параметры"
+
+#: src/toolbox/intro.xml:247(para)
+msgid ""
+"This button allows you to delete a previously saved set of options for the "
+"active tool. If no option-sets have ever been saved for the active tool, the "
+"button will be insensitive. Otherwise, clicking it will bring up a menu "
+"showing the names of all saved option sets: choosing a menu entry will "
+"delete those settings."
+msgstr ""
+"Эта кнопка позволяет вам удалить прежде сохранённый набор паратмеров для "
+"текущего инструмента. Если никаких наборов не было сохранено для текущего "
+"инструмента, кнопка будет нечувствительна к нажатию. Иначе, она покажет меню "
+"с именами всех сохранённых наборов параметров: выбор пункта меню удалит те "
+"настройки."
+
+#: src/toolbox/intro.xml:265(phrase)
+msgid "Reset Options"
+msgstr "Сбросить параметры"
+
+#: src/toolbox/intro.xml:268(para)
+msgid ""
+"This button resets the options for the active tool to their default values."
+msgstr "Эта кнопка восстановит значения параметров как они были по умолчанию."
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/gegl-operation.xml:22(None)
+#: src/toolbox/gegl-operation.xml:76(None)
+msgid ""
+"@@image: 'images/toolbox/gegl-operation.png'; "
+"md5=abca3b1ac11524b0cececc0ab9478cdd"
+msgstr ""
+"@@image: 'images/toolbox/gegl-operation.png'; "
+"md5=abca3b1ac11524b0cececc0ab9478cdd"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/gegl-operation.xml:120(None)
+msgid ""
+"@@image: 'images/toolbox/gegl-operation-gaussian-blur.png'; "
+"md5=9de22c171853bc60cd1de067c0c1efc1"
+msgstr ""
+"@@image: 'images/toolbox/gegl-operation-gaussian-blur.png'; "
+"md5=9de22c171853bc60cd1de067c0c1efc1"
+
+#: src/toolbox/gegl-operation.xml:8(title)
+msgid "GEGL Operation"
+msgstr "Операция GEGL"
+
+#: src/toolbox/gegl-operation.xml:12(secondary)
+#: src/toolbox/gegl-operation.xml:15(primary)
+msgid "GEGL operation"
+msgstr "операция GEGL"
+
+#: src/toolbox/gegl-operation.xml:19(title)
+msgid "GEGL Operation tool"
+msgstr "Инструмент Операция GEGL"
+
+#: src/toolbox/gegl-operation.xml:27(para)
+msgid ""
+"<acronym>GEGL</acronym> (<quote>Generic Graphical Library</quote>) is a "
+"graph based image processing library designed to handle various image "
+"processing tasks needed in <acronym>GIMP</acronym>."
+msgstr ""
+"<acronym>GEGL</acronym> (<quote>Generic Graphical Library</quote>) является "
+"библиотекой для работы с изображениями, использующей ациклические графы и "
+"предназначенной для выполнения различных задач, связанных с обработкой "
+"изображений в <acronym>GIMP</acronym>."
+
+#: src/toolbox/gegl-operation.xml:32(para)
+msgid ""
+"The <acronym>GEGL</acronym> Operation tool has been added in <link linkend="
+"\"gimp-introduction-whats-new\"><acronym>GIMP</acronym> 2.6</link> and was "
+"originally meant as an useful experimental tool for <acronym>GIMP</acronym> "
+"developers. The <acronym>GEGL</acronym> Operation tool enables applying "
+"<acronym>GEGL</acronym> operations to the image and gives on-canvas previews "
+"of the results."
+msgstr ""
+"Инструмент Операция <acronym>GEGL</acronym> в экспериментальных целях был "
+"добавлен разработчиками  программы в <link linkend=\"gimp-introduction-"
+"whats-new\"><acronym>GIMP</acronym> 2.6</link>. Этот инструмент позволяет "
+"выполнять различные операции <acronym>GEGL</acronym> и просматривать "
+"результат прямо на холсте."
+
+#: src/toolbox/gegl-operation.xml:41(para)
+msgid ""
+"<acronym>GEGL</acronym> is in a very early phase and still under "
+"construction."
+msgstr "<acronym>GEGL</acronym> находится на начальной стадии развития."
+
+#: src/toolbox/gegl-operation.xml:45(para)
+msgid "The GEGL Operation tool is <emphasis>experimental</emphasis>."
+msgstr ""
+"Инструмент Операция GEGL является <emphasis>экспериментальным</emphasis>."
+
+#: src/toolbox/gegl-operation.xml:52(para)
+msgid ""
+"You can get to this tool only from the image menu: <menuchoice><guimenu>"
+"Tools</guimenu><guimenuitem>GEGL Operation</guimenuitem></menuchoice>."
+msgstr ""
+"Вы можете активировать этот инструмент только через меню изображения "
+"<menuchoice><guimenu>Инструменты</guimenu><guimenuitem>Операция GEGL…</"
+"guimenuitem></menuchoice>,"
+
+#: src/toolbox/gegl-operation.xml:60(para)
+msgid ""
+"In addition to this tool for performing special <acronym>GEGL</acronym> "
+"operations you can configure <acronym>GIMP</acronym> to <link linkend="
+"\"gimp-config-use-gegl\">use GEGL</link> for all color operations."
+msgstr ""
+"Кроме того, вы можете <link linkend=\"gimp-config-use-gegl\">включить</link> "
+"использование <acronym>GEGL</acronym> для инструментов цветокоррекции."
+
+#: src/toolbox/gegl-operation.xml:72(title)
+msgid "GEGL Operation tool options"
+msgstr "Параметры инструмента Операция GEGL"
+
+#: src/toolbox/gegl-operation.xml:79(para)
+msgid "GEGL Operation tool with no operation selected."
+msgstr "Инструмент Операция GEGL без выбранной операции"
+
+#: src/toolbox/gegl-operation.xml:85(term)
+msgid "Operation"
+msgstr "Операция"
+
+#: src/toolbox/gegl-operation.xml:87(para)
+msgid ""
+"Click on this button to select the operation you want to apply to the active "
+"selection or, if there is no selection, to the active layer."
+msgstr ""
+"В раскрывающемся списке вы можете выбрать ту или иную операцию, применяемую "
+"к активному выделению или, при отсутствии выделения, к активному слою."
+
+#: src/toolbox/gegl-operation.xml:92(para)
+msgid ""
+"Some of these operations are very basic operations like <quote>color</quote> "
+"which fills the active selection or layer with the specified color, while "
+"operations like <quote>fractal-explorer</quote> produce fairly complex "
+"patterns &mdash; just like a <link linkend=\"filters-render\">rendering filter"
+"</link>."
+msgstr ""
+"Некоторые из этих операций очень просты. Например, операция <quote>color</"
+"quote> просто заливает активное выделение или слой заданным цветом. В то же "
+"время некоторые операции достаточно сложны. К числу таких относится <quote>"
+"fractal-explorer</quote>, частично повторяющий функциональность фильтра "
+"<link linkend=\"plug-in-fractalexplorer\">Исследователь фракталов</link> и "
+"создающий сложные узоры."
+
+#: src/toolbox/gegl-operation.xml:100(para)
+msgid ""
+"Remember that this is an experimental tool, so some operations may not work "
+"or even crash <acronym>GIMP</acronym>. As a consquence, it doesn't make "
+"sense to describe the operations here as long as the GEGL Operation tool is "
+"experimental"
+msgstr ""
+"Помните, что это экспериментальный инструмент, некоторые операции даже могут "
+"обрушить GIMP. Поэтому описывать доступные операции пока что нет смысла."
+
+#: src/toolbox/gegl-operation.xml:109(term)
+msgid "Operation Settings"
+msgstr "Параметры"
+
+#: src/toolbox/gegl-operation.xml:111(para)
+msgid ""
+"The operation settings depend on the selected <guilabel>Operation</guilabel>:"
+msgstr "Параметры зависят от выбранной <guilabel>Операции</guilabel>:"
+
+#: src/toolbox/gegl-operation.xml:116(title)
+msgid "<quote>Operation Settings</quote> example"
+msgstr "Пример <quote>параметров</quote> операции"
+
+#: src/toolbox/gegl-operation.xml:123(para)
+msgid "GEGL operation <quote>Gaussian Blur</quote> selected."
+msgstr "Выбрана операция GEGL <quote>Гауссово размывание</quote>."
+
+#: src/toolbox/gegl-operation.xml:129(para)
+msgid ""
+"If the options of the selected <acronym>GEGL</acronym> operation are not "
+"self-explanatory (guess what's the purpose of the <quote>color</quote> "
+"operation's <quote>Color</quote> option) you can look for a corresponding "
+"non-<acronym>GEGL</acronym> tool. For example, the <link linkend=\"plug-in-"
+"fractalexplorer\">Fractal Explorer</link> filter may have the same or "
+"similar options as the <quote>fractal-explorer</quote> operation."
+msgstr ""
+"Многие операции <acronym>GEGL</acronym> имеют аналоги в виде фильтра из "
+"типовой поставки <acronym>GIMP</acronym>. Поэтому если параметры некоторых "
+"операций не очевидны, попробуйте найти их аналог в виде фильтра. К примеру, "
+"многие параметры уже упомянутых выше фильтра <link linkend=\"plug-in-"
+"fractalexplorer\">Исследователь фракталов</link> и операции <quote>fractal-"
+"explorer</quote> совпадают."
+
+#: src/toolbox/gegl-operation.xml:138(para)
+msgid ""
+"Or you can make use of the nice realtime preview feature and just experiment "
+"with different settings."
+msgstr ""
+"Вы также можете просто включить предпросмотр прямо нахолсте и "
+"поэкспериментировать."
+
+#: src/toolbox/gegl-operation.xml:145(term)
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+#: src/toolbox/gegl-operation.xml:147(para)
+msgid ""
+"If this options is checked, as it is by default, you will get an on-canvas "
+"preview of the selected operation as soon as the operation in finished. You "
+"will have to press the <guibutton>OK</guibutton> button to actually apply "
+"the operation to the image."
+msgstr ""
+"Если эта функция включена, все вносимые изменения будут отрисовываться прямо "
+"на холсте. Для окончательного их принятия нажмите кнопку <guibutton>OK</"
+"guibutton>, после чего диалог инструмента будет закрыт."
+
+#: src/toolbox/gegl-operation.xml:158(title)
+msgid "The tool buttons"
+msgstr "Кнопки инструмента"
+
+#: src/toolbox/gegl-operation.xml:160(term)
+msgid "Reset"
+msgstr "Сбросить"
+
+#: src/toolbox/gegl-operation.xml:162(para)
+msgid ""
+"Pressing this button resets the operation settings the to their defaults."
+msgstr "По нажатию этой кнопки восстанавливаются исходные значения параметров."
+
+#: src/toolbox/gegl-operation.xml:169(term)
+msgid "Cancel"
+msgstr "Отменить"
+
+#: src/toolbox/gegl-operation.xml:171(para)
+msgid ""
+"Clicking on this button aborts the <acronym>GEGL</acronym> operation tool "
+"and leaves your image untouched. This is equivalent to close the dialog "
+"window using the usual <guibutton>Close</guibutton> button provided by your "
+"window manager."
+msgstr ""
+"По нажатию этой кнопки диалог инструмента Операция GEGL будет закрыт, а "
+"изменения в изображение внесены не будут. Это действие аналогично нажатию "
+"кнопки <guibutton>Закрыть</guibutton> в заголовке диалога."
+
+#: src/toolbox/gegl-operation.xml:181(term)
+msgid "OK"
+msgstr "OK"
+
+#: src/toolbox/gegl-operation.xml:183(para)
+msgid ""
+"You have to press this button to apply the selected operation to the image. "
+"Then the dialog window will be closed."
+msgstr ""
+"При нажатии на эту кнопку выполняется окончательное применение выбранной "
+"операции к изображению и закрытие диалога инструмента."
+
+#: src/toolbox/color-tools.xml:11(title)
+msgid "Color Tools"
+msgstr "Инструменты цветокоррекции"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color-picker.xml:39(None)
+msgid ""
+"@@image: 'images/toolbox/toolbox-eyedropper.png'; "
+"md5=96bd08878bd1a7c3d564bc0620df9daf"
+msgstr ""
+"@@image: 'images/toolbox/toolbox-eyedropper.png'; "
+"md5=96bd08878bd1a7c3d564bc0620df9daf"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color-picker.xml:139(None)
+msgid ""
+"@@image: 'images/toolbox/color-picker-options.png'; "
+"md5=3e6925f8895c972c889b65679f168232"
+msgstr ""
+"@@image: 'images/toolbox/color-picker-options.png'; "
+"md5=3e6925f8895c972c889b65679f168232"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/toolbox/color-picker.xml:229(None)
+msgid ""
+"@@image: 'images/toolbox/color-picker-info.png'; "
+"md5=2b90e2cbaae378e7c88a82642c1d3b9c"
+msgstr ""
+"@@image: 'images/toolbox/color-picker-info.png'; "
+"md5=2b90e2cbaae378e7c88a82642c1d3b9c"
+
+#: src/toolbox/color-picker.xml:17(title)
+#: src/toolbox/color-picker.xml:21(secondary)
+#: src/toolbox/color-picker.xml:24(primary)
+msgid "Color Picker"
+msgstr "Пипетка"
+
+#: src/toolbox/color-picker.xml:27(primary)
+msgid "Eye Dropper"
+msgstr "Пипетка"
+
+#: src/toolbox/color-picker.xml:31(secondary)
+msgid "Grab color"
+msgstr "Взять цвет"
+
+#: src/toolbox/color-picker.xml:35(title)
+msgid "The Color Picker in the toolbox (eye dropper icon)"
+msgstr "Инструмент Пипетка на панели инструментов (пиктограмма пипетки)"
+
+#: src/toolbox/color-picker.xml:43(para)
+msgid ""
+"The Color Picker Tool is used to select a color on any image opened on your "
+"screen. By clicking a point on an image, you can change the active color to "
+"that which is located under the pointer. By default, the tool works on the "
+"active layer, but the <guilabel>Sample Merge</guilabel> option lets you grab "
+"the color as it is in the image, resulting of the combination of all layers. "
+"<emphasis>Only colors in visible layers are used</emphasis>. An <guilabel>"
+"Info window</guilabel> opens when you click on the image."
+msgstr ""
+"Инструмент <quote>Пипетка</quote> используется для выбора цвета из любого "
+"открытого изображения. Нажатием на изображении можно изменить цвет переднего "
+"плана или фона на тот, что под пипеткой. По умолчанию, инструмент работает с "
+"активным слоем, но при выборе параметра <guilabel>Сводить слои</guilabel> "
+"цвет берётся со всего изображения. <emphasis>Используются цвета только "
+"видимых слоёв.</emphasis>. <guilabel>Информационое окно </guilabel> "
+"появляется по щелчку на изображении."
+
+#: src/toolbox/color-picker.xml:56(para)
+msgid "You can get to this tool in several ways :"
+msgstr "Инструмент можно вызвать несколькими способами:"
+
+#: src/toolbox/color-picker.xml:59(para)
+msgid ""
+"In the image menu through <menuchoice><guimenu>Tools</guimenu><guisubmenu>"
+"Color Picker.</guisubmenu></menuchoice>,"
+msgstr ""
+"через меню изображения <menuchoice><guimenu>Инструменты</guimenu><"
+"guisubmenu>Пипетка</guisubmenu></menuchoice>,"
+
+#: src/toolbox/color-picker.xml:68(para)
+msgid ""
+"by clicking the tool icon <guiicon><inlinegraphic fileref=\"images/toolbox/"
+"stock-tool-color-picker-22.png\"/></guiicon> in Toolbox,"
+msgstr ""
+"щелчком по значку инструмента <guiicon><inlinegraphic fileref=\"images/"
+"toolbox/stock-tool-color-picker-22.png\"/></guiicon> на панели инструментов,"
+
+#: src/toolbox/color-picker.xml:77(para)
+msgid "by pressing the <keycap>O</keycap> keyboard shortcut,"
+msgstr "нажатием клавиши быстрого доступа <keycap>O</keycap>,"
+
+#: src/toolbox/color-picker.xml:82(para)
+msgid ""
+"by pressing the <keycap>Ctrl</keycap> key while using a paint tool. The "
+"Color-picker dialog is not opened during this operation and the tool remains "
+"unchanged after releasing the key. Nevertheless, you can get information by "
+"using the <link linkend=\"gimp-pointer-info-dialog\">Pointer window</link>."
+msgstr ""
+"либо нажатием клавиши <keycap>Ctrl</keycap> при использовании инструмента "
+"рисования. В этом случае окно диалога пипетки не появится, и режим пипетки "
+"исчезает после отпускания этой клавиши. Тем не менее, информацию можно "
+"получить из окна курсора."
+
+#: src/toolbox/color-picker.xml:99(para)
+msgid ""
+"If the pick mode is set to <guilabel>Set foreground color</guilabel>, then "
+"pressing the <keycap>Ctrl</keycap> key switches the tool into the "
+"<guilabel>Set background color</guilabel> mode. If the pick mode is set to "
+"<guilabel>Set background color</guilabel> then the key switches the mode to "
+"<guilabel>Set foreground color</guilabel>. When the pick mode is "
+"<guilabel>Pick only</guilabel>, the key doesn't do anything."
+msgstr ""
+"Если режим пипетки — <guilabel>Установить цвет переднего плана</guilabel>, "
+"нажатие клавиши <keycap>Ctrl</keycap> переключает инструмент в режим "
+"<guilabel>Установить цвет фона</guilabel>. Если же режим выбора установлен "
+"на значение <guilabel>Установить цвет фона</guilabel> то она переключает "
+"инструмент в режим <guilabel>Установить цвет переднего плана</guilabel>. В "
+"режиме <guilabel>Только снять</guilabel> клавиша ничего не делает."
+
+#: src/toolbox/color-picker.xml:114(para)
+msgid ""
+"By pressing the <keycap>Shift</keycap> key, the <guilabel>Color Picker "
+"Information window</guilabel> is opened when you click on a pixel."
+msgstr ""
+"При нажатии клавиши <keycap>Shift</keycap> выделяется параметр "
+"<guilabel>Добавить к палитре</guilabel>. Выбранный цвет посылается в "
+"активную палитру. При отпускании клавиши параметр становится невыделенным и "
+"цвет в палитру не посылается."
+
+#: src/toolbox/color-picker.xml:120(para)
+msgid ""
+"The <link linkend=\"gimp-pointer-info-dialog\">Pointer Information</link> "
+"gives you the same information permanently. But be warned, it defaults to "
+"<guilabel>Sample merged</guilabel>."
+msgstr ""
+"<link linkend=\"gimp-pointer-info-dialog\">Окно указателя</link> "
+"предоставляет ту же информацию постоянно. По умолчанию включена функция "
+"<guilabel>Сводить слои</guilabel>."
+
+#: src/toolbox/color-picker.xml:135(title)
+msgid "Color Picker Options"
+msgstr "Параметры инструмента <quote>Пипетка</quote>"
+
+#: src/toolbox/color-picker.xml:148(term)
+msgid "Sample Merged"
+msgstr "Сводить слои"
+
+#: src/toolbox/color-picker.xml:150(para)
+msgid ""
+"The Sample Merged check-box when enabled will take color information as a "
+"composite from all the visible layers. Further information regarding Sample "
+"Merge is available in the glossary entry, <link linkend=\"glossary-"
+"samplemerge\">Sample Merge</link>."
+msgstr ""
+"При выборе параметра <guilabel>Сводить слои</guilabel> цвет выбранной точки "
+"будет смешанным цветом всех видимых слоёв. За дополнительной информацией "
+"обратитесь в глоссарий <link linkend=\"glossary-samplemerge\">Сводить слои</"
+"link>."
+
+#: src/toolbox/color-picker.xml:160(term)
+msgid "Sample Average"
+msgstr "Выборочное среднее"
+
+#: src/toolbox/color-picker.xml:162(para)
+msgid ""
+"The <guilabel>Radius</guilabel> slider adjusts the size of the square area "
+"that is used to determine an average color for the final selection. When you "
+"keep clicking the layer, the mouse pointer shows the size of the square or "
+"radius."
+msgstr ""
+"Параметр <guilabel>Радиус</guilabel> изменяет размер квадрата, используемого "
+"для нахождения среднего цвета выбора. Этот квадрат будет отображен при "
+"щелчке по изображению."
+
+#: src/toolbox/color-picker.xml:171(term)
+msgid "Pick Mode"
+msgstr "Режим пипетки"
+
+#: src/toolbox/color-picker.xml:175(term)
+msgid "Pick Only"
+msgstr "Только снять"
+
+#: src/toolbox/color-picker.xml:177(para)
+msgid ""
+"The color of the selected pixel will be shown in an Information Dialog, but "
+"not otherwise used."
+msgstr ""
+"Выбранный цвет станет отобразится в окне пипетки, но ни каким образом не "
+"будет использован."
+
+#: src/toolbox/color-picker.xml:184(term)
+msgid "Set Foreground Color"
+msgstr "Установить цвет переднего плана"
+
+#: src/toolbox/color-picker.xml:186(para)
+msgid ""
+"The Foreground color, as shown in the Toolbox Color Area, will be set to the "
+"color of the pixel you click on."
+msgstr ""
+"Выбранный цвет станет цветом переднего плана, как показано в области цвета "
+"на панели инструментов."
+
+#: src/toolbox/color-picker.xml:194(term)
+msgid "Set Background Color"
+msgstr "Установить цвет фона"
+
+#: src/toolbox/color-picker.xml:196(para)
+msgid ""
+"The Background color, as shown in the Toolbox Color Area, will be set to the "
+"color of the pixel you click on."
+msgstr ""
+"Выбранный цвет станет цветом фона, как показано в области цвета на панели "
+"инструментов."
+
+#: src/toolbox/color-picker.xml:204(term)
+msgid "Add to Palette"
+msgstr "Добавить в палитру"
+
+#: src/toolbox/color-picker.xml:206(para)
+msgid ""
+"When this option box is checked, the picked color is sent to the active "
+"color palette. See <link linkend=\"gimp-palette-editor-dialog\">Palette "
+"Editor</link>."
+msgstr ""
+"При выборе этого параметра каждый снятый цвет отправляется в активную "
+"палитру цветов. За более подробной информацией обратитесь к справке по <link "
+"linkend=\"gimp-palette-editor-dialog\">редактору палитры</link>."
+
+#: src/toolbox/color-picker.xml:217(term)
+msgid "Use info window"
+msgstr "Информационное окно"
+
+#: src/toolbox/color-picker.xml:219(para)
+msgid ""
+"When this option is checked, the information window is opened automatically. "
+"The <keycap>Shift</keycap> key allows you to toggle this possibility "
+"temporarily."
+msgstr ""
+"При выборе этого параметра, окно информации откроется автоматически. Клавиша "
+"<keycap>Shift</keycap> позволяет временно отключить это поведение."
+
+#: src/toolbox/color-picker.xml:225(title)
+msgid "Color Picker Info Window"
+msgstr "Окно информации о пипетке"
+
+#: src/toolbox/about-common-painting-options.xml:9(para)
+msgid ""
+"See <xref linkend=\"gimp-tools-brush\"/> for a description of tool options "
+"that apply to all brush tools."
+msgstr ""
+"Обратитесь к общей информации по кистевым инструментам <xref linkend=\"gimp-"
+"tool-brush\"/> за описанием клавиш-модификаторов, одинаковых для всех "
+"кистевых инструментов."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/toolbox/about-common-options-display.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Виталий Ломов <lomovv@gmail.com>, 2007, 2008, 2011\n"
+"Александр Прокудин <alexandre.prokoudine@gmail.com>, 2008, 2009, 2010"

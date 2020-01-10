@@ -1,0 +1,424 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2009-12-17 18:10+0900\n"
+"PO-Revision-Date: 2009-12-17 18:13+0900\n"
+"Last-Translator: Jihui Choi <jihui.choi@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/menus/windows.xml:12(title)
+msgid "The <quote>Windows</quote> Menu"
+msgstr "<quote>창</quote> 메뉴"
+
+#: src/menus/windows.xml:15(primary)
+#: src/menus/windows-introduction.xml:13(primary)
+#: src/menus/view.xml:14(secondary)
+#: src/menus/tools.xml:14(primary)
+#: src/menus/select.xml:12(primary)
+#: src/menus/introduction.xml:14(primary)
+#: src/menus/filters.xml:15(primary)
+#: src/menus/file.xml:18(primary)
+#: src/menus/edit.xml:17(primary)
+#: src/menus/colors.xml:21(secondary)
+msgid "Menus"
+msgstr "메뉴"
+
+#: src/menus/windows.xml:16(secondary)
+#: src/menus/windows-introduction.xml:14(secondary)
+msgid "Windows"
+msgstr "창"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/windows-show-docks.xml:21(None)
+msgid "@@image: 'images/menus/windows/dockable-dialogs.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: src/menus/windows-show-docks.xml:9(title)
+msgid "The <quote>Dockable Dialogs</quote> submenu"
+msgstr "<quote>연결가능한 대화 상자</quote>의 하위 메뉴"
+
+#: src/menus/windows-show-docks.xml:12(primary)
+#: src/menus/windows-open-recent-docks.xml:12(primary)
+msgid "Docks"
+msgstr "독(Docks)"
+
+#: src/menus/windows-show-docks.xml:13(secondary)
+msgid "List of dockable dialogs"
+msgstr "연결 가능한 대화 상자 목록"
+
+#: src/menus/windows-show-docks.xml:17(title)
+msgid "The <quote>Dockable Dialogs</quote> list"
+msgstr "<quote>연결 가능한 대화 상자</quote> 목록"
+
+#: src/menus/windows-show-docks.xml:26(para)
+msgid "This command opens the list of the dialog windows you can open and dock. Please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</link>."
+msgstr ""
+
+#: src/menus/windows-show-docks.xml:30(para)
+msgid "All these dialogs are described in <link linkend=\"gimp-dialogs-introduction\">Different dialogs description</link>."
+msgstr ""
+
+#: src/menus/windows-show-docks.xml:37(title)
+#: src/menus/windows-open-recent-docks.xml:23(title)
+msgid "Activating the Command"
+msgstr "명령 활성화시키기"
+
+#: src/menus/windows-show-docks.xml:38(para)
+msgid "You can access this command from the image menubar through <menuchoice><guimenu>Windows</guimenu><guimenuitem>Dockable Dialogs</guimenuitem></menuchoice>"
+msgstr ""
+
+#: src/menus/windows-open-recent-docks.xml:9(title)
+msgid "The <quote>Recently Closed Docks</quote> submenu"
+msgstr ""
+
+#: src/menus/windows-open-recent-docks.xml:13(secondary)
+msgid "Recently closed"
+msgstr "최근 닫음"
+
+#: src/menus/windows-open-recent-docks.xml:16(para)
+msgid "This command opens the list of the docks you have closed recently. You can reopen them by clicking on their name. Please note that isolated windows are not concerned."
+msgstr ""
+
+#: src/menus/windows-open-recent-docks.xml:25(para)
+msgid "You can access this command from the image menubar through <menuchoice><guimenu>Windows</guimenu><guimenuitem>Recently Closed Docks</guimenuitem></menuchoice>"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/windows-introduction.xml:22(None)
+#, fuzzy
+msgid "@@image: 'images/menus/windows.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/menus/file/open-location.png'; md5=THIS FILE DOESN'T EXIST"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/windows-introduction.xml:31(None)
+msgid "@@image: 'images/menus/windows/expanded-menu.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#: src/menus/windows-introduction.xml:10(title)
+msgid "<quote>Windows</quote> Menu Entries"
+msgstr "<quote>창</quote> 메뉴 항목"
+
+#: src/menus/windows-introduction.xml:15(tertiary)
+#: src/menus/introduction.xml:15(secondary)
+msgid "Introduction"
+msgstr "소개"
+
+#: src/menus/windows-introduction.xml:19(title)
+msgid "Contents of the <quote>Windows</quote> Menu"
+msgstr "<quote>창</quote> 메뉴의 내용"
+
+#: src/menus/windows-introduction.xml:25(para)
+msgid "Without open images"
+msgstr "열린 이미지 없음"
+
+#: src/menus/windows-introduction.xml:34(para)
+msgid "With open images"
+msgstr "열린 이미지 있음"
+
+#: src/menus/windows-introduction.xml:39(para)
+msgid "This menu allows you to manage <acronym>GIMP</acronym> windows dialogs. With an open image, it is made up of three parts:"
+msgstr ""
+
+#: src/menus/windows-introduction.xml:46(para)
+msgid "The list of Recently Closed Docks:"
+msgstr "최근 닫은 독(dock) 목록"
+
+#: src/menus/windows-introduction.xml:47(para)
+msgid "For more information about docks, please see <link linkend=\"gimp-concepts-docks\">Dialogs and Docking</link>, and <link linkend=\"gimp-dialogs-introduction\">Different dialogs description</link>."
+msgstr ""
+
+#: src/menus/windows-introduction.xml:56(para)
+msgid "The list of open image windows."
+msgstr "열린 이미지 창 목록"
+
+#: src/menus/windows-introduction.xml:60(para)
+msgid "The list of open dockable dialogs."
+msgstr "열린 연결 가능한 대화 상자 목록"
+
+#: src/menus/view.xml:10(title)
+msgid "The <quote>View</quote> Menu"
+msgstr "<quote>보기</quote> 메뉴"
+
+#: src/menus/view.xml:13(primary)
+#: src/menus/colors.xml:20(primary)
+msgid "Image window"
+msgstr "이미지 창"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/tools.xml:24(None)
+#: src/menus/tools-introduction.xml:20(None)
+#, fuzzy
+msgid "@@image: 'images/menus/tools.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/menus/file/open-location.png'; md5=THIS FILE DOESN'T EXIST"
+
+#: src/menus/tools.xml:11(title)
+msgid "The <quote>Tools</quote> Menu"
+msgstr "<quote>도구</quote> 메뉴"
+
+#: src/menus/tools.xml:15(secondary)
+#: src/menus/tools-introduction.xml:13(primary)
+msgid "Tools"
+msgstr "도구"
+
+#: src/menus/tools.xml:19(title)
+#: src/menus/tools-introduction.xml:10(title)
+msgid "Introduction to the <quote>Tools</quote> Menu"
+msgstr ""
+
+#: src/menus/tools.xml:21(title)
+#: src/menus/tools-introduction.xml:17(title)
+msgid "Contents of the <quote>Tools</quote> menu"
+msgstr "<quote>도구</quote> 메뉴의 내용"
+
+#: src/menus/tools.xml:28(para)
+#: src/menus/tools-introduction.xml:24(para)
+msgid "The menu entries on the <guimenu>Tools</guimenu> menu access the <acronym>GIMP</acronym> tools. All of the tools available in <acronym>GIMP</acronym> are extensively described in the <link linkend=\"gimp-toolbox\">Toolbox</link> section."
+msgstr ""
+
+#: src/menus/tools-introduction.xml:14(secondary)
+#: src/menus/help.xml:16(primary)
+#: src/menus/help.xml:21(secondary)
+#: src/menus/file.xml:25(primary)
+msgid "Menu"
+msgstr "메뉴"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/select.xml:22(None)
+#, fuzzy
+msgid "@@image: 'images/menus/select.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/using/select-outline.png'; md5=THIS FILE DOESN'T EXIST"
+
+#: src/menus/select.xml:9(title)
+msgid "The <quote>Select</quote> Menu"
+msgstr "<quote>선택</quote> 메뉴"
+
+#: src/menus/select.xml:13(secondary)
+msgid "Selection"
+msgstr "선택"
+
+#: src/menus/select.xml:17(title)
+msgid "Introduction to the <quote>Select</quote> Menu"
+msgstr ""
+
+#: src/menus/select.xml:19(title)
+msgid "The Contents of the <quote>Select</quote> menu"
+msgstr "<quote>선택</quote> 메뉴의 내용"
+
+#: src/menus/select.xml:26(para)
+msgid "This section explains the commands on the <guimenu>Select</guimenu> menu of the image menubar."
+msgstr ""
+
+#: src/menus/layer.xml:12(title)
+msgid "The <quote>Layer</quote> Menu"
+msgstr "<quote>레이어</quote> 메뉴"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/introduction.xml:104(None)
+msgid "@@image: 'images/menus/local-windows-submenu.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/introduction.xml:109(None)
+#, fuzzy
+msgid "@@image: 'images/menus/detached-submenu.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/filters/preview-submenu.png'; md5=THIS FILE DOESN'T EXIST"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/introduction.xml:145(None)
+#, fuzzy
+msgid "@@image: 'images/menus/tab-menu-button.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/using/tab-menu-add-tab.png'; md5=THIS FILE DOESN'T EXIST"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/introduction.xml:153(None)
+#, fuzzy
+msgid "@@image: 'images/menus/tab-menu.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/using/tab-menu.png'; md5=THIS FILE DOESN'T EXIST"
+
+#: src/menus/introduction.xml:12(title)
+msgid "Introduction to Menus"
+msgstr "메뉴 소개"
+
+#. TODO: add image menubar screenshot(?)
+#: src/menus/introduction.xml:20(para)
+msgid "There are many places in <acronym>GIMP</acronym> where you can find menus. The aim of this chapter is to explain all the commands that are accessible from the image menu bar and the image menu you can get by right clicking in the canvas. All the context menus and the menu entries for the other dialogs are described elsewhere in the chapters that describe the dialogs themselves."
+msgstr ""
+
+#: src/menus/introduction.xml:30(title)
+msgid "Context Menus"
+msgstr "연관 메뉴"
+
+#: src/menus/introduction.xml:33(primary)
+msgid "Context menus"
+msgstr "연관 메뉴"
+
+#: src/menus/introduction.xml:36(para)
+msgid "If you right-click on certain parts of the <acronym>GIMP</acronym> interface, a <quote>context menu</quote> opens, which leads to a variety of functions. Some places where you can access context menus are:"
+msgstr ""
+
+#: src/menus/introduction.xml:44(para)
+msgid "Clicking on an image window displays the Image menu. This is useful when you are working in full-screen mode, without a menubar."
+msgstr ""
+
+#: src/menus/introduction.xml:50(para)
+msgid "Clicking on a layer in the Layers Dialog or on a channel in the Channels Dialog displays functions for the selected layer or channel."
+msgstr ""
+
+#: src/menus/introduction.xml:57(para)
+msgid "Right-clicking on the image menubar has the same effect as left-clicking."
+msgstr ""
+
+#: src/menus/introduction.xml:63(para)
+msgid "Right-clicking on the title bar displays functions which do not belong to <acronym>GIMP</acronym>, but to the window manager program on your computer."
+msgstr ""
+
+#: src/menus/introduction.xml:73(title)
+#: src/menus/introduction.xml:76(primary)
+msgid "Tear-off menus"
+msgstr "떼어내기 메뉴"
+
+#: src/menus/introduction.xml:79(primary)
+msgid "Tear-off line"
+msgstr "떼어내기 선"
+
+#: src/menus/introduction.xml:82(para)
+msgid "There is an interesting property associated with some of the menus in <acronym>GIMP</acronym>. These are any of the menus from the Image context menu you get by right-clicking on the canvas and any of its submenus. (You can tell that a menu item leads to a submenu because there is an <guiicon><inlinegraphic fileref=\"images/menus/icon-submenu.png\" format=\"PNG\"/></guiicon> icon next to it.) When you bring up any of these menus, there is a dotted line at the top of it (tear-off line). By clicking on this dotted line, you detach the menu under it and it becomes a separate window."
+msgstr ""
+
+#: src/menus/introduction.xml:98(title)
+msgid "The <quote>windows</quote> submenu and its tear-off submenu"
+msgstr ""
+
+#: src/menus/introduction.xml:114(para)
+msgid "Tear-off menus are actually independent. They are always visible, their functions always apply to the current image, and they persist when all of the images are closed. You can close a tear-off submenu by clicking on the dotted line again or closing the window from the window manager on your computer (often by clicking on an X icon in the upper right corner of the window)."
+msgstr ""
+
+#: src/menus/introduction.xml:125(title)
+#: src/menus/introduction.xml:128(primary)
+msgid "Tab menus"
+msgstr "탭 메뉴"
+
+#: src/menus/introduction.xml:131(para)
+msgid "The following type of menus is not related to the image menu bar, but for the sake of completeness:"
+msgstr ""
+
+#: src/menus/introduction.xml:135(para)
+msgid "Every <link linkend=\"gimp-concepts-docks\">dockable</link> dialog contains a Tab Menu button, as highlighted below. Pressing this Tab Menu button opens a special menu of tab-related operations, with an entry at the top that opens into the dialog's context menu."
+msgstr ""
+
+#: src/menus/introduction.xml:142(title)
+msgid "A dockable dialog."
+msgstr "연결 가능한 대화 상자"
+
+#: src/menus/introduction.xml:148(para)
+msgid "A dialog window with the Tab menu button highlighted."
+msgstr "탭 메뉴 버튼이 밝게 표시된 대화 상자"
+
+#: src/menus/introduction.xml:156(para)
+msgid "The Tab menu."
+msgstr "탭 메뉴"
+
+#: src/menus/introduction.xml:160(para)
+msgid "See <xref linkend=\"gimp-dockable-menu\"/> to learn more about Tab menus."
+msgstr ""
+
+#: src/menus/image.xml:11(title)
+msgid "The <quote>Image</quote> Menu"
+msgstr "<quote>이미지</quote> 메뉴"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/help.xml:28(None)
+#, fuzzy
+msgid "@@image: 'images/menus/help.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/menus/file/open-location.png'; md5=THIS FILE DOESN'T EXIST"
+
+#: src/menus/help.xml:10(title)
+msgid "The <quote>Help</quote> Menu"
+msgstr "<quote>도움말</quote> 메뉴"
+
+#: src/menus/help.xml:13(title)
+msgid "Introduction to the <quote>Help</quote> Menu"
+msgstr ""
+
+#: src/menus/help.xml:17(secondary)
+#: src/menus/help.xml:20(primary)
+msgid "Help"
+msgstr "도움말"
+
+#: src/menus/help.xml:25(title)
+msgid "Contents of the <quote>Help</quote> menu"
+msgstr "<quote>도움말</quote> 메뉴의 내용"
+
+#: src/menus/help.xml:33(para)
+msgid "The <guimenu>Help</guimenu> menu contains commands that assist you while you are working with <application>GIMP</application>."
+msgstr ""
+
+#: src/menus/filters.xml:12(title)
+msgid "The <quote>Filters</quote> Menu"
+msgstr "<quote>필터</quote> 메뉴"
+
+#: src/menus/filters.xml:16(secondary)
+msgid "Filters"
+msgstr "필터"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/menus/file.xml:32(None)
+#, fuzzy
+msgid "@@image: 'images/menus/file.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr "@@image: 'images/menus/file/open-location.png'; md5=THIS FILE DOESN'T EXIST"
+
+#: src/menus/file.xml:15(title)
+msgid "The <quote>File</quote> Menu"
+msgstr "<quote>파일</quote> 메뉴"
+
+#: src/menus/file.xml:19(secondary)
+msgid "File menu"
+msgstr "파일 메뉴"
+
+#: src/menus/file.xml:23(title)
+msgid "Overview"
+msgstr "개요"
+
+#: src/menus/file.xml:26(secondary)
+msgid "File"
+msgstr "파일"
+
+#: src/menus/file.xml:29(title)
+msgid "The File menu"
+msgstr "파일 메뉴"
+
+#: src/menus/edit.xml:14(title)
+msgid "The <quote>Edit</quote> Menu"
+msgstr "<quote>편집</quote> 메뉴"
+
+#: src/menus/edit.xml:18(secondary)
+msgid "Edit"
+msgstr "편집"
+
+#: src/menus/colors.xml:17(title)
+msgid "The <quote>Colors</quote> Menu"
+msgstr "<quote>색상</quote> 메뉴"
+
+#: src/menus/about-plugin-menuitems.xml:5(para)
+msgid "Besides the commands described here, you may also find other entries in the menu. They are not part of <acronym>GIMP</acronym> itself, but have been added by extensions (plug-ins). You can find information about the functionality of a Plugin by referring to its documentation."
+msgstr ""
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/menus/about-plugin-menuitems.xml:0(None)
+msgid "translator-credits"
+msgstr "Jihui Choi<jihui.choi@gmail.com>, 2008, 2009"
+

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  section history:
+  2008-04-14 Mr.Dust : added 'ko'
+  2007-03-23 KoSt: added 'no'
+  2006-11-01 lexa: made the file docbook compliant
+  2008-01-28 jpl: update text & images
+-->
+<sect2 id="gimp-prefs-tool-options">
+  <title>Tool Options</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Tool Options</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Preferences</secondary>
+  </indexterm>
+
+  <figure>
+    <title>Tool Options Preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/preferences/prefs-tool-options.png"/>
+      </imageobject>
+      <caption>
+        <para>
+          This page lets you customize several aspects of the behavior of
+          tools.
+        </para>
+      </caption>
+    </mediaobject>
+  </figure>
+
+  <sect3>
+    <title>Options</title>
+    <variablelist>
+      <title>General</title>
+      <varlistentry>
+        <term>Save Tool Options On Exit</term>
+        <listitem>
+          <para>Self explanatory</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Save Tool Options Now</term>
+        <listitem>
+          <para>Self explanatory</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Reset Saved Tool Options To Default Values</term>
+        <listitem>
+          <para>Self explanatory</para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <variablelist>
+      <title>Guide and Grid Snapping</title>
+      <varlistentry>
+        <term>Snap distance</term>
+        <listitem>
+          <para><quote>Snapping</quote> to guides, or to an image grid, means
+            that when a tool is applied by clicking somewhere on the image
+            display, if the clicked point is near enough to a guide or grid,
+            it is shifted exactly onto the guide or grid.  Snapping to
+            guides can be toggled using
+            <menuchoice>
+              <guimenu>View</guimenu>
+              <guimenuitem>Snap to Guides</guimenuitem>
+            </menuchoice>
+            in the image menu; and if the grid is switched on, snapping
+            to it can be toggled using
+            <menuchoice>
+              <guimenu>View</guimenu>
+              <guimenuitem>Snap to Grid</guimenuitem>
+            </menuchoice>.
+            This preference option determines how close a
+            clicked point must be to a guide or grid in order to be
+            snapped onto it, in pixels.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <variablelist>
+      <title>Scaling</title>
+      <varlistentry>
+        <term>Default interpolation</term>
+        <listitem>
+          <para>
+            When you scale something, each pixel in the result is calculated
+            by <link linkend="glossary-interpolation">interpolating</link>
+            several pixels in the source. This option determines the default
+            interpolation method: it can always be changed, though, in the
+            Tool Options dialog.
+          </para>
+          <variablelist>
+            <para>There are four choices:</para>
+            <varlistentry>
+              <term>None</term>
+              <listitem>
+                <para>
+                  This is the fastest method, but it's quite crude: you should
+                  only consider using it if your machine is very seriously
+                  speed-impaired.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>Linear</term>
+              <listitem>
+                <para>
+                  This used to be the default, and is good enough for most
+                  purposes.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>Cubic</term>
+              <listitem>
+                <para>
+                  This is the best choice (although it can actually look worse
+                  than Linear for some types of images), but also the slowest.
+                  Since <acronym>GIMP</acronym> 2.6, this method is the
+                  default.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term>Sinc (Lanczos3)</term>
+              <listitem>
+                <para>
+                  This method performs a high quality interpolation.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <variablelist>
+      <title>Paint Options Shared Between Tools</title>
+      <varlistentry>
+        <term>Brush, Pattern, Gradient</term>
+        <listitem>
+          <para>
+            You can decide here whether changing the brush etc for one tool
+            should cause the new item to be used for all tools, or whether
+            each individual tool (pencil, paintbrush, airbrush, etc) should
+            remember the item that was last used for it specifically.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <variablelist>
+      <title>Move tool</title>
+      <varlistentry>
+        <term>Set layer or path as active</term>
+        <listitem>
+          <para>
+            You can decide here whether changing the current layer or path
+            when using the move tool and without pressing any key.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

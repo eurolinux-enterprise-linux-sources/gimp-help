@@ -1,0 +1,535 @@
+# Julien Hardelin, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP 2.6\n"
+"POT-Creation-Date: 2010-12-24 07:08+0100\n"
+"PO-Revision-Date: 2011-01-13 14:52+0100\n"
+"Last-Translator: Julien Hardelin\n"
+"Language-Team: French <none>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:45(None)
+msgid ""
+"@@image: 'images/using/empty-image-window.png'; "
+"md5=8632e6215bde6e766574716d9073b371"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:81(None)
+msgid ""
+"@@image: 'images/using/scroll-beyond-border.png'; "
+"md5=1d4f34905e4be8d93bc5da0a64ce2db1"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:149(None)
+msgid ""
+"@@image: 'images/using/new-free-select-tool.png'; "
+"md5=aa8198be85c517579c54c33bb268a16f"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:172(None)
+msgid ""
+"@@image: 'images/using/brush-dynamics.jpg'; "
+"md5=778d34741199891877cde0c13d3f5859"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:204(None)
+msgid ""
+"@@image: 'images/using/text-tool.png'; md5=5fa61661087477d18a368defb302a19f"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:220(None)
+msgid ""
+"@@image: 'images/using/rectangle-handles.png'; "
+"md5=fbab94363b8c6bca219fbdd9ee0392af"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:306(None)
+msgid ""
+"@@image: 'images/using/gimp-curves-tool-2-4-vs-2-6.png'; "
+"md5=f1851e8eb1214e4c5be9fdd03b4a194e"
+msgstr " "
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/introduction/whats-new.xml:344(None)
+msgid ""
+"@@image: 'images/using/experimental-gegl-tool.png'; "
+"md5=32d24252343fa19d00cbf9cd2304c238"
+msgstr " "
+
+#: src/introduction/whats-new.xml:14(title)
+msgid "What's New in GIMP 2.6?"
+msgstr "Quoi de neuf dans GIMP 2.6 ?"
+
+#: src/introduction/whats-new.xml:16(para)
+msgid ""
+"GIMP 2.6 is an important release from a development point of view. It "
+"features changes to the user interface addressing some often received "
+"complaints, and a tentative integration of GEGL, the graph based image "
+"processing library that will eventually bring high bit-depth and non-"
+"destructive editing to GIMP."
+msgstr ""
+"Du point de vue du développement, GIMP 2.6 est une version de poids. Des "
+"changements répondant à certaines plaintes récurrentes ont été apportés à "
+"l'interface utilisateur, et la bibliothèque graphique GEGL y a été intégrée "
+"de manière expérimentale. Celle-ci rendra possible l'édition non-destructive "
+"et le traitement d'images haute résolution dans GIMP."
+
+#: src/introduction/whats-new.xml:25(title)
+msgid "User Interface"
+msgstr "Interface Utilisateur"
+
+#: src/introduction/whats-new.xml:28(term)
+msgid "Toolbox Menubar removed"
+msgstr "Barre d'outils retirée"
+
+#: src/introduction/whats-new.xml:30(para)
+msgid ""
+"The toolbox menubar has been removed and merged with the image window "
+"menubar. To be able to do this a window called the empty image window has "
+"been introduced. It hosts the menubar and keeps the application instance "
+"alive when no images are opened. It also acts as a drag and drop target. "
+"When opening the first image the empty image window is transformed into a "
+"normal image window, and when closing the last image, that window becomes "
+"the empty image window."
+msgstr ""
+"La barre d'outils a été retirée et fusionnée avec la barre de menu de la "
+"fenêtre d'image. On a introduit, pour ce faire, une fenêtre appelée Fenêtre "
+"d'Image vide. Celle-ci contient la barre de menu et sert de fenêtre par "
+"défaut lorsqu'aucun fichier image n'est ouvert. Elle autorise le glisser-"
+"déplacer, et à l'ouverture de la première image, elle est transformée en "
+"fenêtre d'image normale. A la fermeture de la dernière image, elle redevient "
+"la fenêtre d'image vide."
+
+#: src/introduction/whats-new.xml:41(title)
+msgid "New Look of the image window in GIMP 2.6"
+msgstr "Nouvelle apparence de la fenêtre d'image dans GIMP 2.6 "
+
+#: src/introduction/whats-new.xml:53(term)
+msgid "Toolbox and docks are utility windows"
+msgstr ""
+"Boîte à outils et fenêtres ancrables deviennent des fenêtres utilitaires"
+
+#: src/introduction/whats-new.xml:55(para)
+msgid ""
+"With the empty image window acting as a natural main window, the Toolbox and "
+"Docks windows are now utility windows rather than main windows. This enables "
+"window managers to do a much better job of managing the GIMP windows, "
+"including omitting the Toolbox and Docks from the taskbar and ensuring that "
+"the Toolbox and Docks always are above image windows."
+msgstr ""
+"La fenêtre d'image vide agissant comme fenêtre principale, la boîte à outils "
+"et les groupes de fenêtres ont été transformés en fenêtres utilitaires. Ceci "
+"facilite grandement la gestion des fenêtres GIMP, notamment en supprimant la "
+"boîte à outils et les groupes de fenêtres de la barre des tâches et en les "
+"plaçant en permanence au-dessus de la fenêtre principale."
+
+#: src/introduction/whats-new.xml:67(term)
+msgid "Ability to scroll beyond image border"
+msgstr ""
+"Possibilité de se déplacer dans toute la fenêtre d'image, au-delà du canevas"
+
+#: src/introduction/whats-new.xml:69(para)
+msgid ""
+"The Navigation dialog now allows panning beyond the image border; so it is "
+"no longer a problem to use a brush on the edge of an image that fills the "
+"entire display window. Also, if a utility window covers the image, you can "
+"pan the image to view or edit the portion covered by the utility window."
+msgstr ""
+"Il est maintenant possible de se déplacer au-delà des bords de l'image, ce "
+"qui rend la navigation à l'intérieur de la fenêtre d'image moins "
+"contraignante. Utiliser le bout d'une brosse sur un bord d'image grossie "
+"(zoom) ne pose plus de problème, et le canevas peut être ajusté à n'importe "
+"quelle fenêtre utilitaire qui recouvrirait en partie la fenêtre d'image."
+
+#: src/introduction/whats-new.xml:77(title)
+msgid "Scrolling beyond border"
+msgstr "Déplacement au-delà du canevas"
+
+#: src/introduction/whats-new.xml:89(term)
+#: src/introduction/whats-new.xml:191(term)
+#: src/introduction/whats-new.xml:352(term)
+msgid "Minor changes"
+msgstr "Modifications mineures"
+
+#: src/introduction/whats-new.xml:93(para)
+msgid "Renamed Dialogs menu to Windows."
+msgstr "Menu Dialogues renommé en Fenêtres."
+
+#: src/introduction/whats-new.xml:98(para)
+msgid "Keep a list of recently closed Docks and allow reopening them."
+msgstr ""
+"Conservation d'une liste des groupes de fenêtres récemment fermés avec "
+"possibilité de les rouvrir."
+
+#: src/introduction/whats-new.xml:103(para)
+msgid ""
+"Make opening images in already running GIMP instances work better on Windows."
+msgstr ""
+"Sous Windows, l'ouverture d'images dans GIMP se fait plus efficacement."
+
+#: src/introduction/whats-new.xml:109(para)
+msgid "You can now enter the image zoom ratio directly in the status bar."
+msgstr ""
+"Il est maintenant possible d'entrer le pourcentage de grossissement d'une "
+"image directement dans la barre d'état."
+
+#: src/introduction/whats-new.xml:114(para)
+msgid ""
+"Added support for using online help instead of a locally installed GIMP Help "
+"package."
+msgstr ""
+"Support pour l'accès à l'aide en ligne au lieu du paquetage d'aide GIMP "
+"installé localement."
+
+#: src/introduction/whats-new.xml:120(para)
+msgid "Make it possible to lock tabs in docks to prevent accidental moving."
+msgstr ""
+"Possibilité de verrouiller les onglets des groupes de fenêtres afin d'éviter "
+"des déplacements involontaires."
+
+#: src/introduction/whats-new.xml:131(title)
+msgid "Tools, Filters and Plug-ins"
+msgstr "Outils, filtres et greffons"
+
+#: src/introduction/whats-new.xml:133(term)
+msgid "Improved Free Select Tool"
+msgstr "Outil de Sélection à main levée amélioré"
+
+#: src/introduction/whats-new.xml:135(para)
+msgid ""
+"The freehand select tool has been enhanced to support polygonal selections. "
+"It also allows mixing free hand segments with polygonal segments, editing of "
+"existing segments, applying angle-constraints to segments, and of course the "
+"normal selection tool operations like add and subtract. Altogether this ends "
+"up making the Free Select Tool a very versatile, powerful and easy-to-use "
+"selection tool."
+msgstr ""
+"L'outil Sélection à main levée a été amélioré et autorise maintenant la "
+"sélection polygonale. Il permet aussi d'alterner entre des segments à main "
+"levée et des segments polygonaux, de modifier des segments existants, "
+"d'appliquer des contraintes d'angles sur les segments ainsi que d'effectuer "
+"les opérations basiques d'ajout et de soustraction. L'outil Sélection à main "
+"levée s'avère ainsi être un outil polyvalent, puissant et facile "
+"d'utilisation."
+
+#: src/introduction/whats-new.xml:145(title)
+msgid "Polygonal Selection"
+msgstr "Sélection polygonale"
+
+#: src/introduction/whats-new.xml:157(term)
+#: src/introduction/whats-new.xml:168(title)
+msgid "Brush Dynamics"
+msgstr "Brosses dynamiques"
+
+#: src/introduction/whats-new.xml:159(para)
+msgid ""
+"Brush dynamics uses an input dynamic such as pressure, velocity, or random, "
+"to modify brush parameters such as opacity, hardness, size, or color; every "
+"brush supports size and opacity, most support more. Velocity and random are "
+"usable with a mouse. The Ink tool, that supported velocity, has been "
+"overhauled to better handle velocity-dependent painting."
+msgstr ""
+"Les brosses dynamiques permettent d'appliquer les paramètres tels que la "
+"taille et l'opacité du trait pendant le tracé en fonction d'une ou de "
+"plusieurs données dynamiques : la pression, la vitesse, ainsi que de manière "
+"aléatoire. Les options Vitesse et Aléatoire sont compatibles avec la souris. "
+"Quant à l'outil Calligraphie, il a été remanié de façon à mieux gérer la "
+"vitesse dans ses tracés."
+
+#: src/introduction/whats-new.xml:176(para)
+msgid ""
+"Brush dynamics have enabled a new feature in stroking paths. There is now a "
+"check box under the <quote>paint tool</quote> option, for emulating brush "
+"dynamics if you stroke using a paint tool. What this means is that when your "
+"stroke is painted, GIMP tells the brush that the pressure and velocity are "
+"varying along the length of the stroke. Pressure starts with no pressure, "
+"ramps up to full pressure, and then ramps down again to no pressure. "
+"Velocity starts from zero and ramps up to full speed by the end of the "
+"stroke."
+msgstr ""
+"Les brosses dynamiques ont permis la mise en place d'une nouvelle option "
+"pour le tracé de chemins. Sous l'option <quote>Dynamique de la brosse</"
+"quote> des outils de peinture, on retrouve une sélection de paramètres "
+"permettant d'émuler les brosses dynamiques. Ceci signifie qu'au cours de "
+"votre tracé, la brosse tient compte des variations de la vitesse et de la "
+"pression appliquée. La pression, nulle au départ, grimpe en flèche jusqu'à "
+"atteindre sa valeur maximale et puis redescend à 0. La vitesse, nulle au "
+"départ, augmente progressivement et atteint son pic en fin de tracé."
+
+#: src/introduction/whats-new.xml:195(para)
+msgid ""
+"Added a bounding box for the Text Tool that supports automatic wrapping of "
+"text within that bounding box."
+msgstr ""
+"Ajout d'un cadre redimensionnable pour l'outil Texte avec renvoi à laligne "
+"automatique."
+
+#: src/introduction/whats-new.xml:200(title)
+msgid "Text tool bounding box"
+msgstr "Cadre redimensionnable de l'outil Texte"
+
+#: src/introduction/whats-new.xml:210(para)
+msgid ""
+"Move handles for rectangle based tools like Crop and Rectangle Select to the "
+"outside of the rectangle when the rectangle is narrow."
+msgstr ""
+"Poignées de déplacement externes pour les outils de forme rectangulaire, "
+"tels que l'outil Découpage et la Sélection rectangulaire, lorsque le "
+"rectangle est étroit."
+
+#: src/introduction/whats-new.xml:216(title)
+msgid "Rectangle handles"
+msgstr "Poignées de déplacement"
+
+#: src/introduction/whats-new.xml:226(para)
+msgid "Added motion constraints to the Move Tool."
+msgstr "Ajout de contraintes de mouvement à l'outil de Déplacement."
+
+#: src/introduction/whats-new.xml:231(para)
+msgid "Improved event smoothing for paint tools."
+msgstr "Lissage amélioré pour les outils de peinture. "
+
+#: src/introduction/whats-new.xml:236(para)
+msgid ""
+"Mark the center of rectangles while they are moved, and snap the center to "
+"grid and rulers."
+msgstr ""
+"Le centre des rectangles est marqué lors de leur déplacement, et il "
+"s'accroche à la grille et aux guides."
+
+#: src/introduction/whats-new.xml:242(para)
+msgid "Enable brush scaling for the Smudge tool."
+msgstr ""
+"Plusieurs tailles de brosses sont disponibles pour l'outil Barbouiller."
+
+#: src/introduction/whats-new.xml:247(para)
+msgid ""
+"Added ability to save presets in all color tools for color adjustments you "
+"use frequently."
+msgstr ""
+"Possibilité de sauvegarder des réglages couleur personnalisés pour les "
+"outils de couleurs."
+
+#: src/introduction/whats-new.xml:253(para)
+msgid ""
+"Allow to transfer settings from <emphasis>Brightness-Contrast </emphasis> to "
+"<emphasis>Levels</emphasis>, and from <emphasis>Levels</emphasis> to "
+"<emphasis>Curves</emphasis>."
+msgstr ""
+"Possibilité de transférer les paramètres de <emphasis>Luminosité-Contraste</"
+"emphasis> vers <emphasis>Niveaux</emphasis>, et ceux de <emphasis>Niveaux</"
+"emphasis> vers <emphasis>Courbes</emphasis>."
+
+#: src/introduction/whats-new.xml:260(para)
+msgid "Allow changing opacity on transform tool previews."
+msgstr ""
+"Autorise les variations d'opacité sur les aperçus des outils de "
+"transformation."
+
+#: src/introduction/whats-new.xml:265(para)
+msgid ""
+"The Screenshot plug-in has been given the ability to capture the mouse "
+"cursor (using Xfixes)."
+msgstr ""
+"Le greffon Impression d'écran est capable de capturer le curseur (en "
+"utilisant Xfixes)."
+
+#: src/introduction/whats-new.xml:271(para)
+msgid ""
+"Display aspect ratio of the Crop and Rectangle Select Tool rectangles in the "
+"status bar."
+msgstr ""
+"Les proportions des outils Découpage et Sélection rectangulaire apparaissent "
+"dans la barre d'état."
+
+#: src/introduction/whats-new.xml:277(para)
+msgid "Desaturate has been given an on-canvas preview."
+msgstr "L'outil Désaturer peut afficher un aperçu du résultat sur le canevas."
+
+#: src/introduction/whats-new.xml:282(para)
+msgid "The Flame plug-in has been extended with 22 new variations."
+msgstr "22 variations ont été ajoutées au greffon Flamme."
+
+#: src/introduction/whats-new.xml:287(para)
+msgid ""
+"Data file folders like brush folders are searched recursively for files."
+msgstr ""
+"Recherche récursive de fichiers dans les répertoires tels que les dossiers "
+"de \"Brushes\" (brosses)."
+
+#: src/introduction/whats-new.xml:293(para)
+msgid ""
+"Replaced the PSD import plug-in with a rewritten version that does what the "
+"old version did plus some other things, for example reading of ICC color "
+"profiles."
+msgstr ""
+"Le greffon d'import de fichiers PSD a été remplacé par une version plus "
+"complète qui peut, entre autres, lire les profils ICC. "
+
+#: src/introduction/whats-new.xml:300(para)
+msgid "Several displays use Cairo library."
+msgstr "De nombreux affichages graphiques utilisent la bibliothèque Cairo."
+
+#: src/introduction/whats-new.xml:302(title)
+msgid "Comparing 2.6 display vs 2.4"
+msgstr "Comparaison des interfaces 2.6 et 2.4"
+
+#: src/introduction/whats-new.xml:317(title)
+msgid "Under the Hood"
+msgstr "Sous le capot"
+
+#: src/introduction/whats-new.xml:319(term)
+msgid "GEGL"
+msgstr "GEGL"
+
+#: src/introduction/whats-new.xml:321(para)
+msgid ""
+"Important progress towards high bit-depth and non-destructive editing in "
+"GIMP has been made. Most color operations in GIMP are now ported to the "
+"powerful graph based image processing framework GEGL <xref linkend="
+"\"bibliography-online-gegl\"/>, meaning that the internal processing is done "
+"in 32bit floating point linear light RGBA. By default the legacy 8bit code "
+"paths are still used, but a curious user can turn on the use of GEGL for the "
+"color operations with <link linkend=\"gimp-config-use-gegl\">Colors / Use "
+"GEGL</link>."
+msgstr ""
+"D'importants progrès ont été accomplis en termes d'édition non-destructive "
+"et "
+"de traitement d'images haute résolution. La plupart des opérations sur les "
+"couleurs se font à l'aide de la puissante bibliothèque graphique GEGL <xref "
+"linkend=\"bibliography-online-gegl\"/>, c'est-à-dire qu'elles s'effectuent "
+"en 32 bits virgule flottante. Par défaut, les opérations se font en 8 bits, "
+"mais il est possible d'activer l'option GEGL dans <link linkend=\"gimp-"
+"config-use-gegl\">Couleurs / Utiliser GEGL</link>."
+
+#: src/introduction/whats-new.xml:332(para)
+msgid ""
+"In addition to porting color operations to GEGL, an experimental GEGL "
+"Operation tool has been added, found in the Tools menu. It enables applying "
+"GEGL operations to an image and it gives on-canvas previews of the results. "
+"The screenshot below shows this for a Gaussian Blur."
+msgstr ""
+"En plus de l'utilisation de GEGL pour les opérations sur les couleurs, "
+"l'outil expérimental Action GEGL a été ajouté (Outils > Action GEGL). Ce "
+"dernier permet d'exécuter des actions GEGL sur une image et d'afficher un "
+"aperçu du résultat sur le canevas. L'impression écran ci-dessous illustre le "
+"cas d'un Flou Gaussien dans ce contexte."
+
+#: src/introduction/whats-new.xml:340(title)
+msgid "GEGL operation"
+msgstr "Action GEGL"
+
+#: src/introduction/whats-new.xml:354(para)
+msgid ""
+"Ported many widgets to use the 2D graphics library cairo <xref linkend="
+"\"bibliography-online-cairo\"/> for drawing. See this <link linkend=\"gimp-"
+"cairo-2-4-vs-2-6\">comparison</link> for an example of how much better this "
+"looks."
+msgstr ""
+"De nombreux widgets ont été modifiés de façon à utiliser Cairo, la "
+"bibliothèque graphique vectorielle. Voir <link linkend=\"gimp-cairo-2-4-vs-2-"
+"6\">comparaison</link> pour un exemple sur l'amélioration apportée."
+
+#: src/introduction/whats-new.xml:365(title)
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: src/introduction/whats-new.xml:367(term)
+msgid "Plug-in Development"
+msgstr "Développement de greffons"
+
+#: src/introduction/whats-new.xml:369(para)
+msgid ""
+"There are new things for a plug-in developer to enjoy as well. For example, "
+"procedures can now give a detailed error description in case of an error, "
+"and the error can be propagated to the user."
+msgstr ""
+"Les développeurs de greffons se réjouiront de certaines nouveautés. Un "
+"exemple : les procédures peuvent maintenant fournir des rapports détaillés "
+"en cas d'erreur, et le message d'erreur peut être transmis à l'utilisateur."
+
+#: src/introduction/whats-new.xml:375(para)
+msgid ""
+"GIMP 2.6 also further enhances its scripting abilities. In particular there "
+"is now a much richer API for the creation and manipulation of text layers. "
+"Here is a list of new symbols in GIMP 2.6: <xref linkend=\"bibliography-"
+"online-gimp-dev-new\"/>."
+msgstr ""
+"La programmation de scripts dans GIMP 2.6 est améliorée. En particulier, il "
+"existe une API  bien plus puissante pour la création et la manipulation de "
+"calques de texte. Voici une liste des nouveaux symboles utilisés dans "
+"GIMP 2.6 : <xref linkend=\"bibliography-online-gimp-dev-new\"/>."
+
+#: src/introduction/whats-new.xml:385(term)
+msgid "Backwards Compatibility"
+msgstr "Compatibilité antérieure"
+
+#: src/introduction/whats-new.xml:387(para)
+msgid ""
+"Some old scripts could not be used with GIMP-2.4. This has been improved and "
+"2.6 should run 2.0 and 2.2 scripts."
+msgstr ""
+"D'anciens scripts se sont avérés inutilisables avec GIMP 2.4. La "
+"compatibilité ayant été améliorée, GIMP 2.6 devrait pouvoir gérer les "
+"scripts des versions 2.0 et 2.2."
+
+#: src/introduction/whats-new.xml:395(term)
+msgid "Known Problems"
+msgstr "Problèmes connus"
+
+#: src/introduction/whats-new.xml:399(para)
+msgid ""
+"The Utility window hint is currently only known to work well in the Linux "
+"GNOME desktop environment and on Windows starting with GIMP 2.6.1."
+msgstr ""
+"Actuellement, l'activation des fenêtres utilitaires ne fonctionne "
+"correctement que dans l'environnement GNOME et sur Windows, à partir de GIMP "
+"2.6.1."
+
+#: src/introduction/whats-new.xml:406(para)
+msgid ""
+"Using the Text Tool is currently not an optimal experience. Making it work "
+"better is a goal for GIMP 2.8."
+msgstr ""
+"L'utilisation de l'outil Texte n'est pas une expérience optimale. "
+"L'amélioration de cet outil fait partie des objectifs pour GIMP 2.8. "
+
+#: src/introduction/whats-new.xml:412(para)
+msgid ""
+"If you build GIMP yourself and don't have GVfs support on your platform you "
+"need to explicitly pass <option>--without-gvfs</option> to "
+"<command>configure</command>, otherwise opening remote files will not work "
+"properly."
+msgstr ""
+"Si vous procédez à la compilation de GIMP et que votre environnement ne "
+"supporte pas le système de fichiers virtuel GVFS, il vous faudra indiquer "
+"explicitement --without-gvfs lors de la commande <command>configure</"
+"command>. Dans le cas contraire, l'ouverture de fichiers distants sera "
+"défectueuse."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/introduction/whats-new.xml:0(None)
+msgid "translator-credits"
+msgstr ""
+"Johanna Koubat, jkoubat{AT}gmail{POINT}com, 2009 "
+"Julien Hardelin, jhardlin{AT}wanadoo{POINT}fr, 2011"
+

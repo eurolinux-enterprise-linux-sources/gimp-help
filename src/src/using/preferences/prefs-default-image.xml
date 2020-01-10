@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  section history:
+  2008-04-16 Mr.Dust : added 'ko'
+  2007-09-29 AntI: Added 'es'
+  2006-11-01 lexa: made the file docbook compliant
+-->
+<sect2 id="gimp-prefs-new-image">
+  <title>Default Image Preferences</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Default image</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>New image</primary>
+    <secondary>Default setting</secondary>
+  </indexterm>
+
+  <anchor id="gimp-prefs-default-image"/>
+  <figure>
+    <title>Default New Image Preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/preferences/prefs-new-image.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    This tab lets you customize the default settings for the New Image
+    dialog.  See the
+    <link linkend="gimp-file-new">New Image Dialog</link> section
+    for an explanation of what each of the values means.
+  </para>
+</sect2>

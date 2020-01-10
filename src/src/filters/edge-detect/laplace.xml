@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-08-17 Added Spanish translation by AntI
+  2007-07-07 kost: added no
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  050930 de replaced informalfigure by axel.wernicke
+  050829 de added by axel.wernicke
+-->
+<sect2 id="plug-in-laplace">
+  <title>Laplace</title>
+
+  <indexterm>
+    <primary>Filters</primary>
+    <secondary>Edge Detect</secondary>
+    <tertiary>Laplace</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Laplace</primary>
+  </indexterm>
+
+  <sect3>
+    <title>Overview</title>
+    <figure>
+      <title>Applying example for the Laplace filter</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/taj_orig.jpg"/>
+        </imageobject>
+        <caption>
+          <para>Original image</para>
+        </caption>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/edge-taj-laplace.jpg"/>
+        </imageobject>
+        <caption>
+          <para>Filter <quote>Laplace</quote> applied</para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <para>
+      This filter detects edges in the image using Laplacian method,
+      which produces thin, pixel wide borders.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Activating the filter</title>
+    <para>
+      You can find this filter through
+      <menuchoice>
+        <guimenu>Filtres</guimenu>
+        <guisubmenu>Edge-Detect</guisubmenu>
+        <guimenuitem>Laplace</guimenuitem>
+      </menuchoice>.
+    </para>
+  </sect3>
+</sect2>

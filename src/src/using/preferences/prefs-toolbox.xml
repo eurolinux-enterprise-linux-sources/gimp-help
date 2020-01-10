@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  Section history:
+  2012-05-02 j.h: update pref-toolbox to v2.8
+  2008-12-10 JPL: updated v2.6
+  2005-11-30 replaced informalfigure by figure  by lexa
+  2008-01-28 jpl: update text & images
+-->
+<sect2 id="gimp-prefs-toolbox">
+  <title>Toolbox</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Toolbox</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Toolbox</primary>
+    <secondary>Preferences</secondary>
+  </indexterm>
+
+  <figure>
+    <title>Toolbox Preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/preferences/prefs-toolbox.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>Default Toolbox appearance</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/using/toolbox-description.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <para>
+      This page lets you customize the appearance of the Toolbox, by deciding
+      whether the three <quote>context information</quote> areas should be
+      shown at the bottom.
+    </para>
+    <variablelist>
+      <title>Appearance</title>
+      <indexterm>
+        <primary>Color area</primary>
+        <secondary>Preferences</secondary>
+      </indexterm>
+      <indexterm>
+        <primary>Brush, Pattern, Gradient area</primary>
+        <secondary>Preferences</secondary>
+      </indexterm>
+      <indexterm>
+        <primary>Image</primary>
+        <secondary>Active Image Thumbnail</secondary>
+      </indexterm>
+      <varlistentry>
+        <term>Show foreground and background color</term>
+        <listitem>
+          <para>
+            Controls whether the color area on the left (2) appears in the
+            Toolbox.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Show active brush, pattern, and gradient</term>
+        <listitem>
+          <para>
+            Controls whether the area in the center (3), with the brush,
+            pattern, and gradient icons, appears in the
+            Toolbox.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Show active image</term>
+        <listitem>
+          <para>
+            Controls whether a preview of the currently active image
+            appears on the right (4).
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    
+    <variablelist id="prefs-tools-config">
+      <title>Tools configuration</title>
+      <indexterm>
+        <primary>Toolbox</primary>
+        <secondary>Configuration</secondary>
+      </indexterm>
+      <varlistentry>
+        <term></term>
+        <listitem>
+          <para>
+            In this list, tools with an eye are present in the Toolbox. By
+            default, color tools have no eye: you can add them to the Toolbox by
+            clicking the corresponding checkbox.
+          </para>
+          <para>
+            You can also sort tools by priority using the arrow up and down
+            buttons at the bottom of the dialog.
+          </para>
+          <para>
+            This option replaces the Tools Dialog of former
+            <acronym>GIMP</acronym> versions.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+      
+  </sect3>
+</sect2>

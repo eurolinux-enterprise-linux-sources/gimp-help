@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliography PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                              "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  section history:
+  2007-05-05 lexa: enhanced bibliography even more
+  2007-01-26 lexa: enhanced bibliography
+  2007-01-04 KoSt: added norwegian gimp site
+  2006-11-01 lexa: made the file docbook compliant
+-->
+<bibliography id="bibliography">
+  <title>Bibliography</title>
+
+  <bibliodiv id="bibliography-books">
+    <title>Books</title>
+
+    <biblioentry id="bibliography-books-apress">
+      <abbrev>APRESS00</abbrev>
+      <title>Beginning GIMP: From Novice to Professional</title>
+      <author>
+        <firstname>Akkana</firstname>
+        <surname>Peck</surname>
+      </author>
+      <copyright>
+        <year>2006</year>
+        <holder>Apress Inc.</holder>
+      </copyright>
+      <publisher>
+        <publishername>Apress Inc, www.apress.com</publishername>
+      </publisher>
+      <isbn>ISBN 1-59059-587-4</isbn>
+      <releaseinfo>
+        <ulink url="http://gimpbook.com/">http://gimpbook.com/</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-books-foley01">
+      <abbrev>FOLEY01</abbrev>
+      <title>Computer Graphics, Principles and Practice</title>
+      <author>
+        <othername>Foley and van Dam, et al</othername>
+      </author>
+      <copyright>
+        <year>1990</year>
+        <holder>Addison Wesley</holder>
+      </copyright>
+      <publisher>
+        <publishername>Addison Wesley</publishername>
+      </publisher>
+      <releaseinfo>
+        <remark>2nd Ed. (Addison Wesley, 1990)</remark>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-books-grokking">
+      <abbrev>GROKKING</abbrev>
+      <title>Grokking the Gimp</title>
+      <author>
+        <firstname>Carey</firstname>
+        <surname>Bunks</surname>
+      </author>
+      <copyright>
+        <year>2000</year>
+        <holder>New Riders Publishing</holder>
+      </copyright>
+      <publisher>
+        <publishername>
+          New Riders Publishing, www.newriders.com
+        </publishername>
+      </publisher>
+      <isbn>ISBN 0-7357-0924-6</isbn>
+      <releaseinfo>
+        <ulink url="http://gimp-savvy.com/BOOK/">
+          http://gimp-savvy.com/BOOK
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+  </bibliodiv>
+
+  <bibliodiv id="bibliography-online">
+    <title>Online resources</title>
+    <biblioentry id="bibliography-online-adobrgb">
+      <abbrev>AdobeRGB</abbrev>
+      <title>Adobe RGB (1998) ICC Profile</title>
+      <releaseinfo>
+        <ulink url="http://www.adobe.com/digitalimag/adobergb.html">
+          http://www.adobe.com/digitalimag/adobergb.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-advancemame">
+      <abbrev>AdvanceMAME</abbrev>
+      <title>AdvanceMAME project</title>
+      <releaseinfo>
+        <ulink url="http://advancemame.sourceforge.net/">
+          http://advancemame.sourceforge.net/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod">
+      <abbrev>APOD</abbrev>
+      <title>Astronomy Picture of the Day</title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/">
+          http://antwrp.gsfc.nasa.gov/apod/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod01">
+      <abbrev>APOD01</abbrev>
+      <title>Astronomy Picture of the Day (today)</title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/astropix.html">
+          http://antwrp.gsfc.nasa.gov/apod/astropix.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod02">
+      <abbrev>APOD02</abbrev>
+      <title>
+        Astronomy Picture of the Day - The Hubble Ultra Deep Field (2004 March
+        9)
+      </title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/ap040309.html">
+          http://antwrp.gsfc.nasa.gov/apod/ap040309.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod03">
+      <abbrev>APOD03</abbrev>
+      <title>
+        Astronomy Picture of the Day - M51: Cosmic Whirlpool (2002 July 10)
+      </title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/ap020710.html">
+          http://antwrp.gsfc.nasa.gov/apod/ap020710.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod04">
+      <abbrev>APOD04</abbrev>
+      <title>
+        Astronomy Picture of the Day - Saturn: Lord of the Rings (2002
+        February 15)
+      </title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/ap020215.html">
+          http://antwrp.gsfc.nasa.gov/apod/ap020215.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod05">
+      <abbrev>APOD05</abbrev>
+      <title>
+        Astronomy Picture of the Day - NGC 6369: The Little Ghost Nebula (2002
+        November 8)
+      </title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/ap021108.html">
+          http://antwrp.gsfc.nasa.gov/apod/ap021108.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod06">
+      <abbrev>APOD06</abbrev>
+      <title>
+        Astronomy Picture of the Day - Disorder in Stephan's Quintet (2000
+        November 13)
+      </title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/ap001113.html">
+          http://antwrp.gsfc.nasa.gov/apod/ap001113.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-apod07">
+      <abbrev>APOD07</abbrev>
+      <title>
+        Astronomy Picture of the Day - The Sharpest View of the Sun (2002
+        November 14)
+      </title>
+      <releaseinfo>
+        <ulink url="http://antwrp.gsfc.nasa.gov/apod/ap021114.html">
+          http://antwrp.gsfc.nasa.gov/apod/ap021114.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-argyllcms">
+      <abbrev>ARGYLLCMS</abbrev>
+      <title>Argyll Color Management System  Home Page</title>
+      <releaseinfo>
+        <ulink url="http://www.argyllcms.com/">
+          http://www.argyllcms.com/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-babl">
+      <abbrev>BABL</abbrev>
+      <title>babl (pixel format translation library)</title>
+      <releaseinfo>
+        <ulink url="http://www.gegl.org/babl">http://www.gegl.org/babl</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-bach">
+      <abbrev>BACH04</abbrev>
+      <title>Face in blocks</title>
+      <author>
+        <firstname>Michael</firstname>
+        <surname>Bach</surname>
+      </author>
+      <copyright>
+        <year>2004</year>
+        <holder>Michael Bach</holder>
+      </copyright>
+      <releaseinfo>
+        <ulink url="http://www.michaelbach.de/ot/fcs_mosaic/">
+          http://www.michaelbach.de/ot/fcs_mosaic/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-golden-text">
+      <abbrev>BUDIG01</abbrev>
+      <title>Golden Text</title>
+      <releaseinfo>
+        <ulink url="http://www.home.unix-ag.org/simon/gimp/golden.html">
+          http://www.home.unix-ag.org/simon/gimp/golden.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-bugzilla">
+      <abbrev>BUGZILLA</abbrev>
+      <title>Bugzilla</title>
+      <releaseinfo>
+        <ulink url="http://bugzilla.gnome.org">
+          http://bugzilla.gnome.org
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-bugzilla-gimp">
+      <abbrev>BUGZILLA-GIMP</abbrev>
+      <title>Bugzilla-GIMP</title>
+      <releaseinfo>
+        <ulink url="http://bugzilla.gnome.org/browse.cgi?product=GIMP">
+          http://bugzilla.gnome.org/browse.cgi?product=GIMP
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-cairo">
+      <abbrev>CAIRO</abbrev>
+      <title>Cairo</title>
+      <releaseinfo>
+        <ulink url="http://www.cairographics.org">
+          http://www.cairographics.org
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-darwinports">
+      <abbrev>DARWINORTS</abbrev>
+      <title>Darwin Ports Package Manager for OS X</title>
+      <releaseinfo>
+        <ulink url="http://darwinports.org">http://darwinports.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-eci">
+      <abbrev>ECI</abbrev>
+      <title>ECI (European Color Initiative) Profiles</title>
+      <releaseinfo>
+        <ulink url="http://www.eci.org/eci/en/060_downloads.php">
+          http://www.eci.org/eci/en/060_downloads.php
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-fdl-translation">
+      <abbrev>FDL-TRANSLATION</abbrev>
+      <title>
+        Unofficial translation of the GNU Free Documentation License
+      </title>
+    </biblioentry>
+    <biblioentry id="bibliography-online-fink">
+      <abbrev>FINK</abbrev>
+      <title>Fink Package Manager for OS X</title>
+      <releaseinfo>
+        <ulink url="http://fink.sf.net">http://fink.sf.net</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-freetype">
+      <abbrev>FREETYPE</abbrev>
+      <title>Freetype 2 home page</title>
+      <releaseinfo>
+        <ulink url="http://www.freetype.org/freetype2/index.html">
+          http://www.freetype.org/freetype2/index.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gegl">
+      <abbrev>GEGL</abbrev>
+      <title>GEGL (Generic Graphics Library)</title>
+      <releaseinfo>
+        <ulink url="http://gegl.org">http://gegl.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-georgiev">
+      <abbrev>GEORGIEV01</abbrev>
+      <title>Image Reconstruction Invariant to Relighting</title>
+      <author>
+        <firstname>Todor</firstname>
+        <surname>Georgiev</surname>
+      </author>
+      <copyright>
+        <year>2005</year>
+        <holder>Todor Georgiev</holder>
+      </copyright>
+      <releaseinfo>
+        <ulink url="http://www.tgeorgiev.net/Invariant.pdf">
+          http://www.tgeorgiev.net/Invariant.pdf
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-ghostscript">
+      <abbrev>GHOSTSCRIPT</abbrev>
+      <title>Ghostscript project page on Sourceforge.net</title>
+      <releaseinfo>
+        <ulink url="http://sourceforge.net/projects/ghostscript">
+          http://sourceforge.net/projects/ghostscript
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp">
+      <abbrev>GIMP</abbrev>
+      <title>GIMP - The Gnu Image Manipulation Program</title>
+      <releaseinfo>
+        <ulink url="http://gimp.org">http://gimp.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-dev">
+      <abbrev>GIMP-DEV</abbrev>
+      <title>GIMP Development</title>
+      <releaseinfo>
+        <ulink url="http://developer.gimp.org">
+          http://developer.gimp.org
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-dev-plugin">
+      <abbrev>GIMP-DEV-PLUGIN</abbrev>
+      <title>GIMP Plugin Development</title>
+      <releaseinfo>
+        <ulink url="http://developer.gimp.org/plug-ins.html">
+          http://developer.gimp.org/plug-ins.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-docs">
+      <abbrev>GIMP-DOCS</abbrev>
+      <title>GIMP Documentation project page</title>
+      <releaseinfo>
+        <ulink url="http://docs.gimp.org">
+          http://docs.gimp.org
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-fonts">
+      <abbrev>GIMP-FONTS</abbrev>
+      <title>Fonts in GIMP 2.0</title>
+      <releaseinfo>
+        <ulink url="http://gimp.org/unix/fonts.html">
+          http://gimp.org/unix/fonts.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-dev-new">
+      <abbrev>GIMP-NEWSYM26</abbrev>
+      <title>List of new symbols in GIMP 2.6</title>
+      <releaseinfo>
+        <ulink 
+          url="http://developer.gimp.org/api/2.0/libgimp/libgimp-index-new-in-2-6.html">
+          libgimp-index-new-in-2-6.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-plugin-registry">
+      <abbrev>GIMP-REGISTRY</abbrev>
+      <title>GIMP-Plugin Registry</title>
+      <releaseinfo>
+        <ulink url="http://registry.gimp.org">http://registry.gimp.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <!--
+    <biblioentry id="bibliography-online-gimp-wiki-compile-windows">
+      <abbrev>GIMP-WIKI-MS</abbrev>
+      <title>GIMP-Wiki - How to compile for Windows</title>
+      <releaseinfo>
+        <ulink url="http://wiki.gimp.org/gimp/HowToCompileGimp/MicrosoftWindows">
+          http://wiki.gimp.org/gimp/HowToCompileGimp/MicrosoftWindows
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    -->
+    <biblioentry id="bibliography-online-grokking-gimp">
+      <abbrev>GROKKING01</abbrev>
+      <title>Grokking the GIMP</title>
+      <releaseinfo>
+        <ulink url="http://gimp-savvy.com/BOOK/index.html">
+          http://gimp-savvy.com/BOOK/index.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-grokking-gimp-imagemap">
+      <abbrev>GROKKING02</abbrev>
+      <title>Grokking the GIMP (9.2 Clickable Image Maps)</title>
+      <releaseinfo>
+        <ulink url="http://gimp-savvy.com/BOOK/index.html?node81.html">
+          http://gimp-savvy.com/BOOK/index.html?node81.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gunther">
+      <abbrev>GUNTHER04</abbrev>
+      <title>Making shapes in GIMP</title>
+      <author>
+        <firstname>Gunther</firstname>
+        <surname>Dale</surname>
+      </author>
+      <copyright>
+        <year>2004</year>
+        <holder>Dale (Gunther)</holder>
+      </copyright>
+      <releaseinfo>
+        <ulink url="http://gug.sunsite.dk/tutorials/gunther1/">
+          http://gug.sunsite.dk/tutorials/gunther1
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-icc">
+      <abbrev>ICC</abbrev>
+      <title>INTERNATIONAL COLOR CONSORTIUM</title>
+      <releaseinfo>
+        <ulink url="http://www.color.org/">http://www.color.org/</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-iccsrgb">
+      <abbrev>ICCsRGB</abbrev>
+      <title>ICC sRGB PROFILES</title>
+      <releaseinfo>
+        <ulink url="http://www.color.org/srgbprofiles.html">
+          http://www.color.org/srgbprofiles.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gpl">
+      <abbrev>GPL</abbrev>
+      <title>General Public License (GPL)</title>
+      <releaseinfo>
+        <ulink url="http://www.fsf.org/licensing/licenses/gpl.html">
+          http://www.fsf.org/licensing/licenses/gpl.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gqview">
+      <abbrev>GQVIEW</abbrev>
+      <title>Homepage of GQview, an image browser</title>
+      <releaseinfo>
+        <ulink url="http://gqview.sourceforge.net">
+          http://gqview.sourceforge.net
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gthumb">
+      <abbrev>GTHUMB</abbrev>
+      <title>
+        gThumb - An Image Viewer and Browser for the GNOME Desktop
+      </title>
+      <releaseinfo>
+        <ulink url="http://gthumb.sourceforge.net">
+          http://gthumb.sourceforge.net
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-inkscape">
+      <abbrev>INKSCAPE</abbrev>
+      <title>Inkscape is an Open Source vector graphics editor</title>
+      <releaseinfo>
+        <ulink url="http://www.inkscape.org">http://www.inkscape.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-jimmac01">
+      <abbrev>JIMMAC01</abbrev>
+      <title>Alternative icon theme for GIMP 2.4</title>
+      <releaseinfo>
+        <ulink url="http://jimmac.musichall.cz/zip/GIMP-Greyscale-tools-0.1.tar.bz2">
+          http://jimmac.musichall.cz/zip/GIMP-Greyscale-tools-0.1.tar.bz2
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-lprof">
+      <abbrev>LPROF</abbrev>
+      <title>LPROF ICC Profiler</title>
+      <releaseinfo>
+        <ulink url="http://lprof.sourceforge.net/">
+          http://lprof.sourceforge.net/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-microsoft-kb294714">
+      <abbrev>MSKB-294714</abbrev>
+      <title>Microsoft Knowledge Base Article 294714</title>
+      <releaseinfo>
+        <ulink url="http://support.microsoft.com/kb/294714">
+            http://support.microsoft.com/kb/294714
+          </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-microsoft-srgb">
+      <abbrev>MsRGB</abbrev>
+      <title>Microsoft sRVB Workspace</title>
+      <releaseinfo>
+        <ulink url="http://www.microsoft.com/whdc/device/display/color/default.mspx">
+            http://www.microsoft.com/whdc/device/display/color/default.mspx
+          </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-openclipart-gradients">
+      <abbrev>OPENCLIPART-GRADIENT</abbrev>
+      <title>Open Clipart - Gradients</title>
+      <releaseinfo>
+        <ulink url="http://openclipart.org/">http://openclipart.org/</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-openicc">
+      <abbrev>OPENICC</abbrev>
+      <title>The OpenICC project</title>
+      <releaseinfo>
+        <ulink url="http://freedesktop.org/wiki/OpenIcc/">
+          http://freedesktop.org/wiki/OpenIcc
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-plugin-exifbrowser">
+      <abbrev>PLUGIN-EXIF</abbrev>
+      <title>GIMP-Plugin Exif Browser</title>
+      <releaseinfo>
+        <ulink url="http://registry.gimp.org/plugin?id=4153">
+          http://registry.gimp.org/plugin?id=4153
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-gimp-plugin-flames">
+      <abbrev>PLUGIN-FLAMES</abbrev>
+      <title>GIMP-Plugin Flames</title>
+      <releaseinfo><ulink url="http://draves.org/gimp/flame.html">
+          http://draves.org/gimp/flame.html
+        </ulink>;
+        <ulink url="http://flam3.com/">http://flam3.com/</ulink></releaseinfo>
+    </biblioentry>
+    <!--
+    <biblioentry id="bibliography-online-gimp-plugin-plasma2">
+      <abbrev>PLUGIN-PLASMA2</abbrev>
+      <title>GIMP-Plugin Plasma2 at the Registry</title>
+      <releaseinfo>
+        <ulink url="http://registry.gimp.org/plugin?id=501">
+          http://registry.gimp.org/plugin?id=501
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    -->
+    <biblioentry id="bibliography-online-gimp-plugin-redeye">
+      <abbrev>PLUGIN-REDEYE</abbrev>
+      <title>
+        A plugin to quickly remove <quote>redeye</quote> caused by camera
+        flash
+      </title>
+      <releaseinfo>
+        <ulink url="http://registry.gimp.org/plugin?id=4212">
+          http://registry.gimp.org/plugin?id=4212
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-plugin-resynthesizer">
+      <abbrev>PLUGIN-RESYNTH</abbrev>
+      <title>Resynthesizer is a Gimp plug-in for texture synthesis</title>
+      <releaseinfo>
+        <ulink url="http://www.logarithmic.net/pfh/resynthesizer">
+          http://www.logarithmic.net/pfh/resynthesizer
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-plugin-retinex">
+      <abbrev>PLUGIN-RETINEX</abbrev>
+      <title>A plugin providing the Retinex algorithm for GIMP</title>
+      <releaseinfo>
+        <ulink url="http://www-prima.inrialpes.fr/pelisson/MSRCR.php">
+          http://www-prima.inrialpes.fr/pelisson/MSRCR.php
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-plugin-separate">
+      <abbrev>PLUGIN-SEPARATE</abbrev>
+      <title>A plugin providing rudimentary CMYK support for GIMP</title>
+      <releaseinfo>
+        <ulink url="http://www.blackfiveservices.co.uk/separate.shtml">
+          http://www.blackfiveservices.co.uk/separate.shtml
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-python">
+      <abbrev>PYTHON</abbrev>
+      <title>Python Programming Language</title>
+      <releaseinfo>
+        <ulink url="http://www.python.org">http://www.python.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-scale2x">
+      <abbrev>SCALE2X</abbrev>
+      <title>Scale2x</title>
+      <releaseinfo>
+        <ulink url="http://scale2x.sourceforge.net/">
+          http://scale2x.sourceforge.net/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-scribus">
+      <abbrev>SCRIBUS</abbrev>
+      <title>Scribus :: Open Source Desktop Publishing</title>
+      <releaseinfo>
+        <ulink url="http://www.scribus.net/">http://www.scribus.net/</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-siox">
+      <abbrev>SIOX</abbrev>
+      <title>Simple Interactive Object Extraction</title>
+      <releaseinfo>
+        <ulink url="http://www.siox.org/">http://www.siox.org/</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-tutorial01">
+      <abbrev>TUT01</abbrev>
+      <title>Tutorial: How to draw straight lines</title>
+      <author>
+        <firstname>Seth</firstname>
+        <surname>Burgess</surname>
+      </author>
+      <copyright>
+        <year>2002</year>
+        <holder>Seth Burgess</holder>
+      </copyright>
+      <releaseinfo>
+        <ulink url="http://www.gimp.org/tutorials/Straight_Line/">
+          http://www.gimp.org/tutorials/Straight_Line
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-tutorial02">
+      <abbrev>TUT02</abbrev>
+      <title>Tutorial: GIMPLite Quickies</title>
+      <author>
+        <firstname>Carol</firstname>
+        <surname>Spears</surname>
+        <email>carolNOSPAM@gimp.org</email>
+      </author>
+      <copyright>
+        <year>2004</year>
+        <holder>Carol Spears</holder>
+      </copyright>
+      <releaseinfo>
+        <ulink url="http://next.gimp.org/tutorials/Lite_Quickies/">
+          http://next.gimp.org/tutorials/Lite_Quickies/
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-unicode">
+      <abbrev>UNICODE</abbrev>
+      <title>Unicode</title>
+      <releaseinfo>
+        <ulink url="http://www.unicode.org">http://www.unicode.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wikipedia">
+      <abbrev>WIKIPEDIA</abbrev>
+      <title>Wikipedia</title>
+      <author>
+        <othername>Wikipedia Foundation</othername>
+      </author>
+      <copyright>
+        <year>2004</year>
+        <holder>Wikipedia Foundation Inc.</holder>
+      </copyright>
+      <releaseinfo>
+        <ulink url="http://www.wikipedia.org">http://www.wikipedia.org</ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-alpha">
+      <abbrev>WKPD-ALPHA</abbrev>
+      <title>Wikipedia - Alpha channel</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Alpha_channel">
+          http://en.wikipedia.org/wiki/Alpha_channel
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-bezier">
+      <abbrev>WKPD-BEZIER</abbrev>
+      <title>Wikipedia - B&eacute;zier curve</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Bezier_curve">
+          http://en.wikipedia.org/wiki/Bezier_curve
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-bumpmap">
+      <abbrev>WKPD-BUMP</abbrev>
+      <title>Wikipedia - Bumpmap</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Bump_Mapping">
+          http://en.wikipedia.org/wiki/Bump_Mapping
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <!-- identical with "bibliography-online-wkpd-dodge -->
+    <biblioentry id="bibliography-online-wkpd-burn">
+      <abbrev>WKPD-BURN</abbrev>
+      <title>Wikipedia - Burning</title>
+      <releaseinfo lang="de">
+        <ulink url="http://en.wikipedia.org/wiki/Dodging_and_burning">
+          http://en.wikipedia.org/wiki/Dodging_and_burning
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-cellular-automata">
+      <abbrev>WKPD-CA</abbrev>
+      <title>Wikipedia - Cellular Automata</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Bump_Mapping">
+          http://en.wikipedia.org/wiki/Cellular_Automata
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-cmyk">
+      <abbrev>WKPD-CMYK</abbrev>
+      <title>Wikipedia - CMYK</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/CMYK">
+          http://en.wikipedia.org/wiki/CMYK
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-colorspace">
+      <abbrev>WKPD-COLORSPACE</abbrev>
+      <title>Wikipedia - Colorspace</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Colorspace">
+          http://en.wikipedia.org/wiki/Colorspace
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-deflate">
+      <abbrev>WKPD-DEFLATE</abbrev>
+      <title>Wikipedia - Deflate</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/deflate">
+          http://en.wikipedia.org/wiki/deflate
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-deinterlace">
+      <abbrev>WKPD-DEINTERLACE</abbrev>
+      <title>Wikipedia - Deinterlace</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Deinterlace">
+          http://en.wikipedia.org/wiki/Deinterlace
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-dithering">
+      <abbrev>WKPD-DITHERING</abbrev>
+      <title>Wikipedia - Dithering</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Dithering">
+          http://en.wikipedia.org/wiki/Dithering
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-dodge">
+      <abbrev>WKPD-DODGE</abbrev>
+      <title>Wikipedia - Dodging</title>
+      <releaseinfo lang="de">
+        <ulink url="http://en.wikipedia.org/wiki/Dodging_and_burning">
+          http://en.wikipedia.org/wiki/Dodging_and_burning
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-exif">
+      <abbrev>WKPD-EXIF</abbrev>
+      <title>Wikipedia - EXIF</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/EXIF">
+          http://en.wikipedia.org/wiki/EXIF
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-fileformat">
+      <abbrev>WKPD-FILEFORMAT</abbrev>
+      <title>Wikipedia - Fileformat</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Image_file_format">
+          http://en.wikipedia.org/wiki/Image_file_format
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-gamut">
+      <abbrev>WKPD-GAMUT</abbrev>
+      <title>Wikipedia - Gamut</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Gamut">
+          http://en.wikipedia.org/wiki/Gamut
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-gif">
+      <abbrev>WKPD-GIF</abbrev>
+      <title>Wikipedia - GIF</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/GIF">
+          http://en.wikipedia.org/wiki/GIF
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-gnu">
+      <abbrev>WKPD-GNU</abbrev>
+      <title>Wikipedia - GNU</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/GNU">
+          http://en.wikipedia.org/wiki/GNU
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-histogram">
+      <abbrev>WKPD-HISTOGRAM</abbrev>
+      <title>Wikipedia - Histogram</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Image_histogram">
+          http://en.wikipedia.org/wiki/Image_histogram
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-hsv">
+      <abbrev>WKPD-HSV</abbrev>
+      <title>Wikipedia - HSV</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/HSL_and_HSV">
+          http://en.wikipedia.org/wiki/HSL_and_HSV
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-icc">
+      <abbrev>WKPD-ICC</abbrev>
+      <title>Wikipedia - ICC Profile</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/ICC_Profile">
+          http://en.wikipedia.org/wiki/ICC_Profile
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-interpolation">
+      <abbrev>WKPD-INTERPOL</abbrev><!--Police?-->
+      <title>Wikipedia - Interpolation</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Interpolation">
+          http://en.wikipedia.org/wiki/Interpolation
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-jpeg">
+      <abbrev>WKPD-JPEG</abbrev>
+      <title>Wikipedia - JPEG</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/JPEG">
+          http://en.wikipedia.org/wiki/JPEG
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-lab">
+      <abbrev>WKPD-LAB</abbrev>
+      <title>Wikipedia - L*a*b</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Lab_color_space">
+          http://en.wikipedia.org/wiki/Lab_color_space
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-lzw">
+      <abbrev>WKPD-LZW</abbrev>
+      <title>Wikipedia - LZW</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/LZW">
+          http://en.wikipedia.org/wiki/LZW
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-moire">
+      <abbrev>WKPD-MOIRE</abbrev>
+      <title>Wikipedia - Moire</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Moire">
+          http://en.wikipedia.org/wiki/Moire
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-packbits">
+      <abbrev>WKPD-PACKBITS</abbrev>
+      <title>Wikipedia - PackBits</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/PackBits">
+          http://en.wikipedia.org/wiki/PackBits
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-png">
+      <abbrev>WKPD-PNG</abbrev>
+      <title>Wikipedia - PNG</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Portable_Network_Graphics">
+          http://en.wikipedia.org/wiki/Portable_Network_Graphics
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-rastergfx">
+      <abbrev>WKPD-RASTER</abbrev>
+      <title>Wikipedia - Raster Graphics</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Raster_graphics">
+          http://en.wikipedia.org/wiki/Raster_graphics
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-rendering">
+      <abbrev>WKPD-RI</abbrev>
+      <title>Wikipedia - Rendering Intent</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Rendering_intent">
+          http://en.wikipedia.org/wiki/Rendering_intent
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-retina">
+      <abbrev>WKPD-RETINA</abbrev>
+      <title>Wikipedia - Retina</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Retina">
+          http://en.wikipedia.org/wiki/Retina
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-sepia">
+      <abbrev>WKPD-SEPIA</abbrev>
+      <title>Wikipedia - Sepia</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Sepia">
+          http://en.wikipedia.org/wiki/Sepia
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-subsampling">
+      <abbrev>WKPD-SUBSAMPLING</abbrev>
+      <title>Wikipedia - Chroma subsampling</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Chroma_Subsampling">
+          http://en.wikipedia.org/wiki/Chroma_Subsampling
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-svg">
+      <abbrev>WKPD-SVG</abbrev>
+      <title>Wikipedia - SVG</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
+          http://en.wikipedia.org/wiki/Scalable_Vector_Graphics
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-uri">
+      <abbrev>WKPD-URI</abbrev>
+      <title>Wikipedia - URI</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Uniform_Resource_Identifier">
+          http://en.wikipedia.org/wiki/Uniform_Resource_Identifier
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-url">
+      <abbrev>WKPD-URL</abbrev>
+      <title>Wikipedia - URL</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Uniform_Resource_Locator">
+          http://en.wikipedia.org/wiki/Uniform_Resource_Locator
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-Web-colors">
+      <abbrev>WKPD-Web-colors</abbrev>
+      <title>Wikipedia - Web-colors</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/Web_colors">
+          http://en.wikipedia.org/wiki/Web_colors
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-ycbcr">
+      <abbrev>WKPD-YCBCR</abbrev>
+      <title>Wikipedia - YCbCr</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/YCbCr">
+          http://en.wikipedia.org/wiki/YCbCr
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-wkpd-yuv">
+      <abbrev>WKPD-YUV</abbrev>
+      <title>Wikipedia - YUV</title>
+      <releaseinfo>
+        <ulink url="http://en.wikipedia.org/wiki/YUV">
+          http://en.wikipedia.org/wiki/YUV
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-xds">
+      <abbrev>XDS</abbrev>
+      <title>Direct Save Protocol (XDS)</title>
+      <releaseinfo>
+        <ulink url="http://freedesktop.org/wiki/Specifications/XDS">
+          http://freedesktop.org/wiki/Specifications/XDS
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+    <biblioentry id="bibliography-online-xnview">
+      <abbrev>XNVIEW</abbrev>
+      <title>XnView</title>
+      <releaseinfo>
+        <ulink url="http://perso.orange.fr/pierre.g/xnview/enhome.html">
+          http://perso.orange.fr/pierre.g/xnview/enhome.html
+        </ulink>
+      </releaseinfo>
+    </biblioentry>
+  </bibliodiv>
+</bibliography>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN" "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2009-03-15 j.h: reviewed for v2.6. No change
+  2008-01-14 j.h: no change for v2.4
+  2007-06-13 kost: added 'no'
+  2007-05-20 lexa: enhanced docbook compliance
+  2007-04-20 Added Spanish translation by AntI
+  2006-02-10 some more precisions on tool action en;fr by j.h
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  2005-12-01 informalfigure replaced by figure by lexa
+  050806 de reviewed by axel.wernicke
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-flip">
+  <title>Flip</title>
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Flip</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Flip</primary>
+  </indexterm>
+
+  <figure>
+    <title>Flip tool</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-flip.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The Flip tool provides the ability to flip layers or selections either
+    horizontally or vertically. When a selection is flipped, a new layer with
+    a Floating Selection is created. You can use this tool to create
+    reflections.
+  </para>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>
+      You can access the Flip Tool in different ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From the image menu bar
+          <guimenuitem>Tools</guimenuitem>/
+          <guimenuitem>Transform Tools</guimenuitem>
+          <guimenuitem>Flip</guimenuitem>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          By clicking the tool icon:
+          <guiicon>
+            <inlinegraphic
+                fileref="images/toolbox/stock-tool-flip-22.png"/>
+          </guiicon> in Toolbox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by using the
+          <keycombo><keycap>Shift</keycap><keycap>F</keycap></keycombo> key
+          combination.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <variablelist>
+      <varlistentry>
+        <term>
+          <keycap>Ctrl</keycap>
+        </term>
+        <listitem>
+          <para><keycap>Ctrl</keycap> lets you change the modes between
+            horizontal and vertical flipping.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title><quote>Flip Tool</quote> Options</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/tool-options-flip.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term>Affect</term>
+        <listitem>
+          <xi:include href="about-common-transform-options.xml"/>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Flip Type</term>
+        <listitem>
+          <para>
+            The Tool Toggle settings control flipping in either a Horizontal
+            or Vertical direction. This toggle can also be switched using a
+            key modifier.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

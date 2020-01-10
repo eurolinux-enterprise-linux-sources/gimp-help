@@ -1,0 +1,1149 @@
+# Simplified Chinese translation of gimp-help-2-glossary.
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same licenses as the gimp-help-2 package.
+# Aron Xu <aronmalache@163.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gimp-help 2-pot\n"
+"POT-Creation-Date: 2009-07-22 12:08+0800\n"
+"PO-Revision-Date: 2009-06-23 19:37+0800\n"
+"Last-Translator: Aron Xu <aronmalache@163.com>\n"
+"Language-Team: Chinese (simplified)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:44(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-intro.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:70(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-1.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:75(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-1b.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:100(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-2.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:121(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-3.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:140(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-4.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:163(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-5.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:187(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-6.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:212(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example1.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:222(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example3.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:238(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example2.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:249(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example4.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/straight-lines.xml:265(None)
+msgid ""
+"@@image: 'images/tutorials/straight-lines-example5.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:21(phrase)
+msgid "How to Draw Straight Lines"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:24(primary)
+#: src/tutorial/quickies.xml:24(primary) src/tutorial/quickies.xml:67(primary)
+#: src/tutorial/quickies.xml:169(primary)
+#: src/tutorial/quickies.xml:311(primary)
+#: src/tutorial/quickies.xml:409(primary)
+#: src/tutorial/quickies.xml:530(primary)
+#: src/tutorial/quickies.xml:646(primary)
+#: src/tutorial/quickies.xml:732(primary)
+msgid "Tutorial"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:27(primary)
+msgid "Draw"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:29(para)
+msgid ""
+"This tutorial is based on Text and images Copyright © 2002 Seth Burgess. The "
+"original tutorial can be found in the internet <xref linkend=\"bibliography-"
+"online-tutorial01\"/>."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:36(phrase)
+#: src/tutorial/quickies.xml:33(phrase)
+msgid "Intention"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:40(phrase)
+msgid "Example of straight drawn lines"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:48(para)
+msgid ""
+"This tutorial shows you how you can do straight lines with GIMP, using a "
+"feature called the Shift Key. Straight lines are a convenient way to make "
+"things that aren't so terribly affected by the imprecision of a mouse or "
+"tablet, and to take advantage of the power of a computer to make things look "
+"neat and orderly. This tutorial doesn't use Straight Lines for complex "
+"tasks; its intended to show how you can use it to create quick and easy line "
+"effects."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:60(phrase)
+msgid "Preparations"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:65(keycap)
+msgid "Shift"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:64(phrase)
+msgid "Introducing the <placeholder-1/>-key"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:79(para)
+msgid ""
+"The invention called the typewriter introduced the <keycap>Shift</keycap> "
+"Key. You generally have 2 of them on your keyboard. They look something like "
+"the picture on the left. They are located on the left and right sides of "
+"your keyboard. The other invention, called the Mouse, was invented by "
+"Douglas C. Engelbart in 1970. These come in different varieties, but always "
+"have at least one button located on them. They are located on your desk, or "
+"sometimes on a mouse pad."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:92(phrase)
+msgid "Creating a Blank Drawable"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:96(phrase)
+msgid "New image"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:104(para)
+msgid ""
+"First, create a new image. Any size will do. You can do so by selecting "
+"<menuchoice><guimenu>File</guimenu><guimenu>New</guimenu></menuchoice> from "
+"the menu in the toolbox window."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:113(phrase)
+msgid "Choose a Tool"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:117(phrase)
+msgid "Paint tools in the toolbox"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:125(para)
+msgid ""
+"Then click on the paintbrush. Any of the red-highlighted tools on the above "
+"toolbox can do lines."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:132(phrase)
+msgid "Create a Starting Point"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:136(phrase)
+msgid "Starting point"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:144(para)
+msgid ""
+"After you click the paintbrush tool, you can click the image. A single dot "
+"will appear on the screen. The size of this dot represents the current brush "
+"size, which you can change in the Brush Dialog (see <xref linkend=\"gimp-"
+"brush-dialog\"/>). Now, lets start drawing a line. Hold down the "
+"<keycap>Shift</keycap> button, and keep it down."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:155(phrase)
+msgid "Drawing the Line"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:159(phrase)
+msgid "Drawing the line"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:167(para)
+msgid ""
+"After you have a starting point, and have held down the <keycap>Shift</"
+"keycap> Key, you'll see a line like above if you're running GIMP version 1.2."
+"x or later. Press the first button on the Mouse (the leftmost one usually) "
+"and then let it go. During that whole <quote>click</quote> of the "
+"<mousebutton>Mouse button</mousebutton>, you need to keep the <keycap>Shift</"
+"keycap> Key held down."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:179(phrase)
+msgid "Final"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:183(phrase)
+msgid "Final Image"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:191(para)
+msgid ""
+"See how the line is drawn on top of the preview? This is a powerful feature "
+"of the Paint Brush. You can use it with any of the tools shown in step 3, or "
+"even draw more lines at the end of this one. Our last step is to let go of "
+"the <keycap>Shift</keycap> key. And there you have it. Some more examples "
+"are shown below. Questions? Comments? Let us know. Happy GIMPing!"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:204(phrase)
+msgid "Examples"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:208(phrase)
+msgid "Examples I"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:215(para)
+msgid "This one I turned on gradient in the Paint Brush Tool."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:225(para)
+msgid ""
+"This one I used the Clone tool, and set the source to \"Maple Leaves\" "
+"pattern."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:234(phrase)
+msgid "Examples II"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:241(para)
+msgid ""
+"This one I rendered a grid, and then used the Smudge Tool with a low spacing "
+"and a slightly larger brush."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:252(para)
+msgid ""
+"This one I rendered a plasma cloud, and used the Erase Tool with a square "
+"brush."
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:261(phrase)
+msgid "Example III"
+msgstr ""
+
+#: src/tutorial/straight-lines.xml:268(para)
+msgid ""
+"This one I used the <quote>dodge</quote> tool on the top and left of a blue "
+"box, then used the <quote>burn</quote> tool on the right and bottom."
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:85(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-example.jpg'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:109(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-menu.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:128(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-dialog.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:145(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-scale-dialog2.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:181(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-example.jpg'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:205(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-save-image-dialog-file-type.png'; "
+"md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:232(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-dialog.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:253(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-dialog2.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:267(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-006.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:275(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-042.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:288(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-085.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:298(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-jpeg-100.jpg'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:323(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-example-source.jpg'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:331(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-example-result.jpg'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:344(None)
+msgid ""
+"@@image: 'images/toolbox/stock-tool-crop-22.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:362(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-step1.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:378(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-crop-step2.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:421(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-info-menu.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:442(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-info-dialog.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:462(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-info-problem.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:481(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-info-crop.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:520(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-info-print-emul.jpg'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:552(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-mode-menu.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:596(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-mode-indexed.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:623(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-mode-alpha.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:659(None)
+msgid ""
+"@@image: 'images/toolbox/stock-tool-flip-22.png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:667(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-menu.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:692(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-source.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:700(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-horizontal.png'; md5=THIS "
+"FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:710(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-vertical.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:718(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-flip-example-horizontal-and-vertical."
+"png'; md5=THIS FILE DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:744(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-rotate-menu.png'; md5=THIS FILE DOESN'T "
+"EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:762(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-rotate-example-source.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: src/tutorial/quickies.xml:770(None)
+msgid ""
+"@@image: 'images/tutorials/quickie-rotate-example-90-CCW.png'; md5=THIS FILE "
+"DOESN'T EXIST"
+msgstr ""
+
+#: src/tutorial/quickies.xml:21(phrase)
+msgid "GIMPLite Quickies"
+msgstr ""
+
+#: src/tutorial/quickies.xml:26(para)
+msgid ""
+"This tutorial is based on text and images Copyright © 2004 Carol Spears. The "
+"original tutorial can be found in the Internet <xref linkend=\"bibliography-"
+"online-tutorial02\"/>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:35(para)
+msgid ""
+"So, <acronym>GIMP</acronym> is installed on your computer, you need to make "
+"a quick change to an image for some project, but don't want to learn about "
+"computer graphics just to change an image; totally understandable. "
+"<acronym>GIMP</acronym> is a powerful image manipulator with many options "
+"and tools. However, it is quick and somewhat intuitive (after a time) for "
+"the small jobs as well. Hopefully, these quickies will help you with your "
+"quick problem and help you to stay friends with The <acronym>GIMP</acronym>; "
+"and ready for the more complex tools and methods later, when you have the "
+"time and inspiration."
+msgstr ""
+
+#: src/tutorial/quickies.xml:48(para)
+msgid ""
+"A couple of words about the images used here. The images came from APOD "
+"<xref linkend=\"bibliography-online-apod01\"/>, Astronomy Picture of the "
+"Day. The screenshots were taken on my desktop which is sporting this APOD "
+"<xref linkend=\"bibliography-online-apod02\"/> image."
+msgstr ""
+
+#: src/tutorial/quickies.xml:55(para)
+msgid ""
+"All you need to know to start this tutorial, is how to find and open your "
+"image. (<menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></"
+"menuchoice> from the Image window)."
+msgstr ""
+
+#: src/tutorial/quickies.xml:64(phrase)
+msgid "Change the Size of an Image (Scale)"
+msgstr ""
+
+#: src/tutorial/quickies.xml:70(primary)
+#: src/tutorial/quickies.xml:172(primary)
+#: src/tutorial/quickies.xml:314(primary)
+#: src/tutorial/quickies.xml:412(primary)
+#: src/tutorial/quickies.xml:533(primary)
+#: src/tutorial/quickies.xml:649(primary)
+#: src/tutorial/quickies.xml:735(primary)
+msgid "Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:71(secondary)
+msgid "scale"
+msgstr ""
+
+#: src/tutorial/quickies.xml:73(para)
+msgid ""
+"Problem: you have a huge image and you want to resize the is so that it will "
+"display nicely on a web page. The example image is this beauty "
+"m51_hallas_big.jpg from APOD <xref linkend=\"bibliography-online-apod03\"/>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:81(phrase)
+msgid "Example Image for Scaling"
+msgstr ""
+
+#: src/tutorial/quickies.xml:89(para)
+msgid ""
+"The first thing that you might notice, is that <acronym>GIMP</acronym> opens "
+"the image at a logical size for viewing. If your image is really big like "
+"the sample image, <acronym>GIMP</acronym> will set the zoom so that it will "
+"display nicely on the screen. The zoom level is shown in the status area at "
+"the bottom of the Image window."
+msgstr ""
+
+#: src/tutorial/quickies.xml:97(para)
+msgid ""
+"The other thing to look at in the title-bar is the mode. If the mode shows "
+"as RGB in the title bar, you are fine. If the mode says Indexed or "
+"grayscale, read the <xref linkend=\"gimp-tutorial-quickie-change-mode\"/>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:105(phrase)
+msgid "GIMP Used for Image Scaling"
+msgstr ""
+
+#: src/tutorial/quickies.xml:113(para)
+msgid ""
+"Use <menuchoice><guimenu>Image</guimenu><guimenuitem>Scale Image</"
+"guimenuitem></menuchoice> to open the Scale Image dialog. You can right "
+"click on the image to open the menu, or use the menu along the top of the "
+"Image window. Notice that the Scale Image menu item contains three dots, "
+"which is a hint that a dialog will be opened."
+msgstr ""
+
+#: src/tutorial/quickies.xml:124(phrase)
+msgid "Dialog for Image Scaling in Pixels"
+msgstr ""
+
+#: src/tutorial/quickies.xml:132(para)
+msgid ""
+"If you have a desired width, put it in the dialog at the top where it says "
+"<guilabel>Width</guilabel>. If you don't have such a number in mind, you can "
+"steal the width of <acronym>GIMP</acronym>'s default image size, which is "
+"256 pixels. This is shown in the figure above."
+msgstr ""
+
+#: src/tutorial/quickies.xml:141(phrase)
+msgid "Dialog for Image Scaling in Inches"
+msgstr ""
+
+#: src/tutorial/quickies.xml:149(para)
+msgid ""
+"Perhaps you want your image to look more like a 4x6 inch photo on most image "
+"rendering web browsers. Switch the units to <quote>inches</quote> and enter "
+"4 inches in the height box (opting for smaller than 4x6 rather than bigger). "
+"You can see this dialog above."
+msgstr ""
+
+#: src/tutorial/quickies.xml:155(para)
+msgid ""
+"Let <acronym>GIMP</acronym> choose the other dimension length for you. "
+"Meaning, it requires more image knowledge to change both width and height "
+"and have it look correct. So change only one item and let <acronym>GIMP</"
+"acronym> change the rest. To change the other dimension, see <xref linkend="
+"\"gimp-tutorial-quickie-crop\"/>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:166(phrase)
+msgid "Make JPEGs Smaller"
+msgstr ""
+
+#: src/tutorial/quickies.xml:173(secondary)
+msgid "save"
+msgstr ""
+
+#: src/tutorial/quickies.xml:177(phrase)
+msgid "Example Image for JPEG Saving"
+msgstr ""
+
+#: src/tutorial/quickies.xml:185(para)
+msgid ""
+"You can make your jpegs smaller (use less space on disk) without changing "
+"the image dimensions. The image for this example is also take from APOD "
+"<xref linkend=\"bibliography-online-apod04\"/>. The original image is huge "
+"(3000 pixels wide) so first I reduced the width and height for better use on "
+"the web (see <xref linkend=\"gimp-tutorial-quickie-scale\"/>). Use "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save As</guimenuitem></"
+"menuchoice> to open the Save Image dialog."
+msgstr ""
+
+#: src/tutorial/quickies.xml:199(phrase)
+msgid "Save Image Dialog"
+msgstr ""
+
+#: src/tutorial/quickies.xml:209(para)
+msgid ""
+"I usually type the full filename with extension into Name text box, and "
+"<acronym>GIMP</acronym> determines the file type from the file extension; "
+"for example, .jpg. Use the file extension list, circled in the figure above, "
+"to see the types supported by <acronym>GIMP</acronym>. The supported "
+"extensions change depending on your installed libraries. If <acronym>GIMP</"
+"acronym> complains, or if <quote>JPEG</quote> is grayed out in the "
+"Extensions menu, cancel out of everything and step through the <xref linkend="
+"\"gimp-tutorial-quickie-change-mode\"/>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:221(para)
+msgid ""
+"The Save as JPEG dialog uses default values that reduce size while retaining "
+"good visual quality; this is the safest and quickest thing to do."
+msgstr ""
+
+#: src/tutorial/quickies.xml:228(phrase)
+msgid "Save as JEPG dialog with poor quality."
+msgstr ""
+
+#: src/tutorial/quickies.xml:236(para)
+msgid ""
+"Reduce the image Quality to make the image even smaller. Reduced quality "
+"degrades the image, so be certain to check <quote>Show preview in image "
+"window</quote>. As shown in the figure above, a Quality of 6 produces a very "
+"poor quality image that uses very little disk space. The figure below shows "
+"a more reasonable image. A quality of 42 produces a reasonable image using "
+"much less disk space, which will, in turn, load much faster on a web page. "
+"Although the image is degraded, it is acceptable for the intended purpose."
+msgstr ""
+
+#: src/tutorial/quickies.xml:249(phrase)
+msgid "Dialog for Image Saving as JPEG"
+msgstr ""
+
+#: src/tutorial/quickies.xml:257(para)
+msgid ""
+"I have not been showing the actual jpegs I created so that we could end this "
+"quickie with a race."
+msgstr ""
+
+#: src/tutorial/quickies.xml:263(phrase)
+msgid "Example for High JPEG Compression"
+msgstr ""
+
+#: src/tutorial/quickies.xml:270(para)
+msgid "Quality: 6; Size: 1361 Bytes"
+msgstr ""
+
+#: src/tutorial/quickies.xml:278(para)
+msgid "Quality: 42; Size: 3549 Bytes"
+msgstr ""
+
+#: src/tutorial/quickies.xml:284(phrase)
+msgid "Example for Moderate JPEG Compression"
+msgstr ""
+
+#: src/tutorial/quickies.xml:291(para)
+msgid "Quality: 85 (<acronym>GIMP</acronym>s default); Size: 6837 Bytes"
+msgstr ""
+
+#: src/tutorial/quickies.xml:301(para)
+msgid "Quality: 100; Size: 20,971 Bytes"
+msgstr ""
+
+#: src/tutorial/quickies.xml:308(phrase)
+msgid "Crop An Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:315(secondary)
+msgid "crop"
+msgstr ""
+
+#: src/tutorial/quickies.xml:319(phrase)
+msgid "Example Image for Cropping"
+msgstr ""
+
+#: src/tutorial/quickies.xml:326(para) src/tutorial/quickies.xml:695(para)
+msgid "Source image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:334(para)
+msgid "Image after cropping"
+msgstr ""
+
+#: src/tutorial/quickies.xml:338(para)
+msgid ""
+"There are many reasons to crop an image; for example, fitting an image to "
+"fill a frame, removing a portion of the background to emphasize the subject, "
+"etc. There are two methods to activate the crop tool. Click the <placeholder-"
+"1/> button in the Toolbox, or use <menuchoice><guimenu>Tools</"
+"guimenu><guisubmenu>Transform Tools</guisubmenu><guimenuitem>Crop</"
+"guimenuitem></menuchoice> in the image window. This will change the cursor "
+"and allow you to click and drag a rectangular shape. The button in the "
+"toolbox is the nicest way to get to any of the tools. I have chosen one of "
+"the huge and beautiful APOD images <xref linkend=\"bibliography-online-apod05"
+"\"/>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:358(phrase)
+msgid "Select a Region to Crop"
+msgstr ""
+
+#: src/tutorial/quickies.xml:366(para)
+msgid ""
+"I always click on the approximate upper left corner and drag to the lower "
+"right corner; the approximate path is shown in red. You don't need to worry "
+"about being accurate on this first swipe with the crop tool."
+msgstr ""
+
+#: src/tutorial/quickies.xml:374(phrase)
+msgid "Dialog for Cropping"
+msgstr ""
+
+#: src/tutorial/quickies.xml:382(para)
+msgid ""
+"After completing the click and drag motion, a rectangle with special regions "
+"show the selected area. As the cursor is moved over the different areas of "
+"the selected crop area, the cursor changes. You can then drag the cursor to "
+"change the dimensions of the selected area. As shown in the figure above, as "
+"the crop area is resized, the dimensions and ratio are shown in the status "
+"bar. See <xref linkend=\"gimp-tool-crop\"/> for more information on cropping "
+"in <acronym>GIMP</acronym>. If you would like to make this rectangular image "
+"square, you should find the width and height from the Get Image Information "
+"Quickie (see <xref linkend=\"gimp-tutorial-quickie-info\"/>. Use the "
+"smallest of the two lengths to determine the size of the square. In my 300 x "
+"225 pixel image, the largest square I can get is 225 x 225 pixels. Use the "
+"image and the squares to get the best part of the image for the area. Use "
+"any of the areas to move the edges and change the dimensions to achieve the "
+"image that you prefer. Double click in the area to crop the image."
+msgstr ""
+
+#: src/tutorial/quickies.xml:406(phrase)
+msgid "Find Info About Your Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:413(secondary)
+msgid "information"
+msgstr ""
+
+#: src/tutorial/quickies.xml:417(phrase)
+msgid "Finding Info"
+msgstr ""
+
+#: src/tutorial/quickies.xml:425(para)
+msgid ""
+"This example uses another image image from APOD <xref linkend=\"bibliography-"
+"online-apod06\"/>. Much information is available directly from the Image "
+"Window; for example, the image dimensions.Use <menuchoice><guimenu>Image</"
+"guimenu><guimenuitem>Image Properties</guimenuitem></menuchoice> to open the "
+"Image Properties dialog, which contains even more information."
+msgstr ""
+
+#: src/tutorial/quickies.xml:438(phrase)
+msgid "Image Properties Dialog"
+msgstr ""
+
+#: src/tutorial/quickies.xml:446(para)
+msgid ""
+"If you are just making a square out of a rectangle, like in the <xref "
+"linkend=\"gimp-tutorial-quickie-crop\"/>, it is fast and easy to find the "
+"smallest dimension. you need only to open the dialog and find the lesser "
+"length and use that as described. Since this is very little information, and "
+"definitely not enough to fill the space between the menu thumbnail and the "
+"dialog screenshot in my layout, I thought I would run through some "
+"calculator exercises that might help you to meet your image needs."
+msgstr ""
+
+#: src/tutorial/quickies.xml:458(phrase)
+msgid "Scale Problem"
+msgstr ""
+
+#: src/tutorial/quickies.xml:466(para)
+msgid ""
+"It is nice to have images appear on a browser window as a photo would. "
+"Photos online appear to be 4x6 inches when scaled to 288x432 pixels (72 dpi "
+"for many monitors). There is a problem, however, if you try to scale this "
+"image. The ratio of width to length of the original does not match the ratio "
+"of the photo. So, to make the scaled image the correct size some pixels must "
+"be cropped from the height. The final image will <quote>appear</quote> as a "
+"6x4 inch photo on many monitors."
+msgstr ""
+
+#: src/tutorial/quickies.xml:477(phrase)
+msgid "Problem Solved by Cropping"
+msgstr ""
+
+#: src/tutorial/quickies.xml:485(para)
+msgid ""
+"There are problems when mixing scanned photos, digital photos, and scanned "
+"negatives. Many film developing machines automatically crop portions of the "
+"image so that they will match the printing size, or a certain style. If you "
+"are preparing an image to be printed on a machine like this; or if you are "
+"planning on a gallery where the images are from different sources, some "
+"intelligent cropping to fit the best size for the medium you have chosen "
+"will be a plus. If this is confusing; please blame the photo printing "
+"industry and not <acronym>GIMP</acronym>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:496(para)
+msgid ""
+"You can change the Resolution of your image as well, using the same methods "
+"we used to Scale the image, although, in my somewhat limited use, the issue "
+"is more about how many pixels. Let's say you want to print an image at a "
+"photo lab. 300 pixels for every inch is preferred. An image that is "
+"2241x1548 pixels will easily print as a 7 x 5 photo. 2241px/300ppi = 7.47 "
+"in. Get your calculator for the short side. 1548/300 = _."
+msgstr ""
+
+#: src/tutorial/quickies.xml:506(para)
+msgid ""
+"There is another brutal fact you should come to terms with if you are new to "
+"graphics and computers. Just because it looks good on the screen doesn't "
+"mean that it will print nicely. I tried to emulate how this image would "
+"appear printed at 300dpi. Sorry. There are some options, for instance my "
+"friend printed images and then scanned them back in. Terrible business!"
+msgstr ""
+
+#: src/tutorial/quickies.xml:516(phrase)
+msgid "Actual printing result of example image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:527(phrase)
+msgid "Change the Mode"
+msgstr ""
+
+#: src/tutorial/quickies.xml:534(secondary)
+msgid "change Mode"
+msgstr ""
+
+#: src/tutorial/quickies.xml:536(para)
+msgid ""
+"As with anything else, images come in different kinds and serve different "
+"purposes. Sometimes, a small size is important (for web sites) and at other "
+"times, retaining a high color depth in all its glory (a family portrait) is "
+"what you want. <acronym>GIMP</acronym> can handle all of this, and more, "
+"primarily by converting between three fundamental modes, as seen in this "
+"menu. In order to switch your image to one of these modes, you open it and "
+"follow that menu and click the mode you want."
+msgstr ""
+
+#: src/tutorial/quickies.xml:548(phrase)
+msgid "Dialog for changing the mode"
+msgstr ""
+
+#: src/tutorial/quickies.xml:556(para)
+msgid ""
+"<emphasis>RGB</emphasis> - This is the default mode, used for high quality "
+"rich color images. This is also the mode for most of your image work "
+"including scaling, cropping, and even flipping, as it gives the computer "
+"more information to work with. The extra information also makes RGB Mode the "
+"largest to store as a result."
+msgstr ""
+
+#: src/tutorial/quickies.xml:563(para)
+msgid ""
+"A little bit of detail if you are interested. Each pixel or point when in "
+"this mode consists of three different components. R-&gt;Red, G-&gt;Green, B-"
+"&gt;Blue. Each of these in turn can have an intensity value of 0-255. So, at "
+"every pixel, what you see is an additive combination of these three "
+"components. All these combinations result in a way to represent millions of "
+"colors."
+msgstr ""
+
+#. <para>
+#.       As an example to practice with images have been provided in various
+#.       sizes and formats. Indexed images of different sizes: from a very old
+#.       APOD a small gif and a larger gif of the same image from a later APOD.
+#.       Also the same image in RGB as provided by Earth Observatory a smaller
+#.       version and a huge version.
+#.     </para>
+#: src/tutorial/quickies.xml:580(para)
+msgid ""
+"<emphasis>Indexed</emphasis> - This is the mode usually used when file size "
+"is of concern, or when you are working with images with few colors. It "
+"involves using a fixed number of colors, 256 or less, at each point to "
+"represent the color at that point. The defaults to attempting to figure out "
+"an \"optimum palette\" to best represent your image. Try it, you can undo it "
+"if you don't like the results, or use a custom palette or more colors."
+msgstr ""
+
+#: src/tutorial/quickies.xml:591(quote)
+msgid "Change to Indexed Colors"
+msgstr ""
+
+#: src/tutorial/quickies.xml:590(phrase) src/tutorial/quickies.xml:663(phrase)
+msgid "Dialog <placeholder-1/>"
+msgstr ""
+
+#: src/tutorial/quickies.xml:600(para)
+msgid ""
+"As you might expect, since the information needed to represent the color at "
+"each pixel is less, the file size is smaller. However, sometimes, there are "
+"options in the various menus that are \"greyed\" out for no apparent reason. "
+"This usually means that the filter or option cannot be applied when your "
+"image is in its current mode. Changing the mode to RGB, as outlined above, "
+"should solve this issue. If RGB mode doesn't work either, perhaps the option "
+"you're trying requires your layer to have the ability to be transparent. "
+"This can be done just as easily via <menuchoice><guimenu>Layer</"
+"guimenu><guimenuitem>Transparency</guimenuitem><guimenuitem>Add Alpha "
+"Channel</guimenuitem></menuchoice>."
+msgstr ""
+
+#: src/tutorial/quickies.xml:619(phrase)
+msgid "Add Alpha Channel"
+msgstr ""
+
+#: src/tutorial/quickies.xml:627(para)
+msgid ""
+"<emphasis>Grayscale</emphasis> - In case you want to convert your brilliant "
+"color image to something that's black and white (with a lot of shades of "
+"grey), this is one of the easiest ways in which to do it. Some photos do "
+"look a lot fancier when displayed in grayscale. Again, if you're interested "
+"in some detail, this is achieved by taking the RGB values at the pixels in "
+"your image, and suitably weighted averaging them to get an intensity at that "
+"point."
+msgstr ""
+
+#: src/tutorial/quickies.xml:635(para)
+msgid ""
+"There is no need to convert an image to a specific mode before saving it in "
+"your favourite format, as <acronym>GIMP</acronym> is smart enough to "
+"properly export the image."
+msgstr ""
+
+#: src/tutorial/quickies.xml:643(phrase)
+msgid "Flip An Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:650(secondary)
+msgid "Flip"
+msgstr ""
+
+#: src/tutorial/quickies.xml:652(para)
+msgid ""
+"When you need the person in the photo looking in the other direction, or you "
+"need the top of the image to be the bottom. Mirroring the image (sort of). "
+"Use <menuchoice><guimenu>Tools</guimenu><guisubmenu>Transform Tools</"
+"guisubmenu><guimenuitem>Flip</guimenuitem></menuchoice>, or use the "
+"<placeholder-1/> button on the toolbox."
+msgstr ""
+
+#: src/tutorial/quickies.xml:663(quote)
+msgid "Flip an Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:671(para)
+msgid ""
+"Using another APOD image <xref linkend=\"bibliography-online-apod07\"/> I "
+"demonstrated all of the flips on this image."
+msgstr ""
+
+#: src/tutorial/quickies.xml:676(para)
+msgid ""
+"The tool used as is (the default) will simply flip the image at its vertical "
+"axis. If you double click on the button,the tool options dialog will open, "
+"if it is not already displayed in the dock under the toolbox. Use the "
+"options dialog to switch between horizontal and vertical. You can also use "
+"the <keycap>Ctrl</keycap> key to switch between horizontal and vertical. All "
+"possible flips are displayed in this page."
+msgstr ""
+
+#: src/tutorial/quickies.xml:687(phrase)
+msgid "Example Image to Flip"
+msgstr ""
+
+#: src/tutorial/quickies.xml:703(para)
+msgid "Horizontal flipped image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:713(para)
+msgid "Vertical flipped image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:721(para)
+msgid "Horizontal and vertical flipped image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:729(phrase) src/tutorial/quickies.xml:740(quote)
+#: src/tutorial/quickies.xml:758(quote)
+msgid "Rotate An Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:736(secondary)
+msgid "Rotate"
+msgstr ""
+
+#: src/tutorial/quickies.xml:740(phrase)
+msgid "Menu for <placeholder-1/>"
+msgstr ""
+
+#: src/tutorial/quickies.xml:748(para)
+msgid ""
+"Let's say you turned your brand new digital camera to get a vertical shot, "
+"now some of your images are on their sides. Use <menuchoice><guimenu>Image</"
+"guimenu><guisubmenu>Transform</guisubmenu><guimenuitem>Rotate 90° clockwise</"
+"guimenuitem></menuchoice>. Using an APOD image. I rotated it once to "
+"demonstrate 90 degrees CCW."
+msgstr ""
+
+#: src/tutorial/quickies.xml:758(phrase)
+msgid "Example for <placeholder-1/>"
+msgstr ""
+
+#: src/tutorial/quickies.xml:765(para)
+msgid "Source Image"
+msgstr ""
+
+#: src/tutorial/quickies.xml:773(para)
+msgid "Rotated image 90 degree CCW"
+msgstr ""
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: src/tutorial/quickies.xml:0(None)
+msgid "translator-credits"
+msgstr ""

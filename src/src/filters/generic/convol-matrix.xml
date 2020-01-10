@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2008-12-09 ude: moved "activate filter" paras to separate sect3
+  2008-06-01 j.h: adopted 'de' example.
+  2007-08-23 AntI: added 'es'
+  2007-04-17 KoSt: added 'no'
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  2005-08-30 de replaced informalfigure by axel.wernicke
+  2005-09-01 de added by axel.wernicke
+-->
+<sect2 id="plug-in-convmatrix">
+  <title>Convolution Matrix</title>
+
+  <indexterm>
+    <primary>Filters</primary>
+    <secondary>Generic</secondary>
+    <tertiary>Convolution Matrix</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Convolution Matrix</primary>
+  </indexterm>
+
+  <sect3>
+    <title>Overview</title>
+    <para>
+      Here is a mathematician's domain. Most of filters are using convolution
+      matrix. With the Convolution Matrix filter, if the fancy takes you, you
+      can build a custom filter.
+    </para>
+    <para>
+      What is a convolution matrix? It's possible to get a rough idea of it
+      without using mathematical tools that only a few ones know. Convolution
+      is the treatment of a matrix by another one which is called
+      <quote>kernel</quote>.
+    </para>
+    <para>
+      The Convolution Matrix filter uses a first matrix which is the Image to
+      be treated. The image is a bi-dimensional collection of pixels in
+      rectangular coordinates. The used kernel depends on the effect you want.
+    </para>
+    <para>
+      GIMP uses 5x5 or 3x3 matrices. We will consider only 3x3 matrices, they
+      are the most used and they are enough for all effects you want. If all
+      border values of a kernel are set to zero, then system will consider it
+      as a 3x3 matrix.
+    </para>
+    <para>
+      The filter studies successively every pixel of the image. For each of
+      them, which we will call the <quote>initial pixel</quote>, it
+      multiplies the value of this pixel and values of the 8 surrounding
+      pixels by the kernel corresponding value. Then it adds the results,
+      and the initial pixel is set to this final result value.
+    </para>
+    <para>
+      A simple example:
+    </para>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/filters/examples/convolution-calculate.png"/>
+      </imageobject>
+    </mediaobject>
+    <para>
+      On the left is the image matrix: each pixel is marked with its value.
+      The initial pixel has a red border. The kernel action area has a green
+      border. In the middle is the kernel and, on the right is the convolution
+      result.
+    </para>
+    <para>
+      Here is what happened: the filter read successively, from left to right
+      and from top to bottom, all the pixels of the kernel action area. It
+      multiplied the value of each of them by the kernel corresponding value
+      and added results. The initial pixel has become 42:
+      (40*0)+(42*1)+(46*0) + (46*0)+(50*0)+(55*0) + (52*0)+(56*0)+(58*0) = 42.
+      (the filter doesn't work on the image but on a copy). As a graphical
+      result, the initial pixel moved a pixel downwards.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Activating the filter</title>
+    <para>
+      This filter is found in the image window menu under
+      <menuchoice>
+        <guimenu>Filters</guimenu>
+        <guisubmenu>Generic</guisubmenu>
+        <guimenuitem>Convolution Matrix</guimenuitem>
+      </menuchoice>.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title><quote>Convolution matrix</quote> options</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/generic/convolution.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Matrix</term>
+        <listitem>
+          <para>
+            This is the 5x5 kernel matrix: you enter wanted values directly
+            into boxes.
+          </para>
+          <variablelist>
+            <varlistentry>
+              <term><guilabel>Divisor</guilabel></term>
+              <listitem>
+                <para>
+                  The result of previous calculation will be divided by this
+                  divisor. You will hardly use 1, which lets result unchanged,
+                  and 9 or 25 according to matrix size, which gives the
+                  average of pixel values.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term><guilabel>Offset</guilabel></term>
+              <listitem>
+                <para>
+                  This value is added to the division result. This is useful
+                  if result may be negative. This offset may be negative.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Border</term>
+        <listitem>
+          <para>
+            When the initial pixel is on a border, a part of kernel is out of
+            image. You have to decide what filter must do:
+          </para>
+          <para>
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/filters/generic/convolution-milord.png"/>
+              </imageobject>
+            </inlinemediaobject>
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/filters/generic/convolution-extend.png"/>
+              </imageobject>
+            </inlinemediaobject>
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/filters/generic/convolution-wrap.png"/>
+              </imageobject>
+            </inlinemediaobject>
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/filters/generic/convolution-crop.png"/>
+              </imageobject>
+            </inlinemediaobject>
+          </para>
+          <para>
+            From left: source image, <guilabel>Extend</guilabel> border,
+            <guilabel>Wrap</guilabel> border, <guilabel>Crop</guilabel> border
+          </para>
+          <variablelist>
+            <varlistentry>
+              <term><guilabel>Extend</guilabel></term>
+              <listitem>
+                <para>This part of kernel is not taken into account.</para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term><guilabel>Wrap</guilabel></term>
+              <listitem>
+                <para>
+                  This part of kernel will study pixels of the opposite
+                  border, so pixels disappearing from one side reappear on the
+                  other side.
+                </para>
+              </listitem>
+            </varlistentry>
+            <varlistentry>
+              <term><guilabel>Crop</guilabel></term>
+              <listitem>
+                <para>
+                  Pixels on borders are not modified, but they are cropped.
+                </para>
+              </listitem>
+            </varlistentry>
+          </variablelist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Channels</term>
+        <listitem>
+          <para>
+            You can select there one or several channels the filter will work
+            with.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Normalise</term>
+        <listitem>
+          <para>
+            If this option is checked, The Divisor takes the result value of
+            convolution. If this result is equal to zero (it's not possible
+            to divide by zero), then a 128 offset is applied. If it is
+            negative (a negative color is not possible), a 255 offset is
+            applied (inverts result).
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Alpha-weighting</term>
+        <listitem>
+          <para>
+            If this option is not checked, the filter doesn't take in account
+            transparency and this may be cause of some artefacts when
+            blurring.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3>
+    <title>Examples</title>
+    <para>
+      Design of kernels is based on high levels mathematics. You can find
+      ready-made kernels on the Web. Here are a few examples:
+    </para>
+    <figure>
+      <title>Sharpen</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/examples/convolution-sharpen.png"/>
+        </imageobject>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/generic-taj-convmatrix-sharpen.jpg"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Blur</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/examples/convolution-blur.png"/>
+        </imageobject>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/generic-taj-convmatrix-blur.jpg"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Edge enhance</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/examples/convolution-edge.png"/>
+        </imageobject>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/generic-taj-convmatrix-edge-enhance.jpg"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Edge detect</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/examples/convolution-edge-detect1.png"/>
+        </imageobject>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/generic-taj-convmatrix-edge-detect.jpg"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <figure>
+      <title>Emboss</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/filters/examples/convolution-emboss.png"/>
+        </imageobject>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/generic-taj-convmatrix-emboss.jpg"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+  </sect3>
+</sect2>

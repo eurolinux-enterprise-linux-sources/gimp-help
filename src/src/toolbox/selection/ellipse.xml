@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-05-03 j.h: update to v2.8
+  2008-03-19 JPL:  rewieved
+  2007-02-12 PP: rewieved
+  2007-10-05 lexa: reviewed de for GIMP 2.4
+  2006-03-30 lexa: added docbook compliance
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  2005-12-01 informalfigure replaced by figure by lexa
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-ellipse-select">
+  <title>Ellipse Selection</title>
+
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Ellipse Selection</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Selection</primary>
+    <secondary>Ellipse selection</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Ellipse Selection Tool</primary>
+  </indexterm>
+
+  <figure>
+    <title>Ellipse Select icon in the Toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/toolbox/toolbox-ellipsel.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The Ellipse Selection tool is designed to select circular and elliptical
+    regions from an image, with high-quality anti-aliasing if you want it. For
+    information on selections and how they are used in GIMP see
+    <link linkend="gimp-concepts-selection">Selections</link>;
+    for information on features common to all selection tools see
+    <link linkend="gimp-tool-select">Selection Tools</link>.
+  </para>
+  <para>
+    This tool is also used for rendering a circle or ellipse on an image. To
+    render a filled ellipse, create an elliptical selection, and then fill it
+    using the <link linkend="gimp-tool-bucket-fill">Bucket Fill tool</link>.
+    To create an elliptical outline, the simplest and most flexible approach
+    is to create an elliptical selection and then
+    <link linkend="gimp-selection-stroke">stroke</link>
+    it. However, the quality of anti-aliasing with this approach is rather
+    crude. A higher quality outline can be obtained by creating two elliptical
+    selections with different sizes, subtracting the inner one from the outer
+    one; however this is not always easy to get right. The command
+    <menuchoice>
+      <guimenu>Select</guimenu>
+      <guimenuitem>Border...</guimenuitem>
+    </menuchoice>
+    makes it easy.
+  </para>
+
+  <sect3>
+    <title>Activating the tool</title>
+    <para>
+      You can access the Ellipse Selection Tool in different ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From the image menu bar
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Selection Tools</guisubmenu>
+            <guimenuitem>Ellipse Select</guimenuitem>
+          </menuchoice>;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          By clicking on the tool icon
+          <guiicon>
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata fileref="images/toolbox/stock-tool-ellipse-select-22.png"/>
+              </imageobject>
+            </inlinemediaobject>
+          </guiicon>
+          in the ToolBox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          By using the keyboard shortcut <keycap>E</keycap>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers</title>
+
+    <xi:include href="about-common-select-modifiers.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term><keycap>Ctrl</keycap></term>
+        <listitem>
+          <para>
+            Pressing the key after starting your selection, and holding it
+            down until you are finished, causes your starting point to be used
+            as the center of the selected ellipse, instead of a corner of the
+            rectangle that may contain it. Note that if you press the
+            <keycap>Ctrl</keycap> key <emphasis>before</emphasis>
+            starting to make the selection, the resulting selection will be
+            subtracted from the existing selection.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term><keycap>Shift</keycap></term>
+        <listitem>
+          <para>
+            Pressing the <keycap>Shift</keycap> key after starting your
+            selection, and holding it down until you are finished, constrains
+            the selection to be a circle. Note that if you press the
+            <keycap>Shift</keycap> key <emphasis>before</emphasis>
+            starting to make the selection, the resulting selection will be
+            added to the existing selection.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>
+          <keycombo>
+            <keycap>Ctrl</keycap>
+            <keycap>Shift</keycap>
+          </keycombo>
+        </term>
+        <listitem>
+          <para>
+            Pressing both keys combines the two effects, giving you a circular
+            selection centered on your starting point.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3 id="tool-ellipse-select-manip">
+    <title>Tool handling</title>
+    <figure>
+      <title>Example of Ellipse Selection. </title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/ellipse-selection.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <para>
+      When this tool is selected the mouse pointer comes with a circle icon
+      as soon as it is over the image. A drag-and-drop allows you to
+      get an ellipse (or a circle) within a rectangular box.
+      When the mouse button is relaxed, a dotted line (<quote>marching
+      ants</quote>) outlines the elliptic selection. It's not necessary to
+      adjust the selection with care; you can resize it easily later.
+    </para>
+    <para>
+      When the pointer is moving on the canvas, the pointer and selection
+      aspects change. You can change the size of the selection by using
+      handles. See
+      <link linkend="tool-rect-select-manip">Tool handling</link> within
+      the rectangular chapter.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>Tool Options for the Ellipse Select tool</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/tool-options-ellipsel.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <xi:include href="about-common-select-options.xml"/>
+      <varlistentry>
+        <term>Modes; Antialiasing; Feather edges</term>
+        <listitem>
+          <para>Common select options.</para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>All other options</term>
+        <listitem>
+          <para>
+            All these options work exactly the same way, they were described
+            for the rectangular selection already. See for
+            <xref linkend="tool-rect-select-options"/> details.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

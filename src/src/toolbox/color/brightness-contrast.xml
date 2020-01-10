@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+     2009-03-11 j.h: revised for v2.6. Added Presets
+     2008-01-16 j.h updated "en;fr" to v2.4
+     2007-06-06 kost: added 'no'
+     2007-04-15 Added Spanish translation by AntI
+     2006-02-04 fr revised by j.h
+     2005-08-07 de reviewed and restructured by axel.wernicke
+     2005-05-31 en revised Bill Skaggs
+     -->
+<sect2 id="gimp-tool-brightness-contrast">
+  <title>Brightness-Contrast</title>
+
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Brightness-Contrast</secondary>
+  </indexterm>
+
+  <para>
+    The Brightness-Contrast tool adjusts the brightness and contrast levels
+    for the active layer or selection. This tool is easy to use, but
+    relatively unsophisticated. The Levels and Curve tools allow you to make
+    the same types of adjustments, but also give you the ability to treat
+    bright colors differently from darker colors. Generally speaking, the BC
+    tool is great for doing a "quick and dirty" adjustment in a few seconds,
+    but if the image is important and you want it to look as good as possible,
+    you will use one of the other tools.
+  </para>
+  <para>
+    In GIMP 2.4, a new way of operating this tool has been added: by
+    clicking the mouse inside the image, and dragging while keeping the
+    left mouse button down. Moving the mouse vertically changes the
+    brightness; moving horizontally changes the contrast. When you are
+    satisfied with the result, you can either press the
+    <guilabel>OK</guilabel> button on the dialog, or hit the
+    <keycap>Return</keycap> key on your keyboard.
+  </para>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>
+      You can get to the Brightness-Contrast tool in two ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          In the image-menu through:
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Color Tools</guisubmenu>
+            <guimenuitem>Brightness-Contrast</guimenuitem>
+          </menuchoice> or
+          <menuchoice>
+            <guimenu>Colors</guimenu>
+            <guimenuitem>Brightness-Contrast</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking the tool icon:
+          <guiicon>
+            <inlinegraphic
+                fileref="images/toolbox/stock-tool-brightness-contrast-22.png"/>
+          </guiicon>
+          in Toolbox, provided that you have installed color tools in Toolbox.
+          For this, please refer to <xref linkend="gimp-prefs-toolbox"/>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>Brightness-Contrast options dialog</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/tools-brightness.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Presets</term>
+        <listitem>
+          <para>
+            You can save the color settings of your image by clicking the
+            <guibutton>Add settings to favourites</guibutton> button
+            <guiicon>
+              <inlinegraphic fileref="images/toolbox/save-color-settings.png"/>
+            </guiicon>
+          </para>
+          <para>
+            The
+            <guiicon>
+              <inlinegraphic fileref="images/toolbox/presets-menu-icon.png"/>
+            </guiicon>
+            button opens a menu:
+          </para>
+          <figure>
+            <title>Preset Menu</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/toolbox/presets-menu.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para>
+            which lets you <guilabel>Import Settings from File</guilabel> or
+            <guilabel>Export Settings to File</guilabel>,
+            and gives you access to the Manage Save Settings dialog:
+          </para>
+          <figure>
+            <title>Manage saved Settings Dialog</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/toolbox/manage-saved-settings.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Brightness</term>
+        <listitem>
+          <para>
+            This slider sets a negative (to darken) or positive (to brighten)
+            value for the brightness, decreasing or increasing bright tones.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Contrast</term>
+        <listitem>
+          <para>
+            This slider sets a negative (to decrease) or positive (to
+            increase) value for the contrast.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Edit these settings as Levels</term>
+        <listitem>
+          <para>
+            To make your work easier, this button lets you turn to the
+            <link linkend="gimp-tool-levels">Levels</link> tool with the same
+            settings.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Preview</term>
+        <listitem>
+          <para>
+            The Preview check-box makes all changes to the brightness and
+            contrast dynamically so that the new level settings can be viewed
+            immediately.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

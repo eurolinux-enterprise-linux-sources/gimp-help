@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  section history:
+  2008-04-08 Mr.Dust : added 'ko'
+  2006-11-01 lexa: made the file docbook compliant
+  2008-01-28 jpl: update text & images
+-->
+<sect2 id="gimp-prefs-interface">
+  <title>Interface</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Interface</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Interface</primary>
+    <secondary>Preferences</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Navigation</primary>
+    <secondary>Preview size</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Preview</primary>
+    <secondary>Navigation preview size</secondary>
+  </indexterm>
+
+  <figure>
+    <title>Assorted Interface Preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/preferences/prefs-interface.png"/>
+      </imageobject>
+      <caption>
+        <para>
+          This page lets you customize language, layer/channel previews and
+          keyboard shortcuts.
+        </para>
+      </caption>
+    </mediaobject>
+  </figure>
+
+  <variablelist>
+    <title>Options</title>
+    <indexterm>
+      <primary>Languages</primary>
+    </indexterm>
+    <indexterm>
+      <primary>Previews</primary>
+    </indexterm>
+    <indexterm>
+      <primary>Keyboard Shortcuts</primary>
+    </indexterm>
+    <varlistentry>
+      <term>Language</term>
+      <listitem>
+        <para>
+          The GIMP's default language is that of your system. You can select
+          another language in the drop-down list. You have to start GIMP again
+          to make this change effective. Please refer to 
+          <xref linkend="gimp-concepts-running-language"/>.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Previews</term>
+      <listitem>
+        <para>
+          By default, GIMP shows miniature previews of the contents of
+          layers and channels in several places, including the Layers
+          dialog.  If for some reason you would prefer to disable
+          these, you can do it by unchecking <guilabel>Enable layer and
+          channel previews</guilabel>.  If you do want previews to be shown,
+          you can customize their sizes using the menus for <guilabel>Default
+          layer and channel preview size</guilabel> and <guilabel>Navigation
+          preview size</guilabel>.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry id="prefs-kbd-shortcuts" xreflabel="Keyboard Shortcuts">
+      <term>Keyboard Shortcuts</term>
+      <listitem>
+        <para>
+          Any menu item can be activated by holding down
+          <keycap>Alt</keycap> and pressing a sequence of keys.
+          Normally, the key associated with each menu entry is shown
+          as an underlined letter in the text, called <emphasis>
+          accelerator</emphasis>.  If for some reason you
+          would prefer the underlines to go away (maybe because you
+          think they're ugly and you don't use them anyway), then you
+          can make this happen by unchecking <guilabel>Show menu
+          mnemonics</guilabel>.
+        </para>
+        <para>
+          GIMP can give you the ability to create keyboard shortcuts
+          (key combinations that activate a menu entry) dynamically,
+          by pressing the keys while the pointer hovers over the
+          desired menu entry.  However, this capability is disabled by
+          default, because it might lead novice users to accidentally
+          overwrite the standard keyboard shortcuts.  If you want to
+          enable it, check <guilabel>Use dynamics keyboard shortcuts</guilabel>
+          here.
+        </para>
+        <para>
+          Pressing the button for <guilabel>Configure Keyboard
+          Shortcuts</guilabel> brings up the Shortcut Editor, which gives you
+          a graphical interface to select menu items and assign shortcuts
+          to them.
+        </para>
+        <para>
+          If you change shortcuts, you will probably want your changes
+          to continue to apply in future GIMP sessions.  If not,
+          uncheck <guilabel>Save keyboard shortcuts on exit</guilabel>. But
+          remember that you have done this, or you may be frustrated
+          later. If you don't want to save shortcuts on exit every
+          session, you can save the current settings at any time using the
+          <guilabel>Save Keyboard Shortcuts Now</guilabel> button, and they will
+          be applied to future sessions.  If you decide that you have made
+          some bad decisions concerning shortcuts, you can reset them to
+          their original state by pressing <guilabel>Reset Saved Keyboard
+          Shortcuts to Default Values</guilabel>.
+        </para>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</sect2>

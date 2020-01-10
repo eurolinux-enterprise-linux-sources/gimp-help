@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--  section history:
+  2008-04-16 Mr.Dust : added 'ko'
+  2007-05-25 Added Spanish translation by AntI
+  2007-03-23 KoSt: added 'no'
+  2006-11-01 lexa: made the file docbook compliant
+  2008-01-28 jpl: update text & images
+-->
+<sect2 id="gimp-prefs-image-window">
+  <title>Image Windows</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Image Windows</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Image Windows</primary>
+    <secondary>Preferences</secondary>
+  </indexterm>
+
+  <figure>
+    <title>General Image Window Preference</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/preferences/prefs-image-window.png"/>
+      </imageobject>
+      <caption>
+        <para>
+          This page lets you customize several aspects of the behaviour of
+          image windows.
+        </para>
+      </caption>
+    </mediaobject>
+  </figure>
+
+  <sect3>
+    <title>Options</title>
+    <variablelist>
+      <title>General</title>
+      <indexterm>
+        <primary>Dot for dot</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Marching ants speed</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Zoom</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Image size</primary>
+      </indexterm>
+      <varlistentry>
+        <term>Use <quote>Dot for dot</quote> by default</term>
+        <listitem>
+          <para>
+            Using <quote>Dot for dot</quote> means that at 1:1 zoom, each
+            pixel is the image is scaled to one pixel on the display. If
+            <quote>Dot for dot</quote> is not used, then the displayed image
+            size is determined by the X and Y resolution of the image. See the
+            <link linkend="gimp-image-scale">Scale Image</link> section for
+            more information.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Marching ants speed</term>
+        <listitem>
+          <para>
+          When you create a selection, the edge of it is shown as a dashed
+          line with dashes that appear to move, marching slowly along the
+          boundary: they are jokingly called <quote>marching ants</quote>.
+          The smaller the value entered here, the faster the ants march
+          (and consequently the more distracting they are!).
+        </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Zoom and Resize Behavior</title>
+      <indexterm>
+        <primary>Image</primary>
+        <secondary>Resize after zooming or scaling</secondary>
+      </indexterm>
+      <varlistentry>
+        <term>Resize window on zoom</term>
+        <listitem>
+          <para>
+            If this option is checked, then each time you zoom the image, the
+            image window will automatically resize to follow it. Otherwise,
+            the image window will maintain the same size when you zoom the
+            image.
+        </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Resize window on image size change</term>
+        <listitem>
+          <para>
+            If this option is checked, then each time change the size of the
+            image, by cropping or resizing it, the image window will
+            automatically resize to follow. Otherwise, the image window will
+            maintain the same size.
+        </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Initial zoom ratio</term>
+        <listitem>
+          <para>
+            You can choose either to have images, when they are first opened,
+            scaled so that the whole image fits comfortably on your display,
+            or else shown at 1:1 zoom. If you choose the second option, and
+            the image is too large to fit on your display, then the image
+            window will show only part of it (but you will be able to scroll
+            to other parts).
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Space bar</title>
+      <indexterm>
+        <primary>Space bar</primary>
+      </indexterm>
+      <varlistentry>
+        <term>While space bar is pressed</term>
+        <listitem>
+          <itemizedlist>
+            <listitem>
+              <para><guilabel>Pan view</guilabel> (default) or</para>
+            </listitem>
+            <listitem>
+              <para><guilabel>Toogle to Move Tool</guilabel></para>
+            </listitem>
+            <listitem>
+              <para><guilabel>No action</guilabel></para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <title>Mouse Cursors</title>
+      <indexterm>
+        <primary>Mouse cursors</primary>
+      </indexterm>
+      <varlistentry>
+        <term>Show brush outline</term>
+        <listitem>
+          <para>
+            If this option is checked, then when you use a paint tool, the
+            outline of the brush will be shown on the image as you move the
+            pointer around. On slow systems, if the brush is very large, this
+            could occasionally cause some lag in GIMP's ability to follow your
+            movements: if so, switching this off might help. Otherwise, you
+            will probably find it quite useful.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Show paint tool cursor</term>
+        <listitem>
+          <para>
+            If this is checked, a cursor will be shown. This is in addition to
+            the brush outline, if the brush outline is being shown. The type
+            of cursor is determined by the next option.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Cursor mode</term>
+        <listitem>
+          <para>
+            This option has no effect unless <guilabel>Show paint tool
+            cursor</guilabel> is checked.  If it is, you have three choices:
+            <guilabel>Tool icon</guilabel>, which causes a small iconic
+            representation of the currently active tool to be shown beside
+            the cursor; <guilabel>Tool icon with crosshair</guilabel>, which
+            shows the icon as well as a crosshair indicating the center of
+            the cursor; or <guilabel>Crosshair only</guilabel>.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Cursor rendering</term>
+        <listitem>
+          <para>
+            If you choose <quote>Fancy</quote> here, the cursor is drawn in
+            grayscale.  If you choose <quote>Black and White</quote>, it is
+            drawn in a simpler way that may speed things up a little bit if
+            you have speed issues.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-05-02 j.h: update to v2.8
+  2008-12-15 j.h: updated to v2.6
+  2007-09-16 j.h : updated  to v2.4
+  2006-09-03 lexa: streamlined structure to match the description of other dilogs
+  2006-04-29 made docbook compliant
+  2005-11-29 replaced informalfigures by figures by lexa
+-->
+<sect2 id="gimp-image-dialog">
+  <title>Images Dialog</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Images</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Image</primary>
+  </indexterm>
+
+  <figure>
+    <title>The Images dialog</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/dialogs/images-dialog.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The <quote>Images</quote> Dialog displays the list of open images on your
+    screen; each of them is represented with a thumbnail. This dialog is
+    useful when you have many overlapping images on your screen: thus, you
+    can raise the wanted image to foreground.
+  </para>
+
+  <sect3>
+    <title>Activating the dialog</title>
+    <para>
+      The <quote>Images</quote> dialog is a dockable dialog; see the section
+      <xref linkend="gimp-concepts-docks"/> for help on manipulating it.
+    </para>
+    <para>
+      You can access it:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          from the image menu:
+          <menuchoice>
+            <guimenu>Windows</guimenu>
+            <guisubmenu>Dockable Dialogs</guisubmenu>
+            <guimenuitem>Images</guimenuitem>
+          </menuchoice>;
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          from the Tab menu in any dockable dialog by clicking on
+          <guiicon>
+            <inlinegraphic fileref="images/dialogs/stock-menu-left-12.png"/>
+          </guiicon> and selecting
+          <menuchoice>
+            <guimenu>Add Tab</guimenu>
+            <guimenuitem>Images</guimenuitem>
+          </menuchoice>.
+        </para>
+      </listitem>
+    </itemizedlist>
+    <para>
+      In the <guimenu>Windows</guimenu> menu, there is a list of
+      <link linkend="gimp-dockable-menu">detached windows</link> which exists
+      only if at least one dialog remains open. In this case, you can raise
+      the <quote>Images</quote> dialog from the image-menu:
+      <menuchoice>
+        <guimenu>Windows</guimenu>
+        <guimenuitem>Images</guimenuitem>
+      </menuchoice>.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Using the Images dialog</title>
+    <para>
+      In multi-window mode, at the top of the dialog, a drop-list of open images
+      appears if the <quote>Show Image Selection</quote> option is checked
+      in the Tab Menu.
+    </para>
+    <para>
+      At center, open images appear, as a list or a grid, according to the
+      selected mode. The current image is highlighted in list mode, outlined
+      in grid mode. With a double click on an image name,  you raise this
+      image to the foreground of your screen. With a simple click you select
+      this image so that the buttons of the dialog can act on it.
+    </para>
+    <variablelist>
+      <varlistentry>
+        <term>Grid and List modes, preview size</term>
+        <listitem>
+          <para>
+            In the Tab menu for the <quote>Images</quote> dialog, you can choose
+            between  <guimenuitem>View as Grid</guimenuitem> and
+            <guimenuitem>View as List</guimenuitem>.
+            In Grid mode, the images are laid out in a rectangular array.
+            In List mode, they are lined up vertically, with each row showing
+            a thumbnail of the contents of the image, its name, and its pixel
+            dimensions.
+          </para>
+          <tip>
+            <para>
+              <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>
+              opens a search field.
+              See <xref linkend="gimp-dock-view-as-list" />
+            </para>
+          </tip>
+          <para>
+            You can change the size of the image previews in the dialog using
+            the <quote>Preview Size</quote> submenu of the dialog's Tab menu.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+    <variablelist>
+      <varlistentry>
+        <term>Buttons</term>
+        <listitem>
+          <para>
+            Three buttons at the bottom of the dialog allow you to operate on
+            the selected image. These buttons are present if the <quote>Show
+            button bar</quote> is checked in the tab dialog. You can get the
+            same commands through the pop menu by right-clicking on the dialog.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Raise this image displays</term>
+        <listitem>
+          <para>
+            The selected image appears at the foreground of your screen. If
+            this image has another view, this view also is raised but
+            remains behind the original. The same option in the pop-up menu,
+            that you get by right-clicking, is called <quote>Raise views
+            </quote>
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Create a new display for this image</term>
+        <listitem>
+          <para>
+            Duplicates the image window (not the image) of the selected image.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Delete</term>
+        <listitem>
+          <para>
+            This command works only on a image which is loaded without any
+            window.  Though images can be opened by the New Window command,
+            if the image has been already loaded without window by a
+            primitive procedure command (such as
+            <function>gimp-image-new</function>,
+            <function>file-png-load</function>, etc.), it can not be
+            unloaded even if its windows are closed to the last.  Then use
+            this command to close it.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

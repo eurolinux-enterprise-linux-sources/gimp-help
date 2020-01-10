@@ -1,0 +1,62 @@
+<Project xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:gnome="http://api.gnome.org/doap-extensions#"
+         xmlns="http://usefulinc.com/ns/doap#">
+
+  <name xml:lang="en">gimp-help-2</name>
+  <homepage rdf:resource="http://docs.gimp.org"/>
+  <mailing-list rdf:resource="https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs" />
+  <download-page rdf:resource="http://docs.gimp.org/download.html" />
+  <bug-database rdf:resource="http://bugzilla.gnome.org/browse.cgi?product=GIMP-manual" />
+
+  <shortdesc xml:lang="en">GIMP User Manual</shortdesc>
+  <shortdesc xml:lang="de">GIMP-Benutzerhandbuch</shortdesc>
+  <!-- Based on I.1.1.2. The GIMP Help System -->
+  <description xml:lang="en">
+    The GIMP Documentation Team and other users have provided you with the
+    information necessary to understand how to use GIMP. The User Manual is an
+    important part of this help. The current version is on the web site of the
+    Documentation Team in HTML format. The HTML version is also available as
+    context sensitive help (if you installed it) while using GIMP by pressing
+    the F1 key.
+  </description>
+  <description xml:lang="de">
+    Das Dokumentations-Team und die Anwender von GIMP stellen Ihnen
+    vielfältige Informationen bereit, um Sie bei der Arbeit mit GIMP zu
+    unterstützen. Dieses Handbuch ist ein wichtiger Bestandteil der
+    Dokumentation. Die aktuelle Version finden Sie auf der Webseite des
+    GIMP-Dokumentations-Teams. Die HTML-Version wird zusätzlich als Kontexthilfe
+    verwendet. Sie können auf diese von GIMP aus jederzeit durch Drücken der
+    F1-Taste zugreifen.
+  </description>
+
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Róman Joost</foaf:name>
+      <foaf:mbox rdf:resource="mailto:romanofski@gimp.org" />
+      <gnome:userid>romanofski</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Ulf-D. Ehlert</foaf:name>
+      <foaf:mbox rdf:resource="mailto:ulfehlert@svn.gnome.org" />
+      <gnome:userid>ulfehlert</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Marco Ciampa</foaf:name>
+      <foaf:mbox rdf:resource="mailto:ciampix@libero.it" />
+      <gnome:userid>marcoc</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Julien Hardelin</foaf:name>
+      <foaf:mbox rdf:resource="mailto:jm.hard@wanadoo.fr" />
+      <gnome:userid>jhardlin</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+</Project>

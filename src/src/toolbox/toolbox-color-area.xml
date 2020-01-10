@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-11-15 j.h: added tip , added D shortcut, documented XDS 'en;fr'
+  2007-06-03 KoSt: added 'no'
+  2006-02-06 new section for Active Image added by j.h
+  2005-12-07 replaced <simplesect> by <sect2> by lexa
+  2005-11-30 replaced informalfigure by figure by lexa
+  2005-08-18 de reviewed by axel.wernicke
+  2005-09-04 add en;fr in swap-colors by j.hardelin
+-->
+<sect2 id="gimp-toolbox-areas">
+  <title>Color and Indicator Area</title>
+
+  <figure>
+    <title>Color and Indicator Area in the Toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/toolbox/toolbox-show-area.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect3 id="gimp-toolbox-color-area">
+    <title>Color Area</title>
+
+    <indexterm>
+      <primary>Toolbox</primary>
+      <secondary>Color Area</secondary>
+    </indexterm>
+    <indexterm>
+      <primary>Color Area</primary>
+    </indexterm>
+    <indexterm>
+      <primary>Foreground color</primary>
+    </indexterm>
+    <indexterm>
+      <primary>Background color</primary>
+    </indexterm>
+
+    <figure>
+      <title>Active Colors in the Toolbox</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/toolbox-active-colors.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Color area</term>
+        <listitem>
+          <para>
+            This area shows GIMP's basic palette, consisting of two colors,
+            the Foreground and Background, used for painting, filling, and
+            many other operations. Clicking on either of the color displays
+            brings up a Color Editor dialog, which permits you to change it.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry id="gimp-toolbox-default-colors">
+        <term>Default colors</term>
+        <listitem>
+          <para>
+            Clicking on this small symbol resets the Foreground and Background
+            colors to black and white, respectively. Pressing the
+            <keycap>D</keycap> key has the same effect.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry id="gimp-toolbox-swap-colors">
+        <term>Swap FG/BG colors</term>
+        <listitem>
+          <para>
+            Clicking on the small curved line with two arrowheads causes
+            the Foreground and Background colors to be swapped. Pressing the
+            <keycap>X</keycap> key has the same effect.
+          </para>
+          <tip>
+            <para>
+              You can click-and-drag one of these colors directly into a layer: it
+              will fill the whole layer.
+            </para>
+          </tip>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3 id="gimp-toolbox-indicator-area">
+    <title>Tools Indicator Area</title>
+
+    <indexterm>
+      <primary>Toolbox</primary>
+      <secondary>Indicator Area</secondary>
+    </indexterm>
+    <indexterm>
+      <primary>Brushes</primary>
+      <secondary>Toolbox Indicator Area</secondary>
+    </indexterm>
+    <indexterm>
+      <primary>Patterns</primary>
+      <secondary>Toolbox Indicator Area</secondary>
+    </indexterm>
+    <indexterm>
+      <primary>Gradient</primary>
+      <secondary>Toolbox Indicator Area</secondary>
+    </indexterm>
+
+    <figure>
+      <title>Active Brush, Pattern and Gradient in the Toolbox</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/toolbox-active-bpg.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <para>
+      This part of the Toolbox shows the currently selected brush, pattern,
+      and gradient. Clicking on any of them brings up a dialog that allows you
+      to change it.
+    </para>
+  </sect3>
+
+  <sect3 id="gimp-toolbox-image-area">
+    <title>Active Image Area</title>
+
+    <indexterm>
+      <primary>Toolbox</primary>
+      <secondary>Active image area</secondary>
+    </indexterm>
+
+    <figure>
+      <title>Active Image in the Toolbox</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/toolbox-active-image.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <para>
+      A thumbnail of the active image can be displayed in this area if the
+      <quote>Display Active Image</quote> option is checked in
+      Preferences/Toolbox. If you click on this thumbnail, the
+      <quote>Images</quote> dialog is opened, useful if you have many
+      images on your screen. You can also click and drag this thumbnail to an
+      enabled XDS<footnote><para>
+        See <xref linkend="bibliography-online-xds"/>.
+      </para></footnote>
+      file manager to directly save the corresponding image.
+    </para>
+<!--
+      file manager to directly save the corresponding image; this opens a
+      dialog where you can enter a name for the image:
+    </para>
+    <figure>
+      <title>A Direct Save Protocol (XDS) dialog</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/XDS.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+-->
+  </sect3>
+</sect2>

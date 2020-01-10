@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-03-23 j.h created
+-->
+<sect2 id="gimp-export-dialog">
+  <title>Export File</title>
+
+  <indexterm>
+    <primary>Export File</primary>
+  </indexterm>
+
+  <para>
+    With <acronym>GIMP</acronym>-2.8, the Save command saves images in XCF
+    format only. The Export command is now used to save images to various
+    file formats.
+  </para>
+  <para>
+    You can access to this command through
+    <menuchoice>
+      <guimenu>File</guimenu>
+      <guimenuitem>Export...</guimenuitem>
+    </menuchoice>, or from the keyboard by using the shortcut
+      <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>S</keycap>
+      </keycombo >.
+  </para>
+
+  <figure>
+    <title>Export Image Dialog</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/using/export-image-dialog.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+
+  <sect3>
+    <title>The Export Image Dialog</title>
+    <para>
+      With this file browser, you can edit filename and extension directly in
+      name box (default is <quote>Untitled.png</quote>) or by selecting a
+      file in name list. You must also fix the image  destination in
+      <guilabel>Save in Folder</guilabel>. You can create a new folder if
+      necessary.
+    </para>
+    <formalpara>
+      <title>Select File Type</title>
+      <para>
+        If you develop this option, you can select an extension in the
+        drop-down list for your file:
+      </para>
+    </formalpara>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/using/export-select-file-type.png"
+        format="PNG"/>
+      </imageobject>
+    </mediaobject>
+    <para>
+      File formats dialogs are described in
+        <xref linkend="gimp-using-fileformats"/>.
+    </para>
+  </sect3>
+
+  <sect3 id="exporting-image">
+    <title>Exporting</title>
+    <para>
+      When file name and destination are set, click on
+      <guibutton>Export</guibutton>. This opens the export dialog for the
+      specified file format.
+    </para>
+    <para>
+      If you have loaded a non-XCF file, a new item appears in File menu,
+      allowing you to to export file in the same format, overwriting the
+      original file.
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/using/overwriting-file.png"
+          format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </para>
+    <para>
+      If you modify an image that you already have exported, the
+      <command>Export to</command> command in File menu is changed, allowing you
+      to export file again in the same format.
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/using/export-to.png"
+          format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </para>
+  </sect3>
+</sect2>
+

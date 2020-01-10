@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2009-07-02 ude: fixed bug #573267 (Angular selection: clockwise)
+  2009-02-17 j.h: reviewed for v2.6
+  2007-05-08 Added Spanish translation by AntI
+-->
+<sect1 id="gimp-using-animated-brushes">
+  <title>The GIH Dialog Box</title>
+
+  <indexterm>
+    <primary>Animation</primary>
+    <secondary>Creating an animated brush</secondary>
+  </indexterm>
+
+  <para>
+    When your new animated brush is created, it is displayed within the image
+    window and you would like save it into a gih format. You select
+    <menuchoice>
+      <guimenu>File</guimenu>
+      <guimenuitem>Save as...</guimenuitem>
+    </menuchoice>
+    menu, name your work with the gih extension in the new window relevant
+    field and as soon as you pressed the Save button, the following window is
+    displayed:
+  </para>
+
+  <figure>
+    <title>The dialog to describe the animated brush</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/using/file-gih-save.png" format="PNG"/>
+      </imageobject>
+      <caption>
+        <para>
+          This dialog box shows up, if you save an image as GIMP image hose
+        </para>
+      </caption>
+    </mediaobject>
+  </figure>
+
+  <para>
+    This dialog box has several options not easy to understand. They allow you
+    to determine the way your brush is animated.
+  </para>
+  <variablelist>
+    <varlistentry>
+      <term>Spacing (Percent)</term>
+      <listitem>
+        <para>
+          <quote>Spacing</quote> is the distance between consecutive brush
+          marks when you trace out a brushstroke with the pointer. You must
+          consider drawing with a brush, whatever the paint tool, like
+          stamping. If Spacing is low, stamps will be very close and stroke
+          look continuous. If spacing is high, stamps will be separated:
+          that's interesting with a color brush (like <quote>green
+          pepper</quote> for instance). Value varies from 1 to 200 and this
+          percentage refers to brush <quote>diameter</quote>: 100% is one
+          diameter.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Description</term>
+      <listitem>
+        <para>
+          It's the brush name that will appear at the top of Brush Dialog
+          (grid mode) when the brush is selected.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Cell Size</term>
+      <listitem>
+        <para>
+          That's size of cells you will cut up in layers... Default is one
+          cell per layer and size is that of the layer. Then there is only
+          one brush aspect per layer.
+        </para>
+        <para>
+          We could have only one big layer and cut up in it the cells that
+          will be used for the different aspects of the animated brush.
+        </para>
+        <para>
+          For instance, we want a 100x100 pixels brush with 8 different
+          aspects. We can take these 8 aspects from a 400x200 pixels layer,
+          or from a 300x300 pixels layer but with one cell unused.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Number of cells</term>
+      <listitem>
+        <para>
+          That's the number of cells (one cell per aspect) that will be cut
+          in every layer. Default is the number of layers as there is only
+          one layer per aspect.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Display as</term>
+      <listitem>
+        <para>
+          This tells how cells have been arranged in layers. If, for example,
+          you have placed height cells at the rate of two cells per layer on
+          four layers, GIMP will display:
+          <computeroutput>1 rows of 2 columns on each layer</computeroutput>.
+        </para>
+      </listitem>
+    </varlistentry>
+    <varlistentry>
+      <term>Dimension, Ranks, Selection</term>
+      <listitem>
+        <para>
+          There things are getting complicated! Explanations are necessary to
+          understand how to arrange cell and layers.
+        </para>
+        <para>
+          GIMP starts retrieving cells from each layer and stacks them into a
+          FIFO stack (First In First Out: the first in is at the top of the
+          stack and so can be first out). In our example 4 layers with 2 cells
+          in each, we'll have, from top to bottom: first cell of first layer,
+          second cell of first layer, first cell of second layer, second cell
+          of second layer..., second cell of fourth layer. With one cell per
+          layer or with several cells per layer, result is the same. You can
+          see this stack in the Layer Dialog of the resulting
+          <filename class="extension">.gih</filename> image file.
+        </para>
+        <para>
+          Then GIMP creates a computer array from this stack with the
+          <guilabel>Dimensions</guilabel>
+          you have set. You can use four dimensions.
+        </para>
+        <para>
+          In computer science an array has a <quote>myarray(x,y,z)</quote>
+          form for a 3 dimensions array (3D). It's easy to imagine a 2D array:
+          on a paper it's an array with rows and columns
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/using/gih-array2D.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+          With a 3d array we don't talk rows and columns but
+          <guilabel>Dimensions</guilabel> and
+          <guilabel>Ranks</guilabel>.
+          The first dimension is along x axis, the second dimension along y
+          axis, the third along z axis. Each dimension has ranks of cells.
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/using/gih-array3D.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+        </para>
+        <para>
+          To fill up this array, GIMP starts retrieving cells from the top of
+          stack. The way it fills the array reminds that of an odometer: right
+          rank digits turn first and, when they reach their maximum, left rank
+          digits start running. If you have some memories of Basic programming
+          you will have, with an array(4,2,2), the following succession:
+          (1,1,1),(1,1,2),(1,2,1),(1,2,2),(2,1,1),(2,1,2),(2,2,2),(3,1,1)....
+          (4,2,2). We will see this later in an example.
+        </para>
+        <para>
+          Besides the rank number that you can give to each dimension, you can
+          also give them a <guilabel>Selection</guilabel> mode. You have
+          several modes that will be applied when drawing:
+        </para>
+        <variablelist>
+          <varlistentry>
+            <term>Incremental</term>
+            <listitem>
+              <para>
+                <acronym>GIMP</acronym> selects a rank from the concerned
+                dimension according to the order ranks have in that dimension.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Random</term>
+            <listitem>
+              <para>
+                <acronym>GIMP</acronym> selects a rank at random from the
+                concerned dimension.
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Angular</term>
+            <listitem>
+              <para>
+                <acronym>GIMP</acronym> selects a rank in the concerned
+                dimension according to the moving angle of the brush.
+              </para>
+              <para>
+                The first rank is for the direction 0°, upwards. The other
+                ranks are affected, clockwise, to an angle whose value
+                is 360/number of ranks. So, with 4 ranks in the concerned
+                dimension, the angle will move 90° clockwise for each
+                direction change: second rank will be affected to 90°
+                (rightwards), third rank to 180° (downwards) and fourth rank to
+                270° (-90°) (leftwards).<footnote><para>
+                  For previous <acronym>GIMP</acronym> versions you may have
+                  to replace <quote>clockwise</quote> with
+                  <quote>counter-clockwise</quote>.
+                </para></footnote>
+              </para>
+            </listitem>
+          </varlistentry>
+          <varlistentry>
+            <term>Speed, Pressure, x tilt, y tilt</term>
+            <listitem>
+              <para>
+                These options are for sophisticated drawing tablets.
+              </para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+
+  <variablelist>
+    <title>Examples</title>
+    <varlistentry>
+      <term>A one dimension image pipe</term>
+      <listitem>
+        <para>
+          Well! What is all this useful for? We'll see that gradually with
+          examples. You can actually place in each dimension cases that will
+          give your brush a particular action.
+        </para>
+        <para>
+          Let us start with a 1D brush which will allow us to study selection
+          modes action. We can imagine it like this:
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/using/gih-array1D.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+          Follow these steps:
+        </para>
+        <procedure>
+          <step>
+            <para>
+              Open a new 30x30 pixels image, RGB with Transparent fill type.
+              Using the Text tool create 4 layers <quote>1</quote>,
+              <quote>2</quote>, <quote>3</quote>, <quote>4</quote>. Delete the
+              <quote>background</quote> layer.
+            </para>
+          </step>
+          <step>
+            <para>
+              Save this image first with
+              <filename class="extension">.xcf</filename> extension to keep
+              its properties then save it as
+              <filename class="extension">.gih</filename>.
+            </para>
+          </step>
+          <step>
+            <para>
+              The Save As Dialog is opened: select a destination for your
+              image. OK. The GIH dialog is opened: Choose Spacing 100, give a
+              name in Description box, 30x30 for Cell Size, 1 dimension,
+              4 ranks and choose <quote>Incremental</quote> in Selection box.
+              OK.
+            </para>
+          </step>
+          <step>
+            <para>
+              You may have difficulties to save directly in the GIMP Brush
+              directory. In that case, save the
+              <filename class="extension">.gih</filename> file manually into
+              the <filename
+              class="directory">/usr/share/gimp/gimp/2.0/brushes</filename>
+              directory. Then come back into the Toolbox, click in the brush
+              icon to open the Brush Dialog then click on
+              <guibutton>Refresh</guibutton>
+              <guiicon>
+                <inlinegraphic
+                  fileref="images/dialogs/stock-reload-16.png"/>
+              </guiicon>
+              icon button. Your new brush appears in the
+              Brush window. Select it. Select pencil tool for instance and
+              click and hold with it on a new image:
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+                    fileref="images/using/gih1234incr.png"/>
+                </imageobject>
+                <caption>
+                  <para>
+                    You see 1, 2, 3, 4 digits following one another in order.
+                  </para>
+                </caption>
+              </mediaobject>
+            </para>
+          </step>
+          <step>
+            <para>
+              Take your <filename class="extension">.xcf</filename> image file
+              back and save it as <filename class="extension">.gih</filename>
+              setting Selection to <quote>Random</quote>:
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+                    fileref="images/using/gih1234rand.png"/>
+                </imageobject>
+                <caption>
+                  <para>
+                    Digits will be displayed at random order.
+                  </para>
+                </caption>
+              </mediaobject>
+            </para>
+          </step>
+          <step>
+            <para>
+              Now select <quote>Angular</quote> Selection:
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+                    fileref="images/using/gih1234angl.png"/>
+                </imageobject>
+              </mediaobject>
+            </para>
+          </step>
+        </procedure>
+      </listitem>
+    </varlistentry>
+
+    <varlistentry>
+      <term>A 3 dimensions image hose</term>
+      <listitem>
+        <para>
+          We are now going to create a 3D animated brush: its orientation will
+          vary according to brush direction, it will alternate Left/Right
+          hands regularly and its color will vary at random between black and
+          blue.
+        </para>
+        <para>
+          The first question we have to answer to is the number of images that
+          is necessary. We reserve the first dimension (x) to the brush
+          direction (4 directions). The second dimension (y) is for Left/Right
+          alternation and the third dimension (z) for color variation. Such a
+          brush is represented in a 3D array <quote>myarray(4,2,2)</quote>:
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="images/using/gih-3Dnum.png" format="PNG"/>
+            </imageobject>
+          </mediaobject>
+          There are 4 ranks in first dimension (x), 2 ranks in second
+          dimension (y) and 2 ranks in third dimension (z). We see that there
+          are 4x2x2 = 16 cells. We need 16 images.
+        </para>
+        <procedure>
+          <step>
+            <title>Creating images of dimension 1 (x)</title>
+            <para>
+              Open a new 30x30 pixels image, RGB with Transparent Fill Type.
+              Using the zoom draw a left hand with fingers upwards.<footnote>
+              <para>
+                Ok, we are cheating here: our hand is borrowed from <ulink
+                url="http://commons.wikimedia.org/wiki/File:Stop_hand.png"/>.
+              </para></footnote>
+              Save it as <filename>handL0k.xcf</filename> (hand Left 0°
+              Black).
+            </para>
+            <para>
+              Open the Layer Dialog. Double click on the layer to open the
+              Layer Attributes Dialog and rename it to handL0k.
+            </para>
+            <para>
+              Duplicate the layer. Let visible only the duplicated layer,
+              select it and apply a 90° rotation (Layer/Transform/ 90°
+              rotation clockwise). Rename it to handL90k.
+            </para>
+            <para>
+              Repeat the same operations to create handL180k and handL-90k (or
+              handL270k).
+            </para>
+          </step>
+          <step>
+            <title>Creating images of dimension 2 (y)</title>
+            <para>
+              This dimension in our example has two ranks, one for left hand
+              and the other for right hand. The left hand rank exists yet. We
+              shall build right hand images by flipping it horizontally.
+            </para>
+            <para>
+              Duplicate the handL0k layer. Let it visible only and select it.
+              Rename it to handR0K. Apply Layer/Transform/Flip Horizontally.
+            </para>
+            <para>
+              Repeat the same operation on the other left hand layers to
+              create their right hand equivalent.
+            </para>
+            <para>
+              Re-order layers to have a clockwise rotation from top to
+              bottom, alternating Left and Right: handL0k, handR0k, handL90k,
+              handR90k, ..., handR-90k.
+            </para>
+          </step>
+          <step>
+            <title>Creating images of dimension 3 (z)</title>
+            <para>
+              <emphasis>Creating images of dimension 3 (z)</emphasis>:
+              The third dimension has two ranks, one for black color and the
+              other for blue color. The first rank, black, exists yet. We well
+              see that images of dimension 3 will be a copy, in blue, of the
+              images of dimension 2. So we will have our 16 images. But a row
+              of 16 layers is not easy to manage: we will use layers with two
+              images.
+            </para>
+            <para>
+              Select the handL0k layer and let it visible only. Using
+              Image/Canvas Size change canvas size to 60x30 pixels.
+            </para>
+            <para>
+              Duplicate hand0k layer. On the copy, fill the hand with blue
+              using Bucket Fill tool.
+            </para>
+            <para>
+              Now, select the Move tool. Double click on it to accede to its
+              properties: check <guilabel>Move the Current Layer</guilabel>
+              option. Move the blue hand into the right part of the layer
+              precisely with the help of <guisubmenu>Zoom</guisubmenu>.
+            </para>
+            <para>
+              Make sure only handL0k and its blue copy are visible. Right
+              click on the Layer Dialog: Apply the <guimenuitem>Merge Visible
+              Layers</guimenuitem> command with the option <guilabel>Expand as
+              Necessary</guilabel>. You get a 60x30 pixels layer with the
+              black hand on the left and the blue hand on the right. Rename it
+              to <quote>handsL0</quote>.
+            </para>
+            <para>
+              Repeat the same operations on the other layers.
+            </para>
+          </step>
+          <step>
+            <title>Set layers in order</title>
+            <para>
+              Layers must be set in
+              order so that GIMP can find the required image at some point
+              of using the brush. Our layers are yet in order but we must
+              understand more generally how to have them in order.There are
+              two ways to imagine this setting in order. The first method is
+              mathematical: GIMP divides the 16 layers first by 4; that gives
+              4 groups of 4 layers for the first dimension. Each group
+              represents a direction of the brush. Then, it divides each group
+              by 2; that gives 8 groups of 2 layers for the second dimension:
+              each group represents a L/R alternation. Then another division
+              by 2 for the third dimension to represent a color at random
+              between black and blue.
+            </para>
+            <para>
+              The other method is visual, by using the array representation.
+              Correlation between two methods is represented in next image:
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+                    fileref="images/using/gih-correlation.png"/>
+                </imageobject>
+              </mediaobject>
+            </para>
+            <para>
+              <emphasis>How will GIMP read this array?</emphasis>: GIMP
+              starts with the first dimension which is programmed for
+              <quote>angular</quote>, for instance 90°. In this 90°
+              rank, in yellow, in the second dimension, it selects a L/R
+              alternation, in an <quote>incremental</quote> way. Then,
+              in the third dimension, in a random way, it chooses a color.
+              Finally, our layers must be in the following order:
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+                    fileref="images/using/gih-hands-layers.png"/>
+                </imageobject>
+              </mediaobject>
+            </para>
+          </step>
+          <step>
+            <para>
+              Voilà. Your brush is ready. Save it as
+              <filename class="extension">.xcf</filename> first, then as
+              <filename class="extension">.gih</filename> with the following
+              parameters:
+            </para>
+            <itemizedlist>
+              <listitem>
+                <para>Spacing: 100</para>
+              </listitem>
+              <listitem>
+                <para>Description: Hands</para>
+              </listitem>
+              <listitem>
+                <para>Cell Size: 30x30</para>
+              </listitem>
+              <listitem>
+                <para>Number of cells: 16</para>
+              </listitem>
+              <listitem>
+                <para>Dimensions: 3</para>
+                <itemizedlist>
+                  <listitem>
+                    <para>Dimension 1: 4 ranks Selection: Angular</para>
+                  </listitem>
+                  <listitem>
+                    <para>Dimension 2: 2 ranks Selection: Incremental</para>
+                  </listitem>
+                  <listitem>
+                    <para>Dimension 3: 2 ranks Selection: Random</para>
+                  </listitem>
+                </itemizedlist>
+              </listitem>
+            </itemizedlist>
+            <para>
+              Place your <filename class="extension">.gih</filename> file into
+              <acronym>GIMP</acronym> brush directory and refresh the brush
+              box. You can now use your brush.
+            </para>
+            <figure>
+              <title>
+                Here is the result by stroking an elliptical selection
+                with the brush:
+              </title>
+              <mediaobject>
+                <imageobject>
+                  <imagedata format="PNG"
+                    fileref="images/using/gih-hands-stroke.png"/>
+                </imageobject>
+                <caption>
+                  <para>
+                    This brush alternates right hand and left hand regularly,
+                    black and blue color at random, direction according to
+                    four brush directions.
+                  </para>
+                </caption>
+              </mediaobject>
+            </figure>
+          </step>
+        </procedure>
+      </listitem>
+    </varlistentry>
+  </variablelist>
+</sect1>

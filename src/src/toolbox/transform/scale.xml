@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-06-13 kost: added 'no'
+  2007-04-21 Added Spanish translation by AntI
+  2007-02-03 lexa: minor fixes for de and docbook compliance
+  2006-02-18 en;fr revised - scale dialog added by j.h
+  2005-12-06 replaced simplesect by sect3 by lexa
+  2005-12-06 replaced informalfigure by figure by lexa
+  050530 de added content for scale dialog
+  050530 de reviewed by axel.wernicke
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-scale">
+  <title>Scale</title>
+
+  <indexterm>
+    <primary>Tools</primary><secondary>Scale</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Layer</primary><secondary>Scale</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Selection</primary><secondary>Scale</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Path</primary><secondary>Scale</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Scale Layer, selection contour or path</primary>
+  </indexterm>
+
+  <figure>
+    <title>The Scale tool in Toolbox</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-scale.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <sect3>
+    <title>Overview</title>
+    <para>
+      The Scale Tool is used to scale layers, selections or paths (the
+      Object).
+    </para>
+    <para>
+      When you click on image with the tool the Scaling Information dialog box
+      is opened, allowing to change separately <guilabel>Width</guilabel>
+      and <guilabel>Height</guilabel>.
+      At the same time a Preview (possibly with a grid or an outline) is
+      superimposed on the object and handles appear on corners and borders
+      that you can click and drag to change dimensions. A small circle
+      appears at center of the Preview allowing to move this preview.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>
+      You can access the Scale Tool in different ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          from the image menu bar
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Transform Tools</guisubmenu>
+            <guimenuitem>Scale</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking the tool icon:
+          <guiicon>
+            <inlinegraphic
+                fileref="images/toolbox/stock-tool-scale-22.png"/>
+          </guiicon> in the Toolbox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by using the
+          <keycombo><keycap>Shift</keycap><keycap>T</keycap></keycombo>
+          key combination.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <variablelist>
+      <varlistentry>
+        <term>
+          <keycap>Ctrl</keycap>
+        </term>
+        <listitem>
+          <para>
+            Holding the <keycap>Ctrl</keycap> key down
+            will toggle the <guilabel>Keep Aspect</guilabel> option.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+  <sect3>
+
+    <title>Tool Options</title>
+    <figure>
+      <title>Tool options for the Scale tool</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/tool-options-scale.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term>
+          Transform; Interpolation; Direction; Clipping; Preview
+        </term>
+        <listitem>
+          <xi:include href="about-common-transform-options.xml"/>
+          <note>
+            <para>
+              The Transform mode works on the active layer only. To work on
+              all layers of the image, use
+              <link linkend="gimp-image-scale">Scale Image</link>.
+            </para>
+          </note>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Keep Aspect (Ctrl)</term>
+        <listitem>
+          <para>
+            When you move a corner of the selection frame, this option will
+            constrain the scale such as the Height/Width ratio of the layer
+            will remain constant. Note that this doesn't work with border
+            handles. Note also that it toggles the linking chain in the
+            dialog.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3>
+    <title>The Scaling Information dialog window</title>
+    <figure>
+      <title>The Scaling Information dialog window</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+            fileref="images/toolbox/tool-dialog-scale.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Width/Height</term>
+        <listitem>
+          <para>
+            Here, you can set Width and Height you want to give to the object.
+            The default unit of measurement is pixel. You can change it by
+            using the drop-down list. These values are also automatically
+            changed when you drag handles in the image. If the associated
+            linking chain is broken, you can change Width and Height
+            separately.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

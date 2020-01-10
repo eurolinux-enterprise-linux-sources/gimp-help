@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-08-12 Added Spanish translation by AntI
+  2007-04-24 KoSt: added 'no'
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  050910 de added by axel.wernicke
+-->
+<sect2 id="plug-in-shift">
+  <title>Shift</title>
+
+  <indexterm>
+    <primary>Filters</primary>
+    <secondary>Distorts</secondary>
+    <tertiary>Shift</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Shift</primary>
+  </indexterm>
+
+  <sect3>
+    <title>Overview</title>
+    <figure>
+      <title>Example for the Shift filter</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/taj_orig.jpg"/>
+        </imageobject>
+        <caption>
+          <para>Original image</para>
+        </caption>
+      </mediaobject>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="JPG"
+            fileref="images/filters/examples/distort-taj-shift.jpg"/>
+        </imageobject>
+        <caption>
+          <para>Filter <quote>Shift</quote> applied</para>
+        </caption>
+      </mediaobject>
+    </figure>
+    <para>
+      It shifts all pixel rows, horizontally or vertically, in the current
+      layer or selection, on a random distance and within determined limits.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Activating the filter</title>
+    <para>
+      You can find this filter through
+      <menuchoice>
+        <guimenu>Filters</guimenu>
+        <guisubmenu>Distorts</guisubmenu>
+        <guimenuitem>Shift</guimenuitem>
+      </menuchoice>.
+    </para>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title><quote>Shift</quote> filter options</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG" fileref="images/filters/distort/shift.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Preview</term>
+        <listitem>
+          <para>
+            The result of your settings will appear in the Preview without
+            affecting the image until you click on <guibutton>OK</guibutton>.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Shift horizontally</term>
+        <term>Shift vertically</term>
+        <listitem>
+          <para>
+            This option sets the dimension where pixels are moved.
+          </para>
+          <para>
+            Pixels going out one side will come back on the other side.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Shift amount</term>
+        <listitem>
+          <para>
+            With this option, you can set the maximum shift, between 1 and
+            200 pixels, or in another unit of measurement.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

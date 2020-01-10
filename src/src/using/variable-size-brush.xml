@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!--Version history
+  2009-02-21 j.h: revised for v2.6
+  2008-04-04 Mr.Dust : reviewed and added 'ko'
+  2008-01-30 j.h: internationalized create-brush3.png, select-to-brush.png
+  2007-12-19 jpl: updated to v2.4
+  2007-05-08 Added Spanish translation by AntI
+  2006-08-19 added norwegian translation by KoSt
+  2006-06-22 Added italian translation by ciampix
+  2006-04-15 Created by j.h
+-->
+<sect1 id="gimp-using-variable-size-brush">
+  <title>Varying brush size</title>
+  <indexterm>
+    <primary>Brushes</primary>
+    <secondary>Varying brush size</secondary>
+  </indexterm>
+  <para>
+    From <acronym>GIMP</acronym>-2.4, all brushes have a variable size.
+  </para>
+
+  <sect2 id="gimp-using-variable-size-brush-varying">
+    <title>How to vary the height of a brush</title>
+    <para>
+       You can get the brush size varying in three ways:
+    </para>
+    <orderedlist>
+      <listitem>
+        <para>
+          Using the <guilabel>Scale</guilabel> slider of the tool
+          that uses the brush. Pencil, Paintbrush, Eraser, Airbrush,
+          Clone, Heal, Perspective Clone, Blur/Sharpen and Dodge/Burn tools
+          have a slider to vary brush size.
+        </para>
+        <figure>
+          <title>The Scale slider</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/using/stretch-shrink-cursor.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+      <listitem>
+        <procedure>
+          <para>By programming the mouse wheel:</para>
+          <step>
+            <para>
+              In the main window of GIMP, click on
+              <menuchoice>
+                <guimenu>Edit</guimenu>
+                <guimenuitem>Preferences</guimenuitem>
+              </menuchoice>.
+            </para>
+          </step>
+          <step>
+            <para>
+              In the left column of the new window, select
+              <menuchoice>
+                <guimenu>Input Devices</guimenu>
+                <guimenuitem>Input Controllers</guimenuitem>
+              </menuchoice>.
+            </para>
+          </step>
+          <step>
+            <para>
+              You can see
+              <guibutton>Additional Input Controllers</guibutton>,
+              with two columns:
+              <guibutton>Available Controllers</guibutton> and
+              <guibutton>Active Controllers</guibutton>.
+            </para>
+            <para>
+              In the column
+              <guibutton>Active Controllers</guibutton>, double-click the
+              <guibutton>Main Mouse Wheel</guibutton> button.
+            </para>
+          </step>
+          <step>
+            <para>
+              Then, you see a new window:
+              <guibutton>Configure Input Controller</guibutton>.
+            </para>
+            <para>
+              In the left column <guibutton>Event</guibutton>,
+              click <guibutton>Scroll Up</guibutton> to get it highlighted.
+            </para>
+          </step>
+          <step>
+            <para>
+              Click the <guibutton>Edit</guibutton> button
+              (at the bottom middle of the list).
+            </para>
+          </step>
+          <step>
+            <para>
+              You can see the window
+              <guibutton>Select Controller Event Action</guibutton>.
+            </para>
+            <para>
+              Drop-down the
+              <guibutton>Tools</guibutton> item, by clicking the small
+              triangle on its left.
+            </para>
+          </step>
+          <step>
+            <para>
+              In the left column <guibutton>Action</guibutton>,
+              click <guibutton>Increase Brush Scale</guibutton> to highlight
+              it, then click the <guibutton>OK</guibutton> button.
+            </para>
+          </step>
+          <step>
+            <para>
+              Now, in front of
+              <guibutton>Scroll Up</guibutton> is display
+              <guibutton>tools-paint-brush-scale-increase</guibutton>.
+            </para>
+          </step>
+          <step>
+            <para>
+              Close the window.
+            </para>
+          </step>
+          <step>
+            <para>
+              With the same method, program
+              <guibutton>Scroll Down</guibutton> with
+              <guibutton>Decrease Brush Scale</guibutton>.
+            </para>
+          </step>
+          <step>
+            <para>
+              Don't forget to click the
+              <guibutton>OK</guibutton> button of the main window of
+              <guibutton>Preferences</guibutton>.
+            </para>
+          </step>
+        </procedure>
+        <para>
+          After these somewhat long explanations, you can use your mouse
+          wheel to vary size brush. For example, choose the pencil tool
+          with the <!-- Didn't find a "Bird" brush so I've substitute Bird
+          with Circle - ciampix --><quote>Circle</quote> brush. Set the
+          pointer in the image window, use the mouse wheel, in the two
+          directions, you can see the <quote>Circle</quote> shrinking or
+          stretching.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          You can program the <quote>Up</quote> and <quote>Down</quote>
+          arrow keys of the keyboard.
+        </para>
+        <para>
+          The method is similar to that of the mouse wheel. The only
+          differences are:
+        </para>
+        <itemizedlist>
+          <listitem>
+            <para>
+              In the column
+              <guibutton>Active Controllers</guibutton>, double-click
+              <guibutton>Main Keyboard</guibutton>.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              In the column <guibutton>Event</guibutton>, click
+              <guibutton>Cursor Up</guibutton> for the first key, and
+              <guibutton>Cursor Down</guibutton> for the second key.
+            </para>
+          </listitem>
+          <listitem>
+            <para>
+              Then, use the two keys (Up arrow and Down arrow) and the result
+              is the same as you got with the mouse wheel.
+            </para>
+          </listitem>
+        </itemizedlist>
+      </listitem>
+    </orderedlist>
+  </sect2>
+
+  <sect2 id="gimp-using-variable-size-brush-creating">
+    <title>Creating a brush quickly</title>
+    <para>Two methods to create a new brush easily:</para>
+    <orderedlist>
+      <listitem>
+        <para>
+          First, the <quote>superfast</quote> method. You have an image area
+          you want make a brush from it, to be used with a tool like pencil,
+          airbrush... Select it with the rectangular (or elliptical) select
+          tool, then do a <guibutton>Copy</guibutton> of this selection and
+          immediately you can see this copy in the first position of the Brush
+          Dialog, and its name is <quote>Clipboard</quote>. It is immediately
+          usable.
+        </para>
+        <figure>
+          <title>Selection becomes a brush after copying</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/using/select-to-brush.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+      </listitem>
+      <listitem>
+        <para>The second method is more elaborate. </para>
+        <para>
+          Do
+          <menuchoice>
+            <guimenu>File</guimenu>
+            <guimenuitem>New</guimenuitem>
+          </menuchoice>
+          with, for example, a width and a length of 35 pixels
+          and in the advanced options a
+          <guilabel>Color Space</guilabel> in
+          <guilabel>Gray Level</guilabel> and
+          <guilabel>Fill with: white</guilabel>.
+        </para>
+        <para>
+          Zoom on this new image to enlarge it and draw on it with a black
+          pencil.
+        </para>
+        <para>
+          Save it with a <guilabel>.gbr</guilabel> extension in the directory
+          <guilabel>/home/name_of_user/.gimp-2.6/brushes/</guilabel>.
+        </para>
+        <para>
+          In the Brushes dialog window, click on the button
+          <guilabel>Refresh brushes</guilabel>
+          <guiicon>
+            <inlinegraphic fileref="images/dialogs/stock-reload-16.png"/>
+          </guiicon>.
+        </para>
+        <para>
+          And your marvellous brush appears right in the middle of the other
+          brushes. You can use it immediately, without starting GIMP again.
+        </para>
+        <figure>
+          <title>Steps to create a brush</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/using/create-brush1.png"/>
+            </imageobject>
+            <caption>
+              <para>Draw image, save as brush</para>
+            </caption>
+          </mediaobject>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/using/create-brush2.png"/>
+            </imageobject>
+            <caption>
+              <para>Refresh brushes</para>
+            </caption>
+          </mediaobject>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                fileref="images/using/create-brush3.png"/>
+            </imageobject>
+            <caption>
+              <para>Use the brush</para>
+            </caption>
+          </mediaobject>
+        </figure>
+      </listitem>
+    </orderedlist>
+  </sect2>
+</sect1>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history
+  2006-11-01 lexa: made the file docbook compliant
+  2008-01-28 jpl: update text & images
+-->
+<sect2 id="gimp-prefs-display">
+  <title>Display</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Preferences</secondary>
+    <tertiary>Display</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Display</primary>
+    <secondary>Preferences</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Transparency</primary>
+    <secondary>Representation</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Calibrate monitor</primary>
+  </indexterm>
+
+  <figure>
+    <title>Display Preferences</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/preferences/prefs-display.png" format="PNG"/>
+      </imageobject>
+      <caption>
+        <para>
+          This page lets you customize the way transparent parts of an image
+          are represented, and lets you recalibrate the resolution of your
+          monitor.
+        </para>
+      </caption>
+    </mediaobject>
+  </figure>
+
+  <sect3 id="gimp-prefs-display-options">
+    <title>Options</title>
+
+    <variablelist>
+      <title>Transparency</title>
+      <varlistentry>
+        <term>Transparency type</term>
+        <listitem>
+          <para>
+            By default, GIMP indicates transparency using a checkerboard
+            pattern with mid-tone checks, but you can change this if you want,
+            either to a different type of checkerboard, or to solid black,
+            white, or gray.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Check size</term>
+        <listitem>
+          <para>
+            Here you can alter the size of the squares in the checkerboard
+            pattern used to indicate transparency.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+
+    <figure id="figure-gimp-prefs-monitor">
+      <title>The Calibration dialog</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/using/ui-calibrate.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist id="gimp-prefs-monitor" xreflabel="Calibration">
+      <varlistentry>
+        <term>Monitor Resolution</term>
+        <listitem>
+          <para>
+            Monitor Resolution is the ratio of pixels, horizontally and
+            vertically, to inches.  You have three ways to proceed here:
+          </para>
+          <itemizedlist>
+            <listitem>
+              <para>
+                Get Resolution from windowing system. (easiest, probably
+                inaccurate).
+              </para>
+            </listitem>
+            <listitem>
+              <para>Set Manually</para>
+            </listitem>
+            <listitem>
+              <para>Push the Calibrate Button.</para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>The Calibrate Dialog</term>
+        <listitem>
+          <para>
+            My monitor was impressively off when I tried the Calibrate Dialog.
+            The <quote>Calibrate Game</quote> is fun to play. You will need a
+            soft ruler.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

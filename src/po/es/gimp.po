@@ -1,0 +1,1518 @@
+#
+# Ignacio AntI <ant dot ign at gmail dot com>, 2010.
+# Jorge González <jorgegonz@svn.gnome.org>, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: GIMP Manual\n"
+"POT-Creation-Date: 2012-03-19 14:07+0000\n"
+"PO-Revision-Date: 2012-03-21 17:25+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Español <gnome-es-list@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Bookmarks: -1,-1,-1,79,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/key-reference.xml:6(title)
+msgid "Keys and Mouse Reference"
+msgstr "Teclas de Referencia"
+
+#: src/key-reference.xml:9(refentrytitle) src/key-reference.xml:12(refname)
+#: src/key-reference.xml:18(title) src/key-reference.xml:23(para)
+msgid "Help"
+msgstr "Ayuda"
+
+#: src/key-reference.xml:13(refpurpose)
+msgid "Key reference for <guimenuitem>Help</guimenuitem> menu"
+msgstr "Tecla de referencia para el menú <guimenuitem>Ayuda</guimenuitem>"
+
+#: src/key-reference.xml:21(term)
+msgid "F1"
+msgstr "F1"
+
+#: src/key-reference.xml:27(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + F1"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + F1"
+
+#: src/key-reference.xml:29(para)
+msgid "Context Help"
+msgstr "Ayuda Contextual"
+
+#: src/key-reference.xml:37(refentrytitle) src/key-reference.xml:40(refname)
+#: src/key-reference.xml:46(title) src/key-reference.xml:48(title)
+#: src/gimp.xml:163(title)
+msgid "Tools"
+msgstr "Herramientas"
+
+#: src/key-reference.xml:41(refpurpose)
+msgid "Key reference for the <guimenuitem>Tools</guimenuitem> menu"
+msgstr ""
+"Tecla de referencia para el menú <guimenuitem>Herramientas</guimenuitem>"
+
+#: src/key-reference.xml:50(term)
+msgid "R"
+msgstr "R"
+
+#: src/key-reference.xml:52(para)
+msgid "Rect Select"
+msgstr "Selección Rectangular"
+
+#: src/key-reference.xml:56(term)
+msgid "E"
+msgstr "E"
+
+#: src/key-reference.xml:58(para)
+msgid "Ellipse Select"
+msgstr "Selección Elíptica"
+
+#: src/key-reference.xml:62(term)
+msgid "F"
+msgstr "F"
+
+#: src/key-reference.xml:64(para)
+msgid "Free Select"
+msgstr "Selección libre"
+
+#: src/key-reference.xml:68(term)
+msgid "Z"
+msgstr "Z"
+
+#: src/key-reference.xml:70(para)
+msgid "Fuzzy Select"
+msgstr "Selección difusa"
+
+#: src/key-reference.xml:74(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + O"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + O"
+
+#: src/key-reference.xml:76(para)
+msgid "Select By Color"
+msgstr "Seleccionar por color"
+
+#: src/key-reference.xml:80(term)
+msgid "I"
+msgstr "I"
+
+#: src/key-reference.xml:82(para)
+msgid "Scissors"
+msgstr "Tijeras de Selección"
+
+#: src/key-reference.xml:86(term)
+msgid "B"
+msgstr "B"
+
+#: src/key-reference.xml:88(para)
+msgid "Paths"
+msgstr "Rutas"
+
+#: src/key-reference.xml:92(term)
+msgid "O"
+msgstr "O"
+
+#: src/key-reference.xml:94(para)
+msgid "Color Picker"
+msgstr "Recoge-color"
+
+#: src/key-reference.xml:98(term)
+msgid "M"
+msgstr "M"
+
+#: src/key-reference.xml:100(para)
+msgid "Move"
+msgstr "Mover"
+
+#: src/key-reference.xml:104(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + C"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + C"
+
+#: src/key-reference.xml:106(para)
+msgid "Crop and Resize"
+msgstr "Recortar y redimensionar"
+
+#: src/key-reference.xml:110(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + R"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + R"
+
+#: src/key-reference.xml:112(para)
+msgid "Rotate"
+msgstr "Rotar"
+
+#: src/key-reference.xml:116(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + T"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + T"
+
+#: src/key-reference.xml:118(para)
+msgid "Scale"
+msgstr "Escalar"
+
+#: src/key-reference.xml:122(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + S"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + S"
+
+#: src/key-reference.xml:124(para)
+msgid "Shear"
+msgstr "Inclinar"
+
+#: src/key-reference.xml:128(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + P"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + P"
+
+#: src/key-reference.xml:130(para)
+msgid "Perspective"
+msgstr "Perspectiva"
+
+#: src/key-reference.xml:134(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + F"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + F"
+
+#: src/key-reference.xml:136(para)
+msgid "Flip"
+msgstr "Voltear"
+
+#: src/key-reference.xml:140(term)
+msgid "T"
+msgstr "T"
+
+#: src/key-reference.xml:142(para)
+msgid "Text"
+msgstr "Texto"
+
+#: src/key-reference.xml:146(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + B"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + B"
+
+#: src/key-reference.xml:148(para)
+msgid "Bucket Fill"
+msgstr "Relleno de cubeta"
+
+#: src/key-reference.xml:152(term)
+msgid "L"
+msgstr "L"
+
+#: src/key-reference.xml:154(para)
+msgid "Blend"
+msgstr "Mezclar"
+
+#: src/key-reference.xml:158(term)
+msgid "N"
+msgstr "N"
+
+#: src/key-reference.xml:160(para)
+msgid "Pencil"
+msgstr "Lápiz"
+
+#: src/key-reference.xml:164(term)
+msgid "P"
+msgstr "P"
+
+#: src/key-reference.xml:166(para)
+msgid "Paintbrush"
+msgstr "Pincel"
+
+#: src/key-reference.xml:170(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + E"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + E"
+
+#: src/key-reference.xml:172(para)
+msgid "Eraser"
+msgstr "Goma de borrar"
+
+#: src/key-reference.xml:176(term)
+msgid "A"
+msgstr "A"
+
+#: src/key-reference.xml:178(para)
+msgid "Airbrush"
+msgstr "Aérografo"
+
+#: src/key-reference.xml:182(term)
+msgid "K"
+msgstr "K"
+
+#: src/key-reference.xml:184(para)
+msgid "Ink"
+msgstr "Tinta"
+
+#: src/key-reference.xml:188(term)
+msgid "C"
+msgstr "C"
+
+#: src/key-reference.xml:190(para)
+msgid "Clone"
+msgstr "Clonar"
+
+#: src/key-reference.xml:194(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + U"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + U"
+
+#: src/key-reference.xml:196(para)
+msgid "Blur/Sharpen"
+msgstr "Desenfocar/Enfocar"
+
+#: src/key-reference.xml:200(term)
+msgid "S"
+msgstr "S"
+
+#: src/key-reference.xml:202(para)
+msgid "Smudge"
+msgstr "Emborronar"
+
+#: src/key-reference.xml:206(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + D"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + D"
+
+#: src/key-reference.xml:208(para)
+msgid "Dodge/Burn"
+msgstr "Blanquear/Ennegrecer"
+
+#: src/key-reference.xml:213(para)
+msgid "Click on a tool icon to open its Tool Options dialog."
+msgstr ""
+"Pulse sobre un icono de herramienta para abrir su diálogo de opciones de "
+"herramienta."
+
+#: src/key-reference.xml:218(title)
+msgid "Context"
+msgstr "Contextual"
+
+#: src/key-reference.xml:220(term)
+msgid "X"
+msgstr "X"
+
+#: src/key-reference.xml:222(para)
+msgid "Swap Colors"
+msgstr "Intercambiar colores"
+
+#: src/key-reference.xml:226(term)
+msgid "D"
+msgstr "D"
+
+#: src/key-reference.xml:228(para)
+msgid "Default Colors"
+msgstr "Colores predeterminados"
+
+#: src/key-reference.xml:233(para)
+msgid "Click on the colors to change the colors."
+msgstr "Pulse sobre los colores para cambiar los colores."
+
+#: src/key-reference.xml:239(refentrytitle) src/key-reference.xml:242(refname)
+#: src/key-reference.xml:248(title)
+msgid "File"
+msgstr "Archivo"
+
+#: src/key-reference.xml:243(refpurpose)
+msgid "Key reference for the <guimenuitem>File</guimenuitem> menu"
+msgstr "Tecla de referencia para el menú <guimenuitem>Archivo</guimenuitem>"
+
+#: src/key-reference.xml:251(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + N"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + N"
+
+#: src/key-reference.xml:253(para)
+msgid "New image"
+msgstr "Imagen nueva"
+
+#: src/key-reference.xml:257(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + O"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + O"
+
+#: src/key-reference.xml:259(para)
+msgid "Open image"
+msgstr "Abrir imagen"
+
+#: src/key-reference.xml:263(term)
+msgid ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + O"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + O"
+
+#: src/key-reference.xml:268(para)
+msgid "Open image as new layer"
+msgstr "Abrir imagen como capa nueva"
+
+#: src/key-reference.xml:272(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + D"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + D"
+
+#: src/key-reference.xml:274(para)
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: src/key-reference.xml:278(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 1"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 1"
+
+#: src/key-reference.xml:280(para)
+msgid "Open recent image #1"
+msgstr "Abrir imagen reciente nº1"
+
+#: src/key-reference.xml:284(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 2"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 2"
+
+#: src/key-reference.xml:286(para)
+msgid "Open recent image #2"
+msgstr "Abrir imagen reciente nº2"
+
+#: src/key-reference.xml:290(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 3"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 3"
+
+#: src/key-reference.xml:292(para)
+msgid "Open recent image #3"
+msgstr "Abrir imagen reciente nº3"
+
+#: src/key-reference.xml:296(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 4"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 4"
+
+#: src/key-reference.xml:298(para)
+msgid "Open recent image #4"
+msgstr "Abrir imagen reciente nº4"
+
+#: src/key-reference.xml:302(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 5"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 5"
+
+#: src/key-reference.xml:304(para)
+msgid "Open recent image #5"
+msgstr "Abrir imagen reciente nº5"
+
+#: src/key-reference.xml:308(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 6"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 6"
+
+#: src/key-reference.xml:310(para)
+msgid "Open recent image #6"
+msgstr "Abrir imagen reciente nº6"
+
+#: src/key-reference.xml:314(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 7"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 7"
+
+#: src/key-reference.xml:316(para)
+msgid "Open recent image #7"
+msgstr "Abrir imagen reciente nº7"
+
+#: src/key-reference.xml:320(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 8"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 8"
+
+#: src/key-reference.xml:322(para)
+msgid "Open recent image #8"
+msgstr "Abrir imagen reciente nº8"
+
+#: src/key-reference.xml:326(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 9"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 9"
+
+#: src/key-reference.xml:328(para)
+msgid "Open recent image #9"
+msgstr "Abrir imagen reciente nº9"
+
+#: src/key-reference.xml:332(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + 0"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + 0"
+
+#: src/key-reference.xml:334(para)
+msgid "Open recent image #10"
+msgstr "Abrir imagen reciente nº10"
+
+#: src/key-reference.xml:338(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + S"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + S"
+
+#: src/key-reference.xml:340(para)
+msgid "Save image"
+msgstr "Guardar imagen"
+
+#: src/key-reference.xml:344(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + S"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + S"
+
+#: src/key-reference.xml:349(para)
+msgid "Save under a new name"
+msgstr "Guardar con un nombre nuevo"
+
+#: src/key-reference.xml:353(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + Q"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + Q"
+
+#: src/key-reference.xml:355(para)
+msgid "Quit"
+msgstr "Salir"
+
+#: src/key-reference.xml:365(refentrytitle) src/key-reference.xml:368(refname)
+#: src/gimp.xml:172(title)
+msgid "Dialogs"
+msgstr "Diálogos"
+
+#: src/key-reference.xml:369(refpurpose)
+msgid "Key reference for <guimenuitem>Dockable Dialogs</guimenuitem> submenu"
+msgstr ""
+"Tecla de referencia para el submenú <guimenuitem>Diálogos empotrables</"
+"guimenuitem>"
+
+#: src/key-reference.xml:374(title)
+msgid "Dockable Dialogs"
+msgstr "Diálogos Empotrables"
+
+#: src/key-reference.xml:377(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + L"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + L"
+
+#: src/key-reference.xml:379(para) src/key-reference.xml:840(title)
+msgid "Layers"
+msgstr "Capas"
+
+#: src/key-reference.xml:383(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + B"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + B"
+
+#: src/key-reference.xml:388(para)
+msgid "Brushes"
+msgstr "Pinceles"
+
+#: src/key-reference.xml:392(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + P"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + P"
+
+#: src/key-reference.xml:397(para)
+msgid "Patterns"
+msgstr "Patrones"
+
+#: src/key-reference.xml:401(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + G"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + G"
+
+#: src/key-reference.xml:403(para)
+msgid "Gradients"
+msgstr "Degradados"
+
+#: src/key-reference.xml:443(para)
+msgid ""
+"These open a new dialog window if it isn't open yet, otherwise the "
+"corresponding dialog gets focus."
+msgstr ""
+"Estos abren una ventana de diálogo nueva si no está abierta, de otra manera "
+"el diálogo correspondiente coge el foco."
+
+#: src/key-reference.xml:449(title)
+msgid "Within a Dialog"
+msgstr "Dentro de un diálogo"
+
+#: src/key-reference.xml:451(term)
+msgid ""
+"<keycap function=\"alt\">Alt</keycap> + F4, <keycap function=\"control"
+"\">Ctrl</keycap> + W"
+msgstr ""
+"<keycap function=\"alt\">Alt</keycap> + F4, <keycap function=\"control"
+"\">Ctrl</keycap> + W"
+
+#: src/key-reference.xml:456(para)
+msgid "Close the window"
+msgstr "Cierra la ventana"
+
+#: src/key-reference.xml:460(term)
+msgid "Tab"
+msgstr "Pestaña"
+
+#: src/key-reference.xml:462(para)
+msgid "Jump to next widget"
+msgstr "Saltar a la siguiente función"
+
+#: src/key-reference.xml:466(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + Tab"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + Tab"
+
+#: src/key-reference.xml:470(para)
+msgid "Jump to previous widget"
+msgstr "Saltar a la función anterior"
+
+#: src/key-reference.xml:474(term)
+msgid "Enter"
+msgstr "Entrar"
+
+#: src/key-reference.xml:476(para)
+msgid "Set the new value"
+msgstr "Definir nuevo valor"
+
+#: src/key-reference.xml:480(term)
+msgid "Space, Enter"
+msgstr "Espacio, Entrar"
+
+#: src/key-reference.xml:484(para)
+msgid "Activate current button or list"
+msgstr "Activar el botón actual o la lista"
+
+#: src/key-reference.xml:488(term)
+msgid ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + PgUp <keycap function=\"control\">Ctrl</keycap> + <keycap function="
+"\"alt\">Alt</keycap> + PgDn"
+msgstr ""
+"<keycap function=\"control\">Ctrl</keycap> + <keycap function=\"alt\">Alt</"
+"keycap> + AvPág <keycap function=\"control\">Ctrl</keycap> + <keycap "
+"function=\"alt\">Alt</keycap> + RePág"
+
+#: src/key-reference.xml:495(para)
+msgid "In a multi-tab dialog, switch tabs"
+msgstr "En un diálogo con varias pestañas, cambia las pestañas"
+
+#: src/key-reference.xml:500(para)
+msgid ""
+"This accepts the new value you typed in a text field and returns focus to "
+"canvas."
+msgstr ""
+"Esto acepta el nuevo valor escrito en la caja de texto y regresa el foco al "
+"lienzo."
+
+#: src/key-reference.xml:506(title)
+msgid "Within a File Dialog"
+msgstr "Dentro de un diálogo de archivo"
+
+#: src/key-reference.xml:508(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + L"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + L"
+
+#: src/key-reference.xml:510(para)
+msgid "Open Location"
+msgstr "Abrir ubicación"
+
+#: src/key-reference.xml:514(term)
+msgid "<keycap function=\"alt\">Alt</keycap> + Up"
+msgstr "<keycap function=\"alt\">Alt</keycap> + Up"
+
+#: src/key-reference.xml:518(para)
+msgid "Up-Folder"
+msgstr "Carpeta superior"
+
+#: src/key-reference.xml:522(term)
+msgid "<keycap function=\"alt\">Alt</keycap> + Down"
+msgstr "<keycap function=\"alt\">Alt</keycap> + Abajo"
+
+#: src/key-reference.xml:524(para)
+msgid "Down-Folder"
+msgstr "Carpeta inferior"
+
+#: src/key-reference.xml:528(term)
+msgid "<keycap function=\"alt\">Alt</keycap> + Home"
+msgstr "<keycap function=\"alt\">Alt</keycap> + Inicio"
+
+#: src/key-reference.xml:530(para)
+msgid "Home-Folder"
+msgstr "Carpeta personal"
+
+#: src/key-reference.xml:534(term)
+msgid "Esc"
+msgstr "Esc"
+
+#: src/key-reference.xml:536(para)
+msgid "Close Dialog"
+msgstr "Cerrar diálogo"
+
+#: src/key-reference.xml:544(refentrytitle) src/key-reference.xml:547(refname)
+#: src/key-reference.xml:553(title)
+msgid "View"
+msgstr "Vista"
+
+#: src/key-reference.xml:548(refpurpose)
+msgid "Key reference for <guimenuitem>View</guimenuitem> menu"
+msgstr "Tecla de referencia para el menú <guimenuitem>Vista</guimenuitem>"
+
+#: src/key-reference.xml:555(title)
+msgid "Window"
+msgstr "Ventana"
+
+#: src/key-reference.xml:557(term)
+msgid "F10"
+msgstr "F10"
+
+#: src/key-reference.xml:559(para)
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: src/key-reference.xml:563(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + F10, right click"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + F10, pulsación derecha"
+
+#: src/key-reference.xml:567(para)
+msgid "Drop-down Menu"
+msgstr "Menú desplegable"
+
+#: src/key-reference.xml:571(term)
+msgid "F11"
+msgstr "F11"
+
+#: src/key-reference.xml:573(para)
+msgid "Toggle fullscreen"
+msgstr "Alternar la vista de pantalla completa"
+
+#: src/key-reference.xml:577(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + Q"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + Q"
+
+#: src/key-reference.xml:579(para)
+msgid "Toggle quickmask"
+msgstr "Alternar máscara rápida"
+
+#: src/key-reference.xml:583(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + W"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + W"
+
+#: src/key-reference.xml:585(para)
+msgid "Close document window"
+msgstr "Cerrar la ventana del documento"
+
+#: src/key-reference.xml:590(para)
+msgid ""
+"Menus can also be activated by <keycap>Alt</keycap> with the letter "
+"underscored in the menu name."
+msgstr ""
+"Los menús también se pueden activar pulsando <keycap>Alt</keycap> y la letra "
+"subrayada en el nombre del menú."
+
+#: src/key-reference.xml:596(title)
+msgid "Zoom"
+msgstr "Ampliación"
+
+#: src/key-reference.xml:598(term)
+msgid "+"
+msgstr "+"
+
+#: src/key-reference.xml:600(para) src/key-reference.xml:990(para)
+msgid "Zoom in"
+msgstr "Ampliar"
+
+#: src/key-reference.xml:604(term)
+msgid "-"
+msgstr "-"
+
+#: src/key-reference.xml:606(para) src/key-reference.xml:996(para)
+msgid "Zoom out"
+msgstr "Reducir"
+
+#: src/key-reference.xml:610(term)
+msgid "1"
+msgstr "1"
+
+#: src/key-reference.xml:612(para)
+msgid "Zoom 1:1"
+msgstr "Ampliación 1:1"
+
+#: src/key-reference.xml:616(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + E"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + E"
+
+#: src/key-reference.xml:618(para)
+msgid "Shrink wrap"
+msgstr "Ajustar encogiendo"
+
+#: src/key-reference.xml:641(para)
+msgid "This fits the window to the image size."
+msgstr "Esto encaja la ventana al tamaño de la imagen."
+
+#: src/key-reference.xml:680(title)
+msgid "Rulers and Guides"
+msgstr "Reglas y guias"
+
+#: src/key-reference.xml:682(term) src/key-reference.xml:1000(term)
+msgid "mouse drag"
+msgstr "arrastre del ratón"
+
+#: src/key-reference.xml:684(para)
+msgid "Drag off a ruler to create guide"
+msgstr "Arrastrar una regla para crear una guía"
+
+#: src/key-reference.xml:688(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + mouse drag"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + arrastre del ratón"
+
+#: src/key-reference.xml:690(para)
+msgid "Drag a sample point out of the rulers"
+msgstr "Arrastrar un punto fuera de la regla"
+
+#: src/key-reference.xml:694(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + R"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + R"
+
+#: src/key-reference.xml:699(para)
+msgid "Toggle rulers"
+msgstr "Alternar reglas"
+
+#: src/key-reference.xml:703(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + T"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + T"
+
+#: src/key-reference.xml:708(para)
+msgid "Toggle guides"
+msgstr "Alternar guías"
+
+#: src/key-reference.xml:713(para)
+msgid ""
+"Drag off the horizontal or vertical ruler to create a new guideline. Drag a "
+"guideline off the image to delete it."
+msgstr ""
+"Arrastrar la regla horizontal o vertical para crear una guía nueva. "
+"Arrastrar una guía fuera de la imagen para eliminarla."
+
+#: src/key-reference.xml:722(refentrytitle) src/key-reference.xml:725(refname)
+#: src/key-reference.xml:731(title)
+msgid "Edit"
+msgstr "Editar"
+
+#: src/key-reference.xml:726(refpurpose)
+msgid "Key reference for <guimenuitem>Edit</guimenuitem> menu"
+msgstr "Tecla de referencia para el menú <guimenuitem>Editar</guimenuitem>"
+
+#: src/key-reference.xml:733(title)
+msgid "Undo/redo"
+msgstr "Deshacer/Rehacer"
+
+#: src/key-reference.xml:735(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + Z"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + Z"
+
+#: src/key-reference.xml:737(para)
+msgid "Undo"
+msgstr "Deshacer"
+
+#: src/key-reference.xml:741(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + Y"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + Y"
+
+#: src/key-reference.xml:743(para)
+msgid "Redo"
+msgstr "Rehacer"
+
+#: src/key-reference.xml:748(title)
+msgid "Clipboard"
+msgstr "Portapapeles"
+
+#: src/key-reference.xml:750(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + C"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + C"
+
+#: src/key-reference.xml:752(para)
+msgid "Copy selection"
+msgstr "Copiar la selección"
+
+#: src/key-reference.xml:756(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + X"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + X"
+
+#: src/key-reference.xml:758(para)
+msgid "Cut selection"
+msgstr "Cortar la selección"
+
+#: src/key-reference.xml:762(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + V"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + V"
+
+#: src/key-reference.xml:764(para)
+msgid "Paste clipboard"
+msgstr "Pegar desde el portapapeles"
+
+#: src/key-reference.xml:769(keycap)
+msgid "Del"
+msgstr "Supr"
+
+#: src/key-reference.xml:772(para)
+msgid "Erase selection"
+msgstr "Borrar la selección"
+
+#: src/key-reference.xml:776(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + C"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + C"
+
+#: src/key-reference.xml:781(para)
+msgid "Named copy selection"
+msgstr "Copiar la selección con nombre"
+
+#: src/key-reference.xml:785(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + X"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + X"
+
+#: src/key-reference.xml:790(para)
+msgid "Named cut selection"
+msgstr "Cortar la selección con nombre"
+
+#: src/key-reference.xml:794(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + V"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + V"
+
+#: src/key-reference.xml:799(para)
+msgid "Named paste clipboard"
+msgstr "Pegar desde el portapapeles con nombre"
+
+#: src/key-reference.xml:804(para)
+msgid "This puts a copy of the selection on the GIMP clipboard."
+msgstr "Esto pone una copia de la selección en el portapapeles de GIMP."
+
+#: src/key-reference.xml:807(title)
+msgid "Fill"
+msgstr "Rellenar"
+
+#: src/key-reference.xml:809(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + ,"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + ,"
+
+#: src/key-reference.xml:811(para)
+msgid "Fill with FG Color"
+msgstr "Rellenar con color de frente"
+
+#: src/key-reference.xml:815(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + ."
+msgstr "<keycap function=\"control\">Ctrl</keycap> + ."
+
+#: src/key-reference.xml:817(para)
+msgid "Fill with BG Color"
+msgstr "Rellenar con color de fondo"
+
+#: src/key-reference.xml:821(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + ;"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + ;"
+
+#: src/key-reference.xml:823(para)
+msgid "Fill with Pattern"
+msgstr "Rellenar con patrón"
+
+#: src/key-reference.xml:831(refentrytitle) src/key-reference.xml:834(refname)
+msgid "Layer"
+msgstr "Capa"
+
+#: src/key-reference.xml:835(refpurpose)
+msgid "Key reference for <guimenuitem>Layer</guimenuitem> menu"
+msgstr "Tecla de referencia para el menú <guimenuitem>Capas</guimenuitem>"
+
+#: src/key-reference.xml:843(term)
+msgid "PgUp, <keycap function=\"control\">Ctrl</keycap> + Tab"
+msgstr "Av Pág, <keycap function=\"control\">Ctrl</keycap> + Tab"
+
+#: src/key-reference.xml:845(para)
+msgid "Select the layer above"
+msgstr "Seleccionar la capa superior"
+
+#: src/key-reference.xml:849(term)
+msgid ""
+"PgDn, <keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + Tab"
+msgstr ""
+"RePág, <keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + Tab"
+
+#: src/key-reference.xml:855(para)
+msgid "Select the layer below"
+msgstr "Seleccionar la capa inferior"
+
+#: src/key-reference.xml:859(term)
+msgid "Home"
+msgstr "Inicio"
+
+#: src/key-reference.xml:861(para)
+msgid "Select the first layer"
+msgstr "Seleccionar la primera capa"
+
+#: src/key-reference.xml:865(term)
+msgid "End"
+msgstr "Fin"
+
+#: src/key-reference.xml:867(para)
+msgid "Select the last layer"
+msgstr "Seleccionar la última capa"
+
+#: src/key-reference.xml:871(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + M"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + M"
+
+#: src/key-reference.xml:873(para)
+msgid "Merge visible layers"
+msgstr "Combinar capas visibles"
+
+#: src/key-reference.xml:877(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + H"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + H"
+
+#: src/key-reference.xml:879(para)
+msgid "Anchor layer"
+msgstr "Anclar capa"
+
+#: src/key-reference.xml:887(refentrytitle) src/key-reference.xml:890(refname)
+msgid "Select"
+msgstr "Seleccionar"
+
+#: src/key-reference.xml:891(refpurpose)
+msgid "Key reference for <guimenuitem>Select</guimenuitem> menu"
+msgstr ""
+"Tecla de referencia para el menú <guimenuitem>Seleccionar</guimenuitem>"
+
+#: src/key-reference.xml:896(title)
+msgid "Selections"
+msgstr "Selecciones"
+
+#: src/key-reference.xml:899(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + T"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + T"
+
+#: src/key-reference.xml:901(para)
+msgid "Toggle selections"
+msgstr "Alternar selecciones"
+
+#: src/key-reference.xml:905(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + A"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + A"
+
+#: src/key-reference.xml:907(para)
+msgid "Select all"
+msgstr "Seleccionar todo"
+
+#: src/key-reference.xml:911(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + A"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + A"
+
+#: src/key-reference.xml:916(para)
+msgid "Select none"
+msgstr "Seleccionar nada"
+
+#: src/key-reference.xml:920(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + I"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + I"
+
+#: src/key-reference.xml:922(para)
+msgid "Invert selection"
+msgstr "Invertir selección"
+
+#: src/key-reference.xml:926(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + L"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + L"
+
+#: src/key-reference.xml:931(para)
+msgid "Float selection"
+msgstr "Selección flotante"
+
+#: src/key-reference.xml:935(term)
+msgid "<keycap function=\"shift\">Shift</keycap> + V"
+msgstr "<keycap function=\"shift\">Mayús</keycap> + V"
+
+#: src/key-reference.xml:937(para)
+msgid "Path to selection"
+msgstr "Ruta a selección"
+
+#: src/key-reference.xml:945(refentrytitle) src/key-reference.xml:948(refname)
+#: src/key-reference.xml:954(title) src/gimp.xml:195(title)
+msgid "Filters"
+msgstr "Filtros"
+
+#: src/key-reference.xml:949(refpurpose)
+msgid "Key reference for <guimenuitem>Filters</guimenuitem> menu"
+msgstr "Tecla de referencia para el menú <guimenuitem>Filtros</guimenuitem>"
+
+#: src/key-reference.xml:957(term)
+msgid "<keycap function=\"control\">Ctrl</keycap> + F"
+msgstr "<keycap function=\"control\">Ctrl</keycap> + F"
+
+#: src/key-reference.xml:959(para)
+msgid "Repeat last filter"
+msgstr "Repetir último filtro"
+
+#: src/key-reference.xml:963(term)
+msgid ""
+"<keycap function=\"shift\">Shift</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + F"
+msgstr ""
+"<keycap function=\"shift\">Mayús</keycap> + <keycap function=\"control"
+"\">Ctrl</keycap> + F"
+
+#: src/key-reference.xml:968(para)
+msgid "Reshow last filter"
+msgstr "Volver a mostrar el último filtro"
+
+#: src/key-reference.xml:976(refentrytitle) src/key-reference.xml:979(refname)
+#: src/key-reference.xml:985(title)
+msgid "Zoom tool"
+msgstr "Herramienta de ampliación"
+
+#: src/key-reference.xml:980(refpurpose)
+msgid "Key reference for the <guimenuitem>Zoom tool</guimenuitem> submenu"
+msgstr ""
+"Tecla de referencia para el submenú <guimenuitem>Herramienta de ampliación</"
+"guimenuitem>"
+
+#: src/key-reference.xml:988(term)
+msgid "click"
+msgstr "pulsar"
+
+#: src/key-reference.xml:994(term)
+msgid "<keycap function=\"shift\">Ctrl</keycap> + click"
+msgstr "<keycap function=\"shift\">Ctrl</keycap> + pulsar"
+
+#: src/key-reference.xml:1002(para)
+msgid "Zoom into the area"
+msgstr "Ampliar en el área"
+
+#: src/introduction.xml:15(title)
+msgid "Welcome to GIMP"
+msgstr "Bienvenido al GIMP"
+
+#: src/introduction.xml:18(primary)
+msgid "GIMP"
+msgstr "GIMP"
+
+#: src/introduction.xml:19(secondary) src/gimp.xml:60(title)
+msgid "Introduction"
+msgstr "Introducción"
+
+#: src/introduction.xml:21(para)
+msgid ""
+"<acronym>GIMP</acronym> is a multi-platform photo manipulation tool. "
+"<acronym>GIMP</acronym> is an acronym for <acronym>GNU</acronym> Image "
+"Manipulation Program. The <acronym>GIMP</acronym> is suitable for a variety "
+"of image manipulation tasks, including photo retouching, image composition, "
+"and image construction."
+msgstr ""
+"El <acronym>GIMP</acronym> es una herramienta de manipulación fotográfica "
+"multiplataforma. <acronym>GIMP</acronym> es un acrónimo de <acronym>GNU</"
+"acronym> Image Manipulation Program. En el <acronym>GIMP</acronym> se pueden "
+"realizar todo tipo de tareas de manipulación de imágenes, incluyendo retoque "
+"fotográfico, composición de imágenes y creación de imágenes."
+
+#: src/introduction.xml:29(para)
+msgid ""
+"<acronym>GIMP</acronym> has many capabilities. It can be used as a simple "
+"paint program, an expert quality photo retouching program, an online batch "
+"processing system, a mass production image renderer, an image format "
+"converter, etc."
+msgstr ""
+"El <acronym>GIMP</acronym> tiene muchas capacidades. Se puede usar como un "
+"sencillo programa de pintura, un programa de retoque fotográfico "
+"profesional, un sistema en línea de proceso por lotes, un generador de "
+"imágenes para producción en masa, un conversor de formatos de imágenes, etc."
+
+#: src/introduction.xml:35(para)
+msgid ""
+"<acronym>GIMP</acronym> is expandable and extensible. It is designed to be "
+"augmented with plug-ins and extensions to do just about anything. The "
+"advanced scripting interface allows everything from the simplest task to the "
+"most complex image manipulation procedures to be easily scripted."
+msgstr ""
+"El <acronym>GIMP</acronym> es ampliable y extensible. Está diseñado para "
+"ampliarse con complementos y extensiones. La interfaz avanzada de guionado "
+"(scripting) permite automatizar desde las tareas más simples hasta los "
+"procedimientos más complejos de manipulación de imágenes."
+
+#: src/introduction.xml:42(para)
+msgid ""
+"One of The <acronym>GIMP</acronym>'s strengths is its free availability from "
+"many sources for many operating systems. Most <acronym>GNU</acronym>/"
+"<application>Linux</application> distributions include The <acronym>GIMP</"
+"acronym> as a standard application. The <acronym>GIMP</acronym> is also "
+"available for other operating systems such as <productname>Microsoft "
+"Windows</productname> or Apple's <productname>Mac OS X</productname> "
+"(<application>Darwin</application>). The <acronym>GIMP</acronym> is a Free "
+"Software application covered by the General Public License <xref linkend="
+"\"bibliography-online-gpl\"/>. The <acronym>GPL</acronym> provides users "
+"with the freedom to access and alter the source code that makes up computer "
+"programs."
+msgstr ""
+"Uno de los fuertes del <acronym>GIMP</acronym> es su libre disponibilidad "
+"desde varias fuentes para muchos sistemas operativos. Casi todas las "
+"distribuciones de <acronym>GNU</acronym>/<application>Linux</application> "
+"incluyen al <acronym>GIMP</acronym> como una aplicación estándar. El "
+"<acronym>GIMP</acronym> también está disponible para otros sistemas "
+"operativos como <productname>Microsoft Windows</productname> o "
+"<productname>Mac OS X</productname>(<application>Darwin</application>) de "
+"Apple. El <acronym>GIMP</acronym> es una aplicación de Software Libre "
+"cubierta por la Licencia Pública General <xref linkend=\"bibliography-online-"
+"gpl\"/>. La <acronym>GPL</acronym> brinda a los usuarios la libertad de "
+"acceder y modificar el código fuente del que se construyen los programas."
+
+#: src/introduction.xml:58(title)
+msgid "Authors"
+msgstr "Autores"
+
+#: src/introduction.xml:59(para)
+msgid ""
+"The first version of the <acronym>GIMP</acronym> was written by Peter Mattis "
+"and Spencer Kimball. Many other developers have contributed more recently, "
+"and thousands have provided support and testing. <acronym>GIMP</acronym> "
+"releases are currently being orchestrated by Sven Neumann and Mitch Natterer "
+"and the other members of the <acronym>GIMP</acronym>-Team."
+msgstr ""
+"La primera versión del <acronym>GIMP</acronym> fue escrita por Peter Mattis "
+"y Spencer Kimball. Muchos otros desarrolladores han contribuido más "
+"recientemente, y miles han proporcionado su asistencia y pruebas. Los "
+"lanzamientos del <acronym>GIMP</acronym> actualmente son orquestados por "
+"Sven Neumann y Mitch Natterer y mucha otra gente denominada el "
+"<acronym>GIMP</acronym>-Team."
+
+#: src/introduction.xml:71(title)
+msgid "The GIMP Help system"
+msgstr "El sistema de ayuda de GIMP"
+
+#: src/introduction.xml:72(para)
+msgid ""
+"The <acronym>GIMP</acronym> Documentation Team and other users have provided "
+"you with the information necessary to understand how to use <acronym>GIMP</"
+"acronym>. The User Manual is an important part of this help. The current "
+"version is on the web site of the Documentation Team <xref linkend="
+"\"bibliography-online-gimp-docs\"/> in HTML format. The HTML version is also "
+"available as context sensitive help (if you installed it) while using "
+"<acronym>GIMP</acronym> by pressing the <keycap>F1</keycap> key. Help on "
+"specific menu items can be accessed by pressing the <keycap>F1</keycap> key "
+"while the mouse pointer is focused on the menu item. Read on to begin your "
+"<acronym>GIMP</acronym> journey."
+msgstr ""
+"El Equipo de Documentación del <acronym>GIMP</acronym>y otros usuarios han "
+"proporcionado la información necesaria para entender cómo usar el "
+"<acronym>GIMP</acronym>. El manual de usuario es una parte importante de "
+"este documento. La versión actual está en el sitio web del Equipo de "
+"Documentación <xref linkend=\"bibliography-online-gimp-docs\"/> en formato "
+"HTML. La versión HTML también está disponible como ayuda sensible al "
+"contexto mientras se usa el <acronym>GIMP</acronym> presionando la tecla "
+"<keycap>F1</keycap>. Se puede acceder a la ayuda a los elementos específicos "
+"del menú presionando <keycap>F1</keycap> mientras el ratón enfoca en dicho "
+"elemento. Continúe leyendo para empezar su viaje por el <acronym>GIMP</"
+"acronym>."
+
+#: src/introduction.xml:89(title)
+msgid "Features and Capabilities"
+msgstr "Propiedades y capacidades"
+
+#: src/introduction.xml:90(para)
+msgid ""
+"The following list is a short overview of some of the features and "
+"capabilities which <acronym>GIMP</acronym> offers you:"
+msgstr ""
+"La siguiente lista es un pequeño repaso de algunas de las propiedades y "
+"capacidades que ofrece el <acronym>GIMP</acronym>:"
+
+#: src/introduction.xml:96(para)
+msgid ""
+"A full suite of painting tools including brushes, a pencil, an airbrush, "
+"cloning, etc."
+msgstr ""
+"Un surtido completo de herramientas de pintura incluyendo pincel, un lápiz, "
+"un aerógrafo, clonado, etc."
+
+#: src/introduction.xml:102(para)
+msgid ""
+"Tile-based memory management, so image size is limited only by available "
+"disk space"
+msgstr ""
+"Gestión de la memoria de mosaico, así que el tamaño de la imagen lo limita "
+"sólo el espacio disponible en el disco"
+
+#: src/introduction.xml:108(para)
+msgid "Sub-pixel sampling for all paint tools for high-quality anti-aliasing"
+msgstr ""
+"Muestreo de sub-píxel para todas las herramientas de pintura para obtener un "
+"anti-dentado de alta calidad"
+
+#: src/introduction.xml:114(para)
+msgid "Full Alpha channel support for working with transparency"
+msgstr "Asistencia completa del canal alfa para trabajar con transparencia"
+
+#: src/introduction.xml:119(para)
+msgid "Layers and channels"
+msgstr "Capas y canales"
+
+#: src/introduction.xml:122(para)
+msgid ""
+"A procedural database for calling internal <acronym>GIMP</acronym> functions "
+"from external programs, such as Script-Fu"
+msgstr ""
+"Una base de datos de procedimientos para llamar a funciones internas del "
+"<acronym>GIMP</acronym> desde programas externos como Script-Fu"
+
+#: src/introduction.xml:128(para)
+msgid "Advanced scripting capabilities"
+msgstr "Capacidades de guionado avanzadas"
+
+#: src/introduction.xml:131(para)
+msgid "Multiple undo/redo (limited only by disk space)"
+msgstr "Múltiples deshacer/rehacer (limitado sólo por el espacio en disco)"
+
+#: src/introduction.xml:134(para)
+msgid "Transformation tools including rotate, scale, shear and flip"
+msgstr ""
+"Herramientas de transformación incluyendo rotar, escalar, inclinar y voltear"
+
+#: src/introduction.xml:139(para)
+msgid ""
+"Support for a wide range of file formats, including GIF, JPEG, PNG, XPM, "
+"TIFF, TGA, MPEG, PS, PDF, PCX, BMP and many others"
+msgstr ""
+"Los formatos de archivo soportados incluyen GIF, JPEG, PNG, XPM, TIFF, TGA, "
+"MPEG, PS, PDF, PCX, BMP y muchos otros"
+
+#: src/introduction.xml:145(para)
+msgid ""
+"Selection tools, including rectangle, ellipse, free, fuzzy, bezier and "
+"intelligent scissors"
+msgstr ""
+"Herramientas de selección incluyendo rectangular, elíptica, libre, difusa, "
+"bézier y tijeras inteligente"
+
+#: src/introduction.xml:151(para)
+msgid ""
+"Plug-ins that allow for the easy addition of new file formats and new effect "
+"filters."
+msgstr ""
+"Complementos que permiten agregar fácilmente nuevos formatos de archivo y "
+"nuevos filtros de efectos."
+
+#: src/help-missing.xml:8(title)
+msgid "Eeek! There is Missing Help"
+msgstr "Eeek! Falta un archivo de la ayuda"
+
+#: src/help-missing.xml:9(para)
+msgid ""
+"Sorry, but a help item is missing for the function you're looking for. You "
+"may be able to find it in the online version of the help at the <ulink url="
+"\"http://docs.gimp.org/en\"><acronym>GIMP</acronym> docs</ulink> website."
+msgstr ""
+"Lo sentimos pero falta el elemento de la ayuda para la función que busca. "
+"Puede que la encuentre en la versión en línea de la ayuda en la página web "
+"de la <ulink url=\"http://docs.gimp.org/es\"> documentación del "
+"<acronym>GIMP</acronym></ulink>."
+
+#: src/help-missing.xml:15(para)
+msgid ""
+"Feel free to join us and fill the gap by writing documentation for "
+"<acronym>GIMP</acronym>. For more information, subscribe to our <ulink url="
+"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</"
+"ulink>. Generally, it's a good idea to check the <ulink url=\"http://www."
+"gimp.org\"><acronym>GIMP</acronym> project page</ulink>."
+msgstr ""
+"Puede unirse a nosotros y contribuir escribiendo documentación para el "
+"<acronym>GIMP</acronym>. Para obtener más información, visite la página wiki "
+"del proyecto <ulink url=\"http://wiki.gimp.org/gimp/GimpDocs"
+"\"><acronym>GIMP</acronym> Wiki</ulink>. También hay una <ulink url="
+"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Lista de "
+"correo</ulink> disponible. Generalmente, es útil visitar la <ulink url="
+"\"http://www.gimp.org\">Página del <acronym>GIMP</acronym></ulink>."
+
+#: src/gimp.xml:24(title)
+msgid "GNU Image Manipulation Program"
+msgstr "Programa de manipulación de imágenes de GNU"
+
+#: src/gimp.xml:25(subtitle)
+msgid "User Manual"
+msgstr "Manual de usuario"
+
+#: src/gimp.xml:27(year)
+msgid "2002"
+msgstr "2002"
+
+#: src/gimp.xml:28(year)
+msgid "2003"
+msgstr "2003"
+
+#: src/gimp.xml:29(year)
+msgid "2004"
+msgstr "2004"
+
+#: src/gimp.xml:30(year)
+msgid "2005"
+msgstr "2005"
+
+#: src/gimp.xml:31(year)
+msgid "2006"
+msgstr "2006"
+
+#: src/gimp.xml:32(year)
+msgid "2007"
+msgstr "2007"
+
+#: src/gimp.xml:33(year)
+msgid "2008"
+msgstr "2008"
+
+#: src/gimp.xml:34(year)
+msgid "2009"
+msgstr "2009"
+
+#: src/gimp.xml:35(year)
+msgid "2010"
+msgstr "2010"
+
+#: src/gimp.xml:36(year)
+msgid "2011"
+msgstr "2011"
+
+#: src/gimp.xml:37(year)
+msgid "2012"
+msgstr "2012"
+
+#: src/gimp.xml:38(holder)
+msgid "The GIMP Documentation Team"
+msgstr "Equipo de documentación de GIMP"
+
+#: src/gimp.xml:41(title)
+msgid "Legal Notice"
+msgstr "Nota legal"
+
+#: src/gimp.xml:42(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.2 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the "
+"license is included in the section enphrased <link linkend=\"legal\">GNU "
+"Free Documentation License</link>."
+msgstr ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.2 or any later "
+"version published by the Free Software Foundation; with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the "
+"license is included in the section enphrased <link linkend=\"legal\">GNU "
+"Free Documentation License</link>."
+
+#: src/gimp.xml:54(title)
+msgid "Preface"
+msgstr "Prefacio"
+
+#: src/gimp.xml:58(title)
+msgid "Getting Started"
+msgstr "Primeros pasos"
+
+#: src/gimp.xml:65(title)
+msgid "Fire up the GIMP"
+msgstr "Ejecutando GIMP"
+
+#: src/gimp.xml:70(title)
+msgid "First Steps with Wilber"
+msgstr "Primeros pasos con Wilber"
+
+#: src/gimp.xml:78(title)
+msgid "Getting Unstuck"
+msgstr "Desatascarse"
+
+#: src/gimp.xml:83(title)
+msgid "How do I Become a <acronym>GIMP</acronym> Wizard?"
+msgstr "¿Cómo convertirse en un mago del <acronym>GIMP</acronym>?"
+
+#: src/gimp.xml:87(title)
+msgid "Getting Images into GIMP"
+msgstr "Introducir imágenes al GIMP"
+
+#: src/gimp.xml:88(para)
+msgid ""
+"This chapter is about getting images into GIMP. It explains how to create "
+"new images, how to load images from files, how to scan them and how to make "
+"screenshots."
+msgstr ""
+"Este capítulo trata de cómo introducir imágenes al GIMP. Se explica como "
+"crear imágenes nuevas, como cargar imágenes desde archivos, como escanearlas "
+"y como hacer capturas de pantalla."
+
+#: src/gimp.xml:93(para)
+msgid ""
+"But first we want to introduce you to the general structure of images in "
+"GIMP."
+msgstr ""
+"Pero en primer lugar, le queremos introducir en la estructura general de las "
+"imágenes en GIMP."
+
+#: src/gimp.xml:102(title)
+msgid "Getting Images out of GIMP"
+msgstr "Obtener imágenes de GIMP"
+
+#: src/gimp.xml:107(title)
+msgid "Painting with GIMP"
+msgstr "Pintar con GIMP"
+
+#: src/gimp.xml:123(title)
+msgid "Combining Images"
+msgstr "Combinar imágenes"
+
+#: src/gimp.xml:130(title)
+msgid "Text Management"
+msgstr "Gestión del texto"
+
+#: src/gimp.xml:136(title)
+msgid "Enhancing Photographs"
+msgstr "Mejorar fotografías"
+
+#: src/gimp.xml:140(title)
+msgid "Color Management with GIMP"
+msgstr "Gestión del color con GIMP"
+
+#: src/gimp.xml:144(title)
+msgid "Pimp my GIMP"
+msgstr "Adaptando mi GIMP"
+
+#: src/gimp.xml:154(title)
+msgid "Scripting"
+msgstr "Programar en GIMP"
+
+#: src/gimp.xml:161(title)
+msgid "Function Reference"
+msgstr "Referencia de funciones"
+
+#: src/gimp.xml:180(title)
+msgid "Menus"
+msgstr "Menús"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: src/gimp.xml:0(None)
+msgid "translator-credits"
+msgstr "Ignacio AntI <ant.ign@gmail.com>, 2010"
+
+#~ msgid "Key reference for <placeholder-1/> submenu"
+#~ msgstr "Nombre de referencia para el submenú <placeholder-1/>"
+
+#~ msgid "Toolbox"
+#~ msgstr "Caja de herramientas"
+
+#~ msgid "romanofski"
+#~ msgstr "AntI"
+
+#~ msgid "2006-08-02"
+#~ msgstr "2007-08-21"

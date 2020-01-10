@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2009-01-25 j.h: v2.6 reviewed
+  2007-11-30 j.h: updated v2.4
+  2007-06-13 Added Spanish translation by AntI
+  2007-03-09 KoSt: added 'no'
+  2007-03-02 explanation changed by j.h
+  2006-07-31 scb: revised 'en'
+  2005/11/16 split of from layer-transparency.xml by axel.wernicke
+-->
+<sect2 id="gimp-layer-alpha-add">
+  <title>Add Alpha Channel</title>
+
+  <indexterm>
+    <primary>Layer</primary>
+    <secondary>Transparency managing</secondary>
+    <tertiary>Add Alpha channel to background layer</tertiary>
+  </indexterm>
+  <indexterm>
+    <primary>Add Alpha channel</primary>
+  </indexterm>
+
+  <para>
+    <guimenuitem>Add Alpha Channel</guimenuitem>: An alpha channel is
+    automatically added into the Channel Dialog as soon as you add a second
+    layer to your image. It represents the transparency of the image. If your
+    image has only one layer, this background layer has no Alpha channel. In
+    this case, you can Add an Alpha channel with this command.
+  </para>
+
+  <sect3>
+    <title>Activate the Command</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          You can access this command from the image menubar through
+          <menuchoice>
+            <guimenu>Layer</guimenu>
+            <guisubmenu>Transparency</guisubmenu>
+            <guimenuitem>Add alpha Channel</guimenuitem>
+          </menuchoice>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          In addition, at the
+          <link linkend="gimp-layer-dialog">Layer Dialog</link>, you
+          can access it through <guimenuitem>Add Alpha Channel</guimenuitem>
+          of its context pop-up menu.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+</sect2>

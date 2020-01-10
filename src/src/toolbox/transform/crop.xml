@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2009-03-14 j.h: rebuilt the Allow Growing example
+  2008-03-01 j.h: rewrote Shrink Merged. Added "arrow keys"
+  2008-01-18 ude: updated 'de'
+  2008-01-11 j.h: updated to v2.4 'en;fr'
+  2007-06-11 kost: added 'no'
+  2007-04-18 Added Spanish translation by AntI
+  2007-05-13 lexa: enhanced docbook compliance
+  2006-02-06 en;fr revised by j.h
+  2005-12-07 replaced <simplesect> by <sect3> by lexa
+  2005-12-01 informalfigure replaced by figure by lexa
+  0506609 de reviewed by axel.wernicke
+  -->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-crop">
+  <title>Crop</title>
+
+  <indexterm>
+    <primary>Crop</primary>
+  </indexterm>
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Crop</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Image</primary>
+    <secondary>Crop</secondary>
+    <tertiary>Tool</tertiary>
+  </indexterm>
+
+  <figure>
+    <title>Crop tool</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-crop.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The Crop Tool is used to crop or clip an image. It works on all the
+    layers of the image, visible and invisible. This tool is often used
+    to remove borders, or to eliminate unwanted areas to provide you with a
+    more focused working area. It is also useful if you need a specific image
+    size that does not match the original dimensions of your image.
+  </para>
+  <para>
+    Just like the selection tools, the new crop tool has been enhanced with
+    the v2.4 release. The resize handles actually resize the crop rectangle
+    instead of providing both resize and move functionality. The tool behaves
+    more naturally and consistently with other GIMP tools.
+    To move, simply drag the rectangle clicking within the area. Resizing is
+    possible in one or two axes at the same time dragging the handle-bars on
+    the sides and corners. The outside area can be darkened with a nice
+    passepartout effect to better get the idea of how the final crop will
+    look like. To validate cropping, click inside the crop rectangle or
+    press the <keycap>Enter</keycap> key.
+  </para>
+  <para>
+    When the mouse becomes the moving cross-hair, you can use the keyboard
+    arrow keys to move the crop rectangle. Holding the
+    <keycap>Shift</keycap> key down allows to move by increments of 25 pixels.
+  </para>
+  <para>
+    You can use Guides to position the crop area. Make sure that the
+    <menuchoice>
+      <guimenu>View</guimenu>
+      <guimenuitem>Snap to Guides</guimenuitem>
+    </menuchoice>
+    option is checked.
+  </para>
+  <note>
+    <para>
+      You can see the aspect ratio in the status bar:
+<!--      <figure>
+        <title>Aspect ratio display</title>-->
+        <mediaobject>
+          <imageobject>
+            <imagedata format="PNG"
+                       fileref="images/toolbox/display_ratio.png"/>
+          </imageobject>
+        </mediaobject>
+<!--      </figure>-->
+    </para>
+  </note>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>
+      You can activate this tool in different ways:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          From the image menu bar
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Transform tools</guisubmenu>
+            <guimenuitem>Crop</guimenuitem>
+          </menuchoice>,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking the tool icon:
+          <guiicon>
+            <inlinegraphic
+              fileref="images/toolbox/stock-tool-crop-22.png"/>
+          </guiicon>in the ToolBox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by using the keyboard shortcut
+          <keycombo><keycap>Shift</keycap><keycap>C</keycap></keycombo>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <para>
+      When you maintain click on the crop rectangle, handles
+      disappear and
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          holding down the <keycap>Ctrl</keycap> key toggles to the
+          <guilabel>Extend from Center</guilabel> option,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          holding down the <keycap>Shift</keycap> key toggles to the
+          <guilabel>Fixed</guilabel> option, which makes some
+          dimensions fixed.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Tool Options</title>
+    <figure>
+      <title>Tool Options for the <quote>Crop</quote> tool</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/tool-options-crop.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term>Current Layer Only</term>
+        <listitem>
+          <para>
+            This option will make crop affect only the active layer.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Allow Growing</term>
+        <listitem>
+          <para>
+            This option allows the crop or resize to take place outside the
+            image (or layer), and even the canvas. So, you can give the size
+            you want to the resulting image. Transparency will be used if
+            there is no material to crop.
+          </para>
+          <figure>
+            <title>Example for <quote>Allow Growing</quote></title>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/toolbox/crop-grow-1.png" format="PNG"/>
+              </imageobject>
+              <caption>
+                <para>An image on a big canvas</para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/toolbox/crop-grow-2.png" format="PNG"/>
+              </imageobject>
+              <caption>
+                <para>
+                  The option is checked. The crop rectangle extends outside
+                  the canvas.
+                </para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata fileref="images/toolbox/crop-grow-3.png" format="PNG"/>
+              </imageobject>
+              <caption>
+                <para>The resulting image.</para>
+              </caption>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Expand from Center</term>
+        <listitem>
+          <para>
+            When this option is checked, the crop rectangle expands from
+            the first pixel you clicked taken for center. You can toggle
+            this option with <keycap>Ctrl</keycap> while drawing the crop
+            rectangle.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Fixed</term>
+        <listitem>
+          <para>
+            You can also access this option by holding down the
+            <keycap>Ctrl</keycap> key while drawing the crop rectangle.
+            This option offers you several to make drawing
+            the crop rectangle respect fixed dimensions, or their ratio:
+          </para>
+          <itemizedlist>
+            <listitem>
+              <para>
+                <guilabel>Aspect ratio</guilabel>: That's the default
+                possibility. Width and Height keep the same ratio they have
+                in the original image, when drawing the crop rectangle.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <guilabel>Width / Height</guilabel>: Only Width or Height
+                will remain fixed. The value of this dimension can be set in
+                the text box below; it defaults to 100 pixels.
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <guilabel>Size</guilabel>: Both Width and Height will be
+                fixed. Their values can be set in the text box below, in the
+                form <quote>150x100</quote> for example. The crop rectangle
+                will adopt this values as soon as you click the image. On the
+                right, two buttons let you choose a
+                <guibutton>Landscape</guibutton> (widthwise) or
+                <guibutton>Portrait</guibutton> (upright) format for the
+                crop rectangle.
+              </para>
+            </listitem>
+          </itemizedlist>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Position</term>
+        <listitem>
+          <para>
+            These two text boxes show the position (horizontal on the left,
+            vertical on the right) of the upper left corner of the crop
+            rectangle in real time and you can change it manually too. It is
+            stated in pixels, but you can change the unit thanks to the
+            drop-down list of the <guibutton>px</guibutton> button. The
+            coordinate origin is the upper left corner of the canvas (not of
+            the image).
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Size</term>
+        <listitem>
+          <para>
+            These two text boxes show the size (horizontal on the left,
+            vertical on the right) of the crop-rectangle in real time and you
+            can change it manually too. It is stated in pixels, but you can
+            change the unit thanks to the drop-down list of the
+            <guibutton>px</guibutton> button.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Highlight</term>
+        <listitem>
+          <para>
+            This option toggles the dark outside area intended for
+            highlighting the crop rectangle.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Guides</term>
+        <listitem>
+          <para>
+            All kinds of guides are described in
+            <xref linkend="gimp-tool-rect-select"/>
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Autoshrink</term>
+        <listitem>
+          <para>
+            The Auto Shrink button will attempt to locate a border, in the
+            active layer, from which to draw dimensions from. This option
+            only works well with isolated objects contrasting sharply with
+            background.
+          </para>
+          <figure>
+            <title>Example for <quote>Autoshrink</quote></title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/toolbox/auto-shrink1.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  An image with a sharp limit in it and a crop rectangle.
+                </para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/toolbox/auto-shrink2.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  After clicking the Autoshrink button, the crop rectangle
+                  has been shrunk to fit the sharp limits.
+                </para>
+              </caption>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Shrink Merged</term>
+        <listitem>
+          <para>
+            This option works the same, with Auto Shrink or not. It uses the
+            pixel information from all <emphasis>visible</emphasis> layers,
+            rather than just from the active layer.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

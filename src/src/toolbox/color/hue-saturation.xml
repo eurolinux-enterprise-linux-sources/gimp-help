@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2009-03-11 j.h: revised for v2.6. Added Presets
+  2008-01-18 ude: updated 'de'
+  2008-01-14 j.h: updated to v2.4. Overlap option added
+  2007-06-06 kost: added 'no'
+  2007-04-15 Added Spanish translation by AntI
+  2006-02-10 en;fr revised by j.h
+  2005-12-06 replaced simplesect by sect3 by lexa
+  2005-12-06 replaced informalfigure by figure by lexa
+  050807 de restructured and reviewed by axel.wernicke
+  -->
+<sect2 id="gimp-tool-hue-saturation">
+  <title>Hue-Saturation</title>
+
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Hue-Saturation</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Hue-Saturation</primary>
+  </indexterm>
+
+  <para>
+    The Hue-Saturation tool is used to adjust hue, saturation and lightness
+    levels on a range of color weights for the selected area or active layer.
+  </para>
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>You can get to the Hue-Saturation tool in two ways :</para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          In the image-menu through:
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Color Tools</guisubmenu>
+            <guimenuitem>Hue-Saturation</guimenuitem>
+          </menuchoice>, or
+          <menuchoice>
+            <guimenu>Colors</guimenu>
+            <guimenuitem>Hue-Saturation</guimenuitem>
+          </menuchoice>
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          By clicking the tool icon:
+          <guiicon>
+            <inlinegraphic
+              fileref="images/toolbox/stock-tool-hue-saturation-22.png"/>
+          </guiicon>
+          in Toolbox, provided that you have installed color tools in Toolbox.
+          For this, please refer to <xref linkend="gimp-prefs-toolbox"/>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>Hue-Saturation tool options</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata fileref="images/toolbox/tools-hue-sat.png" format="PNG"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+    <variablelist>
+      <varlistentry>
+        <term>Presets</term>
+        <listitem>
+          <para>
+            You can save the color settings of your image by clicking the
+            <guibutton>Add settings to favourites</guibutton> button
+            <guiicon>
+              <inlinegraphic fileref="images/toolbox/save-color-settings.png"/>
+            </guiicon>
+          </para>
+          <para>
+            The
+            <guiicon>
+              <inlinegraphic fileref="images/toolbox/presets-menu-icon.png"/>
+            </guiicon>
+            button opens a menu:
+          </para>
+          <figure>
+            <title>Preset Menu</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/toolbox/presets-menu.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+          <para>
+            which lets you <guilabel>Import Settings from File</guilabel> or
+            <guilabel>Export Settings to File</guilabel>,
+            and gives you access to the Manage Save Settings dialog:
+          </para>
+          <figure>
+            <title>Manage saved Settings Dialog</title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                           fileref="images/toolbox/manage-saved-settings.png"/>
+              </imageobject>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Select Primary Color to Adjust</term>
+        <listitem>
+          <para>
+            You can choose, between six, the three primary colors (Red,
+            Green and Blue) and the three complementary colors (Cyan,
+            Magenta and Yellow), the color to be modified. They are
+            arranged according to the color circle. When hue increases, hue
+            goes counter-clockwise. When it decreases, it goes clockwise. If
+            you click on the <guilabel>Master</guilabel> button, all colors
+            will be concerned with changes. GIMP standard is to set Red as 0.
+            Note that this colors refer to color ranges and not to color
+            channels.
+          </para>
+          <para>
+            Hue changes are shown in color swatches and the result is visible
+            in the image if the <quote>Preview</quote> option is enabled.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Overlap</term>
+        <listitem>
+          <para>
+            This slider lets you set how much color ranges will overlap. This
+            effect is very subtle and works on very next colors only:
+          </para>
+          <figure>
+            <title>
+              Example for the <quote>Overlap</quote> option
+            </title>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/toolbox/hue-sat-overlap-1.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  <emphasis>Original image</emphasis>. From the
+                  left to the right: a reddish yellow (255;240;0); a pure
+                  yellow (255;255;0); a greenish yellow (240;255;0).
+                </para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/toolbox/hue-sat-overlap-2.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  <emphasis>Overlap = 0</emphasis>. Hue = 15.
+                  Colors become (186;255;1), (168;255;1), (156;255;1).
+                </para>
+              </caption>
+            </mediaobject>
+            <mediaobject>
+              <imageobject>
+                <imagedata format="PNG"
+                  fileref="images/toolbox/hue-sat-overlap-3.png"/>
+              </imageobject>
+              <caption>
+                <para>
+                  <emphasis>Overlap = 100</emphasis>. Hue = 15.
+                  Colors become (192;255;1), (168;255;1), (162;255;1).
+                  Because of overlap, greenish is less green and reddish is
+                  less red.
+                </para>
+              </caption>
+            </mediaobject>
+          </figure>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Adjust Selected Color</term>
+        <listitem>
+          <itemizedlist>
+            <listitem>
+              <para>
+                <guilabel>Hue</guilabel>:
+                The slider and the input box allow you to select a hue in
+                the color circle (-180, 180).
+              </para>
+            </listitem>
+            <listitem>
+              <para>
+                <guilabel>Lightness</guilabel>:
+                The slider and the input box allow you to select a value
+                (luminosity): -100, 100.
+              </para>
+              <note>
+                <para>
+                  Lightness changes here concern a color range, while they
+                  concern a color tone with Curves and Levels tools, which
+                  work on color channels. If you change the Yellow lightness
+                  with Hue-Saturation, all yellow pixels will be changed,
+                  while only dark, bright or medium pixels luminosity will
+                  be changed with Curves or Levels tools.
+                </para>
+              </note>
+            </listitem>
+            <listitem>
+              <para>
+                <guilabel>Saturation</guilabel>:
+                The slider and the input box allow you to select a
+                saturation: -100, 100.
+              </para>
+            </listitem>
+          </itemizedlist>
+          <para>
+            The <guilabel>Initialize Color</guilabel>
+            button deletes changes to hue, lightness and saturation of the
+            selected color.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>Preview</term>
+        <listitem>
+          <para>
+            The Preview button makes all changes dynamically so that they can
+            be viewed straight away.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>

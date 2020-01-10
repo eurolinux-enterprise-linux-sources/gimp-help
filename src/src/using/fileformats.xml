@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect1 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-03-23 j.h: update to v2.8
+  2007-10-06 ude: added description for "quality settings from original image"
+  2007-07-15 lexa: added PackBits description
+  2007-03-19 lexa: added description for save dialogs for jpeg gif png and tif
+  2006-07-11 lexa: enhanced docbook compliance
+  2006-02-25 fixed invalid image reference
+-->
+<sect1 id="gimp-using-fileformats">
+  <title>Files</title>
+
+  <indexterm>
+    <primary>Files</primary>
+  </indexterm>
+
+  <para>
+    <acronym>GIMP</acronym> is capable of reading and writing a large
+    variety of graphics file formats.  With the exception of
+    <acronym>GIMP</acronym>'s native XCF file type, file handling is done by
+    Plugins.  Thus, it is relatively easy to extend <acronym>GIMP</acronym>
+    to support new file types when the need arises.
+  </para>
+
+  <sect2 id="save-export-image">
+    <title>Save / Export Images</title>
+    <indexterm>
+      <primary>Save/Export Images</primary>
+    </indexterm>
+    <indexterm>
+      <primary>Export Images</primary>
+    </indexterm>
+    <note>
+      <para>
+        In former <acronym>GIMP</acronym> releases, when you loaded an image in
+        some format, let us say JPG or PNG, the image kept its format and
+        was saved in the same format by <command>Save</command>. With
+        <acronym>GIMP</acronym>-2.8, images are loaded, imported, in the XCF
+        format as a new project. For example, a <quote>sunflower.png</quote>
+        image will be loaded as <quote>*[sunflower] (imported)-1.0 (indexed
+        color, 1 layer)</quote>. The leading asterisk indicates that this file
+        has been changed. This image will be saved as
+        <quote>sunflower.xcf</quote> by <command>Save</command>. To save this
+        image in a format other than XCF, you must use
+        <command>Export</command>.
+      </para>
+    </note>
+    <para>
+      When you are finished working with an image, you will want to save the
+      results. (In fact, it is often a good idea to save at intermediate
+      stages too: <acronym>GIMP</acronym>
+      is a pretty robust program, but we have heard rumors, possibly
+      apocryphal, that it may have been known on rare and mysterious occasions
+      to crash.) Most of the file formats that <acronym>GIMP</acronym>
+      can open, can also be used for saving. There is one file format that is
+      special, though: XCF is <acronym>GIMP</acronym>'s native format, and is
+      useful because it stores <emphasis>everything</emphasis> about an image
+      (well, almost everything; it does not store <quote>undo</quote>
+      information). Thus, the XCF format is especially suitable for saving
+      intermediate results, and for saving images to be re-opened later in
+      <acronym>GIMP</acronym>.
+      XCF files are not readable by most other programs that display images,
+      so once you have finished, you will probably also want to export the image
+      in a more widely used format, such as JPEG, PNG, TIFF, etc.
+    </para>
+  </sect2>
+
+  <sect2 id="gimp-using-fileformats-export-dialog">
+    <title>File Formats</title>
+    <para>
+      There are several commands for <emphasis>saving</emphasis> images. A list,
+      and information on how to use them, can be found in the section covering
+      the <link linkend="gimp-file-menu">File Menu</link>.
+    </para>
+    <para><acronym>GIMP</acronym> allows you to <emphasis>export</emphasis> the
+      images you create in a wide variety of formats.  It is important to
+      realize that the only format capable of saving <emphasis>all</emphasis> of
+      the information in an image, including layers, transparency, etc., is
+      GIMP's native XCF format. Every other format preserves some image
+      properties and loses others. It is up to you to understand the
+      capabilities of the format you choose.
+    </para>
+    <para>
+      Exporting an image does not modify the image itself, so you do not lose
+      anything by exporting. See
+      <link linkend="gimp-export-dialog">Export file</link>.
+    </para>
+    <note>
+      <para>
+        When you close an image (possibly by quitting GIMP), you are warned if
+        the image is "dirty"; that is, if it has been changed without
+        subsequently being saved (an asterisk is in front of the image name).
+      </para>
+      <figure>
+        <title>Closing warning</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata format="PNG"
+              fileref="images/using/close-warning.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+      <para>
+        Saving an image in any file format will cause the image to be considered
+        "not dirty", even if the file format does not represent all of the
+        information from the image.
+      </para>
+    </note>
+
+    <sect3 id="file-gif-save">
+      <title>Export Image as GIF</title>
+      <anchor id="file-gif-load" xreflabel="GIF"/>
+
+      <indexterm>
+        <primary>GIF</primary>
+      </indexterm>
+      <indexterm>
+        <primary>.gif</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Export Image as GIF</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Formats</primary>
+        <secondary>GIF</secondary>
+      </indexterm>
+
+      <figure>
+        <title>The GIF Export dialog</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata format="PNG"
+              fileref="images/using/export-gif-dialog.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+      <warning>
+        <para>
+          The GIF file format does not support some basic image        
+          properties such as <emphasis>print resolution</emphasis>.
+          If you care for these properties, use a different file
+          format like PNG.
+        </para>
+      </warning>
+      <variablelist>
+        <varlistentry>
+          <term>GIF Options</term>
+          <listitem>
+            <variablelist>
+              <varlistentry>
+                <term>Interlace</term>
+                <listitem>
+                  <para>
+                    Checking interlace allows an image on a web page to be
+                    progressively displayed as it is downloaded.
+                    Progressive image display is useful with slow connection
+                    speeds, because you can stop an image that is of no
+                    interest; interlace is of less use today with our faster
+                    connection speeds.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>GIF comment</term>
+                <listitem>
+                  <para>
+                    GIF comments support only 7-bit ASCII characters.
+                    If you use a character outside the 7-bit ASCII set,
+                    <acronym>GIMP</acronym> will export the image without
+                    a comment, and then inform you that the comment was not
+                    saved.
+                  </para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </listitem>
+        </varlistentry>
+        
+        <varlistentry>
+          <term>Animated GIF Options</term>
+          <listitem>
+            <indexterm>
+              <primary>Animation</primary>
+              <secondary>Animated GIF options</secondary>
+            </indexterm>
+            <variablelist>
+              <varlistentry>
+                <term>Loop forever</term>
+                <listitem>
+                  <para>
+                    When this option is checked, the animation will
+                    play repeatedly until you stop it.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Delay between frames where unspecified</term>
+                <listitem>
+                  <para>
+                    You can set the delay, in milliseconds, between frames
+                    if it has not been set before. In this case, you can
+                    modify every delay in the Layer Dialog.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Frame disposal where unspecified</term>
+                <listitem>
+                  <para>
+                    If this has not been set before, you can set how frames
+                    will be superimposed. You can select among three options :
+                  </para>
+                  <itemizedlist mark="opencircle">
+                    <listitem>
+                      <para>
+                        <guilabel>I don't care</guilabel>:
+                        you can use this option if all your layers are
+                        opaque. Layers will overwrite what is beneath.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>Cumulative Layers (combine)</guilabel>:
+                        previous frames will not be deleted when a new one
+                        is displayed.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>One frame per layer (replace)</guilabel>:
+                        previous frames will be deleted before displaying a
+                        new frame.
+                      </para>
+                    </listitem>
+                  </itemizedlist>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Use delay entered above for all frames</term>
+                <listitem>
+                  <para>
+                    Self-explanatory.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Use disposal entered above for all frames</term>
+                <listitem>
+                  <para>
+                    Self-explanatory.
+                  </para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect3>
+
+    <sect3 id="file-jpeg-save">
+      <title>Export Image as JPEG</title>
+      <anchor id="file-jpeg-load" xreflabel="JPEG"/>
+
+      <indexterm>
+        <primary>JPEG</primary>
+      </indexterm>
+      <indexterm>
+        <primary>.jpg</primary>
+      </indexterm>
+      <indexterm>
+        <primary>.jpeg</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Export Image as JPEG</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Formats</primary>
+        <secondary>JPEG</secondary>
+      </indexterm>
+
+      <para>
+        JPEG files usually have an extension .jpg, .JPG, or .jpeg. It is a
+        very widely used format, because it compresses images very
+        efficiently, while minimizing the loss of image quality. No other
+        format comes close to achieving the same level of compression. It does
+        not, however, support transparency or multiple layers.
+      </para>
+      <figure>
+        <title>The JPEG Export dialog</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata format="PNG"
+              fileref="images/using/export-jpeg-dialog.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+      <para>
+        The JPEG algorithm is quite complex, and involves a bewildering number
+        of options, whose meaning is beyond the scope of this documentation.
+        Unless you are a JPEG expert, the Quality parameter is probably the
+        only one you will need to adjust.
+      </para>
+      <variablelist>
+        <varlistentry>
+          <term>Quality</term>
+          <listitem>
+            <para>
+              When you save a file in JPEG format, a dialog is displayed
+              that allows you to set the Quality level, which ranges from 0
+              to 100. Values above 95 are generally not useful, though. The
+              default quality of 85 usually produces excellent results, but
+              in many cases it is possible to set the quality substantially
+              lower without noticeably degrading the image. You can test the
+              effect of different quality settings by checking
+              <guilabel>Show Preview in image window</guilabel>
+              in the JPEG dialog.
+            </para>
+            <note>
+              <para>
+                Please note, that the numbers for the JPEG quality level have
+                a different meaning in different applications.
+                Saving with a quality level of 80 in GIMP is not
+                necessarily comparable with saving with a quality level of
+                80 in a different application.
+              </para>
+            </note>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Preview in image window</term>
+          <listitem>
+            <para>
+              Checking this option causes each change in quality (or any other
+              JPEG parameter) to be shown in the image display. (This does not
+              alter the image: the image reverts back to its original state
+              when the JPEG dialog is closed.)
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Advanced settings</term>
+          <listitem>
+            <para>
+              Some information about the advanced settings:
+            </para>
+            <variablelist>
+              <varlistentry>
+                <term>Optimize</term>
+                <listitem>
+                  <para>
+                    If you enable this option, the optimization of entropy
+                    encoding parameters will be used. The result is typically
+                    a smaller file, but it takes more time to generate.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Progressive</term>
+                <listitem>
+                  <para>
+                    With this option enabled, the image chunks are
+                    stored in the file in an order that allows
+                    progressive image refinement
+                    during a slow connection web download.
+                    The progressive option for JPG has the same
+                    purpose as the interlace option for GIF.
+                    Unfortunately, the progressive option produces
+                    slightly larger JPG files (than without the
+                    progressive option).
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Save EXIF data</term>
+                <listitem>
+                  <indexterm>
+                    <primary>EXIF</primary>
+                  </indexterm>
+                  <para>
+                    JPEG files from many digital cameras contain extra
+                    information, called EXIF data.
+                    EXIF data provides information about the image such as
+                    camera make and model, image size, image date, etc.
+                    Although GIMP uses the <quote>libexif</quote> library to
+                    read and write EXIF data, the library is not
+                    automatically packaged with GIMP. If GIMP was built with
+                    libexif support, then EXIF data is preserved if you open a
+                    JPEG file, work with the resulting image, and then export 
+                    it as JPEG. The EXIF data is not altered in any way when 
+                    you do this. The EXIF data may indicate things such as 
+                    image creation time and file name, which may no longer be
+                    correct.
+                    If GIMP was not built with EXIF support, you can still
+                    open JPG files containing EXIF data, but the EXIF data
+                    is ignored, and will not be saved when the resulting image
+                    is later exported.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Save thumbnail</term>
+                <listitem>
+                  <para>
+                    This option lets you save a thumbnail with the image.
+                    Many applications use the small thumbnail image as
+                    a quickly available small preview image.
+                  </para>
+                  <note>
+                    <para>
+                      This option is present only if <acronym>GIMP</acronym>
+                      was built with EXIF support.
+                    </para>
+                  </note>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Save XMP data</term>
+                <listitem>
+                  <para>
+                    XMP data is <quote>meta</quote> data about the image;
+                    it is a competing format with EXIF.
+                    If you enable this option, the meta data of the image is
+                    saved in an <acronym>XMP</acronym>-structure within the
+                    file.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>
+                  Use quality settings from original image
+                </term>
+                <listitem>
+                  <para>
+                    If a particular quality setting (or <quote>quantization
+                    table</quote>) was attached to the image when it was
+                    loaded, then this option allows you to use them instead of
+                    the standard ones.
+                  </para>
+                  <para>
+                    If you have only made a few changes to the image, then
+                    re-using the same quality setting will give you almost the
+                    same quality and file size as the original image. This
+                    will minimize the losses caused by the quantization step,
+                    compared to what would happen if you used different
+                    quality setting.
+                  </para>
+                  <para>
+                    If the quality setting found in the original file are not
+                    better than your default quality settings, then the option
+                    <quote>Use quality settings from original image</quote>
+                    will be available but not enabled. This ensures that you
+                    always get at least the minimum quality specified in your
+                    defaults. If you did not make major changes to the image
+                    and you want to save it using the same quality as the
+                    original, then you can do it by enabling this option.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Smoothing</term>
+                <listitem>
+                  <para>
+                    JPG compression creates artifacts. By using this option,
+                    you can smooth the image when saving, reducing them. But
+                    your image becomes somewhat blurred.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Restart markers</term>
+                <listitem>
+                  <para>
+                    The image file can include markers which allow the image
+                    to be loaded as segments. If a connection is broken while
+                    loading the image in a web page,
+                    loading can resume from the next marker.
+                  </para>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Subsampling</term>
+                <listitem>
+                  <para>
+                    The human eye is not sensitive in the same way over
+                    the entire color spectrum. The compression
+                    can use this to treat slightly different colors
+                    that the eye perceives as very close, as identical
+                    colors. Three methods are available :
+                  </para>
+                  <itemizedlist>
+                    <listitem>
+                      <para>
+                        <guilabel>1x1,1x1,1x1 (best quality)</guilabel>:
+                        Commonly referred to as (4:4:4), this produces
+                        the best quality,
+                        preserving borders and contrasting colors, but
+                        compression is less.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>2x1,1x1,1x1 (4:2:2)</guilabel>:
+                        This is the standard subsampling, which usually
+                        provides a good ratio between image quality and file
+                        size. There are situations, however, in which using no
+                        subsampling (4:4:4) provides a noticeable increase in
+                        the image quality; for example, when the image
+                        contains fine details such as text over a uniform
+                        background, or images with almost-flat colors.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>1x2,1x1,1x1</guilabel>
+                        This is similar to
+                        (2x1,1x1,1x1), but the chroma sampling is in the
+                        horizontal direction rather than the vertical
+                        direction; as if someone rotated an image.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>2x2,1x1,1x1 (smallest file)</guilabel>:
+                        Commonly referred to as (4:1:1), this produces
+                        the smallest files. This suits images with weak
+                        borders but tends to denature colors.
+                      </para>
+                    </listitem>
+                  </itemizedlist>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>DCT Method</term>
+                <listitem>
+                  <para>
+                    DCT is <quote>discrete cosine transform</quote>,
+                    and it is the first step in the JPEG algorithm going
+                    from the spatial to the frequency domain. The choices are
+                    <quote>float</quote>, <quote>integer</quote>
+                    (the default), and <quote>fast integer</quote>.
+                  </para>
+                  <itemizedlist>
+                    <listitem>
+                      <para>
+                        <guilabel>float</guilabel>:
+                        The float method is very slightly more accurate than
+                        the integer method, but is much slower unless your
+                        machine has very fast floating-point hardware. Also
+                        note that the results of the floating-point method may
+                        vary slightly across machines, while the integer
+                        methods should give the same results everywhere.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>integer</guilabel>
+                        (the default): This method is faster than
+                        <quote>float</quote>, but not as accurate.
+                      </para>
+                    </listitem>
+                    <listitem>
+                      <para>
+                        <guilabel>fast integer</guilabel>:
+                        The fast integer method is much less accurate than
+                        the other two.
+                      </para>
+                    </listitem>
+                  </itemizedlist>
+                </listitem>
+              </varlistentry>
+              <varlistentry>
+                <term>Image comments</term>
+                <listitem>
+                  <para>
+                    In this text box, you can enter a comment which is
+                    saved with the image.
+                  </para>
+                </listitem>
+              </varlistentry>
+            </variablelist>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect3>
+       
+    <sect3 id="file-png-save">
+      <title>Export Image as PNG</title>
+      <anchor id="file-png-load" xreflabel="PNG"/>
+      <anchor id="file-png-save-defaults" xreflabel="PNG"/>
+      <indexterm>
+        <primary>Export Image as PNG</primary>
+      </indexterm>
+      <indexterm>
+        <primary>PNG</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Formats</primary>
+        <secondary>PNG</secondary>
+      </indexterm>
+
+      <figure>
+        <title>The <quote>Export Image as PNG</quote> dialog</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata format="PNG"
+              fileref="images/using/export-png-dialog.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+      <variablelist>
+        <varlistentry>
+          <term>Interlacing</term>
+          <listitem>
+            <para>
+              Checking interlace allows an image on a web page to be
+              progressively displayed as it is downloaded.
+              Progressive image display is useful with slow connection
+              speeds, because you can stop an image that is of no
+              interest; interlace is of less use today with our faster
+              connection speeds.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save background color</term>
+          <listitem>
+            <para>
+              If your image has many transparency levels, the Internet
+              browsers that recognize only two levels, will use the
+              background color of your Toolbox instead. Internet Explorer
+              up to version 6 did not use this information.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save gamma</term>
+          <listitem>
+            <para>
+              Gamma correction is the ability to correct for
+              differences in how computers interpret color values.
+              This saves gamma information in the PNG that reflects
+              the current Gamma factor for your display. Viewers on
+              other computers can then compensate to ensure that the image
+              is not too dark or too bright.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save layer offset</term>
+          <listitem>
+            <!-- Andrew Pitonyak (andrew@pitonyak.org)
+            verified this with Alexia Death (alexiadeath@gmail.com)
+            on August 17, 2009. -->
+            <para>
+              PNG supports an offset value called the
+              <quote>oFFs chunk</quote>, which provides position data.
+              Unfortunately, PNG offset support in <acronym>GIMP</acronym>
+              is broken, or at least is not compatible with other
+              applications,
+              and has been for a long time. Do not enable offsets,
+              let <acronym>GIMP</acronym> flatten the layers before
+              saving, and you will have no problems.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save Resolution</term>
+          <listitem>
+            <para>
+              Save the image resolution, in DPI (dots per inch).
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save creation time</term>
+          <listitem>
+            <para>
+              Date the file was saved.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save comment</term>
+          <listitem>
+            <para>
+              You can read this comment in the
+              <link linkend="gimp-image-properties">Image Properties</link>.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save color values from transparent pixels</term>
+          <listitem>
+            <para>
+              With this option is checked, the color values are saved even if
+              the pixels are completely transparent.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Compression level</term>
+          <listitem>
+            <para>
+              Since compression is not lossy, the only reason to use a
+              compression level less than 9, is if it takes too long to
+              compress a file on a slow computer.
+              Nothing to fear from
+              decompression: it is as quick whatever the compression level.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save Defaults</term>
+          <listitem>
+            <para>
+              Click to save the current settings. Latter, you can use
+              <guibutton>Load Defaults</guibutton> to load the saved
+              settings.
+            </para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+      <note>
+        <para>
+          The PNG format supports indexed images. Using fewer colors,
+          therefore, results in a smaller file; this is especially useful
+          for creating web images;
+          see <xref linkend="gimp-image-convert-indexed"/>.
+        </para>
+        <para>
+          Computers work on 8 bits blocks named <quote>Byte</quote>.
+          A byte allows 256 colors. Reducing the number of colors below 256
+          is not useful: a byte will be used anyway and the file size will not
+          be less. More, this <quote>PNG8</quote>
+          format, like GIF, uses only one bit for transparency; only two
+          transparency levels are possible, transparent or opaque.
+        </para>
+        <para>
+          If you want PNG transparency to be fully displayed by Internet
+          Explorer, you can use the AlphaImageLoader DirectX filter in the
+          code of your Web page. See Microsoft Knowledge Base
+          <xref linkend="bibliography-online-microsoft-kb294714"/>.
+          Please note, that this is not necessary for
+          InternetExplorer 7 and above.
+        </para>
+      </note>
+    </sect3>
+
+    <sect3 id="file-tiff-save">
+      <title>Export Image as TIFF</title>
+      <indexterm>
+        <primary>Export Image as TIFF</primary>
+      </indexterm>
+      <indexterm>
+        <primary>TIFF</primary>
+      </indexterm>
+      <indexterm>
+        <primary>Formats</primary>
+        <secondary>TIFF</secondary>
+      </indexterm>
+      <figure>
+        <title>The TIFF Export dialog</title>
+        <mediaobject>
+          <imageobject>
+            <imagedata format="PNG"
+              fileref="images/using/export-tiff-dialog.png"/>
+          </imageobject>
+        </mediaobject>
+      </figure>
+      <variablelist>
+        <varlistentry>
+          <term>Compression</term>
+          <listitem>
+            <para>
+              This option allows you to specify the algorithm used to
+              compress the image.
+            </para>
+            <itemizedlist>
+              <listitem>
+                <para>
+                  <guilabel>None</guilabel>: is fast, and lossless, but the
+                  resulting file is very large.
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  <guilabel>LZW</guilabel>: The image is compressed
+                  using the <quote>Lempel-Ziv-Welch</quote> algorithm, a
+                  lossless compression technique. This is old, but
+                  efficient and fast. More information at
+                  <xref linkend="bibliography-online-wkpd-lzw"/>.
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  <guilabel>Pack Bits</guilabel>: is a fast, simple
+                  compression scheme for run-length encoding of data. Apple
+                  introduced the PackBits format with the release of
+                  MacPaint on the Macintosh computer. A PackBits data
+                  stream consists of packets of one byte of header followed
+                  by data. (Source:
+                  <xref linkend="bibliography-online-wkpd-packbits"/>)
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  <guilabel>Deflate</guilabel>: is a lossless data
+                  compression algorithm that uses a combination of the LZ77
+                  algorithm and Huffman coding. It is also used in Zip,
+                  Gzip and PNG file formats. Source:
+                  <xref linkend="bibliography-online-wkpd-deflate"/>.
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  <guilabel>JPEG</guilabel>: is a very good
+                  compression algorithm but lossy.
+                </para>
+              </listitem>
+              <listitem>
+                <para>
+                  <guilabel>CCITT Group 3 fax</guilabel>;
+                  <guilabel>CCITT Group 4 fax</guilabel> is a
+                  black and white format developed to transfer images by FAX.
+                </para>
+                <note>
+                  <para>
+                    These options can only be selected, if the image is in
+                    indexed mode and reduced to two colors. Use
+                    <menuchoice>
+                      <guimenu>Image</guimenu>
+                      <guisubmenu>Mode</guisubmenu>
+                      <guimenuitem>Indexed</guimenuitem>
+                    </menuchoice>
+                    to convert the image to indexed. Be certain to check
+                    <quote>Use black and white (1-bit) palette</quote>.
+                  </para>
+                </note>
+              </listitem>
+            </itemizedlist>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Save color values from transparent pixels</term>
+          <listitem>
+            <para>
+              With this option the color values are saved even if the pixels
+              are completely transparent.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Comment</term>
+          <listitem>
+            <para>
+              In this text box, you can enter a comment that is
+              associated with the image.
+            </para>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect3>
+    
+      <sect3 id="file-mng-export">
+        <title>Export Image as MNG</title>
+        <indexterm>
+          <primary>Export Image as MNG</primary>
+        </indexterm>
+        <indexterm>
+          <primary>MNG</primary>
+        </indexterm>
+        <indexterm>
+          <primary>Formats</primary>
+          <secondary>MNG</secondary>
+        </indexterm>
+        <figure>
+          <title>Export MNG File Dialog</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata format="PNG"
+                          fileref="images/using/export-mng-dialog.png"/>
+            </imageobject>
+          </mediaobject>
+        </figure>
+        <para>
+          MNG is acronym for <quote>Multiple-Image Network Graphics</quote>. 
+        </para>
+        <para>
+          The main problem is that Konqueror is the only Web navigator that 
+          recognizes the MNG animation format. Please see 
+          <ulink url="http://en.wikipedia.org/wiki/Multiple-image_Network_Graphics"/>.
+        </para>
+      </sect3>
+      
+  </sect2>
+</sect1>

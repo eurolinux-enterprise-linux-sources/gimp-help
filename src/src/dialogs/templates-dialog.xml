@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2012-05-28 j.h no change for 2.8
+  2008-12-26 j.h updated to v2.6
+  2007-10-07 v2.4: no change
+  2005-11-29 replaced informalfigures by figures by lexa
+  2005-05-19 created by j.h
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-template-dialog">
+  <title>Templates Dialog</title>
+
+  <indexterm>
+    <primary>Dialogs</primary>
+    <secondary>Templates</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Templates</primary>
+  </indexterm>
+
+  <figure>
+    <title>The Templates dialog</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata format="PNG"
+          fileref="images/dialogs/templates-dialog.png"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+
+  <para>
+    Templates are templates for an image format to be created. GIMP offers you
+    a lot of templates and you can create your owns. When you create a New
+    image, you can access to the list of existing templates but you can't
+    manage them. The <quote>Templates</quote>
+    dialog allows you to manage all these templates.
+  </para>
+
+  <sect3>
+    <title>Activating the dialog</title>
+    <para>
+      The <quote>Templates</quote> dialog is a dockable dialog; see the
+      section <xref linkend="gimp-concepts-docks"/> for help on manipulating
+      it.
+    </para>
+    <para>
+      You can access it:
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          from the image menu:
+          <menuchoice>
+            <guimenu>Windows</guimenu>
+            <guisubmenu>Dockable Dialogs</guisubmenu>
+            <guimenuitem>Templates</guimenuitem>
+          </menuchoice>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          from the Tab menu in any dockable dialog by clicking on
+          <guiicon>
+            <inlinegraphic fileref="images/dialogs/stock-menu-left-12.png"/>
+          </guiicon> and selecting
+          <menuchoice>
+            <guimenu>Add Tab</guimenu>
+            <guimenuitem>Templates</guimenuitem>
+          </menuchoice>.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Using the Templates dialog</title>
+    <para>
+      You select a template by clicking on its icon. Right clicking reveals a
+      local menu that offers the same functions as buttons.
+    </para>
+
+    <sect4>
+      <title>Grid/List modes</title>
+      <para>
+        In the Tab menu for the <quote>Templates</quote> dialog, you can
+        choose between
+        <guimenuitem>View as Grid</guimenuitem> and <guimenuitem>View as
+        List</guimenuitem>. In Grid mode, templates are laid out in a
+        rectangular array of identical icons (unless you gave them a
+        particular icon, as we will see later). Only the name of the
+        selected template is displayed. In List mode, they are lined up
+        vertically; icons are identical too; all names are displayed.
+      </para>
+      <para>
+        In this Tab menu, the <guilabel>Preview Size</guilabel> option allows
+        you to change the size of thumbnails.
+      </para>
+      <tip>
+        <para>
+          <keycombo><keycap>Ctrl</keycap><keycap>F</keycap></keycombo>
+          in a list view opens a search field.
+          See <xref linkend="gimp-dock-view-as-list" />
+        </para>
+      </tip>
+    </sect4>
+
+    <sect4>
+      <title>Buttons at the bottom</title>
+      <para>
+        The buttons at the bottom of the dialog allow you to operate on
+        templates in several ways:
+      </para>
+      <variablelist>
+        <varlistentry>
+          <term>
+            <guiicon>
+              <inlinegraphic fileref="images/dialogs/stock-image-16.png"/>
+            </guiicon>
+            <phrase condition="tag-is-required">
+              Create a new image from the selected template
+            </phrase>
+          </term>
+          <listitem>
+            <para>
+              Clicking on this button opens the dialog
+              <link linkend="gimp-file-new">Create a new image</link>
+              on the model of the selected template.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>
+            <guiicon>
+              <inlinegraphic fileref="images/dialogs/dialogs-icon-new.png"/>
+            </guiicon>
+            <phrase condition="tag-is-required">
+              Create a new template
+            </phrase>
+          </term>
+          <listitem>
+            <para>
+              Clicking on this button opens the
+              <link linkend="edit-template-dialog">New template</link>
+              dialog, identical to the Edit Template dialog, that we will see
+              below.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>
+            <guiicon>
+              <inlinegraphic fileref="images/dialogs/stock-duplicate-16.png"/>
+            </guiicon>
+            <phrase condition="tag-is-required">
+              Duplicate the selected template
+            </phrase>
+          </term>
+          <listitem>
+            <para>
+              Clicking on this button opens the Edit Template dialog that we
+              are going to study now.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>
+            <guiicon>
+              <inlinegraphic fileref="images/dialogs/stock-edit-16.png"/>
+            </guiicon>
+            <phrase condition="tag-is-required">
+              Edit the selected template
+            </phrase>
+          </term>
+          <listitem>
+            <para>
+              Clicking on this button opens the
+              <link linkend="edit-template-dialog">Edit Template</link>
+              dialog.
+            </para>
+          </listitem>
+        </varlistentry>
+        <varlistentry>
+          <term>Delete the selected template</term>
+          <listitem>
+            <para>Guess what?</para>
+            <tip>
+              <para>
+                Every template is stored in a <filename>templaterc</filename>
+                file at your personal <acronym>GIMP</acronym> directory.
+                If you want to restore some deleted templates, you can copy or
+                append template entries to your file from the master
+                <filename>templaterc</filename> file at the
+                <filename class="directory">etc/gimp/2.0</filename> directory
+                of the <acronym>GIMP</acronym>'s system folder.
+              </para>
+            </tip>
+          </listitem>
+        </varlistentry>
+      </variablelist>
+    </sect4>
+  </sect3>
+  <xi:include href="edit-template-dialog.xml"/>
+</sect2>

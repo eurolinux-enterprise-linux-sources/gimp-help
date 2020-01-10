@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2007-05-12 Added Spanish translation by AntI
+  2006-01-28 en;fr reviewed by j.h
+  2005/09/14 de created by axel.wernicke
+-->
+<sect2 id="gimp-selection-none">
+  <title>None</title>
+
+  <indexterm>
+    <primary>Selection</primary>
+    <secondary>Delete selections</secondary>
+  </indexterm>
+
+  <para>
+    The <guimenuitem>None</guimenuitem> command cancels all selections in
+    the image. If there are no selections, the command doesn't do anything.
+    Floating selections are not affected.
+  </para>
+
+  <sect3>
+    <title>Activating the Command</title>
+    <itemizedlist>
+      <listitem>
+        <para>
+          You can access this command from the image menubar through
+          <menuchoice>
+            <guimenu>Select</guimenu>
+            <guimenuitem>None</guimenuitem>
+          </menuchoice>.
+         </para>
+      </listitem>
+      <listitem>
+        <para>
+          You can also use the keyboard shortcut
+          <keycombo>
+            <keycap>Shift</keycap>
+            <keycap>Ctrl</keycap>
+            <keycap>A</keycap>
+          </keycombo>.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          In addition, at the
+          <link linkend="gimp-selection-dialog">Selection Editor</link>, you
+          can access it through the <link linkend="tab-menus">Tab menu</link>:
+          <menuchoice>
+            <guisubmenu>Selection Editor Menu</guisubmenu>
+            <guimenuitem>None</guimenuitem>
+          </menuchoice>,
+          or by clicking on the
+          <guiicon>
+            <inlinemediaobject>
+              <imageobject>
+                <imagedata
+                  fileref="images/dialogs/stock-selection-none-16.png"/>
+              </imageobject>
+              <textobject>
+                <phrase>Dismiss the selection</phrase>
+              </textobject>
+            </inlinemediaobject>
+          </guiicon>
+          icon button on the bottom of this dialog.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+</sect2>

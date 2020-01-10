@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sect2 PUBLIC "-//OASIS//DTD DocBook XML V4.3//EN"
+                       "http://www.docbook.org/xml/4.3/docbookx.dtd">
+<!-- section history:
+  2009-03-18 j.h: reviewed for v2.6. No change ("scale" exists)
+  2008-01-06 j.h: updated to v2.4. Ctrl key modifier added
+  2007-06-17 kost: added norwegian
+  2006-07-15 added es content by mq
+  2006-05-01 added italian content by ciampix
+  2005-12-06 simplesect replaced by sect3 by lexa
+  2005-12-06 informalfigures replaced by figures by lexa
+  050523 de reviewed by axel.wernicke
+-->
+<sect2 xmlns:xi="http://www.w3.org/2001/XInclude" id="gimp-tool-smudge">
+  <title>Smudge</title>
+  <indexterm>
+    <primary>Tools</primary>
+    <secondary>Smudge</secondary>
+  </indexterm>
+  <indexterm>
+    <primary>Smudge</primary>
+  </indexterm>
+
+  <figure>
+    <title>Smudge tool</title>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="images/toolbox/toolbox-smudge.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </figure>
+  <para>
+    The Smudge tool uses the current brush to smudge colors on the active
+    layer or a selection. It takes color in passing and uses it to mix it to
+    the next colors it meets, on a distance you can set.
+  </para>
+
+  <sect3>
+    <title>Activating the Tool</title>
+    <para>
+      You can find the Smudge tool in various ways :
+    </para>
+    <itemizedlist>
+      <listitem>
+        <para>
+          through
+          <menuchoice>
+            <guimenu>Tools</guimenu>
+            <guisubmenu>Paint Tools</guisubmenu>
+            <guimenuitem>Smudge.</guimenuitem>
+          </menuchoice>
+          in the image menu,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          by clicking on the tool icon:
+          <guiicon>
+            <inlinegraphic
+                fileref="images/toolbox/stock-tool-smudge-22.png"/>
+          </guiicon>
+          in Toolbox,
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+          or by pressing the <keycap>S</keycap> key on keyboard.
+        </para>
+      </listitem>
+    </itemizedlist>
+  </sect3>
+
+  <sect3>
+    <title>Key modifiers (Defaults)</title>
+    <variablelist>
+      <varlistentry>
+        <term>
+          <keycap>Shift</keycap>
+        </term>
+        <listitem>
+          <para>
+            The <keycap>Shift</keycap> key places the smudge tool into
+            straight line mode.  Holding <keycap>Shift</keycap> while clicking
+            <mousebutton>Button1</mousebutton> will smudge in a straight
+            line. Consecutive clicks will continue smudging in straight
+            lines that originate from the end of the last line.
+          </para>
+        </listitem>
+      </varlistentry>
+      <varlistentry>
+        <term>
+          <keycap>Ctrl</keycap>
+        </term>
+        <listitem>
+          <para>
+            Using <keycap>Ctrl</keycap> with <keycap>Shift</keycap>, you can
+            constrain the angle between two successive lines to vary by steps
+            of 15°.
+          </para>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+
+  <sect3>
+    <title>Options</title>
+    <figure>
+      <title>The Smudge tool in Toolbox</title>
+      <mediaobject>
+        <imageobject>
+          <imagedata format="PNG"
+                     fileref="images/toolbox/tool-options-smudge.png"/>
+        </imageobject>
+      </mediaobject>
+    </figure>
+
+    <xi:include href="../about-common-options-display.xml"/>
+
+    <variablelist>
+      <varlistentry>
+        <term>
+          Opacity; Brush; Scale; Brush Dynamics; Fade out; Apply Jitter; Hard
+          edges; Rate
+        </term>
+        <listitem>
+          <xi:include href="about-common-paint-options.xml"/>
+        </listitem>
+      </varlistentry>
+    </variablelist>
+  </sect3>
+</sect2>
