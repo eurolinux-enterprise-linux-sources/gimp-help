@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.8.0\n"
-"POT-Creation-Date: 2013-11-27 09:29+1000\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
 "PO-Revision-Date: 2012-06-01 12:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -18,7 +18,7 @@ msgstr ""
 msgid "GIMP"
 msgstr "El GIMP"
 
-#: src/introduction.xml:19(secondary) src/gimp.xml:62(title)
+#: src/introduction.xml:19(secondary) src/gimp.xml:61(title)
 msgid "Introduction"
 msgstr ""
 
@@ -178,17 +178,9 @@ msgstr ""
 msgid ""
 "Feel free to join us and fill the gap by writing documentation for "
 "<acronym>GIMP</acronym>. For more information, subscribe to our <ulink url="
-"\"https://mail.gnome.org/mailman/listinfo/gimp-docs-list\">Mailing list</"
+"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</"
 "ulink>. Generally, it's a good idea to check the <ulink url=\"http://www."
-"gimp.org/docs\"><acronym>GIMP</acronym> project page</ulink>."
-msgstr ""
-
-#: src/help-missing.xml:23(para)
-msgid ""
-"Found a <emphasis role=\"bold\">content error</emphasis> or just something "
-"which doesn't look right? <ulink id=\"reportbug\" url=\"https://bugzilla."
-"gnome.org/enter_bug.cgi?product=GIMP-manual\"> Report an error in Bugzilla </"
-"ulink> and let us know."
+"gimp.org\"><acronym>GIMP</acronym> project page</ulink>."
 msgstr ""
 
 #: src/gimp.xml:25(title)
@@ -243,19 +235,15 @@ msgstr ""
 msgid "2012"
 msgstr ""
 
-#: src/gimp.xml:39(year)
-msgid "2013"
-msgstr ""
-
-#: src/gimp.xml:40(holder)
+#: src/gimp.xml:39(holder)
 msgid "The GIMP Documentation Team"
 msgstr ""
 
-#: src/gimp.xml:43(title)
+#: src/gimp.xml:42(title)
 msgid "Legal Notice"
 msgstr ""
 
-#: src/gimp.xml:44(para)
+#: src/gimp.xml:43(para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License, Version 1.2 or any later "
@@ -265,99 +253,99 @@ msgid ""
 "Free Documentation License</link>."
 msgstr ""
 
-#: src/gimp.xml:56(title)
+#: src/gimp.xml:55(title)
 msgid "Preface"
 msgstr ""
 
-#: src/gimp.xml:60(title)
+#: src/gimp.xml:59(title)
 msgid "Getting Started"
 msgstr ""
 
-#: src/gimp.xml:67(title)
+#: src/gimp.xml:66(title)
 msgid "Fire up the GIMP"
 msgstr ""
 
-#: src/gimp.xml:72(title)
+#: src/gimp.xml:71(title)
 msgid "First Steps with Wilber"
 msgstr ""
 
-#: src/gimp.xml:80(title)
+#: src/gimp.xml:79(title)
 msgid "Getting Unstuck"
 msgstr ""
 
-#: src/gimp.xml:85(title)
+#: src/gimp.xml:84(title)
 msgid "How do I Become a <acronym>GIMP</acronym> Wizard?"
 msgstr ""
 
-#: src/gimp.xml:89(title)
+#: src/gimp.xml:88(title)
 msgid "Getting Images into GIMP"
 msgstr ""
 
-#: src/gimp.xml:90(para)
+#: src/gimp.xml:89(para)
 msgid ""
 "This chapter is about getting images into GIMP. It explains how to create "
 "new images, how to load images from files, how to scan them and how to make "
 "screenshots."
 msgstr ""
 
-#: src/gimp.xml:95(para)
+#: src/gimp.xml:94(para)
 msgid ""
 "But first we want to introduce you to the general structure of images in "
 "GIMP."
 msgstr ""
 
-#: src/gimp.xml:104(title)
+#: src/gimp.xml:103(title)
 msgid "Getting Images out of GIMP"
 msgstr ""
 
-#: src/gimp.xml:109(title)
+#: src/gimp.xml:108(title)
 msgid "Painting with GIMP"
 msgstr ""
 
-#: src/gimp.xml:126(title)
+#: src/gimp.xml:125(title)
 msgid "Combining Images"
 msgstr ""
 
-#: src/gimp.xml:133(title)
+#: src/gimp.xml:132(title)
 msgid "Text Management"
 msgstr ""
 
-#: src/gimp.xml:139(title)
+#: src/gimp.xml:138(title)
 msgid "Enhancing Photographs"
 msgstr ""
 
-#: src/gimp.xml:143(title)
+#: src/gimp.xml:142(title)
 msgid "Color Management with GIMP"
 msgstr ""
 
-#: src/gimp.xml:147(title)
-msgid "Enrich my GIMP"
+#: src/gimp.xml:146(title)
+msgid "Pimp my GIMP"
 msgstr ""
 
-#: src/gimp.xml:157(title)
+#: src/gimp.xml:156(title)
 msgid "Scripting"
 msgstr ""
 
-#: src/gimp.xml:164(title)
+#: src/gimp.xml:163(title)
 msgid "Function Reference"
 msgstr ""
 
-#: src/gimp.xml:166(title) src/key-reference.xml:37(refentrytitle)
+#: src/gimp.xml:165(title) src/key-reference.xml:37(refentrytitle)
 #: src/key-reference.xml:40(refname) src/key-reference.xml:46(title)
 #: src/key-reference.xml:48(title)
 msgid "Tools"
 msgstr "Eines"
 
-#: src/gimp.xml:175(title) src/key-reference.xml:365(refentrytitle)
+#: src/gimp.xml:174(title) src/key-reference.xml:365(refentrytitle)
 #: src/key-reference.xml:368(refname)
 msgid "Dialogs"
 msgstr "Diàlegs"
 
-#: src/gimp.xml:183(title)
+#: src/gimp.xml:182(title)
 msgid "Menus"
 msgstr ""
 
-#: src/gimp.xml:198(title) src/key-reference.xml:945(refentrytitle)
+#: src/gimp.xml:197(title) src/key-reference.xml:945(refentrytitle)
 #: src/key-reference.xml:948(refname) src/key-reference.xml:954(title)
 #, fuzzy
 msgid "Filters"

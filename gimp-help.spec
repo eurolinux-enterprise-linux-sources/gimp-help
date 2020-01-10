@@ -1,17 +1,15 @@
 # NOTE: en/English is in the main package
 # LANGUAGES: ca,Catalan da,Danish de,German el,Greek en_GB,British_English es,Spanish fr,French it,Italian ja,Japanese ko,Korean nl,Dutch nn,Norwegian_Nynorsk pt_BR,Brazilian_Portuguese ru,Russian sl,Slovenian sv,Swedish zh_CN,Simplified_Chinese
-%define gimpsubver 2.0
+%global gimpsubver 2.0
 
 Summary: Help files for GIMP
 Name: gimp-help
-Version: 2.8.1
+Version: 2.8.2
 Release: 1%{?dist}
 License: GFDL and GPLv2+
 Group: Documentation
-URL: http://wiki.gimp.org/gimp/GimpDocs
-Source0: ftp://ftp.gimp.org/pub/gimp/help/gimp-help-%{version}.tar.bz2
-# Upstream commit d465970683e849de537f34edbd83751aa9e5d02b
-Patch0: gimp-help-2.8.1-xml2po-crash.patch
+URL: http://docs.gimp.org/
+Source0: http://download.gimp.org/pub/gimp/help/gimp-help-%{version}.tar.bz2
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-%(%__id_u -n)-root
 BuildRequires: dblatex
@@ -183,11 +181,12 @@ Simplified Chinese language support for gimp-help.
 
 %prep
 %setup -q
-%patch0 -p1 -b .xml2po-crash
 
 %build
 %configure
-make %{?_smp_mflags}
+# don't attempt parallel builds, they tend to produce bad output without
+# failing
+make
 
 %install
 rm -rf %buildroot
@@ -233,6 +232,11 @@ rm -rf %buildroot
 # END: LANGUAGE FILE LISTS
 
 %changelog
+* Thu Sep 15 2014 Nils Philippsen <nils@redhat.com> - 2.8.2-1
+- version 2.8.2
+- use %%global instead of %%define
+- fix website and source URLs
+
 * Thu Jan 09 2014 Nils Philippsen <nils@redhat.com> - 2.8.1-1
 - version 2.8.1
 - reenable parallel building

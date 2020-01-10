@@ -4,8 +4,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP User Manual\n"
-"POT-Creation-Date: 2013-11-02 16:48+0100\n"
-"PO-Revision-Date: 2013-11-02 17:28+0100\n"
+"POT-Creation-Date: 2013-12-22 07:16+0100\n"
+"PO-Revision-Date: 2013-12-22 07:33+0100\n"
 "Last-Translator: Julien Hardelin <jhardlin@orange.fr>\n"
 "Language-Team: French <GNOME French Team <gnomefr@traduc.org>\n"
 "Language: fr\n"
@@ -238,7 +238,7 @@ msgid ""
 "<emphasis>Blue</emphasis> and <emphasis>Alpha</emphasis> values of the "
 "pixel, as numbers between 0 and 255."
 msgstr ""
-"<guilabel>Pixel</guilabel> : Ce choix affiche les valeurs <emphasis>Rouge</"
+"<guilabel>Pixel</guilabel> : ce choix affiche les valeurs <emphasis>Rouge</"
 "emphasis>, <emphasis>Vert</emphasis>, <emphasis>Bleu</emphasis> et "
 "<emphasis>Alpha</emphasis> du pixel, en valeur de 0 à 255."
 
@@ -256,7 +256,7 @@ msgid ""
 "pixel, as percentages. It also shows the hexadecimal value of the pixel's "
 "color."
 msgstr ""
-"<guilabel>RVB</guilabel> : Ce choix affiche les valeurs <emphasis>Rouge</"
+"<guilabel>RVB</guilabel> : ce choix affiche les valeurs <emphasis>Rouge</"
 "emphasis>, <emphasis>Vert</emphasis>, <emphasis>Bleu</emphasis> et "
 "<emphasis>Alpha</emphasis> du pixel, en pourcentages. Il montre aussi la "
 "valeur hexadécimale du pixel."
@@ -292,7 +292,7 @@ msgid ""
 "<emphasis>Yellow</emphasis>, <emphasis>Black</emphasis> and <emphasis>Alpha</"
 "emphasis> values of the pixel, as percentages."
 msgstr ""
-"<guilabel>CMJN</guilabel> : Ce choix affiche les valeurs <emphasis>Cyan</"
+"<guilabel>CMJN</guilabel> : ce choix affiche les valeurs <emphasis>Cyan</"
 "emphasis>, <emphasis>Magenta</emphasis>, <emphasis>Jaune</emphasis>, "
 "<emphasis>Noir</emphasis> et <emphasis>Alpha</emphasis> du pixel, en "
 "pourcentages."
@@ -4034,12 +4034,12 @@ msgstr ""
 #: src/dialogs/save-file-dialog.xml:22(None)
 msgid ""
 "@@image: 'images/using/save-message.png'; "
-"md5=da96fa7596dc2d6e5e9a4d5921f6848f"
+"md5=50bdc783b38746ab4d42cfa93cfc383e"
 msgstr "\"\""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/save-file-dialog.xml:46(None)
+#: src/dialogs/save-file-dialog.xml:48(None)
 msgid ""
 "@@image: 'images/using/save-image-dialog.png'; "
 "md5=a7292ed267fe34c8750323158d0e3a2b"
@@ -4047,7 +4047,7 @@ msgstr "\" \""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
-#: src/dialogs/save-file-dialog.xml:99(None)
+#: src/dialogs/save-file-dialog.xml:101(None)
 msgid ""
 "@@image: 'images/using/save-select-file-type.png'; "
 "md5=052b52f2c4f4eae50068d0b3e2389753"
@@ -4071,15 +4071,18 @@ msgid ""
 "The <guimenuitem>Save</guimenuitem> command saves your image to disk. With "
 "<acronym>GIMP</acronym>-2.8, this command saves in XCF format only. If you "
 "try to save to a format other than XCF, you get an error message: "
-"<placeholder-1/> Please see <xref linkend=\"save-export-image\"/>."
+"<placeholder-1/> Starting from <acronym>GIMP</acronym>-2.8.8, the error "
+"dialog sports a link that jumps directly to the export command dialog. "
+"Please see <xref linkend=\"save-export-image\"/>."
 msgstr ""
 "La commande <guimenuitem>Enregistrer</guimenuitem> enregistre l'image sur le "
 "disque. Avec <acronym>GIMP</acronym>-2.8, cette commande n'enregistre qu'en "
 "format XCF. Si vous tentez d'enregistrer dans un autre format, vous obtenez "
-"un message d'erreur : <placeholder-1/>reportez-vous à <xref linkend=\"save-"
-"export-image\"/>."
+"un message d'erreur : <placeholder-1/> avec un lien qui envoie directement à "
+"la boîte de dialogue Exporter. Reportez-vous à <xref linkend=\"save-export-"
+"image\"/>."
 
-#: src/dialogs/save-file-dialog.xml:27(para)
+#: src/dialogs/save-file-dialog.xml:29(para)
 msgid ""
 "If you have already saved the image, the previous image file is overwritten "
 "with the current version. If you have not already saved the image, the "
@@ -4090,7 +4093,7 @@ msgstr ""
 "commande <guimenuitem>Enregistrer</guimenuitem> ouvre la boîte de dialogue "
 "Enregistrer l'image."
 
-#: src/dialogs/save-file-dialog.xml:34(para)
+#: src/dialogs/save-file-dialog.xml:36(para)
 msgid ""
 "If you quit without having saved your image, <acronym>GIMP</acronym> asks "
 "you if you really want to do so, if the <quote>Confirm closing of unsaved "
@@ -4102,15 +4105,15 @@ msgstr ""
 "fermeture des images non enregistrées</quote> est cochée dans les "
 "Préférences."
 
-#: src/dialogs/save-file-dialog.xml:43(title)
+#: src/dialogs/save-file-dialog.xml:45(title)
 msgid "Save Image Dialog"
 msgstr "Le dialogue Enregistrer l'image"
 
-#: src/dialogs/save-file-dialog.xml:52(title)
+#: src/dialogs/save-file-dialog.xml:54(title)
 msgid "Activate the Dialog"
 msgstr "Accès au dialogue"
 
-#: src/dialogs/save-file-dialog.xml:55(para)
+#: src/dialogs/save-file-dialog.xml:57(para)
 msgid ""
 "You can access this command in the image menu bar through "
 "<menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></"
@@ -4119,7 +4122,7 @@ msgstr ""
 "Vous pouvez accéder à cette commande par par <menuchoice><guimenu>Fichier</"
 "guimenu><guimenuitem>Enregistrer</guimenuitem></menuchoice>,"
 
-#: src/dialogs/save-file-dialog.xml:64(para)
+#: src/dialogs/save-file-dialog.xml:66(para)
 msgid ""
 "or from the keyboard by using the shortcut <keycombo><keycap>Ctrl</"
 "keycap><keycap>S</keycap></keycombo>."
@@ -4127,20 +4130,19 @@ msgstr ""
 "ou depuis le clavier en utilisant le raccourci <keycombo><keycap>Ctrl</"
 "keycap><keycap>S</keycap></keycombo>."
 
-#: src/dialogs/save-file-dialog.xml:70(para)
+#: src/dialogs/save-file-dialog.xml:72(para)
 msgid ""
 "Use <keycombo><keycap>Ctrl</keycap><keycap>Shift</keycap><keycap>S</keycap></"
 "keycombo> to save the opened image with a different name."
 msgstr ""
-"Utilisez : <keycombo><keycap>Ctrl</"
-"keycap><keycap>Maj</keycap><keycap>S</keycap></keycombo> pour enregistrer "
-"l'image ouverte sous un nom différent."
+"Utilisez : <keycombo><keycap>Ctrl</keycap><keycap>Maj</keycap><keycap>S</"
+"keycap></keycombo> pour enregistrer l'image ouverte sous un nom différent."
 
-#: src/dialogs/save-file-dialog.xml:80(title)
+#: src/dialogs/save-file-dialog.xml:82(title)
 msgid "The Save Image Dialog"
 msgstr "Le dialogue Enregistrer l'image"
 
-#: src/dialogs/save-file-dialog.xml:81(para)
+#: src/dialogs/save-file-dialog.xml:83(para)
 msgid ""
 "With this file browser, you can edit filename directly in name box (default "
 "is <quote>Untitled.xcf</quote>) or by selecting a file in name list. We "
@@ -4154,12 +4156,12 @@ msgstr ""
 "autorisé. Vous devez aussi définir la destination dans le champ "
 "<guilabel>Enregistrer dans le répertoire</guilabel>"
 
-#: src/dialogs/save-file-dialog.xml:90(title)
+#: src/dialogs/save-file-dialog.xml:92(title)
 #: src/dialogs/export-file-dialog.xml:49(title)
 msgid "Select File Type"
 msgstr "Sélectionner le type de fichier"
 
-#: src/dialogs/save-file-dialog.xml:91(para)
+#: src/dialogs/save-file-dialog.xml:93(para)
 msgid ""
 "If you develop this option, you can select a compressed format for your XCF "
 "file:"
@@ -4852,14 +4854,14 @@ msgstr "\"\""
 #: src/dialogs/export-file-dialog.xml:81(None)
 msgid ""
 "@@image: 'images/using/overwriting-file.png'; "
-"md5=db382b2e4db268fe109072df00d16ad1"
+"md5=d402796983c4b18db822e817af2b2a90"
 msgstr "\"\""
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: src/dialogs/export-file-dialog.xml:92(None)
 msgid ""
-"@@image: 'images/using/export-to.png'; md5=bb58d4f2503c6a5235eec7be76ac6422"
+"@@image: 'images/using/export-to.png'; md5=cd4c7036de08e92c4745a0ded386e71e"
 msgstr "\"\""
 
 #: src/dialogs/export-file-dialog.xml:8(title)
@@ -4880,12 +4882,13 @@ msgstr ""
 #: src/dialogs/export-file-dialog.xml:19(para)
 msgid ""
 "You can access to this command through <menuchoice><guimenu>File</"
-"guimenu><guimenuitem>Export...</guimenuitem></menuchoice>, or from the "
+"guimenu><guimenuitem>Export As...</guimenuitem></menuchoice>, or from the "
 "keyboard by using the shortcut <keycombo><keycap>Ctrl</keycap><keycap>Shift</"
 "keycap><keycap>E</keycap></keycombo>."
 msgstr ""
 "On accède à cette commande par <menuchoice><guimenu>Fichier</"
-"guimenu><guimenuitem>Exporter...</guimenuitem></menuchoice>, ou en appuyant "
+"guimenu><guimenuitem>Exporter sous...</guimenuitem></menuchoice>, ou en "
+"appuyant "
 "sur <keycombo><keycap>Ctrl</keycap><keycap>Maj</keycap><keycap>E</keycap></"
 "keycombo>."
 
@@ -4951,12 +4954,12 @@ msgstr ""
 
 #: src/dialogs/export-file-dialog.xml:85(para)
 msgid ""
-"If you modify an image that you already have exported, the <command>Export "
-"to</command> command in File menu is changed, allowing you to export file "
-"again in the same format. <placeholder-1/>"
+"If you modify an image that you already have exported, the <command>Export</"
+"command> command in File menu is changed, allowing you to export file again "
+"in the same format. <placeholder-1/>"
 msgstr ""
 "Si vous modifiez une image que vous avez déjà exportée, la commande "
-"<command>Exporter vers</command> dans le menu Fichier est modifiée, vous "
+"<command>Exporter</command> dans le menu Fichier est modifiée, vous "
 "permettant d'exporter à nouveau le fichier dans le même format et la même "
 "destination. <placeholder-1/>"
 

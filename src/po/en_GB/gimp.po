@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: GIMP-Help 2.8.0\n"
-"POT-Creation-Date: 2013-11-27 09:29+1000\n"
+"POT-Creation-Date: 2012-06-01 12:23+0200\n"
 "PO-Revision-Date: 2012-06-01 12:23+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -19,7 +19,7 @@ msgstr "Welcome to GIMP"
 msgid "GIMP"
 msgstr "GIMP"
 
-#: src/introduction.xml:19(secondary) src/gimp.xml:62(title)
+#: src/introduction.xml:19(secondary) src/gimp.xml:61(title)
 msgid "Introduction"
 msgstr "Introduction"
 
@@ -232,27 +232,18 @@ msgstr ""
 "\"http://docs.gimp.org/en\"><acronym>GIMP</acronym> docs</ulink> website."
 
 #: src/help-missing.xml:15(para)
-#, fuzzy
 msgid ""
 "Feel free to join us and fill the gap by writing documentation for "
 "<acronym>GIMP</acronym>. For more information, subscribe to our <ulink url="
-"\"https://mail.gnome.org/mailman/listinfo/gimp-docs-list\">Mailing list</"
+"\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</"
 "ulink>. Generally, it's a good idea to check the <ulink url=\"http://www."
-"gimp.org/docs\"><acronym>GIMP</acronym> project page</ulink>."
+"gimp.org\"><acronym>GIMP</acronym> project page</ulink>."
 msgstr ""
 "Feel free to join us and fill the gap by writing documentation for "
 "<acronym>GIMP</acronym>. For more information, subscribe to our <ulink url="
 "\"https://lists.xcf.berkeley.edu/mailman/listinfo/gimp-docs/\">Mailing list</"
 "ulink>. Generally, it's a good idea to check the <ulink url=\"http://www."
 "gimp.org\"><acronym>GIMP</acronym> project page</ulink>."
-
-#: src/help-missing.xml:23(para)
-msgid ""
-"Found a <emphasis role=\"bold\">content error</emphasis> or just something "
-"which doesn't look right? <ulink id=\"reportbug\" url=\"https://bugzilla."
-"gnome.org/enter_bug.cgi?product=GIMP-manual\"> Report an error in Bugzilla </"
-"ulink> and let us know."
-msgstr ""
 
 #: src/gimp.xml:25(title)
 msgid "GNU Image Manipulation Program"
@@ -306,19 +297,15 @@ msgstr "2011"
 msgid "2012"
 msgstr "2012"
 
-#: src/gimp.xml:39(year)
-msgid "2013"
-msgstr ""
-
-#: src/gimp.xml:40(holder)
+#: src/gimp.xml:39(holder)
 msgid "The GIMP Documentation Team"
 msgstr "The GIMP Documentation Team"
 
-#: src/gimp.xml:43(title)
+#: src/gimp.xml:42(title)
 msgid "Legal Notice"
 msgstr "Legal Notice"
 
-#: src/gimp.xml:44(para)
+#: src/gimp.xml:43(para)
 msgid ""
 "Permission is granted to copy, distribute and/or modify this document under "
 "the terms of the GNU Free Documentation License, Version 1.2 or any later "
@@ -334,35 +321,35 @@ msgstr ""
 "license is included in the section enphrased <link linkend=\"legal\">GNU "
 "Free Documentation License</link>."
 
-#: src/gimp.xml:56(title)
+#: src/gimp.xml:55(title)
 msgid "Preface"
 msgstr "Preface"
 
-#: src/gimp.xml:60(title)
+#: src/gimp.xml:59(title)
 msgid "Getting Started"
 msgstr "Getting Started"
 
-#: src/gimp.xml:67(title)
+#: src/gimp.xml:66(title)
 msgid "Fire up the GIMP"
 msgstr "Fire up the GIMP"
 
-#: src/gimp.xml:72(title)
+#: src/gimp.xml:71(title)
 msgid "First Steps with Wilber"
 msgstr "First Steps with Wilber"
 
-#: src/gimp.xml:80(title)
+#: src/gimp.xml:79(title)
 msgid "Getting Unstuck"
 msgstr "Getting Unstuck"
 
-#: src/gimp.xml:85(title)
+#: src/gimp.xml:84(title)
 msgid "How do I Become a <acronym>GIMP</acronym> Wizard?"
 msgstr "How do I Become a <acronym>GIMP</acronym> Wizard?"
 
-#: src/gimp.xml:89(title)
+#: src/gimp.xml:88(title)
 msgid "Getting Images into GIMP"
 msgstr "Getting Images into GIMP"
 
-#: src/gimp.xml:90(para)
+#: src/gimp.xml:89(para)
 msgid ""
 "This chapter is about getting images into GIMP. It explains how to create "
 "new images, how to load images from files, how to scan them and how to make "
@@ -372,7 +359,7 @@ msgstr ""
 "new images, how to load images from files, how to scan them and how to make "
 "screenshots."
 
-#: src/gimp.xml:95(para)
+#: src/gimp.xml:94(para)
 msgid ""
 "But first we want to introduce you to the general structure of images in "
 "GIMP."
@@ -380,59 +367,58 @@ msgstr ""
 "But first we want to introduce you to the general structure of images in "
 "GIMP."
 
-#: src/gimp.xml:104(title)
+#: src/gimp.xml:103(title)
 msgid "Getting Images out of GIMP"
 msgstr "Getting Images out of GIMP"
 
-#: src/gimp.xml:109(title)
+#: src/gimp.xml:108(title)
 msgid "Painting with GIMP"
 msgstr "Painting with GIMP"
 
-#: src/gimp.xml:126(title)
+#: src/gimp.xml:125(title)
 msgid "Combining Images"
 msgstr "Combining Images"
 
-#: src/gimp.xml:133(title)
+#: src/gimp.xml:132(title)
 msgid "Text Management"
 msgstr "Text Management"
 
-#: src/gimp.xml:139(title)
+#: src/gimp.xml:138(title)
 msgid "Enhancing Photographs"
 msgstr "Enhancing Photographs"
 
-#: src/gimp.xml:143(title)
+#: src/gimp.xml:142(title)
 msgid "Color Management with GIMP"
 msgstr "Color Management with GIMP"
 
-#: src/gimp.xml:147(title)
-#, fuzzy
-msgid "Enrich my GIMP"
+#: src/gimp.xml:146(title)
+msgid "Pimp my GIMP"
 msgstr "Pimp my GIMP"
 
-#: src/gimp.xml:157(title)
+#: src/gimp.xml:156(title)
 msgid "Scripting"
 msgstr "Scripting"
 
-#: src/gimp.xml:164(title)
+#: src/gimp.xml:163(title)
 msgid "Function Reference"
 msgstr "Function Reference"
 
-#: src/gimp.xml:166(title) src/key-reference.xml:37(refentrytitle)
+#: src/gimp.xml:165(title) src/key-reference.xml:37(refentrytitle)
 #: src/key-reference.xml:40(refname) src/key-reference.xml:46(title)
 #: src/key-reference.xml:48(title)
 msgid "Tools"
 msgstr "Tools"
 
-#: src/gimp.xml:175(title) src/key-reference.xml:365(refentrytitle)
+#: src/gimp.xml:174(title) src/key-reference.xml:365(refentrytitle)
 #: src/key-reference.xml:368(refname)
 msgid "Dialogs"
 msgstr "Dialogs"
 
-#: src/gimp.xml:183(title)
+#: src/gimp.xml:182(title)
 msgid "Menus"
 msgstr "Menus"
 
-#: src/gimp.xml:198(title) src/key-reference.xml:945(refentrytitle)
+#: src/gimp.xml:197(title) src/key-reference.xml:945(refentrytitle)
 #: src/key-reference.xml:948(refname) src/key-reference.xml:954(title)
 msgid "Filters"
 msgstr "Filters"
